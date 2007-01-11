@@ -1,0 +1,87 @@
+What is it?
+===========
+
+thunar-volman is an extension for the Thunar File Manager, which enables
+automatic management of removable drives and media. For example, if
+thunar-volman is installed and configured properly, and you plug in your
+digitcal camera, it will automatically spawn your preferred photo application
+and import the new pictures from your camera.
+
+It was designed to look and behave similar to gnome-volume-manager to get
+consistent removable drive and media management in Xfce and GNOME. This is
+to help GNOME refugees and people using both Xfce and GNOME (i.e. having to
+use GNOME at the office).
+
+
+Required packages
+=================
+
+thunar-volman depends on the following packages:
+
+ - Thunar 0.5.1svn or above
+ - libexo 0.3.1.13svn or above
+ - intltool 0.30 or above
+ - D-BUS 0.34 or above (esp. the dbus-glib devel package)
+ - HAL 0.5.0 or above (esp. the libhal devel package)
+
+
+Installation
+============
+
+The file 'INSTALL' contains generic installation instructions. For more
+detailed information, visit the thunar-volman website at
+http://thunar.xfce.org/projects/thunar-volman/.
+
+
+Debugging Support
+=================
+
+thunar-volman currently supports four different levels of debugging support, which
+can be setup using the configure flag `--enable-debug' (check the output of
+`configure --help'):
+
+  `full'	Use this if you want to debug thunar-volman to locate a bug.
+		The build will most probably be noticably slower. This is also
+		recommended for people that want to develop thunar-volman stuff.
+
+  `yes'		This is the default for SVN snapshot builds. It adds all
+  		kinds of checks to the code, and is therefore likely to run
+		slower.
+
+  `minimum'	This is the default for release builds, and presents the
+  		recommended behaviour.
+
+  `no'		Disables all sanity checks. Don't use this unless you know
+  		exactly what you do.
+
+
+Standards compliance
+====================
+
+Thunar supports the following standards/specifications:
+
+  * XDG Base Directory Specification
+    http://freedesktop.org/wiki/Standards_2fbasedir_2dspec
+
+  * Shared MIME Database Specification
+    http://freedesktop.org/wiki/Standards_2fshared_2dmime_2dinfo_2dspec
+
+  * Icon Naming Specification
+    http://freedesktop.org/wiki/Standards_2ficon_2dnaming_2dspec
+
+  * Icon Theme Specification
+    http://freedesktop.org/wiki/Standards_2ficon_2dtheme_2dspec
+
+  * File URI Specification
+    http://freedesktop.org/wiki/Standards_2ffile_2duri_2dspec
+
+  * Desktop Application Autostart Specification
+    http://freedesktop.org/wiki/Standards_2fautostart_2dspec
+
+
+How to report bugs?
+===================
+
+Bugs should be reported to the Xfce bug tracking system
+(http://bugzilla.xfce.org, product Thunar Plugins, component
+thunar-volman). You will need to create an account for yourself.
