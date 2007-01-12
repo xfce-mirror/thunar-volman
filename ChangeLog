@@ -1,5 +1,9 @@
 2007-01-12	Benedikt Meurer <benny@xfce.org>
 
+	* icons/48x48/tvm-dev-tablet.png: Use tangoified tablet icon.
+
+2007-01-12	Benedikt Meurer <benny@xfce.org>
+
 	* thunar-volman/tvm-block-device.c: Support autorun.exe if wine is
 	  installed on the system.
 	* thunar-volman/tvm-preferences.c(tvm_preferences_class_init): Enable
