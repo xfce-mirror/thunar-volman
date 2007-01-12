@@ -1,5 +1,13 @@
 2007-01-12	Benedikt Meurer <benny@xfce.org>
 
+	* thunar-volman/tvm-block-device.c: Support autorun.exe if wine is
+	  installed on the system.
+	* thunar-volman/tvm-preferences.c(tvm_preferences_class_init): Enable
+	  autorun and autoopen by default, which is safe, since we prompt
+	  for confirmation every time, as required by the specification.
+
+2007-01-12	Benedikt Meurer <benny@xfce.org>
+
 	* Initial import.
 
 # vi:set ts=8 sw=8 noet ai nocindent:

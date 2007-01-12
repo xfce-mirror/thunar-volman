@@ -254,6 +254,7 @@ tvm_block_device_autorun (TvmPreferences *preferences,
   gchar       line[1024];
   gchar      *path_vcd;
   gchar      *message;
+  gchar      *wine;
   gchar     **argv;
   FILE       *fp;
   gint        response;
@@ -292,7 +293,8 @@ tvm_block_device_autorun (TvmPreferences *preferences,
         {
           /* check if one of the autorun files is present and executable */
           path_autorun = g_build_filename (mount_point, AUTORUN[n], NULL);
-          if (g_file_test (path_autorun, G_FILE_TEST_IS_EXECUTABLE))
+          if (g_file_test (path_autorun, G_FILE_TEST_IS_EXECUTABLE)
+              && g_file_test (path_autorun, G_FILE_TEST_IS_REGULAR))
             {
               /* prompt the user whether to execute this file */
               message = g_strdup_printf (_("Would you like to allow \"%s\" to run?"), AUTORUN[n]);
@@ -323,6 +325,47 @@ tvm_block_device_autorun (TvmPreferences *preferences,
             }
           g_free (path_autorun);
         }
+
+      /* check if wine is present */
+      wine = g_find_program_in_path ("wine");
+      if (G_UNLIKELY (wine != NULL))
+        {
+          /* check if we have an autorun.exe file */
+          path_autorun = g_build_filename (mount_point, "autorun.exe", NULL);
+          if (g_file_test (path_autorun, G_FILE_TEST_IS_REGULAR))
+            {
+              /* prompt the user whether to execute this file */
+              message = g_strdup_printf (_("Would you like to allow \"%s\" to run?"), "autorun.exe");
+              response = tvm_prompt (context, udi, "gnome-fs-executable", _("Auto-Run Confirmation"),
+                                     _("Auto-Run capability detected"), message,
+                                     _("Ig_nore"), GTK_RESPONSE_CANCEL,
+                                     _("_Allow Auto-Run"), TVM_RESPONSE_AUTORUN,
+                                     NULL);
+              g_free (message);
+
+              /* check if we should autorun */
+              if (response == TVM_RESPONSE_AUTORUN)
+                {
+                  /* prepare argv to launch autorun.exe file */
+                  argv = g_new (gchar *, 3);
+                  argv[0] = wine;
+                  argv[1] = g_strdup ("autorun.exe");
+                  argv[2] = NULL;
+
+                  /* try to launch the autorun.exe file via wine */
+                  result = g_spawn_async (mount_point, argv, NULL, 0, NULL, NULL, NULL, error);
+
+                  /* cleanup */
+                  g_free (path_autorun);
+                  g_strfreev (argv);
+
+                  /* outa here */
+                  return result;
+                }
+            }
+          g_free (path_autorun);
+        }
+      g_free (wine);
     }
 
   /* check if autoopen support is enabled */

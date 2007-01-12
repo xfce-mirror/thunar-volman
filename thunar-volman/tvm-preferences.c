@@ -225,7 +225,7 @@ tvm_preferences_class_init (TvmPreferencesClass *klass)
                                    g_param_spec_boolean ("autorun",
                                                          "autorun",
                                                          "autorun",
-                                                         FALSE,
+                                                         TRUE,
                                                          EXO_PARAM_READWRITE));
 
   /**
@@ -238,7 +238,7 @@ tvm_preferences_class_init (TvmPreferencesClass *klass)
                                    g_param_spec_boolean ("autoopen",
                                                          "autoopen",
                                                          "autoopen",
-                                                         FALSE,
+                                                         TRUE,
                                                          EXO_PARAM_READWRITE));
 
   /**
