@@ -31,7 +31,6 @@
 #include <dbus/dbus-glib-lowlevel.h>
 
 #include <thunar-volman/tvm-pda-device.h>
-#include <thunar-volman/tvm-prompt.h>
 #include <thunar-volman/tvm-run.h>
 
 

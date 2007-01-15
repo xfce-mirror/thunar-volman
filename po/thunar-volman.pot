@@ -8,12 +8,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-11 23:49+0100\n"
+"POT-Creation-Date: 2007-01-15 18:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: thunar-volman/main.c:50
@@ -76,9 +76,9 @@ msgid "Would you like to import the photos or manage the music?"
 msgstr ""
 
 #: thunar-volman/tvm-block-device.c:146 thunar-volman/tvm-block-device.c:213
-#: thunar-volman/tvm-block-device.c:301 thunar-volman/tvm-block-device.c:359
-#: thunar-volman/tvm-block-device.c:629 thunar-volman/tvm-run.c:136
-#: thunar-volman/tvm-run.c:147
+#: thunar-volman/tvm-block-device.c:303 thunar-volman/tvm-block-device.c:341
+#: thunar-volman/tvm-block-device.c:402 thunar-volman/tvm-block-device.c:672
+#: thunar-volman/tvm-run.c:136 thunar-volman/tvm-run.c:147
 msgid "Ig_nore"
 msgstr ""
 
@@ -106,59 +106,59 @@ msgid ""
 msgstr ""
 
 #. prompt the user whether to execute this file
-#: thunar-volman/tvm-block-device.c:298
+#: thunar-volman/tvm-block-device.c:300 thunar-volman/tvm-block-device.c:338
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
 msgstr ""
 
-#: thunar-volman/tvm-block-device.c:299
+#: thunar-volman/tvm-block-device.c:301 thunar-volman/tvm-block-device.c:339
 msgid "Auto-Run Confirmation"
 msgstr ""
 
-#: thunar-volman/tvm-block-device.c:300
+#: thunar-volman/tvm-block-device.c:302 thunar-volman/tvm-block-device.c:340
 msgid "Auto-Run capability detected"
 msgstr ""
 
-#: thunar-volman/tvm-block-device.c:302
+#: thunar-volman/tvm-block-device.c:304 thunar-volman/tvm-block-device.c:342
 msgid "_Allow Auto-Run"
 msgstr ""
 
 #. prompt the user whether to autoopen this file
-#: thunar-volman/tvm-block-device.c:356
+#: thunar-volman/tvm-block-device.c:399
 #, c-format
 msgid "Would you like to open \"%s\"?"
 msgstr ""
 
-#: thunar-volman/tvm-block-device.c:357
+#: thunar-volman/tvm-block-device.c:400
 msgid "Auto-Open Confirmation"
 msgstr ""
 
-#: thunar-volman/tvm-block-device.c:358
+#: thunar-volman/tvm-block-device.c:401
 msgid "Auto-Open capability detected"
 msgstr ""
 
-#: thunar-volman/tvm-block-device.c:360
+#: thunar-volman/tvm-block-device.c:403
 msgid "_Open"
 msgstr ""
 
 #. ask what do with the mixed audio/data disc
-#: thunar-volman/tvm-block-device.c:626
+#: thunar-volman/tvm-block-device.c:669
 msgid "Audio / Data CD"
 msgstr ""
 
-#: thunar-volman/tvm-block-device.c:627
+#: thunar-volman/tvm-block-device.c:670
 msgid "The CD in the drive contains both music and files."
 msgstr ""
 
-#: thunar-volman/tvm-block-device.c:628
+#: thunar-volman/tvm-block-device.c:671
 msgid "Would you like to listen to music or browse the files?"
 msgstr ""
 
-#: thunar-volman/tvm-block-device.c:630
+#: thunar-volman/tvm-block-device.c:673
 msgid "_Browse Files"
 msgstr ""
 
-#: thunar-volman/tvm-block-device.c:631
+#: thunar-volman/tvm-block-device.c:674
 msgid "_Play CD"
 msgstr ""
 
@@ -258,7 +258,9 @@ msgstr ""
 
 #: thunar-volman/tvm-preferences-dialog.c:269
 #: thunar-volman/tvm-preferences-dialog.c:375
-#: thunar-volman/tvm-preferences-dialog.c:416
+#: thunar-volman/tvm-preferences-dialog.c:417
+#: thunar-volman/tvm-preferences-dialog.c:491
+#: thunar-volman/tvm-preferences-dialog.c:533
 msgid "_Command:"
 msgstr ""
 
@@ -272,7 +274,8 @@ msgstr ""
 
 #: thunar-volman/tvm-preferences-dialog.c:301
 #: thunar-volman/tvm-preferences-dialog.c:333
-#: thunar-volman/tvm-preferences-dialog.c:448
+#: thunar-volman/tvm-preferences-dialog.c:449
+#: thunar-volman/tvm-preferences-dialog.c:565
 msgid "C_ommand:"
 msgstr ""
 
@@ -300,37 +303,72 @@ msgid "Import digital photographs when connected"
 msgstr ""
 
 #.
+#. PDAs
+#.
+#: thunar-volman/tvm-preferences-dialog.c:385
+msgid "PDAs"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:395
+msgid "Palm™"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:412
+msgid "Sync _Palm™ devices when connected"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:427
+msgid "Pocket PCs"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:444
+msgid "Sync Pocket P_C devices when connected"
+msgstr ""
+
+#.
+#. Printers
+#.
+#: thunar-volman/tvm-preferences-dialog.c:459
+#: thunar-volman/tvm-preferences-dialog.c:469
+msgid "Printers"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:486
+msgid "Automatically run a program when a _printer is connected"
+msgstr ""
+
+#.
 #. Input Devices
 #.
-#: thunar-volman/tvm-preferences-dialog.c:384
+#: thunar-volman/tvm-preferences-dialog.c:501
 msgid "Input Devices"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:394
+#: thunar-volman/tvm-preferences-dialog.c:511
 msgid "Keyboards"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:411
+#: thunar-volman/tvm-preferences-dialog.c:528
 msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:426
+#: thunar-volman/tvm-preferences-dialog.c:543
 msgid "Mice"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:443
+#: thunar-volman/tvm-preferences-dialog.c:560
 msgid "Automatically run a program when an USB _mouse is connected"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:458
+#: thunar-volman/tvm-preferences-dialog.c:575
 msgid "Tablet"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:475
+#: thunar-volman/tvm-preferences-dialog.c:592
 msgid "Automatically run a program when a _tablet is connected"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:480
+#: thunar-volman/tvm-preferences-dialog.c:597
 msgid "Com_mand:"
 msgstr ""
 

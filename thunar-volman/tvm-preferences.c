@@ -58,6 +58,8 @@ enum
   PROP_AUTOPALM_COMMAND,
   PROP_AUTOPOCKETPC,
   PROP_AUTOPOCKETPC_COMMAND,
+  PROP_AUTOPRINTER,
+  PROP_AUTOPRINTER_COMMAND,
   PROP_AUTOKEYBOARD,
   PROP_AUTOKEYBOARD_COMMAND,
   PROP_AUTOMOUSE,
@@ -438,6 +440,32 @@ tvm_preferences_class_init (TvmPreferencesClass *klass)
                                                         "autopocketpc-command",
                                                         "autopocketpc-command",
                                                         "multisync",
+                                                        EXO_PARAM_READWRITE));
+
+  /**
+   * TvmPreferences:autoprinter:
+   *
+   * Automatically run a program when a printer is connected.
+   **/
+  g_object_class_install_property (gobject_class,
+                                   PROP_AUTOPRINTER,
+                                   g_param_spec_boolean ("autoprinter",
+                                                         "autoprinter",
+                                                         "autoprinter",
+                                                         FALSE,
+                                                         EXO_PARAM_READWRITE));
+
+  /**
+   * TvmPreferences:autoprinter-command:
+   *
+   * Command to run when a printer is connected.
+   **/
+  g_object_class_install_property (gobject_class,
+                                   PROP_AUTOPRINTER_COMMAND,
+                                   g_param_spec_string ("autoprinter-command",
+                                                        "autoprinter-command",
+                                                        "autoprinter-command",
+                                                        "gnome-printer-add hal://%h",
                                                         EXO_PARAM_READWRITE));
 
   /**

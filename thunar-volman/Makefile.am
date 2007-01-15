@@ -33,6 +33,8 @@ thunar_volman_SOURCES =							\
 	tvm-preferences-dialog.h					\
 	tvm-preferences.c						\
 	tvm-preferences.h						\
+	tvm-printer-device.c						\
+	tvm-printer-device.h						\
 	tvm-prompt.c							\
 	tvm-prompt.h							\
 	tvm-run.c							\

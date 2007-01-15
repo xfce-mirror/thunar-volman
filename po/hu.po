@@ -1,12 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-15 18:43+0100\n"
 "PO-Revision-Date: 2007-01-12 12:07+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Language: Hungarian\n"
@@ -16,8 +17,7 @@ msgstr ""
 msgid "The HAL device UDI of the newly added device"
 msgstr "Az új eszköz HAL eszköz UDI azonosítója"
 
-#: thunar-volman/main.c:51
-#: thunar-volman/tvm-preferences-dialog.c:118
+#: thunar-volman/main.c:51 thunar-volman/tvm-preferences-dialog.c:118
 msgid "Configure management of removable drives and media"
 msgstr "Eltávolítható meghajtók és média beállítás kezelő"
 
@@ -72,18 +72,14 @@ msgstr "Fotók vannak a hordozható zenelejátszón"
 msgid "Would you like to import the photos or manage the music?"
 msgstr "Fotókat importálsz vagy zenéket kezelsz?"
 
-#: thunar-volman/tvm-block-device.c:146
-#: thunar-volman/tvm-block-device.c:213
-#: thunar-volman/tvm-block-device.c:301
-#: thunar-volman/tvm-block-device.c:359
-#: thunar-volman/tvm-block-device.c:629
-#: thunar-volman/tvm-run.c:136
-#: thunar-volman/tvm-run.c:147
+#: thunar-volman/tvm-block-device.c:146 thunar-volman/tvm-block-device.c:213
+#: thunar-volman/tvm-block-device.c:303 thunar-volman/tvm-block-device.c:341
+#: thunar-volman/tvm-block-device.c:402 thunar-volman/tvm-block-device.c:672
+#: thunar-volman/tvm-run.c:136 thunar-volman/tvm-run.c:147
 msgid "Ig_nore"
 msgstr "Kihagy"
 
-#: thunar-volman/tvm-block-device.c:147
-#: thunar-volman/tvm-block-device.c:214
+#: thunar-volman/tvm-block-device.c:147 thunar-volman/tvm-block-device.c:214
 msgid "Import _Photos"
 msgstr "_Fotók importálása"
 
@@ -101,63 +97,65 @@ msgid "A photo card has been detected."
 msgstr "Találtam fotókártyát"
 
 #: thunar-volman/tvm-block-device.c:212
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "Vannak fotók a kártyán. Az albumhoz adod őket?"
 
 #. prompt the user whether to execute this file
-#: thunar-volman/tvm-block-device.c:298
+#: thunar-volman/tvm-block-device.c:300 thunar-volman/tvm-block-device.c:338
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
 msgstr "Engedélyezd \"%s\" futtatását?"
 
-#: thunar-volman/tvm-block-device.c:299
+#: thunar-volman/tvm-block-device.c:301 thunar-volman/tvm-block-device.c:339
 msgid "Auto-Run Confirmation"
 msgstr "Automata-futás megerősítése"
 
-#: thunar-volman/tvm-block-device.c:300
+#: thunar-volman/tvm-block-device.c:302 thunar-volman/tvm-block-device.c:340
 msgid "Auto-Run capability detected"
 msgstr "Automata-futás képességet találtam"
 
-#: thunar-volman/tvm-block-device.c:302
+#: thunar-volman/tvm-block-device.c:304 thunar-volman/tvm-block-device.c:342
 msgid "_Allow Auto-Run"
 msgstr "_Automata-futás engedélyezése"
 
 #. prompt the user whether to autoopen this file
-#: thunar-volman/tvm-block-device.c:356
+#: thunar-volman/tvm-block-device.c:399
 #, c-format
 msgid "Would you like to open \"%s\"?"
 msgstr "Megnyitod \"%s\"-t?"
 
-#: thunar-volman/tvm-block-device.c:357
+#: thunar-volman/tvm-block-device.c:400
 msgid "Auto-Open Confirmation"
 msgstr "Automata-megnyitás megerősítése"
 
-#: thunar-volman/tvm-block-device.c:358
+#: thunar-volman/tvm-block-device.c:401
 msgid "Auto-Open capability detected"
 msgstr "Automata-megnyitás képességet találtam"
 
-#: thunar-volman/tvm-block-device.c:360
+#: thunar-volman/tvm-block-device.c:403
 msgid "_Open"
 msgstr "_Megnyit"
 
 #. ask what do with the mixed audio/data disc
-#: thunar-volman/tvm-block-device.c:626
+#: thunar-volman/tvm-block-device.c:669
 msgid "Audio / Data CD"
 msgstr "Hang / Adat CD"
 
-#: thunar-volman/tvm-block-device.c:627
+#: thunar-volman/tvm-block-device.c:670
 msgid "The CD in the drive contains both music and files."
 msgstr "A meghajtóban lévő CD zenét és fájlokat is tartalmaz"
 
-#: thunar-volman/tvm-block-device.c:628
+#: thunar-volman/tvm-block-device.c:671
 msgid "Would you like to listen to music or browse the files?"
 msgstr "Zenét hallgatsz vagy fájlokat böngészel?"
 
-#: thunar-volman/tvm-block-device.c:630
+#: thunar-volman/tvm-block-device.c:673
 msgid "_Browse Files"
 msgstr "Fájlok _böngészése"
 
-#: thunar-volman/tvm-block-device.c:631
+#: thunar-volman/tvm-block-device.c:674
 msgid "_Play CD"
 msgstr "CD le_játszása"
 
@@ -257,7 +255,9 @@ msgstr "H_ang CD lemezek lejátszása berakáskor"
 
 #: thunar-volman/tvm-preferences-dialog.c:269
 #: thunar-volman/tvm-preferences-dialog.c:375
-#: thunar-volman/tvm-preferences-dialog.c:416
+#: thunar-volman/tvm-preferences-dialog.c:417
+#: thunar-volman/tvm-preferences-dialog.c:491
+#: thunar-volman/tvm-preferences-dialog.c:533
 msgid "_Command:"
 msgstr "_Parancs:"
 
@@ -271,7 +271,8 @@ msgstr "_Videó CD és DVD lemezek lejátszása berakáskor"
 
 #: thunar-volman/tvm-preferences-dialog.c:301
 #: thunar-volman/tvm-preferences-dialog.c:333
-#: thunar-volman/tvm-preferences-dialog.c:448
+#: thunar-volman/tvm-preferences-dialog.c:449
+#: thunar-volman/tvm-preferences-dialog.c:565
 msgid "C_ommand:"
 msgstr "Para_ncs:"
 
@@ -299,52 +300,88 @@ msgid "Import digital photographs when connected"
 msgstr "Digitális fotók importálása csatlakoztatáskor"
 
 #.
+#. PDAs
+#.
+#: thunar-volman/tvm-preferences-dialog.c:385
+msgid "PDAs"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:395
+msgid "Palm™"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:412
+#, fuzzy
+msgid "Sync _Palm™ devices when connected"
+msgstr "_Zene fájlok lejátszása csatlakoztatáskor"
+
+#: thunar-volman/tvm-preferences-dialog.c:427
+msgid "Pocket PCs"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:444
+#, fuzzy
+msgid "Sync Pocket P_C devices when connected"
+msgstr "_Zene fájlok lejátszása csatlakoztatáskor"
+
+#.
+#. Printers
+#.
+#: thunar-volman/tvm-preferences-dialog.c:459
+#: thunar-volman/tvm-preferences-dialog.c:469
+msgid "Printers"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:486
+#, fuzzy
+msgid "Automatically run a program when a _printer is connected"
+msgstr "Egy program automata futtatása egy USB _egér csatlakoztatásakor"
+
+#.
 #. Input Devices
 #.
-#: thunar-volman/tvm-preferences-dialog.c:384
+#: thunar-volman/tvm-preferences-dialog.c:501
 msgid "Input Devices"
 msgstr "Beviteli eszközök"
 
-#: thunar-volman/tvm-preferences-dialog.c:394
+#: thunar-volman/tvm-preferences-dialog.c:511
 msgid "Keyboards"
 msgstr "Billentyűzet"
 
-#: thunar-volman/tvm-preferences-dialog.c:411
+#: thunar-volman/tvm-preferences-dialog.c:528
 msgid "Automatically run a program when an USB _keyboard is connected"
-msgstr "Egy program automata futtatása egy USB _billentyűzet csatlakoztatásakor"
+msgstr ""
+"Egy program automata futtatása egy USB _billentyűzet csatlakoztatásakor"
 
-#: thunar-volman/tvm-preferences-dialog.c:426
+#: thunar-volman/tvm-preferences-dialog.c:543
 msgid "Mice"
 msgstr "Egerek"
 
-#: thunar-volman/tvm-preferences-dialog.c:443
+#: thunar-volman/tvm-preferences-dialog.c:560
 msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "Egy program automata futtatása egy USB _egér csatlakoztatásakor"
 
-#: thunar-volman/tvm-preferences-dialog.c:458
+#: thunar-volman/tvm-preferences-dialog.c:575
 msgid "Tablet"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:475
+#: thunar-volman/tvm-preferences-dialog.c:592
 msgid "Automatically run a program when a _tablet is connected"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:480
+#: thunar-volman/tvm-preferences-dialog.c:597
 msgid "Com_mand:"
 msgstr "Para_ncs:"
 
-#: thunar-volman/tvm-run.c:133
-#: thunar-volman/tvm-run.c:144
+#: thunar-volman/tvm-run.c:133 thunar-volman/tvm-run.c:144
 msgid "Choose Disc Type"
 msgstr "Válassz lemez típust"
 
-#: thunar-volman/tvm-run.c:134
-#: thunar-volman/tvm-run.c:145
+#: thunar-volman/tvm-run.c:134 thunar-volman/tvm-run.c:145
 msgid "You have inserted a blank disc."
 msgstr "Tégy be egy üres lemezt"
 
-#: thunar-volman/tvm-run.c:135
-#: thunar-volman/tvm-run.c:146
+#: thunar-volman/tvm-run.c:135 thunar-volman/tvm-run.c:146
 msgid "What would you like to do?"
 msgstr "Mit tennél?"
 
@@ -359,4 +396,3 @@ msgstr "A_dat CD készítése"
 #: thunar-volman/tvm-run.c:149
 msgid "Make _Audio CD"
 msgstr "H_ang CD készítése"
-

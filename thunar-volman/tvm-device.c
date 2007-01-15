@@ -41,6 +41,7 @@
 #include <thunar-volman/tvm-device.h>
 #include <thunar-volman/tvm-input-device.h>
 #include <thunar-volman/tvm-pda-device.h>
+#include <thunar-volman/tvm-printer-device.h>
 
 
 
@@ -55,12 +56,13 @@ struct _TvmDeviceHandler
 
 static const TvmDeviceHandler handlers[] =
 {
-  { "block",          tvm_block_device_added,  },
-  { "camera",         tvm_camera_device_added, },
-  { "input.keyboard", tvm_input_device_added,  },
-  { "input.mouse",    tvm_input_device_added,  },
-  { "input.tablet",   tvm_input_device_added,  },
-  { "pda",            tvm_pda_device_added,    },
+  { "block",          tvm_block_device_added,   },
+  { "camera",         tvm_camera_device_added,  },
+  { "input.keyboard", tvm_input_device_added,   },
+  { "input.mouse",    tvm_input_device_added,   },
+  { "input.tablet",   tvm_input_device_added,   },
+  { "pda",            tvm_pda_device_added,     },
+  { "printer",        tvm_printer_device_added, },
 };
 
 

@@ -5,8 +5,10 @@ thunar-volman/tvm-command-entry.c
 thunar-volman/tvm-device.c
 thunar-volman/tvm-input-device.c
 thunar-volman/tvm-pango-extensions.c
+thunar-volman/tvm-pda-device.c
 thunar-volman/tvm-preferences-dialog.c
 thunar-volman/tvm-preferences.c
+thunar-volman/tvm-printer-device.c
 thunar-volman/tvm-prompt.c
 thunar-volman/tvm-run.c
 thunar-volman/xfce-heading.c
