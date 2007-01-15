@@ -1,5 +1,13 @@
 2007-01-15	Benedikt Meurer <benny@xfce.org>
 
+	* === Released 0.1.0 ===
+	* README: Update website URL and dependencies.
+	* NEWS, configure.in.in: Bump version.
+	* THANKS: Add translator credits.
+	* po/*.po: Update project version.
+
+2007-01-15	Benedikt Meurer <benny@xfce.org>
+
 	* thunar-volman/tvm-preferences-dialog.c: Connect the "Help" button
 	  and open the removable media section of the Thunar user manual.
 	* po/thunar-volman.pot, po/*.po: Merge new strings.

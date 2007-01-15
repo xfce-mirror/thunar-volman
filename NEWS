@@ -1,0 +1,4 @@
+0.1.0
+=====
+- Intial release of the volume management support package for Thunar, which
+  enables automatic management of removable drives and media.

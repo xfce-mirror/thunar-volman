@@ -10,10 +10,10 @@ dnl ***************************
 dnl *** Version information ***
 dnl ***************************
 m4_define([tvm_version_major], [0])
-m4_define([tvm_version_minor], [0])
-m4_define([tvm_version_micro], [1])
+m4_define([tvm_version_minor], [1])
+m4_define([tvm_version_micro], [0])
 m4_define([tvm_version_build], [r@REVISION@])
-m4_define([tvm_version_tag], [svn])
+m4_define([tvm_version_tag], [])
 m4_define([tvm_version], [tvm_version_major().tvm_version_minor().tvm_version_micro()ifelse(tvm_version_tag(), [svn], [tvm_version_tag()-tvm_version_build()], [tvm_version_tag()])])
 
 dnl *******************************************
@@ -80,7 +80,7 @@ dnl *** Check for required packages ***
 dnl ***********************************
 XDT_CHECK_PACKAGE([DBUS], [dbus-glib-1], [0.34])
 XDT_CHECK_PACKAGE([EXO_HAL], [exo-hal-0.3], [0.3.1.13])
-XDT_CHECK_PACKAGE([HAL], [hal-storage], [0.5.0])
+XDT_CHECK_PACKAGE([HAL], [hal], [0.5.0])
 XDT_CHECK_PACKAGE([THUNAR_VFS], [thunar-vfs-1], [0.5.1])
 
 dnl ***********************************

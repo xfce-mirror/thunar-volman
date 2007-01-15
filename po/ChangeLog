@@ -1,5 +1,9 @@
 2007-01-15  Benedikt Meurer <benny@xfce.org>
 
+	* *.po: Update Project-Id-Version.
+
+2007-01-15  Benedikt Meurer <benny@xfce.org>
+
 	* thunar-volman.pot, *.po: Merge new strings.
 	* de.po: Update german translations.
 

@@ -20,7 +20,6 @@ thunar-volman depends on the following packages:
 
  - Thunar 0.5.1svn or above
  - libexo 0.3.1.13svn or above
- - intltool 0.30 or above
  - D-BUS 0.34 or above (esp. the dbus-glib devel package)
  - HAL 0.5.0 or above (esp. the libhal devel package)
 
@@ -30,7 +29,7 @@ Installation
 
 The file 'INSTALL' contains generic installation instructions. For more
 detailed information, visit the thunar-volman website at
-http://thunar.xfce.org/projects/thunar-volman/.
+http://www.xfce.org/~benny/projects/thunar-volman/index.html.
 
 
 Debugging Support
