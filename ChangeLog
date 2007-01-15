@@ -1,3 +1,8 @@
+2007-01-15	Benedikt Meurer <benny@xfce.org>
+
+	* icons/48x48/, thunar-volman/: Add support for PDAs (currently
+	  Palm Pilots and Pocket PCs).
+
 2007-01-12	Benedikt Meurer <benny@xfce.org>
 
 	* icons/48x48/tvm-dev-tablet.png: Use tangoified tablet icon.

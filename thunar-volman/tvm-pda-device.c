@@ -28,7 +28,9 @@
 #include <string.h>
 #endif
 
-#include <thunar-volman/tvm-input-device.h>
+#include <dbus/dbus-glib-lowlevel.h>
+
+#include <thunar-volman/tvm-pda-device.h>
 #include <thunar-volman/tvm-prompt.h>
 #include <thunar-volman/tvm-run.h>
 
@@ -36,22 +38,21 @@
 
 static const struct
 {
-  const gchar *capability;
+  const gchar *platform;
   const gchar *auto_option_name;
   const gchar *auto_command_name;
 } commands[] = {
-  { "input.keyboard", "autokeyboard", "autokeyboard-command", },
-  { "input.mouse",    "automouse",    "automouse-command",    },
-  { "input.tablet",   "autotablet",   "autotablet-command",   },
+  { "palm",     "autopalm",     "autopalm-command", },
+  { "pocketpc", "autopocketpc", "autopocketpc-command",    },
 };
 
 
 
 /**
- * tvm_input_device_added:
+ * tvm_pda_device_added:
  * @preferences : a #TvmPreferences.
  * @context     : a #LibHalContext.
- * @udi         : the HAL device UDI of the newly added input device.
+ * @udi         : the HAL device UDI of the newly added PDA device.
  * @capability  : the capability, which caused this handler to be run.
  * @error       : return location for errors or %NULL.
  *
@@ -61,16 +62,18 @@ static const struct
  *               unrecoverable error occurred.
  **/
 gboolean
-tvm_input_device_added (TvmPreferences *preferences,
-                        LibHalContext  *context,
-                        const gchar    *udi,
-                        const gchar    *capability,
-                        GError        **error)
+tvm_pda_device_added (TvmPreferences *preferences,
+                      LibHalContext  *context,
+                      const gchar    *udi,
+                      const gchar    *capability,
+                      GError        **error)
 {
-  gboolean result = FALSE;
-  gboolean auto_enabled;
-  gchar   *auto_command;
-  guint    n;
+  DBusError derror;
+  gboolean  result = FALSE;
+  gboolean  auto_enabled;
+  gchar    *auto_command;
+  gchar    *platform;
+  guint     n;
 
   g_return_val_if_fail (exo_hal_udi_validate (udi, -1, NULL), FALSE);
   g_return_val_if_fail (TVM_IS_PREFERENCES (preferences), FALSE);
@@ -78,9 +81,22 @@ tvm_input_device_added (TvmPreferences *preferences,
   g_return_val_if_fail (capability != NULL, FALSE);
   g_return_val_if_fail (context != NULL, FALSE);
 
-  /* check which type of input device we have */
+  /* initialize D-Bus error */
+  dbus_error_init (&derror);
+
+  /* determine the PDA platform */
+  platform = libhal_device_get_property_string (context, udi, "pda.platform", &derror);
+  if (G_UNLIKELY (platform == NULL))
+    {
+      /* propagate the error */
+      dbus_set_g_error (error, &derror);
+      dbus_error_free (&derror);
+      return FALSE;
+    }
+
+  /* check if we can handle that platform */
   for (n = 0; n < G_N_ELEMENTS (commands); ++n)
-    if (strcmp (commands[n].capability, capability) == 0)
+    if (strcmp (commands[n].platform, platform) == 0)
       break;
   if (G_LIKELY (n < G_N_ELEMENTS (commands)))
     {
@@ -93,6 +109,9 @@ tvm_input_device_added (TvmPreferences *preferences,
         }
       g_free (auto_command);
     }
+
+  /* cleanup */
+  libhal_free_string (platform);
 
   return result;
 }

@@ -54,6 +54,10 @@ enum
   PROP_AUTOIPOD_COMMAND,
   PROP_AUTOPHOTO,
   PROP_AUTOPHOTO_COMMAND,
+  PROP_AUTOPALM,
+  PROP_AUTOPALM_COMMAND,
+  PROP_AUTOPOCKETPC,
+  PROP_AUTOPOCKETPC_COMMAND,
   PROP_AUTOKEYBOARD,
   PROP_AUTOKEYBOARD_COMMAND,
   PROP_AUTOMOUSE,
@@ -290,7 +294,7 @@ tvm_preferences_class_init (TvmPreferencesClass *klass)
                                    g_param_spec_boolean ("autoplay-audio-cd",
                                                          "autoplay-audio-cd",
                                                          "autoplay-audio-cd",
-                                                         FALSE,
+                                                         TRUE,
                                                          EXO_PARAM_READWRITE));
 
   /**
@@ -382,6 +386,58 @@ tvm_preferences_class_init (TvmPreferencesClass *klass)
                                                         "autophoto-command",
                                                         "autophoto-command",
                                                         "",
+                                                        EXO_PARAM_READWRITE));
+
+  /**
+   * TvmPreferences:autopalm:
+   *
+   * Sync Palm devices when connected.
+   **/
+  g_object_class_install_property (gobject_class,
+                                   PROP_AUTOPALM,
+                                   g_param_spec_boolean ("autopalm",
+                                                         "autopalm",
+                                                         "autopalm",
+                                                         FALSE,
+                                                         EXO_PARAM_READWRITE));
+
+  /**
+   * TvmPreferences:autopalm-command:
+   *
+   * Command to run when Palm device is connected.
+   **/
+  g_object_class_install_property (gobject_class,
+                                   PROP_AUTOPALM_COMMAND,
+                                   g_param_spec_string ("autopalm-command",
+                                                        "autopalm-command",
+                                                        "autopalm-command",
+                                                        "gpilotd-control-applet",
+                                                        EXO_PARAM_READWRITE));
+
+  /**
+   * TvmPreferences:autopocketpc:
+   *
+   * Sync PocketPC devices when connected.
+   **/
+  g_object_class_install_property (gobject_class,
+                                   PROP_AUTOPOCKETPC,
+                                   g_param_spec_boolean ("autopocketpc",
+                                                         "autopocketpc",
+                                                         "autopocketpc",
+                                                         FALSE,
+                                                         EXO_PARAM_READWRITE));
+
+  /**
+   * TvmPreferences:autopocketpc-command:
+   *
+   * Command to run when PocketPC device is connected.
+   **/
+  g_object_class_install_property (gobject_class,
+                                   PROP_AUTOPOCKETPC_COMMAND,
+                                   g_param_spec_string ("autopocketpc-command",
+                                                        "autopocketpc-command",
+                                                        "autopocketpc-command",
+                                                        "multisync",
                                                         EXO_PARAM_READWRITE));
 
   /**

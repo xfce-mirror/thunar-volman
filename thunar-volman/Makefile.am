@@ -27,6 +27,8 @@ thunar_volman_SOURCES =							\
 	tvm-input-device.h						\
 	tvm-pango-extensions.c						\
 	tvm-pango-extensions.h						\
+	tvm-pda-device.c						\
+	tvm-pda-device.h						\
 	tvm-preferences-dialog.c					\
 	tvm-preferences-dialog.h					\
 	tvm-preferences.c						\

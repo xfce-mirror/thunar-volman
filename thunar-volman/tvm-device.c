@@ -40,6 +40,7 @@
 #include <thunar-volman/tvm-camera-device.h>
 #include <thunar-volman/tvm-device.h>
 #include <thunar-volman/tvm-input-device.h>
+#include <thunar-volman/tvm-pda-device.h>
 
 
 
@@ -59,6 +60,7 @@ static const TvmDeviceHandler handlers[] =
   { "input.keyboard", tvm_input_device_added,  },
   { "input.mouse",    tvm_input_device_added,  },
   { "input.tablet",   tvm_input_device_added,  },
+  { "pda",            tvm_pda_device_added,    },
 };
 
 
