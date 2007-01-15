@@ -28,9 +28,11 @@
 
 
 
-static void tvm_preferences_dialog_class_init (TvmPreferencesDialogClass *klass);
-static void tvm_preferences_dialog_init       (TvmPreferencesDialog      *dialog);
-static void tvm_preferences_dialog_finalize   (GObject                   *object);
+static void tvm_preferences_dialog_class_init   (TvmPreferencesDialogClass *klass);
+static void tvm_preferences_dialog_init         (TvmPreferencesDialog      *dialog);
+static void tvm_preferences_dialog_finalize     (GObject                   *object);
+static void tvm_preferences_dialog_help_clicked (GtkWidget                 *button,
+                                                 TvmPreferencesDialog      *dialog);
 
 
 
@@ -117,10 +119,16 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_window_set_title (GTK_WINDOW (dialog), _("Removable Drives and Media"));
   xfce_titled_dialog_set_subtitle (XFCE_TITLED_DIALOG (dialog), _("Configure management of removable drives and media"));
 
-  /* add "Help" and "Close" buttons */
+  /* add "Help" button */
+  button = gtk_button_new_from_stock (GTK_STOCK_HELP);
+  g_signal_connect (G_OBJECT (button), "clicked", G_CALLBACK (tvm_preferences_dialog_help_clicked), dialog);
+  gtk_box_pack_start (GTK_BOX (GTK_DIALOG (dialog)->action_area), button, FALSE, FALSE, 0);
+  gtk_button_box_set_child_secondary (GTK_BUTTON_BOX (GTK_DIALOG (dialog)->action_area), button, TRUE);
+  gtk_widget_show (button);
+
+  /* add "Close" button */
   gtk_dialog_add_buttons (GTK_DIALOG (dialog),
                           GTK_STOCK_CLOSE, GTK_RESPONSE_CLOSE,
-                          GTK_STOCK_HELP, GTK_RESPONSE_HELP,
                           NULL);
 
   notebook = gtk_notebook_new ();
@@ -616,6 +624,82 @@ tvm_preferences_dialog_finalize (GObject *object)
 
 
 
+static void
+tvm_preferences_dialog_help_clicked (GtkWidget            *button,
+                                     TvmPreferencesDialog *dialog)
+{
+  GtkWidget *message;
+  GError    *err = NULL;
+  gchar    **argv;
+  gchar     *bindir;
+  gchar     *prefix;
+  gchar     *path;
+
+  g_return_if_fail (TVM_IS_PREFERENCES_DIALOG (dialog));
+  g_return_if_fail (GTK_IS_BUTTON (button));
+
+  /* try to locate Thunar in the $PATH */
+  path = g_find_program_in_path ("Thunar");
+  if (G_UNLIKELY (path == NULL))
+    path = g_find_program_in_path ("thunar");
+  if (G_LIKELY (path != NULL))
+    {
+      bindir = g_path_get_dirname (path);
+      prefix = g_path_get_dirname (bindir);
+      g_free (bindir);
+      g_free (path);
+
+      /* now check if ThunarHelp is in $prefix/libexec */
+      path = g_build_filename (prefix, "libexec", "ThunarHelp", NULL);
+      if (!g_file_test (path, G_FILE_TEST_IS_EXECUTABLE))
+        {
+          /* release path */
+          g_free (path);
+
+          /* try to support Debian weirdness */
+          path = g_build_filename (prefix, "lib", "thunar", "ThunarHelp", NULL);
+          if (!g_file_test (path, G_FILE_TEST_IS_EXECUTABLE))
+            {
+              /* release path */
+              g_free (path);
+              path = NULL;
+            }
+        }
+    }
+
+  /* no ThunarHelp, weird! */
+  if (G_UNLIKELY (path == NULL))
+    path = g_strdup ("ThunarHelp");
+
+  /* prepare command to run help */
+  argv = g_new (gchar *, 4);
+  argv[0] = path;
+  argv[1] = g_strdup ("using-removable-media");
+  argv[2] = g_strdup ("management-of-removable-drives-and-media");
+  argv[3] = NULL;
+
+  /* try to open the user manual */
+  if (!gdk_spawn_on_screen (gtk_widget_get_screen (button), NULL, argv, NULL, G_SPAWN_SEARCH_PATH, NULL, NULL, NULL, &err))
+    {
+      /* display an error message to the user */
+      message = gtk_message_dialog_new (GTK_WINDOW (dialog),
+                                        GTK_DIALOG_DESTROY_WITH_PARENT
+                                        | GTK_DIALOG_MODAL,
+                                        GTK_MESSAGE_ERROR,
+                                        GTK_BUTTONS_CLOSE,
+                                        "%s.", _("Failed to open the documentation browser"));
+      gtk_message_dialog_format_secondary_text (GTK_MESSAGE_DIALOG (message), "%s.", err->message);
+      gtk_dialog_run (GTK_DIALOG (message));
+      gtk_widget_destroy (message);
+      g_error_free (err);
+    }
+
+  /* cleanup */
+  g_strfreev (argv);
+}
+
+
+
 /**
  * tvm_preferences_dialog_new:
  * @parent : a #GtkWindow or %NULL.
@@ -629,5 +713,7 @@ tvm_preferences_dialog_new (void)
 {
   return g_object_new (TVM_TYPE_PREFERENCES_DIALOG, NULL);
 }
+
+
 
 /* vim:set encoding=UTF-8: */

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-15 18:43+0100\n"
+"POT-Creation-Date: 2007-01-15 21:12+0100\n"
 "PO-Revision-Date: 2007-01-12 12:07+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Hungarian\n"
@@ -17,7 +17,7 @@ msgstr ""
 msgid "The HAL device UDI of the newly added device"
 msgstr "Az új eszköz HAL eszköz UDI azonosítója"
 
-#: thunar-volman/main.c:51 thunar-volman/tvm-preferences-dialog.c:118
+#: thunar-volman/main.c:51 thunar-volman/tvm-preferences-dialog.c:120
 msgid "Configure management of removable drives and media"
 msgstr "Eltávolítható meghajtók és média beállítás kezelő"
 
@@ -187,139 +187,139 @@ msgstr "Ruby szkriptek"
 msgid "Shell Scripts"
 msgstr "Héj szkriptek"
 
-#: thunar-volman/tvm-preferences-dialog.c:117
+#: thunar-volman/tvm-preferences-dialog.c:119
 msgid "Removable Drives and Media"
 msgstr "Eltávolítható meghajtók és média"
 
 #.
 #. Storage
 #.
-#: thunar-volman/tvm-preferences-dialog.c:135
+#: thunar-volman/tvm-preferences-dialog.c:143
 msgid "Storage"
 msgstr "Tároló"
 
-#: thunar-volman/tvm-preferences-dialog.c:145
+#: thunar-volman/tvm-preferences-dialog.c:153
 msgid "Removable Storage"
 msgstr "Eltávolítható tároló"
 
-#: thunar-volman/tvm-preferences-dialog.c:162
+#: thunar-volman/tvm-preferences-dialog.c:170
 msgid "_Mount removable drives when hot-plugged"
 msgstr "Eltávolítható tárolók _csatolása bedugáskor"
 
-#: thunar-volman/tvm-preferences-dialog.c:167
+#: thunar-volman/tvm-preferences-dialog.c:175
 msgid "Mount removable media when _inserted"
 msgstr "Eltávolítható  média csatolás be_helyezéskor"
 
-#: thunar-volman/tvm-preferences-dialog.c:172
+#: thunar-volman/tvm-preferences-dialog.c:180
 msgid "B_rowse removable media when inserted"
 msgstr "Eltávolítható média bön_gészése behelyezéskor"
 
-#: thunar-volman/tvm-preferences-dialog.c:177
+#: thunar-volman/tvm-preferences-dialog.c:185
 msgid "_Auto-run programs on new drives and media"
 msgstr "Új meghajtókon és médián lévő programok _automata-futtatása"
 
-#: thunar-volman/tvm-preferences-dialog.c:182
+#: thunar-volman/tvm-preferences-dialog.c:190
 msgid "Auto-open files on new drives and media"
 msgstr "Új meghajtókon és médián lévő programok _automata-megnyitása"
 
-#: thunar-volman/tvm-preferences-dialog.c:191
+#: thunar-volman/tvm-preferences-dialog.c:199
 msgid "Blank CDs and DVDs"
 msgstr "Üres CD és DVD lemezek"
 
-#: thunar-volman/tvm-preferences-dialog.c:208
+#: thunar-volman/tvm-preferences-dialog.c:216
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "CD vagy DVD _sütése egy üres lemez berakásakor"
 
-#: thunar-volman/tvm-preferences-dialog.c:216
+#: thunar-volman/tvm-preferences-dialog.c:224
 msgid "Command for _Data CDs:"
 msgstr "Parancs az a_dat CD lemezekhez:"
 
-#: thunar-volman/tvm-preferences-dialog.c:223
+#: thunar-volman/tvm-preferences-dialog.c:231
 msgid "Command for A_udio CDs:"
 msgstr "Parancs a _hang CD lemezekhez:"
 
 #.
 #. Multimedia
 #.
-#: thunar-volman/tvm-preferences-dialog.c:237
+#: thunar-volman/tvm-preferences-dialog.c:245
 msgid "Multimedia"
 msgstr "Multimédia"
 
-#: thunar-volman/tvm-preferences-dialog.c:247
+#: thunar-volman/tvm-preferences-dialog.c:255
 msgid "Audio CDs"
 msgstr "Hang CD lemezek"
 
-#: thunar-volman/tvm-preferences-dialog.c:264
+#: thunar-volman/tvm-preferences-dialog.c:272
 msgid "Play _audio CDs when inserted"
 msgstr "H_ang CD lemezek lejátszása berakáskor"
 
-#: thunar-volman/tvm-preferences-dialog.c:269
-#: thunar-volman/tvm-preferences-dialog.c:375
-#: thunar-volman/tvm-preferences-dialog.c:417
-#: thunar-volman/tvm-preferences-dialog.c:491
-#: thunar-volman/tvm-preferences-dialog.c:533
+#: thunar-volman/tvm-preferences-dialog.c:277
+#: thunar-volman/tvm-preferences-dialog.c:383
+#: thunar-volman/tvm-preferences-dialog.c:425
+#: thunar-volman/tvm-preferences-dialog.c:499
+#: thunar-volman/tvm-preferences-dialog.c:541
 msgid "_Command:"
 msgstr "_Parancs:"
 
-#: thunar-volman/tvm-preferences-dialog.c:279
+#: thunar-volman/tvm-preferences-dialog.c:287
 msgid "Video CDs/DVDs"
 msgstr "Videó CD/DVD lemezek"
 
-#: thunar-volman/tvm-preferences-dialog.c:296
+#: thunar-volman/tvm-preferences-dialog.c:304
 msgid "Play _video CDs and DVDs when inserted"
 msgstr "_Videó CD és DVD lemezek lejátszása berakáskor"
 
-#: thunar-volman/tvm-preferences-dialog.c:301
-#: thunar-volman/tvm-preferences-dialog.c:333
-#: thunar-volman/tvm-preferences-dialog.c:449
-#: thunar-volman/tvm-preferences-dialog.c:565
+#: thunar-volman/tvm-preferences-dialog.c:309
+#: thunar-volman/tvm-preferences-dialog.c:341
+#: thunar-volman/tvm-preferences-dialog.c:457
+#: thunar-volman/tvm-preferences-dialog.c:573
 msgid "C_ommand:"
 msgstr "Para_ncs:"
 
-#: thunar-volman/tvm-preferences-dialog.c:311
+#: thunar-volman/tvm-preferences-dialog.c:319
 msgid "Portable Music Players"
 msgstr "Hordozható zene lejátszók"
 
-#: thunar-volman/tvm-preferences-dialog.c:328
+#: thunar-volman/tvm-preferences-dialog.c:336
 msgid "Play _music files when connected"
 msgstr "_Zene fájlok lejátszása csatlakoztatáskor"
 
 #.
 #. Cameras
 #.
-#: thunar-volman/tvm-preferences-dialog.c:343
+#: thunar-volman/tvm-preferences-dialog.c:351
 msgid "Cameras"
 msgstr "Kamerák"
 
-#: thunar-volman/tvm-preferences-dialog.c:353
+#: thunar-volman/tvm-preferences-dialog.c:361
 msgid "Digital Cameras"
 msgstr "Digitális kamerák"
 
-#: thunar-volman/tvm-preferences-dialog.c:370
+#: thunar-volman/tvm-preferences-dialog.c:378
 msgid "Import digital photographs when connected"
 msgstr "Digitális fotók importálása csatlakoztatáskor"
 
 #.
 #. PDAs
 #.
-#: thunar-volman/tvm-preferences-dialog.c:385
+#: thunar-volman/tvm-preferences-dialog.c:393
 msgid "PDAs"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:395
+#: thunar-volman/tvm-preferences-dialog.c:403
 msgid "Palm™"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:412
+#: thunar-volman/tvm-preferences-dialog.c:420
 #, fuzzy
 msgid "Sync _Palm™ devices when connected"
 msgstr "_Zene fájlok lejátszása csatlakoztatáskor"
 
-#: thunar-volman/tvm-preferences-dialog.c:427
+#: thunar-volman/tvm-preferences-dialog.c:435
 msgid "Pocket PCs"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:444
+#: thunar-volman/tvm-preferences-dialog.c:452
 #, fuzzy
 msgid "Sync Pocket P_C devices when connected"
 msgstr "_Zene fájlok lejátszása csatlakoztatáskor"
@@ -327,12 +327,12 @@ msgstr "_Zene fájlok lejátszása csatlakoztatáskor"
 #.
 #. Printers
 #.
-#: thunar-volman/tvm-preferences-dialog.c:459
-#: thunar-volman/tvm-preferences-dialog.c:469
+#: thunar-volman/tvm-preferences-dialog.c:467
+#: thunar-volman/tvm-preferences-dialog.c:477
 msgid "Printers"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:486
+#: thunar-volman/tvm-preferences-dialog.c:494
 #, fuzzy
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Egy program automata futtatása egy USB _egér csatlakoztatásakor"
@@ -340,38 +340,42 @@ msgstr "Egy program automata futtatása egy USB _egér csatlakoztatásakor"
 #.
 #. Input Devices
 #.
-#: thunar-volman/tvm-preferences-dialog.c:501
+#: thunar-volman/tvm-preferences-dialog.c:509
 msgid "Input Devices"
 msgstr "Beviteli eszközök"
 
-#: thunar-volman/tvm-preferences-dialog.c:511
+#: thunar-volman/tvm-preferences-dialog.c:519
 msgid "Keyboards"
 msgstr "Billentyűzet"
 
-#: thunar-volman/tvm-preferences-dialog.c:528
+#: thunar-volman/tvm-preferences-dialog.c:536
 msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr ""
 "Egy program automata futtatása egy USB _billentyűzet csatlakoztatásakor"
 
-#: thunar-volman/tvm-preferences-dialog.c:543
+#: thunar-volman/tvm-preferences-dialog.c:551
 msgid "Mice"
 msgstr "Egerek"
 
-#: thunar-volman/tvm-preferences-dialog.c:560
+#: thunar-volman/tvm-preferences-dialog.c:568
 msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "Egy program automata futtatása egy USB _egér csatlakoztatásakor"
 
-#: thunar-volman/tvm-preferences-dialog.c:575
+#: thunar-volman/tvm-preferences-dialog.c:583
 msgid "Tablet"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:592
+#: thunar-volman/tvm-preferences-dialog.c:600
 msgid "Automatically run a program when a _tablet is connected"
 msgstr ""
 
-#: thunar-volman/tvm-preferences-dialog.c:597
+#: thunar-volman/tvm-preferences-dialog.c:605
 msgid "Com_mand:"
 msgstr "Para_ncs:"
+
+#: thunar-volman/tvm-preferences-dialog.c:690
+msgid "Failed to open the documentation browser"
+msgstr ""
 
 #: thunar-volman/tvm-run.c:133 thunar-volman/tvm-run.c:144
 msgid "Choose Disc Type"

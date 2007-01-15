@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-01-15 18:43+0100\n"
-"PO-Revision-Date: 2007-01-15 18:39+0100\n"
+"POT-Creation-Date: 2007-01-15 21:12+0100\n"
+"PO-Revision-Date: 2007-01-15 21:19+0100\n"
 "Last-Translator: Benedikt Meurer <benny@xfce.org>\n"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "The HAL device UDI of the newly added device"
 msgstr "Der HAL UDI des neu hinzugekommenen Geräts"
 
-#: thunar-volman/main.c:51 thunar-volman/tvm-preferences-dialog.c:118
+#: thunar-volman/main.c:51 thunar-volman/tvm-preferences-dialog.c:120
 msgid "Configure management of removable drives and media"
 msgstr "Die Verwaltung von Wechseldatenträgern und -medien konfigurieren"
 
@@ -191,190 +191,194 @@ msgstr "Ruby Skripte"
 msgid "Shell Scripts"
 msgstr "Shell Skripte"
 
-#: thunar-volman/tvm-preferences-dialog.c:117
+#: thunar-volman/tvm-preferences-dialog.c:119
 msgid "Removable Drives and Media"
 msgstr "Wechseldatenträger- und Medieneinstellungen"
 
 #.
 #. Storage
 #.
-#: thunar-volman/tvm-preferences-dialog.c:135
+#: thunar-volman/tvm-preferences-dialog.c:143
 msgid "Storage"
 msgstr "Datenträger"
 
-#: thunar-volman/tvm-preferences-dialog.c:145
+#: thunar-volman/tvm-preferences-dialog.c:153
 msgid "Removable Storage"
 msgstr "Wechseldatenträger"
 
-#: thunar-volman/tvm-preferences-dialog.c:162
+#: thunar-volman/tvm-preferences-dialog.c:170
 msgid "_Mount removable drives when hot-plugged"
 msgstr "_Hotplug-Wechsellaufwerke automatisch einhängen"
 
-#: thunar-volman/tvm-preferences-dialog.c:167
+#: thunar-volman/tvm-preferences-dialog.c:175
 msgid "Mount removable media when _inserted"
 msgstr "Wechselmedien beim Einlegen ein_hängen"
 
-#: thunar-volman/tvm-preferences-dialog.c:172
+#: thunar-volman/tvm-preferences-dialog.c:180
 msgid "B_rowse removable media when inserted"
 msgstr "Wechselmedien beim _Einlegen öffnen"
 
-#: thunar-volman/tvm-preferences-dialog.c:177
+#: thunar-volman/tvm-preferences-dialog.c:185
 msgid "_Auto-run programs on new drives and media"
 msgstr "_Programme auf neuen Laufwerken und Medien automatisch ausführen"
 
-#: thunar-volman/tvm-preferences-dialog.c:182
+#: thunar-volman/tvm-preferences-dialog.c:190
 msgid "Auto-open files on new drives and media"
 msgstr "Dateien auf neuen Laufwerken und Medien automatisch ö_ffnen"
 
-#: thunar-volman/tvm-preferences-dialog.c:191
+#: thunar-volman/tvm-preferences-dialog.c:199
 msgid "Blank CDs and DVDs"
 msgstr "CD/DVD-Rohlinge"
 
-#: thunar-volman/tvm-preferences-dialog.c:208
+#: thunar-volman/tvm-preferences-dialog.c:216
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "Eine CD oder DVD _brennen, wenn ein Rohling eingelegt wird"
 
-#: thunar-volman/tvm-preferences-dialog.c:216
+#: thunar-volman/tvm-preferences-dialog.c:224
 msgid "Command for _Data CDs:"
 msgstr "Befehl für _Daten-CDs:"
 
-#: thunar-volman/tvm-preferences-dialog.c:223
+#: thunar-volman/tvm-preferences-dialog.c:231
 msgid "Command for A_udio CDs:"
 msgstr "Befehl für A_udio-CDs:"
 
 #.
 #. Multimedia
 #.
-#: thunar-volman/tvm-preferences-dialog.c:237
+#: thunar-volman/tvm-preferences-dialog.c:245
 msgid "Multimedia"
 msgstr "Unterhaltungsmedien"
 
-#: thunar-volman/tvm-preferences-dialog.c:247
+#: thunar-volman/tvm-preferences-dialog.c:255
 msgid "Audio CDs"
 msgstr "Audio-CDs"
 
-#: thunar-volman/tvm-preferences-dialog.c:264
+#: thunar-volman/tvm-preferences-dialog.c:272
 msgid "Play _audio CDs when inserted"
 msgstr "_Audio-CDs beim Einlegen wiedergeben"
 
-#: thunar-volman/tvm-preferences-dialog.c:269
-#: thunar-volman/tvm-preferences-dialog.c:375
-#: thunar-volman/tvm-preferences-dialog.c:417
-#: thunar-volman/tvm-preferences-dialog.c:491
-#: thunar-volman/tvm-preferences-dialog.c:533
+#: thunar-volman/tvm-preferences-dialog.c:277
+#: thunar-volman/tvm-preferences-dialog.c:383
+#: thunar-volman/tvm-preferences-dialog.c:425
+#: thunar-volman/tvm-preferences-dialog.c:499
+#: thunar-volman/tvm-preferences-dialog.c:541
 msgid "_Command:"
 msgstr "_Befehl:"
 
-#: thunar-volman/tvm-preferences-dialog.c:279
+#: thunar-volman/tvm-preferences-dialog.c:287
 msgid "Video CDs/DVDs"
 msgstr "Video-CDs/DVDs"
 
-#: thunar-volman/tvm-preferences-dialog.c:296
+#: thunar-volman/tvm-preferences-dialog.c:304
 msgid "Play _video CDs and DVDs when inserted"
 msgstr "_Video-CDs/DVDs beim Einlegen wiedergeben"
 
-#: thunar-volman/tvm-preferences-dialog.c:301
-#: thunar-volman/tvm-preferences-dialog.c:333
-#: thunar-volman/tvm-preferences-dialog.c:449
-#: thunar-volman/tvm-preferences-dialog.c:565
+#: thunar-volman/tvm-preferences-dialog.c:309
+#: thunar-volman/tvm-preferences-dialog.c:341
+#: thunar-volman/tvm-preferences-dialog.c:457
+#: thunar-volman/tvm-preferences-dialog.c:573
 msgid "C_ommand:"
 msgstr "B_efehl:"
 
-#: thunar-volman/tvm-preferences-dialog.c:311
+#: thunar-volman/tvm-preferences-dialog.c:319
 msgid "Portable Music Players"
 msgstr "Tragbare Musik-Player"
 
-#: thunar-volman/tvm-preferences-dialog.c:328
+#: thunar-volman/tvm-preferences-dialog.c:336
 msgid "Play _music files when connected"
 msgstr "Nach dem Verbinden _Musikdateien abspielen"
 
 #.
 #. Cameras
 #.
-#: thunar-volman/tvm-preferences-dialog.c:343
+#: thunar-volman/tvm-preferences-dialog.c:351
 msgid "Cameras"
 msgstr "Kameras"
 
-#: thunar-volman/tvm-preferences-dialog.c:353
+#: thunar-volman/tvm-preferences-dialog.c:361
 msgid "Digital Cameras"
 msgstr "Digitalkameras"
 
-#: thunar-volman/tvm-preferences-dialog.c:370
+#: thunar-volman/tvm-preferences-dialog.c:378
 msgid "Import digital photographs when connected"
 msgstr "Nach dem Verbinden digitale Fotos _importieren"
 
 #.
 #. PDAs
 #.
-#: thunar-volman/tvm-preferences-dialog.c:385
+#: thunar-volman/tvm-preferences-dialog.c:393
 msgid "PDAs"
 msgstr "PDAs"
 
-#: thunar-volman/tvm-preferences-dialog.c:395
+#: thunar-volman/tvm-preferences-dialog.c:403
 msgid "Palm™"
 msgstr "Palm"
 
-#: thunar-volman/tvm-preferences-dialog.c:412
+#: thunar-volman/tvm-preferences-dialog.c:420
 msgid "Sync _Palm™ devices when connected"
 msgstr "Nach dem Verbinden Daten mit Pa_lms abgleichen"
 
-#: thunar-volman/tvm-preferences-dialog.c:427
+#: thunar-volman/tvm-preferences-dialog.c:435
 msgid "Pocket PCs"
 msgstr "Pocket PCs"
 
-#: thunar-volman/tvm-preferences-dialog.c:444
+#: thunar-volman/tvm-preferences-dialog.c:452
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Nach dem Verbinden Daten mit _PocketPCs abgleichen"
 
 #.
 #. Printers
 #.
-#: thunar-volman/tvm-preferences-dialog.c:459
-#: thunar-volman/tvm-preferences-dialog.c:469
+#: thunar-volman/tvm-preferences-dialog.c:467
+#: thunar-volman/tvm-preferences-dialog.c:477
 msgid "Printers"
 msgstr "Drucker"
 
-#: thunar-volman/tvm-preferences-dialog.c:486
+#: thunar-volman/tvm-preferences-dialog.c:494
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Automatisch ein Programm ausführen, wenn ein _Drucker eingesteckt wird"
 
 #.
 #. Input Devices
 #.
-#: thunar-volman/tvm-preferences-dialog.c:501
+#: thunar-volman/tvm-preferences-dialog.c:509
 msgid "Input Devices"
 msgstr "Eingabegeräte"
 
-#: thunar-volman/tvm-preferences-dialog.c:511
+#: thunar-volman/tvm-preferences-dialog.c:519
 msgid "Keyboards"
 msgstr "Tastaturen"
 
-#: thunar-volman/tvm-preferences-dialog.c:528
+#: thunar-volman/tvm-preferences-dialog.c:536
 msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr ""
 "Automatisch ein Programm ausführen, wenn eine USB-_Tastatur eingesteckt wird"
 
-#: thunar-volman/tvm-preferences-dialog.c:543
+#: thunar-volman/tvm-preferences-dialog.c:551
 msgid "Mice"
 msgstr "Mäuse"
 
-#: thunar-volman/tvm-preferences-dialog.c:560
+#: thunar-volman/tvm-preferences-dialog.c:568
 msgid "Automatically run a program when an USB _mouse is connected"
 msgstr ""
 "Automatisch ein Programm ausführen, wenn eine USB-_Maus eingesteckt wird"
 
-#: thunar-volman/tvm-preferences-dialog.c:575
+#: thunar-volman/tvm-preferences-dialog.c:583
 msgid "Tablet"
 msgstr "Grafiktablets"
 
-#: thunar-volman/tvm-preferences-dialog.c:592
+#: thunar-volman/tvm-preferences-dialog.c:600
 msgid "Automatically run a program when a _tablet is connected"
 msgstr ""
 "Automatisch ein Programm ausführen, wenn ein _Grafiktablett eingesteckt wird"
 
-#: thunar-volman/tvm-preferences-dialog.c:597
+#: thunar-volman/tvm-preferences-dialog.c:605
 msgid "Com_mand:"
 msgstr "Befe_hl:"
+
+#: thunar-volman/tvm-preferences-dialog.c:690
+msgid "Failed to open the documentation browser"
+msgstr "Die Dokumentation konnte nicht angezeigt werden"
 
 #: thunar-volman/tvm-run.c:133 thunar-volman/tvm-run.c:144
 msgid "Choose Disc Type"

@@ -1,5 +1,12 @@
 2007-01-15	Benedikt Meurer <benny@xfce.org>
 
+	* thunar-volman/tvm-preferences-dialog.c: Connect the "Help" button
+	  and open the removable media section of the Thunar user manual.
+	* po/thunar-volman.pot, po/*.po: Merge new strings.
+	* po/de.po: Update german translations.
+
+2007-01-15	Benedikt Meurer <benny@xfce.org>
+
 	* thunar-volman/: Add support for printers.
 	* po/POTFILES.in: Add new files here.
 	* po/thunar-volman.pot, po/*.po: Merge new strings.
