@@ -1,5 +1,9 @@
 2007-01-15	Benedikt Meurer <benny@xfce.org>
 
+	* configure.in.in: Post-release version bump.
+
+2007-01-15	Benedikt Meurer <benny@xfce.org>
+
 	* === Released 0.1.0 ===
 	* README: Update website URL and dependencies.
 	* NEWS, configure.in.in: Bump version.
