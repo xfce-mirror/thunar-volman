@@ -1,3 +1,7 @@
+2007-01-19  Jari Rahkonen <jari.rahkonen@pp1.inet.fi>
+
+	* LINGUAS, fi.po: Initial Finnish translation.
+
 2007-01-18  Maximilian Schleiss <maxschleiss@bluewin.ch>
 
 	* fr.po: Updated the French translation.
