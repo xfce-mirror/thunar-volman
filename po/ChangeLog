@@ -1,3 +1,9 @@
+2007-01-18  Maximilian Schleiss <maxschleiss@bluewin.ch>
+
+	* fr.po: Updated the French translation.
+	* pl.po: Added the Polish translation by
+	Szymon Kałasz <szymon_maestro@gazeta.pl>
+
 2007-01-16  Benedikt Meurer <benny@xfce.org>
 
 	* LINGUAS, zh_TW.po: Add chinese translations, thanks to Cheng-Wei
