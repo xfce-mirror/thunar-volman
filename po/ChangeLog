@@ -1,3 +1,8 @@
+2007-01-20  Benedikt Meurer <benny@xfce.org>
+
+	* === Released 0.1.2 ===
+	* *.po: Update Project-Id-Version.
+
 2007-01-19  Jari Rahkonen <jari.rahkonen@pp1.inet.fi>
 
 	* LINGUAS, fi.po: Initial Finnish translation.

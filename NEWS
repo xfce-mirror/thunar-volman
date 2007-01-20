@@ -1,3 +1,11 @@
+0.1.2
+=====
+- New Pocket PC icon contributed by Eugenia Loli-Queru <eugenia@osnews.com>.
+- Updated translations: Maximilian Schleiss (fr)
+- New translations: Jari Rahkonen (fi), Szymon Kałasz (pl), Cheng-Wei
+                    Chien (zh_TW)
+
+
 0.1.0
 =====
 - Intial release of the volume management support package for Thunar, which
