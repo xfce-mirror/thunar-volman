@@ -1,3 +1,8 @@
+2007-01-21  Benedikt Meurer <benny@xfce.org>
+
+	* LINGUAS, nl.po: Add dutch translations by Remco den
+	  Breeje <remco@vioco.nl>.
+
 2007-01-20  Benedikt Meurer <benny@xfce.org>
 
 	* === Released 0.1.2 ===

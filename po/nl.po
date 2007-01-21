@@ -1,0 +1,415 @@
+# Dutch translation for thunar-volman
+# Copyright (C) 2007 Remco den Breeje
+# This file is distributed under the same license as the thunar-volman package.
+# Remco den Breeje <remco@vioco.nl>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: thunar-volman 0.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-15 21:12+0100\n"
+"PO-Revision-Date: 2007-01-21 21:00+0100\n"
+"Last-Translator: Remco den Breeje <remco@vioco.nl>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: thunar-volman/main.c:50
+msgid "The HAL device UDI of the newly added device"
+msgstr "De UDI van het nieuw toegevoegde HAL apparaat"
+
+#: thunar-volman/main.c:51 thunar-volman/tvm-preferences-dialog.c:120
+msgid "Configure management of removable drives and media"
+msgstr "Beheer van verwisselbare stations en media instellen"
+
+#: thunar-volman/main.c:52
+msgid "Print version information and exit"
+msgstr "Print versie informatie en sluit af"
+
+#. setup application name
+#: thunar-volman/main.c:69
+msgid "Thunar Volume Manager"
+msgstr "Thunar Volume Beheer"
+
+#: thunar-volman/main.c:90
+msgid "Failed to open display"
+msgstr "Kon scherm niet openen"
+
+#: thunar-volman/main.c:106
+msgid "The Thunar development team. All rights reserved."
+msgstr "Het Thunar ontwikkel team. Alle rechten voorbehouden"
+
+#: thunar-volman/main.c:107
+msgid "Written by Benedikt Meurer <benny@xfce.org>."
+msgstr "Geschreven door Benedikt Meurer <benny@xfce.org>"
+
+#: thunar-volman/main.c:108
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "Bugs rapporteren: <%s>."
+
+#. TRANSLATORS: A HAL device UDI must match certain conditions to be valid (to be exact, it must be a valid D-Bus object path)
+#: thunar-volman/main.c:133
+#, c-format
+msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
+msgstr "De opgegeven UDI \"%s\" is geen correcte HAL apparaat UDI"
+
+#. TRANSLATORS: thunar-volman wasn't invoked with either --device-added or --configure.
+#: thunar-volman/main.c:144
+#, c-format
+msgid "Must specify the new HAL device UDI with --device-added"
+msgstr ""
+"Er dient een UDI van een nieuw HAL appraat te worden opgegeven met --device-"
+"added"
+
+#. ...so we need to prompt what to do
+#: thunar-volman/tvm-block-device.c:143
+msgid "Photos and Music"
+msgstr "Foto's en Muziek"
+
+#: thunar-volman/tvm-block-device.c:144
+msgid "Photos were found on your portable music player."
+msgstr "Er zijn foto's en muziekbestanden gevonden op uw apparaat"
+
+#: thunar-volman/tvm-block-device.c:145
+msgid "Would you like to import the photos or manage the music?"
+msgstr "Wilt u deze foto's importeren of de muziek beheren?"
+
+#: thunar-volman/tvm-block-device.c:146 thunar-volman/tvm-block-device.c:213
+#: thunar-volman/tvm-block-device.c:303 thunar-volman/tvm-block-device.c:341
+#: thunar-volman/tvm-block-device.c:402 thunar-volman/tvm-block-device.c:672
+#: thunar-volman/tvm-run.c:136 thunar-volman/tvm-run.c:147
+msgid "Ig_nore"
+msgstr "_Afbreken"
+
+#: thunar-volman/tvm-block-device.c:147 thunar-volman/tvm-block-device.c:214
+msgid "Import _Photos"
+msgstr "_Foto's importeren"
+
+#: thunar-volman/tvm-block-device.c:148
+msgid "Manage _Music"
+msgstr "_Muziek beheren"
+
+#. ask the user whether to import photos
+#: thunar-volman/tvm-block-device.c:210
+msgid "Photo Import"
+msgstr "Foto's importeren"
+
+#: thunar-volman/tvm-block-device.c:211
+msgid "A photo card has been detected."
+msgstr "Een medium met foto's is gedetecteerd."
+
+#: thunar-volman/tvm-block-device.c:212
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr ""
+"Op dit medium zijn foto's gevonden. Wilt u deze foto's toevoegen aan uw "
+"album?"
+
+#. prompt the user whether to execute this file
+#: thunar-volman/tvm-block-device.c:300 thunar-volman/tvm-block-device.c:338
+#, c-format
+msgid "Would you like to allow \"%s\" to run?"
+msgstr "Wilt u \"%s\" uitvoeren?"
+
+#: thunar-volman/tvm-block-device.c:301 thunar-volman/tvm-block-device.c:339
+msgid "Auto-Run Confirmation"
+msgstr "Auto-start bevestigen"
+
+#: thunar-volman/tvm-block-device.c:302 thunar-volman/tvm-block-device.c:340
+msgid "Auto-Run capability detected"
+msgstr "Auto-start mogelijkheid gevonden"
+
+#: thunar-volman/tvm-block-device.c:304 thunar-volman/tvm-block-device.c:342
+msgid "_Allow Auto-Run"
+msgstr "Auto-start _Toestaan"
+
+#. prompt the user whether to autoopen this file
+#: thunar-volman/tvm-block-device.c:399
+#, c-format
+msgid "Would you like to open \"%s\"?"
+msgstr "Wilt u \"%s\" openen?"
+
+#: thunar-volman/tvm-block-device.c:400
+msgid "Auto-Open Confirmation"
+msgstr "Automatisch openen bevestigen"
+
+#: thunar-volman/tvm-block-device.c:401
+msgid "Auto-Open capability detected"
+msgstr "Mogelijkheid om automatisch te openen gevonden"
+
+#: thunar-volman/tvm-block-device.c:403
+msgid "_Open"
+msgstr "_Openen"
+
+#. ask what do with the mixed audio/data disc
+#: thunar-volman/tvm-block-device.c:669
+msgid "Audio / Data CD"
+msgstr "Muziek / Gegevens CD"
+
+#: thunar-volman/tvm-block-device.c:670
+msgid "The CD in the drive contains both music and files."
+msgstr "De CD in het station bevat zowel muziek als bestanden."
+
+#: thunar-volman/tvm-block-device.c:671
+msgid "Would you like to listen to music or browse the files?"
+msgstr "Wilt u de muziek beluisteren of door de bestanden bladeren?"
+
+#: thunar-volman/tvm-block-device.c:673
+msgid "_Browse Files"
+msgstr "Door _bestanden bladeren"
+
+#: thunar-volman/tvm-block-device.c:674
+msgid "_Play CD"
+msgstr "_Muziek beluisteren"
+
+#: thunar-volman/tvm-command-entry.c:233
+msgid "Select an Application"
+msgstr "Selecteer een applicatie"
+
+#: thunar-volman/tvm-command-entry.c:243
+msgid "All Files"
+msgstr "Voeg bestanden toe"
+
+#: thunar-volman/tvm-command-entry.c:248
+msgid "Executable Files"
+msgstr "Uitvoerbare bestanden"
+
+#: thunar-volman/tvm-command-entry.c:263
+msgid "Perl Scripts"
+msgstr ""
+
+#: thunar-volman/tvm-command-entry.c:269
+msgid "Python Scripts"
+msgstr ""
+
+#: thunar-volman/tvm-command-entry.c:275
+msgid "Ruby Scripts"
+msgstr ""
+
+#: thunar-volman/tvm-command-entry.c:281
+msgid "Shell Scripts"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:119
+msgid "Removable Drives and Media"
+msgstr "Verwisselbare apparaten en media"
+
+#.
+#. Storage
+#.
+#: thunar-volman/tvm-preferences-dialog.c:143
+msgid "Storage"
+msgstr "Opslag"
+
+#: thunar-volman/tvm-preferences-dialog.c:153
+msgid "Removable Storage"
+msgstr "Verwisselbare opslag"
+
+#: thunar-volman/tvm-preferences-dialog.c:170
+msgid "_Mount removable drives when hot-plugged"
+msgstr ""
+"Automatisch aankoppelen van verwisselbare s_tations wanneer deze worden "
+"ingeplugd"
+
+#: thunar-volman/tvm-preferences-dialog.c:175
+msgid "Mount removable media when _inserted"
+msgstr ""
+"Automatisch aankoppelen van verwisselbare _media wanneer deze worden "
+"ingeplugd"
+
+#: thunar-volman/tvm-preferences-dialog.c:180
+msgid "B_rowse removable media when inserted"
+msgstr ""
+"Door bestanden b_laderen bij verwisselbare media wanneer deze worden "
+"ingeplugd"
+
+#: thunar-volman/tvm-preferences-dialog.c:185
+msgid "_Auto-run programs on new drives and media"
+msgstr "Programma's automatisch _starten op nieuwe stations en media"
+
+#: thunar-volman/tvm-preferences-dialog.c:190
+msgid "Auto-open files on new drives and media"
+msgstr "Bestanden automatisch _openen op nieuwe stations en media"
+
+#: thunar-volman/tvm-preferences-dialog.c:199
+msgid "Blank CDs and DVDs"
+msgstr "Lege CD's en DVD's"
+
+#: thunar-volman/tvm-preferences-dialog.c:216
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "Een lege CD of DVD _branden wanneer deze wordt ingevoerd"
+
+#: thunar-volman/tvm-preferences-dialog.c:224
+msgid "Command for _Data CDs:"
+msgstr "Commando voor _Data CD's"
+
+#: thunar-volman/tvm-preferences-dialog.c:231
+msgid "Command for A_udio CDs:"
+msgstr "Commando voor _Muziek CD's"
+
+#.
+#. Multimedia
+#.
+#: thunar-volman/tvm-preferences-dialog.c:245
+msgid "Multimedia"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:255
+msgid "Audio CDs"
+msgstr "Muziek CD's"
+
+#: thunar-volman/tvm-preferences-dialog.c:272
+msgid "Play _audio CDs when inserted"
+msgstr "Speel _Muziek CD's wanneer deze worden ingevoerd"
+
+#: thunar-volman/tvm-preferences-dialog.c:277
+#: thunar-volman/tvm-preferences-dialog.c:383
+#: thunar-volman/tvm-preferences-dialog.c:425
+#: thunar-volman/tvm-preferences-dialog.c:499
+#: thunar-volman/tvm-preferences-dialog.c:541
+msgid "_Command:"
+msgstr "_Commando:"
+
+#: thunar-volman/tvm-preferences-dialog.c:287
+msgid "Video CDs/DVDs"
+msgstr "Video CD's/DVD's"
+
+#: thunar-volman/tvm-preferences-dialog.c:304
+msgid "Play _video CDs and DVDs when inserted"
+msgstr "Speel _video CD's en DVD's wanneer deze worden ingevoerd"
+
+#: thunar-volman/tvm-preferences-dialog.c:309
+#: thunar-volman/tvm-preferences-dialog.c:341
+#: thunar-volman/tvm-preferences-dialog.c:457
+#: thunar-volman/tvm-preferences-dialog.c:573
+msgid "C_ommand:"
+msgstr "_Commando:"
+
+#: thunar-volman/tvm-preferences-dialog.c:319
+msgid "Portable Music Players"
+msgstr "Draagbare Muziekspelers"
+
+#: thunar-volman/tvm-preferences-dialog.c:336
+msgid "Play _music files when connected"
+msgstr "_Muziek afspelen wanneer muziekspelers worden ingevoerd"
+
+#.
+#. Cameras
+#.
+#: thunar-volman/tvm-preferences-dialog.c:351
+msgid "Cameras"
+msgstr "Camera's"
+
+#: thunar-volman/tvm-preferences-dialog.c:361
+msgid "Digital Cameras"
+msgstr "Digitale Camera's"
+
+#: thunar-volman/tvm-preferences-dialog.c:378
+msgid "Import digital photographs when connected"
+msgstr "Foto's importeren wanneer een digitale camera wordt aangesloten"
+
+#.
+#. PDAs
+#.
+#: thunar-volman/tvm-preferences-dialog.c:393
+msgid "PDAs"
+msgstr "PDA's"
+
+#: thunar-volman/tvm-preferences-dialog.c:403
+msgid "Palm™"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:420
+msgid "Sync _Palm™ devices when connected"
+msgstr "_Palm™ apparaat synchroniseren bij het aansluiten"
+
+#: thunar-volman/tvm-preferences-dialog.c:435
+msgid "Pocket PCs"
+msgstr "Pocket PC's"
+
+#: thunar-volman/tvm-preferences-dialog.c:452
+msgid "Sync Pocket P_C devices when connected"
+msgstr "Pocket P_C apparaat synchroniseren bij het aansluiten"
+
+#.
+#. Printers
+#.
+#: thunar-volman/tvm-preferences-dialog.c:467
+#: thunar-volman/tvm-preferences-dialog.c:477
+msgid "Printers"
+msgstr "Printer's"
+
+#: thunar-volman/tvm-preferences-dialog.c:494
+msgid "Automatically run a program when a _printer is connected"
+msgstr ""
+"Een programma automatisch uitvoeren wanneer een _printer wordt aangesloten"
+
+#.
+#. Input Devices
+#.
+#: thunar-volman/tvm-preferences-dialog.c:509
+msgid "Input Devices"
+msgstr "Invoerapparaten"
+
+#: thunar-volman/tvm-preferences-dialog.c:519
+msgid "Keyboards"
+msgstr "Toetsenborden"
+
+#: thunar-volman/tvm-preferences-dialog.c:536
+msgid "Automatically run a program when an USB _keyboard is connected"
+msgstr ""
+"Een programma automatisch uitvoeren wanneer een _toetsenbord wordt "
+"aangesloten"
+
+#: thunar-volman/tvm-preferences-dialog.c:551
+msgid "Mice"
+msgstr "Muizen"
+
+#: thunar-volman/tvm-preferences-dialog.c:568
+msgid "Automatically run a program when an USB _mouse is connected"
+msgstr ""
+"Een programma automatisch uitvoeren wanneer een _muis wordt aangesloten"
+
+#: thunar-volman/tvm-preferences-dialog.c:583
+msgid "Tablet"
+msgstr ""
+
+#: thunar-volman/tvm-preferences-dialog.c:600
+msgid "Automatically run a program when a _tablet is connected"
+msgstr ""
+"Een programma automatisch uitvoeren wanneer een _tablet PC wordt aangesloten"
+
+#: thunar-volman/tvm-preferences-dialog.c:605
+msgid "Com_mand:"
+msgstr "_Commando:"
+
+#: thunar-volman/tvm-preferences-dialog.c:690
+msgid "Failed to open the documentation browser"
+msgstr "Kon documentatie verkenner niet openen"
+
+#: thunar-volman/tvm-run.c:133 thunar-volman/tvm-run.c:144
+msgid "Choose Disc Type"
+msgstr "Kies Type Schijf"
+
+#: thunar-volman/tvm-run.c:134 thunar-volman/tvm-run.c:145
+msgid "You have inserted a blank disc."
+msgstr "U heeft een lege schijf ingevoerd"
+
+#: thunar-volman/tvm-run.c:135 thunar-volman/tvm-run.c:146
+msgid "What would you like to do?"
+msgstr "Wat wilt u doen?"
+
+#: thunar-volman/tvm-run.c:137
+msgid "Make _DVD"
+msgstr "Een _DVD maken"
+
+#: thunar-volman/tvm-run.c:148
+msgid "Make _Data CD"
+msgstr "Een _Gegevens CD maken"
+
+#: thunar-volman/tvm-run.c:149
+msgid "Make _Audio CD"
+msgstr "Een _Muziek CD maken"
