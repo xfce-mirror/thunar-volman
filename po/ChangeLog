@@ -1,3 +1,7 @@
+2007-02-02  Maximilian Schleiss <maxschleiss@bluewin.ch>
+
+	* fr.po: Fixed some strings to be more friendly in French
+
 2007-01-21  Benedikt Meurer <benny@xfce.org>
 
 	* LINGUAS, nl.po: Add dutch translations by Remco den
