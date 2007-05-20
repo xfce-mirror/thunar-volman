@@ -1,3 +1,11 @@
+2007-05-20	Benedikt Meurer <benny@xfce.org>
+
+	* configure.in.in, INSTALL: Update for new autoconf.
+	* configure.in.in, Makefile.am, thunar-volman-settings.desktop.in.in,
+	  thunar-volman-settings.in: Install .desktop file to launch the
+	  thunar-volman preferences dialog. Bug #3225.
+	* po/*.po: Update translations.
+
 2007-01-20	Benedikt Meurer <benny@xfce.org>
 
 	* configure.in.in: Post-release version bump.

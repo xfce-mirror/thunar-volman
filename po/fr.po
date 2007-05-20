@@ -19,8 +19,7 @@ msgstr ""
 msgid "The HAL device UDI of the newly added device"
 msgstr "L'UDI HAL du périphérique nouvellement ajouté"
 
-#: thunar-volman/main.c:51
-#: thunar-volman/tvm-preferences-dialog.c:120
+#: thunar-volman/main.c:51 thunar-volman/tvm-preferences-dialog.c:120
 msgid "Configure management of removable drives and media"
 msgstr "Configurer la gestion de disques amovibles et de médias"
 
@@ -75,19 +74,14 @@ msgstr "Des photos on été trouvées sur votre lecteur de musique portable."
 msgid "Would you like to import the photos or manage the music?"
 msgstr "Voulez-vous importer les photos ou gérer la musique ?"
 
-#: thunar-volman/tvm-block-device.c:146
-#: thunar-volman/tvm-block-device.c:213
-#: thunar-volman/tvm-block-device.c:303
-#: thunar-volman/tvm-block-device.c:341
-#: thunar-volman/tvm-block-device.c:402
-#: thunar-volman/tvm-block-device.c:672
-#: thunar-volman/tvm-run.c:136
-#: thunar-volman/tvm-run.c:147
+#: thunar-volman/tvm-block-device.c:146 thunar-volman/tvm-block-device.c:213
+#: thunar-volman/tvm-block-device.c:303 thunar-volman/tvm-block-device.c:341
+#: thunar-volman/tvm-block-device.c:402 thunar-volman/tvm-block-device.c:672
+#: thunar-volman/tvm-run.c:136 thunar-volman/tvm-run.c:147
 msgid "Ig_nore"
 msgstr "Ig_norer"
 
-#: thunar-volman/tvm-block-device.c:147
-#: thunar-volman/tvm-block-device.c:214
+#: thunar-volman/tvm-block-device.c:147 thunar-volman/tvm-block-device.c:214
 msgid "Import _Photos"
 msgstr "Importer les _Photos"
 
@@ -105,28 +99,27 @@ msgid "A photo card has been detected."
 msgstr "Une carte mémoire pour photos a été détectée."
 
 #: thunar-volman/tvm-block-device.c:212
-msgid "There are photos on the card. Would you like to add these photos to your album?"
-msgstr "Des photos se trouvent sur la carte. Voulez-vous les ajouter à votre album ?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr ""
+"Des photos se trouvent sur la carte. Voulez-vous les ajouter à votre album ?"
 
 #. prompt the user whether to execute this file
-#: thunar-volman/tvm-block-device.c:300
-#: thunar-volman/tvm-block-device.c:338
+#: thunar-volman/tvm-block-device.c:300 thunar-volman/tvm-block-device.c:338
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
 msgstr "Permettez-vous l'exécution de \"%s\" ?"
 
-#: thunar-volman/tvm-block-device.c:301
-#: thunar-volman/tvm-block-device.c:339
+#: thunar-volman/tvm-block-device.c:301 thunar-volman/tvm-block-device.c:339
 msgid "Auto-Run Confirmation"
 msgstr "Confirmation d'auto-exécution"
 
-#: thunar-volman/tvm-block-device.c:302
-#: thunar-volman/tvm-block-device.c:340
+#: thunar-volman/tvm-block-device.c:302 thunar-volman/tvm-block-device.c:340
 msgid "Auto-Run capability detected"
 msgstr "Possibilité d'auto-exécution détectée"
 
-#: thunar-volman/tvm-block-device.c:304
-#: thunar-volman/tvm-block-device.c:342
+#: thunar-volman/tvm-block-device.c:304 thunar-volman/tvm-block-device.c:342
 msgid "_Allow Auto-Run"
 msgstr "_Permettre l'auto-exécution"
 
@@ -383,18 +376,15 @@ msgstr "Com_mande :"
 msgid "Failed to open the documentation browser"
 msgstr "Échec à l'ouverture du navigateur de documents"
 
-#: thunar-volman/tvm-run.c:133
-#: thunar-volman/tvm-run.c:144
+#: thunar-volman/tvm-run.c:133 thunar-volman/tvm-run.c:144
 msgid "Choose Disc Type"
 msgstr "Choisir le type de disque"
 
-#: thunar-volman/tvm-run.c:134
-#: thunar-volman/tvm-run.c:145
+#: thunar-volman/tvm-run.c:134 thunar-volman/tvm-run.c:145
 msgid "You have inserted a blank disc."
 msgstr "Vous avez inséré un disque vierge."
 
-#: thunar-volman/tvm-run.c:135
-#: thunar-volman/tvm-run.c:146
+#: thunar-volman/tvm-run.c:135 thunar-volman/tvm-run.c:146
 msgid "What would you like to do?"
 msgstr "Que voulez-vous faire ?"
 
@@ -409,4 +399,3 @@ msgstr "Créer un CD de données"
 #: thunar-volman/tvm-run.c:149
 msgid "Make _Audio CD"
 msgstr "Créer un CD _audio"
-

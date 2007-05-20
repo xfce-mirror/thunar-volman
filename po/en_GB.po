@@ -15,7 +15,7 @@ msgstr ""
 "Language-Team: English/GB\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: thunar-volman/main.c:50
 msgid "The HAL device UDI of the newly added device"
@@ -402,4 +402,3 @@ msgstr "Make _Data CD"
 #: thunar-volman/tvm-run.c:149
 msgid "Make _Audio CD"
 msgstr "Make _Audio CD"
-
