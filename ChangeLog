@@ -1,5 +1,11 @@
 2007-05-20	Benedikt Meurer <benny@xfce.org>
 
+	* thunar-volman/tvm-block-device.c(tvm_block_device_added): Try
+	  automount only if the volume actually contains a filesystem.
+	  Patch from Brian Tarricone <bjt23@cornell.edu>. Bug #2789.
+
+2007-05-20	Benedikt Meurer <benny@xfce.org>
+
 	* configure.in.in, INSTALL: Update for new autoconf.
 	* configure.in.in, Makefile.am, thunar-volman-settings.desktop.in.in,
 	  thunar-volman-settings.in: Install .desktop file to launch the

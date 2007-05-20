@@ -581,8 +581,10 @@ tvm_block_device_added (TvmPreferences *preferences,
   gboolean  automount;
   gboolean  autoplay;
   gboolean  is_cdrom;
+  gboolean  has_filesystem;
   gchar    *storage_udi;
   gchar    *drive_type;
+  gchar    *fsusage;
   gint      response;
 
   g_return_val_if_fail (exo_hal_udi_validate (udi, -1, NULL), FALSE);
@@ -719,6 +721,13 @@ automount_disc:   /* check if we should automount removable media */
       /* we don't need the storage UDI any more */
       libhal_free_string (storage_udi);
     }
+
+  /* make sure the volume has a mountable filesystem */
+  fsusage = libhal_device_get_property_string (context, udi, "volume.fsusage", NULL);
+  has_filesystem = (G_LIKELY (fsusage && strcmp (fsusage, "filesystem") == 0));
+  libhal_free_string (fsusage);
+  if (G_UNLIKELY (!has_filesystem))
+    return FALSE;
 
   /* check if we should automount drives, otherwise, we're done here */
   g_object_get (G_OBJECT (preferences), "automount-drives", &automount, NULL);
