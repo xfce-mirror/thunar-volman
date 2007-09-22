@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-01-15 21:12+0100\n"
-"PO-Revision-Date: 2007-08-23 23:07+0100\n"
+"PO-Revision-Date: 2007-09-21 16:11+0100\n"
 "Last-Translator: Nuno Miguel <nunis@netcabo.pt>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -113,7 +113,7 @@ msgstr "Existem fotos no cartão. Deseja adicionar ao álbum?"
 #: thunar-volman/tvm-block-device.c:338
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "Deseja correr \"%s\"?"
+msgstr "Deseja permitir a execução de \"%s\"?"
 
 #: thunar-volman/tvm-block-device.c:301
 #: thunar-volman/tvm-block-device.c:339
@@ -128,7 +128,7 @@ msgstr "Capacidade Auto-Run detectada"
 #: thunar-volman/tvm-block-device.c:304
 #: thunar-volman/tvm-block-device.c:342
 msgid "_Allow Auto-Run"
-msgstr "Permitir Auto-Run"
+msgstr "_Permitir Auto-Run"
 
 #. prompt the user whether to autoopen this file
 #: thunar-volman/tvm-block-device.c:399
@@ -218,15 +218,15 @@ msgstr "_Montar drives removíveis quando hot-plugged"
 
 #: thunar-volman/tvm-preferences-dialog.c:175
 msgid "Mount removable media when _inserted"
-msgstr "Montar Dispositivos removíveis quando _inseridos"
+msgstr "Montar dispositivos removíveis quando _inseridos"
 
 #: thunar-volman/tvm-preferences-dialog.c:180
 msgid "B_rowse removable media when inserted"
-msgstr "Explorar dispositivo quando inserido"
+msgstr "Explo_rar dispositivo quando inserido"
 
 #: thunar-volman/tvm-preferences-dialog.c:185
 msgid "_Auto-run programs on new drives and media"
-msgstr "Auto-carregar programas em novas drives"
+msgstr "_Auto-carregar programas em novas drives"
 
 #: thunar-volman/tvm-preferences-dialog.c:190
 msgid "Auto-open files on new drives and media"
@@ -242,7 +242,7 @@ msgstr "_Queimar um CD ou DVD quando inserido um disco vazio"
 
 #: thunar-volman/tvm-preferences-dialog.c:224
 msgid "Command for _Data CDs:"
-msgstr "Comando para _CDs de Dados:"
+msgstr "Comando para CDs de _Dados:"
 
 #: thunar-volman/tvm-preferences-dialog.c:231
 msgid "Command for A_udio CDs:"
@@ -288,7 +288,7 @@ msgstr "C_omando:"
 
 #: thunar-volman/tvm-preferences-dialog.c:319
 msgid "Portable Music Players"
-msgstr "Dispositivos de música portáteis"
+msgstr "Dispositivos de Música Portáteis"
 
 #: thunar-volman/tvm-preferences-dialog.c:336
 msgid "Play _music files when connected"
@@ -377,7 +377,7 @@ msgstr "Executar automaticamente um programa quando um _tablet é ligado"
 
 #: thunar-volman/tvm-preferences-dialog.c:605
 msgid "Com_mand:"
-msgstr "Co_mando"
+msgstr "Co_mando:"
 
 #: thunar-volman/tvm-preferences-dialog.c:690
 msgid "Failed to open the documentation browser"
@@ -404,9 +404,9 @@ msgstr "Criar _DVD"
 
 #: thunar-volman/tvm-run.c:148
 msgid "Make _Data CD"
-msgstr "Criar _CD de Dados"
+msgstr "Criar CD de _Dados"
 
 #: thunar-volman/tvm-run.c:149
 msgid "Make _Audio CD"
-msgstr "Criar CD de _Áudio"
+msgstr "Criar CD de Á_udio"
 
