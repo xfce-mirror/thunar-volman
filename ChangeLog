@@ -1,3 +1,8 @@
+2007-10-09	Benedikt Meurer <benny@xfce.org>
+
+	* thunar-volman/tvm-block-device.c: Properly ignore case looking
+	  for VCD, VIDEO_TS and DCIM folders. Bug #3038.
+
 2007-05-20	Benedikt Meurer <benny@xfce.org>
 
 	* thunar-volman/tvm-preferences.c(tvm_preferences_set_property):

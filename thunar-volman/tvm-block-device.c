@@ -47,6 +47,9 @@
 
 
 
+static gboolean tvm_file_test               (const gchar    *directory,
+                                             const gchar    *filename,
+                                             GFileTest       test);
 static gboolean tvm_block_device_autoipod   (TvmPreferences *preferences,
                                              LibHalContext  *context,
                                              const gchar    *udi,
@@ -75,6 +78,46 @@ static gboolean tvm_block_device_mounted    (TvmPreferences *preferences,
                                              const gchar    *device_file,
                                              const gchar    *mount_point,
                                              GError        **error);
+
+
+
+static gboolean
+tvm_file_test (const gchar *directory,
+               const gchar *filename,
+               GFileTest    test)
+{
+  const gchar *name;
+  gboolean     result = FALSE;
+  gchar       *path;
+  GDir        *dp;
+
+  /* try to open the specified directory */
+  dp = g_dir_open (directory, 0, NULL);
+  if (G_LIKELY (dp != NULL))
+    {
+      while (!result)
+        {
+          /* read the next entry */
+          name = g_dir_read_name (dp);
+          if (G_UNLIKELY (name == NULL))
+            break;
+
+          /* check if we have a potential match */
+          if (g_ascii_strcasecmp (name, filename) == 0)
+            {
+              /* check if test condition met */
+              path = g_build_filename (directory, name, NULL);
+              result = g_file_test (path, test);
+              g_free (path);
+            }
+        }
+
+      /* cleanup */
+      g_dir_close (dp);
+    }
+
+  return result;
+}
 
 
 
@@ -192,7 +235,6 @@ tvm_block_device_autophoto (TvmPreferences *preferences,
   gboolean result = FALSE;
   gboolean autophoto;
   gchar   *autophoto_command;
-  gchar   *path_dcim;
   gint     response;
 
   /* check autophoto support is enabled */
@@ -200,8 +242,7 @@ tvm_block_device_autophoto (TvmPreferences *preferences,
   if (G_LIKELY (autophoto && autophoto_command != NULL && *autophoto_command != '\0'))
     {
       /* check if we have photos on the volume */
-      path_dcim = g_build_filename (mount_point, "dcim", NULL);
-      if (g_file_test (path_dcim, G_FILE_TEST_IS_DIR))
+      if (tvm_file_test (mount_point, "dcim", G_FILE_TEST_IS_DIR))
         {
           /* add the "content.photos" capability to this device */
           libhal_device_add_capability (context, udi, "content.photos", NULL);
@@ -224,7 +265,6 @@ tvm_block_device_autophoto (TvmPreferences *preferences,
               result = TRUE;
             }
         }
-      g_free (path_dcim);
     }
   g_free (autophoto_command);
 
@@ -248,11 +288,8 @@ tvm_block_device_autorun (TvmPreferences *preferences,
   gboolean    autoplay;
   gboolean    autorun;
   gchar      *autoplay_command;
-  gchar      *path_video_ts;
   gchar      *path_autoopen;
-  gchar      *path_autorun;
   gchar       line[1024];
-  gchar      *path_vcd;
   gchar      *message;
   gchar      *wine;
   gchar     **argv;
@@ -265,21 +302,13 @@ tvm_block_device_autorun (TvmPreferences *preferences,
   if (G_LIKELY (autoplay))
     {
       /* check if we have a video CD or video DVD here */
-      path_vcd = g_build_filename (mount_point, "vcd", NULL);
-      path_video_ts = g_build_filename (mount_point, "video_ts", NULL);
-      if (g_file_test (path_vcd, G_FILE_TEST_IS_DIR) || g_file_test (path_video_ts, G_FILE_TEST_IS_DIR))
+      if (tvm_file_test (mount_point, "vcd", G_FILE_TEST_IS_DIR) || tvm_file_test (mount_point, "video_ts", G_FILE_TEST_IS_DIR))
         {
           /* try to spawn the preferred video CD/DVD-Player */
           result = tvm_run_command (context, udi, autoplay_command, device_file, mount_point, error);
           g_free (autoplay_command);
-          g_free (path_video_ts);
-          g_free (path_vcd);
           return result;
         }
-
-      /* cleanup */
-      g_free (path_video_ts);
-      g_free (path_vcd);
     }
   g_free (autoplay_command);
 
@@ -292,9 +321,8 @@ tvm_block_device_autorun (TvmPreferences *preferences,
       for (n = 0; n < G_N_ELEMENTS (AUTORUN); ++n)
         {
           /* check if one of the autorun files is present and executable */
-          path_autorun = g_build_filename (mount_point, AUTORUN[n], NULL);
-          if (g_file_test (path_autorun, G_FILE_TEST_IS_EXECUTABLE)
-              && g_file_test (path_autorun, G_FILE_TEST_IS_REGULAR))
+          if (tvm_file_test (mount_point, AUTORUN[n], G_FILE_TEST_IS_EXECUTABLE)
+              && tvm_file_test (mount_point, AUTORUN[n], G_FILE_TEST_IS_REGULAR))
             {
               /* prompt the user whether to execute this file */
               message = g_strdup_printf (_("Would you like to allow \"%s\" to run?"), AUTORUN[n]);
@@ -310,7 +338,7 @@ tvm_block_device_autorun (TvmPreferences *preferences,
                 {
                   /* prepare argv to launch autorun file */
                   argv = g_new (gchar *, 2);
-                  argv[0] = path_autorun;
+                  argv[0] = g_build_filename (mount_point, AUTORUN[n], NULL);
                   argv[1] = NULL;
 
                   /* try to launch the autorun file */
@@ -323,7 +351,6 @@ tvm_block_device_autorun (TvmPreferences *preferences,
                   return result;
                 }
             }
-          g_free (path_autorun);
         }
 
       /* check if wine is present */
@@ -331,8 +358,7 @@ tvm_block_device_autorun (TvmPreferences *preferences,
       if (G_UNLIKELY (wine != NULL))
         {
           /* check if we have an autorun.exe file */
-          path_autorun = g_build_filename (mount_point, "autorun.exe", NULL);
-          if (g_file_test (path_autorun, G_FILE_TEST_IS_REGULAR))
+          if (tvm_file_test (mount_point, "autorun.exe", G_FILE_TEST_IS_REGULAR))
             {
               /* prompt the user whether to execute this file */
               message = g_strdup_printf (_("Would you like to allow \"%s\" to run?"), "autorun.exe");
@@ -356,14 +382,12 @@ tvm_block_device_autorun (TvmPreferences *preferences,
                   result = g_spawn_async (mount_point, argv, NULL, 0, NULL, NULL, NULL, error);
 
                   /* cleanup */
-                  g_free (path_autorun);
                   g_strfreev (argv);
 
                   /* outa here */
                   return result;
                 }
             }
-          g_free (path_autorun);
         }
       g_free (wine);
     }
