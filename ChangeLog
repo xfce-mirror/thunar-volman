@@ -1,3 +1,10 @@
+2007-12-02	Benedikt Meurer <benny@xfce.org>
+
+	* === Released 0.2.0 ===
+	* NEWS, configure.in.in: Bump version.
+	* THANKS: Add missing translator credits.
+	* po/*.po: Update Project-Id-Version.
+
 2007-10-09	Benedikt Meurer <benny@xfce.org>
 
 	* thunar-volman/tvm-block-device.c: Properly ignore case looking

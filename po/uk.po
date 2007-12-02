@@ -5,7 +5,7 @@
 # Dmitry Nikitin <luckas_fb@mail.ru>, 2007.
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman\n"
+"Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-01-15 21:12+0100\n"
 "PO-Revision-Date: 2007-03-02 16:12+0200\n"

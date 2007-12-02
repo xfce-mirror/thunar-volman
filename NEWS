@@ -1,3 +1,16 @@
+0.2.0
+=====
+- Properly ignore case looking for VCD, VIDEO_TS and DCIM folders (Bug #3038).
+- Do not try to automount if the volume does not contain a filesystem
+  (Bug #2789).
+- Install a .desktop file for the thunar-volman preferences (Bug #3225).
+- Updated translations: Maximilian Schleiss (fr)
+- New translations: Jeff Bailes (en_GB), Piarres Beobide (eu), Roberto Pariset
+                    (it), Rihards Priedītis (lv), Terje Uriansrud (nb_NO),
+                    Remco den Breeje (nl), Fábio Nogueira (pt_BR), Nuno Miguel
+                    (pt_PT), Besnik Bleta (sq), محمد علي المكي  (ur)
+
+
 0.1.2
 =====
 - New Pocket PC icon contributed by Eugenia Loli-Queru <eugenia@osnews.com>.
