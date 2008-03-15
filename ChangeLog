@@ -1,3 +1,9 @@
+2008-03-15	Benedikt Meurer <benny@xfce.org>
+
+	* thunar-volman/tvm-block-device.c: Apply patch from Tino Keitel
+	  and Colin Leroy to fix USB flash drives being incorrectly
+	  recognized as audio players. Bug #2856.
+
 2007-12-02	Benedikt Meurer <benny@xfce.org>
 
 	* configure.in.in: Post-release version bump.

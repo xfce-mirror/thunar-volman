@@ -131,12 +131,13 @@ tvm_block_device_autoipod (TvmPreferences *preferences,
 {
   gboolean result = FALSE;
   gboolean autoipod;
+  gboolean is_audio_player = FALSE;
   gchar   *autoipod_command;
   gchar   *autophoto_command;
   gchar   *storage_udi;
   gchar   *path_dcim = NULL;
   gchar   *product;
-  gint     response;
+  gint     response = TVM_RESPONSE_NONE;
 
   /* check if music players should be handled automatically */
   g_object_get (G_OBJECT (preferences), "autoipod", &autoipod, "autoipod-command", &autoipod_command, NULL);
@@ -149,6 +150,7 @@ tvm_block_device_autoipod (TvmPreferences *preferences,
           /* check if we have a portable audio player here */
           if (libhal_device_query_capability (context, storage_udi, "portable_audio_player", NULL))
             {
+	      is_audio_player = TRUE;
               /* check if we have an iPod here */
               product = libhal_device_get_property_string (context, storage_udi, "info.product", NULL);
               if (product != NULL && strcmp (product, "iPod") != 0)
@@ -194,7 +196,8 @@ tvm_block_device_autoipod (TvmPreferences *preferences,
           else
             {
               /* no photos, so we can manage only music */
-              response = TVM_RESPONSE_MUSIC;
+              if(is_audio_player)
+		      response = TVM_RESPONSE_MUSIC;
             }
 
           /* check what to do */
