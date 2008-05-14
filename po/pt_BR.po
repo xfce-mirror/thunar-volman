@@ -2,14 +2,15 @@
 # Copyright (C) 2007 THE Thunar-volman'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Thunar-volman package.
 # Fábio Nogueira <deb-user-ba@ubuntu.com>, 2007.
+# Og Maciel <ogmaciel@gnome.org>, 2008.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-01-15 21:12+0100\n"
-"PO-Revision-Date: 2007-08-30 20:29-0300\n"
-"Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
+"PO-Revision-Date: 2008-05-14 10:45-0400\n"
+"Last-Translator: Og Maciel <ogmaciel@gnome.org>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +34,7 @@ msgstr "Imprime as informações sobre a versão e sai"
 #. setup application name
 #: thunar-volman/main.c:69
 msgid "Thunar Volume Manager"
-msgstr "Gerente de Volumes Thunar"
+msgstr "Gerenciador de Volumes Thunar"
 
 #: thunar-volman/main.c:90
 msgid "Failed to open display"
