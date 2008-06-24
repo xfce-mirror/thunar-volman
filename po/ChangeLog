@@ -1,3 +1,7 @@
+2008-06-24  Jari Rahkonen <jari.rahkonen@pp1.inet.fi>
+
+	* fi.po: Fixed a string in the Finnish translation.
+
 2008-06-22  Mike Massonnet <mmassonnet@xfce.org>
 
 	* id.po, LINGUAS: Add Indonesian translation (Andhika Padmawan)
@@ -6,7 +10,7 @@
 
     * pt_BR.po: Updated Brazilian Portuguese translation
 
-2008-03-18	Mike Massonnet <mmassonnet@xfce.org>
+2008-03-18  Mike Massonnet <mmassonnet@xfce.org>
 
 	* pt_PT.po: Update Portuguese translation by Nuno Miguel
 
