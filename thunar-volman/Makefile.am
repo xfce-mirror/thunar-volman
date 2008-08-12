@@ -21,6 +21,8 @@ thunar_volman_SOURCES =							\
 	tvm-camera-device.h						\
 	tvm-command-entry.c						\
 	tvm-command-entry.h						\
+	tvm-crypto-volume.c						\
+	tvm-crypto-volume.h						\
 	tvm-device.c							\
 	tvm-device.h							\
 	tvm-input-device.c						\

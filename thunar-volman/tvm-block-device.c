@@ -1,6 +1,6 @@
 /* $Id$ */
 /*-
- * Copyright (c) 2007 Benedikt Meurer <benny@xfce.org>.
+ * Copyright (c) 2007-2008 Benedikt Meurer <benny@xfce.org>.
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the Free
@@ -42,6 +42,7 @@
 #include <dbus/dbus-glib-lowlevel.h>
 
 #include <thunar-volman/tvm-block-device.h>
+#include <thunar-volman/tvm-crypto-volume.h>
 #include <thunar-volman/tvm-prompt.h>
 #include <thunar-volman/tvm-run.h>
 
@@ -609,6 +610,7 @@ tvm_block_device_added (TvmPreferences *preferences,
   gboolean  autoplay;
   gboolean  is_cdrom;
   gboolean  has_filesystem;
+  gboolean  has_crypto;
   gchar    *storage_udi;
   gchar    *drive_type;
   gchar    *fsusage;
@@ -749,20 +751,30 @@ automount_disc:   /* check if we should automount removable media */
       libhal_free_string (storage_udi);
     }
 
-  /* make sure the volume has a mountable filesystem */
+  /* determine the file system usage of the volume */
   fsusage = libhal_device_get_property_string (context, udi, "volume.fsusage", NULL);
-  has_filesystem = (G_LIKELY (fsusage && strcmp (fsusage, "filesystem") == 0));
+  has_crypto = (G_UNLIKELY (fsusage != NULL && strcmp (fsusage, "crypto") == 0));
+  has_filesystem = (G_LIKELY (fsusage != NULL && strcmp (fsusage, "filesystem") == 0));
   libhal_free_string (fsusage);
-  if (G_UNLIKELY (!has_filesystem))
-    return FALSE;
 
-  /* check if we should automount drives, otherwise, we're done here */
-  g_object_get (G_OBJECT (preferences), "automount-drives", &automount, NULL);
-  if (G_UNLIKELY (!automount))
-    return FALSE;
+  /* check if we have a crypto volume to setup here */
+  if (G_UNLIKELY (has_crypto))
+    {
+      /* try to setup the crypto volume */
+      return tvm_crypto_volume_setup (preferences, context, udi, error);
+    }
+  else if (G_LIKELY (has_filesystem))
+    {
+      /* check if we should automount drives, otherwise, we're done here */
+      g_object_get (G_OBJECT (preferences), "automount-drives", &automount, NULL);
+      if (G_UNLIKELY (!automount))
+        return FALSE;
 
-  /* try to mount the block device */
-  return tvm_block_device_mount (preferences, context, udi, error);
+      /* try to mount the block device */
+      return tvm_block_device_mount (preferences, context, udi, error);
+    }
+
+  return FALSE;
 }
 
 
