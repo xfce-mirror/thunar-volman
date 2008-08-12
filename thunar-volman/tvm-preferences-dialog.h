@@ -22,7 +22,7 @@
 
 #include <thunar-volman/tvm-preferences.h>
 
-G_BEGIN_DECLS;
+G_BEGIN_DECLS
 
 typedef struct _TvmPreferencesDialogClass TvmPreferencesDialogClass;
 typedef struct _TvmPreferencesDialog      TvmPreferencesDialog;
@@ -38,6 +38,6 @@ GType      tvm_preferences_dialog_get_type (void) G_GNUC_CONST G_GNUC_INTERNAL;
 
 GtkWidget *tvm_preferences_dialog_new      (void) G_GNUC_INTERNAL G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT;
 
-G_END_DECLS;
+G_END_DECLS
 
 #endif /* !__TVM_PREFERENCES_DIALOG_H__ */

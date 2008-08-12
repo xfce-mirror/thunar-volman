@@ -22,7 +22,7 @@
 
 #include <exo/exo.h>
 
-G_BEGIN_DECLS;
+G_BEGIN_DECLS
 
 typedef struct _TvmCommandEntryClass TvmCommandEntryClass;
 typedef struct _TvmCommandEntry      TvmCommandEntry;
@@ -56,6 +56,6 @@ const gchar *tvm_command_entry_get_command    (TvmCommandEntry *command_entry) G
 void         tvm_command_entry_set_command    (TvmCommandEntry *command_entry,
                                                const gchar     *command) G_GNUC_INTERNAL;
 
-G_END_DECLS;
+G_END_DECLS
 
 #endif /* !__TVM_COMMAND_ENTRY_H__ */

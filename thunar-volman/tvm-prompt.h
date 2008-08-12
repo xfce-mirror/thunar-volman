@@ -22,7 +22,7 @@
 
 #include <thunar-volman/tvm-device.h>
 
-G_BEGIN_DECLS;
+G_BEGIN_DECLS
 
 enum
 {
@@ -46,6 +46,6 @@ gint tvm_prompt (LibHalContext *context,
                  const gchar   *first_button_text,
                  ...) G_GNUC_INTERNAL G_GNUC_NULL_TERMINATED;
 
-G_END_DECLS;
+G_END_DECLS
 
 #endif /* !__TVM_PROMPT_H__ */

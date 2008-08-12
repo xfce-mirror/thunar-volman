@@ -26,7 +26,7 @@
 
 #include <thunar-volman/tvm-preferences.h>
 
-G_BEGIN_DECLS;
+G_BEGIN_DECLS
 
 /**
  * TvmDeviceCallback:
@@ -53,6 +53,6 @@ gboolean tvm_device_added (TvmPreferences *preferences,
                            const gchar    *udi,
                            GError        **error) G_GNUC_INTERNAL;
 
-G_END_DECLS;
+G_END_DECLS
 
 #endif /* !__TVM_DEVICE_H__ */

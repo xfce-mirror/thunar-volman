@@ -1,3 +1,9 @@
+2008-08-12  Brian Tarricone <bjt23@cornell.edu>
+
+	* thunar-volman/*.h: Remove semicolons after G_BEGIN_DECLS/G_END_DECLS
+	  macros; they'd be harmful if compiled with a C++ compiler.
+	  Patch from Colin Leroy.  Bug #3349.
+
 2008-03-15	Benedikt Meurer <benny@xfce.org>
 
 	* thunar-volman/tvm-block-device.c: Apply patch from Tino Keitel

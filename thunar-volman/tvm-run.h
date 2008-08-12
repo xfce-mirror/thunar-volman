@@ -22,7 +22,7 @@
 
 #include <thunar-volman/tvm-device.h>
 
-G_BEGIN_DECLS;
+G_BEGIN_DECLS
 
 gboolean tvm_run_cdburner (TvmPreferences *preferences,
                            LibHalContext  *context,
@@ -41,6 +41,6 @@ gboolean tvm_run_command  (LibHalContext  *context,
                            const gchar    *mount_point,
                            GError        **error) G_GNUC_INTERNAL;
 
-G_END_DECLS;
+G_END_DECLS
 
 #endif /* !__TVM_RUN_H__ */

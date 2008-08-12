@@ -22,7 +22,7 @@
 
 #include <exo/exo.h>
 
-G_BEGIN_DECLS;
+G_BEGIN_DECLS
 
 typedef struct _TvmPreferencesClass TvmPreferencesClass;
 typedef struct _TvmPreferences      TvmPreferences;
@@ -38,6 +38,6 @@ GType           tvm_preferences_get_type (void) G_GNUC_CONST;
 
 TvmPreferences *tvm_preferences_get      (void);
 
-G_END_DECLS;
+G_END_DECLS
 
 #endif /* !__TVM_PREFERENCES_H__ */

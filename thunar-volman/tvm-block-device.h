@@ -22,7 +22,7 @@
 
 #include <thunar-volman/tvm-device.h>
 
-G_BEGIN_DECLS;
+G_BEGIN_DECLS
 
 gboolean tvm_block_device_added (TvmPreferences *preferences,
                                  LibHalContext  *context,
@@ -30,6 +30,6 @@ gboolean tvm_block_device_added (TvmPreferences *preferences,
                                  const gchar    *capability,
                                  GError        **error) G_GNUC_INTERNAL;
 
-G_END_DECLS;
+G_END_DECLS
 
 #endif /* !__TVM_BLOCK_DEVICE_H__ */
