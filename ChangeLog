@@ -1,6 +1,7 @@
 2008-08-12	Brian Tarricone <bjt23@cornell.edu>
 
-	* thunar-volman/{Makefile.am,tvm-block-device.c}: Add support
+	* thunar-volman/{Makefile.am,tvm-block-device.c},
+	  thunar-volman/tvm-crypto-volume.{c,h}: Add support
 	  for auto-mounting encrypted volumes.  Patch from Colin
 	  Leroy.  Bug #3349.
 	* configure.in.in: Bump exo-hal version requirement to ensure
