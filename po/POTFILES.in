@@ -2,6 +2,7 @@ thunar-volman/main.c
 thunar-volman/tvm-block-device.c
 thunar-volman/tvm-camera-device.c
 thunar-volman/tvm-command-entry.c
+thunar-volman/tvm-crypto-volume.c
 thunar-volman/tvm-device.c
 thunar-volman/tvm-input-device.c
 thunar-volman/tvm-pango-extensions.c
@@ -13,3 +14,4 @@ thunar-volman/tvm-prompt.c
 thunar-volman/tvm-run.c
 thunar-volman/xfce-heading.c
 thunar-volman/xfce-titled-dialog.c
+thunar-volman-settings.desktop.in.in
