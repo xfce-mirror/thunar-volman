@@ -1,16 +1,16 @@
 # Brazilian Portuguese translations for Thunar-volman package.
 # Copyright (C) 2007 THE Thunar-volman'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the Thunar-volman package.
-# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2007.
+# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2007-2008.
 # Og Maciel <ogmaciel@gnome.org>, 2008.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-30 02:26-0700\n"
-"PO-Revision-Date: 2008-05-14 10:45-0400\n"
-"Last-Translator: Og Maciel <ogmaciel@gnome.org>\n"
+"PO-Revision-Date: 2008-08-30 13:32-0300\n"
+"Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +21,8 @@ msgstr ""
 msgid "The HAL device UDI of the newly added device"
 msgstr "O UDI do dispositivo HAL do dispositivo recentemente adicionado"
 
-#: ../thunar-volman/main.c:51 ../thunar-volman/tvm-preferences-dialog.c:120
+#: ../thunar-volman/main.c:51
+#: ../thunar-volman/tvm-preferences-dialog.c:120
 #: ../thunar-volman-settings.desktop.in.in.h:1
 msgid "Configure management of removable drives and media"
 msgstr "Configurar o gerenciamento de drives e mídias removíveis"
@@ -33,7 +34,7 @@ msgstr "Imprime as informações sobre a versão e sai"
 #. setup application name
 #: ../thunar-volman/main.c:69
 msgid "Thunar Volume Manager"
-msgstr "Gerenciador de Volumes Thunar"
+msgstr "Gerenciador de volumes Thunar"
 
 #: ../thunar-volman/main.c:90
 msgid "Failed to open display"
@@ -62,8 +63,7 @@ msgstr "O UDI especificado \"%s\" não é um UDI de dispositivo HAL válido"
 #: ../thunar-volman/main.c:144
 #, c-format
 msgid "Must specify the new HAL device UDI with --device-added"
-msgstr ""
-"É necessário especificar o novo UDI de dispositivo HAL com --device-added"
+msgstr "É necessário especificar o novo UDI de dispositivo HAL com --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:189
@@ -84,7 +84,8 @@ msgstr "Você gostaria de importar as fotos ou organizar as músicas?"
 #: ../thunar-volman/tvm-block-device.c:371
 #: ../thunar-volman/tvm-block-device.c:430
 #: ../thunar-volman/tvm-block-device.c:703
-#: ../thunar-volman/tvm-crypto-volume.c:448 ../thunar-volman/tvm-run.c:136
+#: ../thunar-volman/tvm-crypto-volume.c:448
+#: ../thunar-volman/tvm-run.c:136
 #: ../thunar-volman/tvm-run.c:147
 msgid "Ig_nore"
 msgstr "Ig_norar"
@@ -92,27 +93,24 @@ msgstr "Ig_norar"
 #: ../thunar-volman/tvm-block-device.c:193
 #: ../thunar-volman/tvm-block-device.c:259
 msgid "Import _Photos"
-msgstr "Importar _Fotos"
+msgstr "Importar _fotos"
 
 #: ../thunar-volman/tvm-block-device.c:194
 msgid "Manage _Music"
-msgstr "Organizar _Música"
+msgstr "Organizar _música"
 
 #. ask the user whether to import photos
 #: ../thunar-volman/tvm-block-device.c:255
 msgid "Photo Import"
-msgstr "Importação de Fotos"
+msgstr "Importação de fotos"
 
 #: ../thunar-volman/tvm-block-device.c:256
 msgid "A photo card has been detected."
 msgstr "Um cartão de foto foi detectado."
 
 #: ../thunar-volman/tvm-block-device.c:257
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
-msgstr ""
-"Existem fotos no cartão. Você gostaria de adicionar estas fotos no seu álbum?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "Existem fotos no cartão. Você gostaria de adicionar estas fotos no seu álbum?"
 
 #. prompt the user whether to execute this file
 #: ../thunar-volman/tvm-block-device.c:332
@@ -124,17 +122,17 @@ msgstr "Você gostaria de habilitar \"%s\" para ser executado?"
 #: ../thunar-volman/tvm-block-device.c:333
 #: ../thunar-volman/tvm-block-device.c:369
 msgid "Auto-Run Confirmation"
-msgstr "Confirmação de Auto-Execução"
+msgstr "Confirmação de auto-execução"
 
 #: ../thunar-volman/tvm-block-device.c:334
 #: ../thunar-volman/tvm-block-device.c:370
 msgid "Auto-Run capability detected"
-msgstr "Detectada capacidade de Auto-Execução"
+msgstr "Detectada capacidade de auto-execução"
 
 #: ../thunar-volman/tvm-block-device.c:336
 #: ../thunar-volman/tvm-block-device.c:372
 msgid "_Allow Auto-Run"
-msgstr "H_abilitar Auto-Execução"
+msgstr "H_abilitar auto-execução"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:427
@@ -144,11 +142,11 @@ msgstr "Você deseja abrir \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:428
 msgid "Auto-Open Confirmation"
-msgstr "Confirmação de Abertura Automática"
+msgstr "Confirmação de abertura automática"
 
 #: ../thunar-volman/tvm-block-device.c:429
 msgid "Auto-Open capability detected"
-msgstr "Detectada capacidade de Abertura Automática"
+msgstr "Detectada capacidade de abertura automática"
 
 #: ../thunar-volman/tvm-block-device.c:431
 msgid "_Open"
@@ -157,7 +155,7 @@ msgstr "_Abrir"
 #. ask what do with the mixed audio/data disc
 #: ../thunar-volman/tvm-block-device.c:700
 msgid "Audio / Data CD"
-msgstr "CD de Áudio / Dados"
+msgstr "CD de áudio / Dados"
 
 #: ../thunar-volman/tvm-block-device.c:701
 msgid "The CD in the drive contains both music and files."
@@ -169,7 +167,7 @@ msgstr "Você gostaria de escutar as músicas ou navegar pelos arquivos?"
 
 #: ../thunar-volman/tvm-block-device.c:704
 msgid "_Browse Files"
-msgstr "_Navegar pelos Arquivos"
+msgstr "_Navegar pelos arquivos"
 
 #: ../thunar-volman/tvm-block-device.c:705
 msgid "_Play CD"
@@ -177,15 +175,15 @@ msgstr "_Reproduzir CD"
 
 #: ../thunar-volman/tvm-command-entry.c:233
 msgid "Select an Application"
-msgstr "Escolha uma Aplicação"
+msgstr "Escolha um aplicativo"
 
 #: ../thunar-volman/tvm-command-entry.c:243
 msgid "All Files"
-msgstr "Todos os Arquivos"
+msgstr "Todos os arquivos"
 
 #: ../thunar-volman/tvm-command-entry.c:248
 msgid "Executable Files"
-msgstr "Arquivos Executáveis"
+msgstr "Arquivos executáveis"
 
 #: ../thunar-volman/tvm-command-entry.c:263
 msgid "Perl Scripts"
@@ -206,53 +204,52 @@ msgstr "Scripts Shell"
 #: ../thunar-volman/tvm-crypto-volume.c:286
 #: ../thunar-volman/tvm-crypto-volume.c:443
 msgid "Encrypted volume"
-msgstr ""
+msgstr "Volume criptografado"
 
 #: ../thunar-volman/tvm-crypto-volume.c:297
-msgid ""
-"<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-msgstr ""
+msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Montando volume criptografado...</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:302
 msgid "Setting up the crypto layer..."
-msgstr ""
+msgstr "Configurando a camada de criptografia..."
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) but got Permission denied.
 #: ../thunar-volman/tvm-crypto-volume.c:369
 #, c-format
 msgid "You are not privileged to setup the crypto layer"
-msgstr ""
+msgstr "Você não tem privilégios para configurar a camada de cripografia"
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) and typed the wrong password.
 #: ../thunar-volman/tvm-crypto-volume.c:374
 #, c-format
 msgid "Wrong password"
-msgstr ""
+msgstr "Senha incorreta"
 
 #: ../thunar-volman/tvm-crypto-volume.c:445
 msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Senha incorreta.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:446
 msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Este volume está criptografado.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:447
 msgid "Please enter your password to decrypt and mount the volume."
-msgstr ""
+msgstr "Por favor, entre com sua senha para descriptografar e montar o volume."
 
 #: ../thunar-volman/tvm-crypto-volume.c:449
 msgid "_Mount"
-msgstr ""
+msgstr "_Montar"
 
 #: ../thunar-volman/tvm-crypto-volume.c:468
 msgid "Failed to setup the encrypted volume"
-msgstr ""
+msgstr "Falhou ao configurar o volume criptografado."
 
 #: ../thunar-volman/tvm-preferences-dialog.c:119
 #: ../thunar-volman-settings.desktop.in.in.h:2
 msgid "Removable Drives and Media"
-msgstr "Mídias e Unidades Removíveis"
+msgstr "Mídias e Unidades removíveis"
 
 #.
 #. Storage
@@ -263,7 +260,7 @@ msgstr "Armazenamento"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:153
 msgid "Removable Storage"
-msgstr "Armazenamento Removível"
+msgstr "Armazenamento removível"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:170
 msgid "_Mount removable drives when hot-plugged"
@@ -295,11 +292,11 @@ msgstr "_Gravar um CD ou DVD quando um disco em branco for inserido"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:224
 msgid "Command for _Data CDs:"
-msgstr "Comando para CDs de _Dados:"
+msgstr "Comando para CDs de _dados:"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:231
 msgid "Command for A_udio CDs:"
-msgstr "Comando para CDs de Á_udio:"
+msgstr "Comando para CDs de á_udio:"
 
 #.
 #. Multimedia
@@ -310,7 +307,7 @@ msgstr "Multimídia"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:255
 msgid "Audio CDs"
-msgstr "CDs de Áudio"
+msgstr "CDs de áudio"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:272
 msgid "Play _audio CDs when inserted"
@@ -326,7 +323,7 @@ msgstr "_Comando:"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:287
 msgid "Video CDs/DVDs"
-msgstr "CDs/DVDs de Vídeo"
+msgstr "CDs/DVDs de vídeo"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:304
 msgid "Play _video CDs and DVDs when inserted"
@@ -341,7 +338,7 @@ msgstr "C_omando:"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:319
 msgid "Portable Music Players"
-msgstr "Reprodutores Portáteis de Música"
+msgstr "Reprodutores portáteis de música"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:336
 msgid "Play _music files when connected"
@@ -356,7 +353,7 @@ msgstr "Câmeras"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:361
 msgid "Digital Cameras"
-msgstr "Câmeras Digitais"
+msgstr "Câmeras digitais"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:378
 msgid "Import digital photographs when connected"
@@ -395,15 +392,14 @@ msgstr "Impressoras"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:494
 msgid "Automatically run a program when a _printer is connected"
-msgstr ""
-"Executar automaticamente um programa quando uma im_pressora for conectada"
+msgstr "Executar automaticamente um programa quando uma im_pressora for conectada"
 
 #.
 #. Input Devices
 #.
 #: ../thunar-volman/tvm-preferences-dialog.c:509
 msgid "Input Devices"
-msgstr "Dispositivos de Entrada"
+msgstr "Dispositivos de entrada"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:519
 msgid "Keyboards"
@@ -411,8 +407,7 @@ msgstr "Teclados"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:536
 msgid "Automatically run a program when an USB _keyboard is connected"
-msgstr ""
-"Executar automaticamente um programa quando um _teclado USB for conectado"
+msgstr "Executar automaticamente um programa quando um _teclado USB for conectado"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:551
 msgid "Mice"
@@ -420,8 +415,7 @@ msgstr "Mouse"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:568
 msgid "Automatically run a program when an USB _mouse is connected"
-msgstr ""
-"Executar automaticamente um programa quando um _mouse USB for conectado"
+msgstr "Executar automaticamente um programa quando um _mouse USB for conectado"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:583
 msgid "Tablet"
@@ -439,15 +433,18 @@ msgstr "Com_ando:"
 msgid "Failed to open the documentation browser"
 msgstr "Falha ao abrir o navegador de documentação"
 
-#: ../thunar-volman/tvm-run.c:133 ../thunar-volman/tvm-run.c:144
+#: ../thunar-volman/tvm-run.c:133
+#: ../thunar-volman/tvm-run.c:144
 msgid "Choose Disc Type"
-msgstr "Escolha o Tipo de Disco"
+msgstr "Escolha o tipo de disco"
 
-#: ../thunar-volman/tvm-run.c:134 ../thunar-volman/tvm-run.c:145
+#: ../thunar-volman/tvm-run.c:134
+#: ../thunar-volman/tvm-run.c:145
 msgid "You have inserted a blank disc."
 msgstr "Você inseriu um disco em branco."
 
-#: ../thunar-volman/tvm-run.c:135 ../thunar-volman/tvm-run.c:146
+#: ../thunar-volman/tvm-run.c:135
+#: ../thunar-volman/tvm-run.c:146
 msgid "What would you like to do?"
 msgstr "O que você deseja fazer?"
 
@@ -457,13 +454,13 @@ msgstr "Criar _DVD"
 
 #: ../thunar-volman/tvm-run.c:148
 msgid "Make _Data CD"
-msgstr "Criar CD de _Dados"
+msgstr "Criar CD de _dados"
 
 #: ../thunar-volman/tvm-run.c:149
 msgid "Make _Audio CD"
-msgstr "Criar _CD de Áudio"
+msgstr "Criar _CD de áudio"
 
 #: ../thunar-volman-settings.desktop.in.in.h:3
-#, fuzzy
 msgid "Removable Media"
-msgstr "Mídias e Unidades Removíveis"
+msgstr "Mídia removível"
+
