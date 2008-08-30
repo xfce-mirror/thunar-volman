@@ -3,11 +3,12 @@ Encoding=UTF-8
 _Name=Removable Drives and Media
 _Comment=Configure management of removable drives and media
 _GenericName=Removable Drives and Media
+_X-XfceSettingsName=Removable Media
 Exec=@libexecdir@/thunar-volman-settings
 Icon=gnome-dev-removable
 Terminal=false
 StartupNotify=true
 Type=Application
-Categories=X-XFCE;Settings;DesktopSettings;
+Categories=X-XFCE;Settings;DesktopSettings;X-XfceSettingsDialog;
 
 # vi:set encoding=UTF-8:

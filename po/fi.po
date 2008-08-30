@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-06-24 15:43+0300\n"
+"POT-Creation-Date: 2008-08-30 02:26-0700\n"
 "PO-Revision-Date: 2008-06-24 15:44+0300\n"
 "Last-Translator: Jari Rahkonen <jari.rahkonen@pp1.inet.fi>\n"
 "Language-Team: Finnish <fi@li.org>\n"
@@ -20,6 +20,7 @@ msgid "The HAL device UDI of the newly added device"
 msgstr "Lisätyn laitteen HAL:in laite-UDI"
 
 #: ../thunar-volman/main.c:51 ../thunar-volman/tvm-preferences-dialog.c:120
+#: ../thunar-volman-settings.desktop.in.in.h:1
 msgid "Configure management of removable drives and media"
 msgstr "Muokkaa irrotettavien asemien ja taltioiden hallinta-asetuksia"
 
@@ -62,110 +63,111 @@ msgid "Must specify the new HAL device UDI with --device-added"
 msgstr "HAL:in laite-UDI on määritettävä valitsimella --device-added"
 
 #. ...so we need to prompt what to do
-#: ../thunar-volman/tvm-block-device.c:188
+#: ../thunar-volman/tvm-block-device.c:189
 msgid "Photos and Music"
 msgstr "Valokuvia ja Musiikkia"
 
-#: ../thunar-volman/tvm-block-device.c:189
+#: ../thunar-volman/tvm-block-device.c:190
 msgid "Photos were found on your portable music player."
 msgstr "Musiikkisoittimeltasi löytyi valokuvia."
 
-#: ../thunar-volman/tvm-block-device.c:190
+#: ../thunar-volman/tvm-block-device.c:191
 msgid "Would you like to import the photos or manage the music?"
 msgstr "Noudetaanko valokuvia vai hallitaanko musiikkia?"
 
-#: ../thunar-volman/tvm-block-device.c:191
-#: ../thunar-volman/tvm-block-device.c:257
-#: ../thunar-volman/tvm-block-device.c:334
-#: ../thunar-volman/tvm-block-device.c:370
-#: ../thunar-volman/tvm-block-device.c:429
-#: ../thunar-volman/tvm-block-device.c:701 ../thunar-volman/tvm-run.c:136
+#: ../thunar-volman/tvm-block-device.c:192
+#: ../thunar-volman/tvm-block-device.c:258
+#: ../thunar-volman/tvm-block-device.c:335
+#: ../thunar-volman/tvm-block-device.c:371
+#: ../thunar-volman/tvm-block-device.c:430
+#: ../thunar-volman/tvm-block-device.c:703
+#: ../thunar-volman/tvm-crypto-volume.c:448 ../thunar-volman/tvm-run.c:136
 #: ../thunar-volman/tvm-run.c:147
 msgid "Ig_nore"
 msgstr "_Ohita"
 
-#: ../thunar-volman/tvm-block-device.c:192
-#: ../thunar-volman/tvm-block-device.c:258
+#: ../thunar-volman/tvm-block-device.c:193
+#: ../thunar-volman/tvm-block-device.c:259
 msgid "Import _Photos"
 msgstr "Tuo _Valokuvia"
 
-#: ../thunar-volman/tvm-block-device.c:193
+#: ../thunar-volman/tvm-block-device.c:194
 msgid "Manage _Music"
 msgstr "Hallitse _Musiikkia"
 
 #. ask the user whether to import photos
-#: ../thunar-volman/tvm-block-device.c:254
+#: ../thunar-volman/tvm-block-device.c:255
 msgid "Photo Import"
 msgstr "Valokuvien tuonti"
 
-#: ../thunar-volman/tvm-block-device.c:255
+#: ../thunar-volman/tvm-block-device.c:256
 msgid "A photo card has been detected."
 msgstr "Kameran muistikortti havaittu."
 
-#: ../thunar-volman/tvm-block-device.c:256
+#: ../thunar-volman/tvm-block-device.c:257
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
 msgstr "Kortilla on valokuvia. Lisätäänkö kuvat albumiisi?"
 
 #. prompt the user whether to execute this file
-#: ../thunar-volman/tvm-block-device.c:331
-#: ../thunar-volman/tvm-block-device.c:367
+#: ../thunar-volman/tvm-block-device.c:332
+#: ../thunar-volman/tvm-block-device.c:368
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
 msgstr "Sallitaanko sovelluksen \"%s\" suorittaminen?"
 
-#: ../thunar-volman/tvm-block-device.c:332
-#: ../thunar-volman/tvm-block-device.c:368
+#: ../thunar-volman/tvm-block-device.c:333
+#: ../thunar-volman/tvm-block-device.c:369
 msgid "Auto-Run Confirmation"
 msgstr "Automaattikäynnistyksen asetukset"
 
-#: ../thunar-volman/tvm-block-device.c:333
-#: ../thunar-volman/tvm-block-device.c:369
+#: ../thunar-volman/tvm-block-device.c:334
+#: ../thunar-volman/tvm-block-device.c:370
 msgid "Auto-Run capability detected"
 msgstr "Automaattikäynnistys voidaan suorittaa"
 
-#: ../thunar-volman/tvm-block-device.c:335
-#: ../thunar-volman/tvm-block-device.c:371
+#: ../thunar-volman/tvm-block-device.c:336
+#: ../thunar-volman/tvm-block-device.c:372
 msgid "_Allow Auto-Run"
 msgstr "_Salli automaattikäynnistys"
 
 #. prompt the user whether to autoopen this file
-#: ../thunar-volman/tvm-block-device.c:426
+#: ../thunar-volman/tvm-block-device.c:427
 #, c-format
 msgid "Would you like to open \"%s\"?"
 msgstr "Avataanko \"%s\"?"
 
-#: ../thunar-volman/tvm-block-device.c:427
+#: ../thunar-volman/tvm-block-device.c:428
 msgid "Auto-Open Confirmation"
 msgstr "Automaattiavauksen hyväksyminen"
 
-#: ../thunar-volman/tvm-block-device.c:428
+#: ../thunar-volman/tvm-block-device.c:429
 msgid "Auto-Open capability detected"
 msgstr "Automaattiavaus voidaan suorittaa"
 
-#: ../thunar-volman/tvm-block-device.c:430
+#: ../thunar-volman/tvm-block-device.c:431
 msgid "_Open"
 msgstr "_Avaa"
 
 #. ask what do with the mixed audio/data disc
-#: ../thunar-volman/tvm-block-device.c:698
+#: ../thunar-volman/tvm-block-device.c:700
 msgid "Audio / Data CD"
 msgstr "Ääni / Data -CD"
 
-#: ../thunar-volman/tvm-block-device.c:699
+#: ../thunar-volman/tvm-block-device.c:701
 msgid "The CD in the drive contains both music and files."
 msgstr "Asemassa olevalla CD:llä on sekä musiikkia että tiedostoja"
 
-#: ../thunar-volman/tvm-block-device.c:700
+#: ../thunar-volman/tvm-block-device.c:702
 msgid "Would you like to listen to music or browse the files?"
 msgstr "Haluatko kuunnella musiikkia vai selata tiedostoja?"
 
-#: ../thunar-volman/tvm-block-device.c:702
+#: ../thunar-volman/tvm-block-device.c:704
 msgid "_Browse Files"
 msgstr "_Selaa tiedostoja"
 
-#: ../thunar-volman/tvm-block-device.c:703
+#: ../thunar-volman/tvm-block-device.c:705
 msgid "_Play CD"
 msgstr "Soita _CD"
 
@@ -197,7 +199,54 @@ msgstr "Ruby-komentotiedostot"
 msgid "Shell Scripts"
 msgstr "Kehotteen komentosarjat"
 
+#: ../thunar-volman/tvm-crypto-volume.c:286
+#: ../thunar-volman/tvm-crypto-volume.c:443
+msgid "Encrypted volume"
+msgstr ""
+
+#: ../thunar-volman/tvm-crypto-volume.c:297
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+msgstr ""
+
+#: ../thunar-volman/tvm-crypto-volume.c:302
+msgid "Setting up the crypto layer..."
+msgstr ""
+
+#. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) but got Permission denied.
+#: ../thunar-volman/tvm-crypto-volume.c:369
+#, c-format
+msgid "You are not privileged to setup the crypto layer"
+msgstr ""
+
+#. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) and typed the wrong password.
+#: ../thunar-volman/tvm-crypto-volume.c:374
+#, c-format
+msgid "Wrong password"
+msgstr ""
+
+#: ../thunar-volman/tvm-crypto-volume.c:445
+msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
+msgstr ""
+
+#: ../thunar-volman/tvm-crypto-volume.c:446
+msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+msgstr ""
+
+#: ../thunar-volman/tvm-crypto-volume.c:447
+msgid "Please enter your password to decrypt and mount the volume."
+msgstr ""
+
+#: ../thunar-volman/tvm-crypto-volume.c:449
+msgid "_Mount"
+msgstr ""
+
+#: ../thunar-volman/tvm-crypto-volume.c:468
+msgid "Failed to setup the encrypted volume"
+msgstr ""
+
 #: ../thunar-volman/tvm-preferences-dialog.c:119
+#: ../thunar-volman-settings.desktop.in.in.h:2
 msgid "Removable Drives and Media"
 msgstr "Irrotettavat asemat ja taltiot"
 
@@ -406,3 +455,8 @@ msgstr "Luo _data-CD"
 #: ../thunar-volman/tvm-run.c:149
 msgid "Make _Audio CD"
 msgstr "Luo ää_ni-CD"
+
+#: ../thunar-volman-settings.desktop.in.in.h:3
+#, fuzzy
+msgid "Removable Media"
+msgstr "Irrotettavat asemat ja taltiot"

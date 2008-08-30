@@ -1,3 +1,9 @@
+2008-08-30	Brian Tarricone <bjt23@cornell.edu>
+
+	* thunar-volman-settings.desktop.in.in: Add keys to allow the settings
+	  dialog to show up in the new xfce settings manager.
+	* po/{thunar-volman.pot,*.po}: Update potfile and po files.
+
 2008-08-12	Brian Tarricone <bjt23@cornell.edu>
 
 	* thunar-volman/{Makefile.am,tvm-block-device.c},
