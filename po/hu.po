@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-30 02:26-0700\n"
-"PO-Revision-Date: 2008-02-18 22:38+0100\n"
+"PO-Revision-Date: 2008-09-01 05:01+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Hungarian\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,8 @@ msgstr ""
 msgid "The HAL device UDI of the newly added device"
 msgstr "Az új eszköz HAL eszköz UDI azonosítója"
 
-#: ../thunar-volman/main.c:51 ../thunar-volman/tvm-preferences-dialog.c:120
+#: ../thunar-volman/main.c:51
+#: ../thunar-volman/tvm-preferences-dialog.c:120
 #: ../thunar-volman-settings.desktop.in.in.h:1
 msgid "Configure management of removable drives and media"
 msgstr "Eltávolítható meghajtók és média beállítás kezelő"
@@ -79,7 +80,8 @@ msgstr "Fotókat importálsz vagy zenéket kezelsz?"
 #: ../thunar-volman/tvm-block-device.c:371
 #: ../thunar-volman/tvm-block-device.c:430
 #: ../thunar-volman/tvm-block-device.c:703
-#: ../thunar-volman/tvm-crypto-volume.c:448 ../thunar-volman/tvm-run.c:136
+#: ../thunar-volman/tvm-crypto-volume.c:448
+#: ../thunar-volman/tvm-run.c:136
 #: ../thunar-volman/tvm-run.c:147
 msgid "Ig_nore"
 msgstr "Kihagy"
@@ -103,9 +105,7 @@ msgid "A photo card has been detected."
 msgstr "Találtam fotókártyát"
 
 #: ../thunar-volman/tvm-block-device.c:257
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
 msgstr "Vannak fotók a kártyán. Az albumhoz adod őket?"
 
 #. prompt the user whether to execute this file
@@ -200,48 +200,47 @@ msgstr "Héj szkriptek"
 #: ../thunar-volman/tvm-crypto-volume.c:286
 #: ../thunar-volman/tvm-crypto-volume.c:443
 msgid "Encrypted volume"
-msgstr ""
+msgstr "Titkosított kötet"
 
 #: ../thunar-volman/tvm-crypto-volume.c:297
-msgid ""
-"<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-msgstr ""
+msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Titkosított kötet csatolása...</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:302
 msgid "Setting up the crypto layer..."
-msgstr ""
+msgstr "Titkosító réteg beállítása..."
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) but got Permission denied.
 #: ../thunar-volman/tvm-crypto-volume.c:369
 #, c-format
 msgid "You are not privileged to setup the crypto layer"
-msgstr ""
+msgstr "Nincs jogod a titkosító réteg beállításához"
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) and typed the wrong password.
 #: ../thunar-volman/tvm-crypto-volume.c:374
 #, c-format
 msgid "Wrong password"
-msgstr ""
+msgstr "Rossz jelszó"
 
 #: ../thunar-volman/tvm-crypto-volume.c:445
 msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Rossz jelszó.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:446
 msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Ez a kötet titkosított.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:447
 msgid "Please enter your password to decrypt and mount the volume."
-msgstr ""
+msgstr "Add meg a jelszót a titkosítás feloldásához és a kötet csatolásához."
 
 #: ../thunar-volman/tvm-crypto-volume.c:449
 msgid "_Mount"
-msgstr ""
+msgstr "Csatolás"
 
 #: ../thunar-volman/tvm-crypto-volume.c:468
 msgid "Failed to setup the encrypted volume"
-msgstr ""
+msgstr "A titkosított kötet beállítása meghiúsult"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:119
 #: ../thunar-volman-settings.desktop.in.in.h:2
@@ -404,8 +403,7 @@ msgstr "Billentyűzet"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:536
 msgid "Automatically run a program when an USB _keyboard is connected"
-msgstr ""
-"Egy program automata futtatása egy USB _billentyűzet csatlakoztatásakor"
+msgstr "Egy program automata futtatása egy USB _billentyűzet csatlakoztatásakor"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:551
 msgid "Mice"
@@ -431,15 +429,18 @@ msgstr "Para_ncs:"
 msgid "Failed to open the documentation browser"
 msgstr "A dokumentum-böngésző megnyitása sikertelen"
 
-#: ../thunar-volman/tvm-run.c:133 ../thunar-volman/tvm-run.c:144
+#: ../thunar-volman/tvm-run.c:133
+#: ../thunar-volman/tvm-run.c:144
 msgid "Choose Disc Type"
 msgstr "Válassz lemez típust"
 
-#: ../thunar-volman/tvm-run.c:134 ../thunar-volman/tvm-run.c:145
+#: ../thunar-volman/tvm-run.c:134
+#: ../thunar-volman/tvm-run.c:145
 msgid "You have inserted a blank disc."
 msgstr "Tégy be egy üres lemezt"
 
-#: ../thunar-volman/tvm-run.c:135 ../thunar-volman/tvm-run.c:146
+#: ../thunar-volman/tvm-run.c:135
+#: ../thunar-volman/tvm-run.c:146
 msgid "What would you like to do?"
 msgstr "Mit tennél?"
 
@@ -456,6 +457,6 @@ msgid "Make _Audio CD"
 msgstr "H_ang CD készítése"
 
 #: ../thunar-volman-settings.desktop.in.in.h:3
-#, fuzzy
 msgid "Removable Media"
-msgstr "Eltávolítható meghajtók és média"
+msgstr "Eltávolítható média"
+
