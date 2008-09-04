@@ -1,3 +1,7 @@
+2008-09-05	Jannis Pohlmann <jannis@xfce.org>
+
+	* autogen.sh: Add git svn revision versioning support.
+
 2008-08-30	Brian Tarricone <bjt23@cornell.edu>
 
 	* thunar-volman-settings.desktop.in.in: Add keys to allow the settings
