@@ -1,19 +1,21 @@
-# thunar-volman basque translation 
+# translation of eu.po to Euskara
+# thunar-volman basque translation
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Piarres Beobide <pi@beobide.net>, 2007
 #
+# Piarres Beobide <pi@beobide.net>, 2007, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-30 02:26-0700\n"
-"PO-Revision-Date: 2007-09-12 11:45+0200\n"
+"PO-Revision-Date: 2008-09-08 01:37+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
-"Language-Team: Euskara <Librezale@librezale.org>\n"
+"Language-Team: Euskara <debian-l10n-basque@lists.debian.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
 
 #: ../thunar-volman/main.c:50
 msgid "The HAL device UDI of the newly added device"
@@ -22,11 +24,11 @@ msgstr "Gehitu berri den gailuaren HAL gailu UDI-a"
 #: ../thunar-volman/main.c:51 ../thunar-volman/tvm-preferences-dialog.c:120
 #: ../thunar-volman-settings.desktop.in.in.h:1
 msgid "Configure management of removable drives and media"
-msgstr "Gailu eta euskarri aldagarrien kudeaketa konfiguratu"
+msgstr "Konfiguratu gailu eta euskarri aldagarrien kudeaketa"
 
 #: ../thunar-volman/main.c:52
 msgid "Print version information and exit"
-msgstr "Bertsio argibideak inprimatu eta irten"
+msgstr "Inprimatu bertsio argibideak eta irten"
 
 #. setup application name
 #: ../thunar-volman/main.c:69
@@ -48,7 +50,7 @@ msgstr "Benedikt Meurer <benny@xfce.org>-ek idatzia."
 #: ../thunar-volman/main.c:108
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr "Programa erorreen ebrri eman hemen : <%s>"
+msgstr "Programa erroreen berri eman hemen : <%s>"
 
 #. TRANSLATORS: A HAL device UDI must match certain conditions to be valid (to be exact, it must be a valid D-Bus object path)
 #: ../thunar-volman/main.c:133
@@ -65,7 +67,7 @@ msgstr "HAL gailu UDI berria --device-added erabiliaz ezarri behar da"
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:189
 msgid "Photos and Music"
-msgstr "Argazki eta Musika"
+msgstr "Argazki eta musika"
 
 #: ../thunar-volman/tvm-block-device.c:190
 msgid "Photos were found on your portable music player."
@@ -73,7 +75,7 @@ msgstr "Argazkiak aurkitu dira zure musika erreproduktore eramanagarrian."
 
 #: ../thunar-volman/tvm-block-device.c:191
 msgid "Would you like to import the photos or manage the music?"
-msgstr "Argazkiak inportuatu edo musika kudatu nahi duzu?"
+msgstr "Argazkiak inportatu edo musika kudatu nahi duzu?"
 
 #: ../thunar-volman/tvm-block-device.c:192
 #: ../thunar-volman/tvm-block-device.c:258
@@ -89,16 +91,16 @@ msgstr "Ba_ztertu"
 #: ../thunar-volman/tvm-block-device.c:193
 #: ../thunar-volman/tvm-block-device.c:259
 msgid "Import _Photos"
-msgstr "_Argazkiak Inportatu"
+msgstr "Inportatu _Argazkiak"
 
 #: ../thunar-volman/tvm-block-device.c:194
 msgid "Manage _Music"
-msgstr "_Musika Kudeatu"
+msgstr "Kudeatu _musika"
 
 #. ask the user whether to import photos
 #: ../thunar-volman/tvm-block-device.c:255
 msgid "Photo Import"
-msgstr "Argazkia Inprotatu"
+msgstr "Argazkia inportatu"
 
 #: ../thunar-volman/tvm-block-device.c:256
 msgid "A photo card has been detected."
@@ -108,8 +110,7 @@ msgstr "Argazki txartel bat atzeman da"
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
-"Argazkiak daude txartelean. Argazki horiek zure albunean gehitu nahi dituzu?"
+msgstr "Argazkiak daude txartelean. Argazki horiek zure albumean gehitu nahi dituzu?"
 
 #. prompt the user whether to execute this file
 #: ../thunar-volman/tvm-block-device.c:332
@@ -121,12 +122,12 @@ msgstr "\"%s\" abiaraztea baimendu nahi al duzu?"
 #: ../thunar-volman/tvm-block-device.c:333
 #: ../thunar-volman/tvm-block-device.c:369
 msgid "Auto-Run Confirmation"
-msgstr "Auto-Abiarazte Berrespena"
+msgstr "Auto-abiarazte berrespena"
 
 #: ../thunar-volman/tvm-block-device.c:334
 #: ../thunar-volman/tvm-block-device.c:370
 msgid "Auto-Run capability detected"
-msgstr "Auto-Abiarazte gaitasuna atzeman da"
+msgstr "Auto-abiarazte gaitasuna atzeman da"
 
 #: ../thunar-volman/tvm-block-device.c:336
 #: ../thunar-volman/tvm-block-device.c:372
@@ -141,7 +142,7 @@ msgstr "\"%s\" ireki nahi al duzu?"
 
 #: ../thunar-volman/tvm-block-device.c:428
 msgid "Auto-Open Confirmation"
-msgstr "Auto-Irekitze Berrespena"
+msgstr "Auto-Irekitze berrespena"
 
 #: ../thunar-volman/tvm-block-device.c:429
 msgid "Auto-Open capability detected"
@@ -162,11 +163,11 @@ msgstr "Gailuan dagoen CD-ak musika eta fitxategiak ditu"
 
 #: ../thunar-volman/tvm-block-device.c:702
 msgid "Would you like to listen to music or browse the files?"
-msgstr "Musika entzun eod fixtategiak arakatu nahi dituzu?"
+msgstr "Musika entzun edo fitxategiak arakatu nahi dituzu?"
 
 #: ../thunar-volman/tvm-block-device.c:704
 msgid "_Browse Files"
-msgstr "Fixtategiak _Arakatu"
+msgstr "_Arakatu fitxategiak"
 
 #: ../thunar-volman/tvm-block-device.c:705
 msgid "_Play CD"
@@ -174,15 +175,15 @@ msgstr "CD-a Erre_produzitu"
 
 #: ../thunar-volman/tvm-command-entry.c:233
 msgid "Select an Application"
-msgstr "Aplikaio bat hautatu"
+msgstr "Hautatu aplikazio bat"
 
 #: ../thunar-volman/tvm-command-entry.c:243
 msgid "All Files"
-msgstr "Fixategi Guztiak"
+msgstr "Fitxategi Guztiak"
 
 #: ../thunar-volman/tvm-command-entry.c:248
 msgid "Executable Files"
-msgstr "Fixategi Abiarazgarriak"
+msgstr "Fitxategi Abiarazgarriak"
 
 #: ../thunar-volman/tvm-command-entry.c:263
 msgid "Perl Scripts"
@@ -203,48 +204,47 @@ msgstr "Shell Script-ak"
 #: ../thunar-volman/tvm-crypto-volume.c:286
 #: ../thunar-volman/tvm-crypto-volume.c:443
 msgid "Encrypted volume"
-msgstr ""
+msgstr "Enkriptaturiko bolumena"
 
 #: ../thunar-volman/tvm-crypto-volume.c:297
-msgid ""
-"<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-msgstr ""
+msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">Enkriptaturiko bolumena muntatzen...</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:302
 msgid "Setting up the crypto layer..."
-msgstr ""
+msgstr "Kriptografia geruza konfiguratzen..."
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) but got Permission denied.
 #: ../thunar-volman/tvm-crypto-volume.c:369
 #, c-format
 msgid "You are not privileged to setup the crypto layer"
-msgstr ""
+msgstr "Ez duzu kriptografia geruza konfiguratzeko baimenik"
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) and typed the wrong password.
 #: ../thunar-volman/tvm-crypto-volume.c:374
 #, c-format
 msgid "Wrong password"
-msgstr ""
+msgstr "Okerreko pasahitza"
 
 #: ../thunar-volman/tvm-crypto-volume.c:445
 msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Okerreko pasahitza.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:446
 msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Bolumen hau enkriptaturik dago.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:447
 msgid "Please enter your password to decrypt and mount the volume."
-msgstr ""
+msgstr "Mesedez idatzi pasahitza bolumenda desenkriptatu eta muntatzeko."
 
 #: ../thunar-volman/tvm-crypto-volume.c:449
 msgid "_Mount"
-msgstr ""
+msgstr "_Muntatu"
 
 #: ../thunar-volman/tvm-crypto-volume.c:468
 msgid "Failed to setup the encrypted volume"
-msgstr ""
+msgstr "Huts enkriptaturiko bolumena konfiguratzean"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:119
 #: ../thunar-volman-settings.desktop.in.in.h:2
@@ -276,11 +276,11 @@ msgstr "A_rakatu euskarri eramangarriak sartzerakoan"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:185
 msgid "_Auto-run programs on new drives and media"
-msgstr "Gail eta euskarri berrietako programak _Auto-abiarazi"
+msgstr "_Auto-abiarazi gailu eta euskarri berrietako programak"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:190
 msgid "Auto-open files on new drives and media"
-msgstr "Auto-ireki fixtategiak gailu eta euskarri berrietan"
+msgstr "Auto-ireki fitxategiak gailu eta euskarri berrietan"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:199
 msgid "Blank CDs and DVDs"
@@ -288,7 +288,7 @@ msgstr "CD eta DVD zuriak"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:216
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "Disko zuri bat sartzean CD edo DVD bat _Grabatu"
+msgstr "_Grabatu CD edo DVD bat disko zuri bat sartzean"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:224
 msgid "Command for _Data CDs:"
@@ -338,7 +338,7 @@ msgstr "K_omandoa:"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:319
 msgid "Portable Music Players"
-msgstr "Musika Erreproduzgailu Eramgarriak"
+msgstr "Musika erreproduktore eramangarriak"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:336
 msgid "Play _music files when connected"
@@ -349,15 +349,15 @@ msgstr "_Musika erreproduzitu sartzerakoan"
 #.
 #: ../thunar-volman/tvm-preferences-dialog.c:351
 msgid "Cameras"
-msgstr "Kamarak"
+msgstr "Kamerak"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:361
 msgid "Digital Cameras"
-msgstr "Kamara Digitalak"
+msgstr "Kamera Digitalak"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:378
 msgid "Import digital photographs when connected"
-msgstr "Argazki digiak inportatu konektatzerakoan"
+msgstr "Inportatu argazki digitalak konektatzerakoan"
 
 #.
 #. PDAs
@@ -372,7 +372,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:420
 msgid "Sync _Palm™ devices when connected"
-msgstr "_Palm™ gailuak sinkronizatu konektatzerkoan"
+msgstr "_Palm™ gailuak sinkronizatu konektatzerakoan"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:435
 msgid "Pocket PCs"
@@ -380,7 +380,7 @@ msgstr "Pocket PC"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:452
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Pocket P_C gailuak sinkronizatu konektatzerkoan"
+msgstr "Pocket P_C gailuak sinkronizatu konektatzerakoan"
 
 #.
 #. Printers
@@ -399,7 +399,7 @@ msgstr "Automatikoki programa bat abiarazi in_primagailua konektatzerakoan"
 #.
 #: ../thunar-volman/tvm-preferences-dialog.c:509
 msgid "Input Devices"
-msgstr "Sarrera Gailuak"
+msgstr "Sarrera gailuak"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:519
 msgid "Keyboards"
@@ -435,7 +435,7 @@ msgstr "Huts dokumentazio nabigatzailea irekitzean"
 
 #: ../thunar-volman/tvm-run.c:133 ../thunar-volman/tvm-run.c:144
 msgid "Choose Disc Type"
-msgstr "Disko Mota Hautatu"
+msgstr "Hautatu disko mota"
 
 #: ../thunar-volman/tvm-run.c:134 ../thunar-volman/tvm-run.c:145
 msgid "You have inserted a blank disc."
@@ -447,17 +447,17 @@ msgstr "Zer egin nahi duzu?"
 
 #: ../thunar-volman/tvm-run.c:137
 msgid "Make _DVD"
-msgstr "DVD-a Egin"
+msgstr "DVD-a egin"
 
 #: ../thunar-volman/tvm-run.c:148
 msgid "Make _Data CD"
-msgstr "_Data CD-a Egin"
+msgstr "_Data CD-a egin"
 
 #: ../thunar-volman/tvm-run.c:149
 msgid "Make _Audio CD"
-msgstr "_Audio CD-a Egin"
+msgstr "_Audio CD-a egin"
 
 #: ../thunar-volman-settings.desktop.in.in.h:3
-#, fuzzy
 msgid "Removable Media"
-msgstr "Gailu eta Euskarri Aldagarriak"
+msgstr "Euskarri aldagarriak"
+
