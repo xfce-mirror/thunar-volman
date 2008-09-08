@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-30 02:26-0700\n"
-"PO-Revision-Date: 2008-06-18 19:04+0700\n"
+"PO-Revision-Date: 2008-09-03 21:13+0700\n"
 "Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -203,48 +203,50 @@ msgstr "Skrip Shell"
 #: ../thunar-volman/tvm-crypto-volume.c:286
 #: ../thunar-volman/tvm-crypto-volume.c:443
 msgid "Encrypted volume"
-msgstr ""
+msgstr "Volume terenkripsi"
 
 #: ../thunar-volman/tvm-crypto-volume.c:297
 msgid ""
 "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
 msgstr ""
+"<span weight=\"bold\" size=\"larger\">Mengaitkan volume terenkripsi...</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:302
 msgid "Setting up the crypto layer..."
-msgstr ""
+msgstr "Mengatur lapisan kripto..."
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) but got Permission denied.
 #: ../thunar-volman/tvm-crypto-volume.c:369
 #, c-format
 msgid "You are not privileged to setup the crypto layer"
-msgstr ""
+msgstr "Anda tidak diizinkan untuk mengatur lapisan kripto"
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) and typed the wrong password.
 #: ../thunar-volman/tvm-crypto-volume.c:374
 #, c-format
 msgid "Wrong password"
-msgstr ""
+msgstr "Sandi lewat salah"
 
 #: ../thunar-volman/tvm-crypto-volume.c:445
 msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Sandi lewat salah.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:446
 msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Volume ini terenkripsi.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:447
 msgid "Please enter your password to decrypt and mount the volume."
-msgstr ""
+msgstr "Silakan masukkan sandi lewat anda untuk mendekripsi dan mengaitkan "
+"volume."
 
 #: ../thunar-volman/tvm-crypto-volume.c:449
 msgid "_Mount"
-msgstr ""
+msgstr "_Kait"
 
 #: ../thunar-volman/tvm-crypto-volume.c:468
 msgid "Failed to setup the encrypted volume"
-msgstr ""
+msgstr "Gagal untuk mengatur volume terenkripsi"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:119
 #: ../thunar-volman-settings.desktop.in.in.h:2
@@ -458,6 +460,5 @@ msgid "Make _Audio CD"
 msgstr "Buat CD _Audio"
 
 #: ../thunar-volman-settings.desktop.in.in.h:3
-#, fuzzy
 msgid "Removable Media"
-msgstr "Media dan Penggerak Dapat Dilepas"
+msgstr "Media Dapat Dilepas"
