@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-08-30 02:26-0700\n"
-"PO-Revision-Date: 2008-06-24 15:44+0300\n"
+"POT-Creation-Date: 2008-09-13 15:28+0300\n"
+"PO-Revision-Date: 2008-09-13 15:35+0300\n"
 "Last-Translator: Jari Rahkonen <jari.rahkonen@pp1.inet.fi>\n"
 "Language-Team: Finnish <fi@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -202,48 +202,49 @@ msgstr "Kehotteen komentosarjat"
 #: ../thunar-volman/tvm-crypto-volume.c:286
 #: ../thunar-volman/tvm-crypto-volume.c:443
 msgid "Encrypted volume"
-msgstr ""
+msgstr "Salattu taltio"
 
 #: ../thunar-volman/tvm-crypto-volume.c:297
 msgid ""
 "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
 msgstr ""
+"<span weight=\"bold\" size=\"larger\">Liitetään salattu taltio...</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:302
 msgid "Setting up the crypto layer..."
-msgstr ""
+msgstr "Alustetaan salauskerros..."
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) but got Permission denied.
 #: ../thunar-volman/tvm-crypto-volume.c:369
 #, c-format
 msgid "You are not privileged to setup the crypto layer"
-msgstr ""
+msgstr "Käyttöoikeutesi eivät riitä salauskerroksen alustamiseen"
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) and typed the wrong password.
 #: ../thunar-volman/tvm-crypto-volume.c:374
 #, c-format
 msgid "Wrong password"
-msgstr ""
+msgstr "Väärä salasana"
 
 #: ../thunar-volman/tvm-crypto-volume.c:445
 msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Väärä salasana.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:446
 msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Taltio on salattu.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:447
 msgid "Please enter your password to decrypt and mount the volume."
-msgstr ""
+msgstr "Syötä salasanasi purkaaksesi salauksen ja liittääksesi taltion."
 
 #: ../thunar-volman/tvm-crypto-volume.c:449
 msgid "_Mount"
-msgstr ""
+msgstr "_Liitä"
 
 #: ../thunar-volman/tvm-crypto-volume.c:468
 msgid "Failed to setup the encrypted volume"
-msgstr ""
+msgstr "Salatun taltion määritys epäonnistui"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:119
 #: ../thunar-volman-settings.desktop.in.in.h:2
@@ -457,6 +458,5 @@ msgid "Make _Audio CD"
 msgstr "Luo ää_ni-CD"
 
 #: ../thunar-volman-settings.desktop.in.in.h:3
-#, fuzzy
 msgid "Removable Media"
-msgstr "Irrotettavat asemat ja taltiot"
+msgstr "Irrotettavat taltiot"
