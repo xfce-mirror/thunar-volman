@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xfce 4-i18-goodies\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-01-15 21:12+0100\n"
-"PO-Revision-Date: 2007-12-15 22:25+0100\n"
+"PO-Revision-Date: 2008-11-02 19:18+0100\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr "Napsal Benedikt Meurer <benny@xfce.org>."
 #: thunar-volman/main.c:108
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr "Prosíme, nahlaste chyby na adresu <%s>."
+msgstr "Prosíme, abyste chyby hlásili na adresu <%s>."
 
 #. TRANSLATORS: A HAL device UDI must match certain conditions to be valid (to be exact, it must be a valid D-Bus object path)
 #: thunar-volman/main.c:133
@@ -168,7 +168,7 @@ msgstr "_Procházet soubory"
 
 #: thunar-volman/tvm-block-device.c:674
 msgid "_Play CD"
-msgstr "_Přehrát CD"
+msgstr "Přehrát _CD"
 
 #: thunar-volman/tvm-command-entry.c:233
 msgid "Select an Application"
@@ -262,7 +262,7 @@ msgstr "Hudební CD"
 
 #: thunar-volman/tvm-preferences-dialog.c:272
 msgid "Play _audio CDs when inserted"
-msgstr "Přehrát hudební CD po vložení"
+msgstr "Přehrát _hudební CD po vložení"
 
 #: thunar-volman/tvm-preferences-dialog.c:277
 #: thunar-volman/tvm-preferences-dialog.c:383
@@ -323,7 +323,7 @@ msgstr "Zařízení Palm™"
 
 #: thunar-volman/tvm-preferences-dialog.c:420
 msgid "Sync _Palm™ devices when connected"
-msgstr "Synchronizovat zařízení Palm™ po připojení"
+msgstr "Synchronizovat zařízení _Palm™ po připojení"
 
 #: thunar-volman/tvm-preferences-dialog.c:435
 msgid "Pocket PCs"
@@ -331,7 +331,7 @@ msgstr "Kapesní PC"
 
 #: thunar-volman/tvm-preferences-dialog.c:452
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Synchronizovat kapesní PC po připojení"
+msgstr "Synchronizovat kapesní P_C po připojení"
 
 #.
 #. Printers
