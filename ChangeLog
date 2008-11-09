@@ -1,3 +1,8 @@
+2008-11-09	Jannis Pohlmann <jannis@xfce.org>
+
+	* thunar-volman-settings.desktop.in.in: Remove GenericName and 
+	  X-XfceSettingsName keys.
+
 2008-09-05	Jannis Pohlmann <jannis@xfce.org>
 
 	* autogen.sh: Add git svn revision versioning support.
