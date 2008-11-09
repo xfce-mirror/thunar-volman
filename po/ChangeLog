@@ -1,3 +1,10 @@
+2008-11-09  Maximilian Schleiss <maximilian@xfce.org>
+
+	* de.po: German translation update (Fabian Nowak)
+	* es.po; LINGUAS: Spanish translation added (Abel Martín)
+	* ja.po: Japanese translation update (Nobuhiro Iwamatsu)	
+	* sq.po: Albanian translation update (Besnik Bleta)
+
 2008-11-02  Michal Várady <miko.vaji@gmail.com>
 
 	* cs.po: Czech translation updated

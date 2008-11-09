@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-08-30 02:26-0700\n"
+"POT-Creation-Date: 2008-11-03 21:09+0100\n"
 "PO-Revision-Date: 2007-01-15 21:19+0100\n"
 "Last-Translator: Benedikt Meurer <benny@xfce.org>\n"
 "Language-Team: German <de@li.org>\n"
@@ -22,7 +22,7 @@ msgstr "Der HAL UDI des neu hinzugekommenen Geräts"
 #: ../thunar-volman/main.c:51 ../thunar-volman/tvm-preferences-dialog.c:120
 #: ../thunar-volman-settings.desktop.in.in.h:1
 msgid "Configure management of removable drives and media"
-msgstr "Die Verwaltung von Wechseldatenträgern und -medien konfigurieren"
+msgstr "Handhabung von Wechseldatenträgern und -medien konfigurieren"
 
 #: ../thunar-volman/main.c:52
 msgid "Print version information and exit"
@@ -204,48 +204,55 @@ msgstr "Shell Skripte"
 #: ../thunar-volman/tvm-crypto-volume.c:286
 #: ../thunar-volman/tvm-crypto-volume.c:443
 msgid "Encrypted volume"
-msgstr ""
+msgstr "Verschlüsselter Datenträger"
 
 #: ../thunar-volman/tvm-crypto-volume.c:297
 msgid ""
 "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
 msgstr ""
+"<span weight=\"bold\" size=\"larger\">Verschlüsselten Datenträger "
+"einhängen...</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:302
 msgid "Setting up the crypto layer..."
-msgstr ""
+msgstr "Verschlüsselungsschicht aufsetzen..."
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) but got Permission denied.
 #: ../thunar-volman/tvm-crypto-volume.c:369
 #, c-format
 msgid "You are not privileged to setup the crypto layer"
 msgstr ""
+"Sie sind nicht dazu berechtigt, die Verschlüsselungsschicht einzurichten"
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) and typed the wrong password.
 #: ../thunar-volman/tvm-crypto-volume.c:374
 #, c-format
 msgid "Wrong password"
-msgstr ""
+msgstr "Falsches Passwort"
 
 #: ../thunar-volman/tvm-crypto-volume.c:445
 msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Falsches Passwort.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:446
 msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 msgstr ""
+"<span weight=\"bold\" size=\"larger\">Dieser Datenträger ist verschlüsselt.</"
+"span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:447
 msgid "Please enter your password to decrypt and mount the volume."
 msgstr ""
+"Bitte geben Sie Ihr Passwort ein, um den Datenträger zu entschlüsseln und "
+"einzuhängen."
 
 #: ../thunar-volman/tvm-crypto-volume.c:449
 msgid "_Mount"
-msgstr ""
+msgstr "_Einhängen"
 
 #: ../thunar-volman/tvm-crypto-volume.c:468
 msgid "Failed to setup the encrypted volume"
-msgstr ""
+msgstr "Konnte den verschlüsselten Datenträger nicht einrichten"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:119
 #: ../thunar-volman-settings.desktop.in.in.h:2
@@ -462,6 +469,5 @@ msgid "Make _Audio CD"
 msgstr "_Audio-CD brennen"
 
 #: ../thunar-volman-settings.desktop.in.in.h:3
-#, fuzzy
 msgid "Removable Media"
-msgstr "Wechseldatenträger- und Medieneinstellungen"
+msgstr "Wechselmedien"
