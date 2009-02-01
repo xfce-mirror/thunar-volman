@@ -1,14 +1,14 @@
 # Czech translations for xfce package.
 # Copyright (C) 2007 THE xfce'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the xfce package.
-# Michal Várady <miko.vaji@gmail.com>, 2007.
+# Michal Várady <miko.vaji@gmail.com>, 2007-2009.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: xfce 4-i18-goodies\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-01-15 21:12+0100\n"
-"PO-Revision-Date: 2008-11-02 19:18+0100\n"
+"PO-Revision-Date: 2009-02-01 01:48+0100\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "Správa nastavení vyměnitelných jednotek a médií"
 
 #: thunar-volman/main.c:52
 msgid "Print version information and exit"
-msgstr "Vytiskne informace o verzi a ukončí se"
+msgstr "Zobrazí informace o verzi a ukončí se"
 
 #. setup application name
 #: thunar-volman/main.c:69
@@ -55,13 +55,13 @@ msgstr "Prosíme, abyste chyby hlásili na adresu <%s>."
 #: thunar-volman/main.c:133
 #, c-format
 msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-msgstr "Zadaný identifikátor zařízení (UDI) \"%s\" není platným identifikátorem zařízení systému HAL"
+msgstr "Zadaný identifikátor zařízení (UDI) \"%s\" není platným identifikátorem zařízení vrstvy HAL"
 
 #. TRANSLATORS: thunar-volman wasn't invoked with either --device-added or --configure.
 #: thunar-volman/main.c:144
 #, c-format
 msgid "Must specify the new HAL device UDI with --device-added"
-msgstr "Je nutné zadat nový identifikátor (UDI) zařízení HAL pomocí --device-added"
+msgstr "Je nutné zadat nový identifikátor (UDI) zařízení vrstvy HAL pomocí přepínače --device-added"
 
 #. ...so we need to prompt what to do
 #: thunar-volman/tvm-block-device.c:143
@@ -107,7 +107,7 @@ msgstr "Byla nalezena karta s fotografiemi"
 
 #: thunar-volman/tvm-block-device.c:212
 msgid "There are photos on the card. Would you like to add these photos to your album?"
-msgstr "Na kartě jsou fotografie. Chcete je přidat do vašeho alba?"
+msgstr "Na kartě jsou fotografie. Chcete je přidat do svého alba?"
 
 #. prompt the user whether to execute this file
 #: thunar-volman/tvm-block-device.c:300
@@ -172,7 +172,7 @@ msgstr "Přehrát _CD"
 
 #: thunar-volman/tvm-command-entry.c:233
 msgid "Select an Application"
-msgstr "Vybrat aplikaci"
+msgstr "Výběr aplikace"
 
 #: thunar-volman/tvm-command-entry.c:243
 msgid "All Files"
@@ -200,7 +200,7 @@ msgstr "Shellové skripty"
 
 #: thunar-volman/tvm-preferences-dialog.c:119
 msgid "Removable Drives and Media"
-msgstr "Výměnné jednotky a média"
+msgstr "Vyměnitelné jednotky a média"
 
 #.
 #. Storage
@@ -219,7 +219,7 @@ msgstr "Připojit _vyměnitelné jednotky při připojení typu hot-plug"
 
 #: thunar-volman/tvm-preferences-dialog.c:175
 msgid "Mount removable media when _inserted"
-msgstr "Př_ipojit vyměnitelné média po vložení"
+msgstr "Př_ipojit vyměnitelná média po vložení"
 
 #: thunar-volman/tvm-preferences-dialog.c:180
 msgid "B_rowse removable media when inserted"
@@ -293,7 +293,7 @@ msgstr "Přenosné hudební přehrávače"
 
 #: thunar-volman/tvm-preferences-dialog.c:336
 msgid "Play _music files when connected"
-msgstr "Přehrát _hudební soubory po připojení"
+msgstr "Přehrát hudební _soubory po připojení"
 
 #.
 #. Cameras
@@ -323,15 +323,15 @@ msgstr "Zařízení Palm™"
 
 #: thunar-volman/tvm-preferences-dialog.c:420
 msgid "Sync _Palm™ devices when connected"
-msgstr "Synchronizovat zařízení _Palm™ po připojení"
+msgstr "_Synchronizovat zařízení Palm™ po připojení"
 
 #: thunar-volman/tvm-preferences-dialog.c:435
 msgid "Pocket PCs"
-msgstr "Kapesní PC"
+msgstr "Zařízení PCs"
 
 #: thunar-volman/tvm-preferences-dialog.c:452
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Synchronizovat kapesní P_C po připojení"
+msgstr "Synchronizovat zařízení Pocket P_C po připojení"
 
 #.
 #. Printers
@@ -358,7 +358,7 @@ msgstr "Klávesnice"
 
 #: thunar-volman/tvm-preferences-dialog.c:536
 msgid "Automatically run a program when an USB _keyboard is connected"
-msgstr "Automaticky spustit program po připojení _klávesnice s rozhraním USB"
+msgstr "_Automaticky spustit program po připojení klávesnice s rozhraním USB"
 
 #: thunar-volman/tvm-preferences-dialog.c:551
 msgid "Mice"
