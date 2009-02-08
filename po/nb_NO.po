@@ -2,14 +2,15 @@
 # Copyright (C) 2007 THE thunar-volman'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the thunar-volman package.
 # Terje Uriansrud <ter@operamail.com>, 2007.
+# Terje Uriansrud <terje@uriansrud.net>, 2009.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-08-30 02:26-0700\n"
+"POT-Creation-Date: 2009-01-27 23:59+0100\n"
 "PO-Revision-Date: 2007-07-01 20:42+0200\n"
-"Last-Translator: Terje Uriansrud <ter@operamail.com>\n"
+"Last-Translator: Terje Uriansrud <terje@uriansrud.net>\n"
 "Language-Team: Norwegian Bokmal\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -205,53 +206,55 @@ msgstr "Skallskript"
 #: ../thunar-volman/tvm-crypto-volume.c:286
 #: ../thunar-volman/tvm-crypto-volume.c:443
 msgid "Encrypted volume"
-msgstr ""
+msgstr "Kryptert dataområde"
 
 #: ../thunar-volman/tvm-crypto-volume.c:297
 msgid ""
 "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
 msgstr ""
+"<span weight=\"bold\" size=\"larger\">Monterer kryptert dataområde...</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:302
 msgid "Setting up the crypto layer..."
-msgstr ""
+msgstr "Setter opp kryptografilag..."
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) but got Permission denied.
 #: ../thunar-volman/tvm-crypto-volume.c:369
 #, c-format
 msgid "You are not privileged to setup the crypto layer"
-msgstr ""
+msgstr "Du har ikke rettigheter til å sette opp kryptografilaget"
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) and typed the wrong password.
 #: ../thunar-volman/tvm-crypto-volume.c:374
 #, c-format
 msgid "Wrong password"
-msgstr ""
+msgstr "Feil passord"
 
 #: ../thunar-volman/tvm-crypto-volume.c:445
 msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Feil passord.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:446
 msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 msgstr ""
+"<span weight=\"bold\" size=\"larger\">Dette dataområdet er kryptert.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:447
 msgid "Please enter your password to decrypt and mount the volume."
-msgstr ""
+msgstr "Skriv inn passordet for å dekryptere og montere dataområdet."
 
 #: ../thunar-volman/tvm-crypto-volume.c:449
 msgid "_Mount"
-msgstr ""
+msgstr "_Monter"
 
 #: ../thunar-volman/tvm-crypto-volume.c:468
 msgid "Failed to setup the encrypted volume"
-msgstr ""
+msgstr "Klarte ikke sette opp det krypterte dataområdet"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:119
 #: ../thunar-volman-settings.desktop.in.in.h:2
 msgid "Removable Drives and Media"
-msgstr "Avmonterbare enheter og media"
+msgstr "Avmonterbare Enheter og media"
 
 #.
 #. Storage
@@ -369,14 +372,12 @@ msgid "PDAs"
 msgstr "PDA'er"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:403
-#, fuzzy
 msgid "Palm™"
-msgstr "Palm's"
+msgstr "Palm"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:420
-#, fuzzy
 msgid "Sync _Palm™ devices when connected"
-msgstr "Synkroniser _Palm enheter ved tilkobling"
+msgstr "Synkroniser _Palm enheter hvis tilkoblet"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:435
 msgid "Pocket PCs"
@@ -461,7 +462,5 @@ msgstr "Lag en _datacd"
 msgid "Make _Audio CD"
 msgstr "Lag en _lydcd"
 
-#: ../thunar-volman-settings.desktop.in.in.h:3
-#, fuzzy
-msgid "Removable Media"
-msgstr "Avmonterbare enheter og media"
+#~ msgid "Removable Media"
+#~ msgstr "Avmonterbare media"
