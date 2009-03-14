@@ -1,3 +1,7 @@
+2009-03-14  Maximilian Schleiss <maximilian@xfce.org>
+
+	* gl.po: Galician translation update (Leandro Regueiro)
+
 2009-03-05  Mike Massonnet <mmassonnet@xfce.org>
 
 	* pt.po: Renamed pt_PT.po to pt.po (bug #4574)
@@ -14,7 +18,6 @@
 
 	* ru.po, LINGUAS: Russian translation added (Pavel Labushev)
 
-=======
 2009-02-17  Eren Türkay <erenturkay@xfce.org>
 
 	* tr.po: Add Turkish translations (Samed Beyribey)
