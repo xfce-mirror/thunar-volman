@@ -21,8 +21,7 @@ msgstr ""
 msgid "The HAL device UDI of the newly added device"
 msgstr "新しく追加されたデバイスの HAL デバイス UDI"
 
-#: ../thunar-volman/main.c:51
-#: ../thunar-volman/tvm-preferences-dialog.c:120
+#: ../thunar-volman/main.c:51 ../thunar-volman/tvm-preferences-dialog.c:120
 #: ../thunar-volman-settings.desktop.in.in.h:1
 msgid "Configure management of removable drives and media"
 msgstr "リムーバブルドライブとメディアの取扱いを設定します"
@@ -84,8 +83,7 @@ msgstr "写真を取り込みますか? それとも音楽を管理しますか?
 #: ../thunar-volman/tvm-block-device.c:371
 #: ../thunar-volman/tvm-block-device.c:430
 #: ../thunar-volman/tvm-block-device.c:703
-#: ../thunar-volman/tvm-crypto-volume.c:448
-#: ../thunar-volman/tvm-run.c:136
+#: ../thunar-volman/tvm-crypto-volume.c:448 ../thunar-volman/tvm-run.c:136
 #: ../thunar-volman/tvm-run.c:147
 msgid "Ig_nore"
 msgstr "無視する(_N)"
@@ -109,7 +107,9 @@ msgid "A photo card has been detected."
 msgstr "写真が保存されたメディアを検出しました。"
 
 #: ../thunar-volman/tvm-block-device.c:257
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "メディア内に写真があります。写真をアルバムに追加しますか?"
 
 #. prompt the user whether to execute this file
@@ -207,8 +207,11 @@ msgid "Encrypted volume"
 msgstr "暗号化ボリューム"
 
 #: ../thunar-volman/tvm-crypto-volume.c:297
-msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-msgstr "<span weight=\"bold\" size=\"larger\">暗号化ボリュームをマウントしています...</span>"
+msgid ""
+"<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">暗号化ボリュームをマウントしています..."
+"</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:302
 msgid "Setting up the crypto layer..."
@@ -228,11 +231,14 @@ msgstr "パスワードが正しくありません"
 
 #: ../thunar-volman/tvm-crypto-volume.c:445
 msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-msgstr "<span weight=\"bold\" size=\"larger\">パスワードが正しくありません。</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">パスワードが正しくありません。</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:446
 msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-msgstr "<span weight=\"bold\" size=\"larger\">このボリュームは暗号化されています。</span>"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">このボリュームは暗号化されています。</"
+"span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:447
 msgid "Please enter your password to decrypt and mount the volume."
@@ -433,18 +439,15 @@ msgstr "コマンド(_M):"
 msgid "Failed to open the documentation browser"
 msgstr "ドキュメントブラウザのオープンに失敗しました"
 
-#: ../thunar-volman/tvm-run.c:133
-#: ../thunar-volman/tvm-run.c:144
+#: ../thunar-volman/tvm-run.c:133 ../thunar-volman/tvm-run.c:144
 msgid "Choose Disc Type"
 msgstr "ディスクタイプの選択"
 
-#: ../thunar-volman/tvm-run.c:134
-#: ../thunar-volman/tvm-run.c:145
+#: ../thunar-volman/tvm-run.c:134 ../thunar-volman/tvm-run.c:145
 msgid "You have inserted a blank disc."
 msgstr "空のディスクが挿入されました。"
 
-#: ../thunar-volman/tvm-run.c:135
-#: ../thunar-volman/tvm-run.c:146
+#: ../thunar-volman/tvm-run.c:135 ../thunar-volman/tvm-run.c:146
 msgid "What would you like to do?"
 msgstr "何をしますか?"
 
@@ -463,4 +466,3 @@ msgstr "オーディオ CD を作成する(_A)"
 #: ../thunar-volman-settings.desktop.in.in.h:3
 msgid "Removable Media"
 msgstr "リムーバブルメディア"
-
