@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-30 02:26-0700\n"
-"PO-Revision-Date: 2009-03-18 22:15+0100\n"
+"PO-Revision-Date: 2009-03-24 17:30+0100\n"
 "Last-Translator: Piotr Sokół <piotr.sokol@10g.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -263,19 +263,19 @@ msgstr "Pamięć wymienna"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:170
 msgid "_Mount removable drives when hot-plugged"
-msgstr "Montowanie _napędów wymiennych po podłączeniu"
+msgstr "Montowanie napędów wymiennych po _podłączeniu"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:175
 msgid "Mount removable media when _inserted"
-msgstr "Montowanie wymiennych n_ośników po umieszczeniu w napędzie"
+msgstr "Montowanie nośników wymiennych po _umieszczeniu w napędzie"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:180
 msgid "B_rowse removable media when inserted"
-msgstr "_Przeglądanie nośników wymiennych po umieszczeniu w napędzie"
+msgstr "P_rzeglądanie nośników wymiennych po umieszczeniu w napędzie"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:185
 msgid "_Auto-run programs on new drives and media"
-msgstr "Automatyczne uruchamianie programów zamieszczonych na napędach i nośnikach"
+msgstr "_Automatyczne uruchamianie programów zamieszczonych na napędach i nośnikach"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:190
 msgid "Auto-open files on new drives and media"
@@ -310,7 +310,7 @@ msgstr "Płyty CD audio"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:272
 msgid "Play _audio CDs when inserted"
-msgstr "Odtwarzanie po umieszczeniu w napędzie"
+msgstr "_Odtwarzanie po umieszczeniu w napędzie"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:277
 #: ../thunar-volman/tvm-preferences-dialog.c:383
@@ -318,7 +318,7 @@ msgstr "Odtwarzanie po umieszczeniu w napędzie"
 #: ../thunar-volman/tvm-preferences-dialog.c:499
 #: ../thunar-volman/tvm-preferences-dialog.c:541
 msgid "_Command:"
-msgstr "Po_lecenie:"
+msgstr "_Polecenie:"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:287
 msgid "Video CDs/DVDs"
@@ -326,7 +326,7 @@ msgstr "Płyty CD/DVD wideo"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:304
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "Odtwarzanie po umieszczeniu w napędzie"
+msgstr "O_dtwarzanie po umieszczeniu w napędzie"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:309
 #: ../thunar-volman/tvm-preferences-dialog.c:341
@@ -341,7 +341,7 @@ msgstr "Przenośne odtwarzacze muzyki"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:336
 msgid "Play _music files when connected"
-msgstr "Odtwarzanie _muzyki po podłączeniu"
+msgstr "Odtwarzanie plików _muzycznych po podłączeniu"
 
 #.
 #. Cameras
@@ -356,7 +356,7 @@ msgstr "Cyfrowe aparaty fotograficzne"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:378
 msgid "Import digital photographs when connected"
-msgstr "Importowanie cyfrowych fotografii po podłączeniu"
+msgstr "Importowanie fotografii po podłączeniu"
 
 #.
 #. PDAs
@@ -426,7 +426,7 @@ msgstr "_Uruchamianie programu po podłączeniu"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:605
 msgid "Com_mand:"
-msgstr "_Polecenie:"
+msgstr "Po_lecenie:"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:690
 msgid "Failed to open the documentation browser"
