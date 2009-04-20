@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-30 02:26-0700\n"
-"PO-Revision-Date: 2009-04-14 22:01+0100\n"
+"PO-Revision-Date: 2009-04-18 12:50+0100\n"
 "Last-Translator: Leandro Regueiro <leandro.regueiro@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr "Xestor de volumes de Thunar"
 #: ../thunar-volman/main.c:90
 #, fuzzy
 msgid "Failed to open display"
-msgstr "Fallo ao abrir a pantalla do sistema de ventás X '%s'\n"
+msgstr "Fallo ao abrir a pantalla do sistema de xanelas X '%s'\n"
 
 #: ../thunar-volman/main.c:106
 msgid "The Thunar development team. All rights reserved."
@@ -59,9 +59,9 @@ msgstr "Por favor comuníquelle os erros a <%s>."
 
 #. TRANSLATORS: A HAL device UDI must match certain conditions to be valid (to be exact, it must be a valid D-Bus object path)
 #: ../thunar-volman/main.c:133
-#, c-format
+#, fuzzy, c-format
 msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-msgstr ""
+msgstr "O dispositivo '%s' especificado non é un dispositivo válido de CD ou de DVD."
 
 #. TRANSLATORS: thunar-volman wasn't invoked with either --device-added or --configure.
 #: ../thunar-volman/main.c:144
@@ -125,14 +125,13 @@ msgstr "Desexa permitir que se execute \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:333
 #: ../thunar-volman/tvm-block-device.c:369
-#, fuzzy
 msgid "Auto-Run Confirmation"
-msgstr "Confirmar sobrescritura"
+msgstr "Confirmación de execución automática"
 
 #: ../thunar-volman/tvm-block-device.c:334
 #: ../thunar-volman/tvm-block-device.c:370
 msgid "Auto-Run capability detected"
-msgstr ""
+msgstr "Detectouse a capacidade de execución automática"
 
 #: ../thunar-volman/tvm-block-device.c:336
 #: ../thunar-volman/tvm-block-device.c:372
@@ -146,13 +145,12 @@ msgid "Would you like to open \"%s\"?"
 msgstr "Desexa abrir \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:428
-#, fuzzy
 msgid "Auto-Open Confirmation"
-msgstr "Confirmar sobrescritura"
+msgstr "Confirmación de apertura automática"
 
 #: ../thunar-volman/tvm-block-device.c:429
 msgid "Auto-Open capability detected"
-msgstr ""
+msgstr "Detectouse a capacidade de apertura automática"
 
 #: ../thunar-volman/tvm-block-device.c:431
 msgid "_Open"
@@ -270,23 +268,23 @@ msgstr "Almacenamento extraíble"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:170
 msgid "_Mount removable drives when hot-plugged"
-msgstr ""
+msgstr "_Montar os dispositivos extraíbles ao conectalos en quente"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:175
 msgid "Mount removable media when _inserted"
-msgstr ""
+msgstr "Montar os soportes extraíbles ao _inserilos"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:180
 msgid "B_rowse removable media when inserted"
-msgstr ""
+msgstr "Examinar os sopo_rtes extraíbles ao inserilos"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:185
 msgid "_Auto-run programs on new drives and media"
-msgstr ""
+msgstr "_Executar automaticamente os programas dos soportes e unidades novas"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:190
 msgid "Auto-open files on new drives and media"
-msgstr ""
+msgstr "_Abrir automaticamente os ficheiros dos soportes e unidades novas"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:199
 msgid "Blank CDs and DVDs"
@@ -301,9 +299,8 @@ msgid "Command for _Data CDs:"
 msgstr "Comando para os CDs de _datos:"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:231
-#, fuzzy
 msgid "Command for A_udio CDs:"
-msgstr "Os comandos son incorrectos para o comando '%s'"
+msgstr "Comando para os CDs de s_on:"
 
 #.
 #. Multimedia
@@ -318,7 +315,7 @@ msgstr "CDs de audio"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:272
 msgid "Play _audio CDs when inserted"
-msgstr ""
+msgstr "_Reproducir os CDs de son ao inserilos"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:277
 #: ../thunar-volman/tvm-preferences-dialog.c:383
@@ -334,7 +331,7 @@ msgstr "CDs/DVDs de vídeo"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:304
 msgid "Play _video CDs and DVDs when inserted"
-msgstr ""
+msgstr "Reproducir os CDs de vídeo e os DVDs ao inserilos"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:309
 #: ../thunar-volman/tvm-preferences-dialog.c:341
@@ -386,8 +383,9 @@ msgid "Pocket PCs"
 msgstr ""
 
 #: ../thunar-volman/tvm-preferences-dialog.c:452
+#, fuzzy
 msgid "Sync Pocket P_C devices when connected"
-msgstr ""
+msgstr "Sincronizar os dispositivos _Palm&trade; ao conectar"
 
 #.
 #. Printers
