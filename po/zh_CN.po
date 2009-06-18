@@ -2,15 +2,16 @@
 # Copyright (C) 2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the thunar-volman package.
 # Jiahua Huang <jhuangjiahua@gmail.com>, 2009.
+# Hunt Xu <huntxu@live.cn>, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-30 02:26-0700\n"
-"PO-Revision-Date: 2007-05-07 22:17+0800\n"
-"Last-Translator: Jiahua Huang <jhuangjiahua@gmail.com>\n"
-"Language-Team: Jiahua Huang <jhuangjiahua@gmail.com>\n"
+"PO-Revision-Date: 2009-06-16 13:00+0800\n"
+"Last-Translator: Hunt Xu <huntxu@live.cn>\n"
+"Language-Team: Chinese (Simplified) <xfce-i18n@xfce.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,14 +20,15 @@ msgstr ""
 msgid "The HAL device UDI of the newly added device"
 msgstr "新插入的 HAL 设备 UDI"
 
-#: ../thunar-volman/main.c:51 ../thunar-volman/tvm-preferences-dialog.c:120
+#: ../thunar-volman/main.c:51
+#: ../thunar-volman/tvm-preferences-dialog.c:120
 #: ../thunar-volman-settings.desktop.in.in.h:1
 msgid "Configure management of removable drives and media"
-msgstr "可移动驱动器和介质管理"
+msgstr "配置可移动驱动器和介质管理"
 
 #: ../thunar-volman/main.c:52
 msgid "Print version information and exit"
-msgstr "打印版本并退出"
+msgstr "打印版本信息并退出"
 
 #. setup application name
 #: ../thunar-volman/main.c:69
@@ -35,20 +37,20 @@ msgstr "Thunar 卷管理器"
 
 #: ../thunar-volman/main.c:90
 msgid "Failed to open display"
-msgstr "无法打开显示"
+msgstr "打开显示失败"
 
 #: ../thunar-volman/main.c:106
 msgid "The Thunar development team. All rights reserved."
-msgstr "Thunar 开发团队。保留一切权利。"
+msgstr "Thunar 开发团队。版权所有。"
 
 #: ../thunar-volman/main.c:107
 msgid "Written by Benedikt Meurer <benny@xfce.org>."
-msgstr "由 Benedikt Meurer 开发 <benny@xfce.org>。"
+msgstr "作者: Benedikt Meurer <benny@xfce.org>。"
 
 #: ../thunar-volman/main.c:108
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr "请汇报错误至 <%s>。"
+msgstr "请报告 bug 至 <%s>。"
 
 #. TRANSLATORS: A HAL device UDI must match certain conditions to be valid (to be exact, it must be a valid D-Bus object path)
 #: ../thunar-volman/main.c:133
@@ -65,7 +67,7 @@ msgstr "必须使用 --device-added 来指定新的 HAL 设备 UDI"
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:189
 msgid "Photos and Music"
-msgstr "相片与音乐"
+msgstr "照片和音乐"
 
 #: ../thunar-volman/tvm-block-device.c:190
 msgid "Photos were found on your portable music player."
@@ -81,56 +83,55 @@ msgstr "您是想要导入相片还是管理音乐？"
 #: ../thunar-volman/tvm-block-device.c:371
 #: ../thunar-volman/tvm-block-device.c:430
 #: ../thunar-volman/tvm-block-device.c:703
-#: ../thunar-volman/tvm-crypto-volume.c:448 ../thunar-volman/tvm-run.c:136
+#: ../thunar-volman/tvm-crypto-volume.c:448
+#: ../thunar-volman/tvm-run.c:136
 #: ../thunar-volman/tvm-run.c:147
 msgid "Ig_nore"
-msgstr "忽略 (_n)"
+msgstr "忽略(_N)"
 
 #: ../thunar-volman/tvm-block-device.c:193
 #: ../thunar-volman/tvm-block-device.c:259
 msgid "Import _Photos"
-msgstr "导入相片 (_P)"
+msgstr "导入照片(_P)"
 
 #: ../thunar-volman/tvm-block-device.c:194
 msgid "Manage _Music"
-msgstr "整理音乐 (_M)"
+msgstr "管理音乐(_M)"
 
 #. ask the user whether to import photos
 #: ../thunar-volman/tvm-block-device.c:255
 msgid "Photo Import"
-msgstr "相片导入至"
+msgstr "照片导入"
 
 #: ../thunar-volman/tvm-block-device.c:256
 msgid "A photo card has been detected."
-msgstr "已检测到照片存储卡。"
+msgstr "检测到照片存储卡。"
 
 #: ../thunar-volman/tvm-block-device.c:257
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
-msgstr "卡上中有照片。您是否想要将这些照片导入到您的相册？"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "存储卡中有照片。是否添加到相册？"
 
 #. prompt the user whether to execute this file
 #: ../thunar-volman/tvm-block-device.c:332
 #: ../thunar-volman/tvm-block-device.c:368
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "您要让 \"%s\" 执行吗？"
+msgstr "是否允许 \"%s\" 运行？"
 
 #: ../thunar-volman/tvm-block-device.c:333
 #: ../thunar-volman/tvm-block-device.c:369
 msgid "Auto-Run Confirmation"
-msgstr "自动执行确认"
+msgstr "自动运行确认"
 
 #: ../thunar-volman/tvm-block-device.c:334
 #: ../thunar-volman/tvm-block-device.c:370
 msgid "Auto-Run capability detected"
-msgstr "检测到了自动执行功能"
+msgstr "检测到自动运行功能"
 
 #: ../thunar-volman/tvm-block-device.c:336
 #: ../thunar-volman/tvm-block-device.c:372
 msgid "_Allow Auto-Run"
-msgstr "允许自动执行 (_A)"
+msgstr "允许自动运行(_A)"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:427
@@ -144,16 +145,16 @@ msgstr "自动打开确认"
 
 #: ../thunar-volman/tvm-block-device.c:429
 msgid "Auto-Open capability detected"
-msgstr "检测到了自动打开功能"
+msgstr "检测到自动打开功能"
 
 #: ../thunar-volman/tvm-block-device.c:431
 msgid "_Open"
-msgstr "打开 (_O)"
+msgstr "打开(_O)"
 
 #. ask what do with the mixed audio/data disc
 #: ../thunar-volman/tvm-block-device.c:700
 msgid "Audio / Data CD"
-msgstr "音乐 / 数据 CD"
+msgstr "音乐/数据 CD"
 
 #: ../thunar-volman/tvm-block-device.c:701
 msgid "The CD in the drive contains both music and files."
@@ -161,19 +162,19 @@ msgstr "驱动器中的 CD 同时包含音乐和文件。"
 
 #: ../thunar-volman/tvm-block-device.c:702
 msgid "Would you like to listen to music or browse the files?"
-msgstr "您是想要听音乐还是浏览文件？"
+msgstr "您是想要播放音乐还是浏览文件？"
 
 #: ../thunar-volman/tvm-block-device.c:704
 msgid "_Browse Files"
-msgstr "浏览文件 (_B)"
+msgstr "浏览文件(_B)"
 
 #: ../thunar-volman/tvm-block-device.c:705
 msgid "_Play CD"
-msgstr "播放 CD (_P)"
+msgstr "播放 CD(_P)"
 
 #: ../thunar-volman/tvm-command-entry.c:233
 msgid "Select an Application"
-msgstr "请选择一个应用程序"
+msgstr "选择应用程序"
 
 #: ../thunar-volman/tvm-command-entry.c:243
 msgid "All Files"
@@ -202,48 +203,47 @@ msgstr "Shell 脚本"
 #: ../thunar-volman/tvm-crypto-volume.c:286
 #: ../thunar-volman/tvm-crypto-volume.c:443
 msgid "Encrypted volume"
-msgstr ""
+msgstr "加密卷"
 
 #: ../thunar-volman/tvm-crypto-volume.c:297
-msgid ""
-"<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-msgstr ""
+msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+msgstr "<span weight=\"bold\" size=\"larger\">正在挂载加密卷...</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:302
 msgid "Setting up the crypto layer..."
-msgstr ""
+msgstr "正在设置加密层..."
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) but got Permission denied.
 #: ../thunar-volman/tvm-crypto-volume.c:369
 #, c-format
 msgid "You are not privileged to setup the crypto layer"
-msgstr ""
+msgstr "您没有权限设置加密层"
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) and typed the wrong password.
 #: ../thunar-volman/tvm-crypto-volume.c:374
 #, c-format
 msgid "Wrong password"
-msgstr ""
+msgstr "密码错误"
 
 #: ../thunar-volman/tvm-crypto-volume.c:445
 msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">密码错误。</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:446
 msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">此卷已被加密。</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:447
 msgid "Please enter your password to decrypt and mount the volume."
-msgstr ""
+msgstr "请输入密码并挂载卷"
 
 #: ../thunar-volman/tvm-crypto-volume.c:449
 msgid "_Mount"
-msgstr ""
+msgstr "挂载(_M)"
 
 #: ../thunar-volman/tvm-crypto-volume.c:468
 msgid "Failed to setup the encrypted volume"
-msgstr ""
+msgstr "设置加密卷失败"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:119
 #: ../thunar-volman-settings.desktop.in.in.h:2
@@ -255,27 +255,27 @@ msgstr "可移动驱动器和介质"
 #.
 #: ../thunar-volman/tvm-preferences-dialog.c:143
 msgid "Storage"
-msgstr "储存设备"
+msgstr "存储设备"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:153
 msgid "Removable Storage"
-msgstr "可移动储存设备"
+msgstr "可移动存储设备"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:170
 msgid "_Mount removable drives when hot-plugged"
-msgstr "热插拔时挂载可移动驱动器 (_M)"
+msgstr "热插拔时挂载可移动驱动器(_M)"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:175
 msgid "Mount removable media when _inserted"
-msgstr "插入时挂载可移动驱动器 (_i)"
+msgstr "插入后挂载可移动介质(_I)"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:180
 msgid "B_rowse removable media when inserted"
-msgstr "插入时浏览可移动驱动器 (_r)"
+msgstr "插入后浏览可移动介质(_R)"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:185
 msgid "_Auto-run programs on new drives and media"
-msgstr "自动执行新驱动器和介质上的程序 (_A)"
+msgstr "自动运行新驱动器和介质上的程序(_A)"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:190
 msgid "Auto-open files on new drives and media"
@@ -287,15 +287,15 @@ msgstr "空白 CD 与 DVD"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:216
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "插入空白光盘时刻录 CD 或 DVD (_B)"
+msgstr "插入空白光盘后进行刻录(_B)"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:224
 msgid "Command for _Data CDs:"
-msgstr "刻录数据 CD 的程序 (_D)："
+msgstr "刻录数据 CD 的程序(_D):"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:231
 msgid "Command for A_udio CDs:"
-msgstr "刻录音乐 CD 的程序 (_u)："
+msgstr "刻录音乐 CD 的程序(_U):"
 
 #.
 #. Multimedia
@@ -310,7 +310,7 @@ msgstr "音乐 CD"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:272
 msgid "Play _audio CDs when inserted"
-msgstr "插入时播放音乐 CD (_a)"
+msgstr "插入后播放音乐(_A)"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:277
 #: ../thunar-volman/tvm-preferences-dialog.c:383
@@ -318,7 +318,7 @@ msgstr "插入时播放音乐 CD (_a)"
 #: ../thunar-volman/tvm-preferences-dialog.c:499
 #: ../thunar-volman/tvm-preferences-dialog.c:541
 msgid "_Command:"
-msgstr "程序 (_C)："
+msgstr "命令(_C):"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:287
 msgid "Video CDs/DVDs"
@@ -326,14 +326,14 @@ msgstr "VCD / DVD"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:304
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "插入时播放 VCD 与 DVD (_v)"
+msgstr "插入后播放 VCD 与 DVD(_V)"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:309
 #: ../thunar-volman/tvm-preferences-dialog.c:341
 #: ../thunar-volman/tvm-preferences-dialog.c:457
 #: ../thunar-volman/tvm-preferences-dialog.c:573
 msgid "C_ommand:"
-msgstr "程序 (_o)："
+msgstr "命令(_O):"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:319
 msgid "Portable Music Players"
@@ -341,7 +341,7 @@ msgstr "MP3 播放器"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:336
 msgid "Play _music files when connected"
-msgstr "连接时播放音乐 (_m)"
+msgstr "连接后播放音乐(_M)"
 
 #.
 #. Cameras
@@ -356,7 +356,7 @@ msgstr "数码相机"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:378
 msgid "Import digital photographs when connected"
-msgstr "连接时导入相片"
+msgstr "连接后导入照片"
 
 #.
 #. PDAs
@@ -371,7 +371,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:420
 msgid "Sync _Palm™ devices when connected"
-msgstr "连接时同步 Palm™设备 (_P)"
+msgstr "连接时同步 Palm™ 设备(_P)"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:435
 msgid "Pocket PCs"
@@ -379,7 +379,7 @@ msgstr "Pocket PC"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:452
 msgid "Sync Pocket P_C devices when connected"
-msgstr "连接时同步 Pocket PC 设备 (_C)"
+msgstr "连接时同步 Pocket PC 设备(_C)"
 
 #.
 #. Printers
@@ -391,7 +391,7 @@ msgstr "打印机"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:494
 msgid "Automatically run a program when a _printer is connected"
-msgstr "打印机连接时自动执行程序 (_p)"
+msgstr "打印机连接后自动运行程序(_P)"
 
 #.
 #. Input Devices
@@ -406,7 +406,7 @@ msgstr "键盘"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:536
 msgid "Automatically run a program when an USB _keyboard is connected"
-msgstr "USB 键盘连接时自动执行程序 (_k)"
+msgstr "USB 键盘连接后自动运行程序(_K)"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:551
 msgid "Mice"
@@ -414,7 +414,7 @@ msgstr "鼠标"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:568
 msgid "Automatically run a program when an USB _mouse is connected"
-msgstr "USB 鼠标连接时自动执行程序 (_m)"
+msgstr "USB 鼠标连接后自动运行程序(_M)"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:583
 msgid "Tablet"
@@ -422,41 +422,43 @@ msgstr "写字板"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:600
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "写字板连接时自动执行程序 (_t)"
+msgstr "写字板连接后自动运行程序(_T)"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:605
 msgid "Com_mand:"
-msgstr "程序 (_m)："
+msgstr "命令(_M):"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:690
 msgid "Failed to open the documentation browser"
-msgstr "无法打开文件浏览器"
+msgstr "打开文件浏览器失败"
 
-#: ../thunar-volman/tvm-run.c:133 ../thunar-volman/tvm-run.c:144
+#: ../thunar-volman/tvm-run.c:133
+#: ../thunar-volman/tvm-run.c:144
 msgid "Choose Disc Type"
-msgstr "请选择光盘类型"
+msgstr "选择光盘类型"
 
-#: ../thunar-volman/tvm-run.c:134 ../thunar-volman/tvm-run.c:145
+#: ../thunar-volman/tvm-run.c:134
+#: ../thunar-volman/tvm-run.c:145
 msgid "You have inserted a blank disc."
-msgstr "您已插入一张空白光盘。"
+msgstr "您插入了一张空白光盘。"
 
-#: ../thunar-volman/tvm-run.c:135 ../thunar-volman/tvm-run.c:146
+#: ../thunar-volman/tvm-run.c:135
+#: ../thunar-volman/tvm-run.c:146
 msgid "What would you like to do?"
 msgstr "接下来您要做什么？"
 
 #: ../thunar-volman/tvm-run.c:137
 msgid "Make _DVD"
-msgstr "制作 DVD (_D)"
+msgstr "制作 DVD(_D)"
 
 #: ../thunar-volman/tvm-run.c:148
 msgid "Make _Data CD"
-msgstr "制作数据 CD (_D)"
+msgstr "制作数据 CD(_D)"
 
 #: ../thunar-volman/tvm-run.c:149
 msgid "Make _Audio CD"
-msgstr "制作音乐 CD (_A)"
+msgstr "制作音乐 CD(_A)"
 
 #: ../thunar-volman-settings.desktop.in.in.h:3
-#, fuzzy
 msgid "Removable Media"
-msgstr "可移动驱动器和介质"
+msgstr "可移动介质"
