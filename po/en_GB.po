@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-30 02:26-0700\n"
-"PO-Revision-Date: 2007-03-30 18:58+1000\n"
+"PO-Revision-Date: 2009-08-18 11:54+1000\n"
 "Last-Translator: Jeff Bailes <thepizzaking@gmail.com>\n"
 "Language-Team: English/GB\n"
 "MIME-Version: 1.0\n"
@@ -206,48 +206,49 @@ msgstr "Shell Scripts"
 #: ../thunar-volman/tvm-crypto-volume.c:286
 #: ../thunar-volman/tvm-crypto-volume.c:443
 msgid "Encrypted volume"
-msgstr ""
+msgstr "Encrypted volume"
 
 #: ../thunar-volman/tvm-crypto-volume.c:297
 msgid ""
 "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
 msgstr ""
+"<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:302
 msgid "Setting up the crypto layer..."
-msgstr ""
+msgstr "Setting up the crypto layer..."
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) but got Permission denied.
 #: ../thunar-volman/tvm-crypto-volume.c:369
 #, c-format
 msgid "You are not privileged to setup the crypto layer"
-msgstr ""
+msgstr "You are not privileged to setup the crypto layer"
 
 #. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) and typed the wrong password.
 #: ../thunar-volman/tvm-crypto-volume.c:374
 #, c-format
 msgid "Wrong password"
-msgstr ""
+msgstr "Wrong password"
 
 #: ../thunar-volman/tvm-crypto-volume.c:445
 msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:446
 msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-msgstr ""
+msgstr "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 
 #: ../thunar-volman/tvm-crypto-volume.c:447
 msgid "Please enter your password to decrypt and mount the volume."
-msgstr ""
+msgstr "Please enter your password to decrypt and mount the volume."
 
 #: ../thunar-volman/tvm-crypto-volume.c:449
 msgid "_Mount"
-msgstr ""
+msgstr "_Mount"
 
 #: ../thunar-volman/tvm-crypto-volume.c:468
 msgid "Failed to setup the encrypted volume"
-msgstr ""
+msgstr "Failed to setup the encrypted volume"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:119
 #: ../thunar-volman-settings.desktop.in.in.h:2
@@ -461,6 +462,5 @@ msgid "Make _Audio CD"
 msgstr "Make _Audio CD"
 
 #: ../thunar-volman-settings.desktop.in.in.h:3
-#, fuzzy
 msgid "Removable Media"
-msgstr "Removable Drives and Media"
+msgstr "Removable Media"
