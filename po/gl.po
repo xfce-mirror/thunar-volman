@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-08-30 02:26-0700\n"
-"PO-Revision-Date: 2009-06-30 11:22+0100\n"
+"PO-Revision-Date: 2009-08-19 13:15+0100\n"
 "Last-Translator: Leandro Regueiro <leandro.regueiro@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
 "MIME-Version: 1.0\n"
@@ -20,9 +20,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+# UDI=Uniform Driver Interface
 #: ../thunar-volman/main.c:50
 msgid "The HAL device UDI of the newly added device"
-msgstr "O UDI do dispositivo para HAL do novo dispositivo engadido"
+msgstr "A UDI do dispositivo para HAL do novo dispositivo engadido"
 
 #: ../thunar-volman/main.c:51
 #: ../thunar-volman/tvm-preferences-dialog.c:120
@@ -60,13 +61,13 @@ msgstr "Por favor comuníquelle os erros a <%s>."
 #: ../thunar-volman/main.c:133
 #, c-format
 msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-msgstr "O UDI \"%s\" especificado non é un UDI de dispositivo para HAL válido"
+msgstr "A UDI \"%s\" especificado non é unha UDI de dispositivo HAL válido"
 
 #. TRANSLATORS: thunar-volman wasn't invoked with either --device-added or --configure.
 #: ../thunar-volman/main.c:144
 #, c-format
 msgid "Must specify the new HAL device UDI with --device-added"
-msgstr "Debe especificar o UDI para HAL do novo dispositivo con --device-added"
+msgstr "Debe especificar a UDI para HAL do novo dispositivo con --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:189
