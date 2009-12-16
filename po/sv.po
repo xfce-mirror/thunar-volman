@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-12-14 15:54+0100\n"
-"PO-Revision-Date: 2009-01-05 11:59+0100\n"
+"POT-Creation-Date: 2008-08-30 02:26-0700\n"
+"PO-Revision-Date: 2009-12-16 18:21+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "MIME-Version: 1.0\n"
@@ -457,4 +457,8 @@ msgstr "Skapa _data-cd"
 #: ../thunar-volman/tvm-run.c:149
 msgid "Make _Audio CD"
 msgstr "Skapa _ljud-cd"
+
+#: ../thunar-volman-settings.desktop.in.in.h:3
+msgid "Removable Media"
+msgstr "Flyttbart media"
 
