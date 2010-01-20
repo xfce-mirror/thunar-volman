@@ -211,10 +211,10 @@ tvm_run_cd_player (GUdevClient   *client,
   g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
 
   /* check whether autoplaying audio CDs is enabled */
-  if (xfconf_channel_get_bool (channel, "/autoplay-audio-cds/enabled", FALSE))
+  if (xfconf_channel_get_bool (channel, "/play-audio-cds/enabled", FALSE))
     {
       /* determine the audio CD player command */
-      command = xfconf_channel_get_string (channel, "/autoplay-audio-cds/command", NULL);
+      command = xfconf_channel_get_string (channel, "/play-audio-cds/command", NULL);
 
       /* check whether the command is set and non-empty */
       if (command != NULL && *command != '\0')
