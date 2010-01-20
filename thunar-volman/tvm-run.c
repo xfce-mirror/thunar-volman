@@ -34,6 +34,65 @@
 
 
 
+static gchar *
+tvm_run_resolve_mount_point (GUdevDevice *device)
+{
+  GVolumeMonitor *monitor;
+  GMount         *mount;
+  GFile          *file;
+  GList          *volumes;
+  GList          *lp;
+  gchar          *unix_device;
+  gchar          *mount_point = NULL;
+
+  /* get the default GIO volume monitor */
+  monitor = g_volume_monitor_get ();
+
+  /* retrieve the list of available volumes from the monitor */
+  volumes = g_volume_monitor_get_volumes (monitor);
+
+  /* iterate over all volumes */
+  for (lp = volumes; lp != NULL; lp = lp->next)
+    {
+      /* determine the device file corresponding to the volume */
+      unix_device = g_volume_get_identifier (lp->data, 
+                                             G_VOLUME_IDENTIFIER_KIND_UNIX_DEVICE);
+
+      /* match the device file of the volume against the device file of our device */
+      if (g_strcmp0 (unix_device, g_udev_device_get_device_file (device)) == 0)
+        {
+          /* found the correct volume, now check if it is mounted */
+          mount = g_volume_get_mount (lp->data);
+          if (mount != NULL)
+            {
+              /* volume is mounted, determine mount point path */
+              file = g_mount_get_root (mount);
+              mount_point = g_file_get_path (file);
+
+              /* clean up */
+              g_object_unref (file);
+              g_object_unref (mount);
+            }
+        }
+
+      /* free the device file string */
+      g_free (unix_device);
+
+      /* release the volume */
+      g_object_unref (lp->data);
+    }
+
+  /* destroy the volume list */
+  g_list_free (volumes);
+
+  /* we no longer need the monitor */
+  g_object_unref (monitor);
+
+  return mount_point;
+}
+
+
+
 gboolean 
 tvm_run_burn_software (GUdevClient   *client,
                        GUdevDevice   *device,
@@ -119,7 +178,7 @@ tvm_run_burn_software (GUdevClient   *client,
   if (command != NULL && *command != '\0')
     {
       /* try to execute the preferred burn software */
-      /* result = tvm_run_command (device, command, NULL, NULL, error); */
+      result = tvm_run_command (client, device, channel, command, NULL, NULL, error);
     }
   else
     {
@@ -129,6 +188,97 @@ tvm_run_burn_software (GUdevClient   *client,
 
   /* free the burn command */
   g_free (command);
+
+  return result;
+}
+
+
+
+gboolean
+tvm_run_command (GUdevClient   *client,
+                 GUdevDevice   *device,
+                 XfconfChannel *channel,
+                 const gchar   *command,
+                 GError       **error)
+{
+  const gchar *p;
+  gboolean     result;
+  GString     *command_line;
+  gchar      **argv;
+  gchar       *device_file;
+  gchar       *mount_point;
+  gchar       *quoted;
+
+  g_return_val_if_fail (G_UDEV_IS_CLIENT (client), FALSE);
+  g_return_val_if_fail (G_UDEV_IS_DEVICE (device), FALSE);
+  g_return_val_if_fail (XFCONF_IS_CHANNEL (channel), FALSE);
+  g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
+
+  /* perform the required substitutions */
+  command_line = g_string_new (NULL);
+  for (p = command; *p != '\0'; ++p)
+    {
+      /* check if we should substitute */
+      if (G_UNLIKELY (p[0] == '%' && p[1] != '\0'))
+        {
+          /* check which substitution to perform */
+          switch (*++p)
+            {
+            case 'd': /* device file */
+              device_file = g_udev_device_get_device_file (device);
+              if (G_LIKELY (device_file != NULL))
+                g_string_append (command_line, device_file);
+              break;
+
+            case 'm': /* mount point */
+              mount_point = tvm_run_resolve_mount_point (device);
+              if (G_LIKELY (mount_point != NULL))
+                {
+                  /* substitute mount point quoted */
+                  quoted = g_shell_quote (mount_point);
+                  g_string_append (command_line, quoted);
+                  g_free (quoted);
+                }
+              else
+                {
+                  /* %m must always be substituted */
+                  g_string_append (command_line, "\"\"");
+                }
+              g_free (mount_point);
+              break;
+              
+            case '%':
+              g_string_append_c (command_line, '%');
+              break;
+
+            default:
+              g_string_append_c (command_line, '%');
+              g_string_append_c (command_line, *p);
+              break;
+            }
+        }
+      else
+        {
+          /* just append the character */
+          g_string_append_c (command_line, *p);
+        }
+    }
+
+  /* try to parse the command line */
+  result = g_shell_parse_argv (command_line->str, NULL, &argv, error);
+  if (G_LIKELY (result))
+    {
+      g_debug ("%s", command_line->str);
+
+      /* try to spawn the command asynchronously in the users home directory */
+      result = g_spawn_async (g_get_home_dir (), argv, NULL, G_SPAWN_SEARCH_PATH, NULL, NULL, NULL, error);
+
+      /* cleanup */
+      g_strfreev (argv);
+    }
+
+  /* cleanup */
+  g_string_free (command_line, TRUE);
 
   return result;
 }

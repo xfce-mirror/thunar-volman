@@ -31,6 +31,11 @@ gboolean tvm_run_burn_software (GUdevClient   *client,
                                 GUdevDevice   *device,
                                 XfconfChannel *channel,
                                 GError       **error);
+gboolean tvm_run_command       (GUdevClient   *client,
+                                GUdevDevice   *device,
+                                XfconfChannel *channel,
+                                const gchar   *command,
+                                GError       **error);
 
 G_END_DECLS
 
