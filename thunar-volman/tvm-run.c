@@ -120,6 +120,7 @@ tvm_run_burn_software (GUdevClient   *client,
   guint               n;
   gint                response;
 
+  g_return_val_if_fail (G_UDEV_IS_CLIENT (client), FALSE);
   g_return_val_if_fail (G_UDEV_IS_DEVICE (device), FALSE);
   g_return_val_if_fail (XFCONF_IS_CHANNEL (channel), FALSE);
   g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
@@ -179,7 +180,7 @@ tvm_run_burn_software (GUdevClient   *client,
   if (command != NULL && *command != '\0')
     {
       /* try to execute the preferred burn software */
-      result = tvm_run_command (client, device, channel, command, NULL, NULL, error);
+      result = tvm_run_command (client, device, channel, command, error);
     }
   else
     {
@@ -189,6 +190,47 @@ tvm_run_burn_software (GUdevClient   *client,
 
   /* free the burn command */
   g_free (command);
+
+  return result;
+}
+
+
+
+gboolean
+tvm_run_cd_player (GUdevClient   *client,
+                   GUdevDevice   *device,
+                   XfconfChannel *channel,
+                   GError       **error)
+{
+  gboolean result = FALSE;
+  gchar   *command;
+
+  g_return_val_if_fail (G_UDEV_IS_CLIENT (client), FALSE);
+  g_return_val_if_fail (G_UDEV_IS_DEVICE (device), FALSE);
+  g_return_val_if_fail (XFCONF_IS_CHANNEL (channel), FALSE);
+  g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
+
+  /* check whether autoplaying audio CDs is enabled */
+  if (xfconf_channel_get_bool (channel, "/autoplay-audio-cds/enabled", FALSE))
+    {
+      /* determine the audio CD player command */
+      command = xfconf_channel_get_string (channel, "/autoplay-audio-cds/command", NULL);
+
+      /* check whether the command is set and non-empty */
+      if (command != NULL && *command != '\0')
+        {
+          /* try to lanuch the audio CD player */
+          result = tvm_run_command (client, device, channel, command, error);
+        }
+      else
+        {
+          g_set_error (error, G_FILE_ERROR, G_FILE_ERROR_FAILED,
+                       _("The CD player command may not be empty"));
+        }
+      
+      /* free the command string */
+      g_free (command);
+    }
 
   return result;
 }

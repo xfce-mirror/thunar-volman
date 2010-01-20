@@ -89,7 +89,7 @@ tvm_block_device_added (GUdevClient   *client,
       else if (audio_tracks > 0)
         {
           /* TODO detect mixed CDs with audio AND data tracks */
-          g_debug ("  => audio CD");
+          return tvm_run_cd_player (client, device, channel, error);
         }
       else
         {
