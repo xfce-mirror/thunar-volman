@@ -308,11 +308,11 @@ msgstr "Multimédia"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:255
 msgid "Audio CDs"
-msgstr "Hang CD-k"
+msgstr "Hang-CD-k"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:272
 msgid "Play _audio CDs when inserted"
-msgstr "Hang CD-k l_ejátszása behelyezéskor"
+msgstr "Hang-CD-k l_ejátszása behelyezéskor"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:277
 #: ../thunar-volman/tvm-preferences-dialog.c:383
@@ -452,7 +452,7 @@ msgstr "_Adat CD készítése"
 
 #: ../thunar-volman/tvm-run.c:149
 msgid "Make _Audio CD"
-msgstr "_Hang CD készítése"
+msgstr "_Hang-CD készítése"
 
 #: ../thunar-volman-settings.desktop.in.in.h:3
 msgid "Removable Media"
