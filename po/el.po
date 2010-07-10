@@ -15,10 +15,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Country: GREECE\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Country: GREECE\n"
 
 #: ../thunar-volman/main.c:50
 msgid "The HAL device UDI of the newly added device"
@@ -414,7 +414,7 @@ msgstr "Ποντίκι"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:568
 msgid "Automatically run a program when an USB _mouse is connected"
-msgstr "Αυτόματη εκτέλεση ενός προγράμματος όταν συνδςεθεί ένα _ποντίκι usb"
+msgstr "Αυτόματη εκτέλεση ενός προγράμματος όταν συνδεθεί ένα _ποντίκι usb"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:583
 msgid "Tablet"
