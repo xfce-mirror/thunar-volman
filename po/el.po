@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # Evaggelos Balaskas <ebalaskas@ebalaskas.gr>, 2009.
 # Stavros Giannouris <stavrosg@hellug.gr>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman git version\n"
@@ -15,17 +15,16 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Greek\n"
 "X-Poedit-Country: GREECE\n"
-"X-Poedit-SourceCharset: utf-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../thunar-volman/main.c:50
 msgid "The HAL device UDI of the newly added device"
 msgstr "Το UDI της συσκευής HAL της νέας συσκευής που προστέθηκε"
 
-#: ../thunar-volman/main.c:51
-#: ../thunar-volman/tvm-preferences-dialog.c:120
+#: ../thunar-volman/main.c:51 ../thunar-volman/tvm-preferences-dialog.c:120
 #: ../thunar-volman-settings.desktop.in.in.h:1
 msgid "Configure management of removable drives and media"
 msgstr "Ρύθμιση διαχείρισης των αφαιρούμενων συσκευών και μέσων"
@@ -45,7 +44,7 @@ msgstr "Απέτυχε να ανοίξει η οθόνη"
 
 #: ../thunar-volman/main.c:106
 msgid "The Thunar development team. All rights reserved."
-msgstr "Η ομάδα ανάπτυξης του Thunar. Όλα τα δικαιώματα είναι δεσμευμένα."
+msgstr "Η ομάδα ανάπτυξης του Thunar. Με την επιφύλαξη παντός νομίμου δικαιώματος."
 
 #: ../thunar-volman/main.c:107
 msgid "Written by Benedikt Meurer <benny@xfce.org>."
@@ -56,13 +55,15 @@ msgstr "Γράφτηκε από τον Benedikt Meurer <benny@xfce.org>."
 msgid "Please report bugs to <%s>."
 msgstr "Παρακαλώ αναφέρατε σφάλματα στο <%s>."
 
-#. TRANSLATORS: A HAL device UDI must match certain conditions to be valid (to be exact, it must be a valid D-Bus object path)
+#. TRANSLATORS: A HAL device UDI must match certain conditions to be valid (to
+#. be exact, it must be a valid D-Bus object path)
 #: ../thunar-volman/main.c:133
 #, c-format
 msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
 msgstr "Το καθορισμένο UDI \"%s\" δεν είναι έγκυρο UDI συσκευής HAL"
 
-#. TRANSLATORS: thunar-volman wasn't invoked with either --device-added or --configure.
+#. TRANSLATORS: thunar-volman wasn't invoked with either --device-added or
+#. --configure.
 #: ../thunar-volman/main.c:144
 #, c-format
 msgid "Must specify the new HAL device UDI with --device-added"
@@ -87,8 +88,7 @@ msgstr "Θέλετε να εισάγετε τις εικόνες ή να δια�
 #: ../thunar-volman/tvm-block-device.c:371
 #: ../thunar-volman/tvm-block-device.c:430
 #: ../thunar-volman/tvm-block-device.c:703
-#: ../thunar-volman/tvm-crypto-volume.c:448
-#: ../thunar-volman/tvm-run.c:136
+#: ../thunar-volman/tvm-crypto-volume.c:448 ../thunar-volman/tvm-run.c:136
 #: ../thunar-volman/tvm-run.c:147
 msgid "Ig_nore"
 msgstr "Αγν_όηση"
@@ -217,13 +217,15 @@ msgstr "<span weight=\"bold\" size=\"larger\">Προσάρτηση κρυπτο�
 msgid "Setting up the crypto layer..."
 msgstr "Ρύθμιση του επιπέδου κρυπτογράφησης..."
 
-#. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) but got Permission denied.
+#. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume)
+#. but got Permission denied.
 #: ../thunar-volman/tvm-crypto-volume.c:369
 #, c-format
 msgid "You are not privileged to setup the crypto layer"
 msgstr "Δεν έχετε τα δικαιώματα να ρυθμίσετε το επίπεδο κρυπτογράφησης"
 
-#. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) and typed the wrong password.
+#. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume)
+#. and typed the wrong password.
 #: ../thunar-volman/tvm-crypto-volume.c:374
 #, c-format
 msgid "Wrong password"
@@ -254,16 +256,15 @@ msgstr "Αποτυχία ρύθμισης της κρυπτογραφημένη�
 msgid "Removable Drives and Media"
 msgstr "Αφαιρούμενοι οδηγοί και μέσα"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman/tvm-preferences-dialog.c:143
 msgid "Storage"
 msgstr "Μέσο αποθήκευσης"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:153
 msgid "Removable Storage"
-msgstr "Αφαιρέσιμο μέσο αποθήκευσης"
+msgstr "Αφαιρούμενο μέσο αποθήκευσης"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:170
 msgid "_Mount removable drives when hot-plugged"
@@ -301,9 +302,8 @@ msgstr "Εντολή για CD δεδομένων:"
 msgid "Command for A_udio CDs:"
 msgstr "Εντολή για CD ήχου:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman/tvm-preferences-dialog.c:245
 msgid "Multimedia"
 msgstr "Πολυμέσα"
@@ -347,9 +347,8 @@ msgstr "Φορητές συσκευές μουσικής"
 msgid "Play _music files when connected"
 msgstr "Αναπαραγωγή _μουσικών αρχείων όταν συνδεθούν"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman/tvm-preferences-dialog.c:351
 msgid "Cameras"
 msgstr "Φωτογραφικές μηχανές"
@@ -362,12 +361,11 @@ msgstr "Ψηφιακές φωτογραφικές μηχανές"
 msgid "Import digital photographs when connected"
 msgstr "Εισαγωγή ψηφιακών φωτογραφιών όταν συνδεθούν "
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman/tvm-preferences-dialog.c:393
 msgid "PDAs"
-msgstr "PDAs"
+msgstr "PDA"
 
 #: ../thunar-volman/tvm-preferences-dialog.c:403
 msgid "Palm™"
@@ -385,9 +383,8 @@ msgstr "Pocket PCs"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Συγχρονισμός συσκευής Pocket PC όταν συνδεθεί"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman/tvm-preferences-dialog.c:467
 #: ../thunar-volman/tvm-preferences-dialog.c:477
 msgid "Printers"
@@ -397,9 +394,8 @@ msgstr "Εκτυπωτές"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Αυτόματη εκτέλεση προγράμματος όταν συνδεθεί ένας εκτυπωτής"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman/tvm-preferences-dialog.c:509
 msgid "Input Devices"
 msgstr "Συσκευές εισόδου"
@@ -436,18 +432,15 @@ msgstr "Εντ_ολή:"
 msgid "Failed to open the documentation browser"
 msgstr "Αποτυχία ανοίγματος του περιηγητή βοήθειας"
 
-#: ../thunar-volman/tvm-run.c:133
-#: ../thunar-volman/tvm-run.c:144
+#: ../thunar-volman/tvm-run.c:133 ../thunar-volman/tvm-run.c:144
 msgid "Choose Disc Type"
 msgstr "Επιλογή τύπου δίσκου"
 
-#: ../thunar-volman/tvm-run.c:134
-#: ../thunar-volman/tvm-run.c:145
+#: ../thunar-volman/tvm-run.c:134 ../thunar-volman/tvm-run.c:145
 msgid "You have inserted a blank disc."
 msgstr "Έχετε εισάγει ένα κενό δίσκο."
 
-#: ../thunar-volman/tvm-run.c:135
-#: ../thunar-volman/tvm-run.c:146
+#: ../thunar-volman/tvm-run.c:135 ../thunar-volman/tvm-run.c:146
 msgid "What would you like to do?"
 msgstr "Τι θέλετε να γίνει;"
 
@@ -465,5 +458,4 @@ msgstr "Δημιουργία cd _ήχου"
 
 #: ../thunar-volman-settings.desktop.in.in.h:3
 msgid "Removable Media"
-msgstr "Αφαιρέσιμα μέσα"
-
+msgstr "Αφαιρούμενα μέσα"
