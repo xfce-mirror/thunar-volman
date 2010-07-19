@@ -44,9 +44,15 @@ typedef gboolean (*TvmBlockDeviceHandler) (TvmContext *context,
 
 
 
-static gboolean tvm_block_device_autobrowse (TvmContext *context,
-                                             GMount     *mount,
-                                             GError    **error);
+static gboolean tvm_file_test               (GMount      *mount,
+                                             const gchar *filename,
+                                             GFileTest    test);
+static gboolean tvm_block_device_autorun    (TvmContext  *context,
+                                             GMount      *mount,
+                                             GError     **error);
+static gboolean tvm_block_device_autobrowse (TvmContext  *context,
+                                             GMount      *mount,
+                                             GError     **error);
 
 
 
@@ -55,10 +61,86 @@ static TvmBlockDeviceHandler block_device_handlers[] =
 #if 0
   tvm_block_device_autoipod,
   tvm_block_device_autophoto,
-  tvm_block_device_autorun,
 #endif
+  tvm_block_device_autorun,
   tvm_block_device_autobrowse,
 };
+
+
+
+static gboolean
+tvm_file_test (GMount      *mount,
+               const gchar *filename,
+               GFileTest    test)
+{
+  gboolean result = FALSE;
+  GFile   *mount_point;
+  gchar   *mount_path;
+  gchar   *absolute_path;
+
+  g_return_val_if_fail (G_IS_MOUNT (mount), FALSE);
+  g_return_val_if_fail (filename != NULL && *filename != '\0', FALSE);
+
+  mount_point = g_mount_get_root (mount);
+  mount_path = g_file_get_path (mount_point);
+  g_object_unref (mount_point);
+
+  absolute_path = g_build_filename (mount_path, filename, NULL);
+  g_free (mount_path);
+
+  result = g_file_test (absolute_path, test);
+  g_free (absolute_path);
+
+  return result;
+}
+
+
+
+static gboolean
+tvm_block_device_autorun (TvmContext *context,
+                          GMount     *mount,
+                          GError    **error)
+{
+  gboolean autoplay;
+  gboolean result = FALSE;
+  GError  *err = NULL;
+  gchar   *autoplay_command;
+
+  g_return_val_if_fail (context != NULL, FALSE);
+  g_return_val_if_fail (G_IS_MOUNT (mount), FALSE);
+  g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
+
+  /* check if autoplaying video CDs and DVDs is enabled */
+  autoplay = xfconf_channel_get_bool (context->channel, 
+                                      "/autoplay-video-cds/enabled", FALSE);
+  if (autoplay)
+    {
+      /* check if we have a video CD or video DVD here */
+      if (tvm_file_test (mount, "vcd", G_FILE_TEST_IS_DIR) 
+          || tvm_file_test (mount, "video_ts", G_FILE_TEST_IS_DIR))
+        {
+          /* determine the autoplay command for video CDs/DVDs */
+          autoplay_command = xfconf_channel_get_string (context->channel,
+                                                        "/autoplay-video-cds/command", 
+                                                        "parole");
+
+          /* try to spawn the preferred video CD/DVD player */
+          result = tvm_run_command (context, mount, autoplay_command, &err);
+
+          /* free the command string */
+          g_free (autoplay_command);
+
+          /* forward errors to the caller */
+          if (err != NULL)
+            g_propagate_error (error, err);
+
+          /* return success/failure to the caller */
+          return result;
+        }
+    }
+
+  return TRUE;
+}
 
 
 
@@ -127,8 +209,6 @@ tvm_block_device_mount_finish (GVolume      *volume,
   g_return_if_fail (G_IS_VOLUME (volume));
   g_return_if_fail (G_IS_ASYNC_RESULT (result));
   g_return_if_fail (context != NULL);
-
-  g_debug ("finish");
 
   /* finish mounting the volume */
   if (g_volume_mount_finish (volume, result, &error))
