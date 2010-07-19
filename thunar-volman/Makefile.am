@@ -1,4 +1,21 @@
-# $Id$
+# vi:set ts=8 sw=8 noet ai nocindent syntax=automake:
+# -
+# Copyright (c) 2010 Jannis Pohlmann <jannis@xfce.org>
+# 
+# This program is free software; you can redistribute it and/or 
+# modify it under the terms of the GNU General Public License as
+# published by the Free Software Foundation; either version 2 of 
+# the License, or (at your option) any later version.
+# 
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public 
+# License along with this program; if not, write to the Free 
+# Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+# Boston, MA 02110-1301, USA.
 
 INCLUDES =								\
 	-I$(top_builddir)						\
@@ -17,40 +34,24 @@ thunar_volman_SOURCES =							\
 	main.c								\
 	tvm-block-device.c						\
 	tvm-block-device.h						\
-	tvm-camera-device.c						\
-	tvm-camera-device.h						\
-	tvm-command-entry.c						\
-	tvm-command-entry.h						\
-	tvm-crypto-volume.c						\
-	tvm-crypto-volume.h						\
+	tvm-context.c							\
+	tvm-context.h							\
 	tvm-device.c							\
 	tvm-device.h							\
-	tvm-input-device.c						\
-	tvm-input-device.h						\
-	tvm-pango-extensions.c						\
-	tvm-pango-extensions.h						\
-	tvm-pda-device.c						\
-	tvm-pda-device.h						\
-	tvm-preferences-dialog.c					\
-	tvm-preferences-dialog.h					\
-	tvm-preferences.c						\
-	tvm-preferences.h						\
-	tvm-printer-device.c						\
-	tvm-printer-device.h						\
-	tvm-prompt.c							\
-	tvm-prompt.h							\
+	tvm-gio-extensions.c						\
+	tvm-gio-extensions.h						\
 	tvm-run.c							\
-	tvm-run.h							\
-	xfce-heading.c							\
-	xfce-heading.h							\
-	xfce-titled-dialog.c						\
-	xfce-titled-dialog.h
+	tvm-run.h
 
 thunar_volman_CFLAGS =							\
 	$(DBUS_CFLAGS)							\
-	$(EXO_HAL_CFLAGS)						\
-	$(HAL_CFLAGS)							\
-	$(THUNAR_VFS_CFLAGS)						\
+	$(GLIB_CFLAGS)							\
+	$(GIO_CFLAGS)							\
+	$(GTHREAD_CFLAGS)						\
+	$(GTK_CFLAGS)							\
+	$(GUDEV_CFLAGS)							\
+	$(LIBXFCE4UTIL_CFLAGS)						\
+	$(XFCONF_CFLAGS)						\
 	$(PLATFORM_CFLAGS)
 
 thunar_volman_LDFLAGS =							\
@@ -59,8 +60,10 @@ thunar_volman_LDFLAGS =							\
 
 thunar_volman_LDADD =							\
 	$(DBUS_LIBS)							\
-	$(EXO_HAL_LIBS)							\
-	$(HAL_LIBS)							\
-	$(THUNAR_VFS_LIBS)
-
-# vi:set ts=8 sw=8 noet ai nocindent syntax=automake:
+	$(GLIB_LIBS)							\
+	$(GIO_LIBS)							\
+	$(GTHREAD_LIBS)							\
+	$(GTK_LIBS)							\
+	$(GUDEV_LIBS)							\
+	$(LIBXFCE4UTIL_LIBS)						\
+	$(XFCONF_LIBS)

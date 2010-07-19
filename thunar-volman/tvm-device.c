@@ -1,203 +1,139 @@
-/* $Id$ */
+/* vi:set et ai sw=2 sts=2 ts=2: */
 /*-
- * Copyright (c) 2007 Benedikt Meurer <benny@xfce.org>.
+ * Copyright (c) 2010 Jannis Pohlmann <jannis@xfce.org>
  *
- * This program is free software; you can redistribute it and/or modify it
- * under the terms of the GNU General Public License as published by the Free
- * Software Foundation; either version 2 of the License, or (at your option)
- * any later version.
+ * This program is free software; you can redistribute it and/or 
+ * modify it under the terms of the GNU General Public License as
+ * published by the Free Software Foundation; either version 2 of 
+ * the License, or (at your option) any later version.
  *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
- * more details.
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+ * GNU General Public License for more details.
  *
- * You should have received a copy of the GNU General Public License along with
- * this program; if not, write to the Free Software Foundation, Inc., 59 Temple
- * Place, Suite 330, Boston, MA  02111-1307  USA
+ * You should have received a copy of the GNU General Public 
+ * License along with this program; if not, write to the Free 
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ * Boston, MA 02110-1301, USA.
  */
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
 #endif
 
-#ifdef HAVE_ERRNO_H
-#include <errno.h>
-#endif
-#ifdef HAVE_MEMORY_H
-#include <memory.h>
-#endif
-#ifdef HAVE_STDLIB_H
-#include <stdlib.h>
-#endif
-#ifdef HAVE_STRING_H
-#include <string.h>
-#endif
+#include <glib.h>
 
-#include <dbus/dbus-glib-lowlevel.h>
+#include <gudev/gudev.h>
+
+#include <libxfce4util/libxfce4util.h>
+
+#include <xfconf/xfconf.h>
 
 #include <thunar-volman/tvm-block-device.h>
-#include <thunar-volman/tvm-camera-device.h>
+#include <thunar-volman/tvm-context.h>
 #include <thunar-volman/tvm-device.h>
-#include <thunar-volman/tvm-input-device.h>
-#include <thunar-volman/tvm-pda-device.h>
-#include <thunar-volman/tvm-printer-device.h>
 
 
 
 typedef struct _TvmDeviceHandler TvmDeviceHandler;
+
+
+
+static void tvm_device_try_next_handler (TvmContext *context);
+
+
+
 struct _TvmDeviceHandler
 {
-  const gchar      *capability;
-  TvmDeviceCallback callback;
+  const gchar         *subsystem;
+  TvmDeviceHandlerFunc func;
 };
 
 
 
-static const TvmDeviceHandler handlers[] =
+static TvmDeviceHandler subsystem_handlers[] = 
 {
-  { "block",          tvm_block_device_added,   },
-  { "camera",         tvm_camera_device_added,  },
-  { "input.keyboard", tvm_input_device_added,   },
-  { "input.mouse",    tvm_input_device_added,   },
-  { "input.tablet",   tvm_input_device_added,   },
-  { "pda",            tvm_pda_device_added,     },
-  { "printer",        tvm_printer_device_added, },
+  { "block",       tvm_block_device_added },
+#if 0
+  { "input",       tvm_input_device_added },
+  { "sound",       tvm_sound_device_added },
+  { "video4linux", tvm_video_device_added },
+#endif
 };
 
 
 
-static gint
-strptrcmp (gconstpointer strptr1,
-           gconstpointer strptr2)
+void
+tvm_device_handler_finished (TvmContext *context)
 {
-	return strcmp (*((const gchar **) strptr1),
-                 *((const gchar **) strptr2));
+  g_return_if_fail (context != NULL);
+  
+  if (context->error != NULL && *context->error != NULL)
+    {
+      g_list_free (context->handlers);
+      g_main_loop_quit (context->loop);
+    }
+  else
+    {
+      if (context->handlers != NULL)
+        tvm_device_try_next_handler (context);
+      else
+        g_main_loop_quit (context->loop);
+    }
 }
 
 
 
-/**
- * tvm_device_added:
- * @preferences : a #TvmPreferences.
- * @udi         : the HAL device UDI of the newly added device.
- * @error       : return location for errors or %NULL.
- *
- * Invoked whenever a new device is added, where @udi is the
- * HAL device UDI of the device in question. Returns %FALSE if
- * an unrecoverable error occurred, %TRUE otherwise.
- *
- * Return value: %FALSE in case of an unrecoverable error,
- *               %TRUE otherwise.
- **/
-gboolean
-tvm_device_added (TvmPreferences *preferences,
-                  const gchar    *udi,
-                  GError        **error)
+static void
+tvm_device_try_next_handler (TvmContext *context)
 {
-  DBusConnection *connection;
-  LibHalContext  *context;
-  DBusError       derror;
-  GError         *err = NULL;
-  gchar         **capabilities;
-  gint            n_capabilities;
-  gint            i, j, n;
+  TvmDeviceHandler *handler;
 
-  g_return_val_if_fail (exo_hal_udi_validate (udi, -1, NULL), FALSE);
-  g_return_val_if_fail (TVM_IS_PREFERENCES (preferences), FALSE);
-  g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
+  g_return_if_fail (context != NULL);
 
-  /* try to allocate a new HAL context */
-  context = libhal_ctx_new ();
-  if (G_UNLIKELY (context == NULL))
-    {
-      /* out of memory */
-      g_set_error (error, G_FILE_ERROR, G_FILE_ERROR_NOMEM, g_strerror (ENOMEM));
-      return FALSE;
-    }
+  handler = context->handlers->data;
+  context->handlers = g_list_delete_link (context->handlers, context->handlers);
 
-  /* initialize D-Bus error */
-  dbus_error_init (&derror);
-
-  /* try to connect to the system bus */
-  connection = dbus_bus_get (DBUS_BUS_SYSTEM, &derror);
-  if (G_UNLIKELY (connection == NULL))
-    {
-err0: /* release the HAL context */
-      libhal_ctx_free (context);
-
-      /* propagate the error */
-      dbus_set_g_error (error, &derror);
-      return FALSE;
-    }
-
-  /* setup the D-Bus connection for the GLib main loop */
-  dbus_connection_setup_with_g_main (connection, NULL);
-
-  /* setup the D-Bus connection for the HAL context */
-  libhal_ctx_set_dbus_connection (context, connection);
-
-  /* the HAL context now owns the connection */
-  dbus_connection_unref (connection);
-
-  /* try to initialize the HAL context */
-  if (!libhal_ctx_init (context, &derror))
-    goto err0;
-
-  /* query the capabilities of the device */
-  capabilities = libhal_device_get_property_strlist (context, udi, "info.capabilities", &derror);
-  if (G_UNLIKELY (capabilities == NULL))
-    {
-      /* shutdown the HAL context */
-      libhal_ctx_shutdown (context, NULL);
-      goto err0;
-    }
-
-  /* determine the number of capabilities */
-  n_capabilities = g_strv_length (capabilities);
-
-  /* sort the capabilities */
-  qsort (capabilities, n_capabilities, sizeof (*capabilities), strptrcmp);
-
-  /* try various handlers until one of them succeeds */
-  for (i = 0, j = 0; err == NULL && i < G_N_ELEMENTS (handlers) && j < n_capabilities; ++i)
-    {
-      /* search for a handler with the capability */
-      for (n = -1; j < n_capabilities; )
-        {
-          /* check if we have a match here */
-          n = strcmp (capabilities[j], handlers[i].capability);
-          if (G_LIKELY (n >= 0))
-            break;
-          ++j;
-        }
-
-      /* check if we have a potential match */
-      if (n == 0)
-        {
-          /* try to handle the device */
-          if ((*handlers[i].callback) (preferences, context, udi, capabilities[j], &err))
-            break;
-          ++j;
-        }
-    }
-
-  /* cleanup the capabilities */
-  libhal_free_string_array (capabilities);
-
-  /* shutdown the HAL context */
-  libhal_ctx_shutdown (context, NULL);
-  libhal_ctx_free (context);
-
-  /* check if we failed */
-  if (G_UNLIKELY (err != NULL))
-    {
-      /* propagate the error */
-      g_propagate_error (error, err);
-      return FALSE;
-    }
-
-  return TRUE;
+  handler->func (context);
 }
 
 
+
+void
+tvm_device_added (TvmContext *context)
+{
+  const gchar *const *keys = NULL;
+  const gchar        *subsystem;
+  gint                n;
+
+  g_return_if_fail (context != NULL);
+
+#ifdef DEBUG
+  g_debug ("tvm_device_added:");
+  keys = g_udev_device_get_property_keys (context->device);
+  for (n = 0; keys != NULL && keys[n] != NULL; ++n)
+    g_debug ("    %s = %s", keys[n], g_udev_device_get_property (context->device, keys[n]));
+#endif
+
+  /* determine the subsystem to which the device belongs */
+  subsystem = g_udev_device_get_subsystem (context->device);
+
+  /* find all subsystem handlers for this subsystem */
+  for (n = G_N_ELEMENTS (subsystem_handlers)-1; n >= 0; --n)
+    if (g_strcmp0 (subsystem, subsystem_handlers[n].subsystem) == 0)
+      context->handlers = g_list_prepend (context->handlers, &subsystem_handlers[n]);
+
+  /* check if we have at least one handler */
+  if (context->handlers != NULL)
+    {
+      /* try the next handler in the list */
+      tvm_device_try_next_handler (context);
+    }
+  else
+    {
+      g_set_error (context->error, G_FILE_ERROR, G_FILE_ERROR_FAILED,
+                   _("Device type not supported"));
+      g_main_loop_quit (context->loop);
+    }
+}

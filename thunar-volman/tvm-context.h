@@ -18,18 +18,42 @@
  * Boston, MA 02110-1301, USA.
  */
 
-#ifndef __TVM_BLOCK_DEVICE_H__
-#define __TVM_BLOCK_DEVICE_H__
+#ifndef __TVM_CONTEXT_H__
+#define __TVM_CONTEXT_H__
 
-#include <glib.h>
+#include <gio/gio.h>
 
-#include <thunar-volman/tvm-context.h>
-#include <thunar-volman/tvm-device.h>
+#include <gudev/gudev.h>
+
+#include <xfconf/xfconf.h>
 
 G_BEGIN_DECLS
 
-void tvm_block_device_added (TvmContext *context);
+typedef struct _TvmContext TvmContext;
+
+
+
+TvmContext *tvm_context_new       (GUdevClient   *client,
+                                   GUdevDevice   *device,
+                                   XfconfChannel *channel,
+                                   GMainLoop     *loop,
+                                   GError       **error) G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT;
+void        tvm_context_free      (TvmContext    *context);
+gboolean    tvm_context_run       (TvmContext    *context);
+
+
+
+struct _TvmContext 
+{
+  GVolumeMonitor *monitor;
+  XfconfChannel  *channel;
+  GUdevClient    *client;
+  GUdevDevice    *device;
+  GMainLoop      *loop;
+  GError        **error;
+  GList          *handlers;
+};
 
 G_END_DECLS
 
-#endif /* !__TVM_BLOCK_DEVICE_H__ */
+#endif /* !__TVM_CONTEXT_H__ */
