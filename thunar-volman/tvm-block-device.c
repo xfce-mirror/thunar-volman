@@ -73,23 +73,46 @@ tvm_file_test (GMount      *mount,
                const gchar *filename,
                GFileTest    test)
 {
-  gboolean result = FALSE;
-  GFile   *mount_point;
-  gchar   *mount_path;
-  gchar   *absolute_path;
+  const gchar *name;
+  gboolean     result = FALSE;
+  GFile       *mount_point;
+  gchar       *directory;
+  gchar       *path;
+  GDir        *dp;
 
   g_return_val_if_fail (G_IS_MOUNT (mount), FALSE);
   g_return_val_if_fail (filename != NULL && *filename != '\0', FALSE);
 
   mount_point = g_mount_get_root (mount);
-  mount_path = g_file_get_path (mount_point);
+  directory = g_file_get_path (mount_point);
   g_object_unref (mount_point);
 
-  absolute_path = g_build_filename (mount_path, filename, NULL);
-  g_free (mount_path);
+  /* try to open the specified directory */
+  dp = g_dir_open (directory, 0, NULL);
+  if (G_LIKELY (dp != NULL))
+    {
+      while (!result)
+        {
+          /* read the next entry */
+          name = g_dir_read_name (dp);
+          if (G_UNLIKELY (name == NULL))
+            break;
 
-  result = g_file_test (absolute_path, test);
-  g_free (absolute_path);
+          /* check if we have a potential match */
+          if (g_ascii_strcasecmp (name, filename) == 0)
+            {
+              /* check if test condition met */
+              path = g_build_filename (directory, name, NULL);
+              result = g_file_test (path, test);
+              g_free (path);
+            }
+        }
+
+      /* cleanup */
+      g_dir_close (dp);
+    }
+
+  g_free (directory);
 
   return result;
 }
