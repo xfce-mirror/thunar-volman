@@ -34,6 +34,7 @@
 #include <thunar-volman/tvm-context.h>
 #include <thunar-volman/tvm-device.h>
 #include <thunar-volman/tvm-gio-extensions.h>
+#include <thunar-volman/tvm-prompt.h>
 #include <thunar-volman/tvm-run.h>
 
 
@@ -125,9 +126,16 @@ tvm_block_device_autorun (TvmContext *context,
                           GError    **error)
 {
   gboolean autoplay;
+  gboolean autorun;
   gboolean result = FALSE;
   GError  *err = NULL;
+  GFile   *mount_point;
+  gchar  **argv;
   gchar   *autoplay_command;
+  gchar   *message;
+  gchar   *mount_path;
+  guint    n;
+  gint     response;
 
   g_return_val_if_fail (context != NULL, FALSE);
   g_return_val_if_fail (G_IS_MOUNT (mount), FALSE);
@@ -162,7 +170,58 @@ tvm_block_device_autorun (TvmContext *context,
         }
     }
 
-  return TRUE;
+  /* check if autorun is enabled */
+  autorun = xfconf_channel_get_bool (context->channel, "/autorun/enabled", FALSE);
+  if (autorun)
+    {
+      /* Autostart files according to the Desktop Application Autostart
+       * Specification */
+      static const gchar *autorun_files[] = { ".autorun", "autorun", "autorun.sh" };
+      for (n = 0; n < G_N_ELEMENTS (autorun_files); ++n) 
+        {
+          /* check if one of the autorun files is present and executable */
+          if (tvm_file_test (mount, autorun_files[n], G_FILE_TEST_IS_EXECUTABLE)
+              && tvm_file_test (mount, autorun_files[n], G_FILE_TEST_IS_REGULAR))
+            {
+              /* prompt the user to execute the file */
+              message = g_strdup_printf (_("Would you like to allow \"%s\" to run?"),
+                                         autorun_files[n]);
+              response = tvm_prompt (context, "gnome-fs-executable", 
+                                     _("Auto-Run Confirmation"),
+                                     _("Auto-Run capability detected"), message,
+                                     _("Ig_nore"), GTK_RESPONSE_CANCEL,
+                                     _("_Allow Auto-Run"), TVM_RESPONSE_AUTORUN,
+                                     NULL);
+              g_free (message);
+
+              /* check if we should autorun */
+              if (response == TVM_RESPONSE_AUTORUN)
+                {
+                  /* determine the mount point as a string */
+                  mount_point = g_mount_get_root (mount);
+                  mount_path = g_file_get_path (mount_point);
+                  g_object_unref (mount_point);
+
+                  /* prepare argv to launch the autorun file */
+                  argv = g_new0 (gchar *, 2);
+                  argv[0] = g_build_filename (mount_path, autorun_files[n], NULL);
+                  argv[1] = NULL;
+
+                  /* try to launch the autorun file */
+                  result = g_spawn_async (mount_path, argv, NULL, 0, NULL, NULL, NULL,
+                                          error);
+                  
+                  /* free strings */
+                  g_strfreev (argv);
+                  g_free (mount_path);
+
+                  return result;
+                }
+            }
+        }
+    }
+
+  return FALSE;
 }
 
 

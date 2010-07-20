@@ -172,7 +172,7 @@ tvm_run_burn_software (TvmContext *context,
   if (!autoburn)
     {
       g_set_error (error, G_FILE_ERROR, G_FILE_ERROR_FAILED, 
-                   _("Autoburning of blank CDs/DVDs is disabled"));
+                   _("Autoburning of blank CDs and DVDs is disabled"));
       return FALSE;
     }
 
