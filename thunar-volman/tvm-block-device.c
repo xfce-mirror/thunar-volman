@@ -53,6 +53,9 @@ typedef gboolean (*TvmBlockDeviceHandler) (TvmContext *context,
 static gboolean tvm_file_test               (GMount      *mount,
                                              const gchar *filename,
                                              GFileTest    test);
+static gboolean tvm_block_device_autoipod   (TvmContext  *context,
+                                             GMount      *mount,
+                                             GError     **error);
 static gboolean tvm_block_device_autophoto  (TvmContext  *context,
                                              GMount      *mount,
                                              GError     **error);
@@ -67,9 +70,7 @@ static gboolean tvm_block_device_autobrowse (TvmContext  *context,
 
 static TvmBlockDeviceHandler block_device_handlers[] =
 {
-#if 0
   tvm_block_device_autoipod,
-#endif
   tvm_block_device_autophoto,
   tvm_block_device_autorun,
   tvm_block_device_autobrowse,
@@ -122,6 +123,116 @@ tvm_file_test (GMount      *mount,
     }
 
   g_free (directory);
+
+  return result;
+}
+
+
+
+static gboolean
+tvm_block_device_autoipod (TvmContext *context,
+                           GMount     *mount,
+                           GError    **error)
+{
+  gboolean autoipod;
+  gboolean is_audio_player = FALSE;
+  gboolean is_ipod = FALSE;
+  gboolean result = FALSE;
+  GFile   *mount_point;
+  gchar   *autoipod_command;
+  gchar   *autophoto_command;
+  gchar   *mount_path;
+  gchar   *path_dcim = NULL;
+  gint     response = TVM_RESPONSE_NONE;
+
+  g_return_val_if_fail (context != NULL, FALSE);
+  g_return_val_if_fail (G_IS_MOUNT (mount), FALSE);
+  g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
+
+  autoipod = xfconf_channel_get_bool (context->channel, "/autoipod/enabled", FALSE);
+  if (autoipod)
+    {
+      /* check if we have a portable audio player here */
+      is_audio_player = g_udev_device_has_property (context->device, 
+                                                    "ID_MEDIA_PLAYER");
+
+      /* check if we have an iPod */
+      is_ipod = g_strcmp0 (g_udev_device_get_property (context->device, 
+                                                       "ID_MODEL"), "iPod") == 0;
+      if (is_ipod)
+        {
+          /* determine the mount point path */
+          mount_point = g_mount_get_root (mount);
+          mount_path = g_file_get_path (mount_point);
+          g_object_unref (mount_point);
+
+          /* build dcim path */
+          path_dcim = g_build_filename (mount_path, "dcim", NULL);
+          g_free (mount_path);
+
+          /* check if the iPod has photos */
+          if (!g_file_test (path_dcim, G_FILE_TEST_IS_DIR))
+            {
+              /* no photos */
+              g_free (path_dcim);
+              path_dcim = NULL;
+            }
+        }
+
+      autoipod_command = xfconf_channel_get_string (context->channel,
+                                                    "/autoipod/command", NULL);
+      autophoto_command = xfconf_channel_get_string (context->channel,
+                                                     "/autophoto/command", NULL);
+
+      /* check if autophoto command is specified, otherwise we cannot handle the photos 
+       * on the iPod anyway */
+      if (autophoto_command == NULL || *autophoto_command == '\0')
+        {
+          g_free (path_dcim);
+          path_dcim = NULL;
+        }
+
+      /* iPods can carry music and photos... */
+      if (path_dcim != NULL)
+        {
+          /* ...so we need to prompt what to do */
+          response = tvm_prompt (context, "gnome-dev-ipod", _("Photos and Music"),
+                                 _("Photos were found on your portable music player"),
+                                 _("Would you like to import the photos or manage the "
+                                   "music?"),
+                                 _("Ig_nore"), GTK_RESPONSE_CANCEL,
+                                 _("Import _Photos"), TVM_RESPONSE_PHOTOS,
+                                 _("Manage _Music"), TVM_RESPONSE_MUSIC,
+                                 NULL);
+        }
+      else if (is_audio_player)
+        {
+          response = TVM_RESPONSE_MUSIC;
+        }
+
+      /* check what to do */
+      if (response == TVM_RESPONSE_MUSIC)
+        {
+          /* run the preferred application to manage music players */
+          result = tvm_run_command (context, mount, autoipod_command, error);
+        }
+      else if (response == TVM_RESPONSE_PHOTOS)
+        {
+          /* run the preferred application to manage photos */
+          result = tvm_run_command (context, mount, autophoto_command, error);
+        }
+      else if (path_dcim != NULL)
+        {
+          /* when the user has decided to ignore photos/music, we don't want
+           * to ask him again in autophoto and we don't want to mount the 
+           * device either... I guess? */
+          result = TRUE;
+        }
+
+      g_free (autophoto_command);
+      g_free (autoipod_command);
+      g_free (path_dcim);
+    }
 
   return result;
 }
