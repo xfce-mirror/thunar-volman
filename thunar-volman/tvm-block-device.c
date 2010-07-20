@@ -53,6 +53,9 @@ typedef gboolean (*TvmBlockDeviceHandler) (TvmContext *context,
 static gboolean tvm_file_test               (GMount      *mount,
                                              const gchar *filename,
                                              GFileTest    test);
+static gboolean tvm_block_device_autophoto  (TvmContext  *context,
+                                             GMount      *mount,
+                                             GError     **error);
 static gboolean tvm_block_device_autorun    (TvmContext  *context,
                                              GMount      *mount,
                                              GError     **error);
@@ -66,8 +69,8 @@ static TvmBlockDeviceHandler block_device_handlers[] =
 {
 #if 0
   tvm_block_device_autoipod,
-  tvm_block_device_autophoto,
 #endif
+  tvm_block_device_autophoto,
   tvm_block_device_autorun,
   tvm_block_device_autobrowse,
 };
@@ -119,6 +122,61 @@ tvm_file_test (GMount      *mount,
     }
 
   g_free (directory);
+
+  return result;
+}
+
+
+
+static gboolean
+tvm_block_device_autophoto (TvmContext *context,
+                            GMount     *mount,
+                            GError    **error)
+{
+  gboolean autophoto;
+  gboolean result = FALSE;
+  gchar   *autophoto_command;
+  gint     response;
+
+  g_return_val_if_fail (context != NULL, FALSE);
+  g_return_val_if_fail (G_IS_MOUNT (mount), FALSE);
+  g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
+
+  /* check if autophoto support is enabled */
+  autophoto = xfconf_channel_get_bool (context->channel, "/autophoto/enabled", FALSE);
+  if (autophoto)
+    {
+      autophoto_command = xfconf_channel_get_string (context->channel, 
+                                                     "/autophoto/command", NULL);
+      if (autophoto_command != NULL && *autophoto_command != '\0')
+        {
+          /* check if we have any photos on the volume */
+          if (tvm_file_test (mount, "dcim", G_FILE_TEST_IS_DIR))
+            {
+              /* ask the user to import photos */
+              response = tvm_prompt (context, "camera-photo", _("Photo Import"),
+                                     _("A photo card has been detected"),
+                                     _("There are photos on the card. Would you like to "
+                                       "add these photos to your album?"),
+                                     _("Ig_nore"), GTK_RESPONSE_CANCEL,
+                                     _("Import _Photos"), TVM_RESPONSE_PHOTOS,
+                                     NULL);
+
+              if (response == TVM_RESPONSE_PHOTOS)
+                {
+                  /* run the preferred photo application */
+                  result = tvm_run_command (context, mount, autophoto_command, error);
+                }
+              else
+                {
+                  /* pretend that we handled the device */
+                  result = TRUE;
+                }
+            }
+        }
+          
+      g_free (autophoto_command);
+    }
 
   return result;
 }
@@ -221,11 +279,14 @@ tvm_block_device_autorun (TvmContext *context,
 
                   /* try to launch the autorun file */
                   result = g_spawn_async (mount_path, argv, NULL, 0, NULL, NULL, NULL,
-                                          error);
+                                          &err);
                   
                   /* free strings */
                   g_strfreev (argv);
                   g_free (mount_path);
+
+                  if (err != NULL)
+                    g_propagate_error (error, err);
 
                   return result;
                 }
@@ -266,7 +327,7 @@ tvm_block_device_autorun (TvmContext *context,
 
                   /* try to launch the autorun file */
                   result = g_spawn_async (mount_path, argv, NULL, 0, NULL, NULL, NULL,
-                                          error);
+                                          &err);
                   
                   /* free strings */
                   g_strfreev (argv);
@@ -274,6 +335,9 @@ tvm_block_device_autorun (TvmContext *context,
 
                   /* free path to wine */
                   g_free (wine);
+
+                  if (err != NULL)
+                    g_propagate_error (error, err);
 
                   return result;
                 }
@@ -340,7 +404,7 @@ tvm_block_device_autorun (TvmContext *context,
 
                           /* let Thunar open the file */
                           result = g_spawn_async (mount_path, argv, NULL, 0, NULL, NULL, 
-                                                  NULL, error);
+                                                  NULL, &err);
 
                           /* cleanup */
                           g_free (path_autoopen);
@@ -348,6 +412,9 @@ tvm_block_device_autorun (TvmContext *context,
           
                           /* free the mount point path */
                           g_free (mount_path);
+
+                          if (err != NULL)
+                            g_propagate_error (error, err);
 
                           return result;
                         }
@@ -415,7 +482,7 @@ tvm_block_device_mounted (TvmContext *context,
   g_return_if_fail (error == NULL || *error == NULL);
 
   /* try block device handlers (iPod, cameras etc.) until one succeeds */
-  for (n = 0; !success && n < G_N_ELEMENTS (block_device_handlers); ++n)
+  for (n = 0; !success && err == NULL && n < G_N_ELEMENTS (block_device_handlers); ++n)
     success = (block_device_handlers[n]) (context, mount, &err);
 
   /* forward errors to the caller */
