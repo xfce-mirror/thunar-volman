@@ -134,6 +134,7 @@ tvm_block_device_autorun (TvmContext *context,
   gchar   *autoplay_command;
   gchar   *message;
   gchar   *mount_path;
+  gchar   *wine;
   guint    n;
   gint     response;
 
@@ -218,6 +219,57 @@ tvm_block_device_autorun (TvmContext *context,
                   return result;
                 }
             }
+        }
+
+      /* check if wine is present */
+      wine = g_find_program_in_path ("wine");
+      if (wine != NULL)
+        {
+          /* check if we have an autorun.exe file */
+          if (tvm_file_test (mount, "autorun.exe", G_FILE_TEST_IS_REGULAR))
+            {
+              /* prompt the user to execute this file */
+              message = g_strdup_printf (_("Would you like to allow \"%s\" to run?"),
+                                         "autorun.exe");
+              response = tvm_prompt (context, "gnome-fs-executable", 
+                                     _("Auto-Run Confirmation"),
+                                     _("Auto-Run capability detected"), message,
+                                     _("Ig_nore"), GTK_RESPONSE_CANCEL,
+                                     _("_Allow Auto-Run"), TVM_RESPONSE_AUTORUN,
+                                     NULL);
+              g_free (message);
+
+              /* check if we should run autogen.exe */
+              if (response == TVM_RESPONSE_AUTORUN)
+                {
+                  /* determine the mount point as a string */
+                  mount_point = g_mount_get_root (mount);
+                  mount_path = g_file_get_path (mount_point);
+                  g_object_unref (mount_point);
+
+                  /* prepare argv to launch the autorun file */
+                  argv = g_new0 (gchar *, 3);
+                  argv[0] = g_strdup (wine);
+                  argv[1] = g_strdup ("autorun.exe");
+                  argv[2] = NULL;
+
+                  /* try to launch the autorun file */
+                  result = g_spawn_async (mount_path, argv, NULL, 0, NULL, NULL, NULL,
+                                          error);
+                  
+                  /* free strings */
+                  g_strfreev (argv);
+                  g_free (mount_path);
+
+                  /* free path to wine */
+                  g_free (wine);
+
+                  return result;
+                }
+            }
+
+          /* free path to wine */
+          g_free (wine);
         }
     }
 
