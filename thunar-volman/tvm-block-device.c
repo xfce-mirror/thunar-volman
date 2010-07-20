@@ -1,6 +1,7 @@
 /* vi:set et ai sw=2 sts=2 ts=2: */
 /*-
- * Copyright (c) 2010 Jannis Pohlmann <jannis@xfce.org>
+ * Copyright (c) 2007-2008 Benedikt Meurer <benny@xfce.org>
+ * Copyright (c) 2010      Jannis Pohlmann <jannis@xfce.org>
  *
  * This program is free software; you can redistribute it and/or 
  * modify it under the terms of the GNU General Public License as
@@ -20,6 +21,10 @@
 
 #ifdef HAVE_CONFIG_H
 #include <config.h>
+#endif
+
+#ifdef HAVE_SYS_STAT_H
+#include <sys/stat.h>
 #endif
 
 #include <gio/gio.h>
@@ -125,18 +130,24 @@ tvm_block_device_autorun (TvmContext *context,
                           GMount     *mount,
                           GError    **error)
 {
-  gboolean autoplay;
-  gboolean autorun;
-  gboolean result = FALSE;
-  GError  *err = NULL;
-  GFile   *mount_point;
-  gchar  **argv;
-  gchar   *autoplay_command;
-  gchar   *message;
-  gchar   *mount_path;
-  gchar   *wine;
-  guint    n;
-  gint     response;
+  struct stat statb_mount_point;
+  struct stat statb_autoopen;
+  gboolean    autoopen;
+  gboolean    autoplay;
+  gboolean    autorun;
+  gboolean    result = FALSE;
+  GError     *err = NULL;
+  GFile      *mount_point;
+  gchar     **argv;
+  gchar      *autoplay_command;
+  gchar      *message;
+  gchar      *mount_path;
+  gchar      *path_autoopen;
+  gchar      *wine;
+  gchar       line[1024];
+  guint       n;
+  FILE       *fp;
+  gint        response;
 
   g_return_val_if_fail (context != NULL, FALSE);
   g_return_val_if_fail (G_IS_MOUNT (mount), FALSE);
@@ -270,6 +281,88 @@ tvm_block_device_autorun (TvmContext *context,
 
           /* free path to wine */
           g_free (wine);
+        }
+    }
+
+ /* check if autoopen support is enabled */
+  autoopen = xfconf_channel_get_bool (context->channel, "/autoopen/enabled", FALSE);
+  if (autoopen)
+    {
+      /* "Autoopen Files" (Desktop Application Autostart Specification) */
+      static const gchar *autoopen_files[] = { ".autoopen", "autoopen" };
+      for (n = 0; n < G_N_ELEMENTS (autoopen_files); ++n)
+        {
+          /* determine the moint point path */
+          mount_point = g_mount_get_root (mount);
+          mount_path = g_file_get_path (mount_point);
+          g_object_unref (mount_point);
+
+          /* check if one of the autoopen files is present */
+          path_autoopen = g_build_filename (mount_path, autoopen_files[n], NULL);
+          fp = fopen (path_autoopen, "r");
+          g_free (path_autoopen);
+
+          /* check if the file could be opened */
+          if (G_UNLIKELY (fp != NULL))
+            {
+              /* read the first line of the file (MUST NOT be an absolute path) */
+              if (fgets (line, sizeof (line), fp) != NULL && !g_path_is_absolute (line))
+                {
+                  /* determine the absolute path of the file */
+                  path_autoopen = g_build_filename (mount_path, g_strstrip (line), NULL);
+
+                  /* the file must exist on exactly this device */
+                  if (stat (mount_path, &statb_mount_point) == 0 
+                      && stat (path_autoopen, &statb_autoopen) == 0
+                      && S_ISREG (statb_autoopen.st_mode) 
+                      && (statb_autoopen.st_mode & 0111) == 0
+                      && (statb_mount_point.st_dev == statb_autoopen.st_dev))
+                    {
+                      /* prompt the user whether to autoopen this file */
+                      message = g_strdup_printf (_("Would you like to open \"%s\"?"), 
+                                                 autoopen_files[n]);
+                      response = tvm_prompt (context, "gnome-fs-executable", 
+                                             _("Auto-Open Confirmation"),
+                                             _("Auto-Open capability detected"), message,
+                                             _("Ig_nore"), GTK_RESPONSE_CANCEL,
+                                             _("_Open"), TVM_RESPONSE_AUTORUN,
+                                             NULL);
+                      g_free (message);
+
+                      /* check if we should autoopen */
+                      if (response == TVM_RESPONSE_AUTORUN)
+                        {
+                          /* prepare the command to autoopen */
+                          argv = g_new (gchar *, 3);
+                          argv[0] = g_strdup ("Thunar");
+                          argv[1] = path_autoopen;
+                          argv[2] = NULL;
+
+                          /* let Thunar open the file */
+                          result = g_spawn_async (mount_path, argv, NULL, 0, NULL, NULL, 
+                                                  NULL, error);
+
+                          /* cleanup */
+                          g_free (path_autoopen);
+                          fclose (fp);
+          
+                          /* free the mount point path */
+                          g_free (mount_path);
+
+                          return result;
+                        }
+                    }
+
+                  /* cleanup */
+                  g_free (path_autoopen);
+                }
+
+              /* close the file handle */
+              fclose (fp);
+            }
+
+          /* free the mount point path */
+          g_free (mount_path);
         }
     }
 
