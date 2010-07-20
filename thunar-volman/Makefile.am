@@ -40,6 +40,10 @@ thunar_volman_SOURCES =							\
 	tvm-device.h							\
 	tvm-gio-extensions.c						\
 	tvm-gio-extensions.h						\
+	tvm-pango-extensions.c						\
+	tvm-pango-extensions.h						\
+	tvm-prompt.c							\
+	tvm-prompt.h							\
 	tvm-run.c							\
 	tvm-run.h
 
@@ -50,6 +54,7 @@ thunar_volman_CFLAGS =							\
 	$(GTHREAD_CFLAGS)						\
 	$(GTK_CFLAGS)							\
 	$(GUDEV_CFLAGS)							\
+	$(LIBXFCE4UI_CFLAGS)						\
 	$(LIBXFCE4UTIL_CFLAGS)						\
 	$(XFCONF_CFLAGS)						\
 	$(PLATFORM_CFLAGS)
@@ -65,5 +70,6 @@ thunar_volman_LDADD =							\
 	$(GTHREAD_LIBS)							\
 	$(GTK_LIBS)							\
 	$(GUDEV_LIBS)							\
+	$(LIBXFCE4UI_LIBS)						\
 	$(LIBXFCE4UTIL_LIBS)						\
 	$(XFCONF_LIBS)

@@ -326,6 +326,7 @@ tvm_block_device_added (TvmContext *context)
   gboolean     is_partition;
   gboolean     is_volume;
   guint64      audio_tracks;
+  GError      *error = NULL;
 
   g_return_if_fail (context != NULL);
 
@@ -352,11 +353,15 @@ tvm_block_device_added (TvmContext *context)
             g_udev_device_get_property_as_uint64 (context->device, 
                                                   "ID_CDROM_MEDIA_TRACK_COUNT_AUDIO");
 
+          /* check if we have a blank CD/DVD here */
           if (g_strcmp0 (media_state, "blank") == 0)
             {
-#if 0
-              tvm_run_burn_software (client, device, channel, &error);
-#endif
+              /* try to run the burn program */
+              if (!tvm_run_burn_software (context, &error))
+                g_propagate_error (context->error, error);
+
+              /* finish processing the device */
+              tvm_device_handler_finished (context);
             }
           else if (audio_tracks > 0)
             {

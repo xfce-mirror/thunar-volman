@@ -1,6 +1,6 @@
 /* vi:set et ai sw=2 sts=2 ts=2: */
 /*-
- * Copyright (c) 2010 Jannis Pohlmann <jannis@xfce.org>
+ * Copyright (c) 2006-2007 Benedikt Meurer <benny@xfce.org>
  *
  * This program is free software; you can redistribute it and/or 
  * modify it under the terms of the GNU General Public License as
@@ -18,22 +18,20 @@
  * Boston, MA 02110-1301, USA.
  */
 
-#ifndef __TVM_RUN_H__
-#define __TVM_RUN_H__
+#ifndef __TVM_PANGO_EXTENSIONS_H__
+#define __TVM_PANGO_EXTENSIONS_H__
 
-#include <gio/gio.h>
-
-#include <thunar-volman/tvm-context.h>
+#include <pango/pango.h>
 
 G_BEGIN_DECLS
 
-gboolean tvm_run_command        (TvmContext  *context,
-                                 GMount      *mount,
-                                 const gchar *command,
-                                 GError     **error);
-gboolean  tvm_run_burn_software (TvmContext  *context,
-                                 GError     **error);
+PangoAttrList *tvm_pango_attr_list_big               (void) G_GNUC_CONST G_GNUC_INTERNAL;
+PangoAttrList *tvm_pango_attr_list_big_bold          (void) G_GNUC_CONST G_GNUC_INTERNAL;
+PangoAttrList *tvm_pango_attr_list_bold              (void) G_GNUC_CONST G_GNUC_INTERNAL;
+PangoAttrList *tvm_pango_attr_list_italic            (void) G_GNUC_CONST G_GNUC_INTERNAL;
+PangoAttrList *tvm_pango_attr_list_small_italic      (void) G_GNUC_CONST G_GNUC_INTERNAL;
+PangoAttrList *tvm_pango_attr_list_underline_single  (void) G_GNUC_CONST G_GNUC_INTERNAL;
 
 G_END_DECLS
 
-#endif /* !__TVM_RUN_H__ */
+#endif /* !__TVM_PANGO_EXTENSIONS_H__ */
