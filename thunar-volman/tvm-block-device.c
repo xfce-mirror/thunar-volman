@@ -328,7 +328,7 @@ tvm_block_device_added (TvmContext *context)
   guint64      audio_tracks;
 
   g_return_if_fail (context != NULL);
-  
+
   /* collect general device information */
   devtype = g_udev_device_get_devtype (context->device);
   id_type = g_udev_device_get_property (context->device, "ID_TYPE");
@@ -370,6 +370,11 @@ tvm_block_device_added (TvmContext *context)
               /* mount the CD/DVD and continue with inspecting its contents */
               tvm_block_device_mount (context);
             }
+        }
+      else
+        {
+          /* finish processing the device */
+          tvm_device_handler_finished (context);
         }
     }
   else if (is_partition || is_volume)
