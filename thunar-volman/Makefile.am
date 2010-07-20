@@ -40,6 +40,8 @@ thunar_volman_SOURCES =							\
 	tvm-device.h							\
 	tvm-gio-extensions.c						\
 	tvm-gio-extensions.h						\
+	tvm-input-device.c						\
+	tvm-input-device.h						\
 	tvm-pango-extensions.c						\
 	tvm-pango-extensions.h						\
 	tvm-prompt.c							\

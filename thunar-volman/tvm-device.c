@@ -33,6 +33,7 @@
 #include <thunar-volman/tvm-block-device.h>
 #include <thunar-volman/tvm-context.h>
 #include <thunar-volman/tvm-device.h>
+#include <thunar-volman/tvm-input-device.h>
 
 
 
@@ -55,8 +56,8 @@ struct _TvmDeviceHandler
 static TvmDeviceHandler subsystem_handlers[] = 
 {
   { "block",       tvm_block_device_added },
-#if 0
   { "input",       tvm_input_device_added },
+#if 0
   { "sound",       tvm_sound_device_added },
   { "video4linux", tvm_video_device_added },
 #endif
