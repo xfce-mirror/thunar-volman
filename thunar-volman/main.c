@@ -105,6 +105,19 @@ main (int    argc,
       return EXIT_FAILURE;
     }
 
+  /* check if we should print version information */
+  if (opt_version)
+    {
+      g_print ("%s %s (Xfce %s)\n\n", PACKAGE_NAME, PACKAGE_VERSION, 
+               xfce_version_string ());
+      g_print ("%s\n", "Copyright (c) 2004-2007 Benedikt Meurer <benny@xfce.org>");
+      g_print ("%s\n", "Copyright (c)      2010 Jannis Pohlmann <jannis@xfce.org>");
+      g_print ("\n%s\n\n", _("All rights reserved."));
+      g_print (_("Please report bugs to <%s>."), PACKAGE_BUGREPORT);
+      g_print ("\n");
+      return EXIT_SUCCESS;
+    }
+
   /* initialize xfconf */
   if (!xfconf_init (&error))
     {
@@ -114,7 +127,7 @@ main (int    argc,
     }
 
   /* check if we should print the version information */
-  if (opt_version)
+  if (opt_configure)
     {
       /* the --configure/-c option of thunar-volman exists for backwards-compatibility
        * reasons only. what we really do here is spawning thunar-volman-settings */
