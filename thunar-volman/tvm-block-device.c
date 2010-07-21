@@ -707,8 +707,12 @@ tvm_block_device_added (TvmContext *context)
   gboolean     is_cdrom;
   gboolean     is_partition;
   gboolean     is_volume;
+  gboolean     automount;
+  gboolean     autoplay;
   guint64      audio_tracks;
+  guint64      data_tracks;
   GError      *error = NULL;
+  gint         response;
 
   g_return_if_fail (context != NULL);
 
@@ -731,6 +735,9 @@ tvm_block_device_added (TvmContext *context)
           /* collect CD information */
           media_state = g_udev_device_get_property (context->device, 
                                                     "ID_CDROM_MEDIA_STATE");
+          data_tracks =
+            g_udev_device_get_property_as_uint64 (context->device,
+                                                  "ID_CDROM_MEDIA_TRACK_COUNT_DATA");
           audio_tracks = 
             g_udev_device_get_property_as_uint64 (context->device, 
                                                   "ID_CDROM_MEDIA_TRACK_COUNT_AUDIO");
@@ -745,17 +752,84 @@ tvm_block_device_added (TvmContext *context)
               /* finish processing the device */
               tvm_device_handler_finished (context);
             }
+          else if (audio_tracks > 0 && data_tracks > 0)
+            {
+              /* check if both autoplay and automounting of CDs/DVDs is enabled */
+              automount = xfconf_channel_get_bool (context->channel, 
+                                                   "/automount-media/enabled", FALSE);
+              autoplay = xfconf_channel_get_bool (context->channel, 
+                                                  "/autoplay-audio-cds/enabled", FALSE);
+              if (automount && autoplay)
+                {
+                  /* ask what to do with the mixed audio/data disc */
+                  response = tvm_prompt (context, "gnome-dev-cdrom-audio",
+                                         _("Audio/Data CD"),
+                                         _("The CD in the drive contains both music "
+                                           "and files"),
+                                         _("Would you like to listen to music or "
+                                           "browse the files?"),
+                                         _("Ig_nore"), GTK_RESPONSE_CANCEL,
+                                         _("_Browse Files"), TVM_RESPONSE_BROWSE,
+                                         _("_Play CD"), TVM_RESPONSE_PLAY, 
+                                         NULL);
+
+                  switch (response)
+                    {
+                    case TVM_RESPONSE_PLAY:
+                      goto autoplay_disc;
+                      break;
+
+                    case TVM_RESPONSE_BROWSE:
+                      goto automount_disc;
+                      break;
+
+                    default:
+                      /* finish processing the device */
+                      tvm_device_handler_finished (context);
+                      break;
+                    }
+                }
+              else if (automount)
+                {
+                  /* just mount the disc automatically */
+                  goto automount_disc;
+                }
+              else if (autoplay)
+                {
+                  /* just play the disc automatically */
+                  goto autoplay_disc;
+                }
+              else
+                {
+                  /* finish processing the device */
+                  tvm_device_handler_finished (context);
+                }
+            }
           else if (audio_tracks > 0)
             {
-#if 0
-              /* TODO detect mixed CDs with audio AND data tracks */
-              tvm_run_cd_player (client, device, channel, &error);
-#endif
+autoplay_disc:
+              /* open the audio CD in the favorite CD player */
+              tvm_run_cd_player (context, context->error);
+
+              /* finish processing the device */
+              tvm_device_handler_finished (context);
+            }
+          else if (data_tracks > 0)
+            {
+automount_disc:
+              /* check if automounting media is enabled */
+              automount = xfconf_channel_get_bool (context->channel, 
+                                                   "/automount-media/enabled", FALSE);
+              if (automount)
+                {
+                  /* mount the CD/DVD and continue with inspecting its contents */
+                  tvm_block_device_mount (context);
+                }
             }
           else
             {
-              /* mount the CD/DVD and continue with inspecting its contents */
-              tvm_block_device_mount (context);
+              /* finish processing the device */
+              tvm_device_handler_finished (context);
             }
         }
       else
@@ -766,8 +840,19 @@ tvm_block_device_added (TvmContext *context)
     }
   else if (is_partition || is_volume)
     {
-      /* mount the partition and continue with inspecting its contents */
-      tvm_block_device_mount (context);
+      /* check if automounting drives is enabled */
+      automount = xfconf_channel_get_bool (context->channel, "/automount-drives/enabled",
+                                           FALSE);
+      if (automount)
+        {
+          /* mount the partition and continue with inspecting its contents */
+          tvm_block_device_mount (context);
+        }
+      else
+        {
+          /* finish processing the device */
+          tvm_device_handler_finished (context);
+        }
     }
   else
     {
