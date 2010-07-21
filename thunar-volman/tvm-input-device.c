@@ -64,7 +64,7 @@ tvm_input_device_added (TvmContext *context)
     {
       /* we have a wacom tablet */
       enabled_property = "/autotablet/enabled";
-      command_property = "/autotabled/command";
+      command_property = "/autotablet/command";
     }
   else if (g_strcmp0 (id_class, "mouse") == 0)
     {
