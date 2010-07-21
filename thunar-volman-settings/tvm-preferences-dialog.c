@@ -360,7 +360,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   button = gtk_check_button_new_with_mnemonic (_("Play _music files when connected"));
   xfconf_g_property_bind (channel, "/autoipod/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, GTK_FILL, 0, 0);
+  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
+                    GTK_FILL, 0, 0);
   gtk_widget_show (button);
 
   entry = tvm_command_entry_new_with_label (_("C_ommand:"));
@@ -368,7 +369,56 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/autoipod/command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL, GTK_FILL, 0, 0);
+  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL, 
+                    GTK_FILL, 0, 0);
+  gtk_widget_show (entry);
+
+  /*
+     Cameras
+   */
+  label = gtk_label_new (_("Cameras"));
+  vbox = g_object_new (GTK_TYPE_VBOX, "border-width", 12, "spacing", 12, NULL);
+  gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
+  gtk_widget_show (label);
+  gtk_widget_show (vbox);
+
+  frame = g_object_new (GTK_TYPE_FRAME, "border-width", 0, "shadow-type", 
+                        GTK_SHADOW_NONE, NULL);
+  gtk_box_pack_start (GTK_BOX (vbox), frame, FALSE, TRUE, 0);
+  gtk_widget_show (frame);
+
+  label = gtk_label_new (_("Digital Cameras"));
+  gtk_label_set_attributes (GTK_LABEL (label), tvm_pango_attr_list_bold ());
+  gtk_frame_set_label_widget (GTK_FRAME (frame), label);
+  gtk_widget_show (label);
+
+  table = gtk_table_new (2, 2, FALSE);
+  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
+  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
+  gtk_container_add (GTK_CONTAINER (frame), table);
+  gtk_widget_show (table);
+
+  image = gtk_image_new_from_icon_name ("camera-photo", GTK_ICON_SIZE_DIALOG);
+  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_widget_show (image);
+
+  button = gtk_check_button_new_with_mnemonic (_("Import digital photographs "
+                                                 "when connected"));
+  xfconf_g_property_bind (channel, "/autophoto/enabled", G_TYPE_BOOLEAN, 
+                          button, "active");
+  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
+                    GTK_FILL, 0, 0);
+  gtk_widget_show (button);
+
+  entry = tvm_command_entry_new_with_label (_("_Command:"));
+  xfconf_g_property_bind (channel, "/autophoto/enabled", G_TYPE_BOOLEAN, 
+                          entry, "sensitive");
+  xfconf_g_property_bind (channel, "/autophoto/command", G_TYPE_STRING, 
+                          entry, "command");
+  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL, 
+                    GTK_FILL, 0, 0);
   gtk_widget_show (entry);
 }
 
