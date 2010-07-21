@@ -34,6 +34,5 @@ mkinstalldirs
 POTFILES
 stamp-it
 stamp-h1
-thunar-volman-settings
 thunar-volman-settings.desktop
 texput.log

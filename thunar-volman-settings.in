@@ -1,7 +1,0 @@
-#!/bin/sh
-#
-# Copyright (c) 2007 Benedikt Meurer <benny@xfce.org>
-#
-
-# launch the thunar-volman preferences
-exec @bindir@/thunar-volman -c

@@ -21,57 +21,55 @@ INCLUDES =								\
 	-I$(top_builddir)						\
 	-I$(top_srcdir)							\
 	-DBINDIR=\"$(bindir)\"						\
-	-DG_LOG_DOMAIN=\"thunar-volman\"				\
+	-DG_LOG_DOMAIN=\"thunar-volman-settings\"			\
 	-DPACKAGE_LOCALE_DIR=\"$(localedir)\"				\
+	-DDATADIR=\"$(datadir)\"					\
 	$(PLATFORM_CPPFLAGS)
 
 bin_PROGRAMS =								\
-	thunar-volman
+	thunar-volman-settings
 
-thunar_volman_SOURCES =							\
+thunar_volman_settings_SOURCES =					\
 	main.c								\
-	tvm-block-device.c						\
-	tvm-block-device.h						\
-	tvm-context.c							\
-	tvm-context.h							\
-	tvm-device.c							\
-	tvm-device.h							\
-	tvm-gio-extensions.c						\
-	tvm-gio-extensions.h						\
-	tvm-input-device.c						\
-	tvm-input-device.h						\
-	tvm-pango-extensions.c						\
-	tvm-pango-extensions.h						\
-	tvm-prompt.c							\
-	tvm-prompt.h							\
-	tvm-run.c							\
-	tvm-run.h							\
-	tvm-usb-device.c						\
-	tvm-usb-device.h
+	tvm-command-entry.c						\
+	tvm-command-entry.h						\
+	tvm-preferences-dialog.c					\
+	tvm-preferences-dialog.h					\
+	../thunar-volman/tvm-pango-extensions.c				\
+	../thunar-volman/tvm-pango-extensions.h
 
-thunar_volman_CFLAGS =							\
-	$(DBUS_CFLAGS)							\
+thunar_volman_settings_CFLAGS =						\
+	$(EXO_CFLAGS)							\
 	$(GLIB_CFLAGS)							\
-	$(GIO_CFLAGS)							\
-	$(GTHREAD_CFLAGS)						\
 	$(GTK_CFLAGS)							\
-	$(GUDEV_CFLAGS)							\
 	$(LIBXFCE4UI_CFLAGS)						\
 	$(LIBXFCE4UTIL_CFLAGS)						\
 	$(XFCONF_CFLAGS)						\
 	$(PLATFORM_CFLAGS)
 
-thunar_volman_LDFLAGS =							\
+thunar_volman_settings_LDFLAGS =					\
 	-no-undefined							\
 	$(PLATFORM_LDFLAGS)
 
-thunar_volman_LDADD =							\
-	$(DBUS_LIBS)							\
+thunar_volman_settings_LDADD =						\
+	$(EXO_LIBS)							\
 	$(GLIB_LIBS)							\
-	$(GIO_LIBS)							\
-	$(GTHREAD_LIBS)							\
 	$(GTK_LIBS)							\
-	$(GUDEV_LIBS)							\
 	$(LIBXFCE4UI_LIBS)						\
 	$(LIBXFCE4UTIL_LIBS)						\
 	$(XFCONF_LIBS)
+
+desktopdir = $(datadir)/applications
+desktop_in_in_files = thunar-volman-settings.desktop.in.in
+desktop_in_files = $(desktop_in_in_files:.desktop.in.in=.desktop.in)
+%.desktop.in: %.desktop.in.in
+	sed -e "s,\@libexecdir\@,$(libexecdir),g" < $< > $@
+desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
+@INTLTOOL_DESKTOP_RULE@
+
+EXTRA_DIST =								\
+	$(desktop_in_in_files)
+
+DISTCLEANFILES =							\
+	$(desktop_in_files)						\
+	$(desktop_DATA)
