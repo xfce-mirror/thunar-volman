@@ -38,6 +38,7 @@ tvm_input_device_added (TvmContext *context)
 {
   const gchar *id_class;
   const gchar *id_model;
+  const gchar *id_usb_driver;
   const gchar *driver;
   const gchar *enabled_property = NULL;
   const gchar *command_property = NULL;
@@ -50,6 +51,7 @@ tvm_input_device_added (TvmContext *context)
   id_class = g_udev_device_get_property (context->device, "ID_CLASS");
   id_model = g_udev_device_get_property (context->device, "ID_MODEL");
   driver = g_udev_device_get_property (context->device, "DRIVER");
+  id_usb_driver = g_udev_device_get_property (context->device, "ID_USB_DRIVER");
 
   if (g_strcmp0 (id_class, "kbd") == 0)
     {
@@ -57,7 +59,8 @@ tvm_input_device_added (TvmContext *context)
       enabled_property = "/autokeyboard/enabled";
       command_property = "/autokeyboard/command";
     }
-  else if (g_strcmp0 (driver, "wacom") == 0)
+  else if (g_strcmp0 (driver, "wacom") == 0 
+           || g_strcmp0 (id_usb_driver, "wacom") == 0)
     {
       /* we have a wacom tablet */
       enabled_property = "/autotablet/enabled";
