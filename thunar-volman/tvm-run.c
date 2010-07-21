@@ -155,7 +155,6 @@ tvm_run_burn_software (TvmContext *context,
     "ID_CDROM_MEDIA_DVD_PLUS_R",
     "ID_CDROM_MEDIA_DVD_PLUS_RW",
   };
-  gboolean            autoburn;
   gboolean            is_cd = FALSE;
   gboolean            is_dvd = FALSE;
   gboolean            result = FALSE;
@@ -168,8 +167,7 @@ tvm_run_burn_software (TvmContext *context,
   g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
 
   /* abort without error if autoburning is turned off */
-  autoburn = xfconf_channel_get_bool (context->channel, "/autoburn/enabled", FALSE);
-  if (!autoburn)
+  if (!xfconf_channel_get_bool (context->channel, "/autoburn/enabled", FALSE))
     {
       g_set_error (error, G_FILE_ERROR, G_FILE_ERROR_FAILED, 
                    _("Autoburning of blank CDs and DVDs is disabled"));
@@ -242,3 +240,41 @@ tvm_run_burn_software (TvmContext *context,
   return result;
 }
 
+
+
+gboolean 
+tvm_run_cd_player (TvmContext *context,
+                   GError    **error)
+{
+  gboolean result = FALSE;
+  gchar   *command;
+
+  g_return_val_if_fail (context != NULL, FALSE);
+  g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
+  g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
+
+  /* check whether autoplaying audio CDs is enabled */
+  if (xfconf_channel_get_bool (context->channel, "/autoplay-audio-cds/enabled", FALSE))
+    {
+      /* determine the audio CD player command */
+      command = xfconf_channel_get_string (context->channel, 
+                                           "/autoplay-audio-cds/command", NULL);
+
+      /* check whether the command is set and non-empty */
+      if (command != NULL && *command != '\0')
+        {
+          /* try to lanuch the audio CD player */
+          result = tvm_run_command (context, NULL, command, error);
+        }
+      else
+        {
+          g_set_error (error, G_FILE_ERROR, G_FILE_ERROR_FAILED,
+                       _("The CD player command is undefined"));
+        }
+      
+      /* free the command string */
+      g_free (command);
+    }
+
+  return result;
+}

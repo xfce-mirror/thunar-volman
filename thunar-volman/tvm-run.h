@@ -33,6 +33,8 @@ gboolean tvm_run_command        (TvmContext  *context,
                                  GError     **error);
 gboolean  tvm_run_burn_software (TvmContext  *context,
                                  GError     **error);
+gboolean  tvm_run_cd_player     (TvmContext  *context,
+                                 GError     **error);
 
 G_END_DECLS
 
