@@ -47,7 +47,9 @@ thunar_volman_SOURCES =							\
 	tvm-prompt.c							\
 	tvm-prompt.h							\
 	tvm-run.c							\
-	tvm-run.h
+	tvm-run.h							\
+	tvm-usb-device.c						\
+	tvm-usb-device.h
 
 thunar_volman_CFLAGS =							\
 	$(DBUS_CFLAGS)							\
