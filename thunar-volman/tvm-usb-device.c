@@ -40,14 +40,21 @@ tvm_usb_device_added (TvmContext *context)
   const gchar *enabled_property = NULL;
   const gchar *command_property = NULL;
   gboolean     enabled;
+  gboolean     is_camera;
   gchar       *command;
 
   g_return_if_fail (context != NULL);
 
   /* collect device information */
   driver = g_udev_device_get_property (context->device, "DRIVER");
+  is_camera = g_udev_device_get_property_as_boolean (context->device, "ID_GPHOTO2");
 
-  if (g_strcmp0 (driver, "usblp") == 0)
+  if (is_camera)
+    {
+      enabled_property = "/autophoto/enabled";
+      command_property = "/autophoto/command";
+    }
+  else if (g_strcmp0 (driver, "usblp") == 0)
     {
       enabled_property = "/autoprinter/enabled";
       command_property = "/autoprinter/command";
