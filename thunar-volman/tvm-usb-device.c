@@ -30,12 +30,16 @@
 #include <thunar-volman/tvm-device.h>
 #include <thunar-volman/tvm-run.h>
 #include <thunar-volman/tvm-usb-device.h>
+#include <thunar-volman/tvm-notify.h>
 
 
 
 void
 tvm_usb_device_added (TvmContext *context)
 {
+  const gchar *icon;
+  const gchar *summary;
+  const gchar *message;
   const gchar *driver;
   const gchar *enabled_property = NULL;
   const gchar *command_property = NULL;
@@ -57,6 +61,10 @@ tvm_usb_device_added (TvmContext *context)
 
       enabled_property = "/autophoto/enabled";
       command_property = "/autophoto/command";
+
+      icon = "camera-photo";
+      summary = _("Camera detected");
+      message = _("A photo camera was detected");
     }
   else if (g_strcmp0 (driver, "usblp") == 0)
     {
@@ -64,6 +72,10 @@ tvm_usb_device_added (TvmContext *context)
 
       enabled_property = "/autoprinter/enabled";
       command_property = "/autoprinter/command";
+
+      icon = "printer";
+      summary = _("Printer detected");
+      message = _("A USB printer was detected");
     }
 
   /* check if we have a device that we support */
@@ -73,6 +85,9 @@ tvm_usb_device_added (TvmContext *context)
       enabled = xfconf_channel_get_bool (context->channel, enabled_property, FALSE);
       if (enabled)
         {
+          /* display a detection notification */
+          tvm_notify (icon, summary, message);
+
           /* fetch the command for the input device type and try to run it */
           command = xfconf_channel_get_string (context->channel, command_property, NULL);
           if (command != NULL && *command != '\0')

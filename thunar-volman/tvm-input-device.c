@@ -29,6 +29,7 @@
 #include <thunar-volman/tvm-input-device.h>
 #include <thunar-volman/tvm-context.h>
 #include <thunar-volman/tvm-device.h>
+#include <thunar-volman/tvm-notify.h>
 #include <thunar-volman/tvm-run.h>
 
 
@@ -36,6 +37,9 @@
 void
 tvm_input_device_added (TvmContext *context)
 {
+  const gchar *icon;
+  const gchar *summary;
+  const gchar *message;
   const gchar *id_class;
   const gchar *id_model;
   const gchar *id_usb_driver;
@@ -58,6 +62,10 @@ tvm_input_device_added (TvmContext *context)
       /* we have a keyboard */
       enabled_property = "/autokeyboard/enabled";
       command_property = "/autokeyboard/command";
+
+      icon = _("input-keyboard");
+      summary = _("Keyboard detected");
+      message = _("A keyboard was detected");
     }
   else if (g_strcmp0 (driver, "wacom") == 0 
            || g_strcmp0 (id_usb_driver, "wacom") == 0)
@@ -65,6 +73,10 @@ tvm_input_device_added (TvmContext *context)
       /* we have a wacom tablet */
       enabled_property = "/autotablet/enabled";
       command_property = "/autotablet/command";
+
+      icon = _("input-tablet");
+      summary = _("Tablet detected");
+      message = _("A graphics tablet was detected");
     }
   else if (g_strcmp0 (id_class, "mouse") == 0)
     {
@@ -75,12 +87,20 @@ tvm_input_device_added (TvmContext *context)
           /* we have a tablet that can be used as a mouse */
           enabled_property = "/autotablet/enabled";
           command_property = "/autotablet/command";
+    
+          icon = _("input-tablet");
+          summary = _("Tablet detected");
+          message = _("A graphics tablet was detected");
         }
       else
         {
           /* we have a normal mouse */
           enabled_property = "/automouse/enabled";
           command_property = "/automouse/command";
+    
+          icon = _("input-mouse");
+          summary = _("Mouse detected");
+          message = _("A mouse was detected");
         }
     }
 
@@ -91,6 +111,9 @@ tvm_input_device_added (TvmContext *context)
       enabled = xfconf_channel_get_bool (context->channel, enabled_property, FALSE);
       if (enabled)
         {
+          /* display a detection notification */
+          tvm_notify (icon, summary, message);
+
           /* fetch the command for the input device type and try to run it */
           command = xfconf_channel_get_string (context->channel, command_property, NULL);
           if (command != NULL && *command != '\0')

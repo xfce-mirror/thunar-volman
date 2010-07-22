@@ -91,6 +91,12 @@ XDT_CHECK_PACKAGE([LIBXFCE4UI], [libxfce4ui-1], [4.7.0])
 XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0], [4.7.0])
 XDT_CHECK_PACKAGE([XFCONF], [libxfconf-0], [4.7.0])
 
+dnl *******************************************************
+dnl *** Optional mount notification support (libnotify) ***
+dnl *******************************************************
+XDT_CHECK_OPTIONAL_PACKAGE([LIBNOTIFY], [libnotify], [0.4.0], [notifications], 
+                           [Notifications support], [yes])
+
 dnl ***********************************
 dnl *** Check for debugging support ***
 dnl ***********************************
@@ -130,5 +136,10 @@ dnl ***************************
 echo
 echo "Build Configuration:"
 echo
-echo "* Debug Support:             $enable_debug"
+if test x"$LIBNOTIFY_FOUND" = x"yes"; then
+echo "* Mount notifications: yes"
+else
+echo "* Mount notifications: no"
+fi
+echo "* Debug Support:       $enable_debug"
 echo

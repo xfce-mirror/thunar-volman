@@ -33,6 +33,10 @@
 
 #include <gudev/gudev.h>
 
+#ifdef HAVE_LIBNOTIFY
+#include <libnotify/notify.h>
+#endif
+
 #include <libxfce4util/libxfce4util.h>
 
 #include <xfconf/xfconf.h>
@@ -96,6 +100,20 @@ main (int    argc,
   /* initialize the threading system */
   if (!g_thread_supported ())
     g_thread_init (NULL);
+
+#ifdef HAVE_LIBNOTIFY
+  if (notify_init (PACKAGE_NAME))
+    {
+      /* we do this to work around bugs in libnotify < 0.6.0. Older
+       * versions crash in notify_uninit() when no notifications are
+       * displayed before. These versions also segfault when the 
+       * ret_spec_version parameter of notify_get_server_info is 
+       * NULL... */
+      gchar *spec_version = NULL;
+      notify_get_server_info (NULL, NULL, NULL, &spec_version);
+      g_free (spec_version);
+    }
+#endif
 
   /* initialize GTK+ */
   if (!gtk_init_with_args (&argc, &argv, NULL, option_entries, GETTEXT_PACKAGE, &error))
@@ -195,6 +213,11 @@ main (int    argc,
       g_error_free (error);
       exit_code = EXIT_FAILURE;
     }
+
+#ifdef HAVE_LIBNOTIFY
+  if (notify_is_initted ())
+    notify_uninit ();
+#endif
 
   /* release the device context */
   if (context != NULL)

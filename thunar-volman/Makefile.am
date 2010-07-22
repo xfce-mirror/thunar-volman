@@ -28,6 +28,12 @@ INCLUDES =								\
 bin_PROGRAMS =								\
 	thunar-volman
 
+if HAVE_LIBNOTIFY
+tvm_notify_sources =							\
+	tvm-notify.c							\
+	tvm-notify.h
+endif
+
 thunar_volman_SOURCES =							\
 	main.c								\
 	tvm-block-device.c						\
@@ -47,7 +53,8 @@ thunar_volman_SOURCES =							\
 	tvm-run.c							\
 	tvm-run.h							\
 	tvm-usb-device.c						\
-	tvm-usb-device.h
+	tvm-usb-device.h						\
+	$(tvm_notify_sources)
 
 thunar_volman_CFLAGS =							\
 	$(DBUS_CFLAGS)							\
@@ -56,6 +63,7 @@ thunar_volman_CFLAGS =							\
 	$(GTHREAD_CFLAGS)						\
 	$(GTK_CFLAGS)							\
 	$(GUDEV_CFLAGS)							\
+	$(LIBNOTIFY_CFLAGS)						\
 	$(LIBXFCE4UI_CFLAGS)						\
 	$(LIBXFCE4UTIL_CFLAGS)						\
 	$(XFCONF_CFLAGS)						\
@@ -72,6 +80,7 @@ thunar_volman_LDADD =							\
 	$(GTHREAD_LIBS)							\
 	$(GTK_LIBS)							\
 	$(GUDEV_LIBS)							\
+	$(LIBNOTIFY_LIBS)						\
 	$(LIBXFCE4UI_LIBS)						\
 	$(LIBXFCE4UTIL_LIBS)						\
 	$(XFCONF_LIBS)

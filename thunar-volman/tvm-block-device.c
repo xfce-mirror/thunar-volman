@@ -33,6 +33,11 @@
 
 #include <gudev/gudev.h>
 
+#ifdef HAVE_LIBNOTIFY
+#include <libnotify/notify.h>
+#include <thunar-volman/tvm-notify.h>
+#endif
+
 #include <libxfce4util/libxfce4util.h>
 
 #include <thunar-volman/tvm-block-device.h>
@@ -584,13 +589,64 @@ tvm_block_device_mounted (TvmContext *context,
                           GMount     *mount,
                           GError    **error)
 {
-  gboolean success = FALSE;
-  GError  *err = NULL;
-  guint    n;
+  const gchar *summary;
+  const gchar *icon;
+  const gchar *volume_name;
+  gboolean     is_cdrom;
+  gboolean     is_dvd;
+  gboolean     success = FALSE;
+  GError      *err = NULL;
+  gchar       *decoded_name;
+  gchar       *message;
+  guint        n;
 
   g_return_if_fail (context != NULL);
   g_return_if_fail (G_IS_MOUNT (mount));
   g_return_if_fail (error == NULL || *error == NULL);
+
+#ifdef HAVE_LIBNOTIFY
+  /* distinguish between CDs and DVDs */
+  is_cdrom = g_udev_device_get_property_as_boolean (context->device, "ID_CDROM_MEDIA_CD");
+  is_dvd = g_udev_device_get_property_as_boolean (context->device, "ID_CDROM_MEDIA_DVD");
+  
+  if (is_cdrom || is_dvd)
+    {
+      /* generate notification info */
+      icon = "drive-optical";
+      summary = is_cdrom ? _("CD mounted") : _("DVD mounted");
+      message = g_strdup (is_cdrom 
+                          ? _("The CD was mounted automatically") 
+                          : _("The DVD was mounted automatically"));
+    }
+  else
+    {
+      /* fetch the volume name */
+      volume_name = g_udev_device_get_property (context->device, "ID_FS_LABEL_ENC");
+      decoded_name = tvm_notify_decode (volume_name);
+  
+      /* generate notification info */
+      icon = "drive-removable-media";
+      summary = _("Volume mounted");
+      if (decoded_name != NULL)
+        {
+          message = g_strdup_printf (_("The volume \"%s\" was mounted\n"
+                                       "automatically"), decoded_name);
+        }
+      else
+        {
+          message = g_strdup_printf (_("The inserted volume was mounted\n"
+                                       "automatically"));
+        }
+
+      g_free (decoded_name);
+    }
+
+  /* display the notification */
+  tvm_notify (icon, summary, message);
+
+  /* clean up */
+  g_free (message);
+#endif
 
   /* try block device handlers (iPod, cameras etc.) until one succeeds */
   for (n = 0; !success && err == NULL && n < G_N_ELEMENTS (block_device_handlers); ++n)
