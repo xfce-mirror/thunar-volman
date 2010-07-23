@@ -41,6 +41,7 @@ thunar_volman_settings_SOURCES =					\
 thunar_volman_settings_CFLAGS =						\
 	$(EXO_CFLAGS)							\
 	$(GLIB_CFLAGS)							\
+	$(GTHREAD_CFLAGS)						\
 	$(GTK_CFLAGS)							\
 	$(LIBXFCE4UI_CFLAGS)						\
 	$(LIBXFCE4UTIL_CFLAGS)						\
@@ -54,6 +55,7 @@ thunar_volman_settings_LDFLAGS =					\
 thunar_volman_settings_LDADD =						\
 	$(EXO_LIBS)							\
 	$(GLIB_LIBS)							\
+	$(GTHREAD_LIBS)							\
 	$(GTK_LIBS)							\
 	$(LIBXFCE4UI_LIBS)						\
 	$(LIBXFCE4UTIL_LIBS)						\
