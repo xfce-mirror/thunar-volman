@@ -37,6 +37,7 @@
 void
 tvm_input_device_added (TvmContext *context)
 {
+  const gchar *devname;
   const gchar *icon;
   const gchar *summary;
   const gchar *message;
@@ -46,6 +47,9 @@ tvm_input_device_added (TvmContext *context)
   const gchar *driver;
   const gchar *enabled_property = NULL;
   const gchar *command_property = NULL;
+  gboolean     is_keyboard;
+  gboolean     is_mouse;
+  gboolean     is_tablet;
   gboolean     enabled;
   gchar       *command;
 
@@ -56,8 +60,12 @@ tvm_input_device_added (TvmContext *context)
   id_model = g_udev_device_get_property (context->device, "ID_MODEL");
   driver = g_udev_device_get_property (context->device, "DRIVER");
   id_usb_driver = g_udev_device_get_property (context->device, "ID_USB_DRIVER");
+  is_keyboard = g_udev_device_get_property_as_boolean (context->device, "ID_INPUT_KEYBOARD");
+  is_mouse = g_udev_device_get_property_as_boolean (context->device, "ID_INPUT_MOUSE");
+  is_tablet = g_udev_device_get_property_as_boolean (context->device, "ID_INPUT_TABLET");
+  devname = g_udev_device_get_property (context->device, "DEVNAME");
 
-  if (g_strcmp0 (id_class, "kbd") == 0)
+  if (is_keyboard || g_strcmp0 (id_class, "kbd") == 0)
     {
       /* we have a keyboard */
       enabled_property = "/autokeyboard/enabled";
@@ -67,7 +75,8 @@ tvm_input_device_added (TvmContext *context)
       summary = _("Keyboard detected");
       message = _("A keyboard was detected");
     }
-  else if (g_strcmp0 (driver, "wacom") == 0 
+  else if (is_tablet
+           || g_strcmp0 (driver, "wacom") == 0
            || g_strcmp0 (id_usb_driver, "wacom") == 0)
     {
       /* we have a wacom tablet */
@@ -78,7 +87,7 @@ tvm_input_device_added (TvmContext *context)
       summary = _("Tablet detected");
       message = _("A graphics tablet was detected");
     }
-  else if (g_strcmp0 (id_class, "mouse") == 0)
+  else if (is_mouse || g_strcmp0 (id_class, "mouse") == 0)
     {
       if (g_strstr_len (id_model, -1, "Tablet") != NULL 
           || g_strstr_len (id_model, -1, "TABLET") != NULL
@@ -92,7 +101,7 @@ tvm_input_device_added (TvmContext *context)
           summary = _("Tablet detected");
           message = _("A graphics tablet was detected");
         }
-      else
+      else if (devname == NULL || !g_str_has_prefix (devname, "/dev/input/event"))
         {
           /* we have a normal mouse */
           enabled_property = "/automouse/enabled";
