@@ -201,7 +201,7 @@ tvm_block_device_autoipod (TvmContext *context,
       if (path_dcim != NULL)
         {
           /* ...so we need to prompt what to do */
-          response = tvm_prompt (context, "gnome-dev-ipod", _("Photos and Music"),
+          response = tvm_prompt (context, "multimedia-player", _("Photos and Music"),
                                  _("Photos were found on your portable music player"),
                                  _("Would you like to import the photos or manage the "
                                    "music?"),
@@ -210,7 +210,7 @@ tvm_block_device_autoipod (TvmContext *context,
                                  _("Manage _Music"), TVM_RESPONSE_MUSIC,
                                  NULL);
         }
-      else if (is_audio_player)
+      else if (is_audio_player || is_ipod)
         {
           response = TVM_RESPONSE_MUSIC;
         }
