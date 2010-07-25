@@ -119,8 +119,6 @@ tvm_run_command (TvmContext  *context,
   result = g_shell_parse_argv (command_line->str, NULL, &argv, &err);
   if (G_LIKELY (result))
     {
-      g_debug ("%s", command_line->str);
-
       /* try to spawn the command asynchronously in the users home directory */
       result = g_spawn_async (g_get_home_dir (), argv, NULL, G_SPAWN_SEARCH_PATH, 
                               NULL, NULL, NULL, &err);
@@ -183,8 +181,6 @@ tvm_run_burn_software (TvmContext *context,
   for (n = 0; !is_cd && !is_dvd && n < G_N_ELEMENTS (dvd_criteria); ++n)
     if (g_udev_device_get_property_as_boolean (context->device, dvd_criteria[n]))
       is_dvd = TRUE;
-
-  g_debug ("is_cd = %i, is_dvd = %i", is_cd, is_dvd);
 
   if (is_dvd)
     {

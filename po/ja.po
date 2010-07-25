@@ -8,461 +8,620 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-08-30 02:26-0700\n"
+"POT-Creation-Date: 2010-07-25 20:06+0200\n"
 "PO-Revision-Date: 2008-11-09 14:59+0900\n"
 "Last-Translator: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>\n"
 "Language-Team: Japanese <xfce-users-jp@ml.fdiary.net>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../thunar-volman/main.c:50
-msgid "The HAL device UDI of the newly added device"
+#: ../thunar-volman/main.c:59
+#, fuzzy
+msgid "The syfs path of the newly added device"
 msgstr "新しく追加されたデバイスの HAL デバイス UDI"
 
-#: ../thunar-volman/main.c:51 ../thunar-volman/tvm-preferences-dialog.c:120
-#: ../thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman/main.c:60
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "リムーバブルドライブとメディアの取扱いを設定します"
 
-#: ../thunar-volman/main.c:52
+#: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
 msgstr "バージョン情報を表示して終了する"
 
 #. setup application name
-#: ../thunar-volman/main.c:69
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Thunar ボリュームマネージャ"
 
-#: ../thunar-volman/main.c:90
-msgid "Failed to open display"
-msgstr "ディスプレイのオープンに失敗しました"
+#: ../thunar-volman/main.c:133
+msgid "All rights reserved."
+msgstr ""
 
-#: ../thunar-volman/main.c:106
-msgid "The Thunar development team. All rights reserved."
-msgstr "The Thunar development team. All rights reserved."
-
-#: ../thunar-volman/main.c:107
-msgid "Written by Benedikt Meurer <benny@xfce.org>."
-msgstr "Benedikt Meurer <benny@xfce.org> が製作しました。"
-
-#: ../thunar-volman/main.c:108
+#: ../thunar-volman/main.c:134
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "バグは <%s> に報告してください。"
 
-#. TRANSLATORS: A HAL device UDI must match certain conditions to be valid (to be exact, it must be a valid D-Bus object path)
-#: ../thunar-volman/main.c:133
+#: ../thunar-volman/main.c:188
 #, c-format
-msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-msgstr "指定された UDI \"%s\" は正常な HAL デバイス UDI ではありません"
+msgid "There is no device with the sysfs path \"%s\""
+msgstr ""
 
-#. TRANSLATORS: thunar-volman wasn't invoked with either --device-added or --configure.
-#: ../thunar-volman/main.c:144
-#, c-format
-msgid "Must specify the new HAL device UDI with --device-added"
+#: ../thunar-volman/main.c:200
+#, fuzzy, c-format
+msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "--device-added オプションで新しい HAL デバイス UDI を指定してください"
 
 #. ...so we need to prompt what to do
-#: ../thunar-volman/tvm-block-device.c:189
+#: ../thunar-volman/tvm-block-device.c:204
 msgid "Photos and Music"
 msgstr "写真と音楽"
 
-#: ../thunar-volman/tvm-block-device.c:190
-msgid "Photos were found on your portable music player."
+#: ../thunar-volman/tvm-block-device.c:205
+#, fuzzy
+msgid "Photos were found on your portable music player"
 msgstr "携帯音楽プレイヤー内に写真が見つかりました。"
 
-#: ../thunar-volman/tvm-block-device.c:191
+#: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
 msgstr "写真を取り込みますか? それとも音楽を管理しますか?"
 
-#: ../thunar-volman/tvm-block-device.c:192
-#: ../thunar-volman/tvm-block-device.c:258
-#: ../thunar-volman/tvm-block-device.c:335
-#: ../thunar-volman/tvm-block-device.c:371
-#: ../thunar-volman/tvm-block-device.c:430
-#: ../thunar-volman/tvm-block-device.c:703
-#: ../thunar-volman/tvm-crypto-volume.c:448 ../thunar-volman/tvm-run.c:136
-#: ../thunar-volman/tvm-run.c:147
+#: ../thunar-volman/tvm-block-device.c:208
+#: ../thunar-volman/tvm-block-device.c:277
+#: ../thunar-volman/tvm-block-device.c:378
+#: ../thunar-volman/tvm-block-device.c:425
+#: ../thunar-volman/tvm-block-device.c:507
+#: ../thunar-volman/tvm-block-device.c:826 ../thunar-volman/tvm-run.c:196
+#: ../thunar-volman/tvm-run.c:207
 msgid "Ig_nore"
 msgstr "無視する(_N)"
 
-#: ../thunar-volman/tvm-block-device.c:193
-#: ../thunar-volman/tvm-block-device.c:259
+#: ../thunar-volman/tvm-block-device.c:209
+#: ../thunar-volman/tvm-block-device.c:278
 msgid "Import _Photos"
 msgstr "写真を取り込む(_P)"
 
-#: ../thunar-volman/tvm-block-device.c:194
+#: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
 msgstr "音楽を管理する(_M)"
 
-#. ask the user whether to import photos
-#: ../thunar-volman/tvm-block-device.c:255
+#. ask the user to import photos
+#: ../thunar-volman/tvm-block-device.c:273
 msgid "Photo Import"
 msgstr "写真の取り込み"
 
-#: ../thunar-volman/tvm-block-device.c:256
-msgid "A photo card has been detected."
+#: ../thunar-volman/tvm-block-device.c:274
+#, fuzzy
+msgid "A photo card has been detected"
 msgstr "写真が保存されたメディアを検出しました。"
 
-#: ../thunar-volman/tvm-block-device.c:257
+#: ../thunar-volman/tvm-block-device.c:275
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
 msgstr "メディア内に写真があります。写真をアルバムに追加しますか?"
 
-#. prompt the user whether to execute this file
-#: ../thunar-volman/tvm-block-device.c:332
-#: ../thunar-volman/tvm-block-device.c:368
+#. prompt the user to execute the file
+#. prompt the user to execute this file
+#: ../thunar-volman/tvm-block-device.c:373
+#: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
 msgstr "\"%s\" の実行を許可しますか?"
 
-#: ../thunar-volman/tvm-block-device.c:333
-#: ../thunar-volman/tvm-block-device.c:369
+#: ../thunar-volman/tvm-block-device.c:376
+#: ../thunar-volman/tvm-block-device.c:423
 msgid "Auto-Run Confirmation"
 msgstr "自動実行の確認"
 
-#: ../thunar-volman/tvm-block-device.c:334
-#: ../thunar-volman/tvm-block-device.c:370
+#: ../thunar-volman/tvm-block-device.c:377
+#: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run capability detected"
 msgstr "自動実行ができます"
 
-#: ../thunar-volman/tvm-block-device.c:336
-#: ../thunar-volman/tvm-block-device.c:372
+#: ../thunar-volman/tvm-block-device.c:379
+#: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
 msgstr "自動実行を許可する(_A)"
 
 #. prompt the user whether to autoopen this file
-#: ../thunar-volman/tvm-block-device.c:427
+#: ../thunar-volman/tvm-block-device.c:502
 #, c-format
 msgid "Would you like to open \"%s\"?"
 msgstr "\"%s\" を開きますか?"
 
-#: ../thunar-volman/tvm-block-device.c:428
+#: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
 msgstr "自動オープンの確認"
 
-#: ../thunar-volman/tvm-block-device.c:429
+#: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
 msgstr "自動的に開くことができます"
 
-#: ../thunar-volman/tvm-block-device.c:431
+#: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
 msgstr "開く(_O)"
 
-#. ask what do with the mixed audio/data disc
-#: ../thunar-volman/tvm-block-device.c:700
-msgid "Audio / Data CD"
+#: ../thunar-volman/tvm-block-device.c:616
+msgid "CD mounted"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:616
+msgid "DVD mounted"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:618
+msgid "The CD was mounted automatically"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:619
+msgid "The DVD was mounted automatically"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:629
+msgid "Volume mounted"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:632
+#, c-format
+msgid "The volume \"%s\" was mounted automatically"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:637
+#, c-format
+msgid "The inserted volume was mounted automatically"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:691
+#, c-format
+msgid "Unable to locate mount point"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:737
+#, c-format
+msgid "Unable to mount the device"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:746
+#, c-format
+msgid "Could not detect the volume corresponding to the device"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:821
+#, fuzzy
+msgid "Audio/Data CD"
 msgstr "オーディオ/データ CD"
 
-#: ../thunar-volman/tvm-block-device.c:701
-msgid "The CD in the drive contains both music and files."
+#: ../thunar-volman/tvm-block-device.c:822
+#, fuzzy
+msgid "The CD in the drive contains both music and files"
 msgstr "挿入された CD には音楽とデータファイルの両方があります。"
 
-#: ../thunar-volman/tvm-block-device.c:702
+#: ../thunar-volman/tvm-block-device.c:824
 msgid "Would you like to listen to music or browse the files?"
 msgstr "音楽を聞きますか? それともファイルを参照しますか?"
 
-#: ../thunar-volman/tvm-block-device.c:704
+#: ../thunar-volman/tvm-block-device.c:827
 msgid "_Browse Files"
 msgstr "ファイルを参照する(_B)"
 
-#: ../thunar-volman/tvm-block-device.c:705
+#: ../thunar-volman/tvm-block-device.c:828
 msgid "_Play CD"
 msgstr "CD を再生する(_P)"
 
-#: ../thunar-volman/tvm-command-entry.c:233
+#: ../thunar-volman/tvm-block-device.c:916
+#, c-format
+msgid "Unknown block device type"
+msgstr ""
+
+#: ../thunar-volman/tvm-device.c:139
+#, c-format
+msgid "Device type not supported"
+msgstr ""
+
+#: ../thunar-volman/tvm-input-device.c:74
+#, fuzzy
+msgid "input-keyboard"
+msgstr "キーボード"
+
+#: ../thunar-volman/tvm-input-device.c:75
+#, fuzzy
+msgid "Keyboard detected"
+msgstr "キーボード"
+
+#: ../thunar-volman/tvm-input-device.c:76
+#, fuzzy
+msgid "A keyboard was detected"
+msgstr "写真が保存されたメディアを検出しました。"
+
+#: ../thunar-volman/tvm-input-device.c:86
+#: ../thunar-volman/tvm-input-device.c:100
+msgid "input-tablet"
+msgstr ""
+
+#: ../thunar-volman/tvm-input-device.c:87
+#: ../thunar-volman/tvm-input-device.c:101
+#, fuzzy
+msgid "Tablet detected"
+msgstr "自動実行ができます"
+
+#: ../thunar-volman/tvm-input-device.c:88
+#: ../thunar-volman/tvm-input-device.c:102
+msgid "A graphics tablet was detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-input-device.c:110
+msgid "input-mouse"
+msgstr ""
+
+#: ../thunar-volman/tvm-input-device.c:111
+msgid "Mouse detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-input-device.c:112
+msgid "A mouse was detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-input-device.c:139
+#, c-format
+msgid "Unsupported input device type"
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:173
+#, c-format
+msgid "Autoburning of blank CDs and DVDs is disabled"
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:193
+msgid "Blank DVD inserted"
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:194
+#, fuzzy
+msgid "You have inserted a blank DVD."
+msgstr "空のディスクが挿入されました。"
+
+#: ../thunar-volman/tvm-run.c:195 ../thunar-volman/tvm-run.c:206
+msgid "What would you like to do?"
+msgstr "何をしますか?"
+
+#: ../thunar-volman/tvm-run.c:197
+msgid "Burn _DVD"
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:204
+#, fuzzy
+msgid "Blank CD inserted"
+msgstr "空の CD および DVD"
+
+#: ../thunar-volman/tvm-run.c:205
+#, fuzzy
+msgid "You have inserted a blank CD."
+msgstr "空のディスクが挿入されました。"
+
+#: ../thunar-volman/tvm-run.c:208
+#, fuzzy
+msgid "Burn _Data CD"
+msgstr "データ CD を作成する(_D)"
+
+#: ../thunar-volman/tvm-run.c:209
+#, fuzzy
+msgid "Burn _Audio CD"
+msgstr "オーディオ CD を作成する(_A)"
+
+#: ../thunar-volman/tvm-run.c:233
+#, c-format
+msgid "The burn command may not be empty"
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:272
+#, c-format
+msgid "The CD player command is undefined"
+msgstr ""
+
+#: ../thunar-volman/tvm-usb-device.c:66
+msgid "Camera detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-usb-device.c:67
+#, fuzzy
+msgid "A photo camera was detected"
+msgstr "写真が保存されたメディアを検出しました。"
+
+#: ../thunar-volman/tvm-usb-device.c:77
+msgid "Printer detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-usb-device.c:78
+msgid "A USB printer was detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-usb-device.c:104
+#, c-format
+msgid "Unsupported USB device type"
+msgstr ""
+
+#. setup application name
+#: ../thunar-volman-settings/main.c:52
+#, fuzzy
+msgid "Thunar Volume Manager Settings"
+msgstr "Thunar ボリュームマネージャ"
+
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:102
+msgid "Removable Drives and Media"
+msgstr "リムーバブルドライブとメディア"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
 msgstr "アプリケーションを選択してください"
 
-#: ../thunar-volman/tvm-command-entry.c:243
+#: ../thunar-volman-settings/tvm-command-entry.c:250
 msgid "All Files"
 msgstr "全てのファイル"
 
-#: ../thunar-volman/tvm-command-entry.c:248
+#: ../thunar-volman-settings/tvm-command-entry.c:255
 msgid "Executable Files"
 msgstr "実行ファイル"
 
-#: ../thunar-volman/tvm-command-entry.c:263
+#: ../thunar-volman-settings/tvm-command-entry.c:270
 msgid "Perl Scripts"
 msgstr "Perl スクリプト"
 
-#: ../thunar-volman/tvm-command-entry.c:269
+#: ../thunar-volman-settings/tvm-command-entry.c:276
 msgid "Python Scripts"
 msgstr "Python スクリプト"
 
-#: ../thunar-volman/tvm-command-entry.c:275
+#: ../thunar-volman-settings/tvm-command-entry.c:282
 msgid "Ruby Scripts"
 msgstr "Ruby スクリプト"
 
-#: ../thunar-volman/tvm-command-entry.c:281
+#: ../thunar-volman-settings/tvm-command-entry.c:288
 msgid "Shell Scripts"
 msgstr "シェルスクリプト"
-
-#: ../thunar-volman/tvm-crypto-volume.c:286
-#: ../thunar-volman/tvm-crypto-volume.c:443
-msgid "Encrypted volume"
-msgstr "暗号化ボリューム"
-
-#: ../thunar-volman/tvm-crypto-volume.c:297
-msgid ""
-"<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-msgstr ""
-"<span weight=\"bold\" size=\"larger\">暗号化ボリュームをマウントしています..."
-"</span>"
-
-#: ../thunar-volman/tvm-crypto-volume.c:302
-msgid "Setting up the crypto layer..."
-msgstr "暗号レイヤをセットアップしています..."
-
-#. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) but got Permission denied.
-#: ../thunar-volman/tvm-crypto-volume.c:369
-#, c-format
-msgid "You are not privileged to setup the crypto layer"
-msgstr "暗号レイヤをセットアップする権限が与えられていません"
-
-#. TRANSLATORS: The user tried to setup a crypto layer (LUKS-encrpyted volume) and typed the wrong password.
-#: ../thunar-volman/tvm-crypto-volume.c:374
-#, c-format
-msgid "Wrong password"
-msgstr "パスワードが正しくありません"
-
-#: ../thunar-volman/tvm-crypto-volume.c:445
-msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-msgstr ""
-"<span weight=\"bold\" size=\"larger\">パスワードが正しくありません。</span>"
-
-#: ../thunar-volman/tvm-crypto-volume.c:446
-msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-msgstr ""
-"<span weight=\"bold\" size=\"larger\">このボリュームは暗号化されています。</"
-"span>"
-
-#: ../thunar-volman/tvm-crypto-volume.c:447
-msgid "Please enter your password to decrypt and mount the volume."
-msgstr "ボリュームの暗号解読とマウントのためパスワードを入力してください。"
-
-#: ../thunar-volman/tvm-crypto-volume.c:449
-msgid "_Mount"
-msgstr "マウント(_M)"
-
-#: ../thunar-volman/tvm-crypto-volume.c:468
-msgid "Failed to setup the encrypted volume"
-msgstr "暗号化ボリュームのセットアップに失敗しました"
-
-#: ../thunar-volman/tvm-preferences-dialog.c:119
-#: ../thunar-volman-settings.desktop.in.in.h:2
-msgid "Removable Drives and Media"
-msgstr "リムーバブルドライブとメディア"
 
 #.
 #. Storage
 #.
-#: ../thunar-volman/tvm-preferences-dialog.c:143
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "ストレージ"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:153
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:141
 msgid "Removable Storage"
 msgstr "リムーバブルストレージ"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:170
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
 msgstr "リムーバブルドライブがホットプラグされたらマウントする(_M)"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:175
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
 msgstr "リムーバブルメディアが挿入されたらマウントする(_I)"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:180
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "B_rowse removable media when inserted"
 msgstr "リムーバブルメディアが挿入されたら参照する(_R)"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:185
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
 msgstr "新しいドライブおよびメディア上のプログラムを自動実行する(_A)"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:190
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
 msgstr "新しいドライブおよびメディア上のファイルを自動的に開く"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:199
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
 msgstr "空の CD および DVD"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:216
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "空の CD または DVD が挿入されたらディスクを作成する(_B)"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:224
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
 msgstr "データ CD 用コマンド(_D)"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:231
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
 msgstr "オーディオ CD 用コマンド(_U)"
 
 #.
 #. Multimedia
 #.
-#: ../thunar-volman/tvm-preferences-dialog.c:245
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "マルチメディア"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:255
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:266
 msgid "Audio CDs"
 msgstr "オーディオ CD"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:272
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
 msgstr "オーディオ CD が挿入されたら再生する(_A)"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:277
-#: ../thunar-volman/tvm-preferences-dialog.c:383
-#: ../thunar-volman/tvm-preferences-dialog.c:425
-#: ../thunar-volman/tvm-preferences-dialog.c:499
-#: ../thunar-volman/tvm-preferences-dialog.c:541
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:290
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:466
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:553
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:601
 msgid "_Command:"
 msgstr "コマンド(_C):"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:287
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
 msgstr "ビデオ CD/DVD"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:304
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
 msgstr "ビデオ CD および DVD が挿入されたら再生する(_V)"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:309
-#: ../thunar-volman/tvm-preferences-dialog.c:341
-#: ../thunar-volman/tvm-preferences-dialog.c:457
-#: ../thunar-volman/tvm-preferences-dialog.c:573
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:367
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:505
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:640
 msgid "C_ommand:"
 msgstr "コマンド(_O):"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:319
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:343
 msgid "Portable Music Players"
 msgstr "携帯音楽プレイヤー"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:336
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
 msgstr "接続されたら音楽ファイルを再生する(_M)"
 
 #.
 #. Cameras
 #.
-#: ../thunar-volman/tvm-preferences-dialog.c:351
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "カメラ"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:361
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:390
 msgid "Digital Cameras"
 msgstr "デジタルカメラ"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:378
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
 msgstr "接続されたら写真を取り込む"
 
 #.
 #. PDAs
 #.
-#: ../thunar-volman/tvm-preferences-dialog.c:393
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:403
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:441
 msgid "Palm™"
 msgstr "Palm™"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:420
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
 msgstr "Palm™ デバイスが接続されたら同期をとる(_P)"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:435
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
 msgstr "Pocket PC"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:452
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Pocket PC デバイスが接続されたら同期をとる(_C)"
 
 #.
 #. Printers
 #.
-#: ../thunar-volman/tvm-preferences-dialog.c:467
-#: ../thunar-volman/tvm-preferences-dialog.c:477
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:517
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
 msgstr "プリンタ"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:494
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
 msgstr "プリンタが接続されたら自動的にプログラムを実行する(_P)"
 
 #.
 #. Input Devices
 #.
-#: ../thunar-volman/tvm-preferences-dialog.c:509
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "入力デバイス"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:519
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:576
 msgid "Keyboards"
 msgstr "キーボード"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:536
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "USBキーボードが接続されたら自動的にプログラムを実行する(_K)"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:551
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
 msgstr "マウス"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:568
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "USBマウスが接続されたら自動的にプログラムを実行する(_M)"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:583
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
 msgstr "タブレット"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:600
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
 msgstr "タブレットが接続されたら自動的にプログラムを実行する(_T)"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:605
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
 msgstr "コマンド(_M):"
 
-#: ../thunar-volman/tvm-preferences-dialog.c:690
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "ドキュメントブラウザのオープンに失敗しました"
 
-#: ../thunar-volman/tvm-run.c:133 ../thunar-volman/tvm-run.c:144
-msgid "Choose Disc Type"
-msgstr "ディスクタイプの選択"
+#~ msgid "Failed to open display"
+#~ msgstr "ディスプレイのオープンに失敗しました"
 
-#: ../thunar-volman/tvm-run.c:134 ../thunar-volman/tvm-run.c:145
-msgid "You have inserted a blank disc."
-msgstr "空のディスクが挿入されました。"
+#~ msgid "The Thunar development team. All rights reserved."
+#~ msgstr "The Thunar development team. All rights reserved."
 
-#: ../thunar-volman/tvm-run.c:135 ../thunar-volman/tvm-run.c:146
-msgid "What would you like to do?"
-msgstr "何をしますか?"
+#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
+#~ msgstr "Benedikt Meurer <benny@xfce.org> が製作しました。"
 
-#: ../thunar-volman/tvm-run.c:137
-msgid "Make _DVD"
-msgstr "DVD を作成する(_D)"
+#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
+#~ msgstr "指定された UDI \"%s\" は正常な HAL デバイス UDI ではありません"
 
-#: ../thunar-volman/tvm-run.c:148
-msgid "Make _Data CD"
-msgstr "データ CD を作成する(_D)"
+#~ msgid "Encrypted volume"
+#~ msgstr "暗号化ボリューム"
 
-#: ../thunar-volman/tvm-run.c:149
-msgid "Make _Audio CD"
-msgstr "オーディオ CD を作成する(_A)"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">暗号化ボリュームをマウントしていま"
+#~ "す...</span>"
 
-#: ../thunar-volman-settings.desktop.in.in.h:3
-msgid "Removable Media"
-msgstr "リムーバブルメディア"
+#~ msgid "Setting up the crypto layer..."
+#~ msgstr "暗号レイヤをセットアップしています..."
+
+#~ msgid "You are not privileged to setup the crypto layer"
+#~ msgstr "暗号レイヤをセットアップする権限が与えられていません"
+
+#~ msgid "Wrong password"
+#~ msgstr "パスワードが正しくありません"
+
+#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">パスワードが正しくありません。</"
+#~ "span>"
+
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">このボリュームは暗号化されています。"
+#~ "</span>"
+
+#~ msgid "Please enter your password to decrypt and mount the volume."
+#~ msgstr "ボリュームの暗号解読とマウントのためパスワードを入力してください。"
+
+#~ msgid "_Mount"
+#~ msgstr "マウント(_M)"
+
+#~ msgid "Failed to setup the encrypted volume"
+#~ msgstr "暗号化ボリュームのセットアップに失敗しました"
+
+#~ msgid "Choose Disc Type"
+#~ msgstr "ディスクタイプの選択"
+
+#~ msgid "Make _DVD"
+#~ msgstr "DVD を作成する(_D)"
+
+#~ msgid "Removable Media"
+#~ msgstr "リムーバブルメディア"

@@ -1,31 +1,42 @@
 dnl $Id$
 dnl
-dnl Copyright (c) 2004-2007
-dnl         The Thunar development team. All rights reserved.
+dnl Copyright (c) 2004-2007 Benedikt Meurer <benny@xfce.org>
+dnl Copyright (c) 2010      Jannis Pohlmann <jannis@xfce.org>
 dnl
-dnl Written for thunar-volman by Benedikt Meurer <benny@xfce.org>.
+dnl This program is free software; you can redistribute it and/or 
+dnl modify it under the terms of the GNU General Public License as
+dnl published by the Free Software Foundation; either version 2 of 
+dnl the License, or (at your option) any later version.
 dnl
+dnl This program is distributed in the hope that it will be useful,
+dnl but WITHOUT ANY WARRANTY; without even the implied warranty of
+dnl MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the 
+dnl GNU General Public License for more details.
+dnl
+dnl You should have received a copy of the GNU General Public 
+dnl License along with this program; if not, write to the Free 
+dnl Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+dnl Boston, MA 02110-1301, USA.
 
 dnl ***************************
 dnl *** Version information ***
 dnl ***************************
 m4_define([tvm_version_major], [0])
-m4_define([tvm_version_minor], [3])
-m4_define([tvm_version_micro], [80])
-m4_define([tvm_version_build], [r@REVISION@])
+m4_define([tvm_version_minor], [5])
+m4_define([tvm_version_micro], [0])
+m4_define([tvm_version_build], [])
 m4_define([tvm_version_tag], [])
-m4_define([tvm_version], [tvm_version_major().tvm_version_minor().tvm_version_micro()ifelse(tvm_version_tag(), [svn], [tvm_version_tag()-tvm_version_build()], [tvm_version_tag()])])
+m4_define([tvm_version], [tvm_version_major().tvm_version_minor().tvm_version_micro()ifelse(tvm_version_tag(), [git], [tvm_version_tag()-tvm_version_build()], [tvm_version_tag()])])
 
 dnl *******************************************
 dnl *** Debugging support for SVN snapshots ***
 dnl *******************************************
-m4_define([tvm_debug_default], [ifelse(tvm_version_tag(), [svn], [yes], [minimum])])
+m4_define([tvm_debug_default], [ifelse(tvm_version_tag(), [git], [full], [minimum])])
 
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
-AC_COPYRIGHT([Copyright (c) 2004-2007
-        The Thunar development team. All rights reserved.
+AC_COPYRIGHT([Copyright (c) 2004-2010 The Thunar development team. All rights reserved.
         
 Written for thunar-volman by Benedikt Meurer <benny@xfce.org>.])
 AC_INIT([thunar-volman], [tvm_version], [http://bugzilla.xfce.org/])

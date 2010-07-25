@@ -629,13 +629,12 @@ tvm_block_device_mounted (TvmContext *context,
       summary = _("Volume mounted");
       if (decoded_name != NULL)
         {
-          message = g_strdup_printf (_("The volume \"%s\" was mounted\n"
-                                       "automatically"), decoded_name);
+          message = g_strdup_printf (_("The volume \"%s\" was mounted automatically"), 
+                                     decoded_name);
         }
       else
         {
-          message = g_strdup_printf (_("The inserted volume was mounted\n"
-                                       "automatically"));
+          message = g_strdup_printf (_("The inserted volume was mounted automatically"));
         }
 
       g_free (decoded_name);
