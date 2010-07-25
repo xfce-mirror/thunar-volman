@@ -162,8 +162,8 @@ tvm_block_device_autoipod (TvmContext *context,
                                                     "ID_MEDIA_PLAYER");
 
       /* check if we have an iPod */
-      is_ipod = g_strcmp0 (g_udev_device_get_property (context->device, 
-                                                       "ID_MODEL"), "iPod") == 0;
+      is_ipod = g_str_has_prefix (g_udev_device_get_property (context->device, 
+                                                              "ID_MODEL"), "iPod");
       if (is_ipod)
         {
           /* determine the mount point path */
