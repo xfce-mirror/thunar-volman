@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-25 20:06+0200\n"
+"POT-Creation-Date: 2010-07-26 12:03+0200\n"
 "PO-Revision-Date: 2008-11-30 14:28+0100\n"
 "Last-Translator: Carles Muñoz Gorriz <carlesmu@internautas.org>\n"
 "Language-Team: Catalan\n"
@@ -79,8 +79,8 @@ msgstr "Voleu importar les fotos o gestionar la música?"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:826 ../thunar-volman/tvm-run.c:196
-#: ../thunar-volman/tvm-run.c:207
+#: ../thunar-volman/tvm-block-device.c:826 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "Ig_nora"
 
@@ -275,76 +275,76 @@ msgstr ""
 msgid "Unsupported input device type"
 msgstr ""
 
-#: ../thunar-volman/tvm-run.c:173
+#: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
 msgstr ""
 
-#: ../thunar-volman/tvm-run.c:193
+#: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
 msgstr ""
 
-#: ../thunar-volman/tvm-run.c:194
+#: ../thunar-volman/tvm-run.c:190
 #, fuzzy
 msgid "You have inserted a blank DVD."
 msgstr "Heu introduït un disc en blanc."
 
-#: ../thunar-volman/tvm-run.c:195 ../thunar-volman/tvm-run.c:206
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
 msgstr "Què voleu fer?"
 
-#: ../thunar-volman/tvm-run.c:197
+#: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
 msgstr ""
 
-#: ../thunar-volman/tvm-run.c:204
+#: ../thunar-volman/tvm-run.c:200
 #, fuzzy
 msgid "Blank CD inserted"
 msgstr "CDs i DVDs en blanc"
 
-#: ../thunar-volman/tvm-run.c:205
+#: ../thunar-volman/tvm-run.c:201
 #, fuzzy
 msgid "You have inserted a blank CD."
 msgstr "Heu introduït un disc en blanc."
 
-#: ../thunar-volman/tvm-run.c:208
+#: ../thunar-volman/tvm-run.c:204
 #, fuzzy
 msgid "Burn _Data CD"
 msgstr "Fes un CD de _dades"
 
-#: ../thunar-volman/tvm-run.c:209
+#: ../thunar-volman/tvm-run.c:205
 #, fuzzy
 msgid "Burn _Audio CD"
 msgstr "Fes un CD d'_àudio"
 
-#: ../thunar-volman/tvm-run.c:233
+#: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
 msgstr ""
 
-#: ../thunar-volman/tvm-run.c:272
+#: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
 msgstr ""
 
-#: ../thunar-volman/tvm-usb-device.c:66
+#: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
 msgstr ""
 
-#: ../thunar-volman/tvm-usb-device.c:67
+#: ../thunar-volman/tvm-usb-device.c:63
 #, fuzzy
 msgid "A photo camera was detected"
 msgstr "S'ha detectat una tarja de fotos."
 
-#: ../thunar-volman/tvm-usb-device.c:77
+#: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
 msgstr ""
 
-#: ../thunar-volman/tvm-usb-device.c:78
+#: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
 msgstr ""
 
-#: ../thunar-volman/tvm-usb-device.c:104
+#: ../thunar-volman/tvm-usb-device.c:98
 #, c-format
 msgid "Unsupported USB device type"
 msgstr ""

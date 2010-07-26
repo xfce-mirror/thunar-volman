@@ -1,3 +1,15 @@
+0.5.1
+=====
+- Fix a weird error with g_udev_device_get_devtype().
+- Remove D-Bus dependency.
+- Update dependencies in README.
+
+
+0.5.0
+=====
+- Complete rewrite based on udev/GIO instead of HAL.
+
+
 0.2.0
 =====
 - Properly ignore case looking for VCD, VIDEO_TS and DCIM folders (Bug #3038).
