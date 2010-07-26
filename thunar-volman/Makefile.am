@@ -57,7 +57,6 @@ thunar_volman_SOURCES =							\
 	$(tvm_notify_sources)
 
 thunar_volman_CFLAGS =							\
-	$(DBUS_CFLAGS)							\
 	$(GLIB_CFLAGS)							\
 	$(GIO_CFLAGS)							\
 	$(GTHREAD_CFLAGS)						\
@@ -74,7 +73,6 @@ thunar_volman_LDFLAGS =							\
 	$(PLATFORM_LDFLAGS)
 
 thunar_volman_LDADD =							\
-	$(DBUS_LIBS)							\
 	$(GLIB_LIBS)							\
 	$(GIO_LIBS)							\
 	$(GTHREAD_LIBS)							\
