@@ -772,7 +772,7 @@ tvm_block_device_added (TvmContext *context)
   g_return_if_fail (context != NULL);
 
   /* collect general device information */
-  devtype = g_udev_device_get_devtype (context->device);
+  devtype = g_udev_device_get_property (context->device, "DEVTYPE");
   id_type = g_udev_device_get_property (context->device, "ID_TYPE");
   id_fs_usage = g_udev_device_get_property (context->device, "ID_FS_USAGE");
 
