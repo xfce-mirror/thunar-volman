@@ -20,9 +20,8 @@ msgstr ""
 "X-Poedit-Country: DENMARK\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "HAL-enhedens UDI af den nylig tilføjede enhed"
+msgstr "Syfs-stien til den nylige tilsluttetede enhed"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -54,9 +53,9 @@ msgid "There is no device with the sysfs path \"%s\""
 msgstr "Der findes ikke enhed med sysfs-stien \"%s\""
 
 #: ../thunar-volman/main.c:200
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Du skal angive det nye HAL-enheds UDI med --device-added"
+msgstr "Du skal angive den nye syfs sti af den nye enhed med --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -266,7 +265,7 @@ msgstr "Ikke understøttet inddata-enhedstype"
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "Automatisk brænding af tommer cd'er og dvd'er er slået fra"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
