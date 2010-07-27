@@ -228,9 +228,8 @@ msgid "Keyboard detected"
 msgstr "Tastatur fundet"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Et billedhukommelseskort er blevet fundet."
+msgstr "Et tastatur blev fundet"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
@@ -245,24 +244,24 @@ msgstr "Tablet fundet"
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "A grafisk tablet blev fundet"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr ""
+msgstr "inddata-mus"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Mus fundet"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "En mus blev fundet"
 
 #: ../thunar-volman/tvm-input-device.c:139
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Ikke understøttet inddata-enhedstype"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -271,12 +270,11 @@ msgstr ""
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Tom dvd indsat"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Du har indsat en tom disk."
+msgstr "Du har indsat en tom dvd."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -284,65 +282,59 @@ msgstr "Hvad vil du gerne gøre?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Brænd _dvd"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Slet cder og dvder"
+msgstr "Slet indsat cd"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Du har indsat en tom disk."
+msgstr "Du har indsat en tom cd."
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Lav _data-cd"
+msgstr "Brænd _data-cd"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Lav _lyd-cd"
+msgstr "Brænd _lyd-cd"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Brændkommandoen skal indeholde værdi"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "Cd-afspillerkommando er ikke defineret"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Kamera fundet"
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "Et billedhukommelseskort er blevet fundet."
+msgstr "Et billedkamera blev fundet"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Printer fundet"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "En usb-printer blev fundet"
 
 #: ../thunar-volman/tvm-usb-device.c:98
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Ikke understøttet usb-enhedstype"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Thunar-arkivhåndtering"
+msgstr "Indstillinger af arkivhåndtering til Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
