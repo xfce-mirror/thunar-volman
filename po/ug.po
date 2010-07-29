@@ -1,0 +1,551 @@
+# Uyghur translations for thunar-volman package
+# Copyright (C) 2008 Benedikt Meurer
+# This file is distributed under the same license as the PACKAGE package.
+# Gheyret T.Kenji <gheyret@gmail.com>, 2010
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: thunar-volman 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-26 12:03+0200\n"
+"PO-Revision-Date: 2008-11-09 14:59+0900\n"
+"Last-Translator: Gheyret T.Kenji <gheyret@gmail.com>\n"
+"Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../thunar-volman/main.c:59
+msgid "The syfs path of the newly added device"
+msgstr ""
+
+#: ../thunar-volman/main.c:60
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:104
+msgid "Configure management of removable drives and media"
+msgstr ""
+
+#: ../thunar-volman/main.c:61
+msgid "Print version information and exit"
+msgstr "نەشر ئۇچۇرىنى كۆرسىتىپ ئاخىرلاشتۇرۇش"
+
+#. setup application name
+#: ../thunar-volman/main.c:93
+msgid "Thunar Volume Manager"
+msgstr "Thunar Volume باشقۇرغۇ"
+
+#: ../thunar-volman/main.c:133
+msgid "All rights reserved."
+msgstr "بارلىق ھوقۇقنى ساقلاپ قالىدۇ."
+
+#: ../thunar-volman/main.c:134
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "كەمتۈكنى <%s> غا دوكلات قىلىڭ."
+
+#: ../thunar-volman/main.c:188
+#, c-format
+msgid "There is no device with the sysfs path \"%s\""
+msgstr ""
+
+#: ../thunar-volman/main.c:200
+#, c-format
+msgid "Must specify the sysfs path of new devices with --device-added"
+msgstr ""
+
+#. ...so we need to prompt what to do
+#: ../thunar-volman/tvm-block-device.c:204
+msgid "Photos and Music"
+msgstr "سۈرەت ۋە مۇزىكا"
+
+#: ../thunar-volman/tvm-block-device.c:205
+msgid "Photos were found on your portable music player"
+msgstr "ئەپلىك چالغۇڭىزدا سۈرەت بار ئىكەن"
+
+#: ../thunar-volman/tvm-block-device.c:206
+msgid "Would you like to import the photos or manage the music?"
+msgstr "سۈرەتلەرنى ئىمپورت قىلامسىز؟ ياكى مۇزىكىلارنى رەتلەمسىز؟"
+
+#: ../thunar-volman/tvm-block-device.c:208
+#: ../thunar-volman/tvm-block-device.c:277
+#: ../thunar-volman/tvm-block-device.c:378
+#: ../thunar-volman/tvm-block-device.c:425
+#: ../thunar-volman/tvm-block-device.c:507
+#: ../thunar-volman/tvm-block-device.c:826 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-run.c:203
+msgid "Ig_nore"
+msgstr "پەرۋا قىلما(_N)"
+
+#: ../thunar-volman/tvm-block-device.c:209
+#: ../thunar-volman/tvm-block-device.c:278
+msgid "Import _Photos"
+msgstr "سۈرەتلەرنى ئىمپورت قىل(_P)"
+
+#: ../thunar-volman/tvm-block-device.c:210
+msgid "Manage _Music"
+msgstr "مۇزىكىلارنى رەتلە(_M)"
+
+#. ask the user to import photos
+#: ../thunar-volman/tvm-block-device.c:273
+msgid "Photo Import"
+msgstr "سۈرەتلەرنى ئىمپورت قىلىش"
+
+#: ../thunar-volman/tvm-block-device.c:274
+msgid "A photo card has been detected"
+msgstr "سۈرەت كارتىسى ئۆچۈرۈلگەن"
+
+#: ../thunar-volman/tvm-block-device.c:275
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr ""
+
+#. prompt the user to execute the file
+#. prompt the user to execute this file
+#: ../thunar-volman/tvm-block-device.c:373
+#: ../thunar-volman/tvm-block-device.c:420
+#, c-format
+msgid "Would you like to allow \"%s\" to run?"
+msgstr "\"%s\" نى ئىجرا قىلىشقا يول قويامسىز؟"
+
+#: ../thunar-volman/tvm-block-device.c:376
+#: ../thunar-volman/tvm-block-device.c:423
+msgid "Auto-Run Confirmation"
+msgstr "ئۆزلۈكىدىن ئىجرا قىلىشنى جەزملە"
+
+#: ../thunar-volman/tvm-block-device.c:377
+#: ../thunar-volman/tvm-block-device.c:424
+msgid "Auto-Run capability detected"
+msgstr "ئۆزلۈكىدىن ئىجرا قىلىدىكەن"
+
+#: ../thunar-volman/tvm-block-device.c:379
+#: ../thunar-volman/tvm-block-device.c:426
+msgid "_Allow Auto-Run"
+msgstr "ئۆزلۈكىدىن ئىجرا قىلىشقا يول قوي(_A)"
+
+#. prompt the user whether to autoopen this file
+#: ../thunar-volman/tvm-block-device.c:502
+#, c-format
+msgid "Would you like to open \"%s\"?"
+msgstr "\"%s\" نى ئاچامسىز؟"
+
+#: ../thunar-volman/tvm-block-device.c:505
+msgid "Auto-Open Confirmation"
+msgstr "ئۆزلۈكىدىن ئېچىشنى جەزملە"
+
+#: ../thunar-volman/tvm-block-device.c:506
+msgid "Auto-Open capability detected"
+msgstr "ئۆزلۈكىدىن ئېچىلىدىكەن"
+
+#: ../thunar-volman/tvm-block-device.c:508
+msgid "_Open"
+msgstr "ئاچ(_O)"
+
+#: ../thunar-volman/tvm-block-device.c:616
+msgid "CD mounted"
+msgstr "CD mount قىلىندى"
+
+#: ../thunar-volman/tvm-block-device.c:616
+msgid "DVD mounted"
+msgstr "DVD mount قىلىندى"
+
+#: ../thunar-volman/tvm-block-device.c:618
+msgid "The CD was mounted automatically"
+msgstr "CD ئۆزلۈكىدىن mount قىلىنىپتۇ"
+
+#: ../thunar-volman/tvm-block-device.c:619
+msgid "The DVD was mounted automatically"
+msgstr "DVD ئۆزلۈكىدىن mount قىلىنىپتۇ"
+
+#: ../thunar-volman/tvm-block-device.c:629
+msgid "Volume mounted"
+msgstr "Volume mount قىلىندى"
+
+#: ../thunar-volman/tvm-block-device.c:632
+#, c-format
+msgid "The volume \"%s\" was mounted automatically"
+msgstr "volume \"%s\" ئۆزلۈكىدىن mount قىلىنىپتۇ"
+
+#: ../thunar-volman/tvm-block-device.c:637
+#, c-format
+msgid "The inserted volume was mounted automatically"
+msgstr "سېلىنغان volume ئۆزلۈكىدىن mount قىلىنىپتۇ"
+
+#: ../thunar-volman/tvm-block-device.c:691
+#, c-format
+msgid "Unable to locate mount point"
+msgstr "mount نۇقتىسىنى بېكىتكىلى بولمىدى"
+
+#: ../thunar-volman/tvm-block-device.c:737
+#, c-format
+msgid "Unable to mount the device"
+msgstr "ئۈسكۈنىنى mount قىلغىلى بولمىدى"
+
+#: ../thunar-volman/tvm-block-device.c:746
+#, c-format
+msgid "Could not detect the volume corresponding to the device"
+msgstr "ئۈسكىنىگە ماس كېلىدىغان volume تېپىلمىدى"
+
+#: ../thunar-volman/tvm-block-device.c:821
+msgid "Audio/Data CD"
+msgstr "ئۈن/سانلىق-ئاساس CD"
+
+#: ../thunar-volman/tvm-block-device.c:822
+msgid "The CD in the drive contains both music and files"
+msgstr "قوزغاتقۇچتىكى CD دا مۇزىكا ۋە ھۆججەتلەر بار ئىكەن"
+
+#: ../thunar-volman/tvm-block-device.c:824
+msgid "Would you like to listen to music or browse the files?"
+msgstr "مۇزىكا ئاڭلامسىز؟ ياكى ھۆججەتلەرنى كۆرەمسىز؟"
+
+#: ../thunar-volman/tvm-block-device.c:827
+msgid "_Browse Files"
+msgstr "ھۆججەتلەرنى كور(_B)"
+
+#: ../thunar-volman/tvm-block-device.c:828
+msgid "_Play CD"
+msgstr "CD نى چال(_P)"
+
+#: ../thunar-volman/tvm-block-device.c:916
+#, c-format
+msgid "Unknown block device type"
+msgstr "نامەلۇم block ئۈسكىنە تىپى"
+
+#: ../thunar-volman/tvm-device.c:139
+#, c-format
+msgid "Device type not supported"
+msgstr "ئۈسكىنە تىپىنى بىر تەرەپ قىلالمايدۇ"
+
+#: ../thunar-volman/tvm-input-device.c:74
+msgid "input-keyboard"
+msgstr "كىرگۇزۇش-ھەرپتاختا"
+
+#: ../thunar-volman/tvm-input-device.c:75
+msgid "Keyboard detected"
+msgstr "ھەرپتاختا تېپىلدى"
+
+#: ../thunar-volman/tvm-input-device.c:76
+msgid "A keyboard was detected"
+msgstr "بىر ھەرپتاختا تېپىلدى"
+
+#: ../thunar-volman/tvm-input-device.c:86
+#: ../thunar-volman/tvm-input-device.c:100
+msgid "input-tablet"
+msgstr "كىرگۈزۈش-tablet"
+
+#: ../thunar-volman/tvm-input-device.c:87
+#: ../thunar-volman/tvm-input-device.c:101
+msgid "Tablet detected"
+msgstr "Tablet تېپىلدى"
+
+#: ../thunar-volman/tvm-input-device.c:88
+#: ../thunar-volman/tvm-input-device.c:102
+msgid "A graphics tablet was detected"
+msgstr "گرافىكىلىق Tablet تېپىلدى"
+
+#: ../thunar-volman/tvm-input-device.c:110
+msgid "input-mouse"
+msgstr "كىرگۈزۈش-چاشقىنەك"
+
+#: ../thunar-volman/tvm-input-device.c:111
+msgid "Mouse detected"
+msgstr "چاشقىنەك تېپىلدى"
+
+#: ../thunar-volman/tvm-input-device.c:112
+msgid "A mouse was detected"
+msgstr "بىر چاشقىنەك تېپىلدى"
+
+#: ../thunar-volman/tvm-input-device.c:139
+#, c-format
+msgid "Unsupported input device type"
+msgstr "تونۇمايدىغان كىرگۈزۈش ئۈسكىنە تىپى"
+
+#: ../thunar-volman/tvm-run.c:171
+#, c-format
+msgid "Autoburning of blank CDs and DVDs is disabled"
+msgstr "CD ياكى DVD  غا ئۆزلۈكىدىن يېزىش چەكلەنگەن"
+
+#: ../thunar-volman/tvm-run.c:189
+msgid "Blank DVD inserted"
+msgstr "قۇرۇق DVD سېلىندى"
+
+#: ../thunar-volman/tvm-run.c:190
+msgid "You have inserted a blank DVD."
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
+msgid "What would you like to do?"
+msgstr "何をしますか?"
+
+#: ../thunar-volman/tvm-run.c:193
+msgid "Burn _DVD"
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:200
+msgid "Blank CD inserted"
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:201
+msgid "You have inserted a blank CD."
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:204
+msgid "Burn _Data CD"
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:205
+msgid "Burn _Audio CD"
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:229
+#, c-format
+msgid "The burn command may not be empty"
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:268
+#, c-format
+msgid "The CD player command is undefined"
+msgstr ""
+
+#: ../thunar-volman/tvm-usb-device.c:62
+msgid "Camera detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-usb-device.c:63
+msgid "A photo camera was detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-usb-device.c:71
+msgid "Printer detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-usb-device.c:72
+msgid "A USB printer was detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-usb-device.c:98
+#, c-format
+msgid "Unsupported USB device type"
+msgstr ""
+
+#. setup application name
+#: ../thunar-volman-settings/main.c:52
+msgid "Thunar Volume Manager Settings"
+msgstr ""
+
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:102
+msgid "Removable Drives and Media"
+msgstr "Removable ئۈسكىنە ۋە Media"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Select an Application"
+msgstr "پروگرامما تاللاش"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:250
+msgid "All Files"
+msgstr "ھەممە ھۆججەت"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:255
+msgid "Executable Files"
+msgstr "پروگرامما(ئىجرا بولىدىغان ھۆججەت)"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:270
+msgid "Perl Scripts"
+msgstr "Perl پروگراممىسى"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:276
+msgid "Python Scripts"
+msgstr "Python پروگراممىسى"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:282
+msgid "Ruby Scripts"
+msgstr "Ruby پروگراممىسى"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:288
+msgid "Shell Scripts"
+msgstr "Shell پروگراممىسى"
+
+#.
+#. Storage
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:130
+msgid "Storage"
+msgstr "ساقلاش"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:141
+msgid "Removable Storage"
+msgstr "リムーバブルストレージ"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
+msgid "_Mount removable drives when hot-plugged"
+msgstr "リムーバブルドライブがホットプラグされたらマウントする(_M)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:166
+msgid "Mount removable media when _inserted"
+msgstr "リムーバブルメディアが挿入されたらマウントする(_I)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:174
+msgid "B_rowse removable media when inserted"
+msgstr "リムーバブルメディアが挿入されたら参照する(_R)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:182
+msgid "_Auto-run programs on new drives and media"
+msgstr "新しいドライブおよびメディア上のプログラムを自動実行する(_A)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:189
+msgid "Auto-open files on new drives and media"
+msgstr "يېڭى ئۈسكىنە ۋە media دىكى ھۆججەتلەر ئاپتوماتىك ئېچىلسۇن"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:201
+msgid "Blank CDs and DVDs"
+msgstr "空の CD および DVD"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:218
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "空の CD または DVD が挿入されたらディスクを作成する(_B)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:229
+msgid "Command for _Data CDs:"
+msgstr "データ CD 用コマンド(_D)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:239
+msgid "Command for A_udio CDs:"
+msgstr "オーディオ CD 用コマンド(_U)"
+
+#.
+#. Multimedia
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:255
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:266
+msgid "Audio CDs"
+msgstr "ئاۋاز چاستوتا CD"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:283
+msgid "Play _audio CDs when inserted"
+msgstr "オーディオ CD が挿入されたら再生する(_A)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:290
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:466
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:553
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:601
+msgid "_Command:"
+msgstr "بۇيرۇق(_C):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:304
+msgid "Video CDs/DVDs"
+msgstr "ビデオ CD/DVD"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:321
+msgid "Play _video CDs and DVDs when inserted"
+msgstr "ビデオ CD および DVD が挿入されたら再生する(_V)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:367
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:505
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:640
+msgid "C_ommand:"
+msgstr "コマンド(_O):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:343
+msgid "Portable Music Players"
+msgstr "携帯音楽プレイヤー"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:360
+msgid "Play _music files when connected"
+msgstr "接続されたら音楽ファイルを再生する(_M)"
+
+#.
+#. Cameras
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
+msgid "Cameras"
+msgstr "カメラ"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:390
+msgid "Digital Cameras"
+msgstr "デジタルカメラ"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:407
+msgid "Import digital photographs when connected"
+msgstr "接続されたら写真を取り込む"
+
+#.
+#. PDAs
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:427
+msgid "PDAs"
+msgstr "PDA"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:441
+msgid "Palm™"
+msgstr "Palm™"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:458
+msgid "Sync _Palm™ devices when connected"
+msgstr "Palm™ デバイスが接続されたら同期をとる(_P)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:480
+msgid "Pocket PCs"
+msgstr "Pocket PC"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:497
+msgid "Sync Pocket P_C devices when connected"
+msgstr "Pocket PC デバイスが接続されたら同期をとる(_C)"
+
+#.
+#. Printers
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:517
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:528
+msgid "Printers"
+msgstr "پرىنتېر"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:545
+msgid "Automatically run a program when a _printer is connected"
+msgstr "プリンタが接続されたら自動的にプログラムを実行する(_P)"
+
+#.
+#. Input Devices
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:565
+msgid "Input Devices"
+msgstr "كىرگۈزۈش ئۈسكۈنىسى"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:576
+msgid "Keyboards"
+msgstr "キーボード"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:593
+msgid "Automatically run a program when an USB _keyboard is connected"
+msgstr "USBキーボードが接続されたら自動的にプログラムを実行する(_K)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:615
+msgid "Mice"
+msgstr "Mice"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:632
+msgid "Automatically run a program when an USB _mouse is connected"
+msgstr "USBマウスが接続されたら自動的にプログラムを実行する(_M)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:654
+msgid "Tablet"
+msgstr "タブレット"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:671
+msgid "Automatically run a program when a _tablet is connected"
+msgstr "タブレットが接続されたら自動的にプログラムを実行する(_T)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:679
+msgid "Com_mand:"
+msgstr "コマンド(_M):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
+msgid "Failed to open the documentation browser"
+msgstr "پۈتۈك كۆرگۈنى ئېچىش مەغلۇپ بولدى"
