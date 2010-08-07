@@ -151,7 +151,7 @@ msgstr "CD wurde eingehängt"
 #: ../thunar-volman/tvm-block-device.c:616
 #, fuzzy
 msgid "DVD mounted"
-msgstr "DVD eingehängt"
+msgstr "DVD wurde eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:618
 #, fuzzy
