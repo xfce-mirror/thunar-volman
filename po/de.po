@@ -246,7 +246,6 @@ msgstr "Tabletts"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
 msgstr "Unterstützung für Automatisches Ausführen erkannt."
 
@@ -325,9 +324,8 @@ msgid "The CD player command is undefined"
 msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:62
-#, fuzzy
 msgid "Camera detected"
-msgstr "Kamere erkannt"
+msgstr "Kamera erkannt"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 #, fuzzy
