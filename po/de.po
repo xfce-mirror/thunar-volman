@@ -19,7 +19,7 @@ msgstr ""
 #: ../thunar-volman/main.c:59
 #, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "Der HAL UDI des neu hinzugekommenen Geräts"
+msgstr "Der HAL UDI des neu hinzugefügten Geräts"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -37,7 +37,6 @@ msgid "Thunar Volume Manager"
 msgstr "Thunar Datenträgerverwaltung"
 
 #: ../thunar-volman/main.c:133
-#, fuzzy
 msgid "All rights reserved."
 msgstr "Alle Rechte vorbehalten."
 
@@ -155,41 +154,44 @@ msgid "DVD mounted"
 msgstr "DVD eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:618
+#, fuzzy
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "Die CD wurde automatisch eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:619
+#, fuzzy
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "Die DVD wurde automatisch eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:629
+#, fuzzy
 msgid "Volume mounted"
-msgstr ""
+msgstr "Datenträger eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:632
-#, c-format
+#, c-format, fuzzy
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "Der Datenträger \"%s\" wurde automatisch eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:637
-#, c-format
+#, c-format, fuzzy
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "Der eingelegte Datenträger wurde automatisch eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:691
-#, c-format
+#, c-format, fuzzy
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "Der Einhängepunkt konnte nicht gefunden werden"
 
 #: ../thunar-volman/tvm-block-device.c:737
-#, c-format
+#, c-format, fuzzy
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "Das Gerät konnte nicht eingehängt werden"
 
 #: ../thunar-volman/tvm-block-device.c:746
-#, c-format
+#, c-format, fuzzy
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Konnte den zum Gerät gehörenden Datenträger nicht erkennen"
 
 #: ../thunar-volman/tvm-block-device.c:821
 #, fuzzy
@@ -214,14 +216,14 @@ msgid "_Play CD"
 msgstr "_CD wiedergeben"
 
 #: ../thunar-volman/tvm-block-device.c:916
-#, c-format
+#, c-format, fuzzy
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Unbekanntes blockorientiertes Gerät"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "Gerätetyp wird nicht unterstützt"
 
 #: ../thunar-volman/tvm-input-device.c:74
 #, fuzzy
@@ -229,19 +231,18 @@ msgid "input-keyboard"
 msgstr "Tastaturen"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
 msgstr "Tastaturen"
 
 #: ../thunar-volman/tvm-input-device.c:76
 #, fuzzy
 msgid "A keyboard was detected"
-msgstr "Ein Medium mit Fotos wurde erkannt."
+msgstr "Eine Tastatur wurde erkannt."
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
 msgid "input-tablet"
-msgstr ""
+msgstr "Tabletts"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -251,25 +252,27 @@ msgstr "Unterstützung für Automatisches Ausführen erkannt."
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
+#, fuzzy
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "Ein Grafiktablett wurde erkannt"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
+#, fuzzy
 msgid "Mouse detected"
-msgstr ""
+msgstr "Maus erkannt"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "Eine Maus wurde erkannt"
 
 #: ../thunar-volman/tvm-input-device.c:139
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Nicht unterstützter Gerätetyp"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -278,7 +281,7 @@ msgstr ""
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Ein DVD Rohling wurde eingelegt"
 
 #: ../thunar-volman/tvm-run.c:190
 #, fuzzy
@@ -294,14 +297,12 @@ msgid "Burn _DVD"
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "CD/DVD-Rohlinge"
+msgstr "CD/DVD-Rohlinge "
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Ein Rohling wurde eingelegt."
+msgstr "Ein CD Rohling wurde eingelegt"
 
 #: ../thunar-volman/tvm-run.c:204
 #, fuzzy
@@ -324,26 +325,29 @@ msgid "The CD player command is undefined"
 msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:62
+#, fuzzy
 msgid "Camera detected"
-msgstr ""
+msgstr "Kamere erkannt"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 #, fuzzy
 msgid "A photo camera was detected"
-msgstr "Ein Medium mit Fotos wurde erkannt."
+msgstr "Eine Kamera wurde erkannt"
 
 #: ../thunar-volman/tvm-usb-device.c:71
+#, fuzzy
 msgid "Printer detected"
-msgstr ""
+msgstr "Drucker erkannt"
 
 #: ../thunar-volman/tvm-usb-device.c:72
+#, fuzzy
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "Ein USB Drucker wurde erkannt"
 
 #: ../thunar-volman/tvm-usb-device.c:98
-#, c-format
+#, c-format, fuzzy
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Nicht unterstützter USB Gerätetyp"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
