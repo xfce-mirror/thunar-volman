@@ -79,8 +79,10 @@ tvm_usb_device_added (TvmContext *context)
       enabled = xfconf_channel_get_bool (context->channel, enabled_property, FALSE);
       if (enabled)
         {
+#ifdef HAVE_LIBNOTIFY
           /* display a detection notification */
           tvm_notify (icon, summary, message);
+#endif
 
           /* fetch the command for the input device type and try to run it */
           command = xfconf_channel_get_string (context->channel, command_property, NULL);
