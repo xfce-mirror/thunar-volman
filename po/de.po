@@ -274,9 +274,9 @@ msgid "Unsupported input device type"
 msgstr "Nicht unterstützter Gerätetyp"
 
 #: ../thunar-volman/tvm-run.c:171
-#, c-format
+#, c-format, fuzzy
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "Automatisches Brennen von CDs und DVDs ist deaktiviert"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
