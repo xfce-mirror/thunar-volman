@@ -1,7 +1,7 @@
 # Ukrainian translation of thunar-volman
 # Copyright (C) 2007 Dmitry Nikitin
 # This file is distributed under the same license as the thunar-volman package.
-#
+# 
 # Dmitry Nikitin <luckas_fb@mail.ru>, 2007.
 msgid ""
 msgstr ""
@@ -11,18 +11,16 @@ msgstr ""
 "PO-Revision-Date: 2007-11-10 20:23+0200\n"
 "Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
 "Language-Team: Ukrainian <xfce-i18n@xfce.org>\n"
-"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
-"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "UDI ново-доданого HAL -ом пристрою"
+msgstr "Шлях sysfs до щойно доданого пристрою"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -41,7 +39,7 @@ msgstr "Thunar Керівник Томів"
 
 #: ../thunar-volman/main.c:133
 msgid "All rights reserved."
-msgstr ""
+msgstr "Всі права застережено."
 
 #: ../thunar-volman/main.c:134
 #, c-format
@@ -51,12 +49,12 @@ msgstr "Будь-ласка, звітуйте про помилки для <%s>.
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "Немає пристрою з шляхом sysfs  \"%s\""
 
 #: ../thunar-volman/main.c:200
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Мусите визначити новий UDI пристрою для HAL з --device-added"
+msgstr "Ви повинні вказати шлях sysfs для нових пристроїв з --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -64,9 +62,8 @@ msgid "Photos and Music"
 msgstr "Фото і Музика"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "Фотографії будуть знайдені на вашому портативному музичному плеєрі."
+msgstr "Фотографії були знайдені на Вашому портативному музичному програвачі"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -97,14 +94,11 @@ msgid "Photo Import"
 msgstr "Імпорт Фотографій"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "Виявлена фото-картка."
+msgstr "Виявлена фото-картка"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
 msgstr "На картці є фотографії. Хочете додати ці фото до Вашого альбому?"
 
 #. prompt the user to execute the file
@@ -150,58 +144,56 @@ msgstr "_Відкрити"
 
 #: ../thunar-volman/tvm-block-device.c:616
 msgid "CD mounted"
-msgstr ""
+msgstr "CD змонтоване"
 
 #: ../thunar-volman/tvm-block-device.c:616
 msgid "DVD mounted"
-msgstr ""
+msgstr "DVD змонтоване"
 
 #: ../thunar-volman/tvm-block-device.c:618
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "CD автоматично змонтоване"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "DVD автоматично змонтоване"
 
 #: ../thunar-volman/tvm-block-device.c:629
 msgid "Volume mounted"
-msgstr ""
+msgstr "Том змонтований"
 
 #: ../thunar-volman/tvm-block-device.c:632
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "Том \"%s\" автоматично змонтований"
 
 #: ../thunar-volman/tvm-block-device.c:637
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "Вставлений том був автоматично змонтований"
 
 #: ../thunar-volman/tvm-block-device.c:691
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "Не можу знайти точку монтування"
 
 #: ../thunar-volman/tvm-block-device.c:737
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "Не можу змонтувати пристрій"
 
 #: ../thunar-volman/tvm-block-device.c:746
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Не можу виявити диск для відповідного пристрою"
 
 #: ../thunar-volman/tvm-block-device.c:821
-#, fuzzy
 msgid "Audio/Data CD"
-msgstr "Аудіо / Данні CD"
+msgstr "Аудіо/Дані CD"
 
 #: ../thunar-volman/tvm-block-device.c:822
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
-msgstr "CD-диск в пристрої має музичні і файли даних."
+msgstr "CD-диск в пристрої містить музичні і файли даних."
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Would you like to listen to music or browse the files?"
@@ -218,74 +210,69 @@ msgstr "_Слухати CD"
 #: ../thunar-volman/tvm-block-device.c:916
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Невідомий тип блок-пристрою"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "Тип пристрою не підтримується"
 
 #: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
 msgid "input-keyboard"
-msgstr "Клавіатури"
+msgstr "клавіатура"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Клавіатури"
+msgstr "Виявлено клавіатуру"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Виявлена фото-картка."
+msgstr "Було виявлено клавіатуру"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
 msgid "input-tablet"
-msgstr ""
+msgstr "таблет"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Виявлено сумісність з Авто-запуском"
+msgstr "Виявлено таблет"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "Виявлено графічний таблет"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr ""
+msgstr "мишка"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Виявлено мишку"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "Було виявлено мишку"
 
 #: ../thunar-volman/tvm-input-device.c:139
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Невідомий тип пристрою вводу"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "Автозапис чистих CD і DVD відключено"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Вставлено порожній DVD"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Ви маєте вставлений чистий диск."
+msgstr "Ви вставили чистий DVD диск."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -293,65 +280,59 @@ msgstr "Що думаєте робити?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Записати _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Чисті CD-диски  і DVD-диски"
+msgstr "Чистий CD-диск вставлено"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Ви маєте вставлений чистий диск."
+msgstr "Ви вставили чистий CD-диск."
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Створити _Data CD"
+msgstr "Записати _Data CD"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Створити _Audio CD"
+msgstr "Записати _Audio CD"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Команда запису не повинна бути порожньою"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "Команда програвача CD не вказана"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Виявлено фото-камеру"
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "Виявлена фото-картка."
+msgstr "Виявлено фото-камеру"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Виявлено друкарку"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "Було виявлено друкарку USB"
 
 #: ../thunar-volman/tvm-usb-device.c:98
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Тип пристрою USB не підтримується"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Thunar Керівник Томів"
+msgstr "Thunar Менеджер Пристроїв"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -386,9 +367,8 @@ msgstr "Скрипти Рубі"
 msgid "Shell Scripts"
 msgstr "Скрипти командної оболонки"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Пристрій"
@@ -433,9 +413,8 @@ msgstr "Команди для CD з _Данними:"
 msgid "Command for A_udio CDs:"
 msgstr "Команди для CD з А_удіо:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Мультимедія"
@@ -479,9 +458,8 @@ msgstr "Портативні Музичні Плеєри"
 msgid "Play _music files when connected"
 msgstr "Грати _музичні файли коли під'єднано"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Камери"
@@ -494,9 +472,8 @@ msgstr "Цифрові камери"
 msgid "Import digital photographs when connected"
 msgstr "Імпортувати цифрові фотографії коли під'єднано"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA-пристрої"
@@ -517,9 +494,8 @@ msgstr "Pocket PCs"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Синхронізувати Pocket P_C пристрої коли під'єднано"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -529,9 +505,8 @@ msgstr "Принтери"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Автоматично запускати програму коли _принтер під'єднаний"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Пристрої Вводу"
@@ -583,11 +558,8 @@ msgstr "невдача при відкритті переглядача доку
 #~ msgid "Encrypted volume"
 #~ msgstr "Зашифрований том"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Монтування зашифрованого тому...</"
-#~ "span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Монтування зашифрованого тому...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Налаштувати криптографічний шар..."
@@ -601,8 +573,7 @@ msgstr "невдача при відкритті переглядача доку
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Невірний пароль.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Цей том зашифрований.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
