@@ -94,7 +94,6 @@ msgid "Photo Import"
 msgstr "Fotos importieren"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
 msgstr "Ein Medium mit Fotos wurde erkannt."
 
@@ -144,47 +143,42 @@ msgid "_Open"
 msgstr "Ö_ffnen"
 
 #: ../thunar-volman/tvm-block-device.c:616
-#, fuzzy
 msgid "CD mounted"
 msgstr "CD wurde eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:616
-#, fuzzy
 msgid "DVD mounted"
 msgstr "DVD wurde eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:618
-#, fuzzy
 msgid "The CD was mounted automatically"
 msgstr "Die CD wurde automatisch eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:619
-#, fuzzy
 msgid "The DVD was mounted automatically"
 msgstr "Die DVD wurde automatisch eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:629
-#, fuzzy
 msgid "Volume mounted"
 msgstr "Datenträger eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:632
-#, c-format, fuzzy
+#, c-format
 msgid "The volume \"%s\" was mounted automatically"
 msgstr "Der Datenträger \"%s\" wurde automatisch eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:637
-#, c-format, fuzzy
+#, c-format
 msgid "The inserted volume was mounted automatically"
 msgstr "Der eingelegte Datenträger wurde automatisch eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:691
-#, c-format, fuzzy
+#, c-format
 msgid "Unable to locate mount point"
 msgstr "Der Einhängepunkt konnte nicht gefunden werden"
 
 #: ../thunar-volman/tvm-block-device.c:737
-#, c-format, fuzzy
+#, c-format
 msgid "Unable to mount the device"
 msgstr "Das Gerät konnte nicht eingehängt werden"
 
@@ -285,7 +279,7 @@ msgstr "Ein DVD Rohling wurde eingelegt"
 #: ../thunar-volman/tvm-run.c:190
 #, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Ein Rohling wurde eingelegt."
+msgstr "Eine leere DVD wurde eingelegt."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -328,22 +322,19 @@ msgid "Camera detected"
 msgstr "Kamera erkannt"
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
 msgstr "Eine Kamera wurde erkannt"
 
 #: ../thunar-volman/tvm-usb-device.c:71
-#, fuzzy
 msgid "Printer detected"
 msgstr "Drucker erkannt"
 
 #: ../thunar-volman/tvm-usb-device.c:72
-#, fuzzy
 msgid "A USB printer was detected"
 msgstr "Ein USB Drucker wurde erkannt"
 
 #: ../thunar-volman/tvm-usb-device.c:98
-#, c-format, fuzzy
+#, c-format
 msgid "Unsupported USB device type"
 msgstr "Nicht unterstützter USB Gerätetyp"
 
