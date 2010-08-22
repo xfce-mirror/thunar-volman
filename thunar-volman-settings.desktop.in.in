@@ -1,5 +1,4 @@
 [Desktop Entry]
-Encoding=UTF-8
 _Name=Removable Drives and Media
 _Comment=Configure management of removable drives and media
 Exec=@libexecdir@/thunar-volman-settings
