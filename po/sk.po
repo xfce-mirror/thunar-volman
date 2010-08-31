@@ -12,12 +12,12 @@ msgstr ""
 "PO-Revision-Date: 2009-09-13 18:41+0200\n"
 "Last-Translator: Robert Hartl <hartl.robert@gmail.com>\n"
 "Language-Team: slovak <sk-i18n@lists.linux.sk>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
+"Language: \n"
 "X-Generator: Lokalize 0.3\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
 
 #: ../thunar-volman/main.c:59
 #, fuzzy
@@ -41,7 +41,7 @@ msgstr "Správca médií Thunar"
 
 #: ../thunar-volman/main.c:133
 msgid "All rights reserved."
-msgstr ""
+msgstr "Všetky práva vyhradené."
 
 #: ../thunar-volman/main.c:134
 #, c-format
@@ -102,11 +102,8 @@ msgid "A photo card has been detected"
 msgstr "Bola zistená foto karta."
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
-msgstr ""
-"Na karte sú fotografie. Chcete tieto fotografie pridať do svojho albumu?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "Na karte sú fotografie. Chcete tieto fotografie pridať do svojho albumu?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -195,7 +192,6 @@ msgid "Could not detect the volume corresponding to the device"
 msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:821
-#, fuzzy
 msgid "Audio/Data CD"
 msgstr "Audio / Dátové CD"
 
@@ -232,9 +228,8 @@ msgid "input-keyboard"
 msgstr "Klávesnice"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Klávesnice"
+msgstr "Klávesnica detekovaná"
 
 #: ../thunar-volman/tvm-input-device.c:76
 #, fuzzy
@@ -248,9 +243,8 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Zistená schopnosť auto-spustenia"
+msgstr "Tablet detekovaný"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
@@ -263,16 +257,16 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Myš detekovaná"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "Myš bola detekovaná"
 
 #: ../thunar-volman/tvm-input-device.c:139
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Nepodporované vstupné zariadenie"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -281,12 +275,11 @@ msgstr ""
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Vložené prázdne DVD"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Vložili ste prázdny disk."
+msgstr "Vložili ste prázdne DVD"
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -294,27 +287,23 @@ msgstr "Čo chcete urobiť?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Napáliť _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Prázdne CD a DVD"
+msgstr "Vložené prázdne CD"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Vložili ste prázdny disk."
+msgstr "Vložili ste prázdne CD"
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Vytvoriť _Dátové CD"
+msgstr "Napáliť _Dátové CD"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Vytvoriť _Audio CD"
+msgstr "Napáliť _Audio CD"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -328,25 +317,24 @@ msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Fotoaparát detekovaný"
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "Bola zistená foto karta."
+msgstr "Fotoaparát bol detekovaný"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Tlačiareň detekovaná"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "USB tlačiareň bola detekovaná"
 
 #: ../thunar-volman/tvm-usb-device.c:98
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Nepodporovaný typ USB zariadenia"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
@@ -387,9 +375,8 @@ msgstr "Ruby skripty"
 msgid "Shell Scripts"
 msgstr "Shellové skripty"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Úložisko"
@@ -434,9 +421,8 @@ msgstr "Príkaz pre _dátové CD:"
 msgid "Command for A_udio CDs:"
 msgstr "Príkaz pre A_udio CD:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimédiá"
@@ -480,9 +466,8 @@ msgstr "Prenosné prehrávače hudby"
 msgid "Play _music files when connected"
 msgstr "Prehrať _hudobné súbory pri pripojení"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kamery"
@@ -495,9 +480,8 @@ msgstr "Digitálne fotoaparáty"
 msgid "Import digital photographs when connected"
 msgstr "Importovať digitálne fotografie pri pripojení"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -518,9 +502,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Synchtonizovať zariadenia Pocket P_C pri pripojení"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -530,9 +513,8 @@ msgstr "Tlačiarne"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Automaticky spustiť program pri pripojení _tlačiarne"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Vstupné zariadenia"
@@ -584,11 +566,8 @@ msgstr "Zlyhalo otvorenie prehliadača dokumentácie"
 #~ msgid "Encrypted volume"
 #~ msgstr "Šifrovaný zväzok"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Pripájanie šifrovaného zväzku...</"
-#~ "span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Pripájanie šifrovaného zväzku...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Nastavovanie šifrovacej vrstvy..."
@@ -602,10 +581,8 @@ msgstr "Zlyhalo otvorenie prehliadača dokumentácie"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Nesprávne heslo.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Tento zväzok je šifrovaný.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Tento zväzok je šifrovaný.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Pre odšifrovanie a pripojenie zadajte heslo."
