@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Pavel Labushev <p.labushev@gmail.com>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
@@ -11,12 +11,12 @@ msgstr ""
 "PO-Revision-Date: 2009-02-20 12:42+0700\n"
 "Last-Translator: Pavel Labushev <p.labushev@gmail.com>\n"
 "Language-Team: Russian <xfce-i18n-ru@xfce.org>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
+"Language: ru\n"
+"X-Poedit-Language: Russian\n"
 
 #: ../thunar-volman/main.c:59
 #, fuzzy
@@ -40,7 +40,7 @@ msgstr "Менеджер томов для Thunar"
 
 #: ../thunar-volman/main.c:133
 msgid "All rights reserved."
-msgstr ""
+msgstr "Все права защищены."
 
 #: ../thunar-volman/main.c:134
 #, c-format
@@ -50,7 +50,7 @@ msgstr "Пожалуйста, сообщайте об ошибках по адр
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "Не найдено устройства по системному пути \"%s\""
 
 #: ../thunar-volman/main.c:200
 #, fuzzy, c-format
@@ -101,9 +101,7 @@ msgid "A photo card has been detected"
 msgstr "Обнаружена флэш-карта с фотографиями"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
 msgstr "На флэш-карте обнаружены фотографии. Хотите добавить их в альбом?"
 
 #. prompt the user to execute the file
@@ -149,43 +147,43 @@ msgstr "_Открыть"
 
 #: ../thunar-volman/tvm-block-device.c:616
 msgid "CD mounted"
-msgstr ""
+msgstr "CD-диск подключен"
 
 #: ../thunar-volman/tvm-block-device.c:616
 msgid "DVD mounted"
-msgstr ""
+msgstr "DVD-диск подключен"
 
 #: ../thunar-volman/tvm-block-device.c:618
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "CD-диск подключен автоматически"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "DVD-диск подключен автоматически"
 
 #: ../thunar-volman/tvm-block-device.c:629
 msgid "Volume mounted"
-msgstr ""
+msgstr "Том подключен"
 
 #: ../thunar-volman/tvm-block-device.c:632
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "Том \"%s\" подключен автоматически"
 
 #: ../thunar-volman/tvm-block-device.c:637
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "Вставленный том подключен автоматически"
 
 #: ../thunar-volman/tvm-block-device.c:691
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "Не удалось найти точку монтирования"
 
 #: ../thunar-volman/tvm-block-device.c:737
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "Не удалось подключить устройство"
 
 #: ../thunar-volman/tvm-block-device.c:746
 #, c-format
@@ -193,14 +191,12 @@ msgid "Could not detect the volume corresponding to the device"
 msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:821
-#, fuzzy
 msgid "Audio/Data CD"
 msgstr "Диск с музыкой или данными"
 
 #: ../thunar-volman/tvm-block-device.c:822
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
-msgstr "Диск в приводе содержит музыку и файлы."
+msgstr "Диск в приводе содержит музыку и файлы"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Would you like to listen to music or browse the files?"
@@ -217,12 +213,12 @@ msgstr "Слушать _музыку"
 #: ../thunar-volman/tvm-block-device.c:916
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Неизвестный тип блочного устройства"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "Неподдерживаемый тип устройства"
 
 #: ../thunar-volman/tvm-input-device.c:74
 #, fuzzy
@@ -230,14 +226,12 @@ msgid "input-keyboard"
 msgstr "Клавиатуры"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Клавиатуры"
+msgstr "Обнаружена клавиатура"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Обнаружена флэш-карта с фотографиями"
+msgstr "Обнаружена клавиатура"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
@@ -253,7 +247,7 @@ msgstr "Обнаружена возможность автозапуска"
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "Обнаружен графический планшет"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
@@ -261,11 +255,11 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Обнаружена мышь"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "Обнаружена мышь"
 
 #: ../thunar-volman/tvm-input-device.c:139
 #, c-format
@@ -279,12 +273,11 @@ msgstr ""
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Вставлен чистый DVD-диск"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Вы вставили чистый диск."
+msgstr "Вы вставили чистый DVD-диск."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -335,16 +328,16 @@ msgstr "Обнаружена флэш-карта с фотографиями"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Обнаружен принтер"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "Обнаружен USB-принтер"
 
 #: ../thunar-volman/tvm-usb-device.c:98
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Неподдерживаемое устройство USB"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
@@ -385,9 +378,8 @@ msgstr "Сценарии Ruby"
 msgid "Shell Scripts"
 msgstr "Сценарии Shell"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Накопители"
@@ -422,8 +414,7 @@ msgstr "Пустые CD и DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr ""
-"Запускать приложение для _записи дисков при обнаружении пустого CD или DVD"
+msgstr "Запускать приложение для _записи дисков при обнаружении пустого CD или DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
@@ -433,9 +424,8 @@ msgstr "Команда для записи _данных"
 msgid "Command for A_udio CDs:"
 msgstr "Команда для записи _аудио"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Мультимедиа"
@@ -479,9 +469,8 @@ msgstr "Музыкальные плееры"
 msgid "Play _music files when connected"
 msgstr "Проигрывать файлы с _музыкой при подключении плеера"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Камеры"
@@ -494,9 +483,8 @@ msgstr "Цифровые камеры"
 msgid "Import digital photographs when connected"
 msgstr "_Импортировать цифровые фотографии при подключении камеры"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "КПК"
@@ -517,9 +505,8 @@ msgstr "КПК"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Синхронизировать _КПК при подключении"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -529,9 +516,8 @@ msgstr "Принтеры"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Запускать приложение при подключении _принтера"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Устройства ввода"
@@ -583,11 +569,8 @@ msgstr "Не удалось открыть обозреватель докуме
 #~ msgid "Encrypted volume"
 #~ msgstr "Зашифрованный том"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Подключение зашифрованного тома...</"
-#~ "span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Подключение зашифрованного тома...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Настройка подсистемы шифрования..."
@@ -601,8 +584,7 @@ msgstr "Не удалось открыть обозреватель докуме
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Неправильный пароль.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Этот том зашифрован.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
