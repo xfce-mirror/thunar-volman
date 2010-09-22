@@ -1,12 +1,12 @@
 # Galician translation of thunar-volman
 # Copyright (C) 2008-2009 Leandro Regueiro
 # This file is distributed under the same license as the Xfce package.
-#
+# 
 # Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>, 2008, 2009.
-#
+# 
 # Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
 # colaborar connosco, podes atopar máis información en <http://trasno.net>
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -15,17 +15,16 @@ msgstr ""
 "PO-Revision-Date: 2009-08-19 13:15+0100\n"
 "Last-Translator: Leandro Regueiro <leandro.regueiro@gmail.com>\n"
 "Language-Team: Galician <proxecto@trasno.net>\n"
-"Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # UDI=Uniform Driver Interface
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "A UDI do dispositivo para HAL do novo dispositivo engadido"
+msgstr "A ruta sysfs do novo dispositivo engadido"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -44,7 +43,7 @@ msgstr "Xestor de volumes de Thunar"
 
 #: ../thunar-volman/main.c:133
 msgid "All rights reserved."
-msgstr ""
+msgstr "Todos os dereitos reservados."
 
 #: ../thunar-volman/main.c:134
 #, c-format
@@ -54,12 +53,12 @@ msgstr "Por favor comuníquelle os erros a <%s>."
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "Non hai ningún dispositivo con ruta sysfs \"%s\""
 
 #: ../thunar-volman/main.c:200
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Debe especificar a UDI para HAL do novo dispositivo con --device-added"
+msgstr "Debe especificar a ruta sysfs dos novos dispositivos con --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -67,9 +66,8 @@ msgid "Photos and Music"
 msgstr "Fotos e música"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "Atopáronse fotos no reprodutor de música portátil."
+msgstr "Atopáronse fotos no reprodutor de música portátil"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -100,14 +98,11 @@ msgid "Photo Import"
 msgstr "Importar fotos"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "Detectouse unha tarxeta de fotos."
+msgstr "Detectouse unha tarxeta de fotos"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
 msgstr "Hai fotos na tarxeta. Desexa engadir estas fotos ó seu álbum?"
 
 #. prompt the user to execute the file
@@ -153,58 +148,56 @@ msgstr "_Abrir"
 
 #: ../thunar-volman/tvm-block-device.c:616
 msgid "CD mounted"
-msgstr ""
+msgstr "CD montado"
 
 #: ../thunar-volman/tvm-block-device.c:616
 msgid "DVD mounted"
-msgstr ""
+msgstr "DVD montado"
 
 #: ../thunar-volman/tvm-block-device.c:618
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "O CD montouse automaticamente"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "O DVD montouse automaticamente"
 
 #: ../thunar-volman/tvm-block-device.c:629
 msgid "Volume mounted"
-msgstr ""
+msgstr "Volume montado"
 
 #: ../thunar-volman/tvm-block-device.c:632
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "O volume \"%s\" montouse automaticamente"
 
 #: ../thunar-volman/tvm-block-device.c:637
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "O volume inserido montouse automaticamente"
 
 #: ../thunar-volman/tvm-block-device.c:691
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "Non foi posible localizar o punto de montaxe"
 
 #: ../thunar-volman/tvm-block-device.c:737
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "Non foi posible montar o dispositivo"
 
 #: ../thunar-volman/tvm-block-device.c:746
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Non foi posible detectar o volume que corresponde ao dispositivo"
 
 #: ../thunar-volman/tvm-block-device.c:821
-#, fuzzy
 msgid "Audio/Data CD"
-msgstr "CD de audio/datos"
+msgstr "CD de son/datos"
 
 #: ../thunar-volman/tvm-block-device.c:822
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
-msgstr "O CD da unidade contén música e ficheiros."
+msgstr "O CD que está na unidade contén música e ficheiros"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Would you like to listen to music or browse the files?"
@@ -221,27 +214,24 @@ msgstr "_Reproducir o CD"
 #: ../thunar-volman/tvm-block-device.c:916
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Tipo de dispositivo de bloques descoñecido"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "Tipo de dispositivo non admitido"
 
 #: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
 msgid "input-keyboard"
-msgstr "Teclados"
+msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Teclados"
+msgstr "Teclado detectado"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Detectouse unha tarxeta de fotos."
+msgstr "Detectouse un teclado"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
@@ -250,14 +240,13 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Detectouse a capacidade de execución automática"
+msgstr "Detectouse unha tableta gráfica"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "Detectouse unha tableta gráfica"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
@@ -265,16 +254,16 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Rato detectado"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "Detectouse un rato"
 
 #: ../thunar-volman/tvm-input-device.c:139
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Tipo de dispositivo de entrada non admitido"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -283,12 +272,11 @@ msgstr ""
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Inseriuse un DVD baleiro"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Inseriu un disco en branco."
+msgstr "Inseriu un DVD baleiro."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -296,27 +284,23 @@ msgstr "Que desexa facer?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Gravar _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "CDs e DVDs baleiros"
+msgstr "Inseriuse un CD baleiro"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Inseriu un disco en branco."
+msgstr "Inseriu un CD en branco."
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Crear CD de _datos"
+msgstr "Gravar CD de _datos"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Crear CD de _audio"
+msgstr "Gravar CD de _audio"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -330,7 +314,7 @@ msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Cámara detectada"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 #, fuzzy
@@ -389,9 +373,8 @@ msgstr "Scripts en Ruby"
 msgid "Shell Scripts"
 msgstr "Scripts de Shell"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Almacenamento"
@@ -436,9 +419,8 @@ msgstr "Comando para os CDs de _datos:"
 msgid "Command for A_udio CDs:"
 msgstr "Comando para os CDs de s_on:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -482,9 +464,8 @@ msgstr "Reprodutores de música portátiles"
 msgid "Play _music files when connected"
 msgstr "Reproducir os ficheiros de _música cando se conecten"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Cámaras"
@@ -497,9 +478,8 @@ msgstr "Cámaras Dixitais"
 msgid "Import digital photographs when connected"
 msgstr "Importar fotografías dixitais cando se conecta"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDAs"
@@ -520,9 +500,8 @@ msgstr "Pocket PCs"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Sincronizar os dispositivos Pocket P_C cando se conectan"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -532,9 +511,8 @@ msgstr "Impresoras"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Executar un programa automaticamente cando se conecta unha _impresora"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Dispositivos de entrada"
@@ -586,10 +564,8 @@ msgstr "Produciuse un erro ó abrir o visor da documentación"
 #~ msgid "Encrypted volume"
 #~ msgstr "Volume cifrado"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Montando un volume cifrado...</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Montando un volume cifrado...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Configurando a capa de criptografía..."
@@ -601,13 +577,10 @@ msgstr "Produciuse un erro ó abrir o visor da documentación"
 #~ msgstr "Contrasinal incorrecto"
 
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Contrasinal incorrecto.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Contrasinal incorrecto.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Este volume está cifrado.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Este volume está cifrado.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Introduza o seu contrasinal para descifrar e montar o volume."
