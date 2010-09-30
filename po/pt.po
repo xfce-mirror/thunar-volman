@@ -217,7 +217,7 @@ msgstr "O tipo de dispositivo não é suportado"
 
 #: ../thunar-volman/tvm-input-device.c:74
 msgid "input-keyboard"
-msgstr ""
+msgstr "Teclado"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -230,7 +230,7 @@ msgstr "Foi detectado um teclado"
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
 msgid "input-tablet"
-msgstr ""
+msgstr "\"Tablet\""
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -244,7 +244,7 @@ msgstr "Foi detectado um tablet de gráficos"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr ""
+msgstr "Rato"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
