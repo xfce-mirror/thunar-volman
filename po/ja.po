@@ -363,7 +363,7 @@ msgstr "アプリケーションを選択してください"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:250
 msgid "All Files"
-msgstr "全てのファイル"
+msgstr "すべてのファイル"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:255
 msgid "Executable Files"
