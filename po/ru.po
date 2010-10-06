@@ -14,14 +14,14 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Country: RUSSIAN FEDERATION\n"
 "Language: ru\n"
 "X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
 
 #: ../thunar-volman/main.c:59
 #, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "UDI устройства HAL для нового оборудования"
+msgstr "Путь sysfs только что добавленного устройства"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -55,7 +55,7 @@ msgstr "Не найдено устройства по системному пу�
 #: ../thunar-volman/main.c:200
 #, fuzzy, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Необходимо указать новый UDI устройства HAL с ключом --device-added"
+msgstr "Необходимо указать путь sysfs для новых устройств с ключом --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -65,7 +65,7 @@ msgstr "Фотографии и музыка"
 #: ../thunar-volman/tvm-block-device.c:205
 #, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "На вашем музыкальном плеере обнаружены фотографии."
+msgstr "В вашем портативном музыкальном проигрывателе были найдены фотографии."
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -98,7 +98,7 @@ msgstr "Импорт фотографий"
 #: ../thunar-volman/tvm-block-device.c:274
 #, fuzzy
 msgid "A photo card has been detected"
-msgstr "Обнаружена флэш-карта с фотографиями"
+msgstr "Обнаружена флеш-карта с фотографиями"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid "There are photos on the card. Would you like to add these photos to your album?"
@@ -186,9 +186,9 @@ msgid "Unable to mount the device"
 msgstr "Не удалось подключить устройство"
 
 #: ../thunar-volman/tvm-block-device.c:746
-#, c-format
+#, c-format, fuzzy
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Не удалось обнаружить том, соответствующий устройству"
 
 #: ../thunar-volman/tvm-block-device.c:821
 msgid "Audio/Data CD"
@@ -223,7 +223,7 @@ msgstr "Неподдерживаемый тип устройства"
 #: ../thunar-volman/tvm-input-device.c:74
 #, fuzzy
 msgid "input-keyboard"
-msgstr "Клавиатуры"
+msgstr "клавиатура"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -235,14 +235,15 @@ msgstr "Обнаружена клавиатура"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
+#, fuzzy
 msgid "input-tablet"
-msgstr ""
+msgstr "планшет"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
 #, fuzzy
 msgid "Tablet detected"
-msgstr "Обнаружена возможность автозапуска"
+msgstr "Обнаружен планшет"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
@@ -250,8 +251,9 @@ msgid "A graphics tablet was detected"
 msgstr "Обнаружен графический планшет"
 
 #: ../thunar-volman/tvm-input-device.c:110
+#, fuzzy
 msgid "input-mouse"
-msgstr ""
+msgstr "мышь"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -262,14 +264,14 @@ msgid "A mouse was detected"
 msgstr "Обнаружена мышь"
 
 #: ../thunar-volman/tvm-input-device.c:139
-#, c-format
+#, c-format, fuzzy
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Неизвестный тип устройства ввода"
 
 #: ../thunar-volman/tvm-run.c:171
-#, c-format
+#, c-format, fuzzy
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "Автозапись чистых  CD и DVD отключена"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
@@ -284,47 +286,49 @@ msgid "What would you like to do?"
 msgstr "Что вы хотите сделать?"
 
 #: ../thunar-volman/tvm-run.c:193
+#, fuzzy
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Записать _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
 #, fuzzy
 msgid "Blank CD inserted"
-msgstr "Пустые CD и DVD"
+msgstr "Вставлен чистый CD"
 
 #: ../thunar-volman/tvm-run.c:201
 #, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Вы вставили чистый диск."
+msgstr "Вы вставили чистый CD."
 
 #: ../thunar-volman/tvm-run.c:204
 #, fuzzy
 msgid "Burn _Data CD"
-msgstr "Записать CD с _данными"
+msgstr "Записать _Data CD"
 
 #: ../thunar-volman/tvm-run.c:205
 #, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Записать CD с _музыкой"
+msgstr "Записать _Audio CD"
 
 #: ../thunar-volman/tvm-run.c:229
-#, c-format
+#, c-format, fuzzy
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Команда записи не должна быть пустой"
 
 #: ../thunar-volman/tvm-run.c:268
-#, c-format
+#, c-format, fuzzy
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "Команда проигрывателя CD не определена"
 
 #: ../thunar-volman/tvm-usb-device.c:62
+#, fuzzy
 msgid "Camera detected"
-msgstr ""
+msgstr "Обнаружена камера"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 #, fuzzy
 msgid "A photo camera was detected"
-msgstr "Обнаружена флэш-карта с фотографиями"
+msgstr "Обнаружен фотоаппарат"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
@@ -343,7 +347,7 @@ msgstr "Неподдерживаемое устройство USB"
 #: ../thunar-volman-settings/main.c:52
 #, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Менеджер томов для Thunar"
+msgstr "Параметры Менеджера томов для Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
