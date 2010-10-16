@@ -1,25 +1,24 @@
 # Finnish translations for thunar-volman.
 # Copyright (C) 2007 Benedikt Meurer.
 # This file is distributed under the same license as the thunar-volman package.
-# Jari Rahkonen <jari.rahkonen@pp1.inet.fi>, 2007-2008.
+# Jari Rahkonen <jari.rahkonen@pp1.inet.fi>, 2007-2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: thunar-volman 0.5.x\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-26 12:03+0200\n"
-"PO-Revision-Date: 2008-09-13 15:35+0300\n"
+"PO-Revision-Date: 2010-10-17 01:03+0300\n"
 "Last-Translator: Jari Rahkonen <jari.rahkonen@pp1.inet.fi>\n"
-"Language-Team: Finnish <fi@li.org>\n"
-"Language: fi\n"
+"Language-Team: Finnish <None>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "Lisätyn laitteen HAL:in laite-UDI"
+msgstr "Lisätyn laitteen sysfs-polku"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -38,7 +37,7 @@ msgstr "Thunarin taltionhallinta"
 
 #: ../thunar-volman/main.c:133
 msgid "All rights reserved."
-msgstr ""
+msgstr "Kaikki oikeudet pidätetään."
 
 #: ../thunar-volman/main.c:134
 #, c-format
@@ -48,12 +47,13 @@ msgstr "Ilmoita vioista osoitteeseen <%s>"
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "Sysfs-polku \"%s\" ei viittaa mihinkään laitteeseen."
 
 #: ../thunar-volman/main.c:200
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "HAL:in laite-UDI on määritettävä valitsimella --device-added"
+msgstr ""
+"Määritä usien laitteiden sysfs-polut valitsimella --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -61,7 +61,6 @@ msgid "Photos and Music"
 msgstr "Valokuvia ja Musiikkia"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
 msgstr "Musiikkisoittimeltasi löytyi valokuvia."
 
@@ -94,7 +93,6 @@ msgid "Photo Import"
 msgstr "Valokuvien tuonti"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
 msgstr "Kameran muistikortti havaittu."
 
@@ -147,58 +145,57 @@ msgstr "_Avaa"
 
 #: ../thunar-volman/tvm-block-device.c:616
 msgid "CD mounted"
-msgstr ""
+msgstr "CD liitetty"
 
 #: ../thunar-volman/tvm-block-device.c:616
 msgid "DVD mounted"
-msgstr ""
+msgstr "DVD liitetty"
 
 #: ../thunar-volman/tvm-block-device.c:618
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "CD liitettiin automaattisesti"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "DVD liitettiin automaattisesti"
 
 #: ../thunar-volman/tvm-block-device.c:629
 msgid "Volume mounted"
-msgstr ""
+msgstr "Taltio liitetty"
 
 #: ../thunar-volman/tvm-block-device.c:632
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "Taltio \"%s\" liitettiin automaattisesti"
 
 #: ../thunar-volman/tvm-block-device.c:637
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "Asemaan asetettu taltio liitettiin automaattisesti"
 
 #: ../thunar-volman/tvm-block-device.c:691
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "Liitoskohtaa ei löydy"
 
 #: ../thunar-volman/tvm-block-device.c:737
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "Laitteen liittäminen ei onnistu"
 
 #: ../thunar-volman/tvm-block-device.c:746
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Laitetta vastaavaa taltiota ei havaittu"
 
 #: ../thunar-volman/tvm-block-device.c:821
-#, fuzzy
 msgid "Audio/Data CD"
-msgstr "Ääni / Data -CD"
+msgstr "Ääni/Data-CD"
 
 #: ../thunar-volman/tvm-block-device.c:822
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
-msgstr "Asemassa olevalla CD:llä on sekä musiikkia että tiedostoja"
+msgstr ""
+"Asemassa olevalla CD-levyllä on sekä musiikkia että tiedostoja"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Would you like to listen to music or browse the files?"
@@ -215,74 +212,69 @@ msgstr "Soita _CD"
 #: ../thunar-volman/tvm-block-device.c:916
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Tuntematon lohkolaite"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "Laitetyyppiä ei tueta"
 
 #: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
 msgid "input-keyboard"
-msgstr "Näppäimistöt"
+msgstr "syöttö-näppäimistö"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Näppäimistöt"
+msgstr "Näppäimistö havaittu"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Kameran muistikortti havaittu."
+msgstr "Havaittiin näppäimistö."
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
 msgid "input-tablet"
-msgstr ""
+msgstr "syöttö-piirtopöytä"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Automaattikäynnistys voidaan suorittaa"
+msgstr "Piirtopöytä havaittu"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "Havaittiin piirtöpöytä."
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr ""
+msgstr "syöttö-hiiri"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Hiiri havaittu"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "Havaittiin hiiri."
 
 #: ../thunar-volman/tvm-input-device.c:139
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Syöttölaitetyyppiä ei tueta"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "CD- ja DVD-levyjen automaattipoltto ei ole käytössä"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Asemassa tyhjä DVD"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Asetit tyhjän levyn asemaan."
+msgstr "Asetit tyhjän DVD-levyn asemaan."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -290,65 +282,59 @@ msgstr "Mitä haluat tehdä?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Polta _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Tyhjät CD:t ja DVD:t"
+msgstr "Asemassa tyhjä CD"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Asetit tyhjän levyn asemaan."
+msgstr "Asetit tyhjän CD-levyn asemaan."
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Luo _data-CD"
+msgstr "Luo data-_CD"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
 msgstr "Luo ää_ni-CD"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Polttokomento ei saa olla tyhjä"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "CD-soittokomentoa ei ole asetettu"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Kamera havaittu"
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "Kameran muistikortti havaittu."
+msgstr "Havaittiin valokuvakamera."
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Tulostin havaittu"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "Havaittiin USB-tulostin."
 
 #: ../thunar-volman/tvm-usb-device.c:98
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "USB-laitetyyppiä ei tueta"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Thunarin taltionhallinta"
+msgstr "Thunarin taltionhallinnan asetukset"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -564,57 +550,3 @@ msgstr "Ko_mento:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Dokumentaatioselainta ei voi avata"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Näytön avaaminen epäonnistui"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Thunarin kehitysryhmä. Kaikki oikeudet pidätetään."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Kirjoittanut Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "Määritetty UDI \"%s\" ei ole kelvollinen HAL:in laite-UDI"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Salattu taltio"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Liitetään salattu taltio...</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Alustetaan salauskerros..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Käyttöoikeutesi eivät riitä salauskerroksen alustamiseen"
-
-#~ msgid "Wrong password"
-#~ msgstr "Väärä salasana"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Väärä salasana.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Taltio on salattu.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Syötä salasanasi purkaaksesi salauksen ja liittääksesi taltion."
-
-#~ msgid "_Mount"
-#~ msgstr "_Liitä"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Salatun taltion määritys epäonnistui"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Valitse levyn tyyppi"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Luo _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Irrotettavat taltiot"
