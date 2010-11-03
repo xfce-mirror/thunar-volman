@@ -85,6 +85,9 @@ main (int    argc,
   GMainLoop     *loop = NULL;
   GError        *error = NULL;
   gint           exit_code = EXIT_SUCCESS;
+#ifdef HAVE_LIBNOTIFY
+  gchar         *spec_version = NULL;;
+#endif
 
   /* setup translation domain */
   xfce_textdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR, "UTF-8");
@@ -109,7 +112,6 @@ main (int    argc,
        * displayed before. These versions also segfault when the 
        * ret_spec_version parameter of notify_get_server_info is 
        * NULL... */
-      gchar *spec_version = NULL;
       notify_get_server_info (NULL, NULL, NULL, &spec_version);
       g_free (spec_version);
     }

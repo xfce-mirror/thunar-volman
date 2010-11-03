@@ -589,16 +589,19 @@ tvm_block_device_mounted (TvmContext *context,
                           GMount     *mount,
                           GError    **error)
 {
+  gboolean     success = FALSE;
+  GError      *err = NULL;
+  guint        n;
+#ifdef HAVE_LIBNOTIFY
   const gchar *summary;
   const gchar *icon;
   const gchar *volume_name;
   gboolean     is_cdrom;
   gboolean     is_dvd;
-  gboolean     success = FALSE;
-  GError      *err = NULL;
-  gchar       *decoded_name;
   gchar       *message;
-  guint        n;
+  gchar       *decoded_name;
+#endif
+
 
   g_return_if_fail (context != NULL);
   g_return_if_fail (G_IS_MOUNT (mount));
