@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.5.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-26 12:03+0200\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2010-10-17 01:03+0300\n"
 "Last-Translator: Jari Rahkonen <jari.rahkonen@pp1.inet.fi>\n"
 "Language-Team: Finnish <None>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -31,29 +31,28 @@ msgid "Print version information and exit"
 msgstr "Tulosta versiotiedot ja poistu"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Thunarin taltionhallinta"
 
-#: ../thunar-volman/main.c:133
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr "Kaikki oikeudet pidätetään."
 
-#: ../thunar-volman/main.c:134
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Ilmoita vioista osoitteeseen <%s>"
 
-#: ../thunar-volman/main.c:188
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Sysfs-polku \"%s\" ei viittaa mihinkään laitteeseen."
 
-#: ../thunar-volman/main.c:200
+#: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
-"Määritä usien laitteiden sysfs-polut valitsimella --device-added"
+msgstr "Määritä usien laitteiden sysfs-polut valitsimella --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -73,7 +72,7 @@ msgstr "Noudetaanko valokuvia vai hallitaanko musiikkia?"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:826 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "_Ohita"
@@ -143,73 +142,72 @@ msgstr "Automaattiavaus voidaan suorittaa"
 msgid "_Open"
 msgstr "_Avaa"
 
-#: ../thunar-volman/tvm-block-device.c:616
+#: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
 msgstr "CD liitetty"
 
-#: ../thunar-volman/tvm-block-device.c:616
+#: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
 msgstr "DVD liitetty"
 
-#: ../thunar-volman/tvm-block-device.c:618
+#: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
 msgstr "CD liitettiin automaattisesti"
 
-#: ../thunar-volman/tvm-block-device.c:619
+#: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
 msgstr "DVD liitettiin automaattisesti"
 
-#: ../thunar-volman/tvm-block-device.c:629
+#: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
 msgstr "Taltio liitetty"
 
-#: ../thunar-volman/tvm-block-device.c:632
+#: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
 msgstr "Taltio \"%s\" liitettiin automaattisesti"
 
-#: ../thunar-volman/tvm-block-device.c:637
+#: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
 msgstr "Asemaan asetettu taltio liitettiin automaattisesti"
 
-#: ../thunar-volman/tvm-block-device.c:691
+#: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
 msgstr "Liitoskohtaa ei löydy"
 
-#: ../thunar-volman/tvm-block-device.c:737
+#: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
 msgstr "Laitteen liittäminen ei onnistu"
 
-#: ../thunar-volman/tvm-block-device.c:746
+#: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
 msgstr "Laitetta vastaavaa taltiota ei havaittu"
 
-#: ../thunar-volman/tvm-block-device.c:821
+#: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
 msgstr "Ääni/Data-CD"
 
-#: ../thunar-volman/tvm-block-device.c:822
+#: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
-msgstr ""
-"Asemassa olevalla CD-levyllä on sekä musiikkia että tiedostoja"
+msgstr "Asemassa olevalla CD-levyllä on sekä musiikkia että tiedostoja"
 
-#: ../thunar-volman/tvm-block-device.c:824
+#: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
 msgstr "Haluatko kuunnella musiikkia vai selata tiedostoja?"
 
-#: ../thunar-volman/tvm-block-device.c:827
+#: ../thunar-volman/tvm-block-device.c:830
 msgid "_Browse Files"
 msgstr "_Selaa tiedostoja"
 
-#: ../thunar-volman/tvm-block-device.c:828
+#: ../thunar-volman/tvm-block-device.c:831
 msgid "_Play CD"
 msgstr "Soita _CD"
 
-#: ../thunar-volman/tvm-block-device.c:916
+#: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
 msgstr "Tuntematon lohkolaite"
@@ -258,7 +256,7 @@ msgstr "Hiiri havaittu"
 msgid "A mouse was detected"
 msgstr "Havaittiin hiiri."
 
-#: ../thunar-volman/tvm-input-device.c:139
+#: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
 msgstr "Syöttölaitetyyppiä ei tueta"
@@ -326,7 +324,7 @@ msgstr "Tulostin havaittu"
 msgid "A USB printer was detected"
 msgstr "Havaittiin USB-tulostin."
 
-#: ../thunar-volman/tvm-usb-device.c:98
+#: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
 msgstr "USB-laitetyyppiä ei tueta"

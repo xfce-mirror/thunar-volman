@@ -14,3 +14,5 @@ thunar-volman-settings/main.c
 thunar-volman-settings/thunar-volman-settings.desktop.in.in
 thunar-volman-settings/tvm-command-entry.c
 thunar-volman-settings/tvm-preferences-dialog.c
+
+thunar-volman-settings.desktop.in.in

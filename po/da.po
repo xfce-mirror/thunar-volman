@@ -2,19 +2,19 @@
 # Copyright (c) 2004-2007 The Thunar development team. All rights reserved.
 # This file is distributed under the same license as the thunar-volman package.
 # Per Kongstad <p_kongstad@op.pl>, 2008.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.3.80\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-26 12:03+0200\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2008-10-14 11:14+0100\n"
 "Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: da\n"
 "X-Poedit-Language: Danish\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Country: DENMARK\n"
@@ -34,25 +34,25 @@ msgid "Print version information and exit"
 msgstr "Udskriv versionsinformation og afslut"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Thunar-arkivhåndtering"
 
-#: ../thunar-volman/main.c:133
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr "Alle rettigheder er beskyttet."
 
-#: ../thunar-volman/main.c:134
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Rapportér venligst fejl til <%s>."
 
-#: ../thunar-volman/main.c:188
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Der findes ikke enhed med sysfs-stien \"%s\""
 
-#: ../thunar-volman/main.c:200
+#: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Du skal angive den nye syfs sti af den nye enhed med --device-added"
@@ -75,7 +75,7 @@ msgstr "Vil du importere billederne eller håndtere din musik?"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:826 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "_Ignorér"
@@ -99,8 +99,12 @@ msgid "A photo card has been detected"
 msgstr "Et billedhukommelseskort er blevet fundet."
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
-msgstr "Der er billeder på hukommelseskortet. Vil du tilføje disse billeder til din samling?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr ""
+"Der er billeder på hukommelseskortet. Vil du tilføje disse billeder til din "
+"samling?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -143,72 +147,72 @@ msgstr "Fundet auto-åbenmulighed"
 msgid "_Open"
 msgstr "_Åbn"
 
-#: ../thunar-volman/tvm-block-device.c:616
+#: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
 msgstr "Cd monteret"
 
-#: ../thunar-volman/tvm-block-device.c:616
+#: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
 msgstr "Dvd monteret"
 
-#: ../thunar-volman/tvm-block-device.c:618
+#: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
 msgstr "Cd'en var monteret automatisk"
 
-#: ../thunar-volman/tvm-block-device.c:619
+#: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
 msgstr "Dvd'en var monteret automatisk"
 
-#: ../thunar-volman/tvm-block-device.c:629
+#: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
 msgstr "Arkiv monteret"
 
-#: ../thunar-volman/tvm-block-device.c:632
+#: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
 msgstr "Arkivet \"%s\" var monteret automatisk"
 
-#: ../thunar-volman/tvm-block-device.c:637
+#: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
 msgstr "Det indsatte arkiv var monteret automatisk"
 
-#: ../thunar-volman/tvm-block-device.c:691
+#: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
 msgstr "Kunne ikke finde monteringspunkt"
 
-#: ../thunar-volman/tvm-block-device.c:737
+#: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
 msgstr "Kunne ikke montere enheden"
 
-#: ../thunar-volman/tvm-block-device.c:746
+#: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
 msgstr "Kunne ikke genkende arkivet passende til enheden"
 
-#: ../thunar-volman/tvm-block-device.c:821
+#: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
 msgstr "Lyd- / data-cd"
 
-#: ../thunar-volman/tvm-block-device.c:822
+#: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
 msgstr "Cd'en i drevet indeholder både musik og filer."
 
-#: ../thunar-volman/tvm-block-device.c:824
+#: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
 msgstr "Vil du lytte til musik eller navigere filerne?"
 
-#: ../thunar-volman/tvm-block-device.c:827
+#: ../thunar-volman/tvm-block-device.c:830
 msgid "_Browse Files"
 msgstr "_Navigér filer"
 
-#: ../thunar-volman/tvm-block-device.c:828
+#: ../thunar-volman/tvm-block-device.c:831
 msgid "_Play CD"
 msgstr "_Afspil cd"
 
-#: ../thunar-volman/tvm-block-device.c:916
+#: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
 msgstr "Ukendt blokenhedstype"
@@ -257,7 +261,7 @@ msgstr "Mus fundet"
 msgid "A mouse was detected"
 msgstr "En mus blev fundet"
 
-#: ../thunar-volman/tvm-input-device.c:139
+#: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
 msgstr "Ikke understøttet inddata-enhedstype"
@@ -325,7 +329,7 @@ msgstr "Printer fundet"
 msgid "A USB printer was detected"
 msgstr "En usb-printer blev fundet"
 
-#: ../thunar-volman/tvm-usb-device.c:98
+#: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
 msgstr "Ikke understøttet usb-enhedstype"
@@ -368,8 +372,9 @@ msgstr "Ruby-skripter"
 msgid "Shell Scripts"
 msgstr "Skalskripter"
 
+#.
 #. Storage
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Lager"
@@ -414,8 +419,9 @@ msgstr "Kommando for _data-cder:"
 msgid "Command for A_udio CDs:"
 msgstr "Kommando for _lyd-cder:"
 
+#.
 #. Multimedia
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedie"
@@ -459,8 +465,9 @@ msgstr "Bærbar musikafspiller"
 msgid "Play _music files when connected"
 msgstr "Afspil _musikfiler ved tilslutning"
 
+#.
 #. Cameras
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kameraer"
@@ -473,8 +480,9 @@ msgstr "Digitale kameraer"
 msgid "Import digital photographs when connected"
 msgstr "Importér digitale billeder ved tilslutning"
 
+#.
 #. PDAs
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDAer"
@@ -495,8 +503,9 @@ msgstr "Lomme-PCere"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Synkronisér lomme-_PC-enheder ved tilslutning"
 
+#.
 #. Printers
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -506,8 +515,9 @@ msgstr "Printere"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Kør automatisk et program ved tilslutning af en _printer"
 
+#.
 #. Input Devices
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Inddata-enheder"
@@ -559,8 +569,10 @@ msgstr "Kunne ikke åbne dokumentationsnavigator"
 #~ msgid "Encrypted volume"
 #~ msgstr "Krypteret arkiv"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Monterer krypteret arkiv...</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Monterer krypteret arkiv...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Indstiller krypteringslag..."
@@ -574,11 +586,14 @@ msgstr "Kunne ikke åbne dokumentationsnavigator"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Forkert adgangskode.</span>"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Dette arkiv er krypteret.</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Dette arkiv er krypteret.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Angiv venligst din adgangskode for at afkryptere og montere arkivet."
+#~ msgstr ""
+#~ "Angiv venligst din adgangskode for at afkryptere og montere arkivet."
 
 #~ msgid "_Mount"
 #~ msgstr "_Montér"
