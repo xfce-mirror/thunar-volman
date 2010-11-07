@@ -1,3 +1,15 @@
+0.5.2
+=====
+- Fix incompatibility with the icon naming specification (bug #6786).
+- Fix compilation without libnotify (bug #6607).
+- Add missing shebang to autogen.sh.
+- Add module.xml for cgit.
+- Remove deprecated enocding key from desktop files.
+- Translation updates: Japanese, Kazakh, Finnish, Russian, Italian,
+  Portuguese, Galician, French, German, Slovak, Ukrainian, Uyghur,
+  Danish, Catalan (Valencian).
+
+
 0.5.1
 =====
 - Fix a weird error with g_udev_device_get_devtype().
