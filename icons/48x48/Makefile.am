@@ -3,8 +3,7 @@
 iconsdir = $(datadir)/icons/hicolor/48x48/apps
 icons_DATA =								\
 	tvm-burn-cd.png							\
-	tvm-dev-pocketpc.png						\
-	tvm-dev-tablet.png
+	tvm-dev-pocketpc.png
 
 EXTRA_DIST =								\
 	$(icons_DATA)

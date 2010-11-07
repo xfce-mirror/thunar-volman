@@ -185,7 +185,7 @@ tvm_run_burn_software (TvmContext *context,
   if (is_dvd)
     {
       /* ask what to do with the empty DVD */
-      response = tvm_prompt (context, "gnome-dev-disc-dvdr",
+      response = tvm_prompt (context, "media-optical",
                              _("Blank DVD inserted"),
                              _("You have inserted a blank DVD."),
                              _("What would you like to do?"),
@@ -196,7 +196,7 @@ tvm_run_burn_software (TvmContext *context,
   else
     {
       /* ask whether to burn data or audio CD */
-      response = tvm_prompt (context, "gnome-dev-disc-cdr",
+      response = tvm_prompt (context, "media-optical",
                              _("Blank CD inserted"),
                              _("You have inserted a blank CD."),
                              _("What would you like to do?"),

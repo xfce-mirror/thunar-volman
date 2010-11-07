@@ -97,7 +97,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
 
   /* configure the dialog properties */
   gtk_dialog_set_has_separator (GTK_DIALOG (dialog), FALSE);
-  gtk_window_set_icon_name (GTK_WINDOW (dialog), "gnome-dev-removable");
+  gtk_window_set_icon_name (GTK_WINDOW (dialog), "drive-removable-media");
   gtk_window_set_resizable (GTK_WINDOW (dialog), FALSE);
   gtk_window_set_title (GTK_WINDOW (dialog), _("Removable Drives and Media"));
   xfce_titled_dialog_set_subtitle (XFCE_TITLED_DIALOG (dialog), 
@@ -150,7 +150,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_container_add (GTK_CONTAINER (frame), table);
   gtk_widget_show (table);
 
-  image = gtk_image_new_from_icon_name ("gnome-dev-removable", GTK_ICON_SIZE_DIALOG);
+  image = gtk_image_new_from_icon_name ("drive-removable-media", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
   gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
   gtk_widget_show (image);
@@ -275,7 +275,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_container_add (GTK_CONTAINER (frame), table);
   gtk_widget_show (table);
 
-  image = gtk_image_new_from_icon_name ("gnome-dev-cdrom-audio", GTK_ICON_SIZE_DIALOG);
+  image = gtk_image_new_from_icon_name ("media-optical", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
   gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
   gtk_widget_show (image);
@@ -313,7 +313,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_container_add (GTK_CONTAINER (frame), table);
   gtk_widget_show (table);
 
-  image = gtk_image_new_from_icon_name ("gnome-dev-cdrom", GTK_ICON_SIZE_DIALOG);
+  image = gtk_image_new_from_icon_name ("drive-optical", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
   gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
   gtk_widget_show (image);
@@ -352,7 +352,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_container_add (GTK_CONTAINER (frame), table);
   gtk_widget_show (table);
 
-  image = gtk_image_new_from_icon_name ("gnome-dev-ipod", GTK_ICON_SIZE_DIALOG);
+  image = gtk_image_new_from_icon_name ("multimedia-player", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
   gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
   gtk_widget_show (image);
@@ -450,7 +450,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_container_add (GTK_CONTAINER (frame), table);
   gtk_widget_show (table);
 
-  image = gtk_image_new_from_icon_name ("palm-pilot", GTK_ICON_SIZE_DIALOG);
+  image = gtk_image_new_from_icon_name ("pda", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
   gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
   gtk_widget_show (image);
@@ -537,7 +537,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_container_add (GTK_CONTAINER (frame), table);
   gtk_widget_show (table);
 
-  image = gtk_image_new_from_icon_name ("gnome-dev-printer", GTK_ICON_SIZE_DIALOG);
+  image = gtk_image_new_from_icon_name ("printer", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
   gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
   gtk_widget_show (image);
@@ -585,7 +585,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_container_add (GTK_CONTAINER (frame), table);
   gtk_widget_show (table);
 
-  image = gtk_image_new_from_icon_name ("gnome-dev-keyboard", GTK_ICON_SIZE_DIALOG);
+  image = gtk_image_new_from_icon_name ("input-keyboard", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
   gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
   gtk_widget_show (image);
@@ -624,7 +624,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_container_add (GTK_CONTAINER (frame), table);
   gtk_widget_show (table);
 
-  image = gtk_image_new_from_icon_name ("gnome-dev-mouse-optical", GTK_ICON_SIZE_DIALOG);
+  image = gtk_image_new_from_icon_name ("input-mouse", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
   gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
   gtk_widget_show (image);
@@ -663,7 +663,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_container_add (GTK_CONTAINER (frame), table);
   gtk_widget_show (table);
 
-  image = gtk_image_new_from_icon_name ("tvm-dev-tablet", GTK_ICON_SIZE_DIALOG);
+  image = gtk_image_new_from_icon_name ("input-tablet", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
   gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
   gtk_widget_show (image);
