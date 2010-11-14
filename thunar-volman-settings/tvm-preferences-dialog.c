@@ -591,7 +591,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("Automatically run a program "
-                                                 "when an USB _keyboard is connected"));
+                                                 "when a USB _keyboard is connected"));
   xfconf_g_property_bind (channel, "/autokeyboard/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
   gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
@@ -630,7 +630,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("Automatically run a program "
-                                                 "when an USB _mouse is connected"));
+                                                 "when a USB _mouse is connected"));
   xfconf_g_property_bind (channel, "/automouse/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
   gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL,
