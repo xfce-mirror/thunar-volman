@@ -34,7 +34,7 @@
 #include <gudev/gudev.h>
 
 #ifdef HAVE_LIBNOTIFY
-#include <libnotify/notify.h>
+#include <thunar-volman/tvm-notify.h>
 #endif
 
 #include <libxfce4util/libxfce4util.h>
@@ -85,9 +85,6 @@ main (int    argc,
   GMainLoop     *loop = NULL;
   GError        *error = NULL;
   gint           exit_code = EXIT_SUCCESS;
-#ifdef HAVE_LIBNOTIFY
-  gchar         *spec_version = NULL;;
-#endif
 
   /* setup translation domain */
   xfce_textdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR, "UTF-8");
@@ -103,19 +100,6 @@ main (int    argc,
   /* initialize the threading system */
   if (!g_thread_supported ())
     g_thread_init (NULL);
-
-#ifdef HAVE_LIBNOTIFY
-  if (notify_init (PACKAGE_NAME))
-    {
-      /* we do this to work around bugs in libnotify < 0.6.0. Older
-       * versions crash in notify_uninit() when no notifications are
-       * displayed before. These versions also segfault when the 
-       * ret_spec_version parameter of notify_get_server_info is 
-       * NULL... */
-      notify_get_server_info (NULL, NULL, NULL, &spec_version);
-      g_free (spec_version);
-    }
-#endif
 
   /* initialize GTK+ */
   if (!gtk_init_with_args (&argc, &argv, NULL, option_entries, GETTEXT_PACKAGE, &error))
@@ -217,8 +201,7 @@ main (int    argc,
     }
 
 #ifdef HAVE_LIBNOTIFY
-  if (notify_is_initted ())
-    notify_uninit ();
+  tvm_notify_uninit ();
 #endif
 
   /* release the device context */

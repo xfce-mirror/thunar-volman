@@ -32,12 +32,38 @@
 
 
 
+static gboolean tvm_notify_initted = FALSE;
+
+
+
 void
 tvm_notify (const gchar *icon,
             const gchar *summary,
             const gchar *message)
 {
   NotifyNotification *notification;
+  gchar              *spec_version = NULL;
+
+  if (G_UNLIKELY (!tvm_notify_initted))
+    {
+      if (notify_init (PACKAGE_NAME))
+        {
+          /* we do this to work around bugs in libnotify < 0.6.0. Older
+           * versions crash in notify_uninit() when no notifications are
+           * displayed before. These versions also segfault when the
+           * ret_spec_version parameter of notify_get_server_info is
+           * NULL... */
+          notify_get_server_info (NULL, NULL, NULL, &spec_version);
+          g_free (spec_version);
+
+          tvm_notify_initted = TRUE;
+        }
+      else
+        {
+          /* initialization failed; don't bother about the notification */
+          return;
+        }
+    }
 
   notification = notify_notification_new (summary, message, icon, NULL);
   notify_notification_set_urgency (notification, NOTIFY_URGENCY_NORMAL);
@@ -80,4 +106,14 @@ tvm_notify_decode (const gchar *str)
   g_string_free (string, FALSE);
 
   return result;
+}
+
+
+
+void
+tvm_notify_uninit (void)
+{
+  if (tvm_notify_initted
+      && notify_is_initted ())
+    notify_uninit ();
 }

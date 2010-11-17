@@ -31,6 +31,8 @@ void   tvm_notify        (const gchar *icon,
 
 gchar *tvm_notify_decode (const gchar *str);
 
+void   tvm_notify_uninit (void);
+
 G_END_DECLS
 
 #endif /* !__TVM_NOTIFY_H__ */
