@@ -2,7 +2,7 @@
 # thunar-volman basque translation
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Piarres Beobide <pi@beobide.net>, 2007, 2008.
 msgid ""
 msgstr ""
@@ -12,17 +12,16 @@ msgstr ""
 "PO-Revision-Date: 2008-11-09 15:38+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
 "Language-Team: Euskara <debian-l10n-basque@lists.debian.org>\n"
-"Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 1.2.0\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "Gehitu berri den gailuaren HAL gailu UDI-a"
+msgstr "Gehitu berri den gailuaren sysfs bidea"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -41,7 +40,7 @@ msgstr "Thunar Bolumen Kudeatzailea"
 
 #: ../thunar-volman/main.c:135
 msgid "All rights reserved."
-msgstr ""
+msgstr "Eskubide guztiak erreserbaturik."
 
 #: ../thunar-volman/main.c:136
 #, c-format
@@ -51,12 +50,12 @@ msgstr "Programa erroreen berri eman hemen : <%s>"
 #: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "Ez dago  \"%s\" sysfs bidea duen gailurik"
 
 #: ../thunar-volman/main.c:202
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "HAL gailu UDI berria --device-added erabiliaz ezarri behar da"
+msgstr "Gailu berrien sysfs-a --device-added erabiliaz ezarri behar da"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -64,9 +63,8 @@ msgid "Photos and Music"
 msgstr "Argazki eta musika"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "Argazkiak aurkitu dira zure musika erreproduktore eramanagarrian."
+msgstr "Argazkiak aurkitu dira zure musika erreproduzigailu eramangarrian."
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -97,16 +95,12 @@ msgid "Photo Import"
 msgstr "Argazkia inportatu"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
 msgstr "Argazki txartel bat atzeman da"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
-msgstr ""
-"Argazkiak daude txartelean. Argazki horiek zure albumean gehitu nahi dituzu?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "Argazkiak daude txartelean. Argazki horiek zure albumean gehitu nahi dituzu?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -151,56 +145,54 @@ msgstr "_Ireki"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
-msgstr ""
+msgstr "CDa muntaturik"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
-msgstr ""
+msgstr "DVDa muntaturik"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "CDa automatikoki muntatu zen"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "DVDa automatikoki muntatu zen"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr ""
+msgstr "Bolumena muntaturik"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "\"%s\" bolumena automatikoki muntatu zen"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "Sartutako bolumena automatikoki muntatu zen"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "Ezin da muntatze puntua kokatu"
 
 #: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "Ezin da gailua muntatu"
 
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Ezin da gailuari dagokion bolumena atzeman"
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
-msgstr "Audio / Datu CD-a"
+msgstr "Audio/Datu CD-a"
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
 msgstr "Gailuan dagoen CD-ak musika eta fitxategiak ditu"
 
@@ -219,38 +211,34 @@ msgstr "CD-a Erre_produzitu"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Bloke gailu mota ezezaguna"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "Gailu mota ez da onartzen"
 
 #: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
 msgid "input-keyboard"
-msgstr "Teklatuak"
+msgstr "sarrera-teklatua"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Teklatuak"
+msgstr "Teklatua atzeman da"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Argazki txartel bat atzeman da"
+msgstr "Teklatu bat atzeman da"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
 msgid "input-tablet"
-msgstr ""
+msgstr "sarrera-tableta"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Auto-abiarazte gaitasuna atzeman da"
+msgstr "Tableta bat atzeman da"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
@@ -387,9 +375,8 @@ msgstr "Ruby Script-ak"
 msgid "Shell Scripts"
 msgstr "Shell Script-ak"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Biltegiratzea"
@@ -434,9 +421,8 @@ msgstr "_Datu CD-entzat komandoa:"
 msgid "Command for A_udio CDs:"
 msgstr "A_udio CD-entzat komandoa:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -480,9 +466,8 @@ msgstr "Musika erreproduktore eramangarriak"
 msgid "Play _music files when connected"
 msgstr "_Musika erreproduzitu sartzerakoan"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kamerak"
@@ -495,9 +480,8 @@ msgstr "Kamera Digitalak"
 msgid "Import digital photographs when connected"
 msgstr "Inportatu argazki digitalak konektatzerakoan"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA-k"
@@ -518,9 +502,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Pocket P_C gailuak sinkronizatu konektatzerakoan"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -530,9 +513,8 @@ msgstr "Inrpimagailuak"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Automatikoki programa bat abiarazi in_primagailua konektatzerakoan"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Sarrera gailuak"
@@ -584,11 +566,8 @@ msgstr "Huts dokumentazio nabigatzailea irekitzean"
 #~ msgid "Encrypted volume"
 #~ msgstr "Enkriptaturiko bolumena"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Enkriptaturiko bolumena muntatzen..."
-#~ "</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Enkriptaturiko bolumena muntatzen...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Kriptografia geruza konfiguratzen..."
@@ -602,11 +581,8 @@ msgstr "Huts dokumentazio nabigatzailea irekitzean"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Okerreko pasahitza.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Bolumen hau enkriptaturik dago.</"
-#~ "span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Bolumen hau enkriptaturik dago.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Mesedez idatzi pasahitza bolumenda desenkriptatu eta muntatzeko."
