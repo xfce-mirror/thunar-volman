@@ -2,27 +2,26 @@
 # Copyright 2009. Free Software Foundation, Inc.
 # This file is distributed under the same license as the thunar-volman package.
 #
-# Gabor Kelemen <kelemeng at gnome dot hu>, 2009.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2009, 2010.
 # SZERVÁC Attila <sas@321.hu>
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
-"PO-Revision-Date: 2009-07-23 02:42+0200\n"
+"POT-Creation-Date: 2010-07-26 12:03+0200\n"
+"PO-Revision-Date: 2010-11-28 13:31+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
-"Language-Team: Hungarian <gnome at gnome dot hu>\n"
-"Language: \n"
+"Language-Team: Hungarian <gnome at fsf dot hu>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: \n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "Az újonnan felvett eszköz HAL eszköz UDI-ja"
+msgstr "Az újonnan felvett eszköz sysfs-útvonala"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -35,28 +34,28 @@ msgid "Print version information and exit"
 msgstr "Verzióinformációk kiírása és kilépés"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Thunar kötetkezelő"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:133
 msgid "All rights reserved."
-msgstr ""
+msgstr "Minden jog fenntartva."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:134
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "A hibákat ide jelentse: <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "Nincs „%s” sysfs-útvonalú eszköz"
 
-#: ../thunar-volman/main.c:202
-#, fuzzy, c-format
+#: ../thunar-volman/main.c:200
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Az új HAL eszköz UDI-t a --device-added használatával kell megadni"
+msgstr "Az új eszközök sysfs-útvonalát a --device-added használatával kell megadni"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -64,9 +63,8 @@ msgid "Photos and Music"
 msgstr "Fényképek és zene"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "Fényképek találhatók a hordozható zenelejátszón."
+msgstr "Fényképek találhatók a hordozható zenelejátszón"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -77,7 +75,7 @@ msgstr "A fényképeket szeretné importálni, vagy inkább a zenét kezelné?"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:826 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "K_ihagyás"
@@ -97,9 +95,8 @@ msgid "Photo Import"
 msgstr "Fényképek importálása"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "A rendszer egy fényképkártyát észlelt."
+msgstr "A rendszer fényképkártyát észlelt"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
@@ -150,144 +147,137 @@ msgstr "Az automatikus megnyitás lehetősége észlelve"
 msgid "_Open"
 msgstr "_Megnyitás"
 
-#: ../thunar-volman/tvm-block-device.c:619
+#: ../thunar-volman/tvm-block-device.c:616
 msgid "CD mounted"
-msgstr ""
+msgstr "CD csatolva"
+
+#: ../thunar-volman/tvm-block-device.c:616
+msgid "DVD mounted"
+msgstr "DVD csatolva"
+
+#: ../thunar-volman/tvm-block-device.c:618
+msgid "The CD was mounted automatically"
+msgstr "A CD automatikusan csatolva"
 
 #: ../thunar-volman/tvm-block-device.c:619
-msgid "DVD mounted"
-msgstr ""
-
-#: ../thunar-volman/tvm-block-device.c:621
-msgid "The CD was mounted automatically"
-msgstr ""
-
-#: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "A DVD automatikusan csatolva"
+
+#: ../thunar-volman/tvm-block-device.c:629
+msgid "Volume mounted"
+msgstr "Kötet csatolva"
 
 #: ../thunar-volman/tvm-block-device.c:632
-msgid "Volume mounted"
-msgstr ""
-
-#: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "A(z) „%s” kötet automatikusan csatolva"
 
-#: ../thunar-volman/tvm-block-device.c:640
+#: ../thunar-volman/tvm-block-device.c:637
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "A behelyezett kötet automatikusan csatolva"
 
-#: ../thunar-volman/tvm-block-device.c:694
+#: ../thunar-volman/tvm-block-device.c:691
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "A csatolási pont nem található"
 
-#: ../thunar-volman/tvm-block-device.c:740
+#: ../thunar-volman/tvm-block-device.c:737
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "Az eszköz nem csatolható"
 
-#: ../thunar-volman/tvm-block-device.c:749
+#: ../thunar-volman/tvm-block-device.c:746
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Az eszköznek megfelelő kötet nem észlelhető"
 
-#: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
+#: ../thunar-volman/tvm-block-device.c:821
 msgid "Audio/Data CD"
 msgstr "Hang/adat CD"
 
-#: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
+#: ../thunar-volman/tvm-block-device.c:822
 msgid "The CD in the drive contains both music and files"
-msgstr "A meghajtóban lévő CD zenét és fájlokat is tartalmaz."
+msgstr "A meghajtóban lévő CD zenét és fájlokat is tartalmaz"
 
-#: ../thunar-volman/tvm-block-device.c:827
+#: ../thunar-volman/tvm-block-device.c:824
 msgid "Would you like to listen to music or browse the files?"
 msgstr "Meg szeretné hallgatni a zenét, vagy a fájlokat böngészné?"
 
-#: ../thunar-volman/tvm-block-device.c:830
+#: ../thunar-volman/tvm-block-device.c:827
 msgid "_Browse Files"
 msgstr "Fájlok _tallózása"
 
-#: ../thunar-volman/tvm-block-device.c:831
+#: ../thunar-volman/tvm-block-device.c:828
 msgid "_Play CD"
 msgstr "_CD lejátszása"
 
-#: ../thunar-volman/tvm-block-device.c:919
+#: ../thunar-volman/tvm-block-device.c:916
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Ismeretlen blokkeszköztípus"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "Az eszköztípus nem támogatott"
 
 #: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
 msgid "input-keyboard"
-msgstr "Billentyűzetek"
+msgstr "bemenet-billentyűzet"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Billentyűzetek"
+msgstr "Billentyűzet észlelve"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "A rendszer egy fényképkártyát észlelt."
+msgstr "A rendszer billentyűzetet észlelt"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
 msgid "input-tablet"
-msgstr ""
+msgstr "bemenet-táblagép"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Az automatikus futtatás lehetősége észlelve"
+msgstr "Grafikus tábla észlelve"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "A rendszer grafikus táblát észlelt"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr ""
+msgstr "bemenet-egér"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Egér észlelve"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "A rendszer egeret észlelt"
 
-#: ../thunar-volman/tvm-input-device.c:141
+#: ../thunar-volman/tvm-input-device.c:139
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Nem támogatott bemenetieszköz-típus"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "Üres CD-k és DVD-k automatikus írása kikapcsolva"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Üres DVD behelyezve"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "A meghajtóban egy üres lemez van."
+msgstr "Üres DVD-t helyezett be."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -295,65 +285,59 @@ msgstr "Mit szeretne tenni?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "_DVD írása"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Üres CD-k és DVD-k"
+msgstr "Üres CD behelyezve"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "A meghajtóban egy üres lemez van."
+msgstr "Üres CD-t helyezett be."
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "_Adat CD készítése"
+msgstr "_Adat CD írása"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "_Hang-CD készítése"
+msgstr "_Hang-CD írása"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Az írási parancs nem lehet üres"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "A CD-lejátszó parancs nincs megadva"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Fényképezőgép észlelve"
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "A rendszer egy fényképkártyát észlelt."
+msgstr "A rendszer fényképezőgépet észlelt"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Nyomtató észlelve"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "A rendszer USB-nyomtatót észlelt"
 
-#: ../thunar-volman/tvm-usb-device.c:100
+#: ../thunar-volman/tvm-usb-device.c:98
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Nem támogatott USB-eszköztípus"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Thunar kötetkezelő"
+msgstr "Thunar kötetkezelő beállításai"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -570,57 +554,3 @@ msgstr "Para_ncs:"
 msgid "Failed to open the documentation browser"
 msgstr "A dokumentációböngésző megnyitása meghiúsult"
 
-#~ msgid "Failed to open display"
-#~ msgstr "A képernyő megnyitása meghiúsult"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "A Thunar fejlesztői csapata. Minden jog fenntartva."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Írta: Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "A megadott UDI („%s”) nem érvényes HAL eszköz UDI"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Titkosított kötet"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Titkosított kötet csatolása…</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "A titkosítási réteg beállítása…"
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Nincs jogosultsága a titkosítási réteg beállítására"
-
-#~ msgid "Wrong password"
-#~ msgstr "Hibás jelszó"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Hibás jelszó.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Ez a kötet titkosítva van.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Adja meg jelszavát a kötet visszafejtéséhez és csatolásához."
-
-#~ msgid "_Mount"
-#~ msgstr "_Csatolás"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "A titkosított kötet beállítása meghiúsult"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Válasszon lemeztípust"
-
-#~ msgid "Make _DVD"
-#~ msgstr "_DVD készítése"
-
-#~ msgid "Removable Media"
-#~ msgstr "Cserélhető adathordozók"
