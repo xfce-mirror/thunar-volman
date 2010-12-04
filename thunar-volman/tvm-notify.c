@@ -65,7 +65,11 @@ tvm_notify (const gchar *icon,
         }
     }
 
+#if NOTIFY_CHECK_VERSION (0, 7, 0)
+  notification = notify_notification_new (summary, message, icon);
+#else
   notification = notify_notification_new (summary, message, icon, NULL);
+#endif
   notify_notification_set_urgency (notification, NOTIFY_URGENCY_NORMAL);
   notify_notification_set_timeout (notification, NOTIFY_EXPIRES_DEFAULT);
   notify_notification_show (notification, NULL);
