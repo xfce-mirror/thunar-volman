@@ -1,3 +1,12 @@
+0.5.3
+=====
+- Drop LINGUAS (bug #6788).
+- Fix spelling error (use "a USB" instead of "an USB") (bug #6725).
+- Delay notification initialization until we show one.
+- Add checks for API change in libnotify 0.7.0.
+- New translations: Basque and Hungarian.
+
+
 0.5.2
 =====
 - Fix incompatibility with the icon naming specification (bug #6786).
