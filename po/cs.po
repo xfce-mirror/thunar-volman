@@ -1,26 +1,25 @@
 # Czech translations for xfce package.
 # Copyright (C) 2007 THE xfce'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the xfce package.
-# Michal Várady <miko.vaji@gmail.com>, 2007-2009.
+# Michal Várady <miko.vaji@gmail.com>, 2007-2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: xfce 4-i18-goodies\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-07 14:39+0100\n"
-"PO-Revision-Date: 2009-11-05 18:21+0100\n"
+"PO-Revision-Date: 2010-12-07 02:48+0100\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "Identifikační číslo (UDI) nově přidaného zařízení HAL"
+msgstr "Cesta sysfs nově přidaného zařízení"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -39,7 +38,7 @@ msgstr "Správce svazků aplikace Thunar"
 
 #: ../thunar-volman/main.c:135
 msgid "All rights reserved."
-msgstr ""
+msgstr "Všechna práva vyhrazena."
 
 #: ../thunar-volman/main.c:136
 #, c-format
@@ -49,14 +48,12 @@ msgstr "Prosíme, abyste chyby hlásili na adresu <%s>."
 #: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "Neexistuje zažízení s cestou sysfs \"%s\""
 
 #: ../thunar-volman/main.c:202
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
-"Je nutné zadat nový identifikátor (UDI) zařízení vrstvy HAL pomocí přepínače "
-"--device-added"
+msgstr "Je nutné zadat novou cestu sysfs nového zařízení pomocí přepínače --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -64,9 +61,8 @@ msgid "Photos and Music"
 msgstr "Fotografie a hudba"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "Na přenosném hudebním přehrávači byly nalezeny fotografie."
+msgstr "Na přenosném hudebním přehrávači byly nalezeny fotografie"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -77,7 +73,8 @@ msgstr "Chcete importovat fotografie nebo spravovat hudbu?"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829
+#: ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "Ig_norovat"
@@ -97,14 +94,11 @@ msgid "Photo Import"
 msgstr "Import fotografií"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
 msgstr "Byla nalezena karta s fotografiemi"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
 msgstr "Na kartě jsou fotografie. Chcete je přidat do svého alba?"
 
 #. prompt the user to execute the file
@@ -150,58 +144,56 @@ msgstr "_Otevřít"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
-msgstr ""
+msgstr "Disk CD připojen"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
-msgstr ""
+msgstr "Disk DVD připojen"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "Disk CD byl automaticky připojen"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "Disk DVD byl automaticky připojen"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr ""
+msgstr "Svazek připojen"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "Svazek \"%s\" byl automaticky připojen"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "Vložený svazek byl automaticky připojen"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "Nelze zjistit umístění bodu pro připojení"
 
 #: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "Nelze připojit zařízení"
 
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Nelze najít svazek odpovídající tomuto zařízení"
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
-msgstr "Hudební nebo datové CD"
+msgstr "Zvukový nebo datový disk CD"
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
-msgstr "CD v jednotce obsahuje hudbu i soubory."
+msgstr "Disk CD v jednotce obsahuje hudbu i soubory"
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
@@ -213,145 +205,135 @@ msgstr "_Procházet soubory"
 
 #: ../thunar-volman/tvm-block-device.c:831
 msgid "_Play CD"
-msgstr "Přehrát _CD"
+msgstr "Přehrát disk _CD"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Naznámý typ blokového zařízení"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "Typ zařízení není podporován"
 
 #: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
 msgid "input-keyboard"
-msgstr "Klávesnice"
+msgstr "vstup-klávesnice"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Klávesnice"
+msgstr "Byla nalezena klávesnice"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Byla nalezena karta s fotografiemi"
+msgstr "Byla nalezena klávesnice"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
 msgid "input-tablet"
-msgstr ""
+msgstr "Vstup-tablet"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Nalezena podpora pro automatické spuštění"
+msgstr "Byl nalezen tablet"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "Byl nalezen grafický tablet"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr ""
+msgstr "vstup-myš"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Byla nalezena myš"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "Byla nalezena myš"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Nepodporované typ vstupního zařízení"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "Automatické vypalování prázdných disků CD a DVD je zakázáno"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Vložen prázdný disk DVD"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Vložili jste prázdný disk."
+msgstr "Vložili jste prázdný disk DVD."
 
-#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
+#: ../thunar-volman/tvm-run.c:191
+#: ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
 msgstr "Vyberte si z následujících možností"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Vypálit disk _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Prázdná CD a DVD"
+msgstr "Vložen prázdný disk CD."
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Vložili jste prázdný disk."
+msgstr "Vložili jste prázdný disk CD."
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Vytvořit datové _CD"
+msgstr "Vypálit _datový disk CD"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Vytvořit _hudební CD"
+msgstr "Vypálit _zvukový disk CD"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Příkaz pro vypalování nemůže být prázdný"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "Příkaz přehrávače disků CD není definován"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Nalezen fotoaparát"
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "Byla nalezena karta s fotografiemi"
+msgstr "Byl nalezen fotoaparát"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Nalezena tirkárna"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "Byla nalezena tiskárna USB"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Nepodporovaný typ zařízení USB"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Správce svazků aplikace Thunar"
+msgstr "Nastavení Správce svazků aplikace Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -431,7 +413,7 @@ msgstr "Příkaz pro _datová CD:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "Příkaz pro _hudební CD:"
+msgstr "Příkaz pro _zvukové disky CD:"
 
 #.
 #. Multimedia
@@ -442,11 +424,11 @@ msgstr "Multimédia"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:266
 msgid "Audio CDs"
-msgstr "Hudební CD"
+msgstr "Zvukové disky CD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr "Přehrát _hudební CD po vložení"
+msgstr "Přehrát _zvukový disk CD po vložení"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -570,58 +552,43 @@ msgstr "Nepodařilo se otevřít prohlížeč dokumentace"
 
 #~ msgid "Failed to open display"
 #~ msgstr "Nepodařilo se otevřít displej"
-
 #~ msgid "The Thunar development team. All rights reserved."
 #~ msgstr "Vývojový tým aplikace Thunar. Všechna práva vyhrazena."
-
 #~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
 #~ msgstr "Napsal Benedikt Meurer <benny@xfce.org>."
-
 #~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
 #~ msgstr ""
 #~ "Zadaný identifikátor zařízení (UDI) \"%s\" není platným identifikátorem "
 #~ "zařízení vrstvy HAL"
-
 #~ msgid "Encrypted volume"
 #~ msgstr "Šifrovaný svazek"
-
 #~ msgid ""
 #~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
 #~ msgstr ""
 #~ "<span weight=\"bold\" size=\"larger\">Připojování šifrovaného svazku...</"
 #~ "span>"
-
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Nastavování šifrovací vrstvy..."
-
 #~ msgid "You are not privileged to setup the crypto layer"
 #~ msgstr "Nemáte oprávnění nastavovat šifrovací vrstvu"
-
 #~ msgid "Wrong password"
 #~ msgstr "Špatné heslo"
-
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Špatné heslo.</span>"
-
 #~ msgid ""
 #~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 #~ msgstr ""
 #~ "<span weight=\"bold\" size=\"larger\">Tento svazek je šifrovaný.</span>"
-
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Pro odšifrování a připojení svazku zadejte heslo."
-
 #~ msgid "_Mount"
 #~ msgstr "_Připojit"
-
 #~ msgid "Failed to setup the encrypted volume"
 #~ msgstr "Nepodařilo se nastavit šifrovaný svazek"
-
 #~ msgid "Choose Disc Type"
 #~ msgstr "Zvolte typ disku"
-
 #~ msgid "Make _DVD"
 #~ msgstr "Vytvořit _DVD"
-
 #~ msgid "Removable Media"
 #~ msgstr "Vyměnitelná média"
+
