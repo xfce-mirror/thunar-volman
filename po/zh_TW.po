@@ -8,40 +8,39 @@ msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-07 14:39+0100\n"
-"PO-Revision-Date: 2007-01-17 01:47+0800\n"
-"Last-Translator: Cheng-Wei Chien <e.cwchien@gmail.com>\n"
+"PO-Revision-Date: 2010-12-07 23:43+0800\n"
+"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Cheng-Wei Chien <e.cwchien@gmail.com>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-Country: TAIWAN\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "新裝置的 HAL 裝置 UDI"
+msgstr "新加入裝置的 sysfs 路徑"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
-msgstr "可移除裝置與媒體的設定管理員"
+msgstr "管理可移除裝置與媒體的設定值"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr "列出版本資訊後結束"
+msgstr "列出版本資訊後離開"
 
 #. setup application name
 #: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
-msgstr "Thunar 的儲存裝置管理員"
+msgstr "Thunar 儲存裝置管理員"
 
 #: ../thunar-volman/main.c:135
 msgid "All rights reserved."
-msgstr ""
+msgstr "保留所有權利。"
 
 #: ../thunar-volman/main.c:136
 #, c-format
@@ -51,12 +50,12 @@ msgstr "請回報錯誤至 <%s>。"
 #: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "沒有 sysfs 路徑為「%s」的裝置"
 
 #: ../thunar-volman/main.c:202
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "必須使用 --device-added 來指定新的 HAL 裝置 UDI"
+msgstr "必須以 --device-added 來指定新裝置的 sysfs 路徑"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -64,48 +63,45 @@ msgid "Photos and Music"
 msgstr "相片與音樂"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "在您的可攜式音樂播放器裡找到相片。"
+msgstr "在您的可攜式音樂播放器裡找到相片"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
-msgstr "您要匯入相片或整理音樂嗎？"
+msgstr "您要匯入相片或管理音樂嗎？"
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829
+#: ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
-msgstr "忽略 (_n)"
+msgstr "忽略(_N)"
 
 #: ../thunar-volman/tvm-block-device.c:209
 #: ../thunar-volman/tvm-block-device.c:278
 msgid "Import _Photos"
-msgstr "匯入相片 (_P)"
+msgstr "匯入相片(_P)"
 
 #: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
-msgstr "整理音樂 (_M)"
+msgstr "管理音樂(_M)"
 
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
 msgid "Photo Import"
-msgstr "相片匯入至"
+msgstr "相片匯入"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "已偵測到相片記憶卡。"
+msgstr "已偵測到一張相片記憶卡"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
-msgstr "在記憶卡中找到相片。您要將這些相片加入相簿嗎？"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "在記憶卡中找到相片。您要將這些相片加入您的相簿嗎？"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -113,7 +109,7 @@ msgstr "在記憶卡中找到相片。您要將這些相片加入相簿嗎？"
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "您要讓 \"%s\" 執行嗎？"
+msgstr "您允許「%s」執行嗎？"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -123,18 +119,18 @@ msgstr "自動執行確認"
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run capability detected"
-msgstr "偵測到自動執行功能"
+msgstr "已偵測到自動執行功能"
 
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
-msgstr "允許自動執行 (_A)"
+msgstr "允許自動執行(_A)"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:502
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr "您要開啟 \"%s\" 嗎？"
+msgstr "您要開啟「%s」嗎？"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
@@ -142,216 +138,204 @@ msgstr "自動開啟確認"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
-msgstr "偵測到自動開啟功能"
+msgstr "已偵測到自動開啟功能"
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
-msgstr "開啟 (_O)"
+msgstr "開啟(_O)"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
-msgstr ""
+msgstr "CD 已掛載"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
-msgstr ""
+msgstr "DVD 已掛載"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "CD 已自動掛載"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "DVD 已自動掛載"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr ""
+msgstr "儲存裝置已掛載"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "「%s」儲存裝置已自動掛載"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "插入的儲存裝置已自動掛載"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "無法定位掛載點"
 
 #: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "無法掛載裝置"
 
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "無法偵測到儲存裝置所對應到的裝置"
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
-msgstr "音訊 / 資料 CD"
+msgstr "音訊/資料 CD"
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
-msgstr "裝置裡的 CD 含有音樂和資料檔。"
+msgstr "裝置裡的 CD 含有音樂與資料檔案"
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
-msgstr "您要聽音樂或瀏覽檔案嗎？"
+msgstr "您想要聆聽音樂或瀏覽檔案？"
 
 #: ../thunar-volman/tvm-block-device.c:830
 msgid "_Browse Files"
-msgstr "瀏覽檔案 (_B)"
+msgstr "瀏覽檔案(_B)"
 
 #: ../thunar-volman/tvm-block-device.c:831
 msgid "_Play CD"
-msgstr "播放 CD (_P)"
+msgstr "播放 CD(_P)"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "未知的區塊裝置類型"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "未支援的裝置類型"
 
 #: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
 msgid "input-keyboard"
-msgstr "鍵盤"
+msgstr "鍵盤輸入"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "鍵盤"
+msgstr "偵測到鍵盤"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "已偵測到相片記憶卡。"
+msgstr "已偵測到一組鍵盤"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
 msgid "input-tablet"
-msgstr ""
+msgstr "平板輸入"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "偵測到自動執行功能"
+msgstr "偵測到平板"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "已偵測到一塊數位繪圖版"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr ""
+msgstr "滑鼠輸入"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "偵測到滑鼠"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "已偵測到一隻滑鼠"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "未支援的輸入裝置類型"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "已停用自動燒錄空白 CD 與 DVD 的功能"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "已置入 DVD"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "您已置入一片空白光碟。"
+msgstr "您已置入一片空白 DVD。"
 
-#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
+#: ../thunar-volman/tvm-run.c:191
+#: ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
 msgstr "接下來您要做什麼？"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "燒錄 DVD(_D)"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "抹除 CD 與 DVD"
+msgstr "已置入 CD"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "您已置入一片空白光碟。"
+msgstr "您已置入一片空白 CD。"
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "製作資料 CD (_D)"
+msgstr "燒錄資料 CD(_D)"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "製作音訊 CD (_A)"
+msgstr "燒錄音訊 CD(_A)"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "燒錄指令不可以留白"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "CD 播放程式指令未定義"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "偵測到相機"
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "已偵測到相片記憶卡。"
+msgstr "已偵測到一臺相機"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "偵測到印表機"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "已偵測到一臺 USB 印表機"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "未支援的 USB 裝置類型"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Thunar 的儲存裝置管理員"
+msgstr "Thunar 儲存裝置管理員設定值"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -360,7 +344,7 @@ msgstr "可移除裝置與媒體"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
-msgstr "請選擇一個應用程式"
+msgstr "請選取應用程式"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:250
 msgid "All Files"
@@ -372,19 +356,19 @@ msgstr "可執行檔"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:270
 msgid "Perl Scripts"
-msgstr "Perl 腳本"
+msgstr "Perl 指令稿"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:276
 msgid "Python Scripts"
-msgstr "Python 腳本"
+msgstr "Python 指令稿"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:282
 msgid "Ruby Scripts"
-msgstr "Ruby 腳本"
+msgstr "Ruby 指令稿"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:288
 msgid "Shell Scripts"
-msgstr "Shell 腳本"
+msgstr "Shell 指令稿"
 
 #.
 #. Storage
@@ -395,23 +379,23 @@ msgstr "儲存裝置"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:141
 msgid "Removable Storage"
-msgstr "可移除儲存裝置"
+msgstr "可移除式儲存裝置"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "熱插拔時掛載可移除裝置 (_M)"
+msgstr "熱插拔時掛載可移除式裝置(_M)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
-msgstr "置入時掛載可移除裝置 (_i)"
+msgstr "插入可移除式媒體時進行掛載(_I)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "B_rowse removable media when inserted"
-msgstr "置入時瀏覽可移除媒體 (_r)"
+msgstr "插入可移除式媒體時進行瀏覽(_R)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr "自動執行新裝置與媒體上的程式 (_A)"
+msgstr "自動執行新裝置與媒體上的程式(_A)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
@@ -419,19 +403,19 @@ msgstr "自動開啟新裝置與媒體上的檔案"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
-msgstr "抹除 CD 與 DVD"
+msgstr "空白 CD 與 DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "置入空白光碟時燒錄 CD 或 DVD (_B)"
+msgstr "置入空白光碟時燒錄 CD 或 DVD(_B)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr "資料 CD 所用指令 (_D)："
+msgstr "資料 CD 所用指令(_D)："
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "音訊 CD 所用指令 (_u)："
+msgstr "音訊 CD 所用指令(_U)："
 
 #.
 #. Multimedia
@@ -446,7 +430,7 @@ msgstr "音訊 CD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr "置入時播放音訊 CD (_a)"
+msgstr "置入音訊 CD 時播放(_A)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -454,22 +438,22 @@ msgstr "置入時播放音訊 CD (_a)"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:553
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:601
 msgid "_Command:"
-msgstr "指令 (_C)："
+msgstr "指令(_C)："
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr "視訊 CD / DVD"
+msgstr "視訊 CD/DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "置入時播放視訊 CD 與 DVD (_v)"
+msgstr "置入視訊 CD 與 DVD 時播放(_V)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:505
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:640
 msgid "C_ommand:"
-msgstr "指令 (_o)："
+msgstr "指令(_O)："
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:343
 msgid "Portable Music Players"
@@ -477,7 +461,7 @@ msgstr "可攜式音樂播放器"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
-msgstr "連線時播放音樂檔 (_m)"
+msgstr "連接時播放音樂檔(_M)"
 
 #.
 #. Cameras
@@ -492,7 +476,7 @@ msgstr "數位相機"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr "連線時匯入數位影像"
+msgstr "連接時匯入數位相片"
 
 #.
 #. PDAs
@@ -507,7 +491,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
-msgstr "連線時同步化 Palm™裝置 (_P)"
+msgstr "連接時同步 Palm™ 裝置(_P)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
@@ -515,7 +499,7 @@ msgstr "Pocket PC"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr "連線時同步化 Pocket PC 裝置 (_C)"
+msgstr "連接時同步 Pocket PC 裝置(_C)"
 
 #.
 #. Printers
@@ -527,7 +511,7 @@ msgstr "印表機"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
-msgstr "印表機連線時自動執行程式 (_p)"
+msgstr "連接印表機時自動執行程式(_P)"
 
 #.
 #. Input Devices
@@ -542,7 +526,7 @@ msgstr "鍵盤"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when an USB _keyboard is connected"
-msgstr "USB 鍵盤連線時自動執行程式 (_k)"
+msgstr "連接 USB 鍵盤時自動執行程式(_K)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
@@ -550,19 +534,19 @@ msgstr "滑鼠"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when an USB _mouse is connected"
-msgstr "USB 滑鼠連線時自動執行程式 (_m)"
+msgstr "連接 USB 滑鼠時自動執行程式(_M)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
-msgstr "數位書寫板"
+msgstr "平板"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "數位書寫板連線時自動執行程式 (_t)"
+msgstr "連接平板時自動執行程式(_T)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
-msgstr "指令 (_m)："
+msgstr "指令(_M)："
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
@@ -570,22 +554,18 @@ msgstr "無法開啟文件瀏覽器"
 
 #~ msgid "Failed to open display"
 #~ msgstr "無法開啟顯示"
-
 #~ msgid "The Thunar development team. All rights reserved."
 #~ msgstr "Thunar 開發團隊。保留一切權利。"
-
 #~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
 #~ msgstr "由 Benedikt Meurer 開發 <benny@xfce.org>。"
-
 #~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
 #~ msgstr "指定的 UDI \"%s\" 並非有效的 HAL 裝置 UDI"
-
 #~ msgid "Choose Disc Type"
 #~ msgstr "請選擇光碟類型"
-
 #~ msgid "Make _DVD"
 #~ msgstr "製作 DVD (_D)"
 
 #, fuzzy
 #~ msgid "Removable Media"
 #~ msgstr "可移除裝置與媒體"
+
