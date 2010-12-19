@@ -2,7 +2,7 @@
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the thunar-volman package.
 # Daniel Nylander <po@danielnylander.se>, 2008.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
@@ -11,10 +11,10 @@ msgstr ""
 "PO-Revision-Date: 2009-12-16 18:21+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
-"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
 
 #: ../thunar-volman/main.c:59
 #, fuzzy
@@ -94,17 +94,12 @@ msgid "Photo Import"
 msgstr "Fotoimport"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "Ett fotokort har upptäckts."
+msgstr "Ett fotokort har upptäckts"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
-msgstr ""
-"Det finns foton på kortet. Vill du lägga till dessa foton till ditt "
-"fotoalbum?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "Det finns foton på kortet. Vill du lägga till dessa foton till ditt fotoalbum?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -149,11 +144,11 @@ msgstr "_Öppna"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
-msgstr ""
+msgstr "CD monterad"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
-msgstr ""
+msgstr "DVD monterad"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
@@ -165,7 +160,7 @@ msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr ""
+msgstr "Volym monterad"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
@@ -180,12 +175,12 @@ msgstr ""
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "Kunde inte hitta monteringspunkten"
 
 #: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "Kunde inte montera enheten"
 
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
@@ -193,7 +188,6 @@ msgid "Could not detect the volume corresponding to the device"
 msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
 msgstr "Ljud-/data-cd"
 
@@ -222,7 +216,7 @@ msgstr ""
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "Enhetstypen stöds inte"
 
 #: ../thunar-volman/tvm-input-device.c:74
 #, fuzzy
@@ -230,14 +224,12 @@ msgid "input-keyboard"
 msgstr "Tangentbord"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Tangentbord"
+msgstr "Tangentbord upptäcktes"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Ett fotokort har upptäckts."
+msgstr "Ett tangentbord upptäcktes"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
@@ -246,14 +238,13 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Förmåga för automatisk körning hittades"
+msgstr "Ritbräda upptäcktes"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "En ritbräda upptäcktes"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
@@ -261,11 +252,11 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Mus upptäcktes"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "En mus upptäcktes"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
@@ -279,12 +270,11 @@ msgstr ""
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Tom DVD-skiva inmatad"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Du har matat in en tom skiva."
+msgstr "Du har matat in en tom DVD-skiva."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -292,41 +282,37 @@ msgstr "Vad vill du göra?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Bränn _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Tomma cd- och dvd-skivor"
+msgstr "Tom CD-skiva inmatad"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Du har matat in en tom skiva."
+msgstr "Du har matat in en tom CD-skiva."
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Skapa _data-cd"
+msgstr "Bränn _data-cd"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Skapa _ljud-cd"
+msgstr "Bränn _ljud-cd"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Bränningskommandot får inte vara tomt"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "CD-uppspelningskommandot har inte definierats"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Kamera upptäcktes"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 #, fuzzy
@@ -335,22 +321,21 @@ msgstr "Ett fotokort har upptäckts."
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Skrivare upptäcktes"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "En USB-skrivare upptäcktes"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "USB-enhetstypen stöds inte"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Volymhanterare för Thunar"
+msgstr "Inställningar för Volymhanterare för Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -385,9 +370,8 @@ msgstr "Ruby-skript"
 msgid "Shell Scripts"
 msgstr "Skalskript"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Lagring"
@@ -432,9 +416,8 @@ msgstr "Kommando för _data-cd:"
 msgid "Command for A_udio CDs:"
 msgstr "Kommando för l_jud-cd:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -478,9 +461,8 @@ msgstr "Bärbara musikspelare"
 msgid "Play _music files when connected"
 msgstr "Spela upp _musikfiler när ansluten"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kameror"
@@ -493,9 +475,8 @@ msgstr "Digitalkameror"
 msgid "Import digital photographs when connected"
 msgstr "Importera digitalfoton när ansluten"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "Handdatorer"
@@ -516,9 +497,8 @@ msgstr "Pocket PC-datorer"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Synkronisera Pocket P_C-enheter när anslutna"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -528,9 +508,8 @@ msgstr "Skrivare"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Kör automatiskt ett program när en _skrivare ansluts"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Inmatningsenheter"
@@ -582,10 +561,8 @@ msgstr "Misslyckades med att öppna dokumentationsvisaren"
 #~ msgid "Encrypted volume"
 #~ msgstr "Krypterad volym"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Monterar krypterad volym...</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Monterar krypterad volym...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Konfigurerar krypteringslagret..."
@@ -599,10 +576,8 @@ msgstr "Misslyckades med att öppna dokumentationsvisaren"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Felaktigt lösenord.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Denna volym är krypterad.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Denna volym är krypterad.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Ange ditt lösenord för att dekryptera och montera volymen."
