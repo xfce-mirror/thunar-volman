@@ -12,10 +12,10 @@ msgstr ""
 "PO-Revision-Date: 2009-09-13 18:41+0200\n"
 "Last-Translator: Robert Hartl <hartl.robert@gmail.com>\n"
 "Language-Team: slovak <sk-i18n@lists.linux.sk>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
+"Language: \n"
 "X-Generator: Lokalize 0.3\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
 
@@ -102,11 +102,8 @@ msgid "A photo card has been detected"
 msgstr "Bola zistená foto karta."
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
-msgstr ""
-"Na karte sú fotografie. Chcete tieto fotografie pridať do svojho albumu?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "Na karte sú fotografie. Chcete tieto fotografie pridať do svojho albumu?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -167,17 +164,17 @@ msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr ""
+msgstr "Zväzok pripojený"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "Zväzok \"%s\" bol pripojený automaticky"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "Vložený zväzok bok automaticky pripojený"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
@@ -187,7 +184,7 @@ msgstr ""
 #: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "Nemožno pripojiť zariadenie"
 
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
@@ -378,9 +375,8 @@ msgstr "Ruby skripty"
 msgid "Shell Scripts"
 msgstr "Shellové skripty"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Úložisko"
@@ -425,9 +421,8 @@ msgstr "Príkaz pre _dátové CD:"
 msgid "Command for A_udio CDs:"
 msgstr "Príkaz pre A_udio CD:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimédiá"
@@ -471,9 +466,8 @@ msgstr "Prenosné prehrávače hudby"
 msgid "Play _music files when connected"
 msgstr "Prehrať _hudobné súbory pri pripojení"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kamery"
@@ -486,9 +480,8 @@ msgstr "Digitálne fotoaparáty"
 msgid "Import digital photographs when connected"
 msgstr "Importovať digitálne fotografie pri pripojení"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -509,9 +502,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Synchtonizovať zariadenia Pocket P_C pri pripojení"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -521,9 +513,8 @@ msgstr "Tlačiarne"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Automaticky spustiť program pri pripojení _tlačiarne"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Vstupné zariadenia"
@@ -575,11 +566,8 @@ msgstr "Zlyhalo otvorenie prehliadača dokumentácie"
 #~ msgid "Encrypted volume"
 #~ msgstr "Šifrovaný zväzok"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Pripájanie šifrovaného zväzku...</"
-#~ "span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Pripájanie šifrovaného zväzku...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Nastavovanie šifrovacej vrstvy..."
@@ -593,10 +581,8 @@ msgstr "Zlyhalo otvorenie prehliadača dokumentácie"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Nesprávne heslo.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Tento zväzok je šifrovaný.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Tento zväzok je šifrovaný.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Pre odšifrovanie a pripojenie zadajte heslo."
