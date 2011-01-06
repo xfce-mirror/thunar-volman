@@ -1,586 +1,247 @@
-# thunar-volman translation to Greek.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Greek translation of the thunar-media-tags-plugin.
+# Copyright (C) 2006-2007 Jannis Pohlmann <jannis@xfce.org>
+# This file is distributed under the same license as the thunar-media-tags-plugin package.
+# Stavros Giannouris <stavrosg@gmail.com>, 2006, 2011.
 # Evaggelos Balaskas <ebalaskas@ebalaskas.gr>, 2009.
-# Stavros Giannouris <stavrosg@hellug.gr>, 2009, 2011.
-# George Vasilakos <forfolias@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman git version\n"
+"Project-Id-Version: thunar-media-tags-plugin 0.1.2svn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
-"PO-Revision-Date: 2011-01-06 16:35+0200\n"
+"POT-Creation-Date: 2006-09-11 11:38+0200\n"
+"PO-Revision-Date: 2011-01-06 16:44+0200\n"
 "Last-Translator: Stavros Giannouris <stavrosg@hellug.gr>\n"
-"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"Language-Team: Greek <xfce-i18n@xfce.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Country: GREECE\n"
-"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-SourceCharset: utf-8\n"
 
-#: ../thunar-volman/main.c:59
-msgid "The syfs path of the newly added device"
-msgstr "Η διαδρομή syfs της συσκευής που προστέθηκε πρόσφατα"
+#: ../thunar-plugin/tag-renamer.c:59
+msgid "Title"
+msgstr "Τίτλος"
 
-#: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:104
-msgid "Configure management of removable drives and media"
-msgstr "Ρύθμιση διαχείρισης των αφαιρούμενων συσκευών και μέσων"
+#: ../thunar-plugin/tag-renamer.c:60
+msgid "Artist - Title"
+msgstr "Καλλιτέχνης - Τίτλος"
 
-#: ../thunar-volman/main.c:61
-msgid "Print version information and exit"
-msgstr "Εμφάνιση πληροφοριών έκδοσης και έξοδος"
+#: ../thunar-plugin/tag-renamer.c:61
+msgid "Track - Title"
+msgstr "Αριθμός - Τίτλος"
 
-#. setup application name
-#: ../thunar-volman/main.c:96
-msgid "Thunar Volume Manager"
-msgstr "Διαχειριστής αφαιρούμενων μονάδων του Thunar"
+#: ../thunar-plugin/tag-renamer.c:62
+msgid "Track - Artist - Title"
+msgstr "Αριθμός - Καλλιτέχνης - Τίτλος"
 
-#: ../thunar-volman/main.c:135
-msgid "All rights reserved."
-msgstr "Όλα τα δικαιώματα διατηρούνται."
+#: ../thunar-plugin/tag-renamer.c:63
+msgid "Track. Title"
+msgstr "Αριθμός. Τίτλος"
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-plugin/tag-renamer.c:64
+msgid "Track. Artist - Title"
+msgstr "Αριθμός. Καλλιτέχνης  - Τίτλος"
+
+#: ../thunar-plugin/tag-renamer.c:65
+msgid "Artist - Track - Title"
+msgstr "Καλλιτέχνης - Αριθμός - Τίτλος"
+
+#. Format label
+#: ../thunar-plugin/tag-renamer.c:223
+msgid "_Format:"
+msgstr "_Μορφή:"
+
+#: ../thunar-plugin/tag-renamer.c:246
+msgid "_Underscores"
+msgstr "Κάτω παύ_λες"
+
+#: ../thunar-plugin/tag-renamer.c:248
+msgid "Activating this option will replace all spaces in the target filename with underscores."
+msgstr "Μετατρέπει όλα τα κενά διαστήματα σε κάτω παύλες στα νέα ονόματα αρχείων."
+
+#: ../thunar-plugin/tag-renamer.c:253
+msgid "_Lowercase"
+msgstr "Πε_ζά"
+
+#: ../thunar-plugin/tag-renamer.c:255
+msgid "If you activate this, the resulting filename will only contain lowercase letters."
+msgstr "Μετατρέπει όλους τους χαρακτήρες στα ονόματα αρχείων σε πεζούς."
+
+#: ../thunar-plugin/tag-renamer.c:264
+#: ../thunar-plugin/tag-renamer.c:702
+#: ../thunar-plugin/audio-tags-page.c:183
+msgid "Unknown Artist"
+msgstr "Άγνωστος καλλιτέχνης"
+
+#: ../thunar-plugin/tag-renamer.c:265
+#: ../thunar-plugin/tag-renamer.c:750
+#: ../thunar-plugin/audio-tags-page.c:209
+msgid "Unknown Title"
+msgstr "Άγνωστος τίτλος"
+
+#. Edit tags action
+#: ../thunar-plugin/tag-renamer.c:523
+msgid "Edit _Tags"
+msgstr "Επεξεργασία ε_τικετών"
+
+#: ../thunar-plugin/tag-renamer.c:523
+msgid "Edit ID3/OGG tags of this file."
+msgstr "Επεξεργασία των ετικετών ID3/OGG του αρχείου."
+
+#: ../thunar-plugin/tag-renamer.c:545
+msgid "Audio Tags"
+msgstr "Ετικέτες ήχου"
+
+#: ../thunar-plugin/audio-tags-page.c:196
+msgid "Unknown Album"
+msgstr "Άγνωστος δίσκος."
+
+#: ../thunar-plugin/audio-tags-page.c:305
+msgid "<b>Track:</b>"
+msgstr "<b>Κομμάτι:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:320
+msgid "Enter the track number here."
+msgstr "Αριθμός κομματιού"
+
+#: ../thunar-plugin/audio-tags-page.c:328
+msgid "<b>Year:</b>"
+msgstr "<b>Έτος:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:343
+msgid "Enter the release year here."
+msgstr "Έτος κυκλοφορίας"
+
+#: ../thunar-plugin/audio-tags-page.c:351
+msgid "<b>Artist:</b>"
+msgstr "<b>Καλλιτέχνης:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:358
+msgid "Enter the name of the artist or author of this file here."
+msgstr "Καλλιτέχνης ή συγγραφέας των αρχείων."
+
+#: ../thunar-plugin/audio-tags-page.c:366
+msgid "<b>Title:</b>"
+msgstr "<b>Τίτλος:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:373
+msgid "Enter the song title here."
+msgstr "Τίτλος τραγουδιού"
+
+#: ../thunar-plugin/audio-tags-page.c:380
+msgid "<b>Album:</b>"
+msgstr "<b>Άλμπουμ:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:387
+msgid "Enter the album/record title here."
+msgstr "Τίτλος άλμπουμ/δίσκου."
+
+#: ../thunar-plugin/audio-tags-page.c:394
+msgid "<b>Comment:</b>"
+msgstr "<b>Σχόλιο:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:401
+msgid "Enter your comments here."
+msgstr "Εισάγετε το σχόλιο εδώ."
+
+#: ../thunar-plugin/audio-tags-page.c:408
+msgid "<b>Genre:</b>"
+msgstr "<b>Είδος:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:415
+msgid "Select or enter the genre of this song here."
+msgstr "Επιλέξτε ή εισάγετε το είδος."
+
+#. Create and add the save action
+#: ../thunar-plugin/audio-tags-page.c:454
+msgid "_Save"
+msgstr "Απο_θήκευση"
+
+#: ../thunar-plugin/audio-tags-page.c:454
+msgid "Save audio tags."
+msgstr "Αποθήκευση ετικετών."
+
+#. Create and add the info action
+#: ../thunar-plugin/audio-tags-page.c:461
+msgid "_Information"
+msgstr "_Πληροφορίες"
+
+#: ../thunar-plugin/audio-tags-page.c:461
+msgid "Display more detailed information about this audio file."
+msgstr "Εμφάνιση περισσότερων πληροφοριών για το αρχείο."
+
+#: ../thunar-plugin/audio-tags-page.c:528
+msgid "Audio"
+msgstr "Ήχος"
+
+#. Set up the dialog
+#: ../thunar-plugin/audio-tags-page.c:564
+msgid "Edit Tags"
+msgstr "Επεξεργασία ετικετών"
+
+#. Create dialog
+#: ../thunar-plugin/audio-tags-page.c:992
+msgid "Audio Information"
+msgstr "Πληροφορίες ήχου"
+
+#: ../thunar-plugin/audio-tags-page.c:1003
 #, c-format
-msgid "Please report bugs to <%s>."
-msgstr "Παρακαλώ αναφέρατε σφάλματα στο <%s>."
+msgid "%d:%d Minutes"
+msgstr "%d:%d λεπτά"
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-plugin/audio-tags-page.c:1004
 #, c-format
-msgid "There is no device with the sysfs path \"%s\""
-msgstr "Δεν υπάρχει συσκευή με την διαδρομή sysfs \"%s\""
+msgid "%d KBit/s"
+msgstr "%d KBit/s"
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-plugin/audio-tags-page.c:1005
 #, c-format
-msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Πρέπει να προσδιορίσετε τη διαδρομή  sysfs των νέων συσκευών με --device-added"
-
-#. ...so we need to prompt what to do
-#: ../thunar-volman/tvm-block-device.c:204
-msgid "Photos and Music"
-msgstr "Εικόνες και μουσική"
-
-#: ../thunar-volman/tvm-block-device.c:205
-msgid "Photos were found on your portable music player"
-msgstr "Βρέθηκαν εικόνες στη φορητή μουσική συσκευή"
-
-#: ../thunar-volman/tvm-block-device.c:206
-msgid "Would you like to import the photos or manage the music?"
-msgstr "Θέλετε να εισάγετε τις εικόνες ή να διαχειριστείτε την μουσική;"
-
-#: ../thunar-volman/tvm-block-device.c:208
-#: ../thunar-volman/tvm-block-device.c:277
-#: ../thunar-volman/tvm-block-device.c:378
-#: ../thunar-volman/tvm-block-device.c:425
-#: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829
-#: ../thunar-volman/tvm-run.c:192
-#: ../thunar-volman/tvm-run.c:203
-msgid "Ig_nore"
-msgstr "Αγν_όηση"
-
-#: ../thunar-volman/tvm-block-device.c:209
-#: ../thunar-volman/tvm-block-device.c:278
-msgid "Import _Photos"
-msgstr "Εισαγωγή εικ_όνων"
-
-#: ../thunar-volman/tvm-block-device.c:210
-msgid "Manage _Music"
-msgstr "Διαχείριση μ_ουσικής"
-
-#. ask the user to import photos
-#: ../thunar-volman/tvm-block-device.c:273
-msgid "Photo Import"
-msgstr "Εισαγωγή εικόνων"
-
-#: ../thunar-volman/tvm-block-device.c:274
-msgid "A photo card has been detected"
-msgstr "Εντοπίστηκε μια κάρτα με φωτογραφίες"
-
-#: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
-msgstr "Υπάρχουν εικόνες στην κάρτα. Θέλετε να προσθέσετε τις εικόνες στο άλμπουμ σας;"
-
-#. prompt the user to execute the file
-#. prompt the user to execute this file
-#: ../thunar-volman/tvm-block-device.c:373
-#: ../thunar-volman/tvm-block-device.c:420
-#, c-format
-msgid "Would you like to allow \"%s\" to run?"
-msgstr "Θέλετε να επιτρέψετε στο \"%s\" να τρέξει;"
-
-#: ../thunar-volman/tvm-block-device.c:376
-#: ../thunar-volman/tvm-block-device.c:423
-msgid "Auto-Run Confirmation"
-msgstr "Ρύθμιση αυτόματης εκτέλεσης"
-
-#: ../thunar-volman/tvm-block-device.c:377
-#: ../thunar-volman/tvm-block-device.c:424
-msgid "Auto-Run capability detected"
-msgstr "Εντοπίστηκε δυνατότητα αυτόματης εκτέλεσης"
-
-#: ../thunar-volman/tvm-block-device.c:379
-#: ../thunar-volman/tvm-block-device.c:426
-msgid "_Allow Auto-Run"
-msgstr "Να ε_πιτρέπεται η αυτόματη εκτέλεση"
-
-#. prompt the user whether to autoopen this file
-#: ../thunar-volman/tvm-block-device.c:502
-#, c-format
-msgid "Would you like to open \"%s\"?"
-msgstr "Θέλετε να ανοίξετε το \"%s\";"
-
-#: ../thunar-volman/tvm-block-device.c:505
-msgid "Auto-Open Confirmation"
-msgstr "Ρύθμιση αυτόματου ανοίγματος"
-
-#: ../thunar-volman/tvm-block-device.c:506
-msgid "Auto-Open capability detected"
-msgstr "Εντοπίστηκε δυνατότητα αυτόματου ανοίγματος"
-
-#: ../thunar-volman/tvm-block-device.c:508
-msgid "_Open"
-msgstr "Άν_οιγμα"
-
-#: ../thunar-volman/tvm-block-device.c:619
-msgid "CD mounted"
-msgstr "Προσαρτήθηκε CD"
-
-#: ../thunar-volman/tvm-block-device.c:619
-msgid "DVD mounted"
-msgstr "Προσαρτήθηκε DVD"
-
-#: ../thunar-volman/tvm-block-device.c:621
-msgid "The CD was mounted automatically"
-msgstr "Το CD προσαρτήθηκε αυτόματα"
-
-#: ../thunar-volman/tvm-block-device.c:622
-msgid "The DVD was mounted automatically"
-msgstr "Το DVD προσαρτήθηκε αυτόματα"
-
-#: ../thunar-volman/tvm-block-device.c:632
-msgid "Volume mounted"
-msgstr "Ο τόμος προσαρτήθηκε"
-
-#: ../thunar-volman/tvm-block-device.c:635
-#, c-format
-msgid "The volume \"%s\" was mounted automatically"
-msgstr "Ο τόμος \"%s\" προσαρτήθηκε αυτόματα"
-
-#: ../thunar-volman/tvm-block-device.c:640
-#, c-format
-msgid "The inserted volume was mounted automatically"
-msgstr "Ο τόμος που εισήχθη προσαρτήθηκε αυτόματα"
-
-#: ../thunar-volman/tvm-block-device.c:694
-#, c-format
-msgid "Unable to locate mount point"
-msgstr "Αδύνατος ο εντοπισμός του σημείου προσάρτησης"
-
-#: ../thunar-volman/tvm-block-device.c:740
-#, c-format
-msgid "Unable to mount the device"
-msgstr "Αδύνατη η προσάρτηση της συσκευής"
-
-#: ../thunar-volman/tvm-block-device.c:749
-#, c-format
-msgid "Could not detect the volume corresponding to the device"
-msgstr "Δεν ήταν δυνατός ο εντοπισμός του τόμου που αντιστοιχεί στη συσκευή"
-
-#: ../thunar-volman/tvm-block-device.c:824
-msgid "Audio/Data CD"
-msgstr "CD ήχου/δεδομένων"
-
-#: ../thunar-volman/tvm-block-device.c:825
-msgid "The CD in the drive contains both music and files"
-msgstr "Το cd στον οδηγό περιέχει μουσική και αρχεία."
-
-#: ../thunar-volman/tvm-block-device.c:827
-msgid "Would you like to listen to music or browse the files?"
-msgstr "Θέλετε να ακούσετε μουσική ή να περιηγηθείτε στα αρχεία;"
-
-#: ../thunar-volman/tvm-block-device.c:830
-msgid "_Browse Files"
-msgstr "Π_εριήγηση αρχείων"
-
-#: ../thunar-volman/tvm-block-device.c:831
-msgid "_Play CD"
-msgstr "Ανα_παραγωγή CD"
-
-#: ../thunar-volman/tvm-block-device.c:919
-#, c-format
-msgid "Unknown block device type"
-msgstr "Άγνωστος τύπος συσκευής μπλοκ"
-
-#: ../thunar-volman/tvm-device.c:139
-#, c-format
-msgid "Device type not supported"
-msgstr "Ο τύπος συσκευής δεν υποστηρίζεται"
-
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr "Πληκτρολόγια"
-
-#: ../thunar-volman/tvm-input-device.c:75
-msgid "Keyboard detected"
-msgstr "Εντοπίστηκε πληκτρολόγιο"
-
-#: ../thunar-volman/tvm-input-device.c:76
-msgid "A keyboard was detected"
-msgstr "Εντοπίστηκε ένα πληκτρολόγιο"
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr "Ταμπλέτα"
-
-#: ../thunar-volman/tvm-input-device.c:87
-#: ../thunar-volman/tvm-input-device.c:101
-msgid "Tablet detected"
-msgstr "Εντοπίστηκε ταμπλέτα"
-
-#: ../thunar-volman/tvm-input-device.c:88
-#: ../thunar-volman/tvm-input-device.c:102
-msgid "A graphics tablet was detected"
-msgstr "Εντοπίστηκε μια ταμπλέτα"
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
-msgstr "Ποντίκι"
-
-#: ../thunar-volman/tvm-input-device.c:111
-msgid "Mouse detected"
-msgstr "Εντοπίστηκε ποντίκι"
-
-#: ../thunar-volman/tvm-input-device.c:112
-msgid "A mouse was detected"
-msgstr "Εντοπίστηκε ένα ποντίκι"
-
-#: ../thunar-volman/tvm-input-device.c:141
-#, c-format
-msgid "Unsupported input device type"
-msgstr "Μη υποστηριζόμενη συσκευή εισόδου"
-
-#: ../thunar-volman/tvm-run.c:171
-#, c-format
-msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr "Η αυτόματη εγγραφή άδειων CD και DVD είναι απενεργοποιημένη"
-
-#: ../thunar-volman/tvm-run.c:189
-msgid "Blank DVD inserted"
-msgstr "Εισήχθη ένα άδειο DVD"
-
-#: ../thunar-volman/tvm-run.c:190
-msgid "You have inserted a blank DVD."
-msgstr "Έχετε εισάγει ένα κενό DVD."
-
-#: ../thunar-volman/tvm-run.c:191
-#: ../thunar-volman/tvm-run.c:202
-msgid "What would you like to do?"
-msgstr "Τι θέλετε να γίνει;"
-
-#: ../thunar-volman/tvm-run.c:193
-msgid "Burn _DVD"
-msgstr "Εγγραφή _DVD."
-
-#: ../thunar-volman/tvm-run.c:200
-msgid "Blank CD inserted"
-msgstr "Εισήχθη ένα άδειο CD"
-
-#: ../thunar-volman/tvm-run.c:201
-msgid "You have inserted a blank CD."
-msgstr "Έχετε εισάγει ένα κενό CD."
-
-#: ../thunar-volman/tvm-run.c:204
-msgid "Burn _Data CD"
-msgstr "Εγγραφή CD _δεδομένων"
-
-#: ../thunar-volman/tvm-run.c:205
-msgid "Burn _Audio CD"
-msgstr "Εγγραφή CD _ηχου"
-
-#: ../thunar-volman/tvm-run.c:229
-#, c-format
-msgid "The burn command may not be empty"
-msgstr "Η εντολή εγγραφής δε μπορεί να είναι άδεια"
-
-#: ../thunar-volman/tvm-run.c:268
-#, c-format
-msgid "The CD player command is undefined"
-msgstr "Δεν έχει οριστεί κάποια εντολή αναπαραγωγής CD"
-
-#: ../thunar-volman/tvm-usb-device.c:62
-msgid "Camera detected"
-msgstr "Εντοπίστηκε κάμερα"
-
-#: ../thunar-volman/tvm-usb-device.c:63
-msgid "A photo camera was detected"
-msgstr "Εντοπίστηκε μία φωτογραφική μηχανή"
-
-#: ../thunar-volman/tvm-usb-device.c:71
-msgid "Printer detected"
-msgstr "Εντοπίστηκε εκτυπωτής"
-
-#: ../thunar-volman/tvm-usb-device.c:72
-msgid "A USB printer was detected"
-msgstr "Εντοπίστηκε ένας USB εκτυπωτής"
-
-#: ../thunar-volman/tvm-usb-device.c:100
-#, c-format
-msgid "Unsupported USB device type"
-msgstr "Μη υποστιριζόμενος τύπος USB συσκευής"
-
-#. setup application name
-#: ../thunar-volman-settings/main.c:52
-msgid "Thunar Volume Manager Settings"
-msgstr "Ρυθμίσεις διαχειριστή τόμων Thunar"
-
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:102
-msgid "Removable Drives and Media"
-msgstr "Αφαιρούμενοι οδηγοί και μέσα"
-
-#: ../thunar-volman-settings/tvm-command-entry.c:240
-msgid "Select an Application"
-msgstr "Επιλογή εφαρμογής"
-
-#: ../thunar-volman-settings/tvm-command-entry.c:250
-msgid "All Files"
-msgstr "Όλα τα αρχεία"
-
-#: ../thunar-volman-settings/tvm-command-entry.c:255
-msgid "Executable Files"
-msgstr "Εκτελέσιμα αρχεία"
-
-#: ../thunar-volman-settings/tvm-command-entry.c:270
-msgid "Perl Scripts"
-msgstr "Δέσμες ενεργειών perl"
-
-#: ../thunar-volman-settings/tvm-command-entry.c:276
-msgid "Python Scripts"
-msgstr "Δέσμες ενεργειών python"
-
-#: ../thunar-volman-settings/tvm-command-entry.c:282
-msgid "Ruby Scripts"
-msgstr "Δέσμες ενεργειών ruby"
-
-#: ../thunar-volman-settings/tvm-command-entry.c:288
-msgid "Shell Scripts"
-msgstr "Δέσμες ενεργειών κέλυφους"
-
-#. Storage
-#.
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:130
-msgid "Storage"
-msgstr "Μέσο αποθήκευσης"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:141
-msgid "Removable Storage"
-msgstr "Αφαιρούμενο μέσο αποθήκευσης"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
-msgid "_Mount removable drives when hot-plugged"
-msgstr "Πρ_οσάρτηση αφαιρούμενων οδηγών όταν συνδέονται"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:166
-msgid "Mount removable media when _inserted"
-msgstr "Προσάρτηση αφαιρούμενων μέσων όταν εισαχθούν"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:174
-msgid "B_rowse removable media when inserted"
-msgstr "Περιήγηση αφαιρούμενων μέσων όταν εισαχθούν"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:182
-msgid "_Auto-run programs on new drives and media"
-msgstr "Αυτ_όματη εκτέλεση προγραμμάτων σε νέους οδηγούς και μέσα"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:189
-msgid "Auto-open files on new drives and media"
-msgstr "Αυτόματο άνοιγμα των αρχείων σε νέους οδηγούς και μέσα"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:201
-msgid "Blank CDs and DVDs"
-msgstr "Κενά CD και DVD"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:218
-msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "_Εγγραφή ενός CD ή DVD όταν εισαχθεί κενός δίσκος"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:229
-msgid "Command for _Data CDs:"
-msgstr "Εντολή για CD δεδομένων:"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:239
-msgid "Command for A_udio CDs:"
-msgstr "Εντολή για CD ήχου:"
-
-#. Multimedia
-#.
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:255
-msgid "Multimedia"
-msgstr "Πολυμέσα"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:266
-msgid "Audio CDs"
-msgstr "CD ήχου"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:283
-msgid "Play _audio CDs when inserted"
-msgstr "Αναπαραγωγή CD ήχου όταν εισαχθεί"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:290
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:466
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:553
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:601
-msgid "_Command:"
-msgstr "_Εντολή:"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:304
-msgid "Video CDs/DVDs"
-msgstr "Βίντεο CD/DVD"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:321
-msgid "Play _video CDs and DVDs when inserted"
-msgstr "Αναπαραγωγή βίντεο CD και DVD όταν εισαχθούν"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:367
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:505
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:640
-msgid "C_ommand:"
-msgstr "Εντ_ολή:"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:343
-msgid "Portable Music Players"
-msgstr "Φορητές συσκευές μουσικής"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:360
-msgid "Play _music files when connected"
-msgstr "Αναπαραγωγή _μουσικών αρχείων όταν συνδεθούν"
-
-#. Cameras
-#.
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
-msgid "Cameras"
-msgstr "Φωτογραφικές μηχανές"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:390
-msgid "Digital Cameras"
-msgstr "Ψηφιακές φωτογραφικές μηχανές"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:407
-msgid "Import digital photographs when connected"
-msgstr "Εισαγωγή ψηφιακών φωτογραφιών όταν συνδεθούν "
-
-#. PDAs
-#.
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:427
-msgid "PDAs"
-msgstr "PDA"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:441
-msgid "Palm™"
-msgstr "Palm™"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:458
-msgid "Sync _Palm™ devices when connected"
-msgstr "Συγχρονισμός συσκευών _Palm™ όταν συνδεθούν"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:480
-msgid "Pocket PCs"
-msgstr "Pocket PC"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:497
-msgid "Sync Pocket P_C devices when connected"
-msgstr "Συγχρονισμός συσκευών Pocket PC όταν συνδεθεί"
-
-#. Printers
-#.
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:517
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:528
-msgid "Printers"
-msgstr "Εκτυπωτές"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:545
-msgid "Automatically run a program when a _printer is connected"
-msgstr "Αυτόματη εκτέλεση προγράμματος όταν συνδεθεί ένας εκτυπωτής"
-
-#. Input Devices
-#.
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:565
-msgid "Input Devices"
-msgstr "Συσκευές εισόδου"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:576
-msgid "Keyboards"
-msgstr "Πληκτρολόγια"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
-msgstr "Αυτόματη εκτέλεση ενός προγράμματος όταν συνδεθεί ένα πληκτρολόγιο USB"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:615
-msgid "Mice"
-msgstr "Ποντίκια"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
-msgstr "Αυτόματη εκτέλεση ενός προγράμματος όταν συνδεθεί ένα _ποντίκι usb"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:654
-msgid "Tablet"
-msgstr "Πινακίδιο"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:671
-msgid "Automatically run a program when a _tablet is connected"
-msgstr "Αυτόματη εκτέλεση ενός προγράμματος όταν συνδεθεί ένα _πινακίδιο"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:679
-msgid "Com_mand:"
-msgstr "Εντ_ολή:"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
-msgid "Failed to open the documentation browser"
-msgstr "Αποτυχία ανοίγματος του περιηγητή βοήθειας"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Απέτυχε να ανοίξει η οθόνη"
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Η ομάδα ανάπτυξης του Thunar. Με την επιφύλαξη παντός νομίμου δικαιώματος."
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Γράφτηκε από τον Benedikt Meurer <benny@xfce.org>."
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "Το καθορισμένο UDI \"%s\" δεν είναι έγκυρο UDI συσκευής HAL"
-#~ msgid "Encrypted volume"
-#~ msgstr "Κρυπτογραφημένες μονάδες"
-#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Προσάρτηση κρυπτογραφημένης μονάδας...</span>"
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Ρύθμιση του επιπέδου κρυπτογράφησης..."
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Δεν έχετε τα δικαιώματα να ρυθμίσετε το επίπεδο κρυπτογράφησης"
-#~ msgid "Wrong password"
-#~ msgstr "Λανθασμένο συνθηματικό"
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Λανθασμένο συνθηματικό.</span>"
-#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Αυτή η μονάδα είναι κρυπτογραφημένη.</span>"
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Παρακαλώ εισάγετε το συνθηματικό για την αποκρυπτογράφηση και προσάρτηση της μονάδας."
-#~ msgid "_Mount"
-#~ msgstr "_Προσάρτηση"
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Αποτυχία ρύθμισης της κρυπτογραφημένης μονάδας"
-#~ msgid "Choose Disc Type"
-#~ msgstr "Επιλογή τύπου δίσκου"
-#~ msgid "Make _DVD"
-#~ msgstr "Δημιουργία _dvd"
-#~ msgid "Removable Media"
-#~ msgstr "Αφαιρούμενα μέσα"
+msgid "%d Hz"
+msgstr "%d Hz"
+
+#: ../thunar-plugin/audio-tags-page.c:1025
+msgid "<b>Filename:</b>"
+msgstr "<b>Όνομα αρχείου:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:1038
+msgid "<b>Filesize:</b>"
+msgstr "<b>Μέγεθος:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:1051
+msgid "<b>MIME Type:</b>"
+msgstr "<b>Τύπος MIME:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:1064
+msgid "<b>Bitrate:</b>"
+msgstr "<b>Bitrate:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:1077
+msgid "<b>Samplerate:</b>"
+msgstr "<b>Ρυθμός δειγματοληψίας:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:1090
+msgid "<b>Channels:</b>"
+msgstr "<b>Κανάλια:</b>"
+
+#: ../thunar-plugin/audio-tags-page.c:1103
+msgid "<b>Length:</b>"
+msgstr "<b>Διάρκεια:</b>"
+
+#~ msgid "Custom"
+#~ msgstr "Προσαρμογή"
+#~ msgid "Cust_om format:"
+#~ msgstr "Πρ_οσαρμοσμένη μορφή:"
+#~ msgid "Tag Help"
+#~ msgstr "Βοήθεια ετικετών"
+#~ msgid "Artist"
+#~ msgstr "Καλλιτέχνης"
+#~ msgid "Album"
+#~ msgstr "Άλμπουμ"
+#~ msgid "Genre"
+#~ msgstr "Είδος"
+#~ msgid "Track number"
+#~ msgstr "Αριθμός τραγουδιού"
+#~ msgid "Year"
+#~ msgstr "Έτος"
+#~ msgid "Comment"
+#~ msgstr "Σχόλιο"
 
