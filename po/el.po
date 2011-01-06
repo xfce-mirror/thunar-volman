@@ -2,15 +2,16 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Evaggelos Balaskas <ebalaskas@ebalaskas.gr>, 2009.
-# Stavros Giannouris <stavrosg@hellug.gr>, 2009.
-# 
+# Stavros Giannouris <stavrosg@hellug.gr>, 2009, 2011.
+# George Vasilakos <forfolias@gmail.com>, 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman git version\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-07 14:39+0100\n"
-"PO-Revision-Date: 2010-06-27 19:27+0200\n"
-"Last-Translator: Evaggelos Balaskas <ebalaskas@ebalaskas.gr>\n"
+"PO-Revision-Date: 2011-01-06 16:35+0200\n"
+"Last-Translator: Stavros Giannouris <stavrosg@hellug.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
-msgstr "Η syfs διαδρομή της συσκευής που προστέθηκε πρόσφατα"
+msgstr "Η διαδρομή syfs της συσκευής που προστέθηκε πρόσφατα"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -33,12 +34,12 @@ msgstr "Ρύθμιση διαχείρισης των αφαιρούμενων σ
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr "Εμφάνισε πληροφορίες έκδοσης και έξοδος"
+msgstr "Εμφάνιση πληροφοριών έκδοσης και έξοδος"
 
 #. setup application name
 #: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
-msgstr "Thunar διαχειριστής αφαιρούμενων μονάδων"
+msgstr "Διαχειριστής αφαιρούμενων μονάδων του Thunar"
 
 #: ../thunar-volman/main.c:135
 msgid "All rights reserved."
@@ -52,21 +53,21 @@ msgstr "Παρακαλώ αναφέρατε σφάλματα στο <%s>."
 #: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Δεν υπάρχει συσκευή με την sysfs διαδρομή \"%s\""
+msgstr "Δεν υπάρχει συσκευή με την διαδρομή sysfs \"%s\""
 
 #: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Πρέπει να προσδιορίσετε τη  sysfs διαδρομή των νέων συσκευών με --device-added"
+msgstr "Πρέπει να προσδιορίσετε τη διαδρομή  sysfs των νέων συσκευών με --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
 msgid "Photos and Music"
-msgstr "Εικόνες και Μουσική"
+msgstr "Εικόνες και μουσική"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr "Βρέθηκαν εικόνες στη φορητή μουσική συσκευή."
+msgstr "Βρέθηκαν εικόνες στη φορητή μουσική συσκευή"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -77,7 +78,8 @@ msgstr "Θέλετε να εισάγετε τις εικόνες ή να δια�
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829
+#: ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "Αγν_όηση"
@@ -94,7 +96,7 @@ msgstr "Διαχείριση μ_ουσικής"
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
 msgid "Photo Import"
-msgstr "Εισαγωγή εικόνας"
+msgstr "Εισαγωγή εικόνων"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
@@ -147,11 +149,11 @@ msgstr "Άν_οιγμα"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
-msgstr "προσαρτήθηκε CD"
+msgstr "Προσαρτήθηκε CD"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
-msgstr "προσαρτήθηκε DVD"
+msgstr "Προσαρτήθηκε DVD"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
@@ -192,7 +194,7 @@ msgstr "Δεν ήταν δυνατός ο εντοπισμός του τόμου
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
-msgstr "CD Ήχου/Δεδομένων"
+msgstr "CD ήχου/δεδομένων"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
@@ -213,7 +215,7 @@ msgstr "Ανα_παραγωγή CD"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
-msgstr "Άγνωστος τύπος μπλοκ συσκευής"
+msgstr "Άγνωστος τύπος συσκευής μπλοκ"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
@@ -277,7 +279,8 @@ msgstr "Εισήχθη ένα άδειο DVD"
 msgid "You have inserted a blank DVD."
 msgstr "Έχετε εισάγει ένα κενό DVD."
 
-#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
+#: ../thunar-volman/tvm-run.c:191
+#: ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
 msgstr "Τι θέλετε να γίνει;"
 
@@ -287,7 +290,7 @@ msgstr "Εγγραφή _DVD."
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
-msgstr "Άδειασμα του CD που εισήχθη"
+msgstr "Εισήχθη ένα άδειο CD"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
@@ -295,11 +298,11 @@ msgstr "Έχετε εισάγει ένα κενό CD."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
-msgstr "Εγγραφή CD _Δεδομένων"
+msgstr "Εγγραφή CD _δεδομένων"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr "Εγγραφή CD _Ήχου"
+msgstr "Εγγραφή CD _ηχου"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -335,7 +338,7 @@ msgstr "Μη υποστιριζόμενος τύπος USB συσκευής"
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
-msgstr "Ρυθμίσεις Διαχειριστή Τόμων Thunar"
+msgstr "Ρυθμίσεις διαχειριστή τόμων Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -371,7 +374,7 @@ msgid "Shell Scripts"
 msgstr "Δέσμες ενεργειών κέλυφους"
 
 #. Storage
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Μέσο αποθήκευσης"
@@ -417,7 +420,7 @@ msgid "Command for A_udio CDs:"
 msgstr "Εντολή για CD ήχου:"
 
 #. Multimedia
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Πολυμέσα"
@@ -462,7 +465,7 @@ msgid "Play _music files when connected"
 msgstr "Αναπαραγωγή _μουσικών αρχείων όταν συνδεθούν"
 
 #. Cameras
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Φωτογραφικές μηχανές"
@@ -476,7 +479,7 @@ msgid "Import digital photographs when connected"
 msgstr "Εισαγωγή ψηφιακών φωτογραφιών όταν συνδεθούν "
 
 #. PDAs
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -491,14 +494,14 @@ msgstr "Συγχρονισμός συσκευών _Palm™ όταν συνδεθ
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
-msgstr "Pocket PCs"
+msgstr "Pocket PC"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Συγχρονισμός συσκευής Pocket PC όταν συνδεθεί"
+msgstr "Συγχρονισμός συσκευών Pocket PC όταν συνδεθεί"
 
 #. Printers
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -509,7 +512,7 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "Αυτόματη εκτέλεση προγράμματος όταν συνδεθεί ένας εκτυπωτής"
 
 #. Input Devices
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Συσκευές εισόδου"
@@ -524,7 +527,7 @@ msgstr "Αυτόματη εκτέλεση ενός προγράμματος ότ
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
-msgstr "Ποντίκι"
+msgstr "Ποντίκια"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when an USB _mouse is connected"
@@ -548,51 +551,36 @@ msgstr "Αποτυχία ανοίγματος του περιηγητή βοήθ
 
 #~ msgid "Failed to open display"
 #~ msgstr "Απέτυχε να ανοίξει η οθόνη"
-
 #~ msgid "The Thunar development team. All rights reserved."
 #~ msgstr "Η ομάδα ανάπτυξης του Thunar. Με την επιφύλαξη παντός νομίμου δικαιώματος."
-
 #~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
 #~ msgstr "Γράφτηκε από τον Benedikt Meurer <benny@xfce.org>."
-
 #~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
 #~ msgstr "Το καθορισμένο UDI \"%s\" δεν είναι έγκυρο UDI συσκευής HAL"
-
 #~ msgid "Encrypted volume"
 #~ msgstr "Κρυπτογραφημένες μονάδες"
-
 #~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Προσάρτηση κρυπτογραφημένης μονάδας...</span>"
-
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Ρύθμιση του επιπέδου κρυπτογράφησης..."
-
 #~ msgid "You are not privileged to setup the crypto layer"
 #~ msgstr "Δεν έχετε τα δικαιώματα να ρυθμίσετε το επίπεδο κρυπτογράφησης"
-
 #~ msgid "Wrong password"
 #~ msgstr "Λανθασμένο συνθηματικό"
-
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Λανθασμένο συνθηματικό.</span>"
-
 #~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Αυτή η μονάδα είναι κρυπτογραφημένη.</span>"
-
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Παρακαλώ εισάγετε το συνθηματικό για την αποκρυπτογράφηση και προσάρτηση της μονάδας."
-
 #~ msgid "_Mount"
 #~ msgstr "_Προσάρτηση"
-
 #~ msgid "Failed to setup the encrypted volume"
 #~ msgstr "Αποτυχία ρύθμισης της κρυπτογραφημένης μονάδας"
-
 #~ msgid "Choose Disc Type"
 #~ msgstr "Επιλογή τύπου δίσκου"
-
 #~ msgid "Make _DVD"
 #~ msgstr "Δημιουργία _dvd"
-
 #~ msgid "Removable Media"
 #~ msgstr "Αφαιρούμενα μέσα"
+
