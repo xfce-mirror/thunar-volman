@@ -2,7 +2,7 @@
 _Name=Removable Drives and Media
 _Comment=Configure management of removable drives and media
 Exec=thunar-volman-settings
-Icon=gnome-dev-removable
+Icon=drive-removable-media
 Terminal=false
 StartupNotify=true
 Type=Application
