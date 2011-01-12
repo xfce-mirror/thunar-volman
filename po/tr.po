@@ -10,8 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "X-Poedit-Country: TURKEY\n"
+"Language: \n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -34,7 +34,7 @@ msgstr "Thunar Birim Yöneticisi"
 
 #: ../thunar-volman/main.c:135
 msgid "All rights reserved."
-msgstr ""
+msgstr "Tüm hakları saklıdır."
 
 #: ../thunar-volman/main.c:136
 #, c-format
@@ -44,7 +44,7 @@ msgstr "Hataları lütfen <%s> adresine bildirin."
 #: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "\"%s\" dizininde bir sürücü bulunamadı."
 
 #: ../thunar-volman/main.c:202
 #, fuzzy, c-format
@@ -148,21 +148,20 @@ msgstr "DVD Takıldı"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "CD otomatik olarak bağlandı"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "DVD otomatik olarak bağlandı"
 
 #: ../thunar-volman/tvm-block-device.c:632
-#, fuzzy
 msgid "Volume mounted"
 msgstr "Birim Bağlandı"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "\"%s\"  birimi otomaitk olarak bağlandı"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
@@ -172,10 +171,10 @@ msgstr ""
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "Bağlantı noktası bulunamadı"
 
 #: ../thunar-volman/tvm-block-device.c:740
-#, c-format, fuzzy
+#, c-format
 msgid "Unable to mount the device"
 msgstr "Sürücü bağlanamıyor"
 
@@ -185,12 +184,10 @@ msgid "Could not detect the volume corresponding to the device"
 msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
 msgstr "Müzik / Veri CD'si "
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
 msgstr "Sürücüdeki CD müzik ve çeşitli dosyaları barındırıyor."
 
@@ -209,7 +206,7 @@ msgstr "Müzik _Oynat"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Bilinmeyen sürücü tipi"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
@@ -217,7 +214,6 @@ msgid "Device type not supported"
 msgstr "Desteklenmeyen sürücü türü"
 
 #: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
 msgid "input-keyboard"
 msgstr "Klavyeler"
 
@@ -242,33 +238,33 @@ msgstr "Tablet Algılandı"
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "Grafik tablet bulundu"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr ""
+msgstr "Fare"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Fare bulundu"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "Fare bulundu"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Desteklenmeyen giriş birimi türü"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "Otomaik boş CD ve DVD yazımı kapalı"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Boş DVD takıldı"
 
 #: ../thunar-volman/tvm-run.c:190
 msgid "You have inserted a blank DVD."
@@ -280,7 +276,7 @@ msgstr "İşlem yapmak istiyor musunuz?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "DVD yaz"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
@@ -308,11 +304,11 @@ msgstr "Yazdırma komutu boş olmamalı"
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "CD oynatıcı komutu bulunamadı"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Kamera bulundu"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 #, fuzzy
@@ -321,22 +317,21 @@ msgstr "Fotoğraf kartı tespit edildi."
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Yazıcı bulundu"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "USB yazıcı bulundu"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Desteklenmeyen USB sürücü türü"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Thunar Birim Yöneticisi"
+msgstr "Thunar Birim Yöneticisi Ayarları"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
