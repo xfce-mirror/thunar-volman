@@ -271,7 +271,6 @@ msgid "Blank DVD inserted"
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
 msgstr "Boş bir disk yerleştirdiniz."
 
