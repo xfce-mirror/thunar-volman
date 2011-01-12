@@ -284,14 +284,12 @@ msgid "Burn _DVD"
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Boş CD ve DVD'ler"
+msgstr "Boş CD takıldı"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Boş bir disk yerleştirdiniz."
+msgstr "Boş CD takıldı"
 
 #: ../thunar-volman/tvm-run.c:204
 #, fuzzy
@@ -306,7 +304,7 @@ msgstr "_Müzik CD'si Oluştur"
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Yazdırma komutu boş olmamalı"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
