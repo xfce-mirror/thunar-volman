@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.5.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2011-01-16 17:51+0100\n"
 "PO-Revision-Date: 2010-10-17 01:03+0300\n"
 "Last-Translator: Jari Rahkonen <jari.rahkonen@pp1.inet.fi>\n"
 "Language-Team: Finnish <None>\n"
@@ -31,25 +31,25 @@ msgid "Print version information and exit"
 msgstr "Tulosta versiotiedot ja poistu"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Thunarin taltionhallinta"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Kaikki oikeudet pidätetään."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Ilmoita vioista osoitteeseen <%s>"
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Sysfs-polku \"%s\" ei viittaa mihinkään laitteeseen."
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Määritä usien laitteiden sysfs-polut valitsimella --device-added"
@@ -522,7 +522,8 @@ msgid "Keyboards"
 msgstr "Näppäimistöt"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Suorita sovellus, kun USB-_näppäimistö yhdistetään"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -530,7 +531,8 @@ msgid "Mice"
 msgstr "Hiiret"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Suorita sovellus, kun USB-_hiiri yhdistetään"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654

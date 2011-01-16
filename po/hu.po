@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-26 12:03+0200\n"
+"POT-Creation-Date: 2011-01-16 17:51+0100\n"
 "PO-Revision-Date: 2010-11-28 13:31+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
 "Language-Team: Hungarian <gnome at fsf dot hu>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
@@ -38,24 +38,25 @@ msgstr "Verzióinformációk kiírása és kilépés"
 msgid "Thunar Volume Manager"
 msgstr "Thunar kötetkezelő"
 
-#: ../thunar-volman/main.c:133
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Minden jog fenntartva."
 
-#: ../thunar-volman/main.c:134
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "A hibákat ide jelentse: <%s>."
 
-#: ../thunar-volman/main.c:188
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Nincs „%s” sysfs-útvonalú eszköz"
 
-#: ../thunar-volman/main.c:200
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Az új eszközök sysfs-útvonalát a --device-added használatával kell megadni"
+msgstr ""
+"Az új eszközök sysfs-útvonalát a --device-added használatával kell megadni"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -75,7 +76,7 @@ msgstr "A fényképeket szeretné importálni, vagy inkább a zenét kezelné?"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:826 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "K_ihagyás"
@@ -147,72 +148,72 @@ msgstr "Az automatikus megnyitás lehetősége észlelve"
 msgid "_Open"
 msgstr "_Megnyitás"
 
-#: ../thunar-volman/tvm-block-device.c:616
+#: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
 msgstr "CD csatolva"
 
-#: ../thunar-volman/tvm-block-device.c:616
+#: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
 msgstr "DVD csatolva"
 
-#: ../thunar-volman/tvm-block-device.c:618
+#: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
 msgstr "A CD automatikusan csatolva"
 
-#: ../thunar-volman/tvm-block-device.c:619
+#: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
 msgstr "A DVD automatikusan csatolva"
 
-#: ../thunar-volman/tvm-block-device.c:629
+#: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
 msgstr "Kötet csatolva"
 
-#: ../thunar-volman/tvm-block-device.c:632
+#: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
 msgstr "A(z) „%s” kötet automatikusan csatolva"
 
-#: ../thunar-volman/tvm-block-device.c:637
+#: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
 msgstr "A behelyezett kötet automatikusan csatolva"
 
-#: ../thunar-volman/tvm-block-device.c:691
+#: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
 msgstr "A csatolási pont nem található"
 
-#: ../thunar-volman/tvm-block-device.c:737
+#: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
 msgstr "Az eszköz nem csatolható"
 
-#: ../thunar-volman/tvm-block-device.c:746
+#: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
 msgstr "Az eszköznek megfelelő kötet nem észlelhető"
 
-#: ../thunar-volman/tvm-block-device.c:821
+#: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
 msgstr "Hang/adat CD"
 
-#: ../thunar-volman/tvm-block-device.c:822
+#: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
 msgstr "A meghajtóban lévő CD zenét és fájlokat is tartalmaz"
 
-#: ../thunar-volman/tvm-block-device.c:824
+#: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
 msgstr "Meg szeretné hallgatni a zenét, vagy a fájlokat böngészné?"
 
-#: ../thunar-volman/tvm-block-device.c:827
+#: ../thunar-volman/tvm-block-device.c:830
 msgid "_Browse Files"
 msgstr "Fájlok _tallózása"
 
-#: ../thunar-volman/tvm-block-device.c:828
+#: ../thunar-volman/tvm-block-device.c:831
 msgid "_Play CD"
 msgstr "_CD lejátszása"
 
-#: ../thunar-volman/tvm-block-device.c:916
+#: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
 msgstr "Ismeretlen blokkeszköztípus"
@@ -261,7 +262,7 @@ msgstr "Egér észlelve"
 msgid "A mouse was detected"
 msgstr "A rendszer egeret észlelt"
 
-#: ../thunar-volman/tvm-input-device.c:139
+#: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
 msgstr "Nem támogatott bemenetieszköz-típus"
@@ -329,7 +330,7 @@ msgstr "Nyomtató észlelve"
 msgid "A USB printer was detected"
 msgstr "A rendszer USB-nyomtatót észlelt"
 
-#: ../thunar-volman/tvm-usb-device.c:98
+#: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
 msgstr "Nem támogatott USB-eszköztípus"
@@ -527,7 +528,8 @@ msgid "Keyboards"
 msgstr "Billentyűzetek"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Program futtatása automatikusan USB-billentyű_zet csatlakoztatásakor"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -535,7 +537,8 @@ msgid "Mice"
 msgstr "Egér"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Program futtatása automatikusan USB-_egér csatlakoztatásakor"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -553,4 +556,3 @@ msgstr "Para_ncs:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "A dokumentációböngésző megnyitása meghiúsult"
-

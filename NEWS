@@ -1,7 +1,10 @@
-0.5.x
+0.6.0
 =====
 - Use drive-removable-media icon for the desktop entry of 
   thunar-volman-settings (bug #7079).
+- Updated translations: Turkish, Greek, Slovak, Swedish, 
+  English (United Kingdom), Japanese, Russian, Chinese, Czech.
+
 
 0.5.3
 =====

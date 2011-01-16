@@ -2,12 +2,12 @@
 # Copyright (C) 2008 Benedikt Meurer
 # This file is distributed under the same license as the PACKAGE package.
 # Gheyret T.Kenji <gheyret@gmail.com>, 2010
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-26 12:03+0200\n"
+"POT-Creation-Date: 2011-01-16 17:51+0100\n"
 "PO-Revision-Date: 2008-11-09 14:59+0900\n"
 "Last-Translator: Gheyret T.Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
@@ -36,21 +36,21 @@ msgstr "نەشر ئۇچۇرىنى كۆرسىتىپ ئاخىرلاشتۇرۇش"
 msgid "Thunar Volume Manager"
 msgstr "Thunar Volume باشقۇرغۇ"
 
-#: ../thunar-volman/main.c:133
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "بارلىق ھوقۇقنى ساقلاپ قالىدۇ."
 
-#: ../thunar-volman/main.c:134
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "كەمتۈكنى <%s> غا دوكلات قىلىڭ."
 
-#: ../thunar-volman/main.c:188
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr ""
 
-#: ../thunar-volman/main.c:200
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr ""
@@ -73,7 +73,7 @@ msgstr "سۈرەتلەرنى ئىمپورت قىلامسىز؟ ياكى مۇزى
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:826 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "پەرۋا قىلما(_N)"
@@ -143,72 +143,72 @@ msgstr "ئۆزلۈكىدىن ئېچىلىدىكەن"
 msgid "_Open"
 msgstr "ئاچ(_O)"
 
-#: ../thunar-volman/tvm-block-device.c:616
+#: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
 msgstr "CD mount قىلىندى"
 
-#: ../thunar-volman/tvm-block-device.c:616
+#: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
 msgstr "DVD mount قىلىندى"
 
-#: ../thunar-volman/tvm-block-device.c:618
+#: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
 msgstr "CD ئۆزلۈكىدىن mount قىلىنىپتۇ"
 
-#: ../thunar-volman/tvm-block-device.c:619
+#: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
 msgstr "DVD ئۆزلۈكىدىن mount قىلىنىپتۇ"
 
-#: ../thunar-volman/tvm-block-device.c:629
+#: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
 msgstr "Volume mount قىلىندى"
 
-#: ../thunar-volman/tvm-block-device.c:632
+#: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
 msgstr "volume \"%s\" ئۆزلۈكىدىن mount قىلىنىپتۇ"
 
-#: ../thunar-volman/tvm-block-device.c:637
+#: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
 msgstr "سېلىنغان volume ئۆزلۈكىدىن mount قىلىنىپتۇ"
 
-#: ../thunar-volman/tvm-block-device.c:691
+#: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
 msgstr "mount نۇقتىسىنى بېكىتكىلى بولمىدى"
 
-#: ../thunar-volman/tvm-block-device.c:737
+#: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
 msgstr "ئۈسكۈنىنى mount قىلغىلى بولمىدى"
 
-#: ../thunar-volman/tvm-block-device.c:746
+#: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
 msgstr "ئۈسكىنىگە ماس كېلىدىغان volume تېپىلمىدى"
 
-#: ../thunar-volman/tvm-block-device.c:821
+#: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
 msgstr "ئۈن/سانلىق-ئاساس CD"
 
-#: ../thunar-volman/tvm-block-device.c:822
+#: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
 msgstr "قوزغاتقۇچتىكى CD دا مۇزىكا ۋە ھۆججەتلەر بار ئىكەن"
 
-#: ../thunar-volman/tvm-block-device.c:824
+#: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
 msgstr "مۇزىكا ئاڭلامسىز؟ ياكى ھۆججەتلەرنى كۆرەمسىز؟"
 
-#: ../thunar-volman/tvm-block-device.c:827
+#: ../thunar-volman/tvm-block-device.c:830
 msgid "_Browse Files"
 msgstr "ھۆججەتلەرنى كور(_B)"
 
-#: ../thunar-volman/tvm-block-device.c:828
+#: ../thunar-volman/tvm-block-device.c:831
 msgid "_Play CD"
 msgstr "CD نى چال(_P)"
 
-#: ../thunar-volman/tvm-block-device.c:916
+#: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
 msgstr "نامەلۇم block ئۈسكىنە تىپى"
@@ -257,7 +257,7 @@ msgstr "چاشقىنەك تېپىلدى"
 msgid "A mouse was detected"
 msgstr "بىر چاشقىنەك تېپىلدى"
 
-#: ../thunar-volman/tvm-input-device.c:139
+#: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
 msgstr "تونۇمايدىغان كىرگۈزۈش ئۈسكىنە تىپى"
@@ -325,7 +325,7 @@ msgstr ""
 msgid "A USB printer was detected"
 msgstr ""
 
-#: ../thunar-volman/tvm-usb-device.c:98
+#: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
 msgstr ""
@@ -523,7 +523,8 @@ msgid "Keyboards"
 msgstr "キーボード"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "USBキーボードが接続されたら自動的にプログラムを実行する(_K)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -531,7 +532,8 @@ msgid "Mice"
 msgstr "Mice"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "USBマウスが接続されたら自動的にプログラムを実行する(_M)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654

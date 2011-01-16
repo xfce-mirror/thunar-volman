@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2011-01-16 17:51+0100\n"
 "PO-Revision-Date: 2009-03-24 17:30+0100\n"
 "Last-Translator: Piotr Sokół <piotr.sokol@10g.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
@@ -34,25 +34,25 @@ msgid "Print version information and exit"
 msgstr "Wypisuje informacje o wersji i kończy"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Menedżer wolumenów programu Thunar"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr ""
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Proszę zgłaszać błędy na adres <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr ""
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, fuzzy, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Należy określić UDI nowego urządzenia HAL przez --device-added"
@@ -541,7 +541,8 @@ msgid "Keyboards"
 msgstr "Klawiatury"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Uruchamianie programu po podłączeniu _klawiatury USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -549,7 +550,8 @@ msgid "Mice"
 msgstr "Myszy"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Uruchamianie programu po podłączeniu _myszy USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654

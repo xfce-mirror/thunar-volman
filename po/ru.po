@@ -2,19 +2,19 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Pavel Labushev <p.labushev@gmail.com>, 2009.
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2011-01-16 17:51+0100\n"
 "PO-Revision-Date: 2009-02-20 12:42+0700\n"
 "Last-Translator: Pavel Labushev <p.labushev@gmail.com>\n"
 "Language-Team: Russian <xfce-i18n-ru@xfce.org>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 
@@ -33,28 +33,30 @@ msgid "Print version information and exit"
 msgstr "Вывести информацию о версии и завершить работу"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Менеджер томов для Thunar"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Все права защищены."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Пожалуйста, сообщайте об ошибках по адресу <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Не найдено устройства по системному пути \"%s\""
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Необходимо указать путь в sysfs для новых устройств с помощью ключа --device-added"
+msgstr ""
+"Необходимо указать путь в sysfs для новых устройств с помощью ключа --device-"
+"added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -100,7 +102,9 @@ msgid "A photo card has been detected"
 msgstr "Обнаружена флеш-карта с фотографиями"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "На флэш-карте обнаружены фотографии. Хотите добавить их в альбом?"
 
 #. prompt the user to execute the file
@@ -374,8 +378,9 @@ msgstr "Сценарии Ruby"
 msgid "Shell Scripts"
 msgstr "Сценарии Shell"
 
+#.
 #. Storage
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Накопители"
@@ -410,7 +415,8 @@ msgstr "Пустые CD и DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "Запускать приложение для _записи дисков при обнаружении пустого CD или DVD"
+msgstr ""
+"Запускать приложение для _записи дисков при обнаружении пустого CD или DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
@@ -420,8 +426,9 @@ msgstr "Команда для записи _данных"
 msgid "Command for A_udio CDs:"
 msgstr "Команда для записи _аудио"
 
+#.
 #. Multimedia
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Мультимедиа"
@@ -465,8 +472,9 @@ msgstr "Музыкальные плееры"
 msgid "Play _music files when connected"
 msgstr "Проигрывать файлы с _музыкой при подключении плеера"
 
+#.
 #. Cameras
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Камеры"
@@ -479,8 +487,9 @@ msgstr "Цифровые камеры"
 msgid "Import digital photographs when connected"
 msgstr "_Импортировать цифровые фотографии при подключении камеры"
 
+#.
 #. PDAs
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "КПК"
@@ -501,8 +510,9 @@ msgstr "КПК"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Синхронизировать _КПК при подключении"
 
+#.
 #. Printers
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -512,8 +522,9 @@ msgstr "Принтеры"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Запускать приложение при подключении _принтера"
 
+#.
 #. Input Devices
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Устройства ввода"
@@ -523,7 +534,8 @@ msgid "Keyboards"
 msgstr "Клавиатуры"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Запускать приложение при подключении _клавиатуры USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -531,7 +543,8 @@ msgid "Mice"
 msgstr "Мыши"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Запускать приложение при подключении _мыши USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -565,8 +578,11 @@ msgstr "Не удалось открыть обозреватель докуме
 #~ msgid "Encrypted volume"
 #~ msgstr "Зашифрованный том"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Подключение зашифрованного тома...</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Подключение зашифрованного тома...</"
+#~ "span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Настройка подсистемы шифрования..."
@@ -580,7 +596,8 @@ msgstr "Не удалось открыть обозреватель докуме
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Неправильный пароль.</span>"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Этот том зашифрован.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."

@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfce 4-i18-goodies\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2011-01-16 17:51+0100\n"
 "PO-Revision-Date: 2010-12-07 02:48+0100\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../thunar-volman/main.c:59
@@ -32,28 +32,30 @@ msgid "Print version information and exit"
 msgstr "Zobrazí informace o verzi a ukončí se"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Správce svazků aplikace Thunar"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Všechna práva vyhrazena."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Prosíme, abyste chyby hlásili na adresu <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Neexistuje zažízení s cestou sysfs \"%s\""
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Je nutné zadat novou cestu sysfs nového zařízení pomocí přepínače --device-added"
+msgstr ""
+"Je nutné zadat novou cestu sysfs nového zařízení pomocí přepínače --device-"
+"added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -73,8 +75,7 @@ msgstr "Chcete importovat fotografie nebo spravovat hudbu?"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829
-#: ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "Ig_norovat"
@@ -98,7 +99,9 @@ msgid "A photo card has been detected"
 msgstr "Byla nalezena karta s fotografiemi"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "Na kartě jsou fotografie. Chcete je přidat do svého alba?"
 
 #. prompt the user to execute the file
@@ -274,8 +277,7 @@ msgstr "Vložen prázdný disk DVD"
 msgid "You have inserted a blank DVD."
 msgstr "Vložili jste prázdný disk DVD."
 
-#: ../thunar-volman/tvm-run.c:191
-#: ../thunar-volman/tvm-run.c:202
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
 msgstr "Vyberte si z následujících možností"
 
@@ -523,7 +525,8 @@ msgid "Keyboards"
 msgstr "Klávesnice"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "_Automaticky spustit program po připojení klávesnice s rozhraním USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -531,7 +534,8 @@ msgid "Mice"
 msgstr "Myši"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Automaticky spustit program po připojení _myši s rozhraním USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -552,43 +556,58 @@ msgstr "Nepodařilo se otevřít prohlížeč dokumentace"
 
 #~ msgid "Failed to open display"
 #~ msgstr "Nepodařilo se otevřít displej"
+
 #~ msgid "The Thunar development team. All rights reserved."
 #~ msgstr "Vývojový tým aplikace Thunar. Všechna práva vyhrazena."
+
 #~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
 #~ msgstr "Napsal Benedikt Meurer <benny@xfce.org>."
+
 #~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
 #~ msgstr ""
 #~ "Zadaný identifikátor zařízení (UDI) \"%s\" není platným identifikátorem "
 #~ "zařízení vrstvy HAL"
+
 #~ msgid "Encrypted volume"
 #~ msgstr "Šifrovaný svazek"
+
 #~ msgid ""
 #~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
 #~ msgstr ""
 #~ "<span weight=\"bold\" size=\"larger\">Připojování šifrovaného svazku...</"
 #~ "span>"
+
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Nastavování šifrovací vrstvy..."
+
 #~ msgid "You are not privileged to setup the crypto layer"
 #~ msgstr "Nemáte oprávnění nastavovat šifrovací vrstvu"
+
 #~ msgid "Wrong password"
 #~ msgstr "Špatné heslo"
+
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Špatné heslo.</span>"
+
 #~ msgid ""
 #~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 #~ msgstr ""
 #~ "<span weight=\"bold\" size=\"larger\">Tento svazek je šifrovaný.</span>"
+
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Pro odšifrování a připojení svazku zadejte heslo."
+
 #~ msgid "_Mount"
 #~ msgstr "_Připojit"
+
 #~ msgid "Failed to setup the encrypted volume"
 #~ msgstr "Nepodařilo se nastavit šifrovaný svazek"
+
 #~ msgid "Choose Disc Type"
 #~ msgstr "Zvolte typ disku"
+
 #~ msgid "Make _DVD"
 #~ msgstr "Vytvořit _DVD"
+
 #~ msgid "Removable Media"
 #~ msgstr "Vyměnitelná média"
-

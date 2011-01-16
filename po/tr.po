@@ -1,17 +1,17 @@
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar volman plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2011-01-16 17:51+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Samed Beyribey <ras0ir@eventualis.org>\n"
 "Language-Team: Xfce TR <xfce-tr@googlegroups.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Country: TURKEY\n"
-"Language: \n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -28,25 +28,25 @@ msgid "Print version information and exit"
 msgstr "Sürüm bilgisini göster ve çık"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Thunar Birim Yöneticisi"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Tüm hakları saklıdır."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Hataları lütfen <%s> adresine bildirin."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "\"%s\" dizininde bir sürücü bulunamadı."
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, fuzzy, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Yeni HAL aygıt UDI değeri --device-added ile belirtilmelidir"
@@ -94,8 +94,12 @@ msgid "A photo card has been detected"
 msgstr "Fotoğraf kartı tespit edildi."
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
-msgstr "Kart üzerinde fotoğraflar bulundu. Bu fotoğrafları albüme aktarmak ister misiniz?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr ""
+"Kart üzerinde fotoğraflar bulundu. Bu fotoğrafları albüme aktarmak ister "
+"misiniz?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -366,8 +370,9 @@ msgstr "Ruby Betikleri"
 msgid "Shell Scripts"
 msgstr "Kabuk Betikleri"
 
+#.
 #. Storage
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Bellek"
@@ -412,8 +417,9 @@ msgstr "_Veri CD'leri için komut:"
 msgid "Command for A_udio CDs:"
 msgstr "Müzik CD'leri için kom_ut:"
 
+#.
 #. Multimedia
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Çoklu Ortam"
@@ -457,8 +463,9 @@ msgstr "Taşınabilir Müzik Çalarlar"
 msgid "Play _music files when connected"
 msgstr "Bağlandıklarında _müzik dosyalarını çal"
 
+#.
 #. Cameras
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Fotoğraf Makineleri"
@@ -471,8 +478,9 @@ msgstr "Sayısal Fotoğraf Makineleri"
 msgid "Import digital photographs when connected"
 msgstr "Bağlandığında fotoğrafları içeri aktar"
 
+#.
 #. PDAs
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA'lar"
@@ -493,8 +501,9 @@ msgstr "Cep Bilgisayarları"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "_Cep bilgisayarları bağlandığında senkronize et"
 
+#.
 #. Printers
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -504,8 +513,9 @@ msgstr "Yazıcılar"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Yazıcı bağlandığında otomatik olarak uy_gulama çalıştır"
 
+#.
 #. Input Devices
-#. 
+#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Girdi Aygıtları"
@@ -515,7 +525,8 @@ msgid "Keyboards"
 msgstr "Klavyeler"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "USB _klavye bağlandığında uygulama çalıştır"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -523,7 +534,8 @@ msgid "Mice"
 msgstr "Fare"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "USB fare bağlandığında uygula_ma çalıştır"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -557,8 +569,11 @@ msgstr "Doküman tarayıcı açılamadı"
 #~ msgid "Encrypted volume"
 #~ msgstr "Şifrelenmiş birim"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Şifrelenmiş birim bağlanıyor...</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Şifrelenmiş birim bağlanıyor...</"
+#~ "span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Şifre katmanı ayarlanıyor..."
@@ -572,7 +587,8 @@ msgstr "Doküman tarayıcı açılamadı"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Yanlış parola.</span>"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Bu birim şifrelenmiş.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
