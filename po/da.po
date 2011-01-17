@@ -2,19 +2,19 @@
 # Copyright (c) 2004-2007 The Thunar development team. All rights reserved.
 # This file is distributed under the same license as the thunar-volman package.
 # Per Kongstad <p_kongstad@op.pl>, 2008.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.3.80\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2008-10-14 11:14+0100\n"
 "Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
-"Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
 "X-Poedit-Language: Danish\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Country: DENMARK\n"
@@ -34,25 +34,25 @@ msgid "Print version information and exit"
 msgstr "Udskriv versionsinformation og afslut"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Thunar-arkivhåndtering"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr "Alle rettigheder er beskyttet."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Rapportér venligst fejl til <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Der findes ikke enhed med sysfs-stien \"%s\""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Du skal angive den nye syfs sti af den nye enhed med --device-added"
@@ -99,12 +99,8 @@ msgid "A photo card has been detected"
 msgstr "Et billedhukommelseskort er blevet fundet."
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
-msgstr ""
-"Der er billeder på hukommelseskortet. Vil du tilføje disse billeder til din "
-"samling?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "Der er billeder på hukommelseskortet. Vil du tilføje disse billeder til din samling?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -372,9 +368,8 @@ msgstr "Ruby-skripter"
 msgid "Shell Scripts"
 msgstr "Skalskripter"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Lager"
@@ -419,9 +414,8 @@ msgstr "Kommando for _data-cder:"
 msgid "Command for A_udio CDs:"
 msgstr "Kommando for _lyd-cder:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedie"
@@ -465,9 +459,8 @@ msgstr "Bærbar musikafspiller"
 msgid "Play _music files when connected"
 msgstr "Afspil _musikfiler ved tilslutning"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kameraer"
@@ -480,9 +473,8 @@ msgstr "Digitale kameraer"
 msgid "Import digital photographs when connected"
 msgstr "Importér digitale billeder ved tilslutning"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDAer"
@@ -503,9 +495,8 @@ msgstr "Lomme-PCere"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Synkronisér lomme-_PC-enheder ved tilslutning"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -515,9 +506,8 @@ msgstr "Printere"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Kør automatisk et program ved tilslutning af en _printer"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Inddata-enheder"
@@ -527,8 +517,7 @@ msgid "Keyboards"
 msgstr "Tastaturer"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
+msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "Kør automatisk et program ved tilslutning af et USB-_tastatur"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -536,8 +525,7 @@ msgid "Mice"
 msgstr "Mus"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
+msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "Kør automatisk et program ved tilslutning af en USB-_mus"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -571,10 +559,8 @@ msgstr "Kunne ikke åbne dokumentationsnavigator"
 #~ msgid "Encrypted volume"
 #~ msgstr "Krypteret arkiv"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Monterer krypteret arkiv...</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Monterer krypteret arkiv...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Indstiller krypteringslag..."
@@ -588,14 +574,11 @@ msgstr "Kunne ikke åbne dokumentationsnavigator"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Forkert adgangskode.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Dette arkiv er krypteret.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Dette arkiv er krypteret.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr ""
-#~ "Angiv venligst din adgangskode for at afkryptere og montere arkivet."
+#~ msgstr "Angiv venligst din adgangskode for at afkryptere og montere arkivet."
 
 #~ msgid "_Mount"
 #~ msgstr "_Montér"
