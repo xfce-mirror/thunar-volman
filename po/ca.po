@@ -4,19 +4,19 @@
 # This file is distributed under the same license as the thunar-volman
 # package.
 # Carles Muñoz Gorriz <carlesmu@internautas.org>, 2008.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2008-11-30 14:28+0100\n"
 "Last-Translator: Carles Muñoz Gorriz <carlesmu@internautas.org>\n"
 "Language-Team: Catalan\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Catalan\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -36,25 +36,25 @@ msgid "Print version information and exit"
 msgstr "Mostra informació sobre la versió i surt"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Gestor de volums de Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr "Tots els drets reservats"
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Envieu els errors a <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "No hi ha dispositiu en el camí \"%s\""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Heu d'especificar el camí dels nous dispositius amb --device-added"
@@ -101,9 +101,7 @@ msgid "A photo card has been detected"
 msgstr "S'ha detectat una tarjeta de fotografies."
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
 msgstr "Hi han fotos a la targeta, Voleu afegir-les al vostre àlbum?"
 
 #. prompt the user to execute the file
@@ -372,9 +370,8 @@ msgstr "Seqüències de Ruby"
 msgid "Shell Scripts"
 msgstr "Seqüències de l'intèrpret d'ordres"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Emmagatzematge"
@@ -419,9 +416,8 @@ msgstr "Ordre pels CDs de _dades:"
 msgid "Command for A_udio CDs:"
 msgstr "Ordre pels CDs d'à_udio:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimèdia"
@@ -465,9 +461,8 @@ msgstr "Reproductors de música portàtils"
 msgid "Play _music files when connected"
 msgstr "Reprodueix els fitxers de _música quan es connectin"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Càmeres"
@@ -480,9 +475,8 @@ msgstr "Càmeres fotogràfiques digitals"
 msgid "Import digital photographs when connected"
 msgstr "Importa les fotos digitals quan es connecti"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "Organitzadors personals"
@@ -503,9 +497,8 @@ msgstr "Ordinadors de butxaca"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Sincronitza els ordinadors de _butxaca quan es connectin"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -515,9 +508,8 @@ msgstr "Impressores"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Executa automàticament un programa quan es connecti una _impressora"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Dispositius d'entrada"
@@ -527,8 +519,7 @@ msgid "Keyboards"
 msgstr "Teclats"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
+msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "Executa automàticament un programa quan es connecti un _teclat USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -536,8 +527,7 @@ msgid "Mice"
 msgstr "Ratolí"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
+msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "Executa automàticament un programa quan es connecti un r_atolí USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -571,10 +561,8 @@ msgstr "No s'ha pogut obrir el visor de documentació"
 #~ msgid "Encrypted volume"
 #~ msgstr "Volum xifrat"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Muntant un volum xifrat…</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Muntant un volum xifrat…</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Configurant la capa de xifratge…"
@@ -586,13 +574,10 @@ msgstr "No s'ha pogut obrir el visor de documentació"
 #~ msgstr "Contrasenya incorrecta"
 
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Contrasenya incorrecte.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Contrasenya incorrecte.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Aquest volum està xifrat.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Aquest volum està xifrat.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Introduïu la vostra contrasenya per desxifrar i muntar el volum."
