@@ -2,20 +2,20 @@
 # thunar-volman basque translation
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Piarres Beobide <pi@beobide.net>, 2007, 2008.
 msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2008-11-09 15:38+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
 "Language-Team: Euskara <debian-l10n-basque@lists.debian.org>\n"
-"Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Pootle 1.2.0\n"
 
@@ -34,25 +34,25 @@ msgid "Print version information and exit"
 msgstr "Inprimatu bertsio argibideak eta irten"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Thunar Bolumen Kudeatzailea"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr "Eskubide guztiak erreserbaturik."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Programa erroreen berri eman hemen : <%s>"
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Ez dago  \"%s\" sysfs bidea duen gailurik"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Gailu berrien sysfs-a --device-added erabiliaz ezarri behar da"
@@ -99,11 +99,8 @@ msgid "A photo card has been detected"
 msgstr "Argazki txartel bat atzeman da"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
-msgstr ""
-"Argazkiak daude txartelean. Argazki horiek zure albumean gehitu nahi dituzu?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "Argazkiak daude txartelean. Argazki horiek zure albumean gehitu nahi dituzu?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -371,9 +368,8 @@ msgstr "Ruby Script-ak"
 msgid "Shell Scripts"
 msgstr "Shell Script-ak"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Biltegiratzea"
@@ -418,9 +414,8 @@ msgstr "_Datu CD-entzat komandoa:"
 msgid "Command for A_udio CDs:"
 msgstr "A_udio CD-entzat komandoa:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -464,9 +459,8 @@ msgstr "Musika erreproduktore eramangarriak"
 msgid "Play _music files when connected"
 msgstr "_Musika erreproduzitu sartzerakoan"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kamerak"
@@ -479,9 +473,8 @@ msgstr "Kamera Digitalak"
 msgid "Import digital photographs when connected"
 msgstr "Inportatu argazki digitalak konektatzerakoan"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA-k"
@@ -502,9 +495,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Pocket P_C gailuak sinkronizatu konektatzerakoan"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -514,9 +506,8 @@ msgstr "Inrpimagailuak"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Automatikoki programa bat abiarazi in_primagailua konektatzerakoan"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Sarrera gailuak"
@@ -526,8 +517,7 @@ msgid "Keyboards"
 msgstr "Teklatuak"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
+msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "Automatikoki programa bat abiarazi USB te_klatu bat konektatzerakoan"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -535,9 +525,8 @@ msgid "Mice"
 msgstr "Sagua"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Automatikoki programa bat abiarazi USB _Sagu bat konektatzerakoan"
+msgid "Automatically run a program when an USB _mouse is connected"
+msgstr "Automatikoki programa bat abiarazi USB _sagu bat konektatzerakoan"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -570,11 +559,8 @@ msgstr "Huts dokumentazio nabigatzailea irekitzean"
 #~ msgid "Encrypted volume"
 #~ msgstr "Enkriptaturiko bolumena"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Enkriptaturiko bolumena muntatzen..."
-#~ "</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Enkriptaturiko bolumena muntatzen...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Kriptografia geruza konfiguratzen..."
@@ -588,11 +574,8 @@ msgstr "Huts dokumentazio nabigatzailea irekitzean"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Okerreko pasahitza.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Bolumen hau enkriptaturik dago.</"
-#~ "span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Bolumen hau enkriptaturik dago.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Mesedez idatzi pasahitza bolumenda desenkriptatu eta muntatzeko."
