@@ -2,19 +2,19 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2010-10-19 09:08+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
-"Language: kk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: kk\n"
 "Plural-Forms: nplurals=1; plural=0\n"
 
 #: ../thunar-volman/main.c:59
@@ -32,25 +32,25 @@ msgid "Print version information and exit"
 msgstr "Нұсқа ақпаратын шығару мен шығу"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Thunar тасушылар басқарушысы"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr "Барлық құқықтары қорғалған."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Ақаулықтар жөнінде хабарласыңыз: <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "sysfs жолы \"%s\" болатын құрылғы жоқ"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Жаңа құрылғылар үшін syfs жолын --device-added көмегімен көрсету керек"
@@ -97,12 +97,8 @@ msgid "A photo card has been detected"
 msgstr "Фото картасы табылды"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
-msgstr ""
-"Картадан фотосуреттер табылды. Осы суреттерді альбомыңызға қосуды қалайсыз "
-"ба?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "Картадан фотосуреттер табылды. Осы суреттерді альбомыңызға қосуды қалайсыз ба?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -370,9 +366,8 @@ msgstr "Ruby скриптері"
 msgid "Shell Scripts"
 msgstr "Қоршам скриптері"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Сақтау құрылғылары"
@@ -417,9 +412,8 @@ msgstr "Мә_лімет CD үшін команда:"
 msgid "Command for A_udio CDs:"
 msgstr "_Аудио CD үшін команда:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Мультимедиа"
@@ -463,9 +457,8 @@ msgstr "Тасымалданатын медиа плеерлер"
 msgid "Play _music files when connected"
 msgstr "Қосы_лғанда, музыканы ойнату"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Камералар"
@@ -478,9 +471,8 @@ msgstr "Цифрлық камералар"
 msgid "Import digital photographs when connected"
 msgstr "Қосылғанда, цифрлық фотоларды импорттау"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -501,9 +493,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Pocket PC құрылғылары қо_сылғанда синхрондау"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -513,9 +504,8 @@ msgstr "Принтерлер"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Принтер қосылғанда бағдарламаны а_вто жөнелту"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Енгізу құрылғылары"
@@ -525,8 +515,7 @@ msgid "Keyboards"
 msgstr "Пернетақталар"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
+msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "USB _пернетақта қосылғанда бағдарламаны автожөнелту"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -534,8 +523,7 @@ msgid "Mice"
 msgstr "Тышқандар"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
+msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "USB _тышқан қосылғанда бағдарламаны автожөнелту"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -569,11 +557,8 @@ msgstr "Құжаттама шолушысын ашу сәтсіз аяқталд
 #~ msgid "Encrypted volume"
 #~ msgstr "Шифрленген диск бөлімі"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Шифрленген диск бөлімін тіркеу...</"
-#~ "span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Шифрленген диск бөлімін тіркеу...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Крипто деңгейін баптау..."
@@ -587,10 +572,8 @@ msgstr "Құжаттама шолушысын ашу сәтсіз аяқталд
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Пароль қате.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Бұл диск бөлімі шифрленген.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Бұл диск бөлімі шифрленген.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Шифрленген бөлімді оқу мен тіркеу үшін парольді көрсетіңіз."
