@@ -1,22 +1,21 @@
 # Ukrainian translation of thunar-volman
 # Copyright (C) 2007 Dmitry Nikitin
 # This file is distributed under the same license as the thunar-volman package.
-#
+# 
 # Dmitry Nikitin <luckas_fb@mail.ru>, 2007.
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2007-11-10 20:23+0200\n"
 "Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
 "Language-Team: Ukrainian <xfce-i18n@xfce.org>\n"
-"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: ../thunar-volman/main.c:59
@@ -34,25 +33,25 @@ msgid "Print version information and exit"
 msgstr "Показати інформацію про версію і вийти"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Thunar Керівник Томів"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr "Всі права застережено."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Будь-ласка, звітуйте про помилки для <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Немає пристрою з шляхом sysfs  \"%s\""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Ви повинні вказати шлях sysfs для нових пристроїв з --device-added"
@@ -99,9 +98,7 @@ msgid "A photo card has been detected"
 msgstr "Виявлена фото-картка"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
 msgstr "На картці є фотографії. Хочете додати ці фото до Вашого альбому?"
 
 #. prompt the user to execute the file
@@ -370,9 +367,8 @@ msgstr "Скрипти Рубі"
 msgid "Shell Scripts"
 msgstr "Скрипти командної оболонки"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Пристрій"
@@ -417,9 +413,8 @@ msgstr "Команди для CD з _Данними:"
 msgid "Command for A_udio CDs:"
 msgstr "Команди для CD з А_удіо:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Мультимедія"
@@ -463,9 +458,8 @@ msgstr "Портативні Музичні Плеєри"
 msgid "Play _music files when connected"
 msgstr "Грати _музичні файли коли під'єднано"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Камери"
@@ -478,9 +472,8 @@ msgstr "Цифрові камери"
 msgid "Import digital photographs when connected"
 msgstr "Імпортувати цифрові фотографії коли під'єднано"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA-пристрої"
@@ -501,9 +494,8 @@ msgstr "Pocket PCs"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Синхронізувати Pocket P_C пристрої коли під'єднано"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -513,9 +505,8 @@ msgstr "Принтери"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Автоматично запускати програму коли _принтер під'єднаний"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Пристрої Вводу"
@@ -525,18 +516,16 @@ msgid "Keyboards"
 msgstr "Клавіатури"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Автоматично запустити програму коли USB _клавіатуру під'єднано"
+msgid "Automatically run a program when an USB _keyboard is connected"
+msgstr "Автоматично запустити програму при під'єднанні USB _клавіатури"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
 msgstr "Миша"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Автоматично запускати програму коли USB _миша під'єднана"
+msgid "Automatically run a program when an USB _mouse is connected"
+msgstr "Автоматично запускати програму при під'єднанні USB _миші"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -569,11 +558,8 @@ msgstr "невдача при відкритті переглядача доку
 #~ msgid "Encrypted volume"
 #~ msgstr "Зашифрований том"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Монтування зашифрованого тому...</"
-#~ "span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Монтування зашифрованого тому...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Налаштувати криптографічний шар..."
@@ -587,8 +573,7 @@ msgstr "невдача при відкритті переглядача доку
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Невірний пароль.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Цей том зашифрований.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
