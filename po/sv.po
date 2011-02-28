@@ -2,19 +2,19 @@
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the thunar-volman package.
 # Daniel Nylander <po@danielnylander.se>, 2008.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2009-12-16 18:21+0100\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
-"Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
 
 #: ../thunar-volman/main.c:59
 #, fuzzy
@@ -32,25 +32,25 @@ msgid "Print version information and exit"
 msgstr "Skriv ut versionsinformation och avsluta"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Volymhanterare för Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr ""
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Rapportera fel till <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr ""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:202
 #, fuzzy, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Måste ange ny HAL-enhet UDI med --device-added"
@@ -61,7 +61,6 @@ msgid "Photos and Music"
 msgstr "Foton och musik"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
 msgstr "Foton hittades på din bärbara musikspelare."
 
@@ -98,12 +97,8 @@ msgid "A photo card has been detected"
 msgstr "Ett fotokort har upptäckts"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
-msgstr ""
-"Det finns foton på kortet. Vill du lägga till dessa foton till ditt "
-"fotoalbum?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "Det finns foton på kortet. Vill du lägga till dessa foton till ditt fotoalbum?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -156,11 +151,11 @@ msgstr "DVD monterad"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "CD-skivan monterades automatiskt"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "DVD-skivan monterades automatiskt"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
@@ -169,12 +164,12 @@ msgstr "Volym monterad"
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "Volymen \"%s\" monterades automatiskt"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "Inmatade volymen monterades automatiskt"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
@@ -196,9 +191,8 @@ msgid "Audio/Data CD"
 msgstr "Ljud-/data-cd"
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
-msgstr "Cd-skivan i enheten innehåller både musik och filer."
+msgstr "Cd-skivan i enheten innehåller både musik och filer"
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
@@ -215,7 +209,7 @@ msgstr "Spela _upp cd-skiva"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Okänd blockenhetstyp"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
@@ -265,7 +259,7 @@ msgstr "En mus upptäcktes"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Typ av inmatningsenhet stöds inte"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -319,9 +313,8 @@ msgid "Camera detected"
 msgstr "Kamera upptäcktes"
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "Ett fotokort har upptäckts."
+msgstr "En fotokamera har upptäckts"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
@@ -374,9 +367,8 @@ msgstr "Ruby-skript"
 msgid "Shell Scripts"
 msgstr "Skalskript"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Lagring"
@@ -421,9 +413,8 @@ msgstr "Kommando för _data-cd:"
 msgid "Command for A_udio CDs:"
 msgstr "Kommando för l_jud-cd:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -467,9 +458,8 @@ msgstr "Bärbara musikspelare"
 msgid "Play _music files when connected"
 msgstr "Spela upp _musikfiler när ansluten"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kameror"
@@ -482,9 +472,8 @@ msgstr "Digitalkameror"
 msgid "Import digital photographs when connected"
 msgstr "Importera digitalfoton när ansluten"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "Handdatorer"
@@ -505,9 +494,8 @@ msgstr "Pocket PC-datorer"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Synkronisera Pocket P_C-enheter när anslutna"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -517,9 +505,8 @@ msgstr "Skrivare"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Kör automatiskt ett program när en _skrivare ansluts"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Inmatningsenheter"
@@ -529,8 +516,7 @@ msgid "Keyboards"
 msgstr "Tangentbord"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
+msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "Kör automatiskt ett program när ett USB-_tangentbord ansluts"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -538,8 +524,7 @@ msgid "Mice"
 msgstr "Möss"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
+msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "Kör automatiskt ett program när en USB-_mus ansluts"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -573,10 +558,8 @@ msgstr "Misslyckades med att öppna dokumentationsvisaren"
 #~ msgid "Encrypted volume"
 #~ msgstr "Krypterad volym"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Monterar krypterad volym...</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Monterar krypterad volym...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Konfigurerar krypteringslagret..."
@@ -590,10 +573,8 @@ msgstr "Misslyckades med att öppna dokumentationsvisaren"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Felaktigt lösenord.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Denna volym är krypterad.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Denna volym är krypterad.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Ange ditt lösenord för att dekryptera och montera volymen."
