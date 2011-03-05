@@ -2,22 +2,22 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2010-12-07 23:43+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Cheng-Wei Chien <e.cwchien@gmail.com>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "X-Poedit-Language: Chinese\n"
-"X-Poedit-Country: TAIWAN\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Country: TAIWAN\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -34,25 +34,25 @@ msgid "Print version information and exit"
 msgstr "列出版本資訊後離開"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Thunar 儲存裝置管理員"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr "保留所有權利。"
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "請回報錯誤至 <%s>。"
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "沒有 sysfs 路徑為「%s」的裝置"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "必須以 --device-added 來指定新裝置的 sysfs 路徑"
@@ -99,9 +99,7 @@ msgid "A photo card has been detected"
 msgstr "已偵測到一張相片記憶卡"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
 msgstr "在記憶卡中找到相片。您要將這些相片加入您的相簿嗎？"
 
 #. prompt the user to execute the file
@@ -370,9 +368,8 @@ msgstr "Ruby 指令稿"
 msgid "Shell Scripts"
 msgstr "Shell 指令稿"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "儲存裝置"
@@ -417,9 +414,8 @@ msgstr "資料 CD 所用指令(_D)："
 msgid "Command for A_udio CDs:"
 msgstr "音訊 CD 所用指令(_U)："
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "多媒體"
@@ -463,9 +459,8 @@ msgstr "可攜式音樂播放器"
 msgid "Play _music files when connected"
 msgstr "連接時播放音樂檔(_M)"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "相機"
@@ -478,9 +473,8 @@ msgstr "數位相機"
 msgid "Import digital photographs when connected"
 msgstr "連接時匯入數位相片"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -501,9 +495,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "連接時同步 Pocket PC 裝置(_C)"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -513,9 +506,8 @@ msgstr "印表機"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "連接印表機時自動執行程式(_P)"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "輸入裝置"
@@ -525,8 +517,7 @@ msgid "Keyboards"
 msgstr "鍵盤"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
+msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "連接 USB 鍵盤時自動執行程式(_K)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -534,8 +525,7 @@ msgid "Mice"
 msgstr "滑鼠"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
+msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "連接 USB 滑鼠時自動執行程式(_M)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -572,6 +562,5 @@ msgstr "無法開啟文件瀏覽器"
 #~ msgid "Make _DVD"
 #~ msgstr "製作 DVD (_D)"
 
-#, fuzzy
 #~ msgid "Removable Media"
 #~ msgstr "可移除裝置與媒體"
