@@ -61,7 +61,6 @@ msgid "Photos and Music"
 msgstr "Fotos y música"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
 msgstr "Se encontraron fotos en su reproductor de música portátil"
 
@@ -94,9 +93,8 @@ msgid "Photo Import"
 msgstr "Importación de fotos"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "Se ha detectado una tarjeta con fotos."
+msgstr "Una tarjeta con fotos ha sido detectada"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid "There are photos on the card. Would you like to add these photos to your album?"
@@ -189,12 +187,10 @@ msgid "Could not detect the volume corresponding to the device"
 msgstr "No se pudo detectar el volumen en el dispositivo"
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
 msgstr "CD de audio / datos"
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
 msgstr "El CD dentro del dispositivo contiene música y archivos."
 
@@ -231,9 +227,8 @@ msgid "Keyboard detected"
 msgstr "Teclados"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Se ha detectado una tarjeta con fotos."
+msgstr "Un teclado ha sido detectado"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
@@ -278,9 +273,8 @@ msgid "Blank DVD inserted"
 msgstr "DVD virgen insertado"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Ha insertado un disco virgen."
+msgstr "Ha insertado un DVD virgen."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -296,12 +290,10 @@ msgid "Blank CD inserted"
 msgstr "Borrar CDs y DVDs"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Ha insertado un disco virgen."
+msgstr "Ha insertado un CD virgen."
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
 msgstr "Crear un CD de _datos"
 
@@ -324,9 +316,8 @@ msgid "Camera detected"
 msgstr "Cámara detectada"
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "Se ha detectado una tarjeta con fotos."
+msgstr "Una camara digital ha sido detectada"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
@@ -343,9 +334,8 @@ msgstr "Dispositivo USB no soportado"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Gestor de volúmenes de Thunar"
+msgstr "Configuraciones del Gestor de Volúmenes de Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -529,7 +519,6 @@ msgid "Keyboards"
 msgstr "Teclados"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
 msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "Ejecutar automáticamente un programa al conectar un te_clado USB"
 
@@ -538,7 +527,6 @@ msgid "Mice"
 msgstr "Ratones"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
 msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "Ejecutar automáticamente un programa al conectar un _ratón USB"
 
