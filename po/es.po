@@ -222,9 +222,8 @@ msgid "input-keyboard"
 msgstr "Teclados"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Teclados"
+msgstr "Un teclado ha sido detectado"
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
@@ -285,9 +284,8 @@ msgid "Burn _DVD"
 msgstr "Crear _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Borrar CDs y DVDs"
+msgstr "CD virgen insertado"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
