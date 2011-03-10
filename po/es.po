@@ -17,7 +17,6 @@ msgstr ""
 "Language: es\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
 msgstr "El UDI de dispositivo HAL del nuevo dispositivo añadido"
 
