@@ -48,10 +48,10 @@ msgstr "Por favor, informe de fallos a <%s>."
 #: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "No existe el dispositivo con el UDI \"%s\""
 
 #: ../thunar-volman/main.c:202
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Debe especificar el nuevo UDI de dispositivo HAL con --device-added"
 
@@ -209,7 +209,7 @@ msgstr "_Reproducir CD"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Tipo de dispositivo por bloque desconocido"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
@@ -217,9 +217,8 @@ msgid "Device type not supported"
 msgstr "Dispositivo no soportado"
 
 #: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
 msgid "input-keyboard"
-msgstr "Teclados"
+msgstr "input-keyboard"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -232,22 +231,21 @@ msgstr "Un teclado ha sido detectado"
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
 msgid "input-tablet"
-msgstr ""
+msgstr "input-tablet"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Capacidad de auto-ejecución detectada"
+msgstr "Pantalla táctil detectada."
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "Una pantalla táctil ha sido detectada."
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr ""
+msgstr "input-mouse"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
