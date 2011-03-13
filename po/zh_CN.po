@@ -241,38 +241,37 @@ msgstr "检测到平板"
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "检测到一块绘图板"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr ""
+msgstr "鼠标输入"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "检测到鼠标"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "检测到一个鼠标"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "不支持的输入设备类型"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "自动刻录空白 CD 和 DVD 的功能被禁用"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "空白 DVD 被插入"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "您插入了一张空白光盘。"
+msgstr "您插入了一张空白 DVD。"
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -280,65 +279,59 @@ msgstr "接下来您要做什么？"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "刻录 DVD (_D)"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "空白 CD 与 DVD"
+msgstr "空白 CD 被插入"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "您插入了一张空白光盘。"
+msgstr "您插入了一张空白 CD。"
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "制作数据 CD(_D)"
+msgstr "刻录数据 CD(_D)"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "制作音乐 CD(_A)"
+msgstr "刻录音乐 CD(_A)"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "刻录指令不能为空"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "CD 播放命令未指定"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "检测到相机"
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "检测到照片存储卡。"
+msgstr "检测到一台照相机"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "检测到打印机"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "检测到一台 USB 打印机"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "不支持的 USB 设备类型"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Thunar 卷管理器"
+msgstr "Thunar 卷管理设置"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -522,7 +515,6 @@ msgid "Keyboards"
 msgstr "键盘"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
 msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "USB 键盘连接后自动运行程序(_K)"
 
@@ -531,7 +523,6 @@ msgid "Mice"
 msgstr "鼠标"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
 msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "USB 鼠标连接后自动运行程序(_M)"
 
