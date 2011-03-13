@@ -3,24 +3,23 @@
 # This file is distributed under the same license as the thunar-volman package.
 # Jiahua Huang <jhuangjiahua@gmail.com>, 2009.
 # Hunt Xu <huntxu@live.cn>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2009-06-16 13:00+0800\n"
 "Last-Translator: Hunt Xu <huntxu@live.cn>\n"
 "Language-Team: Chinese (Simplified) <xfce-i18n@xfce.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "新插入的 HAL 设备 UDI"
+msgstr "新添加的设备的 sysf 路径"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -33,28 +32,28 @@ msgid "Print version information and exit"
 msgstr "打印版本信息并退出"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Thunar 卷管理器"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
-msgstr ""
+msgstr "保留所有权利。"
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "请报告 bug 至 <%s>。"
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "没有 sysfs 路径为 \"%s\" 的设备"
 
-#: ../thunar-volman/main.c:186
-#, fuzzy, c-format
+#: ../thunar-volman/main.c:202
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "必须使用 --device-added 来指定新的 HAL 设备 UDI"
+msgstr "必须使用 --device-added 来指定新设备的 sysfs 路径"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -62,9 +61,8 @@ msgid "Photos and Music"
 msgstr "照片和音乐"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "在您的音乐播放器里找到相片。"
+msgstr "在您的便携式音乐播放器里找到相片"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -95,14 +93,11 @@ msgid "Photo Import"
 msgstr "照片导入"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "检测到照片存储卡。"
+msgstr "检测到照片存储卡"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
 msgstr "存储卡中有照片。是否添加到相册？"
 
 #. prompt the user to execute the file
@@ -148,56 +143,54 @@ msgstr "打开(_O)"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
-msgstr ""
+msgstr "CD 已挂载"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
-msgstr ""
+msgstr "DVD 已挂载"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "该 CD 已自动挂载"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "该 DVD 已自动挂载"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr ""
+msgstr "卷已挂载"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "\"%s\"  卷已被自动挂载"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "插入卷已自动挂载"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "无法定位挂载点"
 
 #: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "无法挂载该设备"
 
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "无法检测到该卷所对应的设备"
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
 msgstr "音乐/数据 CD"
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
 msgstr "驱动器中的 CD 同时包含音乐和文件。"
 
@@ -216,38 +209,34 @@ msgstr "播放 CD(_P)"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "未知的块设备类型"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "设备类型不支持"
 
 #: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
 msgid "input-keyboard"
-msgstr "键盘"
+msgstr "键盘输入"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "键盘"
+msgstr "检测到键盘"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "检测到照片存储卡。"
+msgstr "已检测一组键盘。"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
 msgid "input-tablet"
-msgstr ""
+msgstr "平板输入"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "检测到自动运行功能"
+msgstr "检测到平板"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
@@ -384,9 +373,8 @@ msgstr "Ruby 脚本"
 msgid "Shell Scripts"
 msgstr "Shell 脚本"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "存储设备"
@@ -431,9 +419,8 @@ msgstr "刻录数据 CD 的程序(_D):"
 msgid "Command for A_udio CDs:"
 msgstr "刻录音乐 CD 的程序(_U):"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "多媒体"
@@ -477,9 +464,8 @@ msgstr "MP3 播放器"
 msgid "Play _music files when connected"
 msgstr "连接后播放音乐(_M)"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "相机"
@@ -492,9 +478,8 @@ msgstr "数码相机"
 msgid "Import digital photographs when connected"
 msgstr "连接后导入照片"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -515,9 +500,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "连接时同步 Pocket PC 设备(_C)"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -527,9 +511,8 @@ msgstr "打印机"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "打印机连接后自动运行程序(_P)"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "输入设备"
@@ -540,7 +523,7 @@ msgstr "键盘"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 #, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
+msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "USB 键盘连接后自动运行程序(_K)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -549,7 +532,7 @@ msgstr "鼠标"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 #, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
+msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "USB 鼠标连接后自动运行程序(_M)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -583,8 +566,7 @@ msgstr "打开文件浏览器失败"
 #~ msgid "Encrypted volume"
 #~ msgstr "加密卷"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">正在挂载加密卷...</span>"
 
 #~ msgid "Setting up the crypto layer..."
@@ -599,8 +581,7 @@ msgstr "打开文件浏览器失败"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">密码错误。</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">此卷已被加密。</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
