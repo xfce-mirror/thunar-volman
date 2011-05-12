@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2009-08-18 11:06-0800\n"
-"Last-Translator: Auke Kok <auke-jan.h.kok@intel.com>\n"
+"Last-Translator: Pjotr\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,12 +29,12 @@ msgstr "Beheer van verwisselbare stations en media instellen"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr "Print versie informatie en sluit af"
+msgstr "Druk versie-informatie af en sluit af"
 
 #. setup application name
 #: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
-msgstr "Thunar Volume Beheer"
+msgstr "Thunar Mediumbeheerder"
 
 #: ../thunar-volman/main.c:135
 msgid "All rights reserved."
@@ -43,7 +43,7 @@ msgstr "Alle rechten voorbehouden."
 #: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr "Bugs rapporteren: <%s>."
+msgstr "Fouten graag melden aan <%s>."
 
 #: ../thunar-volman/main.c:190
 #, c-format
@@ -98,7 +98,7 @@ msgstr "Er is een fotokaartje gevonden"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid "There are photos on the card. Would you like to add these photos to your album?"
-msgstr "Op dit medium zijn foto's gevonden. Wilt u deze foto's toevoegen aan uw album?"
+msgstr "Op dit kaartje zijn foto's gevonden. Wilt u deze foto's toevoegen aan uw album?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -106,22 +106,22 @@ msgstr "Op dit medium zijn foto's gevonden. Wilt u deze foto's toevoegen aan uw 
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "Wilt u \"%s\" uitvoeren?"
+msgstr "Wilt u \"%s\" toestaan om te draaien?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
 msgid "Auto-Run Confirmation"
-msgstr "Auto-start bevestigen"
+msgstr "Autostart bevestigen"
 
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run capability detected"
-msgstr "Auto-start mogelijkheid gevonden"
+msgstr "Autostart-vermogen aangetroffen"
 
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
-msgstr "Auto-start _Toestaan"
+msgstr "Autostart _Toestaan"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:502
@@ -135,7 +135,7 @@ msgstr "Automatisch openen bevestigen"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
-msgstr "Mogelijkheid om automatisch te openen gevonden"
+msgstr "Vermogen om automatisch te openen aangetroffen"
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
@@ -151,11 +151,11 @@ msgstr "DVD is aangekoppeld"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr "De CD is automatisch aangekoppeld"
+msgstr "De CD werd automatisch aangekoppeld"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr "De DVD is automatisch aangekoppeld"
+msgstr "De DVD werd automatisch aangekoppeld"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
@@ -164,12 +164,12 @@ msgstr "Medium is aangekoppeld"
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "Het medium \"%s\" is automatisch aangekoppeld"
+msgstr "Het medium \"%s\" werd automatisch aangekoppeld"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr "Het erin gestopte medium is automatisch aangekoppeld"
+msgstr "Het erin gestopte medium werd automatisch aangekoppeld"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
@@ -222,11 +222,11 @@ msgstr "invoer-toetsenbord"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
-msgstr "Toetsenbord gevonden"
+msgstr "Toetsenbord aangetroffen"
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
-msgstr "Een toetsenbord is gevonden"
+msgstr "Een toetsenbord werd aangetroffen"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
@@ -245,7 +245,7 @@ msgstr "Er is een tekentablet gevonden"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr "invoer-muis"
+msgstr "invoermuis"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -253,7 +253,7 @@ msgstr "Muis gevonden"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr "Er is een muis gevonden"
+msgstr "Er werd een muis aangetroffen"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
@@ -336,15 +336,15 @@ msgstr "Instellingen voor Thunar Mediumbeheerder"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
-msgstr "Verwisselbare apparaten en media"
+msgstr "Verwisselbare Stations en Media"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
-msgstr "Selecteer een applicatie"
+msgstr "Selecteer een toepassing"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:250
 msgid "All Files"
-msgstr "Voeg bestanden toe"
+msgstr "Alle bestanden"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:255
 msgid "Executable Files"
@@ -374,19 +374,19 @@ msgstr "Opslag"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:141
 msgid "Removable Storage"
-msgstr "Verwisselbare opslag"
+msgstr "Verwijderbare opslag"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "Automatisch aankoppelen van verwisselbare s_tations wanneer deze worden ingeplugd"
+msgstr "Automatisch aankoppelen van verwijderbare s_tations wanneer deze worden ingeplugd"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
-msgstr "Automatisch aankoppelen van verwisselbare _media wanneer deze worden ingeplugd"
+msgstr "Automatisch aankoppelen van verwijderbare _media wanneer deze worden ingebracht"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "B_rowse removable media when inserted"
-msgstr "Door bestanden b_laderen bij verwisselbare media wanneer deze worden ingeplugd"
+msgstr "Doorzoek verwijderbare media wanneer deze worden ingebracht"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
@@ -402,15 +402,15 @@ msgstr "Lege CD's en DVD's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "Een lege CD of DVD _branden wanneer deze wordt ingevoerd"
+msgstr "Een lege CD of DVD _branden wanneer deze wordt ingebracht"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr "Commando voor _Data CD's"
+msgstr "Commando voor Gegevens-C_D's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "Commando voor _Muziek CD's"
+msgstr "Commando voor _Muziek-CD's"
 
 #. Multimedia
 #. 
@@ -420,11 +420,11 @@ msgstr "Multimedia"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:266
 msgid "Audio CDs"
-msgstr "Muziek CD's"
+msgstr "Muziek-CD's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr "Speel _Muziek CD's wanneer deze worden ingevoerd"
+msgstr "Speel _Muziek-CD's wanneer deze worden ingebracht"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -436,11 +436,11 @@ msgstr "_Commando:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr "Video CD's/DVD's"
+msgstr "Video-CD's/DVD's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "Speel _video CD's en DVD's wanneer deze worden ingevoerd"
+msgstr "Speel _video-CD's en -DVD's wanneer deze worden ingebracht"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
@@ -455,7 +455,7 @@ msgstr "Draagbare Muziekspelers"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
-msgstr "_Muziek afspelen wanneer muziekspelers worden ingevoerd"
+msgstr "_Muziekbestanden afspelen wanneer verbonden"
 
 #. Cameras
 #. 
@@ -469,7 +469,7 @@ msgstr "Digitale Camera's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr "Foto's importeren wanneer een digitale camera wordt aangesloten"
+msgstr "Foto's importeren wanneer aangesloten"
 
 #. PDAs
 #. 
@@ -487,22 +487,22 @@ msgstr "_Palm™ apparaat synchroniseren bij het aansluiten"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
-msgstr "Pocket PC's"
+msgstr "Pocket-PC's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Pocket P_C apparaat synchroniseren bij het aansluiten"
+msgstr "Pocket-P_C-apparaten synchroniseren bij het aansluiten"
 
 #. Printers
 #. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
-msgstr "Printer's"
+msgstr "Printers"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
-msgstr "Een programma automatisch uitvoeren wanneer een _printer wordt aangesloten"
+msgstr "Een programma automatisch uitvoeren wanneer er een _printer wordt aangesloten"
 
 #. Input Devices
 #. 
@@ -532,7 +532,7 @@ msgstr "Tablet"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "Een programma automatisch uitvoeren wanneer een _tablet PC wordt aangesloten"
+msgstr "Een programma automatisch uitvoeren wanneer een _tablet-PC wordt aangesloten"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
@@ -540,31 +540,31 @@ msgstr "_Commando:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
-msgstr "Kon documentatie verkenner niet openen"
+msgstr "Kon de documentatieverkenner niet openen"
 
 #~ msgid "Failed to open display"
 #~ msgstr "Kon scherm niet openen"
 
 #~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Het Thunar ontwikkel team. Alle rechten voorbehouden"
+#~ msgstr "De Thunar-ontwikkelploeg. Alle rechten voorbehouden"
 
 #~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
 #~ msgstr "Geschreven door Benedikt Meurer <benny@xfce.org>"
 
 #~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "De opgegeven UDI \"%s\" is geen correcte HAL apparaat UDI"
+#~ msgstr "De opgegeven UDI \"%s\" is geen correcte UDI voor een HAL-apparaat"
 
 #~ msgid "Encrypted volume"
-#~ msgstr "Versleuteld volume"
+#~ msgstr "Versleuteld medium"
 
 #~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Versleuteld volume aankoppelen...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Bezig met aankoppelen van versleuteld medium...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Initialisatie cryptografische laag..."
 
 #~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Je hebt geen privileges om de cryptografische laag op te zetten"
+#~ msgstr "U hebt geen rechten voor het initialiseren van de cryptografische laag"
 
 #~ msgid "Wrong password"
 #~ msgstr "Fout wachtwoord"
@@ -573,16 +573,16 @@ msgstr "Kon documentatie verkenner niet openen"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Fout wachtwoord.</span>"
 
 #~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Dit volume is versleuteld.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Dit medium is versleuteld.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Geef je wachtwoord on het volume aan te koppelen en te ontsleutelen."
+#~ msgstr "Geef uw wachtwoord on het medium aan te koppelen en te ontsleutelen."
 
 #~ msgid "_Mount"
 #~ msgstr "_Aankoppelen"
 
 #~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Fout bij opzetten versleuteld volume"
+#~ msgstr "Fout bij initialiseren van het versleutelde medium"
 
 #~ msgid "Choose Disc Type"
 #~ msgstr "Kies Type Schijf"
@@ -591,4 +591,4 @@ msgstr "Kon documentatie verkenner niet openen"
 #~ msgstr "Een _DVD maken"
 
 #~ msgid "Removable Media"
-#~ msgstr "Verwisselbare media"
+#~ msgstr "Verwisselbare Media"
