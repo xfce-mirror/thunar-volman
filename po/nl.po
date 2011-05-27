@@ -1,11 +1,12 @@
-# Dutch translation for thunar-volman
-# Copyright (C) 2007 Remco den Breeje
+# Dutch translation of the thunar-volman package.
+# Copyright (C) The Xfce development team.
 # This file is distributed under the same license as the thunar-volman package.
 # Remco den Breeje <remco@vioco.nl>, 2007.
+# Pjotr, 2011.
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2009-08-18 11:06-0800\n"
@@ -300,12 +301,12 @@ msgstr "Brand Gel_uids-CD"
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr "Het brandcommando mag niet leeg zijn"
+msgstr "De brandopdracht mag niet leeg zijn"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr "Het commando voor de CD-speler is niet vastgesteld"
+msgstr "De opdracht voor de CD-speler is niet vastgesteld"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
@@ -406,11 +407,11 @@ msgstr "Een lege CD of DVD _branden wanneer deze wordt ingebracht"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr "Commando voor Gegevens-C_D's"
+msgstr "Opdracht voor Gegevens-C_D's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "Commando voor _Muziek-CD's"
+msgstr "Opdracht voor _Muziek-CD's"
 
 #. Multimedia
 #. 
@@ -432,7 +433,7 @@ msgstr "Speel _Muziek-CD's wanneer deze worden ingebracht"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:553
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:601
 msgid "_Command:"
-msgstr "_Commando:"
+msgstr "_Opdracht:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
@@ -447,7 +448,7 @@ msgstr "Speel _video-CD's en -DVD's wanneer deze worden ingebracht"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:505
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:640
 msgid "C_ommand:"
-msgstr "_Commando:"
+msgstr "_Opdracht:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:343
 msgid "Portable Music Players"
@@ -536,7 +537,7 @@ msgstr "Een programma automatisch uitvoeren wanneer een _tablet-PC wordt aangesl
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
-msgstr "_Commando:"
+msgstr "_opdracht:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
@@ -591,4 +592,4 @@ msgstr "Kon de documentatieverkenner niet openen"
 #~ msgstr "Een _DVD maken"
 
 #~ msgid "Removable Media"
-#~ msgstr "Verwisselbare Media"
+#~ msgstr "Verwijderbare Media"
