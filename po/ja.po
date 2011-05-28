@@ -3,19 +3,19 @@
 # This file is distributed under the same license as the PACKAGE package.
 # HASHIMOTO Masato <cabezon.hashimoto@gmail.com>, 2008.
 # Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2008.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-17 17:26+0900\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2011-01-17 17:26+0900\n"
 "Last-Translator: Masato Hashimoto <cabezon.hashimoto@gmail.com>\n"
 "Language-Team: Japanese <xfce-users-jp@ml.fdiary.net>\n"
-"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../thunar-volman/main.c:59
@@ -33,29 +33,28 @@ msgid "Print version information and exit"
 msgstr "バージョン情報を表示して終了する"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Thunar ボリュームマネージャ"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr "All rights reserved."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "バグの報告は <%s> までお願いします。"
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Sysfs パス \"%s\" にデバイスはありません"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
-"--device-added オプションで新しいデバイスの Sysfs パスを指定してください"
+msgstr "--device-added オプションで新しいデバイスの Sysfs パスを指定してください"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -99,9 +98,7 @@ msgid "A photo card has been detected"
 msgstr "写真が保存されたメディアを検出しました"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
 msgstr "メディア内に写真があります。写真をアルバムに追加しますか?"
 
 #. prompt the user to execute the file
@@ -373,9 +370,8 @@ msgstr "Ruby スクリプト"
 msgid "Shell Scripts"
 msgstr "シェルスクリプト"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "ストレージ"
@@ -420,9 +416,8 @@ msgstr "データ CD 用コマンド(_D)"
 msgid "Command for A_udio CDs:"
 msgstr "オーディオ CD 用コマンド(_U)"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "マルチメディア"
@@ -466,9 +461,8 @@ msgstr "携帯音楽プレイヤー"
 msgid "Play _music files when connected"
 msgstr "接続されたら音楽ファイルを再生する(_M)"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "カメラ"
@@ -481,9 +475,8 @@ msgstr "デジタルカメラ"
 msgid "Import digital photographs when connected"
 msgstr "接続されたら写真を取り込む"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -504,9 +497,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Pocket PC デバイスが接続されたら同期をとる(_C)"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -516,9 +508,8 @@ msgstr "プリンタ"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "プリンタが接続されたら自動的にプログラムを実行する(_P)"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "入力デバイス"
@@ -528,7 +519,7 @@ msgid "Keyboards"
 msgstr "キーボード"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when a USB _keyboard is connected"
+msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "USB キーボードが接続されたら自動的にプログラムを実行する(_K)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -536,7 +527,7 @@ msgid "Mice"
 msgstr "マウス"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when a USB _mouse is connected"
+msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "USB マウスが接続されたら自動的にプログラムを実行する(_M)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -570,11 +561,8 @@ msgstr "ドキュメントブラウザのオープンに失敗しました"
 #~ msgid "Encrypted volume"
 #~ msgstr "暗号化ボリューム"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">暗号化ボリュームをマウントしていま"
-#~ "す...</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">暗号化ボリュームをマウントしています...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "暗号レイヤをセットアップしています..."
@@ -586,15 +574,10 @@ msgstr "ドキュメントブラウザのオープンに失敗しました"
 #~ msgstr "パスワードが正しくありません"
 
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">パスワードが正しくありません。</"
-#~ "span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">パスワードが正しくありません。</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">このボリュームは暗号化されています。"
-#~ "</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">このボリュームは暗号化されています。</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "ボリュームの暗号解読とマウントのためパスワードを入力してください。"
