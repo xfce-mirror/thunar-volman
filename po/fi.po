@@ -1,20 +1,20 @@
 # Finnish translations for thunar-volman.
 # Copyright (C) 2007 Benedikt Meurer.
 # This file is distributed under the same license as the thunar-volman package.
-# Jari Rahkonen <jari.rahkonen@pp1.inet.fi>, 2007-2010.
+# Jari Rahkonen <jari.rahkonen@pp1.inet.fi>, 2007-2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.5.x\n"
+"Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
-"PO-Revision-Date: 2010-10-17 01:03+0300\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"PO-Revision-Date: 2011-05-29 13:09+0300\n"
 "Last-Translator: Jari Rahkonen <jari.rahkonen@pp1.inet.fi>\n"
 "Language-Team: Finnish <None>\n"
-"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -31,25 +31,25 @@ msgid "Print version information and exit"
 msgstr "Tulosta versiotiedot ja poistu"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Thunarin taltionhallinta"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr "Kaikki oikeudet pidätetään."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Ilmoita vioista osoitteeseen <%s>"
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Sysfs-polku \"%s\" ei viittaa mihinkään laitteeseen."
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Määritä usien laitteiden sysfs-polut valitsimella --device-added"
@@ -522,8 +522,7 @@ msgid "Keyboards"
 msgstr "Näppäimistöt"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
+msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "Suorita sovellus, kun USB-_näppäimistö yhdistetään"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -531,8 +530,7 @@ msgid "Mice"
 msgstr "Hiiret"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
+msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "Suorita sovellus, kun USB-_hiiri yhdistetään"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
