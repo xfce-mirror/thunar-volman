@@ -2,24 +2,23 @@
 # Copyright (C) 2007 Benedikt Meurer.
 # This file is distributed under the same license as the thunar-volman package.
 # Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2008-09-03 21:13+0700\n"
 "Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
-"Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: id\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "UDI divais HAL dari divais yang baru ditambah"
+msgstr "Alamat sysfs dari divais yang baru ditambah"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -32,28 +31,28 @@ msgid "Print version information and exit"
 msgstr "Cetak informasi versi lalu keluar"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Manajer Volume Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
-msgstr ""
+msgstr "Hak cipta dilindungi undang-undang."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Silakan laporkan kutu ke <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "Tak ada divais dengan alamat sysfs \"%s\""
 
-#: ../thunar-volman/main.c:186
-#, fuzzy, c-format
+#: ../thunar-volman/main.c:202
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Harus ditentukan UDI divais HAL baru dengan --device-added"
+msgstr "Harus ditentukan alamat sysfs divais baru dengan --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -61,9 +60,8 @@ msgid "Photos and Music"
 msgstr "Foto dan Musik"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "Foto yang ditemukan pada penggelar musik portable."
+msgstr "Foto yang ditemukan pada penggelar musik portable anda"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -94,16 +92,12 @@ msgid "Photo Import"
 msgstr "Impor Foto"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "Kartu foto telah terdeteksi."
+msgstr "Kartu foto telah terdeteksi"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
-msgstr ""
-"Ada foto di dalam kartu. Anda ingin menyertakan foto ini ke dalam album anda?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "Ada foto di dalam kartu. Anda ingin menyertakan foto ini ke dalam album anda?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -148,58 +142,56 @@ msgstr "_Buka"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
-msgstr ""
+msgstr "CD dikaitkan"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
-msgstr ""
+msgstr "DVD dikaitkan"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "CD dikaitkan secara otomatis"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "DVD dikaitkan secara otomatis"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr ""
+msgstr "Volume dikaitkan"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "Volume \"%s\" dikaitkan secara otomatis"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "Volume yang dimasukkan dikaitkan secara otomatis"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "Tak dapat menemukan lokasi titik kait"
 
 #: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "Tak dapat mengaitkan divais"
 
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Tak dapat mendeteksi volume yang sesuai dengan divais"
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
-msgstr "CD Data / Audio"
+msgstr "CD Data/Audio"
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
-msgstr "CD di dalam penggerak berisi musik dan berkas."
+msgstr "CD di dalam penggerak berisi musik dan berkas"
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
@@ -216,74 +208,69 @@ msgstr "_Putar CD"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Tipe divais blok tidak diketahui"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "Tipe divais tidak didukung"
 
 #: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
 msgid "input-keyboard"
-msgstr "Papan Ketik"
+msgstr "masukan-papan ketik"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Papan Ketik"
+msgstr "Papan ketik terdeteksi"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Kartu foto telah terdeteksi."
+msgstr "Sebuah papan ketik telah terdeteksi"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
 msgid "input-tablet"
-msgstr ""
+msgstr "masukan-tablet"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Kemampuan Jalan Otomatis terdeteksi"
+msgstr "Tablet terdeteksi"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "Sebuah tablet grafis telah terdeteksi"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr ""
+msgstr "masukan-tetikus"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Tetikus terdeteksi"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "Sebuah tetikus telah terdeteksi"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Tipe divais masukan tak didukung"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "Membakar secara otomatis CD dan DVD telah dinonaktifkan"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "DVD kosong dimasukkan"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Anda telah memasukkan cakram kosong."
+msgstr "Anda telah memasukkan DVD kosong."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -291,65 +278,59 @@ msgstr "Apa yang ingin anda lakukan?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Bakar _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "CD dan DVD kosong"
+msgstr "CD kosong dimasukkan"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Anda telah memasukkan cakram kosong."
+msgstr "Anda telah memasukkan CD kosong."
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Buat CD _Data"
+msgstr "Bakar CD _Data"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Buat CD _Audio"
+msgstr "Bakar CD _Audio"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Perintah bakar tidak boleh kosong"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "Perintah pemutar CD tidak didefinisikan"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Kamera terdeteksi"
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "Kartu foto telah terdeteksi."
+msgstr "Kamera foto telah terdeteksi"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Pencetak terdeteksi"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "Sebuah pencetak USB telah terdeteksi"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Tipe divais USB tak didukung"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Manajer Volume Thunar"
+msgstr "Pengaturan Manajer Volume Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -384,9 +365,8 @@ msgstr "Skrip Ruby"
 msgid "Shell Scripts"
 msgstr "Skrip Shell"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Penyimpan"
@@ -431,9 +411,8 @@ msgstr "Perintah untuk CD _Data:"
 msgid "Command for A_udio CDs:"
 msgstr "Perintah untuk CD A_udio:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -477,9 +456,8 @@ msgstr "Penggelar Musik Portable"
 msgid "Play _music files when connected"
 msgstr "Putar berkas _musik ketika tersambung"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kamera"
@@ -492,9 +470,8 @@ msgstr "Kamera Digital"
 msgid "Import digital photographs when connected"
 msgstr "Impor foto digital ketika tersambung"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -515,9 +492,8 @@ msgstr "PC Saku"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Sinkronasi divais P_C Saku ketika tersambung"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -527,9 +503,8 @@ msgstr "Pencetak"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Otomatis menjalankan program ketika _pencetak tersambung"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Divais Masukan"
@@ -539,8 +514,7 @@ msgid "Keyboards"
 msgstr "Papan Ketik"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
+msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "Otomatis menjalankan program ketika papan _ketik USB tersambung"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -548,8 +522,7 @@ msgid "Mice"
 msgstr "Tetikus"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
+msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "Otomatis menjalankan program ketika _tetikus USB tersambung"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -583,11 +556,8 @@ msgstr "Gagal membuka peramban dokumentasi"
 #~ msgid "Encrypted volume"
 #~ msgstr "Volume terenkripsi"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Mengaitkan volume terenkripsi...</"
-#~ "span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Mengaitkan volume terenkripsi...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Mengatur lapisan kripto..."
@@ -601,14 +571,11 @@ msgstr "Gagal membuka peramban dokumentasi"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Sandi lewat salah.</span>"
 
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Volume ini terenkripsi.</span>"
+#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Volume ini terenkripsi.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr ""
-#~ "Silakan masukkan sandi lewat anda untuk mendekripsi dan mengaitkan volume."
+#~ msgstr "Silakan masukkan sandi lewat anda untuk mendekripsi dan mengaitkan volume."
 
 #~ msgid "_Mount"
 #~ msgstr "_Kait"
