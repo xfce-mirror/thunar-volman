@@ -2,7 +2,7 @@
 # Copyright (C) 2007 Benedikt Meurer.
 # This file is distributed under the same license as the thunar-volman package.
 # Ivica Kolić <ikoli@yahoo.com>, 2011.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
@@ -14,10 +14,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Poedit-Language: Croatian\n"
 "X-Poedit-Country: CROATIA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Croatian\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: ../thunar-volman/main.c:59
@@ -100,9 +99,7 @@ msgid "A photo card has been detected"
 msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
 msgstr "Ima fotografija na kartici.Želite li ih dodati u svoj album?"
 
 #. prompt the user to execute the file
@@ -254,7 +251,7 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Miš otkriven"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
@@ -314,7 +311,7 @@ msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Otkrivena je kamera"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 msgid "A photo camera was detected"
@@ -322,16 +319,16 @@ msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Otkriven je pisač"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "USB pisač je otkriven"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Nepodržana vrsta USB uređaja"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
@@ -371,9 +368,8 @@ msgstr "Ruby skripte"
 msgid "Shell Scripts"
 msgstr ""
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Pohrana"
@@ -418,9 +414,8 @@ msgstr "Naredba za _podatkovne CD-e:"
 msgid "Command for A_udio CDs:"
 msgstr "Naredba< za a_udio CD-e"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedija"
@@ -464,9 +459,8 @@ msgstr ""
 msgid "Play _music files when connected"
 msgstr ""
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kamere"
@@ -479,9 +473,8 @@ msgstr "Digitalne kamere"
 msgid "Import digital photographs when connected"
 msgstr ""
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr ""
@@ -502,9 +495,8 @@ msgstr ""
 msgid "Sync Pocket P_C devices when connected"
 msgstr ""
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -514,9 +506,8 @@ msgstr "Pisači"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Automatski poreni program kada je _pisač spojen"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr ""
