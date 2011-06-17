@@ -1,7 +1,7 @@
 # Dutch translation of the thunar-volman package.
 # Copyright (C) The Xfce development team.
 # This file is distributed under the same license as the thunar-volman package.
-# Remco den Breeje <remco@vioco.nl>, 2007.
+# Remco den Breeje, 2007.
 # Pjotr, 2011.
 # 
 msgid ""
@@ -15,7 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
+"Language: nl (Dutch)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
@@ -26,7 +26,7 @@ msgstr "Het sysfs-pad van het zojuist toegevoegde apparaat"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
-msgstr "Beheer van verwisselbare stations en media instellen"
+msgstr "Beheer van verwijderbare stations en media instellen"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -67,7 +67,7 @@ msgstr "Er zijn foto's gevonden op uw draagbare muziekspeler"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
-msgstr "Wilt u deze foto's importeren of de muziek beheren?"
+msgstr "Wilt u deze foto's invoeren of de muziek beheren?"
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
@@ -82,7 +82,7 @@ msgstr "_Afbreken"
 #: ../thunar-volman/tvm-block-device.c:209
 #: ../thunar-volman/tvm-block-device.c:278
 msgid "Import _Photos"
-msgstr "_Foto's importeren"
+msgstr "_Foto's invoeren"
 
 #: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
@@ -91,7 +91,7 @@ msgstr "_Muziek beheren"
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
 msgid "Photo Import"
-msgstr "Foto's importeren"
+msgstr "Foto's invoeren"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
@@ -379,15 +379,15 @@ msgstr "Verwijderbare opslag"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "Automatisch aankoppelen van verwijderbare s_tations wanneer deze worden ingeplugd"
+msgstr "_Koppel verwijderbare stations aan wanneer deze worden verbonden"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
-msgstr "Automatisch aankoppelen van verwijderbare _media wanneer deze worden ingebracht"
+msgstr "Koppel verwijderbare _media aan wanneer deze worden ingebracht"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "B_rowse removable media when inserted"
-msgstr "Doorzoek verwijderbare media wanneer deze worden ingebracht"
+msgstr "_Doorzoek verwijderbare media wanneer deze worden ingebracht"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
@@ -525,7 +525,7 @@ msgstr "Muizen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when an USB _mouse is connected"
-msgstr "Auto_matisch een programma uitvoeren wanneer er een USB-muis wordt aangesloten"
+msgstr "Automatisch een programma uitvoeren wanneer er een USB-_muis wordt aangesloten"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -537,7 +537,7 @@ msgstr "Een programma automatisch uitvoeren wanneer een _tablet-PC wordt aangesl
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
-msgstr "_opdracht:"
+msgstr "_Opdracht:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
@@ -586,7 +586,7 @@ msgstr "Kon de documentatieverkenner niet openen"
 #~ msgstr "Fout bij initialiseren van het versleutelde medium"
 
 #~ msgid "Choose Disc Type"
-#~ msgstr "Kies Type Schijf"
+#~ msgstr "Kies Schijftype"
 
 #~ msgid "Make _DVD"
 #~ msgstr "Een _DVD maken"
