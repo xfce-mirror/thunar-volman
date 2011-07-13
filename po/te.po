@@ -1,0 +1,551 @@
+# Xfce Telugu Translation.
+# Copyright (C) 2011 Telugu Linux Development Team.
+# This file is distributed under the same license as the PACKAGE package.
+# Praveen Illa <mail2ipn@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: thunar-volman.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"PO-Revision-Date: 2011-07-13 20:13+0530\n"
+"Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
+"Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../thunar-volman/main.c:59
+msgid "The syfs path of the newly added device"
+msgstr ""
+
+#: ../thunar-volman/main.c:60
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:104
+msgid "Configure management of removable drives and media"
+msgstr ""
+
+#: ../thunar-volman/main.c:61
+msgid "Print version information and exit"
+msgstr "రూపాంతరము సమాచారం ముద్రించు మరియు నిష్క్రమించు"
+
+#. setup application name
+#: ../thunar-volman/main.c:96
+msgid "Thunar Volume Manager"
+msgstr "తునార్ సంపుట నిర్వాహకము"
+
+#: ../thunar-volman/main.c:135
+msgid "All rights reserved."
+msgstr "అన్ని హక్కులు కేటాయించబడినవి."
+
+#: ../thunar-volman/main.c:136
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "దయచేసి బగ్‌లను <%s>కు నివేదించండి."
+
+#: ../thunar-volman/main.c:190
+#, c-format
+msgid "There is no device with the sysfs path \"%s\""
+msgstr ""
+
+#: ../thunar-volman/main.c:202
+#, c-format
+msgid "Must specify the sysfs path of new devices with --device-added"
+msgstr ""
+
+#. ...so we need to prompt what to do
+#: ../thunar-volman/tvm-block-device.c:204
+msgid "Photos and Music"
+msgstr "ఫొటోలు మరియు సంగీతం"
+
+#: ../thunar-volman/tvm-block-device.c:205
+msgid "Photos were found on your portable music player"
+msgstr "మీ పోర్టబుల్ మ్యూజిక్ ప్లేయర్ నందు ఫొటోలు కనుగొనబడ్డాయి"
+
+#: ../thunar-volman/tvm-block-device.c:206
+msgid "Would you like to import the photos or manage the music?"
+msgstr "ఫొటోలను దిగుమతి చేయుట లేదా సంగీతాన్ని నిర్వహించాలనుకుంటున్నారా?"
+
+#: ../thunar-volman/tvm-block-device.c:208
+#: ../thunar-volman/tvm-block-device.c:277
+#: ../thunar-volman/tvm-block-device.c:378
+#: ../thunar-volman/tvm-block-device.c:425
+#: ../thunar-volman/tvm-block-device.c:507
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-run.c:203
+msgid "Ig_nore"
+msgstr "వదిలివేయి (_n)"
+
+#: ../thunar-volman/tvm-block-device.c:209
+#: ../thunar-volman/tvm-block-device.c:278
+msgid "Import _Photos"
+msgstr "ఫొటోలను దిగుమతిచేయి (_P)"
+
+#: ../thunar-volman/tvm-block-device.c:210
+msgid "Manage _Music"
+msgstr "సంగీతాన్ని నిర్వహించు (_M)"
+
+#. ask the user to import photos
+#: ../thunar-volman/tvm-block-device.c:273
+msgid "Photo Import"
+msgstr "ఫొటో దిగుమతి"
+
+#: ../thunar-volman/tvm-block-device.c:274
+msgid "A photo card has been detected"
+msgstr "ఒక ఫొటో కార్డు కనుగొనబడింది"
+
+#: ../thunar-volman/tvm-block-device.c:275
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr "కార్డు నందు ఫొటోలు ఉన్నాయి. ఈ ఫొటోలను మీ ఆల్బమ్‌కు జోడించాలనుకుంటున్నారా?"
+
+#. prompt the user to execute the file
+#. prompt the user to execute this file
+#: ../thunar-volman/tvm-block-device.c:373
+#: ../thunar-volman/tvm-block-device.c:420
+#, c-format
+msgid "Would you like to allow \"%s\" to run?"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:376
+#: ../thunar-volman/tvm-block-device.c:423
+msgid "Auto-Run Confirmation"
+msgstr "స్వయం-నడుచు నిర్ధారణ"
+
+#: ../thunar-volman/tvm-block-device.c:377
+#: ../thunar-volman/tvm-block-device.c:424
+msgid "Auto-Run capability detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:379
+#: ../thunar-volman/tvm-block-device.c:426
+msgid "_Allow Auto-Run"
+msgstr ""
+
+#. prompt the user whether to autoopen this file
+#: ../thunar-volman/tvm-block-device.c:502
+#, c-format
+msgid "Would you like to open \"%s\"?"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:505
+msgid "Auto-Open Confirmation"
+msgstr "స్వయం-తెరుచు నిర్ధారణ"
+
+#: ../thunar-volman/tvm-block-device.c:506
+msgid "Auto-Open capability detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:508
+msgid "_Open"
+msgstr "తెరువు (_O)"
+
+#: ../thunar-volman/tvm-block-device.c:619
+msgid "CD mounted"
+msgstr "సీడీ అధిరోహించబడింది"
+
+#: ../thunar-volman/tvm-block-device.c:619
+msgid "DVD mounted"
+msgstr "డీవీడీ అధిరోహించబడింది"
+
+#: ../thunar-volman/tvm-block-device.c:621
+msgid "The CD was mounted automatically"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:622
+msgid "The DVD was mounted automatically"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:632
+msgid "Volume mounted"
+msgstr "సంపుటము అధిరోహించబడింది"
+
+#: ../thunar-volman/tvm-block-device.c:635
+#, c-format
+msgid "The volume \"%s\" was mounted automatically"
+msgstr "సంపుటము \"%s\" స్వయంచాలకంగా అధిరోహించబడింది"
+
+#: ../thunar-volman/tvm-block-device.c:640
+#, c-format
+msgid "The inserted volume was mounted automatically"
+msgstr "చొప్పించబడిన సంపుటము స్వయంచాలకంగా అధిరోహించబడింది"
+
+#: ../thunar-volman/tvm-block-device.c:694
+#, c-format
+msgid "Unable to locate mount point"
+msgstr "అధిరోహిత పాయింటుని నిర్దేశించలేకపోతుంది"
+
+#: ../thunar-volman/tvm-block-device.c:740
+#, c-format
+msgid "Unable to mount the device"
+msgstr "పరికరాన్ని అధిరోహించలేకపోతుంది"
+
+#: ../thunar-volman/tvm-block-device.c:749
+#, c-format
+msgid "Could not detect the volume corresponding to the device"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:824
+msgid "Audio/Data CD"
+msgstr "ఆడియో/డేటా సీడీ"
+
+#: ../thunar-volman/tvm-block-device.c:825
+msgid "The CD in the drive contains both music and files"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:827
+msgid "Would you like to listen to music or browse the files?"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:830
+msgid "_Browse Files"
+msgstr "ఫైళ్ళను విహరించు (_B)"
+
+#: ../thunar-volman/tvm-block-device.c:831
+msgid "_Play CD"
+msgstr "సీడీని ప్లేచేయి (_P)"
+
+#: ../thunar-volman/tvm-block-device.c:919
+#, c-format
+msgid "Unknown block device type"
+msgstr "తెలియని బ్లాక్ పరికర రకం"
+
+#: ../thunar-volman/tvm-device.c:139
+#, c-format
+msgid "Device type not supported"
+msgstr "పరికరము రకము సహకరించుటలేదు"
+
+#: ../thunar-volman/tvm-input-device.c:74
+msgid "input-keyboard"
+msgstr "ఇన్‌పుట్-కీబోర్డు"
+
+#: ../thunar-volman/tvm-input-device.c:75
+msgid "Keyboard detected"
+msgstr "కీబోర్డు కనుగొనబడింది"
+
+#: ../thunar-volman/tvm-input-device.c:76
+msgid "A keyboard was detected"
+msgstr "ఒక కీబోర్డు కనుగొనబడింది"
+
+#: ../thunar-volman/tvm-input-device.c:86
+#: ../thunar-volman/tvm-input-device.c:100
+msgid "input-tablet"
+msgstr "ఇన్‌పుట్-టాబ్లెట్"
+
+#: ../thunar-volman/tvm-input-device.c:87
+#: ../thunar-volman/tvm-input-device.c:101
+msgid "Tablet detected"
+msgstr "టాబ్లెట్ కనుగొనబడింది"
+
+#: ../thunar-volman/tvm-input-device.c:88
+#: ../thunar-volman/tvm-input-device.c:102
+msgid "A graphics tablet was detected"
+msgstr "ఒక గ్రాఫికల్ టాబ్లెట్ కనుగొనబడింది"
+
+#: ../thunar-volman/tvm-input-device.c:110
+msgid "input-mouse"
+msgstr "ఇన్‌పుట్-మౌస్"
+
+#: ../thunar-volman/tvm-input-device.c:111
+msgid "Mouse detected"
+msgstr "మౌస్ కనుగొనబడింది"
+
+#: ../thunar-volman/tvm-input-device.c:112
+msgid "A mouse was detected"
+msgstr "ఒక మౌస్ కనుగొనబడింది"
+
+#: ../thunar-volman/tvm-input-device.c:141
+#, c-format
+msgid "Unsupported input device type"
+msgstr "సహకారము లేని ఇన్‌పుట్ పరికరము రకం"
+
+#: ../thunar-volman/tvm-run.c:171
+#, c-format
+msgid "Autoburning of blank CDs and DVDs is disabled"
+msgstr "ఖాళీ సీడీ మరియు డీవీడీల యొక్క స్వయంచాలక బర్నింగు అచేతనం చేయబడింది"
+
+#: ../thunar-volman/tvm-run.c:189
+msgid "Blank DVD inserted"
+msgstr "ఖాళీ డీవీడీ చొప్పించబడింది"
+
+#: ../thunar-volman/tvm-run.c:190
+msgid "You have inserted a blank DVD."
+msgstr "మీరు ఒక ఖాళీ డీవీడీని చొప్పించారు."
+
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
+msgid "What would you like to do?"
+msgstr "మీరు ఏమి చేయాలనుకుంటున్నారు?"
+
+#: ../thunar-volman/tvm-run.c:193
+msgid "Burn _DVD"
+msgstr "డీవీడీని బర్న్ చేయి (_D)"
+
+#: ../thunar-volman/tvm-run.c:200
+msgid "Blank CD inserted"
+msgstr "ఖాళీ సీడీ చొప్పించబడింది"
+
+#: ../thunar-volman/tvm-run.c:201
+msgid "You have inserted a blank CD."
+msgstr "మీరు ఒక ఖాళీ సీడీని చొప్పించారు."
+
+#: ../thunar-volman/tvm-run.c:204
+msgid "Burn _Data CD"
+msgstr "డేటా సీడీని బర్న్ చేయి (_D)"
+
+#: ../thunar-volman/tvm-run.c:205
+msgid "Burn _Audio CD"
+msgstr "ఆడియో సీడీని బర్న్ చేయి (_A)"
+
+#: ../thunar-volman/tvm-run.c:229
+#, c-format
+msgid "The burn command may not be empty"
+msgstr "బర్న్ ఆదేశము ఖాళీగా ఉండకూడదు"
+
+#: ../thunar-volman/tvm-run.c:268
+#, c-format
+msgid "The CD player command is undefined"
+msgstr "సీడీ ప్లేయర్ ఆదేశము నిర్వచించలేదు"
+
+#: ../thunar-volman/tvm-usb-device.c:62
+msgid "Camera detected"
+msgstr "కెమేరా గుర్తించబడింది"
+
+#: ../thunar-volman/tvm-usb-device.c:63
+msgid "A photo camera was detected"
+msgstr "ఒక ఫొటో కెమేరా గుర్తించబడింది"
+
+#: ../thunar-volman/tvm-usb-device.c:71
+msgid "Printer detected"
+msgstr "ముద్రకము గుర్తించబడింది"
+
+#: ../thunar-volman/tvm-usb-device.c:72
+msgid "A USB printer was detected"
+msgstr "ఒక USB ముద్రకం గుర్తించబడింది"
+
+#: ../thunar-volman/tvm-usb-device.c:100
+#, c-format
+msgid "Unsupported USB device type"
+msgstr "సహకారము లేని USB పరికర రకము"
+
+#. setup application name
+#: ../thunar-volman-settings/main.c:52
+msgid "Thunar Volume Manager Settings"
+msgstr "తునార్ సంపుట నిర్వాహకము అమరికలు"
+
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:102
+msgid "Removable Drives and Media"
+msgstr "తీసివేయదగిన డ్రైవులు మరియు మాధ్యమం"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Select an Application"
+msgstr "ఒక అనువర్తనమును ఎంచుకోండి"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:250
+msgid "All Files"
+msgstr "అన్ని ఫైళ్ళు"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:255
+msgid "Executable Files"
+msgstr "ఎక్జిక్యూటబుల్ ఫైళ్ళు"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:270
+msgid "Perl Scripts"
+msgstr "పెర్ల్ స్క్రిప్టులు"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:276
+msgid "Python Scripts"
+msgstr "పైథాన్ స్క్రిప్టులు"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:282
+msgid "Ruby Scripts"
+msgstr "రుబి స్క్రిప్టులు"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:288
+msgid "Shell Scripts"
+msgstr "షెల్ స్క్రిప్టులు"
+
+#.
+#. Storage
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:130
+msgid "Storage"
+msgstr "నిల్వ"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:141
+msgid "Removable Storage"
+msgstr "తీసివేయదగిన నిల్వ"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
+msgid "_Mount removable drives when hot-plugged"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:166
+msgid "Mount removable media when _inserted"
+msgstr "తీసివేయదగిన మాధ్యమం చొప్పించినపుడు దానిని అధిరోహించు (_i)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:174
+msgid "B_rowse removable media when inserted"
+msgstr "తీసివేయదగిన మాధ్యమం చొప్పించినపుడు దానిని విహరించు (_r)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:182
+msgid "_Auto-run programs on new drives and media"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:189
+msgid "Auto-open files on new drives and media"
+msgstr "కొత్త డ్రైవులు మరియు మాధ్యమం పై వున్న ఫైళ్ళను స్వయంచాలకంగా తెరుచు"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:201
+msgid "Blank CDs and DVDs"
+msgstr "ఖాళీ సిడీలు మరియు డీవీడిలు"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:218
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "ఒక ఖాళీ డిస్కు చొప్పించినపుడు ఒక సీడీ లేదా డీవీడీని బర్న్ చేయి (_B)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:229
+msgid "Command for _Data CDs:"
+msgstr "ఆడియో సీడీల కొరకు ఆదేశం (_D):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:239
+msgid "Command for A_udio CDs:"
+msgstr "ఆడియో సీడీల కొరకు ఆదేశం (_u):"
+
+#.
+#. Multimedia
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:255
+msgid "Multimedia"
+msgstr "బహుళమాద్యమం"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:266
+msgid "Audio CDs"
+msgstr "ఆడియో సిడిలు"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:283
+msgid "Play _audio CDs when inserted"
+msgstr "ఆడియో సీడీలు చొప్పించినపుడు వాటిని ప్రదర్శించు (_a)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:290
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:466
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:553
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:601
+msgid "_Command:"
+msgstr "ఆదేశము (_C):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:304
+msgid "Video CDs/DVDs"
+msgstr "వీడియో సీడీలు/డీవీడీలు"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:321
+msgid "Play _video CDs and DVDs when inserted"
+msgstr "వీడియో సీడీలు మరియు డీవీడీలు చొప్పించినపుడు వాటిని ప్రదర్శించు (_v)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:367
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:505
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:640
+msgid "C_ommand:"
+msgstr "ఆదేశం (_o):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:343
+msgid "Portable Music Players"
+msgstr "పోర్టబుల్ మ్యూజిక్ ప్లేయర్స్"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:360
+msgid "Play _music files when connected"
+msgstr "అనుసంధానించబడినపుడు సంగీత ఫైళ్ళని ఆడించు (_m)"
+
+#.
+#. Cameras
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
+msgid "Cameras"
+msgstr "కెమేరాలు"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:390
+msgid "Digital Cameras"
+msgstr "డిజిటల్ కెమేరాలు"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:407
+msgid "Import digital photographs when connected"
+msgstr "డిజిటల్ ఫొటోగ్రాఫులు అనుసంధానమయినపుడు వాటిని దిగుమతిచేయి"
+
+#.
+#. PDAs
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:427
+msgid "PDAs"
+msgstr "PDAs"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:441
+msgid "Palm™"
+msgstr "Palm™"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:458
+msgid "Sync _Palm™ devices when connected"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:480
+msgid "Pocket PCs"
+msgstr "పాకెట్ పీసీలు"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:497
+msgid "Sync Pocket P_C devices when connected"
+msgstr ""
+
+#.
+#. Printers
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:517
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:528
+msgid "Printers"
+msgstr "ముద్రకాలు"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:545
+msgid "Automatically run a program when a _printer is connected"
+msgstr "ముద్రకము అనుసంధానించినపుడు స్వయంచాలకంగా ఒక ప్రోగ్రాముని నడుపు (_p)"
+
+#.
+#. Input Devices
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:565
+msgid "Input Devices"
+msgstr "ఇన్‌పుట్ పరికరాలు"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:576
+msgid "Keyboards"
+msgstr "కీబోర్డులు"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:593
+msgid "Automatically run a program when an USB _keyboard is connected"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:615
+msgid "Mice"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:632
+msgid "Automatically run a program when an USB _mouse is connected"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:654
+msgid "Tablet"
+msgstr "టాబ్లెట్"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:671
+msgid "Automatically run a program when a _tablet is connected"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:679
+msgid "Com_mand:"
+msgstr "ఆదేశం (_m):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
+msgid "Failed to open the documentation browser"
+msgstr "పత్రీకరణ విహారిణిని తెరుచుటలో విఫలమైంది"
