@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-07 14:39+0100\n"
-"PO-Revision-Date: 2011-06-16 14:06+0200\n"
+"PO-Revision-Date: 2011-09-08 14:06+0200\n"
 "Last-Translator: Pjotr\n"
 "Language-Team: Dutch (Flemish)\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "Moet het sysfs-pad van nieuwe apparaten specificeren met --device-added"
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
 msgid "Photos and Music"
-msgstr "Foto's en Muziek"
+msgstr "Foto's en muziek"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
@@ -122,7 +122,7 @@ msgstr "Autostart-vermogen aangetroffen"
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
-msgstr "Autostart _Toestaan"
+msgstr "Autostart _toestaan"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:502
@@ -132,7 +132,7 @@ msgstr "Wilt u \"%s\" openen?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
-msgstr "Bevestiging voor Automatisch-openen"
+msgstr "Bevestiging voor automatisch-openen"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
@@ -292,11 +292,11 @@ msgstr "U heeft een lege CD ingevoerd."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
-msgstr "Brand _Gegevens-CD"
+msgstr "Brand _gegevens-CD"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr "Brand Gel_uids-CD"
+msgstr "Brand gel_uid-CD"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -337,7 +337,7 @@ msgstr "Instellingen voor Thunar Mediumbeheerder"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
-msgstr "Verwijderbare Stations en Media"
+msgstr "Verwijderbare stations en media"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
@@ -353,19 +353,19 @@ msgstr "Uitvoerbare bestanden"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:270
 msgid "Perl Scripts"
-msgstr "Perl Scripts"
+msgstr "Perl scripts"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:276
 msgid "Python Scripts"
-msgstr "Python Scripts"
+msgstr "Python scripts"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:282
 msgid "Ruby Scripts"
-msgstr "Ruby Scripts"
+msgstr "Ruby scripts"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:288
 msgid "Shell Scripts"
-msgstr "Shell Scripts"
+msgstr "Shell scripts"
 
 #. Storage
 #. 
@@ -407,11 +407,11 @@ msgstr "Een lege CD of DVD _branden wanneer deze wordt ingebracht"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr "Opdracht voor _Gegevens-CD's"
+msgstr "Opdracht voor _gegevens-CD's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "Opdracht voor _Geluid-CD's"
+msgstr "Opdracht voor _geluid-CD's"
 
 #. Multimedia
 #. 
@@ -452,7 +452,7 @@ msgstr "_Opdracht:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:343
 msgid "Portable Music Players"
-msgstr "Draagbare Muziekspelers"
+msgstr "Draagbare muziekspelers"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
@@ -466,7 +466,7 @@ msgstr "Camera's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:390
 msgid "Digital Cameras"
-msgstr "Digitale Camera's"
+msgstr "Digitale camera's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
@@ -586,10 +586,10 @@ msgstr "Kon de documentatieverkenner niet openen"
 #~ msgstr "Fout bij initialiseren van het versleutelde medium"
 
 #~ msgid "Choose Disc Type"
-#~ msgstr "Kies Schijftype"
+#~ msgstr "Kies schijftype"
 
 #~ msgid "Make _DVD"
 #~ msgstr "Een _DVD maken"
 
 #~ msgid "Removable Media"
-#~ msgstr "Verwijderbare Media"
+#~ msgstr "Verwijderbare media"
