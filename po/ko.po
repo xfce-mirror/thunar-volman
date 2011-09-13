@@ -1,0 +1,557 @@
+# Korean translations for thunar-volman package.
+# Copyright (C) 2006-2011 The Xfce development team.
+# This file is distributed under the same license as the thunar-volman package.
+#
+# Seong-ho, Cho <darkcircle.0426@gmail.com>, 2011.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: thunar-volman.master\n"
+"Report-Msgid-Bugs-To: xfce4-users-kr-i18n <xfce4-users-kr-i18n@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"PO-Revision-Date: 2011-09-13 14:18+0900\n"
+"Last-Translator: Seong-ho, Cho <darkcircle.0426@gmail.com>\n"
+"Language-Team: xfce4-users-kr-i18n <xfce4-users-kr-i18n@lists.sourceforge.net>\n"
+"Language: Ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Korean\n"
+"X-Poedit-Country: KOREA, REPUBLIC OF\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../thunar-volman/main.c:59
+msgid "The syfs path of the newly added device"
+msgstr ""
+
+#: ../thunar-volman/main.c:60
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:104
+msgid "Configure management of removable drives and media"
+msgstr "이동식 드라이브와 미디어에 대한 설정 관리"
+
+#: ../thunar-volman/main.c:61
+msgid "Print version information and exit"
+msgstr "버전 정보를 출력하고 끝냅니다"
+
+#. setup application name
+#: ../thunar-volman/main.c:96
+msgid "Thunar Volume Manager"
+msgstr "Thunar 볼륨 관리자"
+
+#: ../thunar-volman/main.c:135
+msgid "All rights reserved."
+msgstr "All rights reserved."
+
+#: ../thunar-volman/main.c:136
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "<%s>로 버그를 보고하여 주시기 바랍니다."
+
+#: ../thunar-volman/main.c:190
+#, c-format
+msgid "There is no device with the sysfs path \"%s\""
+msgstr "sysfs 경로 \"%s\"에 장치가 없습니다 "
+
+#: ../thunar-volman/main.c:202
+#, c-format
+msgid "Must specify the sysfs path of new devices with --device-added"
+msgstr "--device-added로 새 장치의 sysfs 경로를 지정하여야 합니다"
+
+#. ...so we need to prompt what to do
+#: ../thunar-volman/tvm-block-device.c:204
+msgid "Photos and Music"
+msgstr "사진과 음악"
+
+#: ../thunar-volman/tvm-block-device.c:205
+msgid "Photos were found on your portable music player"
+msgstr "휴대용 음악 재생기에서 사진을 찾았습니다"
+
+#: ../thunar-volman/tvm-block-device.c:206
+msgid "Would you like to import the photos or manage the music?"
+msgstr "사진을 가져오거나 음악을 관리하시렵니까?"
+
+#: ../thunar-volman/tvm-block-device.c:208
+#: ../thunar-volman/tvm-block-device.c:277
+#: ../thunar-volman/tvm-block-device.c:378
+#: ../thunar-volman/tvm-block-device.c:425
+#: ../thunar-volman/tvm-block-device.c:507
+#: ../thunar-volman/tvm-block-device.c:829
+#: ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-run.c:203
+msgid "Ig_nore"
+msgstr "무시(_n)"
+
+#: ../thunar-volman/tvm-block-device.c:209
+#: ../thunar-volman/tvm-block-device.c:278
+msgid "Import _Photos"
+msgstr "사진 가져오기(_P)"
+
+#: ../thunar-volman/tvm-block-device.c:210
+msgid "Manage _Music"
+msgstr "음악 관리하기(_M)"
+
+#. ask the user to import photos
+#: ../thunar-volman/tvm-block-device.c:273
+msgid "Photo Import"
+msgstr "사진 가져오기"
+
+#: ../thunar-volman/tvm-block-device.c:274
+msgid "A photo card has been detected"
+msgstr "사진 카드가 감지되었습니다"
+
+#: ../thunar-volman/tvm-block-device.c:275
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "카드에 사진이 들어있습니다. 앨범에 이 사진을 더하시렵니까?"
+
+#. prompt the user to execute the file
+#. prompt the user to execute this file
+#: ../thunar-volman/tvm-block-device.c:373
+#: ../thunar-volman/tvm-block-device.c:420
+#, c-format
+msgid "Would you like to allow \"%s\" to run?"
+msgstr "실행을 위해 \"%s\"을(를) 허용하시렵니까?"
+
+#: ../thunar-volman/tvm-block-device.c:376
+#: ../thunar-volman/tvm-block-device.c:423
+msgid "Auto-Run Confirmation"
+msgstr "자동 실행 확인"
+
+#: ../thunar-volman/tvm-block-device.c:377
+#: ../thunar-volman/tvm-block-device.c:424
+msgid "Auto-Run capability detected"
+msgstr "자동 실행 가능성이 감지됨"
+
+#: ../thunar-volman/tvm-block-device.c:379
+#: ../thunar-volman/tvm-block-device.c:426
+msgid "_Allow Auto-Run"
+msgstr "자동 실행 허용(_A)"
+
+#. prompt the user whether to autoopen this file
+#: ../thunar-volman/tvm-block-device.c:502
+#, c-format
+msgid "Would you like to open \"%s\"?"
+msgstr "\"%s\"을(를) 여시렵니까?"
+
+#: ../thunar-volman/tvm-block-device.c:505
+msgid "Auto-Open Confirmation"
+msgstr "자동 열기 확인"
+
+#: ../thunar-volman/tvm-block-device.c:506
+msgid "Auto-Open capability detected"
+msgstr "자동 열기 가능성이 감지됨"
+
+#: ../thunar-volman/tvm-block-device.c:508
+msgid "_Open"
+msgstr "열기(_O)"
+
+#: ../thunar-volman/tvm-block-device.c:619
+msgid "CD mounted"
+msgstr "CD 마운트 됨"
+
+#: ../thunar-volman/tvm-block-device.c:619
+msgid "DVD mounted"
+msgstr "DVD 마운트 됨"
+
+#: ../thunar-volman/tvm-block-device.c:621
+msgid "The CD was mounted automatically"
+msgstr "CD가 자동으로 마운트되었습니다"
+
+#: ../thunar-volman/tvm-block-device.c:622
+msgid "The DVD was mounted automatically"
+msgstr "DVD가 자동으로 마운트되었습니다"
+
+#: ../thunar-volman/tvm-block-device.c:632
+msgid "Volume mounted"
+msgstr "볼륨 마운트 됨"
+
+#: ../thunar-volman/tvm-block-device.c:635
+#, c-format
+msgid "The volume \"%s\" was mounted automatically"
+msgstr "볼륨 \"%s\"이(가) 자동으로 마운트되었습니다"
+
+#: ../thunar-volman/tvm-block-device.c:640
+#, c-format
+msgid "The inserted volume was mounted automatically"
+msgstr "삽입된 볼륨이 자동으로 마운트되었습니다"
+
+#: ../thunar-volman/tvm-block-device.c:694
+#, c-format
+msgid "Unable to locate mount point"
+msgstr "마운트 지점을 지정할 수 없습니다"
+
+#: ../thunar-volman/tvm-block-device.c:740
+#, c-format
+msgid "Unable to mount the device"
+msgstr "장치에 마운트 할 수 없습니다"
+
+#: ../thunar-volman/tvm-block-device.c:749
+#, c-format
+msgid "Could not detect the volume corresponding to the device"
+msgstr "장치에 관련된 볼륨을 감지할 수 없습니다"
+
+#: ../thunar-volman/tvm-block-device.c:824
+msgid "Audio/Data CD"
+msgstr "오디오/데이터 CD"
+
+#: ../thunar-volman/tvm-block-device.c:825
+msgid "The CD in the drive contains both music and files"
+msgstr "드라이브에 있는 CD에 파일과 음악들이 포함되어 있습니다"
+
+#: ../thunar-volman/tvm-block-device.c:827
+msgid "Would you like to listen to music or browse the files?"
+msgstr "음악을 듣거나 파일을 탐색하시렵니까?"
+
+#: ../thunar-volman/tvm-block-device.c:830
+msgid "_Browse Files"
+msgstr "파일 탐색(_B)"
+
+#: ../thunar-volman/tvm-block-device.c:831
+msgid "_Play CD"
+msgstr "CD 재생하기(_P)"
+
+#: ../thunar-volman/tvm-block-device.c:919
+#, c-format
+msgid "Unknown block device type"
+msgstr "알 수 없는 블록 장치 유형"
+
+#: ../thunar-volman/tvm-device.c:139
+#, c-format
+msgid "Device type not supported"
+msgstr "장치 유형이 지원되지 않습니다"
+
+#: ../thunar-volman/tvm-input-device.c:74
+msgid "input-keyboard"
+msgstr "입력 키보드"
+
+#: ../thunar-volman/tvm-input-device.c:75
+msgid "Keyboard detected"
+msgstr "키보드 감지됨"
+
+#: ../thunar-volman/tvm-input-device.c:76
+msgid "A keyboard was detected"
+msgstr "키보드가 감지되었습니다"
+
+#: ../thunar-volman/tvm-input-device.c:86
+#: ../thunar-volman/tvm-input-device.c:100
+msgid "input-tablet"
+msgstr "입력 태블릿"
+
+#: ../thunar-volman/tvm-input-device.c:87
+#: ../thunar-volman/tvm-input-device.c:101
+msgid "Tablet detected"
+msgstr "태블릿 감지됨"
+
+#: ../thunar-volman/tvm-input-device.c:88
+#: ../thunar-volman/tvm-input-device.c:102
+msgid "A graphics tablet was detected"
+msgstr "그래픽 태블릿이 감지되었습니다"
+
+#: ../thunar-volman/tvm-input-device.c:110
+msgid "input-mouse"
+msgstr "입력 마우스"
+
+#: ../thunar-volman/tvm-input-device.c:111
+msgid "Mouse detected"
+msgstr "마우스 감지됨"
+
+#: ../thunar-volman/tvm-input-device.c:112
+msgid "A mouse was detected"
+msgstr "마우스가 감지되었습니다"
+
+#: ../thunar-volman/tvm-input-device.c:141
+#, c-format
+msgid "Unsupported input device type"
+msgstr "지원되지 않는 입력 장치 우횽"
+
+#: ../thunar-volman/tvm-run.c:171
+#, c-format
+msgid "Autoburning of blank CDs and DVDs is disabled"
+msgstr "빈 CD와 DVD 자동굽기가 비활성화되었습니다."
+
+#: ../thunar-volman/tvm-run.c:189
+msgid "Blank DVD inserted"
+msgstr "빈 DVD 삽입됨"
+
+#: ../thunar-volman/tvm-run.c:190
+msgid "You have inserted a blank DVD."
+msgstr "빈 DVD가 삽입되어 있습니다."
+
+#: ../thunar-volman/tvm-run.c:191
+#: ../thunar-volman/tvm-run.c:202
+msgid "What would you like to do?"
+msgstr "무엇을 하시렵니까?"
+
+#: ../thunar-volman/tvm-run.c:193
+msgid "Burn _DVD"
+msgstr "DVD 굽기(_D)"
+
+#: ../thunar-volman/tvm-run.c:200
+msgid "Blank CD inserted"
+msgstr "빈 CD 삽입됨"
+
+#: ../thunar-volman/tvm-run.c:201
+msgid "You have inserted a blank CD."
+msgstr "빈 CD가 삽입되어 있습니다."
+
+#: ../thunar-volman/tvm-run.c:204
+msgid "Burn _Data CD"
+msgstr "데이터 CD 굽기(_D)"
+
+#: ../thunar-volman/tvm-run.c:205
+msgid "Burn _Audio CD"
+msgstr "오디오 CD 굽기(_A)"
+
+#: ../thunar-volman/tvm-run.c:229
+#, c-format
+msgid "The burn command may not be empty"
+msgstr "굽기 명령은 비어있으면 안 됩니다"
+
+#: ../thunar-volman/tvm-run.c:268
+#, c-format
+msgid "The CD player command is undefined"
+msgstr "CD 재생기 명령이 정의되지 않았습니다"
+
+#: ../thunar-volman/tvm-usb-device.c:62
+msgid "Camera detected"
+msgstr "카메라가 감지되었습니다"
+
+#: ../thunar-volman/tvm-usb-device.c:63
+msgid "A photo camera was detected"
+msgstr "사진 카메라가 감지되었습니다"
+
+#: ../thunar-volman/tvm-usb-device.c:71
+msgid "Printer detected"
+msgstr "프린터가 감지되었습니다"
+
+#: ../thunar-volman/tvm-usb-device.c:72
+msgid "A USB printer was detected"
+msgstr "USB 프린터가 감지되었습니다"
+
+#: ../thunar-volman/tvm-usb-device.c:100
+#, c-format
+msgid "Unsupported USB device type"
+msgstr "지원되지 않은 USB 장치 유형"
+
+#. setup application name
+#: ../thunar-volman-settings/main.c:52
+msgid "Thunar Volume Manager Settings"
+msgstr "Thunar 볼륨 관리자 설정"
+
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:102
+msgid "Removable Drives and Media"
+msgstr "이동식 드라이브와 미디어"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Select an Application"
+msgstr "프로그램 선택"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:250
+msgid "All Files"
+msgstr "모든 파일"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:255
+msgid "Executable Files"
+msgstr "실행 파일"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:270
+msgid "Perl Scripts"
+msgstr "펄 스크립트"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:276
+msgid "Python Scripts"
+msgstr "파이선 스크립트"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:282
+msgid "Ruby Scripts"
+msgstr "루비 스크립트"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:288
+msgid "Shell Scripts"
+msgstr "쉘 스크립트"
+
+#.
+#. Storage
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:130
+msgid "Storage"
+msgstr "저장장치"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:141
+msgid "Removable Storage"
+msgstr "이동식 저장장치"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
+msgid "_Mount removable drives when hot-plugged"
+msgstr "연결되면 이동식 드라이브를 마운트 합니다(_M)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:166
+msgid "Mount removable media when _inserted"
+msgstr "삽입되면 이동식 미디어를 마운트합니다(_i)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:174
+msgid "B_rowse removable media when inserted"
+msgstr "삽입되면 이동식 미디어를 탐색합니다(_r)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:182
+msgid "_Auto-run programs on new drives and media"
+msgstr "새 드라이브와 미디어에 있는 자동 실행 프로그램(_A)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:189
+msgid "Auto-open files on new drives and media"
+msgstr "새 드라이브와 미디어에 있는 자동 열림 파일"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:201
+msgid "Blank CDs and DVDs"
+msgstr "빈 CD와 DVD"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:218
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "빈 디스크가 삽입되면 CD나 DVD를 굽습니다(_B)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:229
+msgid "Command for _Data CDs:"
+msgstr "Data CD에 대한 명령(_D):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:239
+msgid "Command for A_udio CDs:"
+msgstr "오디오 CD에 대한 명령(_u):"
+
+#.
+#. Multimedia
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:255
+msgid "Multimedia"
+msgstr "멀티미디어"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:266
+msgid "Audio CDs"
+msgstr "오디오 CD"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:283
+msgid "Play _audio CDs when inserted"
+msgstr "삽입되면 오디오 CD를 재생합니다(_a)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:290
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:466
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:553
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:601
+msgid "_Command:"
+msgstr "명령(_C):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:304
+msgid "Video CDs/DVDs"
+msgstr "비디오 CD/DVD"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:321
+msgid "Play _video CDs and DVDs when inserted"
+msgstr "삽입되면 비디오 CD와 DVD를 재생합니다(_v)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:367
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:505
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:640
+msgid "C_ommand:"
+msgstr "명령(_o):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:343
+msgid "Portable Music Players"
+msgstr "휴대용 음악 재생기"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:360
+msgid "Play _music files when connected"
+msgstr "연결되면 음악 파일을 재생합니다(_m)"
+
+#.
+#. Cameras
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
+msgid "Cameras"
+msgstr "카메라"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:390
+msgid "Digital Cameras"
+msgstr "디지털 카메라"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:407
+msgid "Import digital photographs when connected"
+msgstr "연결되면 디지털 사진을 가져옵니다"
+
+#.
+#. PDAs
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:427
+msgid "PDAs"
+msgstr "PDA"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:441
+msgid "Palm™"
+msgstr "Palm™"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:458
+msgid "Sync _Palm™ devices when connected"
+msgstr "연결되면 Palm™ 장치를 동기화 합니다(_P)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:480
+msgid "Pocket PCs"
+msgstr "Pocket PC"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:497
+msgid "Sync Pocket P_C devices when connected"
+msgstr "연결되면 Pocket PC 장치를 동기화 합니다(_C)"
+
+#.
+#. Printers
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:517
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:528
+msgid "Printers"
+msgstr "프린터"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:545
+msgid "Automatically run a program when a _printer is connected"
+msgstr "프린터가 연결되었을 때 자동으로 프로그램을 실행합니다(_p)"
+
+#.
+#. Input Devices
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:565
+msgid "Input Devices"
+msgstr "입력장치"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:576
+msgid "Keyboards"
+msgstr "키보드"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:593
+msgid "Automatically run a program when an USB _keyboard is connected"
+msgstr "USB 키보드가 연결되었을 때 자동으로 프로그램을 실행합니다(_k)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:615
+msgid "Mice"
+msgstr "마우스"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:632
+msgid "Automatically run a program when an USB _mouse is connected"
+msgstr "USB 마우스가 연결되었을 때 자동으로 프로그램을 실행합니다(_m)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:654
+msgid "Tablet"
+msgstr "태블릿"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:671
+msgid "Automatically run a program when a _tablet is connected"
+msgstr "태블릿이 연결되었을 때 자동으로 프로그램을 실행합니다(_t)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:679
+msgid "Com_mand:"
+msgstr "명령(_m):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
+msgid "Failed to open the documentation browser"
+msgstr "문서 탐색기를 여는데 실패했습니다"
+
