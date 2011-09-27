@@ -19,9 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "O UDI do dispositivo HAL do dispositivo recentemente adicionado"
+msgstr "O caminho sysfs do dispositivo recentemente adicionado"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -53,9 +52,9 @@ msgid "There is no device with the sysfs path \"%s\""
 msgstr "Não há dispositivo com o caminho sysfs \"%s\""
 
 #: ../thunar-volman/main.c:202
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "É necessário especificar o novo UDI de dispositivo HAL com --device-added"
+msgstr "É necessário especificar o caminho sysfs dos novos dispositivos com --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -63,9 +62,8 @@ msgid "Photos and Music"
 msgstr "Fotos e Músicas"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "Fotos foram encontradas no seu reprodutor portátil de música."
+msgstr "Fotos foram encontradas no seu reprodutor portátil de música"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -96,9 +94,8 @@ msgid "Photo Import"
 msgstr "Importação de fotos"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "Um cartão de foto foi detectado."
+msgstr "Um cartão de fotos foi detectado"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid "There are photos on the card. Would you like to add these photos to your album?"
@@ -225,14 +222,12 @@ msgid "input-keyboard"
 msgstr "Teclados"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Teclados"
+msgstr "Teclado detectado"
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Um cartão de foto foi detectado."
+msgstr "Um teclado foi detectado"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
@@ -241,9 +236,8 @@ msgstr "Tablet"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Detectada capacidade de auto-execução"
+msgstr "Tablet detectado"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
@@ -289,24 +283,20 @@ msgid "Burn _DVD"
 msgstr "Gravar _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "CDs e DVDs em branco"
+msgstr "CD em branco inserido"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Você inseriu um disco em branco."
+msgstr "Você inseriu um CD em branco"
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Criar CD de _dados"
+msgstr "Gravar CD de _dados"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Criar _CD de áudio"
+msgstr "Gravar _CD de áudio"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -332,18 +322,17 @@ msgstr "Impressora detectada"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "Uma impressora USB foi detectada"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Tipo de dispositivo USB não suportado"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Gerenciador de volumes Thunar"
+msgstr "Configurações do Gerenciador de volumes do Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -527,7 +516,6 @@ msgid "Keyboards"
 msgstr "Teclados"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
 msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "Executar automaticamente um programa quando um _teclado USB for conectado"
 
@@ -536,7 +524,6 @@ msgid "Mice"
 msgstr "Mouse"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
 msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "Executar automaticamente um programa quando um _mouse USB for conectado"
 
