@@ -15,6 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Country: CROATIA\n"
+"Language: hr\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Croatian\n"
 "X-Poedit-SourceCharset: utf-8\n"
@@ -99,7 +100,9 @@ msgid "A photo card has been detected"
 msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "Ima fotografija na kartici.Želite li ih dodati u svoj album?"
 
 #. prompt the user to execute the file
@@ -307,7 +310,7 @@ msgstr ""
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "Naredba CD player-a je nedefinirana"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
@@ -457,7 +460,7 @@ msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
-msgstr ""
+msgstr "Izvodi _glazbene datoteka kada je spojen"
 
 #. Cameras
 #. 
@@ -530,7 +533,7 @@ msgstr "Automatski pokreni program kada je USB _miš spojen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
-msgstr ""
+msgstr "Tablet"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
@@ -542,4 +545,4 @@ msgstr "Nar_edba:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
-msgstr ""
+msgstr "Neuspjelo otvaranje preglednika  dokumentacije"
