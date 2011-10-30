@@ -241,7 +241,7 @@ msgstr ""
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
 msgid "Tablet detected"
-msgstr ""
+msgstr "Tablet otkriven"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
@@ -258,7 +258,7 @@ msgstr "Miš otkriven"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "Miš je otkriven"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
@@ -318,7 +318,7 @@ msgstr "Otkrivena je kamera"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 msgid "A photo camera was detected"
-msgstr ""
+msgstr "Fotoaparat je otkriven"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
@@ -456,7 +456,7 @@ msgstr "N_aredba:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:343
 msgid "Portable Music Players"
-msgstr ""
+msgstr "Prijenosni glazbeni svirači"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
@@ -480,7 +480,7 @@ msgstr ""
 #. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
-msgstr ""
+msgstr "PDAs"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:441
 msgid "Palm™"
@@ -513,7 +513,7 @@ msgstr "Automatski poreni program kada je _pisač spojen"
 #. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
-msgstr ""
+msgstr "Ulazni uređaji"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:576
 msgid "Keyboards"
@@ -537,7 +537,7 @@ msgstr "Tablet"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr ""
+msgstr "Automatsko pokretanje programa kada je _tablet spojen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
