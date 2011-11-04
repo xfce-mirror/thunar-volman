@@ -1,22 +1,22 @@
 # Hungarian translation of thunar-volman
 # Copyright 2009. Free Software Foundation, Inc.
 # This file is distributed under the same license as the thunar-volman package.
-#
+# 
 # Gabor Kelemen <kelemeng at gnome dot hu>, 2009, 2010.
 # SZERVÁC Attila <sas@321.hu>
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2010-11-28 13:31+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
 "Language-Team: Hungarian <gnome at fsf dot hu>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"Language: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: ../thunar-volman/main.c:59
@@ -34,25 +34,25 @@ msgid "Print version information and exit"
 msgstr "Verzióinformációk kiírása és kilépés"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Thunar kötetkezelő"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr "Minden jog fenntartva."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "A hibákat ide jelentse: <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Nincs „%s” sysfs-útvonalú eszköz"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr ""
@@ -373,9 +373,8 @@ msgstr "Ruby-parancsfájlok"
 msgid "Shell Scripts"
 msgstr "Shell-parancsfájlok"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Tároló"
@@ -420,9 +419,8 @@ msgstr "Parancs _adatlemezekhez:"
 msgid "Command for A_udio CDs:"
 msgstr "Parancs han_g CD lemezekhez:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimédia"
@@ -466,9 +464,8 @@ msgstr "Hordozható zenelejátszók"
 msgid "Play _music files when connected"
 msgstr "_Zenei fájlok lejátszása csatlakoztatáskor"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Fényképezőgépek"
@@ -481,9 +478,8 @@ msgstr "Digitális fényképezőgép"
 msgid "Import digital photographs when connected"
 msgstr "Digitális fényképek importálása csatlakoztatáskor"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA-k"
@@ -504,9 +500,8 @@ msgstr "Zsebszámítógépek"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "_Zsebszámítógépek szinkronizálása csatlakoztatáskor"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -516,9 +511,8 @@ msgstr "Nyomtatók"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Program futtatása automatikusan _nyomtató csatlakoztatásakor"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Bemeneti eszközök"
@@ -528,8 +522,7 @@ msgid "Keyboards"
 msgstr "Billentyűzetek"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
+msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "Program futtatása automatikusan USB-billentyű_zet csatlakoztatásakor"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -537,8 +530,7 @@ msgid "Mice"
 msgstr "Egér"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
+msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "Program futtatása automatikusan USB-_egér csatlakoztatásakor"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
