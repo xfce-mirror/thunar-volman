@@ -2,19 +2,19 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Pavel Labushev <p.labushev@gmail.com>, 2009.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2009-02-20 12:42+0700\n"
 "Last-Translator: Pavel Labushev <p.labushev@gmail.com>\n"
 "Language-Team: Russian <xfce-i18n-ru@xfce.org>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
 "X-Poedit-Language: Russian\n"
 "X-Poedit-Country: RUSSIAN FEDERATION\n"
 
@@ -33,25 +33,25 @@ msgid "Print version information and exit"
 msgstr "Вывести информацию о версии и завершить работу"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Менеджер томов для Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
 msgstr "Все права защищены."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Пожалуйста, сообщайте об ошибках по адресу <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Не найдено устройства по системному пути \"%s\""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr ""
@@ -64,7 +64,6 @@ msgid "Photos and Music"
 msgstr "Фотографии и музыка"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
 msgstr "В вашем портативном музыкальном проигрывателе были найдены фотографии."
 
@@ -97,7 +96,6 @@ msgid "Photo Import"
 msgstr "Импорт фотографий"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
 msgstr "Обнаружена флеш-карта с фотографиями"
 
@@ -189,7 +187,7 @@ msgid "Unable to mount the device"
 msgstr "Не удалось подключить устройство"
 
 #: ../thunar-volman/tvm-block-device.c:749
-#, fuzzy, c-format
+#, c-format
 msgid "Could not detect the volume corresponding to the device"
 msgstr "Не удалось обнаружить том, соответствующий устройству"
 
@@ -244,7 +242,6 @@ msgstr "планшет"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
 msgstr "Обнаружен планшет"
 
@@ -341,9 +338,8 @@ msgstr "Неподдерживаемое устройство USB"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Параметры Менеджера томов для Thunar"
+msgstr "Параметры Менеджера томов Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -378,9 +374,8 @@ msgstr "Сценарии Ruby"
 msgid "Shell Scripts"
 msgstr "Сценарии Shell"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Накопители"
@@ -426,9 +421,8 @@ msgstr "Команда для записи _данных"
 msgid "Command for A_udio CDs:"
 msgstr "Команда для записи _аудио"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Мультимедиа"
@@ -472,9 +466,8 @@ msgstr "Музыкальные плееры"
 msgid "Play _music files when connected"
 msgstr "Проигрывать файлы с _музыкой при подключении плеера"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Камеры"
@@ -487,9 +480,8 @@ msgstr "Цифровые камеры"
 msgid "Import digital photographs when connected"
 msgstr "_Импортировать цифровые фотографии при подключении камеры"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "КПК"
@@ -510,9 +502,8 @@ msgstr "КПК"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Синхронизировать _КПК при подключении"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -522,9 +513,8 @@ msgstr "Принтеры"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Запускать приложение при подключении _принтера"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Устройства ввода"
@@ -534,18 +524,16 @@ msgid "Keyboards"
 msgstr "Клавиатуры"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Запускать приложение при подключении _клавиатуры USB"
+msgid "Automatically run a program when an USB _keyboard is connected"
+msgstr "Запускать приложение при подключении USB-_клавиатуры"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
 msgstr "Мыши"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Запускать приложение при подключении _мыши USB"
+msgid "Automatically run a program when an USB _mouse is connected"
+msgstr "Запускать приложение при подключении USB-_мыши"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
