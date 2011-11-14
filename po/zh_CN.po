@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the thunar-volman package.
 # Jiahua Huang <jhuangjiahua@gmail.com>, 2009.
 # Hunt Xu <huntxu@live.cn>, 2009.
-#
+# Chipong Luo <chipong_l@yahoo.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
@@ -62,7 +62,7 @@ msgstr "照片和音乐"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr "在您的便携式音乐播放器里找到照片"
+msgstr "在您的便携式音乐播放器里找到了照片"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -99,7 +99,7 @@ msgstr "检测到照片存储卡"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid "There are photos on the card. Would you like to add these photos to your album?"
-msgstr "存储卡中有照片。您要将照片添加到相册吗？"
+msgstr "存储卡中有照片。您要将这些照片添加到相册吗？"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -107,7 +107,7 @@ msgstr "存储卡中有照片。您要将照片添加到相册吗？"
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "您是否允许 “%s” 运行？"
+msgstr "您要允许 “%s” 运行吗？"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
