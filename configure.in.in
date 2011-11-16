@@ -1,7 +1,7 @@
 dnl $Id$
 dnl
 dnl Copyright (c) 2004-2007 Benedikt Meurer <benny@xfce.org>
-dnl Copyright (c) 2010      Jannis Pohlmann <jannis@xfce.org>
+dnl Copyright (c) 2010-2011 Jannis Pohlmann <jannis@xfce.org>
 dnl
 dnl This program is free software; you can redistribute it and/or 
 dnl modify it under the terms of the GNU General Public License as
@@ -71,8 +71,8 @@ AC_PROG_INTLTOOL()
 dnl **************************
 dnl *** Initialize libtool ***
 dnl **************************
-AC_DISABLE_STATIC()
-AC_PROG_LIBTOOL()
+LT_PREREQ([2.2.6])
+LT_INIT([disable-static])
 
 dnl **********************************
 dnl *** Check for standard headers ***
