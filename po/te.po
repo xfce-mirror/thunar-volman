@@ -2,7 +2,7 @@
 # Copyright (C) 2011 Telugu Linux Development Team.
 # This file is distributed under the same license as the PACKAGE package.
 # Praveen Illa <mail2ipn@gmail.com>, 2011.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman.master\n"
@@ -11,10 +11,10 @@ msgstr ""
 "PO-Revision-Date: 2011-07-13 20:13+0530\n"
 "Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
 "Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
@@ -123,7 +123,7 @@ msgstr ""
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
-msgstr ""
+msgstr "స్వయంగా నడుచుటను అనుమతించు (_A)"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:502
@@ -368,9 +368,8 @@ msgstr "రుబి స్క్రిప్టులు"
 msgid "Shell Scripts"
 msgstr "షెల్ స్క్రిప్టులు"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "నిల్వ"
@@ -415,9 +414,8 @@ msgstr "ఆడియో సీడీల కొరకు ఆదేశం (_D):"
 msgid "Command for A_udio CDs:"
 msgstr "ఆడియో సీడీల కొరకు ఆదేశం (_u):"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "బహుళమాద్యమం"
@@ -461,9 +459,8 @@ msgstr "పోర్టబుల్ మ్యూజిక్ ప్లేయర�
 msgid "Play _music files when connected"
 msgstr "అనుసంధానించబడినపుడు సంగీత ఫైళ్ళని ఆడించు (_m)"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "కెమేరాలు"
@@ -476,9 +473,8 @@ msgstr "డిజిటల్ కెమేరాలు"
 msgid "Import digital photographs when connected"
 msgstr "డిజిటల్ ఫొటోగ్రాఫులు అనుసంధానమయినపుడు వాటిని దిగుమతిచేయి"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDAs"
@@ -499,9 +495,8 @@ msgstr "పాకెట్ పీసీలు"
 msgid "Sync Pocket P_C devices when connected"
 msgstr ""
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -511,9 +506,8 @@ msgstr "ముద్రకాలు"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "ముద్రకము అనుసంధానించినపుడు స్వయంచాలకంగా ఒక ప్రోగ్రాముని నడుపు (_p)"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "ఇన్‌పుట్ పరికరాలు"
@@ -528,7 +522,7 @@ msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
-msgstr ""
+msgstr "ఇతరాలు"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when an USB _mouse is connected"
