@@ -2,21 +2,20 @@
 # Copyright (C) 2007 Benedikt Meurer.
 # This file is distributed under the same license as the thunar-volman package.
 # Szymon Kałasz <szymon_maestro@gazeta.pl>, 2007.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
 "PO-Revision-Date: 2009-03-24 17:30+0100\n"
 "Last-Translator: Piotr Sokół <piotr.sokol@10g.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
-"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : ((n%10>=2 && n%10<=4 && (n"
-"%100<10 || n%100>=20)) ? 1 : 2));\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2));\n"
 
 #: ../thunar-volman/main.c:59
 #, fuzzy
@@ -34,25 +33,25 @@ msgid "Print version information and exit"
 msgstr "Wypisuje informacje o wersji i kończy"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
 msgstr "Menedżer wolumenów programu Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:135
 msgid "All rights reserved."
-msgstr ""
+msgstr "Wszelkie prawa zastrzeżone."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Proszę zgłaszać błędy na adres <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr ""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:202
 #, fuzzy, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Należy określić UDI nowego urządzenia HAL przez --device-added"
@@ -63,7 +62,6 @@ msgid "Photos and Music"
 msgstr "Zdjęcia i muzyka"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
 msgstr "Na przenośnym odtwarzaczu muzyki znaleziono pliki obrazów."
 
@@ -149,28 +147,28 @@ msgstr "_Otwórz"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
-msgstr ""
+msgstr "Płyta CD zamontowana"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
-msgstr ""
+msgstr "Płyta DVD zamontowana"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "Płyta CD zamontowana automatycznie"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "Płyta DVD zamontowana automatycznie"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr ""
+msgstr "Wolumin zamontowany"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "Wolumin \"%s\\ zamontowany automatycznie"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
@@ -193,12 +191,10 @@ msgid "Could not detect the volume corresponding to the device"
 msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
-msgstr "Płyta z danymi / audio"
+msgstr "Płyta CD z danymi/audio"
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
 msgstr "Płyta CD w napędzie zawiera pliki muzyczne i inne pliki."
 
@@ -222,7 +218,7 @@ msgstr ""
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "Nie obsługiwany typ urządzenia"
 
 #: ../thunar-volman/tvm-input-device.c:74
 #, fuzzy
@@ -230,14 +226,13 @@ msgid "input-keyboard"
 msgstr "Klawiatury"
 
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Klawiatury"
+msgstr "Wykryto klawiaturę"
 
 #: ../thunar-volman/tvm-input-device.c:76
 #, fuzzy
 msgid "A keyboard was detected"
-msgstr "Wykryto kartę pamięci z plikami obrazów."
+msgstr "Klawiatura została wykryta"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
@@ -246,14 +241,14 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Wykryto możliwość automatycznego uruchomienia zawartości"
+msgstr "Wykryto Tablet"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
+#, fuzzy
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "Tablet graficzny został wykryty"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
@@ -261,30 +256,30 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Wykryto mysz"
 
 #: ../thunar-volman/tvm-input-device.c:112
+#, fuzzy
 msgid "A mouse was detected"
-msgstr ""
+msgstr "Mysz została wykryta"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Nie obsługiwany typ urządzenia wejściowego"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "Automatyczne nagrywanie pustych płyt CD/DVD jest wyłączone"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Wsunięto pustą płytę DVD"
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "W napędzie umieszczono pustą płytę."
+msgstr "Wsunąłeś pustą płytę DVD."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -292,27 +287,23 @@ msgstr "Co zrobić?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Nagraj _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Puste płyty CD i DVD"
+msgstr "Wsunięto pustą płytę CD"
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
 msgstr "W napędzie umieszczono pustą płytę."
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Utwórz CD z _danymi"
+msgstr "Nagraj CD z _danymi"
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Utwórz CD _audio"
+msgstr "Nagraj _Audio CD"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -326,31 +317,32 @@ msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Wykryto aparat fotograficzny"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 #, fuzzy
 msgid "A photo camera was detected"
-msgstr "Wykryto kartę pamięci z plikami obrazów."
+msgstr "Aparat fotograficzny został wykryty"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Wykryto drukarkę"
 
 #: ../thunar-volman/tvm-usb-device.c:72
+#, fuzzy
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "Drukarka USB została wykryta"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Nie obsługiwany rodzaj urządzenia USB"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 #, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Menedżer wolumenów programu Thunar"
+msgstr "Ustawienia menedżera wolumenów programu Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -385,9 +377,8 @@ msgstr "Skrypty Ruby"
 msgid "Shell Scripts"
 msgstr "Skrypty powłoki"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Nośniki pamięci"
@@ -433,9 +424,8 @@ msgstr "Polecenie dla płyt z _danymi:"
 msgid "Command for A_udio CDs:"
 msgstr "Polecenie dla płyt a_udio:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -479,9 +469,8 @@ msgstr "Przenośne odtwarzacze muzyki"
 msgid "Play _music files when connected"
 msgstr "Odtwarzanie plików _muzycznych po podłączeniu"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Aparaty fotograficzne"
@@ -494,9 +483,8 @@ msgstr "Cyfrowe aparaty fotograficzne"
 msgid "Import digital photographs when connected"
 msgstr "Importowanie fotografii po podłączeniu"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -517,9 +505,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "S_ynchronizowanie po podłączeniu"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -529,9 +516,8 @@ msgstr "Drukarki"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "_Uruchamianie programu po podłączeniu"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Urządzenia wejściowe"
@@ -541,8 +527,7 @@ msgid "Keyboards"
 msgstr "Klawiatury"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
-msgid "Automatically run a program when a USB _keyboard is connected"
+msgid "Automatically run a program when an USB _keyboard is connected"
 msgstr "Uruchamianie programu po podłączeniu _klawiatury USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -550,8 +535,7 @@ msgid "Mice"
 msgstr "Myszy"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
-msgid "Automatically run a program when a USB _mouse is connected"
+msgid "Automatically run a program when an USB _mouse is connected"
 msgstr "Uruchamianie programu po podłączeniu _myszy USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -623,6 +607,5 @@ msgstr "Nie udało się uruchomić przeglądarki dokumentacji"
 #~ msgid "Make _DVD"
 #~ msgstr "Utwórz _DVD"
 
-#, fuzzy
 #~ msgid "Removable Media"
 #~ msgstr "Wymienne napędy i nośniki"
