@@ -71,7 +71,7 @@ tvm_input_device_added (TvmContext *context)
       enabled_property = "/autokeyboard/enabled";
       command_property = "/autokeyboard/command";
 
-      icon = _("input-keyboard");
+      icon = "input-keyboard";
       summary = _("Keyboard detected");
       message = _("A keyboard was detected");
     }
@@ -83,7 +83,7 @@ tvm_input_device_added (TvmContext *context)
       enabled_property = "/autotablet/enabled";
       command_property = "/autotablet/command";
 
-      icon = _("input-tablet");
+      icon = "input-tablet";
       summary = _("Tablet detected");
       message = _("A graphics tablet was detected");
     }
@@ -97,7 +97,7 @@ tvm_input_device_added (TvmContext *context)
           enabled_property = "/autotablet/enabled";
           command_property = "/autotablet/command";
     
-          icon = _("input-tablet");
+          icon = "input-tablet";
           summary = _("Tablet detected");
           message = _("A graphics tablet was detected");
         }
@@ -107,7 +107,7 @@ tvm_input_device_added (TvmContext *context)
           enabled_property = "/automouse/enabled";
           command_property = "/automouse/command";
     
-          icon = _("input-mouse");
+          icon = "input-mouse";
           summary = _("Mouse detected");
           message = _("A mouse was detected");
         }
