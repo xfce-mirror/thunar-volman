@@ -222,9 +222,8 @@ msgid "Device type not supported"
 msgstr "Неподдерживаемый тип устройства"
 
 #: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
 msgid "input-keyboard"
-msgstr "клавиатура"
+msgstr "input-keyboard"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -236,9 +235,8 @@ msgstr "Обнаружена клавиатура"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
-#, fuzzy
 msgid "input-tablet"
-msgstr "планшет"
+msgstr "input-tablet"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -251,9 +249,8 @@ msgid "A graphics tablet was detected"
 msgstr "Обнаружен графический планшет"
 
 #: ../thunar-volman/tvm-input-device.c:110
-#, fuzzy
 msgid "input-mouse"
-msgstr "мышь"
+msgstr "input-mouse"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
