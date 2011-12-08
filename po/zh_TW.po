@@ -14,10 +14,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Country: TAIWAN\n"
 "Language: \n"
 "X-Poedit-Language: Chinese\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Country: TAIWAN\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -99,7 +99,9 @@ msgid "A photo card has been detected"
 msgstr "已偵測到一張相片記憶卡"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "在記憶卡中找到相片。您要將這些相片加入您的相簿嗎？"
 
 #. prompt the user to execute the file
@@ -243,7 +245,7 @@ msgstr "偵測到平板"
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr "已偵測到一塊數位繪圖版"
+msgstr "已偵測到一塊數位繪圖板"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
