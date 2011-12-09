@@ -1,5 +1,7 @@
-# Simplified Chinese translation of  thunar-volman
-# This file is distributed under the same license as the thunar-volman package.
+# Simplified Chinese translations for
+# the thunar-volman package.
+# This file is distributed under the same license as
+# the thunar-volman package.
 # Jiahua Huang <jhuangjiahua@gmail.com>, 2009.
 # Hunt Xu <huntxu@live.cn>, 2009.
 # Chipong Luo <chipong_l@yahoo.com>, 2011.
