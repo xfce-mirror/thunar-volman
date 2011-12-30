@@ -93,8 +93,12 @@ msgid "A photo card has been detected"
 msgstr "Fotoğraf kartı tespit edildi."
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
-msgstr "Kart üzerinde fotoğraflar bulundu. Bu fotoğrafları albüme aktarmak ister misiniz?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr ""
+"Kart üzerinde fotoğraflar bulundu. Bu fotoğrafları albüme aktarmak ister "
+"misiniz?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -163,9 +167,9 @@ msgid "The volume \"%s\" was mounted automatically"
 msgstr "\"%s\"  birimi otomaitk olarak bağlandı"
 
 #: ../thunar-volman/tvm-block-device.c:640
-#, c-format
+#, c-format, fuzzy
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "Eklenen birim otomatik olarak bağlandı"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
@@ -178,9 +182,9 @@ msgid "Unable to mount the device"
 msgstr "Sürücü bağlanamıyor"
 
 #: ../thunar-volman/tvm-block-device.c:749
-#, c-format
+#, c-format, fuzzy
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Aygıta karşılık gelen birim bulunamadı"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
@@ -226,8 +230,9 @@ msgstr "Klavye algılandı"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
+#, fuzzy
 msgid "input-tablet"
-msgstr ""
+msgstr "input-tablet"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -558,8 +563,11 @@ msgstr "Doküman tarayıcı açılamadı"
 #~ msgid "Encrypted volume"
 #~ msgstr "Şifrelenmiş birim"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Şifrelenmiş birim bağlanıyor...</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Şifrelenmiş birim bağlanıyor...</"
+#~ "span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Şifre katmanı ayarlanıyor..."
@@ -573,7 +581,8 @@ msgstr "Doküman tarayıcı açılamadı"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Yanlış parola.</span>"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Bu birim şifrelenmiş.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
