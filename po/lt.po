@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-07 14:39+0100\n"
-"PO-Revision-Date: 2012-01-06 14:18+0200\n"
+"PO-Revision-Date: 2012-01-06 14:41+0200\n"
 "Last-Translator: Algimantas Margevičius <margevicius.algimantas@gmail.com>\n"
 "Language-Team: Lietuvių <>\n"
 "Language: \n"
@@ -68,7 +68,7 @@ msgstr "Jūsų nešiojamame muzikos grotuve rasta nuotraukų"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
-msgstr "Ar norėsite importuoti nuotraukas ar tvarkyti muziką?"
+msgstr "Norėsite importuoti nuotraukas ar tvarkyti muziką?"
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
@@ -125,7 +125,7 @@ msgstr "Aptikta automatinio paleidimo galimybė"
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
-msgstr "Leisti paleisti automatiškai"
+msgstr "_Leisti paleisti automatiškai"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:502
@@ -383,27 +383,27 @@ msgstr "Išimamos laikmenos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr ""
+msgstr "_Prijungus prijungti išimamus įrenginius"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
-msgstr ""
+msgstr "Įdėjus išimamą laikmeną _prijungti"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "B_rowse removable media when inserted"
-msgstr ""
+msgstr "Į_dėjus išimamą laikmeną naršyti"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr ""
+msgstr "Naujiem įrenginiams ir laikmenom automatiškai vykdyti programas"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
-msgstr ""
+msgstr "Naujiem įrenginiams ir laikmenom automatiškai atverti failus"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
-msgstr ""
+msgstr "Tušti CD ir DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
