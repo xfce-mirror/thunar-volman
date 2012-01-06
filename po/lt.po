@@ -2,71 +2,73 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Algimantas Margevičius <margevicius.algimantas@gmail.com>, 2012.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-11-07 14:39+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2012-01-06 14:18+0200\n"
+"Last-Translator: Algimantas Margevičius <margevicius.algimantas@gmail.com>\n"
+"Language-Team: Lietuvių <>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bits\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
+"%100<10 || n%100>=20) ? 1 : 2)\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
-msgstr ""
+msgstr "Naujai pridėto įrenginio syfs kelias"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
-msgstr ""
+msgstr "Konfigūruoti išimamų įrenginių tvarkymą"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr ""
+msgstr "Parodyti informaciją apie programos versiją ir baigti darbą"
 
 #. setup application name
 #: ../thunar-volman/main.c:96
 msgid "Thunar Volume Manager"
-msgstr ""
+msgstr "Thunar failų tvarkytuvė"
 
 #: ../thunar-volman/main.c:135
 msgid "All rights reserved."
-msgstr ""
+msgstr "Visos teisės saugomos."
 
 #: ../thunar-volman/main.c:136
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr ""
+msgstr "Apie klaidas praneškite <%s>."
 
 #: ../thunar-volman/main.c:190
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "Nėra įrenginio su sysfs keliu „%s“"
 
 #: ../thunar-volman/main.c:202
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
+msgstr "Turite nurodyti įrenginių sysfs kelią su --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
 msgid "Photos and Music"
-msgstr ""
+msgstr "Nuotraukos ir muzika"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr ""
+msgstr "Jūsų nešiojamame muzikos grotuve rasta nuotraukų"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
-msgstr ""
+msgstr "Ar norėsite importuoti nuotraukas ar tvarkyti muziką?"
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
@@ -76,31 +78,31 @@ msgstr ""
 #: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
-msgstr ""
+msgstr "Ne_paisyti"
 
 #: ../thunar-volman/tvm-block-device.c:209
 #: ../thunar-volman/tvm-block-device.c:278
 msgid "Import _Photos"
-msgstr ""
+msgstr "Importuoti _nuotraukas"
 
 #: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
-msgstr ""
+msgstr "Tvarkyti _muziką"
 
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
 msgid "Photo Import"
-msgstr ""
+msgstr "Importuoti nuotraukas"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr ""
+msgstr "Buvo aptikta foto kortelė"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
+msgstr "Kortelėje yra nuotraukų. Ar norite pridėti šias nuotraukas į albumą?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -108,276 +110,276 @@ msgstr ""
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr ""
+msgstr "Ar norite leisti vykdyti „%s“?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
 msgid "Auto-Run Confirmation"
-msgstr ""
+msgstr "Automatinio paleidimo patvirtinimas"
 
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run capability detected"
-msgstr ""
+msgstr "Aptikta automatinio paleidimo galimybė"
 
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
-msgstr ""
+msgstr "Leisti paleisti automatiškai"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:502
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr ""
+msgstr "Ar norite atverti „%s“?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
-msgstr ""
+msgstr "Auto atvėrimo konfigūracija"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
-msgstr ""
+msgstr "Aptikta automatinio atvėrimo galimybė"
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
-msgstr ""
+msgstr "At_verti"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
-msgstr ""
+msgstr "CD prijungtas"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
-msgstr ""
+msgstr "DVD prijungtas"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "CD buvo prijungtas automatiškai"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "DVD buvo prijungtas automatiškai"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr ""
+msgstr "Skirsnis prijungtas"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "Skirsnis „%s“ buvo prijungtas automatiškai"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "Prijungtas skirsnis buvo automatiškai prijungtas"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "Nepavyko rasti prijungimo taško"
 
 #: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "Įrenginio prijungti nepavyko"
 
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Nepavyko rasti skirsnio esančio įrenginyje"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
-msgstr ""
+msgstr "Audio/Duomenų CD"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
-msgstr ""
+msgstr "Diskasukyje esančiame CD yra muzikos ir duomenų failų"
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
-msgstr ""
+msgstr "Norėsite klausyti muzikos ar naršyti failus?"
 
 #: ../thunar-volman/tvm-block-device.c:830
 msgid "_Browse Files"
-msgstr ""
+msgstr "_Naršyti failus"
 
 #: ../thunar-volman/tvm-block-device.c:831
 msgid "_Play CD"
-msgstr ""
+msgstr "_Groti CD"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type"
-msgstr ""
+msgstr "Nežinomas įrenginio tipas"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "Įrenginio tipas nepalaikomas"
 
 #: ../thunar-volman/tvm-input-device.c:74
 msgid "input-keyboard"
-msgstr ""
+msgstr "įvesties klaviatūra"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
-msgstr ""
+msgstr "Aptikta klaviatūra"
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
-msgstr ""
+msgstr "Aptikta klaviatūra"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
 msgid "input-tablet"
-msgstr ""
+msgstr "planšetės įvestis"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
 msgid "Tablet detected"
-msgstr ""
+msgstr "Aptikta planšetė"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "Aptikta paišymo planšetė"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
-msgstr ""
+msgstr "pelės įvestis"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "Aptikta pelė"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "Buvo aptikta pelė"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Nepalaikomas įvesties įrenginio tipas"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "Automatinis tuščių CD/DVD įrašymas išjungtas"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "Įdėta tuščia DVD"
 
 #: ../thunar-volman/tvm-run.c:190
 msgid "You have inserted a blank DVD."
-msgstr ""
+msgstr "Jūs įdėjote tuščią DVD."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
-msgstr ""
+msgstr "Ką norėsite daryti?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Įrašyti _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
-msgstr ""
+msgstr "Įdėtas tuščias CD"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
-msgstr ""
+msgstr "Jūs įdėjote tuščią CD."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
-msgstr ""
+msgstr "Įrašyti _duomenų CD"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr ""
+msgstr "Įrašyti _Audio CD"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Įrašymo komanda negali būti tuščia"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "Nenurodyta CD grotuvo komanda"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "Aptikta kamera"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 msgid "A photo camera was detected"
-msgstr ""
+msgstr "Aptiktas fotoaparatas"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "Aptiktas spausdintuvas"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "Aptiktas USB spausdintuvas"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "Nepalaikomas USB įrenginio tipas"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
-msgstr ""
+msgstr "Thunar failų tvarkyklės nustatymai"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
-msgstr ""
+msgstr "Išimami diskai ir laikmenos"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
-msgstr ""
+msgstr "Pasirinkite programą"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:250
 msgid "All Files"
-msgstr ""
+msgstr "Visi failai"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:255
 msgid "Executable Files"
-msgstr ""
+msgstr "Vykdomieji failai"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:270
 msgid "Perl Scripts"
-msgstr ""
+msgstr "Perl scenarijai"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:276
 msgid "Python Scripts"
-msgstr ""
+msgstr "Python scenarijai"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:282
 msgid "Ruby Scripts"
-msgstr ""
+msgstr "Ruby scenarijai"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:288
 msgid "Shell Scripts"
-msgstr ""
+msgstr "Shell scenarijai"
 
 #.
 #. Storage
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
-msgstr ""
+msgstr "Laikmenos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:141
 msgid "Removable Storage"
-msgstr ""
+msgstr "Išimamos laikmenos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
@@ -405,30 +407,30 @@ msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr ""
+msgstr "Į_dėjus tuščią CD ar DVD įrašyti"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr ""
+msgstr "_Duomenų CD komanda:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr ""
+msgstr "_Audio CD komanda:"
 
 #.
 #. Multimedia
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
-msgstr ""
+msgstr "Daugialypė terpė"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:266
 msgid "Audio CDs"
-msgstr ""
+msgstr "Audio CD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr ""
+msgstr "Įdėjus _audio CD groti jį"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -436,68 +438,68 @@ msgstr ""
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:553
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:601
 msgid "_Command:"
-msgstr ""
+msgstr "_Komanda:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr ""
+msgstr "Video CD/DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr ""
+msgstr "Įdėjus groti _video CD ir DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:505
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:640
 msgid "C_ommand:"
-msgstr ""
+msgstr "K_omanda:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:343
 msgid "Portable Music Players"
-msgstr ""
+msgstr "Nešiojamieji muzikos grotuvai"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
-msgstr ""
+msgstr "Prijungus groti _muzikos failus"
 
 #.
 #. Cameras
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
-msgstr ""
+msgstr "Fotoaparatai"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:390
 msgid "Digital Cameras"
-msgstr ""
+msgstr "Skaitmeninės kameros"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr ""
+msgstr "Prijungus importuoti skaitmenines nuotraukas"
 
 #.
 #. PDAs
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
-msgstr ""
+msgstr "PDA"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:441
 msgid "Palm™"
-msgstr ""
+msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
-msgstr ""
+msgstr "Prijungus sinchronizuoti _Palm™ įrenginius"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
-msgstr ""
+msgstr "Pocket PC"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr ""
+msgstr "Prijungus sinchronizuoti Pocket PC įrenginius"
 
 #.
 #. Printers
@@ -505,47 +507,47 @@ msgstr ""
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
-msgstr ""
+msgstr "Spausdintuvai"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
-msgstr ""
+msgstr "Prijungus _spausdintuvą automatiškai vykdyti programą"
 
 #.
 #. Input Devices
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
-msgstr ""
+msgstr "Įvesties įrenginiai"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:576
 msgid "Keyboards"
-msgstr ""
+msgstr "Klaviatūros"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when an USB _keyboard is connected"
-msgstr ""
+msgstr "Prijungus USB _klaviatūrą automatiškai vykdyti programą"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
-msgstr ""
+msgstr "Pelė"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when an USB _mouse is connected"
-msgstr ""
+msgstr "Prijungus USB _pelę automatiškai vykdyti programą"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
-msgstr ""
+msgstr "Planšetė"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr ""
+msgstr "_Aptikus planšetę automatiškai vykdyti programą"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
-msgstr ""
+msgstr "_Komanda:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
-msgstr ""
+msgstr "Nepavyko atverti dokumentacijos naršyklės"
