@@ -1,0 +1,553 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunar-volman\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"PO-Revision-Date: 2012-01-07 01:16+0100\n"
+"Last-Translator: Eivind Ødegård <gingermi@yahoo.no>\n"
+"Language-Team: nn <i18n-nn@lister.ping.uio.no>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Norwegian Nynorsk\n"
+"X-Poedit-Country: NORWAY\n"
+
+#: ../thunar-volman/main.c:59
+msgid "The syfs path of the newly added device"
+msgstr "Sysfs-stigen til den nyst tillagde eininga"
+
+#: ../thunar-volman/main.c:60
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:104
+msgid "Configure management of removable drives and media"
+msgstr "Set opp korleis flyttbare stasjonar og lagringsmedium skal handterast"
+
+#: ../thunar-volman/main.c:61
+msgid "Print version information and exit"
+msgstr "Vis versjonsinformasjonen og avslutt"
+
+#. setup application name
+#: ../thunar-volman/main.c:96
+msgid "Thunar Volume Manager"
+msgstr "Thunar lagringshandsaming"
+
+#: ../thunar-volman/main.c:135
+msgid "All rights reserved."
+msgstr "Alle rettar atterhaldne."
+
+#: ../thunar-volman/main.c:136
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "Rapporter feil til <%s>."
+
+#: ../thunar-volman/main.c:190
+#, c-format
+msgid "There is no device with the sysfs path \"%s\""
+msgstr "Det finst inga eining med sysfs-stigen «%s»"
+
+#: ../thunar-volman/main.c:202
+#, c-format
+msgid "Must specify the sysfs path of new devices with --device-added"
+msgstr "Må nemna sysfs-stigen til nye einingar med --device-added"
+
+#. ...so we need to prompt what to do
+#: ../thunar-volman/tvm-block-device.c:204
+msgid "Photos and Music"
+msgstr "Bilete og musikk"
+
+#: ../thunar-volman/tvm-block-device.c:205
+msgid "Photos were found on your portable music player"
+msgstr "Me fann bilete på den berbare musikkspelaren din"
+
+#: ../thunar-volman/tvm-block-device.c:206
+msgid "Would you like to import the photos or manage the music?"
+msgstr "Vil du importera bilete, eller handsama musikken?"
+
+#: ../thunar-volman/tvm-block-device.c:208
+#: ../thunar-volman/tvm-block-device.c:277
+#: ../thunar-volman/tvm-block-device.c:378
+#: ../thunar-volman/tvm-block-device.c:425
+#: ../thunar-volman/tvm-block-device.c:507
+#: ../thunar-volman/tvm-block-device.c:829
+#: ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-run.c:203
+msgid "Ig_nore"
+msgstr "O_versjå"
+
+#: ../thunar-volman/tvm-block-device.c:209
+#: ../thunar-volman/tvm-block-device.c:278
+msgid "Import _Photos"
+msgstr "Importer bilete"
+
+#: ../thunar-volman/tvm-block-device.c:210
+msgid "Manage _Music"
+msgstr "Handter musikk"
+
+#. ask the user to import photos
+#: ../thunar-volman/tvm-block-device.c:273
+msgid "Photo Import"
+msgstr "Biletimport"
+
+#: ../thunar-volman/tvm-block-device.c:274
+msgid "A photo card has been detected"
+msgstr "Me fann eit lagringskort for foto"
+
+#: ../thunar-volman/tvm-block-device.c:275
+msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgstr "Det er bilete på kortet. Vil du leggja dei til albumet ditt?"
+
+#. prompt the user to execute the file
+#. prompt the user to execute this file
+#: ../thunar-volman/tvm-block-device.c:373
+#: ../thunar-volman/tvm-block-device.c:420
+#, c-format
+msgid "Would you like to allow \"%s\" to run?"
+msgstr "Vil du gje «%s» løyve til å køyra?"
+
+#: ../thunar-volman/tvm-block-device.c:376
+#: ../thunar-volman/tvm-block-device.c:423
+msgid "Auto-Run Confirmation"
+msgstr "Stadfesting for auto-køyr"
+
+#: ../thunar-volman/tvm-block-device.c:377
+#: ../thunar-volman/tvm-block-device.c:424
+msgid "Auto-Run capability detected"
+msgstr "Fann autokøyr-funksjon"
+
+#: ../thunar-volman/tvm-block-device.c:379
+#: ../thunar-volman/tvm-block-device.c:426
+msgid "_Allow Auto-Run"
+msgstr "Tillat auto-køyr"
+
+#. prompt the user whether to autoopen this file
+#: ../thunar-volman/tvm-block-device.c:502
+#, c-format
+msgid "Would you like to open \"%s\"?"
+msgstr "Vil du opna «%s»?"
+
+#: ../thunar-volman/tvm-block-device.c:505
+msgid "Auto-Open Confirmation"
+msgstr "Stadfesting for auto-opninga"
+
+#: ../thunar-volman/tvm-block-device.c:506
+msgid "Auto-Open capability detected"
+msgstr "Fann funksjon for auto-opning"
+
+#: ../thunar-volman/tvm-block-device.c:508
+msgid "_Open"
+msgstr "_Opna"
+
+#: ../thunar-volman/tvm-block-device.c:619
+msgid "CD mounted"
+msgstr "Monterte CD"
+
+#: ../thunar-volman/tvm-block-device.c:619
+msgid "DVD mounted"
+msgstr "Monterte DVD"
+
+#: ../thunar-volman/tvm-block-device.c:621
+msgid "The CD was mounted automatically"
+msgstr "CDen vart montert automatisk"
+
+#: ../thunar-volman/tvm-block-device.c:622
+msgid "The DVD was mounted automatically"
+msgstr "DVDen vart montert automatisk"
+
+#: ../thunar-volman/tvm-block-device.c:632
+msgid "Volume mounted"
+msgstr "Monterte stasjonen"
+
+#: ../thunar-volman/tvm-block-device.c:635
+#, c-format
+msgid "The volume \"%s\" was mounted automatically"
+msgstr "Stasjonen «%s» vart montert automatisk"
+
+#: ../thunar-volman/tvm-block-device.c:640
+#, c-format
+msgid "The inserted volume was mounted automatically"
+msgstr "Stasjonen du sette i, vart montert automatisk"
+
+#: ../thunar-volman/tvm-block-device.c:694
+#, c-format
+msgid "Unable to locate mount point"
+msgstr "Klarte ikkje finna monteringspunktet"
+
+#: ../thunar-volman/tvm-block-device.c:740
+#, c-format
+msgid "Unable to mount the device"
+msgstr "Klarte ikkje montera eininga"
+
+#: ../thunar-volman/tvm-block-device.c:749
+#, c-format
+msgid "Could not detect the volume corresponding to the device"
+msgstr "Greidde ikkje finna stasjonen som svarar til eininga"
+
+#: ../thunar-volman/tvm-block-device.c:824
+msgid "Audio/Data CD"
+msgstr "Lyd/data-CD"
+
+#: ../thunar-volman/tvm-block-device.c:825
+msgid "The CD in the drive contains both music and files"
+msgstr "CDen i stasjonen inneheld både musikk og filer"
+
+#: ../thunar-volman/tvm-block-device.c:827
+msgid "Would you like to listen to music or browse the files?"
+msgstr "Vil du høyra på musikken, eller bla gjennom filene?"
+
+#: ../thunar-volman/tvm-block-device.c:830
+msgid "_Browse Files"
+msgstr "Bla gjennom filer"
+
+#: ../thunar-volman/tvm-block-device.c:831
+msgid "_Play CD"
+msgstr "S_pel CD"
+
+#: ../thunar-volman/tvm-block-device.c:919
+#, c-format
+msgid "Unknown block device type"
+msgstr "Ukjent blokkeiningstype"
+
+#: ../thunar-volman/tvm-device.c:139
+#, c-format
+msgid "Device type not supported"
+msgstr "Støttar ikkje denne einingstypen"
+
+#: ../thunar-volman/tvm-input-device.c:74
+msgid "input-keyboard"
+msgstr "inngangstastatur"
+
+#: ../thunar-volman/tvm-input-device.c:75
+msgid "Keyboard detected"
+msgstr "Fann tastatur"
+
+#: ../thunar-volman/tvm-input-device.c:76
+msgid "A keyboard was detected"
+msgstr "Fann eit tastatur"
+
+#: ../thunar-volman/tvm-input-device.c:86
+#: ../thunar-volman/tvm-input-device.c:100
+msgid "input-tablet"
+msgstr "inngangsbrett"
+
+#: ../thunar-volman/tvm-input-device.c:87
+#: ../thunar-volman/tvm-input-device.c:101
+msgid "Tablet detected"
+msgstr "Fann brett"
+
+#: ../thunar-volman/tvm-input-device.c:88
+#: ../thunar-volman/tvm-input-device.c:102
+msgid "A graphics tablet was detected"
+msgstr "Fann eit grafikkbrett"
+
+#: ../thunar-volman/tvm-input-device.c:110
+msgid "input-mouse"
+msgstr "inngangsmus"
+
+#: ../thunar-volman/tvm-input-device.c:111
+msgid "Mouse detected"
+msgstr "Fann mus"
+
+#: ../thunar-volman/tvm-input-device.c:112
+msgid "A mouse was detected"
+msgstr "Fann ei mus"
+
+#: ../thunar-volman/tvm-input-device.c:141
+#, c-format
+msgid "Unsupported input device type"
+msgstr "Inn-eininga er ikkje støtta"
+
+#: ../thunar-volman/tvm-run.c:171
+#, c-format
+msgid "Autoburning of blank CDs and DVDs is disabled"
+msgstr "Autobrenning av blanke CDar og DVDar er slege av"
+
+#: ../thunar-volman/tvm-run.c:189
+msgid "Blank DVD inserted"
+msgstr "Tom DVD sett inn"
+
+#: ../thunar-volman/tvm-run.c:190
+msgid "You have inserted a blank DVD."
+msgstr "Du har sett inn ein tom DVD."
+
+#: ../thunar-volman/tvm-run.c:191
+#: ../thunar-volman/tvm-run.c:202
+msgid "What would you like to do?"
+msgstr "Kva vil du gjera?"
+
+#: ../thunar-volman/tvm-run.c:193
+msgid "Burn _DVD"
+msgstr "Brenn _DVD"
+
+#: ../thunar-volman/tvm-run.c:200
+msgid "Blank CD inserted"
+msgstr "Tom CD sett inn"
+
+#: ../thunar-volman/tvm-run.c:201
+msgid "You have inserted a blank CD."
+msgstr "Du har sett inn ein tom CD."
+
+#: ../thunar-volman/tvm-run.c:204
+msgid "Burn _Data CD"
+msgstr "Brenn _data-CD"
+
+#: ../thunar-volman/tvm-run.c:205
+msgid "Burn _Audio CD"
+msgstr "Brenn _lyd-CD"
+
+#: ../thunar-volman/tvm-run.c:229
+#, c-format
+msgid "The burn command may not be empty"
+msgstr "Brennekommandoen kan ikkje vera tom"
+
+#: ../thunar-volman/tvm-run.c:268
+#, c-format
+msgid "The CD player command is undefined"
+msgstr "Kommandoen for å spela CDar er ikkje sett"
+
+#: ../thunar-volman/tvm-usb-device.c:62
+msgid "Camera detected"
+msgstr "Fann kamera"
+
+#: ../thunar-volman/tvm-usb-device.c:63
+msgid "A photo camera was detected"
+msgstr "Fann eit kamera"
+
+#: ../thunar-volman/tvm-usb-device.c:71
+msgid "Printer detected"
+msgstr "Fann skrivar"
+
+#: ../thunar-volman/tvm-usb-device.c:72
+msgid "A USB printer was detected"
+msgstr "Fann ein USB-skrivar"
+
+#: ../thunar-volman/tvm-usb-device.c:100
+#, c-format
+msgid "Unsupported USB device type"
+msgstr "USB-eininga er ikkje støtta"
+
+#. setup application name
+#: ../thunar-volman-settings/main.c:52
+msgid "Thunar Volume Manager Settings"
+msgstr "Set opp Thunar lagringshandsaming"
+
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:102
+msgid "Removable Drives and Media"
+msgstr "Flyttbare stasjonar og einingar"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Select an Application"
+msgstr "Vel eit program"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:250
+msgid "All Files"
+msgstr "Alle filer"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:255
+msgid "Executable Files"
+msgstr "Køyrbare filer"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:270
+msgid "Perl Scripts"
+msgstr "Perlskript"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:276
+msgid "Python Scripts"
+msgstr "Pythonskript"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:282
+msgid "Ruby Scripts"
+msgstr "Rubyskript"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:288
+msgid "Shell Scripts"
+msgstr "Skalskript"
+
+#.
+#. Storage
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:130
+msgid "Storage"
+msgstr "Lagring"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:141
+msgid "Removable Storage"
+msgstr "Flyttbar lagring"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
+msgid "_Mount removable drives when hot-plugged"
+msgstr "_Monter flyttbare stasjonar når dei blir sette i"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:166
+msgid "Mount removable media when _inserted"
+msgstr "Monter flyttbare lagringsmedium når dei blir sette _inn"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:174
+msgid "B_rowse removable media when inserted"
+msgstr "Bla gjennom flyttbare lag_ringsmedium når dei blir sette i"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:182
+msgid "_Auto-run programs on new drives and media"
+msgstr "_Autokøyr program på nye stasjonar og lagringsmedium"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:189
+msgid "Auto-open files on new drives and media"
+msgstr "Auto-opna filer på nye stasjonar og lagringsmedium"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:201
+msgid "Blank CDs and DVDs"
+msgstr "Tomme CDar og DVDar"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:218
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "_Brenn ein CD eller DVD når du set i ei tom plate"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:229
+msgid "Command for _Data CDs:"
+msgstr "Kommando for _data-CDar:"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:239
+msgid "Command for A_udio CDs:"
+msgstr "Kommando for _lyd-CDar:"
+
+#.
+#. Multimedia
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:255
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:266
+msgid "Audio CDs"
+msgstr "Lyd-CDar"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:283
+msgid "Play _audio CDs when inserted"
+msgstr "Spel _lyd-CDar når dei blir sette i"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:290
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:466
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:553
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:601
+msgid "_Command:"
+msgstr "_Kommando:"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:304
+msgid "Video CDs/DVDs"
+msgstr "Video-CDar/DVDar"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:321
+msgid "Play _video CDs and DVDs when inserted"
+msgstr "Spel _video-CDar og -DVDar når dei blir sette i"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:367
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:505
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:640
+msgid "C_ommand:"
+msgstr "K_ommado:"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:343
+msgid "Portable Music Players"
+msgstr "Berbare musikkspelarar"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:360
+msgid "Play _music files when connected"
+msgstr "Spel _musikkfiler når dei blir kopla til"
+
+#.
+#. Cameras
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
+msgid "Cameras"
+msgstr "Kamera"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:390
+msgid "Digital Cameras"
+msgstr "Digitalkamera"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:407
+msgid "Import digital photographs when connected"
+msgstr "Importer digitalbilete når kopla til"
+
+#.
+#. PDAs
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:427
+msgid "PDAs"
+msgstr "Handhaldne"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:441
+msgid "Palm™"
+msgstr "Palm™"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:458
+msgid "Sync _Palm™ devices when connected"
+msgstr "Synk _Palm™-einingar når dei er kopla til"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:480
+msgid "Pocket PCs"
+msgstr "Lomme-PCar"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:497
+msgid "Sync Pocket P_C devices when connected"
+msgstr "Synk lomme-P_Car når dei er kopla til"
+
+#.
+#. Printers
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:517
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:528
+msgid "Printers"
+msgstr "Skrivarar"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:545
+msgid "Automatically run a program when a _printer is connected"
+msgstr "Køyr automatisk eit _program når ein skrivar er kopla til"
+
+#.
+#. Input Devices
+#.
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:565
+msgid "Input Devices"
+msgstr "Inndataeiningar"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:576
+msgid "Keyboards"
+msgstr "Tastatur"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:593
+msgid "Automatically run a program when an USB _keyboard is connected"
+msgstr "Køyr automatisk eit program når eit USB-tastatur er _kopla til"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:615
+msgid "Mice"
+msgstr "Myser"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:632
+msgid "Automatically run a program when an USB _mouse is connected"
+msgstr "Køyr automatisk eit program når ei USB-_mus er kopla til"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:654
+msgid "Tablet"
+msgstr "Brett"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:671
+msgid "Automatically run a program when a _tablet is connected"
+msgstr "Køyr automatisk eit program når eit bre_tt er kopla til"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:679
+msgid "Com_mand:"
+msgstr "Kom_mando:"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
+msgid "Failed to open the documentation browser"
+msgstr "Klarte ikkje opna dokumentasjonsvisaren"
+
