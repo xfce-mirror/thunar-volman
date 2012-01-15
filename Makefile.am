@@ -7,11 +7,10 @@ SUBDIRS =								\
 	thunar-volman-settings
 
 distclean-local:
-	rm -rf *.spec *.cache *~
+	rm -rf *.cache *~
 
-rpm: dist
-	rpmbuild -ta $(PACKAGE)-$(VERSION).tar.gz
-	@rm -f $(PACKAGE)-$(VERSION).tar.gz
+distuninstallcheck_listfiles = 						\ 
+	find . -type f -print | grep -v ./share/icons/hicolor/icon-theme.cache
 
 .PHONY: ChangeLog
 
