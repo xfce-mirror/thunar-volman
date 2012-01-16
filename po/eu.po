@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2012-01-16 08:45+0000\n"
 "PO-Revision-Date: 2008-11-09 15:38+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
 "Language-Team: Euskara <debian-l10n-basque@lists.debian.org>\n"
@@ -34,25 +34,25 @@ msgid "Print version information and exit"
 msgstr "Inprimatu bertsio argibideak eta irten"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Thunar Bolumen Kudeatzailea"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Eskubide guztiak erreserbaturik."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Programa erroreen berri eman hemen : <%s>"
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Ez dago  \"%s\" sysfs bidea duen gailurik"
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Gailu berrien sysfs-a --device-added erabiliaz ezarri behar da"
@@ -99,8 +99,11 @@ msgid "A photo card has been detected"
 msgstr "Argazki txartel bat atzeman da"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
-msgstr "Argazkiak daude txartelean. Argazki horiek zure albumean gehitu nahi dituzu?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr ""
+"Argazkiak daude txartelean. Argazki horiek zure albumean gehitu nahi dituzu?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -218,10 +221,6 @@ msgstr "Bloke gailu mota ezezaguna"
 msgid "Device type not supported"
 msgstr "Gailu mota ez da onartzen"
 
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr "sarrera-teklatua"
-
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
 msgstr "Teklatua atzeman da"
@@ -229,11 +228,6 @@ msgstr "Teklatua atzeman da"
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
 msgstr "Teklatu bat atzeman da"
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr "sarrera-tableta"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -244,10 +238,6 @@ msgstr "Tableta bat atzeman da"
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
 msgstr "Tableta grafiko bat atzeman zen"
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
-msgstr "sarrera-sagua"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -517,7 +507,7 @@ msgid "Keyboards"
 msgstr "Teklatuak"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Automatikoki programa bat abiarazi USB te_klatu bat konektatzerakoan"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -525,7 +515,7 @@ msgid "Mice"
 msgstr "Sagua"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Automatikoki programa bat abiarazi USB _sagu bat konektatzerakoan"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -544,6 +534,15 @@ msgstr "Ko_mandoa:"
 msgid "Failed to open the documentation browser"
 msgstr "Huts dokumentazio nabigatzailea irekitzean"
 
+#~ msgid "input-keyboard"
+#~ msgstr "sarrera-teklatua"
+
+#~ msgid "input-tablet"
+#~ msgstr "sarrera-tableta"
+
+#~ msgid "input-mouse"
+#~ msgstr "sarrera-sagua"
+
 #~ msgid "Failed to open display"
 #~ msgstr "Huts panataila irekitzean"
 
@@ -559,8 +558,11 @@ msgstr "Huts dokumentazio nabigatzailea irekitzean"
 #~ msgid "Encrypted volume"
 #~ msgstr "Enkriptaturiko bolumena"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Enkriptaturiko bolumena muntatzen...</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Enkriptaturiko bolumena muntatzen..."
+#~ "</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Kriptografia geruza konfiguratzen..."
@@ -574,8 +576,11 @@ msgstr "Huts dokumentazio nabigatzailea irekitzean"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Okerreko pasahitza.</span>"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Bolumen hau enkriptaturik dago.</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Bolumen hau enkriptaturik dago.</"
+#~ "span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr "Mesedez idatzi pasahitza bolumenda desenkriptatu eta muntatzeko."
