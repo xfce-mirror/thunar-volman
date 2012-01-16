@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2012-01-15 21:15+0000\n"
 "PO-Revision-Date: 2010-11-28 13:31+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
 "Language-Team: Hungarian <gnome at fsf dot hu>\n"
@@ -34,25 +34,25 @@ msgid "Print version information and exit"
 msgstr "Verzióinformációk kiírása és kilépés"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Thunar kötetkezelő"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Minden jog fenntartva."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "A hibákat ide jelentse: <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Nincs „%s” sysfs-útvonalú eszköz"
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr ""
@@ -223,10 +223,6 @@ msgstr "Ismeretlen blokkeszköztípus"
 msgid "Device type not supported"
 msgstr "Az eszköztípus nem támogatott"
 
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr "bemenet-billentyűzet"
-
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
 msgstr "Billentyűzet észlelve"
@@ -234,11 +230,6 @@ msgstr "Billentyűzet észlelve"
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
 msgstr "A rendszer billentyűzetet észlelt"
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr "bemenet-táblagép"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -249,10 +240,6 @@ msgstr "Grafikus tábla észlelve"
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
 msgstr "A rendszer grafikus táblát észlelt"
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
-msgstr "bemenet-egér"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -522,7 +509,7 @@ msgid "Keyboards"
 msgstr "Billentyűzetek"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Program futtatása automatikusan USB-billentyű_zet csatlakoztatásakor"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -530,7 +517,7 @@ msgid "Mice"
 msgstr "Egér"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Program futtatása automatikusan USB-_egér csatlakoztatásakor"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -548,3 +535,12 @@ msgstr "Para_ncs:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "A dokumentációböngésző megnyitása meghiúsult"
+
+#~ msgid "input-keyboard"
+#~ msgstr "bemenet-billentyűzet"
+
+#~ msgid "input-tablet"
+#~ msgstr "bemenet-táblagép"
+
+#~ msgid "input-mouse"
+#~ msgstr "bemenet-egér"
