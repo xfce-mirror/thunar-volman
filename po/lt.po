@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-15 13:41+0200\n"
-"PO-Revision-Date: 2012-01-06 14:41+0200\n"
+"POT-Creation-Date: 2012-01-27 14:24+0000\n"
+"PO-Revision-Date: 2012-01-27 18:24+0200\n"
 "Last-Translator: Algimantas Margevičius <margevicius.algimantas@gmail.com>\n"
 "Language-Team: Lietuvių <>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bits\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
 "%100<10 || n%100>=20) ? 1 : 2)\n"
 
@@ -135,7 +135,7 @@ msgstr "Ar norite atverti „%s“?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
-msgstr "Auto atvėrimo konfigūracija"
+msgstr "Auto atvėrimo patvirtinimas"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
@@ -258,7 +258,7 @@ msgstr "Automatinis tuščių CD/DVD įrašymas išjungtas"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr "Įdėta tuščia DVD"
+msgstr "Įdėtas tuščias DVD"
 
 #: ../thunar-volman/tvm-run.c:190
 msgid "You have inserted a blank DVD."
@@ -382,7 +382,7 @@ msgstr "Į_dėjus išimamą laikmeną naršyti"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr "Naujiem įrenginiams ir laikmenom automatiškai vykdyti programas"
+msgstr "_Naujiem įrenginiams ir laikmenom automatiškai vykdyti programas"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
@@ -482,11 +482,11 @@ msgstr "Prijungus sinchronizuoti _Palm™ įrenginius"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
-msgstr "Pocket PC"
+msgstr "Kišeniniai kompiuteriai"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Prijungus sinchronizuoti Pocket PC įrenginius"
+msgstr "_Prijungus sinchronizuoti kišeninius kompiuterius"
 
 #.
 #. Printers
@@ -517,7 +517,7 @@ msgstr "Prijungus USB _klaviatūrą automatiškai vykdyti programą"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
-msgstr "Pelė"
+msgstr "Pelės"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
