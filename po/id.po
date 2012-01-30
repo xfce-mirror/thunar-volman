@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2012-01-30 12:00+0000\n"
 "PO-Revision-Date: 2008-09-03 21:13+0700\n"
 "Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
@@ -31,25 +31,25 @@ msgid "Print version information and exit"
 msgstr "Cetak informasi versi lalu keluar"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Manajer Volume Thunar"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Hak cipta dilindungi undang-undang."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Silakan laporkan kutu ke <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Tak ada divais dengan alamat sysfs \"%s\""
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Harus ditentukan alamat sysfs divais baru dengan --device-added"
@@ -96,8 +96,11 @@ msgid "A photo card has been detected"
 msgstr "Kartu foto telah terdeteksi"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
-msgstr "Ada foto di dalam kartu. Anda ingin menyertakan foto ini ke dalam album anda?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr ""
+"Ada foto di dalam kartu. Anda ingin menyertakan foto ini ke dalam album anda?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -215,10 +218,6 @@ msgstr "Tipe divais blok tidak diketahui"
 msgid "Device type not supported"
 msgstr "Tipe divais tidak didukung"
 
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr "masukan-papan ketik"
-
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
 msgstr "Papan ketik terdeteksi"
@@ -226,11 +225,6 @@ msgstr "Papan ketik terdeteksi"
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
 msgstr "Sebuah papan ketik telah terdeteksi"
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr "masukan-tablet"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -241,10 +235,6 @@ msgstr "Tablet terdeteksi"
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
 msgstr "Sebuah tablet grafis telah terdeteksi"
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
-msgstr "masukan-tetikus"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -514,7 +504,7 @@ msgid "Keyboards"
 msgstr "Papan Ketik"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Otomatis menjalankan program ketika papan _ketik USB tersambung"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -522,7 +512,7 @@ msgid "Mice"
 msgstr "Tetikus"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Otomatis menjalankan program ketika _tetikus USB tersambung"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -541,6 +531,15 @@ msgstr "Per_intah:"
 msgid "Failed to open the documentation browser"
 msgstr "Gagal membuka peramban dokumentasi"
 
+#~ msgid "input-keyboard"
+#~ msgstr "masukan-papan ketik"
+
+#~ msgid "input-tablet"
+#~ msgstr "masukan-tablet"
+
+#~ msgid "input-mouse"
+#~ msgstr "masukan-tetikus"
+
 #~ msgid "Failed to open display"
 #~ msgstr "Gagal membuka tampilan"
 
@@ -556,8 +555,11 @@ msgstr "Gagal membuka peramban dokumentasi"
 #~ msgid "Encrypted volume"
 #~ msgstr "Volume terenkripsi"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Mengaitkan volume terenkripsi...</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Mengaitkan volume terenkripsi...</"
+#~ "span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Mengatur lapisan kripto..."
@@ -571,11 +573,14 @@ msgstr "Gagal membuka peramban dokumentasi"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Sandi lewat salah.</span>"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Volume ini terenkripsi.</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Volume ini terenkripsi.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Silakan masukkan sandi lewat anda untuk mendekripsi dan mengaitkan volume."
+#~ msgstr ""
+#~ "Silakan masukkan sandi lewat anda untuk mendekripsi dan mengaitkan volume."
 
 #~ msgid "_Mount"
 #~ msgstr "_Kait"
