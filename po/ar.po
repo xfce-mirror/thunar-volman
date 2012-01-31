@@ -1,86 +1,91 @@
+# كريم اولاد الشلحة <herr.linux88@gmail.com>, 2012.
 msgid ""
 msgstr ""
-"Project-Id-Version: xfce\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-01-16 17:51+0100\n"
-"PO-Revision-Date: 2008-07-15 17:29+0200\n"
-"Last-Translator: Mohamed Magdy <mohamedmk@gmail.com>\n"
-"Language-Team: Arabeyes <doc@arabeyes.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2012-01-30 21:52-0000\n"
+"Last-Translator: كريم اولاد الشلحة <herr.linux88@gmail.com>\n"
+"Language-Team: Arabic Xfce Translation Team <herr.linux88@gmail.com>\n"
+"Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"X-Generator: Virtaal 0.7.0\n"
 "X-Poedit-Language: Arabic\n"
+"X-Poedit-Country: Morroco\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
-msgstr ""
+msgstr "مسار syfs للجهاز المضاف حديثا"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
-msgstr ""
+msgstr "إعداد غدارة الأقراص القابلة للإزالة و الوسائط"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr ""
+msgstr "طباعة معلومات الإصدار والخروج"
 
 #. setup application name
 #: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr ""
+msgstr "مدير الأجهزة تونار"
 
 #: ../thunar-volman/main.c:119
 msgid "All rights reserved."
-msgstr ""
+msgstr "كل الحقوق محفوظة."
 
 #: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr ""
+msgstr "الرجاء التبليغ عن الخلل في <%s>."
 
 #: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "لا يوجد جهاز بمسارsysfs \"%s\""
 
 #: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
+msgstr "يجب تجديد مسار sysfs للأجهزة الجديدة بـ --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
 msgid "Photos and Music"
-msgstr ""
+msgstr "صور و موسيقى"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr ""
+msgstr "تم العثور على صور في جهاز تشغيل الموسيقى المحمول خاصتك"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
-msgstr ""
+msgstr "هل تريد إستيراد صور أو إدارة الموسيقى؟"
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829
+#: ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
-msgstr ""
+msgstr "ت_جاهل"
 
 #: ../thunar-volman/tvm-block-device.c:209
 #: ../thunar-volman/tvm-block-device.c:278
 msgid "Import _Photos"
-msgstr ""
+msgstr "إستيراد صور"
 
 #: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
-msgstr ""
+msgstr "غدارة ملفات الموسيقى"
 
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
@@ -89,12 +94,10 @@ msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr ""
+msgstr "تم إكتشاف بطاقة الصور"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid ""
-"There are photos on the card. Would you like to add these photos to your "
-"album?"
+msgid "There are photos on the card. Would you like to add these photos to your album?"
 msgstr ""
 
 #. prompt the user to execute the file
@@ -103,28 +106,28 @@ msgstr ""
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr ""
+msgstr "هل تريد السماح بتشغيل \"%s\" ؟"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
 msgid "Auto-Run Confirmation"
-msgstr ""
+msgstr "تأكيد التشغيل الذاتي"
 
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run capability detected"
-msgstr ""
+msgstr "تم غكتشاف جهاز متوافق مع التشغيل الذاتي"
 
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
-msgstr ""
+msgstr "السماح بالت_شغيل الذاتي"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:502
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr ""
+msgstr "هل تريد فتح \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
@@ -136,11 +139,11 @@ msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
-msgstr ""
+msgstr "_فتح"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
-msgstr ""
+msgstr "تم وصل قرص مدمج"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
@@ -156,7 +159,7 @@ msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr ""
+msgstr "تم وثل الجهاز"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
@@ -197,7 +200,7 @@ msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:830
 msgid "_Browse Files"
-msgstr ""
+msgstr "تص_فح الملفات"
 
 #: ../thunar-volman/tvm-block-device.c:831
 msgid "_Play CD"
@@ -211,7 +214,7 @@ msgstr ""
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr ""
+msgstr "نوع الجهاز غير مدعوم"
 
 #: ../thunar-volman/tvm-input-device.c:74
 msgid "input-keyboard"
@@ -219,11 +222,11 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
-msgstr ""
+msgstr "تم إكتشاف لوحة مفاتيح"
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
-msgstr ""
+msgstr "تم إكتشاف لوحة مفاتيح"
 
 #: ../thunar-volman/tvm-input-device.c:86
 #: ../thunar-volman/tvm-input-device.c:100
@@ -233,12 +236,12 @@ msgstr ""
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
 msgid "Tablet detected"
-msgstr ""
+msgstr "تم إكتشاف جهاز لوحي"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "تم إكتشاف جهاز لوحي رسومي"
 
 #: ../thunar-volman/tvm-input-device.c:110
 msgid "input-mouse"
@@ -246,11 +249,11 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "تم إكتشاف الفأرة"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "تم إكتشاف مؤشر الفأرة"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
@@ -270,29 +273,30 @@ msgstr ""
 msgid "You have inserted a blank DVD."
 msgstr ""
 
-#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
+#: ../thunar-volman/tvm-run.c:191
+#: ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
-msgstr ""
+msgstr "ماذا تريد أن تفعل؟"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "حرق _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
-msgstr ""
+msgstr "تم وصل قرص فارغ"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
-msgstr ""
+msgstr "لقد قمت بإدخال قرص فارغ"
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
-msgstr ""
+msgstr "حرق قر_ص بيانات"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr ""
+msgstr "حرق قرص صو_تي"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -302,77 +306,77 @@ msgstr ""
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "أمر مشغل CD غير محدد"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "تم إكتشاف كاميرا"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 msgid "A photo camera was detected"
-msgstr ""
+msgstr "تم إكتشاف كاميرا الصور"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "تم إكتشاف طابعة"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "تم إكتشاف طابعة USB"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
-msgstr ""
+msgstr "نوع جهاز USB غير مدعوم"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
-msgstr ""
+msgstr "إعدادات مدير الأجهزة تونار"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
-msgstr ""
+msgstr "أجهزة و وسائط قابلة لإزالة"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
-msgstr ""
+msgstr "حدد تطبيقا"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:250
 msgid "All Files"
-msgstr ""
+msgstr "كل الملفات"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:255
 msgid "Executable Files"
-msgstr ""
+msgstr "ملفات تنفيذية"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:270
 msgid "Perl Scripts"
-msgstr ""
+msgstr "سكريبت بيرل"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:276
 msgid "Python Scripts"
-msgstr ""
+msgstr "سكريبت بيثون"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:282
 msgid "Ruby Scripts"
-msgstr ""
+msgstr "سكريبت روبي"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:288
 msgid "Shell Scripts"
-msgstr ""
+msgstr "سكريبت شيل"
 
 #.
 #. Storage
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
-msgstr ""
+msgstr "وحدة التخزين"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:141
 msgid "Removable Storage"
-msgstr ""
+msgstr "وحدة التخزين قابلة للإزالة"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
@@ -396,34 +400,34 @@ msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
-msgstr ""
+msgstr "أقراص CDs و DVDs فارغة"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr ""
+msgstr "حرق CD أو DVD عنذ إدخال قرص فارغ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr ""
+msgstr "أمر _لأقراص بيانات:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr ""
+msgstr "أمر ل_أقراص صوتية:"
 
 #.
 #. Multimedia
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
-msgstr ""
+msgstr "وسائط متعددة"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:266
 msgid "Audio CDs"
-msgstr ""
+msgstr "أقراص صوتية"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr ""
+msgstr "تشغيل أقراص صوتية عنذ إدخالها"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -431,41 +435,41 @@ msgstr ""
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:553
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:601
 msgid "_Command:"
-msgstr ""
+msgstr "أم_ر:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr ""
+msgstr "أقراص فيديو CDs/DVDs"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr ""
+msgstr "تشغ_يل أقراص فيديو CDs and DVDs عنذ إدخالها"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:505
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:640
 msgid "C_ommand:"
-msgstr ""
+msgstr "_أمر:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:343
 msgid "Portable Music Players"
-msgstr ""
+msgstr "مشغل موسيقى محمول"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
-msgstr ""
+msgstr "تشغيل ملفات الموسيقى عنذ وصلها"
 
 #.
 #. Cameras
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
-msgstr ""
+msgstr "كاميرات"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:390
 msgid "Digital Cameras"
-msgstr ""
+msgstr "كاميرات رقمية"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
@@ -476,23 +480,23 @@ msgstr ""
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
-msgstr ""
+msgstr "PDAs"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:441
 msgid "Palm™"
-msgstr ""
+msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
-msgstr ""
+msgstr "مزامنة أجهزة _Palm™ عنذ وصلها"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
-msgstr ""
+msgstr "Pocket PCs"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr ""
+msgstr "مزامنة اجهزة Pocket P_C عنذ وصلها"
 
 #.
 #. Printers
@@ -500,47 +504,48 @@ msgstr ""
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
-msgstr ""
+msgstr "طابعات"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
-msgstr ""
+msgstr "تشغيل برنامج تلقائيا عنذ وصل طابعة"
 
 #.
 #. Input Devices
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
-msgstr ""
+msgstr "أجهزة الإدخال"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:576
 msgid "Keyboards"
-msgstr ""
+msgstr "لوحة مفاتيح"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr ""
+msgstr "تشغيل برنامج تلقائيا عنذ وصل لوحة مفاتيح USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
-msgstr ""
+msgstr "فارة"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr ""
+msgstr "تشغيل برنامج تلقائيا عنذ وصل فأرة USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
-msgstr ""
+msgstr "جهاز لوحي"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr ""
+msgstr "تشغيل برنامج عنذ وصل جهاز لوحي"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
-msgstr ""
+msgstr "أ_مر:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
-msgstr ""
+msgstr "فشل فتح متصفح الوثائق"
+
