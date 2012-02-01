@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2012-02-01 10:24+0000\n"
 "PO-Revision-Date: 2007-01-15 21:19+0100\n"
 "Last-Translator: Benedikt Meurer <benny@xfce.org>\n"
 "Language-Team: German <de@li.org>\n"
@@ -31,25 +31,25 @@ msgid "Print version information and exit"
 msgstr "Programmversion anzeigen"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Thunar Datenträgerverwaltung"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Alle Rechte vorbehalten."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Bitte melden Sie Probleme unter <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Es existiert kein Gerät mit dem Sysfs-Pfad »%s«"
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Es muss ein Sysfs-Pfad mit --device-added angegeben werden"
@@ -96,8 +96,12 @@ msgid "A photo card has been detected"
 msgstr "Ein Medium mit Fotos wurde erkannt."
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
-msgstr "Auf diesem Medium sind Fotos vorhanden. Sollen diese Ihrem Fotoalbum hinzugefügt werden?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr ""
+"Auf diesem Medium sind Fotos vorhanden. Sollen diese Ihrem Fotoalbum "
+"hinzugefügt werden?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -215,10 +219,6 @@ msgstr "Unbekanntes blockorientiertes Gerät"
 msgid "Device type not supported"
 msgstr "Gerätetyp wird nicht unterstützt"
 
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr "Eingabe-Tastatur"
-
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
 msgstr "Tastaturen"
@@ -226,11 +226,6 @@ msgstr "Tastaturen"
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
 msgstr "Eine Tastatur wurde erkannt."
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr "Tabletts"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -241,10 +236,6 @@ msgstr "Unterstützung für Automatisches Ausführen erkannt."
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
 msgstr "Ein Grafiktablett wurde erkannt"
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
-msgstr "Eingabe-Maus"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -514,16 +505,18 @@ msgid "Keyboards"
 msgstr "Tastaturen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
-msgstr "Automatisch ein Programm ausführen, wenn eine USB-_Tastatur eingesteckt wird"
+msgid "Automatically run a program when a USB _keyboard is connected"
+msgstr ""
+"Automatisch ein Programm ausführen, wenn eine USB-_Tastatur eingesteckt wird"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
 msgstr "Mäuse"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
-msgstr "Automatisch ein Programm ausführen, wenn eine USB-_Maus eingesteckt wird"
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr ""
+"Automatisch ein Programm ausführen, wenn eine USB-_Maus eingesteckt wird"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -531,7 +524,8 @@ msgstr "Grafiktablets"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "Automatisch ein Programm ausführen, wenn ein _Grafiktablett eingesteckt wird"
+msgstr ""
+"Automatisch ein Programm ausführen, wenn ein _Grafiktablett eingesteckt wird"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
@@ -540,6 +534,15 @@ msgstr "Befe_hl:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Die Dokumentation konnte nicht angezeigt werden"
+
+#~ msgid "input-keyboard"
+#~ msgstr "Eingabe-Tastatur"
+
+#~ msgid "input-tablet"
+#~ msgstr "Tabletts"
+
+#~ msgid "input-mouse"
+#~ msgstr "Eingabe-Maus"
 
 #~ msgid "Failed to open display"
 #~ msgstr "Konnte keine Verbindung zum XServer herstellen"
@@ -556,14 +559,18 @@ msgstr "Die Dokumentation konnte nicht angezeigt werden"
 #~ msgid "Encrypted volume"
 #~ msgstr "Verschlüsselter Datenträger"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Verschlüsselten Datenträger einhängen...</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Verschlüsselten Datenträger "
+#~ "einhängen...</span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Verschlüsselungsschicht aufsetzen..."
 
 #~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Sie sind nicht dazu berechtigt, die Verschlüsselungsschicht einzurichten"
+#~ msgstr ""
+#~ "Sie sind nicht dazu berechtigt, die Verschlüsselungsschicht einzurichten"
 
 #~ msgid "Wrong password"
 #~ msgstr "Falsches Passwort"
@@ -571,11 +578,16 @@ msgstr "Die Dokumentation konnte nicht angezeigt werden"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Falsches Passwort.</span>"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Dieser Datenträger ist verschlüsselt.</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Dieser Datenträger ist "
+#~ "verschlüsselt.</span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Bitte geben Sie Ihr Passwort ein, um den Datenträger zu entschlüsseln und einzuhängen."
+#~ msgstr ""
+#~ "Bitte geben Sie Ihr Passwort ein, um den Datenträger zu entschlüsseln und "
+#~ "einzuhängen."
 
 #~ msgid "_Mount"
 #~ msgstr "_Einhängen"
