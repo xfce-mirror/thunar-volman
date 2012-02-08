@@ -1,12 +1,13 @@
 # كريم اولاد الشلحة <herr.linux88@gmail.com>, 2012.
 # Mohammad Alhargan <malham1@gmail.com>, 2012.
+# Mohammad Alhargan <malham1@hotmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-07 11:24+0000\n"
-"PO-Revision-Date: 2012-02-07 20:07+0300\n"
-"Last-Translator: Mohammad Alhargan <malham1@gmail.com>\n"
+"POT-Creation-Date: 2012-02-08 04:48+0000\n"
+"PO-Revision-Date: 2012-02-08 08:13+0300\n"
+"Last-Translator: Mohammad Alhargan <malham1@hotmail.com>\n"
 "Language-Team: http://www.vertaal.com.ar/files/opensuse-11-4/ar/list/\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -462,7 +463,7 @@ msgstr "كاميرات رقمية"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr ""
+msgstr "استيراد الصور الرقمية عند التوصيل"
 
 #.
 #. PDAs
