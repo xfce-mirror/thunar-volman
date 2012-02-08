@@ -4,13 +4,13 @@
 # the thunar-volman package.
 # Jiahua Huang <jhuangjiahua@gmail.com>, 2009.
 # Hunt Xu <huntxu@live.cn>, 2009.
-# Chipong Luo <chipong_l@yahoo.com>, 2011, 2012.
+# Chipong Luo <chipong.luo@yahoo.com>, 2011, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-07 05:36+0000\n"
+"POT-Creation-Date: 2012-02-08 04:48+0000\n"
 "PO-Revision-Date: 2011-03-13 14:50+0800\n"
 "Last-Translator: Chipong Luo <chipong_l@yahoo.com>\n"
 "Language-Team: Chinese (Simplified) <xfce-i18n@xfce.org>\n"
@@ -55,9 +55,7 @@ msgstr "没有 sysfs 路径 “%s” 的设备"
 #: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
-"必须用 --device-added 指定新增设备的 "
-"sysfs 路径"
+msgstr "必须用 --device-added 指定新增设备的 sysfs 路径"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -104,9 +102,7 @@ msgstr "检测到照片存储卡"
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
-"存储卡中有照片。您想要将这些照片添加到"
-"相册吗？"
+msgstr "存储卡中有照片。您想要将这些照片添加到相册吗？"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
