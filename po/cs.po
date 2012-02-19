@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfce 4-i18-goodies\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-21 19:18+0000\n"
-"PO-Revision-Date: 2012-01-22 01:42+0100\n"
+"POT-Creation-Date: 2012-02-19 20:00+0000\n"
+"PO-Revision-Date: 2012-02-19 22:27+0100\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech\n"
 "Language: \n"
@@ -48,7 +48,7 @@ msgstr "Prosíme, abyste chyby hlásili na adresu <%s>."
 #: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Neexistuje zažízení s cestou sysfs \"%s\""
+msgstr "Neexistuje zařízení s cestou sysfs \"%s\""
 
 #: ../thunar-volman/main.c:186
 #, c-format
@@ -272,7 +272,7 @@ msgstr "Vypálit disk _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
-msgstr "Vložen prázdný disk CD."
+msgstr "Vložen prázdný disk CD"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
@@ -306,7 +306,7 @@ msgstr "Byl nalezen fotoaparát"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr "Nalezena tirkárna"
+msgstr "Nalezena tiskárna"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
