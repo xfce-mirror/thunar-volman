@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: thunar-volman.master\n"
 "Report-Msgid-Bugs-To: xfce4-users-kr-i18n <xfce4-users-kr-i18n@lists.sourceforge.net>\n"
 "POT-Creation-Date: 2012-02-27 09:21+0000\n"
-"PO-Revision-Date: 2012-02-27 23:35+0900\n"
+"PO-Revision-Date: 2012-02-27 23:37+0900\n"
 "Last-Translator: Seong-ho, Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: xfce4-users-kr-i18n <xfce4-users-kr-i18n@lists.sourceforge.net>\n"
 "Language: Ko\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
-msgstr ""
+msgstr "새롭게 추가된 장치의 sysfs 경로"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
