@@ -29,7 +29,7 @@ msgstr "새롭게 추가된 장치의 sysfs 경로"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
-msgstr "이동식 드라이브와 미디어에 대한 설정 관리"
+msgstr "이동식 드라이브와 미디어에 대한 관리를 설정합니다"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
