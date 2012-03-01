@@ -47,7 +47,7 @@ msgstr "All rights reserved."
 #: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr "<%s>로 버그를 보고하여 주시기 바랍니다."
+msgstr "<%s>로 버그를 알려주시기 바랍니다."
 
 #: ../thunar-volman/main.c:174
 #, c-format
