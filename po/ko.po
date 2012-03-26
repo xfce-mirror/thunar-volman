@@ -431,11 +431,11 @@ msgstr "명령(_C):"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr "비디오 CD/DVD"
+msgstr "동영상 CD/DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "삽입되면 비디오 CD와 DVD를 재생합니다(_V)"
+msgstr "삽입되면 동영상 CD와 DVD를 재생합니다(_V)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
