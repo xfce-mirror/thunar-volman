@@ -193,7 +193,7 @@ msgstr "장치에 관련된 볼륨을 감지할 수 없습니다"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
-msgstr "오디오/데이터 CD"
+msgstr "음악/데이터 CD"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
@@ -288,7 +288,7 @@ msgstr "데이터 CD 굽기(_D)"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr "오디오 CD 굽기(_A)"
+msgstr "음악 CD 굽기(_A)"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -404,7 +404,7 @@ msgstr "Data CD에 대한 명령(_D):"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "오디오 CD에 대한 명령(_U):"
+msgstr "음악 CD에 대한 명령(_U):"
 
 #.
 #. Multimedia
@@ -415,11 +415,11 @@ msgstr "멀티미디어"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:266
 msgid "Audio CDs"
-msgstr "오디오 CD"
+msgstr "음악 CD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr "삽입되면 오디오 CD를 재생합니다(_A)"
+msgstr "삽입되면 음악 CD를 재생합니다(_A)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
