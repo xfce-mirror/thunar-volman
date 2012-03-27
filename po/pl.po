@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2012-03-27 04:51+0000\n"
 "PO-Revision-Date: 2009-03-24 17:30+0100\n"
 "Last-Translator: Piotr Sokół <piotr.sokol@10g.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
@@ -18,9 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=((n==1) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2));\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "Określa UDI nowo dodanego urządzenia HAL"
+msgstr "Ścieżka sysfs nowo dodanego urządzenia"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
@@ -33,28 +32,28 @@ msgid "Print version information and exit"
 msgstr "Wypisuje informacje o wersji i kończy"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Menedżer wolumenów programu Thunar"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Wszelkie prawa zastrzeżone."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Proszę zgłaszać błędy na adres <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "Nie ma urządzenia o ścieżce sysfs \"%s\""
 
-#: ../thunar-volman/main.c:202
-#, fuzzy, c-format
+#: ../thunar-volman/main.c:186
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Należy określić UDI nowego urządzenia HAL przez --device-added"
+msgstr "Należy określić ścieżkę sysfs nowego urządzenia przez --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -219,11 +218,6 @@ msgstr "Nieznany typ urządzenia blokowego"
 msgid "Device type not supported"
 msgstr "Nie obsługiwany typ urządzenia"
 
-#: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
-msgid "input-keyboard"
-msgstr "Klawiatury"
-
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
 msgstr "Wykryto klawiaturę"
@@ -231,11 +225,6 @@ msgstr "Wykryto klawiaturę"
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
 msgstr "Wykryto klawiaturę"
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -246,10 +235,6 @@ msgstr "Wykryto Tablet"
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
 msgstr "Wykryto tablet graficzny"
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
-msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -304,12 +289,12 @@ msgstr "Nagraj płytę _Audio CD"
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Polecenie wypalania nie może być puste"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "Polecenie odtwarzacza CD jest niezdefiniowane"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
@@ -520,7 +505,7 @@ msgid "Keyboards"
 msgstr "Klawiatury"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Uruchamianie programu po podłączeniu _klawiatury USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -528,7 +513,7 @@ msgid "Mice"
 msgstr "Myszy"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Uruchamianie programu po podłączeniu _myszy USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -546,6 +531,9 @@ msgstr "Po_lecenie:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Nie udało się uruchomić przeglądarki dokumentacji"
+
+#~ msgid "input-keyboard"
+#~ msgstr "Klawiatury"
 
 #~ msgid "Failed to open display"
 #~ msgstr "Nie udało się otworzyć ekranu"
