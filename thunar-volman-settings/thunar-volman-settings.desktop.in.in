@@ -6,6 +6,6 @@ Icon=drive-removable-media
 Terminal=false
 StartupNotify=true
 Type=Application
-Categories=X-XFCE;Settings;DesktopSettings;X-XfceSettingsDialog;
+Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-HardwareSettings;
 
 # vi:set encoding=UTF-8:
