@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-15 15:30+0000\n"
+"POT-Creation-Date: 2012-04-02 05:51+0000\n"
 "PO-Revision-Date: 2011-09-08 14:06+0200\n"
 "Last-Translator: Pjotr\n"
 "Language-Team: Dutch (Flemish)\n"
@@ -49,7 +49,7 @@ msgstr "Fouten graag melden aan <%s>."
 #: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Er is geen apparaat met het sysfs-pad \"%s\""
+msgstr "Er is geen apparaat met het sysfs-pad '%s'"
 
 #: ../thunar-volman/main.c:186
 #, c-format
@@ -112,7 +112,7 @@ msgstr ""
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "Wilt u \"%s\" toestaan om te draaien?"
+msgstr "Wilt u '%s' toestaan om te draaien?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -133,7 +133,7 @@ msgstr "Autostart _toestaan"
 #: ../thunar-volman/tvm-block-device.c:502
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr "Wilt u \"%s\" openen?"
+msgstr "Wilt u '%s' openen?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
@@ -170,7 +170,7 @@ msgstr "Medium aangekoppeld"
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "Het medium \"%s\" werd automatisch aangekoppeld"
+msgstr "Het medium '%s' werd automatisch aangekoppeld"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
@@ -194,7 +194,7 @@ msgstr "Kon het medium niet vinden dat met het apparaat overeenkomt"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
-msgstr "Geluid-/Gegevens-CD"
+msgstr "Geluid-/gegevens-CD"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
@@ -228,7 +228,7 @@ msgstr "Toetsenbord aangetroffen"
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
-msgstr "Een toetsenbord werd aangetroffen"
+msgstr "Er werd een toetsenbord aangetroffen"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -238,7 +238,7 @@ msgstr "Tablet gevonden"
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr "Er is een tekentablet gevonden"
+msgstr "Er werd een tekentablet gevonden"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -345,19 +345,19 @@ msgstr "Uitvoerbare bestanden"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:270
 msgid "Perl Scripts"
-msgstr "Perl scripts"
+msgstr "Perl-scripts"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:276
 msgid "Python Scripts"
-msgstr "Python scripts"
+msgstr "Python-scripts"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:282
 msgid "Ruby Scripts"
-msgstr "Ruby scripts"
+msgstr "Ruby-scripts"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:288
 msgid "Shell Scripts"
-msgstr "Shell scripts"
+msgstr "Shell-scripts"
 
 #. Storage
 #. 
@@ -383,11 +383,11 @@ msgstr "_Doorzoek verwijderbare media wanneer deze worden ingebracht"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr "Programma's automatisch _starten op nieuwe stations en media"
+msgstr "_Start programma's automatisch op nieuwe stations en media"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
-msgstr "Bestanden automatisch openen op nieuwe stations en media"
+msgstr "Open bestanden automatisch op nieuwe stations en media"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
@@ -448,7 +448,7 @@ msgstr "Draagbare muziekspelers"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
-msgstr "_Muziekbestanden afspelen wanneer verbonden"
+msgstr "Speel _muziekbestanden af wanneer verbonden"
 
 #. Cameras
 #. 
@@ -462,7 +462,7 @@ msgstr "Digitale camera's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr "Foto's importeren wanneer aangesloten"
+msgstr "Importeer digitale foto's wanneer aangesloten"
 
 #. PDAs
 #. 
@@ -476,7 +476,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
-msgstr "_Palm™ apparaat synchroniseren wanneer aangesloten"
+msgstr "Synchroniseer _Palm™-apparaten wanneer aangesloten"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
@@ -484,7 +484,7 @@ msgstr "Pocket-PC's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Pocket-P_C-apparaten synchroniseren wanneer aangesloten"
+msgstr "Synchroniseer Pocket-P_C-apparaten wanneer aangesloten"
 
 #. Printers
 #. 
@@ -540,7 +540,7 @@ msgstr "_Opdracht:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
-msgstr "Kon de documentatieverkenner niet openen"
+msgstr "Kon de documentatiebladeraar niet openen"
 
 #~ msgid "input-keyboard"
 #~ msgstr "invoer-toetsenbord"
