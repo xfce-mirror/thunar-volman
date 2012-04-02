@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2012-04-02 00:03+0000\n"
 "PO-Revision-Date: 2008-08-30 13:32-0300\n"
 "Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
@@ -33,28 +33,30 @@ msgid "Print version information and exit"
 msgstr "Imprime as informações sobre a versão e sai"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Gerenciador de volumes Thunar"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Todos os direitos reservados."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Por favor reporte os erros para <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Não há dispositivo com o caminho sysfs \"%s\""
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "É necessário especificar o caminho sysfs dos novos dispositivos com --device-added"
+msgstr ""
+"É necessário especificar o caminho sysfs dos novos dispositivos com --device-"
+"added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -98,8 +100,11 @@ msgid "A photo card has been detected"
 msgstr "Um cartão de fotos foi detectado"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
-msgstr "Existem fotos no cartão. Você gostaria de adicionar estas fotos no seu álbum?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr ""
+"Existem fotos no cartão. Você gostaria de adicionar estas fotos no seu álbum?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -217,10 +222,6 @@ msgstr "Tipo de dispositivo de bloco desconhecido"
 msgid "Device type not supported"
 msgstr "Tipo de dispositivo não suportado"
 
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr "Teclados"
-
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
 msgstr "Teclado detectado"
@@ -228,11 +229,6 @@ msgstr "Teclado detectado"
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
 msgstr "Um teclado foi detectado"
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr "Tablet"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -243,10 +239,6 @@ msgstr "Tablet detectado"
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
 msgstr "Um tablet foi detectado"
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
-msgstr "Mouse"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -503,7 +495,8 @@ msgstr "Impressoras"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
-msgstr "Executar automaticamente um programa quando uma im_pressora for conectada"
+msgstr ""
+"Executar automaticamente um programa quando uma im_pressora for conectada"
 
 #. Input Devices
 #. 
@@ -516,16 +509,18 @@ msgid "Keyboards"
 msgstr "Teclados"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
-msgstr "Executar automaticamente um programa quando um _teclado USB for conectado"
+msgid "Automatically run a program when a USB _keyboard is connected"
+msgstr ""
+"Executar automaticamente um programa quando um _teclado USB for conectado"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
 msgstr "Mouse"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
-msgstr "Executar automaticamente um programa quando um _mouse USB for conectado"
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr ""
+"Executar automaticamente um programa quando um _mouse USB for conectado"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -543,6 +538,15 @@ msgstr "Com_ando:"
 msgid "Failed to open the documentation browser"
 msgstr "Falha ao abrir o navegador de documentação"
 
+#~ msgid "input-keyboard"
+#~ msgstr "Teclados"
+
+#~ msgid "input-tablet"
+#~ msgstr "Tablet"
+
+#~ msgid "input-mouse"
+#~ msgstr "Mouse"
+
 #~ msgid "Failed to open display"
 #~ msgstr "Falha ao abrir a exibição"
 
@@ -558,8 +562,11 @@ msgstr "Falha ao abrir o navegador de documentação"
 #~ msgid "Encrypted volume"
 #~ msgstr "Volume criptografado"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Montando volume criptografado...</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Montando volume criptografado...</"
+#~ "span>"
 
 #~ msgid "Setting up the crypto layer..."
 #~ msgstr "Configurando a camada de criptografia..."
@@ -573,11 +580,15 @@ msgstr "Falha ao abrir o navegador de documentação"
 #~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Senha incorreta.</span>"
 
-#~ msgid "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Este volume está criptografado.</span>"
+#~ msgid ""
+#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">Este volume está criptografado.</"
+#~ "span>"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Por favor, entre com sua senha para descriptografar e montar o volume."
+#~ msgstr ""
+#~ "Por favor, entre com sua senha para descriptografar e montar o volume."
 
 #~ msgid "_Mount"
 #~ msgstr "_Montar"
