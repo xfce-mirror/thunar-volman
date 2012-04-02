@@ -7,18 +7,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2012-04-02 17:27+0000\n"
 "PO-Revision-Date: 2011-05-28 16:45+0200\n"
 "Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
 "Language-Team: Croatian <ikoli@yahoo.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Country: CROATIA\n"
 "Language: hr\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Croatian\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Country: CROATIA\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -35,25 +35,25 @@ msgid "Print version information and exit"
 msgstr "Ispiši informacije o verziji i izađi"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr ""
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Sva prava pridržana."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Prijavite probleme u <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Nema uređaja sa sysfs putanjom \"%s\""
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Morate odrediti sysfs putanju novih uređaja pomoću --device-added"
@@ -221,10 +221,6 @@ msgstr ""
 msgid "Device type not supported"
 msgstr "Tip uređaja nije podržan"
 
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr ""
-
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
 msgstr "Otkrivena tipkovnica"
@@ -232,11 +228,6 @@ msgstr "Otkrivena tipkovnica"
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
 msgstr "Tipkovnica je otkrivena"
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -246,10 +237,6 @@ msgstr "Tablet otkriven"
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
@@ -520,7 +507,7 @@ msgid "Keyboards"
 msgstr "Tipkovnice"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Automatski pokreni program kada je USB _tipkovnica spojena"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -528,7 +515,7 @@ msgid "Mice"
 msgstr "Miš"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Automatski pokreni program kada je USB _miš spojen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
