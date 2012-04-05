@@ -293,7 +293,7 @@ msgstr "음악 CD 굽기(_A)"
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr "굽기 명령은 비어있으면 안 됩니다"
+msgstr "굽기 명령은 비어있으면 안됩니다"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
