@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar volman plugin\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-19 11:15+0000\n"
+"POT-Creation-Date: 2012-04-09 16:45+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Samed Beyribey <ras0ir@eventualis.org>\n"
 "Language-Team: Xfce TR <xfce-tr@googlegroups.com>\n"
@@ -47,9 +47,9 @@ msgid "There is no device with the sysfs path \"%s\""
 msgstr "\"%s\" dizininde bir sürücü bulunamadı."
 
 #: ../thunar-volman/main.c:186
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Yeni HAL aygıt UDI değeri --device-added ile belirtilmelidir"
+msgstr "Yeni aygıtların sysfs yolu --device-added ile belirtilmelidir"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -167,7 +167,7 @@ msgid "The volume \"%s\" was mounted automatically"
 msgstr "\"%s\"  birimi otomaitk olarak bağlandı"
 
 #: ../thunar-volman/tvm-block-device.c:640
-#, fuzzy, c-format
+#, c-format
 msgid "The inserted volume was mounted automatically"
 msgstr "Eklenen birim otomatik olarak bağlandı"
 
@@ -182,7 +182,7 @@ msgid "Unable to mount the device"
 msgstr "Sürücü bağlanamıyor"
 
 #: ../thunar-volman/tvm-block-device.c:749
-#, fuzzy, c-format
+#, c-format
 msgid "Could not detect the volume corresponding to the device"
 msgstr "Aygıta karşılık gelen birim bulunamadı"
 
@@ -502,18 +502,16 @@ msgid "Keyboards"
 msgstr "Klavyeler"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "USB _klavye bağlandığında uygulama çalıştır"
+msgstr "USB _klavye bağlandığında otomatik bir uygulama çalıştır"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
 msgstr "Fare"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "USB fare bağlandığında uygula_ma çalıştır"
+msgstr "USB _fare bağlandığında otomatik bir uygulama çalıştır"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
