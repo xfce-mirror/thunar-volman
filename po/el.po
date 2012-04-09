@@ -4,23 +4,23 @@
 # Evaggelos Balaskas <ebalaskas@ebalaskas.gr>, 2009.
 # Stavros Giannouris <stavrosg@hellug.gr>, 2009, 2011.
 # George Vasilakos <forfolias@gmail.com>, 2011.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman git version\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2012-04-09 11:00+0000\n"
 "PO-Revision-Date: 2011-01-07 18:44+0200\n"
 "Last-Translator: Spiros Georgaras <sng@hellug.gr>\n"
 "Language-Team: Greek <nls@tux.hellug.gr>\n"
-"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Country: GREECE\n"
+"Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Greek\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Country: GREECE\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -227,10 +227,6 @@ msgstr "Άγνωστος τύπος συσκευής μπλοκ"
 msgid "Device type not supported"
 msgstr "Ο τύπος συσκευής δεν υποστηρίζεται"
 
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr "Πληκτρολόγια"
-
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
 msgstr "Εντοπίστηκε πληκτρολόγιο"
@@ -238,11 +234,6 @@ msgstr "Εντοπίστηκε πληκτρολόγιο"
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
 msgstr "Εντοπίστηκε ένα πληκτρολόγιο"
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr "Ταμπλέτα"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -253,10 +244,6 @@ msgstr "Εντοπίστηκε ταμπλέτα"
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
 msgstr "Εντοπίστηκε μια ταμπλέτα"
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
-msgstr "Ποντίκι"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -377,9 +364,8 @@ msgstr "Δέσμες ενεργειών ruby"
 msgid "Shell Scripts"
 msgstr "Δέσμες ενεργειών κέλυφους"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Μέσο αποθήκευσης"
@@ -424,9 +410,8 @@ msgstr "Εντολή για CD _δεδομένων:"
 msgid "Command for A_udio CDs:"
 msgstr "Εντολή για CD ή_χου:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Πολυμέσα"
@@ -470,9 +455,8 @@ msgstr "Φορητές συσκευές μουσικής"
 msgid "Play _music files when connected"
 msgstr "Αναπαραγωγή _μουσικών αρχείων όταν συνδεθούν"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Φωτογραφικές μηχανές"
@@ -485,9 +469,8 @@ msgstr "Ψηφιακές φωτογραφικές μηχανές"
 msgid "Import digital photographs when connected"
 msgstr "Εισαγωγή ψηφιακών φωτογραφιών όταν συνδεθούν "
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -508,9 +491,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Συγχρονισμός _συσκευών Pocket PC όταν συνδεθεί"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -520,9 +502,8 @@ msgstr "Εκτυπωτές"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Αυτόματη εκτέλεση προγράμματος όταν συνδεθεί ένας ε_κτυπωτής"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Συσκευές εισόδου"
@@ -532,7 +513,6 @@ msgid "Keyboards"
 msgstr "Πληκτρολόγια"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr ""
 "Αυτόματη ε_κτέλεση ενός προγράμματος όταν συνδεθεί ένα πληκτρολόγιο USB"
@@ -542,7 +522,6 @@ msgid "Mice"
 msgstr "Ποντίκια"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Αυτόματη εκτέλεση ενός προγράμματος όταν συνδεθεί ένα _ποντίκι usb"
 
@@ -561,6 +540,15 @@ msgstr "Εντ_ολή:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Αποτυχία ανοίγματος του περιηγητή βοήθειας"
+
+#~ msgid "input-keyboard"
+#~ msgstr "Πληκτρολόγια"
+
+#~ msgid "input-tablet"
+#~ msgstr "Ταμπλέτα"
+
+#~ msgid "input-mouse"
+#~ msgstr "Ποντίκι"
 
 #~ msgid "Failed to open display"
 #~ msgstr "Απέτυχε να ανοίξει η οθόνη"
