@@ -504,7 +504,6 @@ msgid "Keyboards"
 msgstr "Teclados"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Executar automaticamente um programa ao ligar um tecl_ado USB"
 
