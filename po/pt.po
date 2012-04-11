@@ -2,19 +2,19 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Nuno Miguel <nunomgue@gmail.com>, 2007-2012.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2012-04-11 09:00+0000\n"
 "PO-Revision-Date: 2012-03-26 13:02+0100\n"
 "Last-Translator: Nuno Miguel <nunomgue@gmail.com>\n"
 "Language-Team: \n"
-"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -31,28 +31,29 @@ msgid "Print version information and exit"
 msgstr "Mostrar informação da versão e sair"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Gestor de volumes Thunar"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Todos os direitos reservados."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Por favor, reporte os erros para <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Não existe qualquer dispositivo no caminho \"%s\" do sysfs "
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Tem de especificar o caminho sysfs do novo dispositivo com --device-added"
+msgstr ""
+"Tem de especificar o caminho sysfs do novo dispositivo com --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -72,8 +73,7 @@ msgstr "Deseja importar as fotos ou gerir a música?"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829
-#: ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "Ig_norar"
@@ -97,7 +97,9 @@ msgid "A photo card has been detected"
 msgstr "Foi detetado um cartão de fotos"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "Existem fotos no cartão. Deseja adicionar as fotos ao seu álbum?"
 
 #. prompt the user to execute the file
@@ -216,10 +218,6 @@ msgstr "O tipo de dispositivo é desconhecido"
 msgid "Device type not supported"
 msgstr "O tipo de dispositivo não é suportado"
 
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr "Teclado"
-
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
 msgstr "Teclado detetado"
@@ -227,11 +225,6 @@ msgstr "Teclado detetado"
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
 msgstr "Foi detetado um teclado"
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr "\"Tablet\""
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -242,10 +235,6 @@ msgstr "Tablet detetado"
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
 msgstr "Foi detetado um tablet de gráficos"
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
-msgstr "Rato"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -273,8 +262,7 @@ msgstr "Inserido um DVD vazio"
 msgid "You have inserted a blank DVD."
 msgstr "Inseriu um DVD vazio."
 
-#: ../thunar-volman/tvm-run.c:191
-#: ../thunar-volman/tvm-run.c:202
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
 msgstr "Que deseja fazer?"
 
@@ -367,9 +355,8 @@ msgstr "Scripts Ruby"
 msgid "Shell Scripts"
 msgstr "Scripts Shell"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Armazenamento"
@@ -414,9 +401,8 @@ msgstr "Comando para CDs de _dados:"
 msgid "Command for A_udio CDs:"
 msgstr "Comando para CDs de á_udio:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimédia"
@@ -460,9 +446,8 @@ msgstr "Dispositivos de música portáteis"
 msgid "Play _music files when connected"
 msgstr "Reproduzir ficheiros de _música quando ligado"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Máquinas fotográficas"
@@ -475,9 +460,8 @@ msgstr "Máquinas fotográficas digitais"
 msgid "Import digital photographs when connected"
 msgstr "Importar fotos digitais quando ligado"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDAs"
@@ -498,9 +482,8 @@ msgstr "Pcs de bolso"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Sincronizar P_C de bolso quando ligado"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -510,9 +493,8 @@ msgstr "Impressoras"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Executar automaticamente um programa ao ligar uma _impressora"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Dispositivos de entrada"
@@ -522,7 +504,8 @@ msgid "Keyboards"
 msgstr "Teclados"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+#, fuzzy
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Executar automaticamente um programa ao ligar um tecl_ado USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -530,8 +513,8 @@ msgid "Mice"
 msgstr "Ratos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
-msgstr "Executar automaticamente um programa ao ligar um _rato USB"
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr "Executar auto_maticamente um programa ao ligar um rato USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -548,6 +531,15 @@ msgstr "Co_mando:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Falha ao abrir a documentação"
+
+#~ msgid "input-keyboard"
+#~ msgstr "Teclado"
+
+#~ msgid "input-tablet"
+#~ msgstr "\"Tablet\""
+
+#~ msgid "input-mouse"
+#~ msgstr "Rato"
 
 #~ msgid "Failed to open display"
 #~ msgstr "Falha ao abrir ecrã"
