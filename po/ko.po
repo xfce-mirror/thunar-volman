@@ -400,7 +400,7 @@ msgstr "빈 디스크를 삽입하면 CD나 DVD를 굽습니다(_B)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr "Data CD에 대한 명령(_D):"
+msgstr "데이터 CD에 대한 명령(_D):"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
