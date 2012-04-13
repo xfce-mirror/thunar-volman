@@ -388,7 +388,7 @@ msgstr "새 드라이브와 미디어에 있는 자동 실행 프로그램(_A)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
-msgstr "새 드라이브와 미디어에 있는 자동 열림 파일"
+msgstr "새 드라이브와 미디어에 있는 파일 자동으로 열기"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
