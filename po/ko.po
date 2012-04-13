@@ -372,19 +372,19 @@ msgstr "이동식 저장장치"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "연결하면 이동식 드라이브를 마운트 합니다(_M)"
+msgstr "연결하면 이동식 드라이브를 마운트(_M)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
-msgstr "삽입하면 이동식 미디어를 마운트합니다(_I)"
+msgstr "삽입하면 이동식 미디어를 마운트(_I)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "B_rowse removable media when inserted"
-msgstr "삽입하면 이동식 미디어를 탐색합니다(_R)"
+msgstr "삽입하면 이동식 미디어를 탐색(_R)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr "새 드라이브와 미디어에 있는 자동 실행 프로그램(_A)"
+msgstr "새 드라이브와 미디어에 있는 프로그램을 자동으로 실행(_A)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
