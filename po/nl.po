@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-02 05:51+0000\n"
+"POT-Creation-Date: 2012-04-17 08:45+0000\n"
 "PO-Revision-Date: 2011-09-08 14:06+0200\n"
 "Last-Translator: Pjotr\n"
 "Language-Team: Dutch (Flemish)\n"
@@ -210,7 +210,7 @@ msgstr "_Door bestanden bladeren"
 
 #: ../thunar-volman/tvm-block-device.c:831
 msgid "_Play CD"
-msgstr "_Muziek beluisteren"
+msgstr "CD _afspelen"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
@@ -306,7 +306,7 @@ msgstr "Camera gevonden"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 msgid "A photo camera was detected"
-msgstr "Er is een fotocamera gevonden"
+msgstr "Er werd een fotocamera gevonden"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
@@ -314,7 +314,7 @@ msgstr "Printer gevonden"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr "Er is een USB-printer gevonden"
+msgstr "Er werd een USB-printer gevonden"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
