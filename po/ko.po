@@ -515,7 +515,7 @@ msgstr "키보드"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "USB 키보드를 연결했을 때 프로그램을 자동으로 실행합니다(_k)"
+msgstr "USB 키보드를 연결했을 때 프로그램을 자동으로 실행합니다(_K)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
