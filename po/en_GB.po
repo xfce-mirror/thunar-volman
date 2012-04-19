@@ -2,21 +2,21 @@
 # Copyright (C) 2007 THE thunar-volman'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the thunar-volman package.
 # Jeff Bailes <thepizzaking@gmail.com>, 2007.
-#
-#
+# 
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
+"POT-Creation-Date: 2012-04-19 01:00+0000\n"
 "PO-Revision-Date: 2009-08-18 11:54+1000\n"
 "Last-Translator: Jeff Bailes <thepizzaking@gmail.com>\n"
 "Language-Team: English/GB\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -221,10 +221,6 @@ msgstr "Unknown block device type"
 msgid "Device type not supported"
 msgstr "Device type not supported"
 
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr "input-keyboard"
-
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
 msgstr "Keyboard detected"
@@ -232,11 +228,6 @@ msgstr "Keyboard detected"
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
 msgstr "A keyboard was detected"
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr "input-tablet"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -247,10 +238,6 @@ msgstr "Tablet detected"
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
 msgstr "A graphics tablet was detected"
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
-msgstr "input-mouse"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -371,9 +358,8 @@ msgstr "Ruby Scripts"
 msgid "Shell Scripts"
 msgstr "Shell Scripts"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Storage"
@@ -418,9 +404,8 @@ msgstr "Command for _Data CDs:"
 msgid "Command for A_udio CDs:"
 msgstr "Command for A_udio CDs:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -464,9 +449,8 @@ msgstr "Portable Music Players"
 msgid "Play _music files when connected"
 msgstr "Play _music files when connected"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Cameras"
@@ -479,9 +463,8 @@ msgstr "Digital Cameras"
 msgid "Import digital photographs when connected"
 msgstr "Import digital photographs when connected"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDAs"
@@ -502,9 +485,8 @@ msgstr "Pocket PCs"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Sync Pocket P_C devices when connected"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -514,9 +496,8 @@ msgstr "Printers"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Automatically run a program when a _printer is connected"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Input Devices"
@@ -526,18 +507,16 @@ msgid "Keyboards"
 msgstr "Keyboards"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Automatically run a program when an USB _keyboard is connected"
+msgstr "Automatically run a program when a USB _keyboard is connected"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
 msgstr "Mice"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Automatically run a program when an USB _mouse is connected"
+msgstr "Automatically run a program when a USB _mouse is connected"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -554,6 +533,15 @@ msgstr "Com_mand:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Failed to open the documentation browser"
+
+#~ msgid "input-keyboard"
+#~ msgstr "input-keyboard"
+
+#~ msgid "input-tablet"
+#~ msgstr "input-tablet"
+
+#~ msgid "input-mouse"
+#~ msgstr "input-mouse"
 
 #~ msgid "Failed to open display"
 #~ msgstr "Failed to open display"
