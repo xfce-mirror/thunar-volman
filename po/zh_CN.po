@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
-"Report-Msgid-Bugs-To: <xfce-i18n@xfce.org>\n"
-"POT-Creation-Date: 2012-04-20 11:30+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-04-23 02:45+0000\n"
 "PO-Revision-Date: 2011-03-13 14:50+0800\n"
 "Last-Translator: Chipong Luo <chipong.luo@yahoo.com>\n"
 "Language-Team: Chinese (Simplified) <xfce-i18n-cn@xfce.org>\n"
@@ -32,7 +32,7 @@ msgstr "可移动驱动器和介质的配置管理"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr "列印版本信息并退出"
+msgstr "列印版本信息后退出"
 
 #. setup application name
 #: ../thunar-volman/main.c:93
@@ -111,7 +111,7 @@ msgstr "存储卡中有照片。您想要将这些照片添加到相册吗？"
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "您想要允许 “%s” 运行吗？"
+msgstr "您想要让 “%s” 运行吗？"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -121,7 +121,7 @@ msgstr "自动运行确认"
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run capability detected"
-msgstr "检测到自动运行能力"
+msgstr "检测到自动运行功能"
 
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
@@ -140,7 +140,7 @@ msgstr "自动打开确认"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
-msgstr "检测到自动打开能力"
+msgstr "检测到自动打开功能"
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
@@ -189,7 +189,7 @@ msgstr "未能挂载此设备"
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr "未能检测此卷的相应设备"
+msgstr "未能检测此卷的对应设备"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
@@ -197,11 +197,11 @@ msgstr "音频/数据 CD"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
-msgstr "驱动器中的 CD 既有音乐又有文件。"
+msgstr "驱动器的 CD 中既有音乐又有文件。"
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
-msgstr "您想要播放音乐或浏览文件吗？"
+msgstr "您想要播放音乐还是浏览文件？"
 
 #: ../thunar-volman/tvm-block-device.c:830
 msgid "_Browse Files"
@@ -219,7 +219,7 @@ msgstr "未知块设备类型"
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type not supported"
-msgstr "设备类型不支持"
+msgstr "不支持的设备类型"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -403,7 +403,7 @@ msgstr "数据 CD 的命令(_D)："
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "音频 CD 命令(_U)："
+msgstr "音频 CD 的命令(_U)："
 
 #.
 #. Multimedia
