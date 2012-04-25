@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-02-23 11:45+0000\n"
-"PO-Revision-Date: 2012-04-11 21:45+0900\n"
+"PO-Revision-Date: 2012-04-25 20:43+0900\n"
 "Last-Translator: Masato Hashimoto <cabezon.hashimoto@gmail.com>\n"
 "Language-Team: Japanese <xfce-users-jp@ml.fdiary.net>\n"
 "MIME-Version: 1.0\n"
@@ -63,7 +63,7 @@ msgstr "写真と音楽"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr "携帯音楽プレイヤー内に写真が見つかりました"
+msgstr "携帯音楽プレーヤー内に写真が見つかりました"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -295,7 +295,7 @@ msgstr "作成コマンドが空でないかもしれません"
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr "CD プレイヤーコマンドが定義されていません"
+msgstr "CD プレーヤーコマンドが定義されていません"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
@@ -441,7 +441,7 @@ msgstr "コマンド(_O):"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:343
 msgid "Portable Music Players"
-msgstr "携帯音楽プレイヤー"
+msgstr "携帯音楽プレーヤー"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
