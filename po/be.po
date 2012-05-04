@@ -2,20 +2,20 @@
 # Copyright (C) 2011 THE thunar-volman'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the thunar-volman package.
 # Andrei Zakharevich <andrej@zahar.ws>, 2011.
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
+"POT-Creation-Date: 2012-05-04 12:45+0000\n"
 "PO-Revision-Date: 2011-06-22 21:16+0200\n"
 "Last-Translator: Andrei Zakharevich <andrej@zahar.ws>\n"
 "Language-Team: Andrei Zakharevich <andrej@zahar.ws>\n"
-"Language: BE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: BE\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -32,25 +32,25 @@ msgid "Print version information and exit"
 msgstr "Паказаць інфармацыю пра версію і выйсці"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
 msgstr "Кіраўнік Тамоў Thunar"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Усе права абароненыя."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Калі ласка, дасылайце паведамллені пра памылкі да <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Не існуе прылады з шляхам sysfs \"%s\""
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Вы павінны задаць шлях sysfs для новых прылад з --device-added"
@@ -153,7 +153,7 @@ msgstr "DVD прымацаваны"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "CD быў падмантаваны аўтаматычна"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
@@ -218,21 +218,12 @@ msgstr ""
 msgid "Device type not supported"
 msgstr ""
 
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr ""
-
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
-msgstr ""
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:87
@@ -243,10 +234,6 @@ msgstr ""
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
@@ -368,9 +355,8 @@ msgstr ""
 msgid "Shell Scripts"
 msgstr ""
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr ""
@@ -415,9 +401,8 @@ msgstr ""
 msgid "Command for A_udio CDs:"
 msgstr ""
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr ""
@@ -461,9 +446,8 @@ msgstr ""
 msgid "Play _music files when connected"
 msgstr ""
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr ""
@@ -476,9 +460,8 @@ msgstr ""
 msgid "Import digital photographs when connected"
 msgstr ""
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr ""
@@ -499,9 +482,8 @@ msgstr ""
 msgid "Sync Pocket P_C devices when connected"
 msgstr ""
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -511,9 +493,8 @@ msgstr ""
 msgid "Automatically run a program when a _printer is connected"
 msgstr ""
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr ""
@@ -523,7 +504,7 @@ msgid "Keyboards"
 msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
+msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -531,7 +512,7 @@ msgid "Mice"
 msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
+msgid "Automatically run a program when a USB _mouse is connected"
 msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
