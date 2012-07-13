@@ -1,21 +1,20 @@
-# Uyghur translations for thunar-volman package
-# Copyright (C) 2008 Benedikt Meurer
+# Uyghur translation for thunar-volman.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Gheyret T.Kenji <gheyret@gmail.com>, 2010
+# Gheyret Kenji <gheyret@gmail.com>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
-"PO-Revision-Date: 2008-11-09 14:59+0900\n"
-"Last-Translator: Gheyret T.Kenji <gheyret@gmail.com>\n"
+"POT-Creation-Date: 2012-07-12 04:48+0000\n"
+"PO-Revision-Date: 2011-11-09 16:10+0900\n"
+"Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
-"Language: ja\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -25,7 +24,7 @@ msgstr "يېڭىدىن قوشۇلغان ئۈسكۈنىنىڭ syfs يولى"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
-msgstr "يۆتكىلىشچان ئۈسكۈنە ۋە ۋاسىتىلەرنى باشقۇرۇشنى سەپلەش"
+msgstr "يۆتكەلمە ئۈسكۈنە ۋە ۋاسىتىلەرنى سەپلەش ۋە باشقۇرۇش"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -34,11 +33,11 @@ msgstr "نەشر ئۇچۇرىنى كۆرسىتىپ ئاخىرلاشتۇرۇش"
 #. setup application name
 #: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr "سۇنار دىسكا باشقۇرغۇ"
+msgstr "سۇنار(Thunar) دىسكا باشقۇرغۇ"
 
 #: ../thunar-volman/main.c:119
 msgid "All rights reserved."
-msgstr "بارلىق ھوقۇقنى ساقلاپ قالىدۇ."
+msgstr "بارلىق ھوقۇق ئۆزىمىزگە تەۋە."
 
 #: ../thunar-volman/main.c:120
 #, c-format
@@ -48,12 +47,12 @@ msgstr "كەمتۈكنى <%s> غا دوكلات قىلىڭ."
 #: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "يولى «%s» دا sysfs بولغان  ئۈسكۈنە يوق"
+msgstr "بۇ يەردە sysfs يولى «%s» بولغان ئۈسكۈنە يوق"
 
 #: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "يېڭى ئۈسكۈنىنىڭ sysfs نى --device-added نى ئىشلىتىپ كۆرسىتىپ بېرىش كېرەك"
+msgstr "يېڭى ئۈسكۈنىنىڭ sysfs يولىنى --device-added ئارقىلىق كۆرسىتىپ بېرىش كېرەك"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -62,7 +61,7 @@ msgstr "سۈرەت ۋە مۇزىكا"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr "ئەپلىك قويغۇڭىزدا سۈرەت بار ئىكەن"
+msgstr "ئەپلىك مۇزىكا قويغۇدا سۈرەت بار ئىكەن"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -94,13 +93,13 @@ msgstr "سۈرەتلەرنى ئىمپورت قىلىش"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr "سۈرەت كارتىسى ئۆچۈرۈلگەن"
+msgstr "سۈرەت كارتىسى بايقالدى"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr "كارتىدا سۈرەتلەر بار ئىكەن. بۇلارنى ئالبومغا قوشامسىز؟"
+msgstr "كارتىدا سۈرەتلەر بار ئىكەن. بۇ سۈرەتلەرنى ئالبومغا قوشامسىز؟"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -108,17 +107,17 @@ msgstr "كارتىدا سۈرەتلەر بار ئىكەن. بۇلارنى ئال
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "\"%s\" نى ئىجرا قىلىشقا يول قويامسىز؟"
+msgstr "«%s» نى ئىجرا قىلىشقا يول قويامسىز؟"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
 msgid "Auto-Run Confirmation"
-msgstr "ئۆزلۈكىدىن ئىجرا قىلىشنى جەزملە"
+msgstr "ئۆزلۈكىدىن ئىجرا قىلىشنى جەزملەش"
 
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run capability detected"
-msgstr "ئۆزلۈكىدىن ئىجرا قىلىدىكەن"
+msgstr "ئۆزلۈكىدىن ئىجرا قىلىش بايقالدى"
 
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
@@ -129,15 +128,15 @@ msgstr "ئۆزلۈكىدىن ئىجرا قىلىشقا يول قوي(_A)"
 #: ../thunar-volman/tvm-block-device.c:502
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr "\"%s\" نى ئاچامسىز؟"
+msgstr "«%s» نى ئاچامسىز؟"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
-msgstr "ئۆزلۈكىدىن ئېچىشنى جەزملە"
+msgstr "ئۆزلۈكىدىن ئېچىشنى جەزملەش"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
-msgstr "ئۆزلۈكىدىن ئېچىلىدىكەن"
+msgstr "ئۆزلۈكىدىن ئېچىلىش بايقالدى"
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
@@ -145,19 +144,19 @@ msgstr "ئاچ(_O)"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
-msgstr "ھازىر CD  ئېگەرلەندى"
+msgstr "پلاستىنكا(CD) ئېگەرلەندى"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
-msgstr "ھازىر DVD  ئېگەرلەندى"
+msgstr "پلاستىنكا(DVD) ئېگەرلەندى"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr "بۇ CD ئۆزلۈكىدىن ئېگەرلەندى"
+msgstr "بۇ پلاستىنكا(CD) ئۆزلۈكىدىن ئېگەرلەندى"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr "بۇ DVD ئۆزلۈكىدىن ئېگەرلەندى"
+msgstr "بۇ پلاستىنكا(DVD) ئۆزلۈكىدىن ئېگەرلەندى"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
@@ -190,11 +189,11 @@ msgstr "ئۈسكىنىگە ماس كېلىدىغان دىسكا تېپىلمىد
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
-msgstr "ئۈن/سانلىق-ئاساس CD"
+msgstr "ئۈن/سانلىق-مەلۇمات پلاستىنكىسى(CD)"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
-msgstr "قوزغاتقۇچتىكى CD دا مۇزىكا ۋە ھۆججەتلەر بار ئىكەن"
+msgstr "قوزغاتقۇچتىكى پلاستىنكىسى(CD)دا مۇزىكا ۋە ھۆججەتلەر بار ئىكەن"
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
@@ -202,11 +201,11 @@ msgstr "مۇزىكا ئاڭلامسىز؟ ياكى ھۆججەتلەرنى كۆر
 
 #: ../thunar-volman/tvm-block-device.c:830
 msgid "_Browse Files"
-msgstr "ھۆججەتلەرنى كور(_B)"
+msgstr "ھۆججەتلەرنى كورىمەن(_B)"
 
 #: ../thunar-volman/tvm-block-device.c:831
 msgid "_Play CD"
-msgstr "CD نى چال(_P)"
+msgstr "پلاستىنكىسى(CD) نى ئاڭلايمەن(_P)"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
@@ -218,10 +217,6 @@ msgstr "نامەلۇم block ئۈسكۈنە تىپى"
 msgid "Device type not supported"
 msgstr "ئۈسكۈنە تىپىنى بىر تەرەپ قىلالمايدۇ"
 
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr "كىرگۇزۇش-ھەرپتاختا"
-
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
 msgstr "ھەرپتاختا تېپىلدى"
@@ -230,24 +225,15 @@ msgstr "ھەرپتاختا تېپىلدى"
 msgid "A keyboard was detected"
 msgstr "بىر ھەرپتاختا تېپىلدى"
 
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr "كىرگۈزۈش-tablet"
-
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
 msgid "Tablet detected"
-msgstr "Tablet تېپىلدى"
+msgstr "سەزگۈر تاختا(Tablet) تېپىلدى"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr "گرافىكىلىق Tablet تېپىلدى"
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
-msgstr "كىرگۈزۈش-چاشقىنەك"
+msgstr "گرافىكىلىق سەزگۈر تاختا(Tablet) تېپىلدى"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -265,15 +251,15 @@ msgstr "تونۇمايدىغان كىرگۈزۈش ئۈسكۈنە تىپى"
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr "CD ياكى DVD  غا ئۆزلۈكىدىن يېزىش چەكلەنگەن"
+msgstr "پلاستىنكا(CD) ياكى پلاستىنكا(DVD)  غا ئۆزلۈكىدىن يېزىش چەكلەنگەن"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr "قۇرۇق DVD سېلىندى"
+msgstr "قۇرۇق پلاستىنكا(DVD) سېلىندى"
 
 #: ../thunar-volman/tvm-run.c:190
 msgid "You have inserted a blank DVD."
-msgstr "ئۇرۇق DVD سالدىڭىز."
+msgstr "قۇرۇق پلاستىنكا(DVD) سېلىپسىز."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -281,33 +267,33 @@ msgstr "نېمە قىلغۇڭىز بار؟"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr "DVD غا ياز"
+msgstr "پلاستىنكا(DVD) غا يازىمەن(_D)"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
-msgstr "قۇرۇق CD سېلىندى"
+msgstr "قۇرۇق پلاستىنكا(CD) سېلىندى"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
-msgstr "قۇرۇق CD سالدىڭىز."
+msgstr "قۇرۇق پلاستىنكا(CD) سېلىپسىز."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
-msgstr "سانلىق ئاساس CD نى ياز(_D)"
+msgstr "پلاستىنكا(CD) غا سانلىق-مەلۇمات يازىمەن(_D)"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr "ئۈن CD نى ياز(_A)"
+msgstr "پلاستىنكا(CD) غا مۇزىكا يازىمەن(_D)"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr "يېزىش بۇيرۇقى قۇرۇق ئەمەستەك"
+msgstr "يېزىش بۇيرۇقى قۇرۇق بولسا بولمايدۇ"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr "ئوپتىك دىسكا قويۇش بۇيرۇقى بەلگىلەنمىگەن"
+msgstr "پلاستىنكا(CD) قويۇش بۇيرۇقى ئېنىق ئەمەس"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
@@ -315,7 +301,7 @@ msgstr "كامېرا بايقالدى"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 msgid "A photo camera was detected"
-msgstr "سۈرەت كامېراسى بايقالدى"
+msgstr "بىر دانە كامېرا بايقالدى"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
@@ -328,12 +314,12 @@ msgstr "بىر USB پرىنتېرى بايقالدى"
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type"
-msgstr "قوللىمايدىغان USB ئۈسكۈنە(تىپى)"
+msgstr "مەزكۇر USB ئۈسكۈنىسىنىڭ تىپنى تونۇمىدى"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
-msgstr "سۇنار دىسكا باشقۇرغۇ تەڭشىكى"
+msgstr "سۇنار(Thunar) دىسكا باشقۇرغۇ تەڭشەكلىرى"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -373,35 +359,35 @@ msgstr "Shell پروگراممىسى"
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
-msgstr "ساقلاش"
+msgstr "ساقلىغۇچ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:141
 msgid "Removable Storage"
-msgstr "يۆتكىلىشچان ساقلىغۇچ"
+msgstr "يۆتكەلمە ساقلىغۇچ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "يۆتكىلىشچان ئۈسكۈنىلەر چېتىلغاندا ئېگەرلىسۇن(_M)"
+msgstr "يۆتكەلمە ئۈسكۈنىلەر چېتىلغاندا ئېگەرلىسۇن(_M)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
-msgstr "يۆتكىلىشچان ئۈسكۈنىلەر چېتىلغاندا ئېگەرلىسۇن(_I)"
+msgstr "يۆتكەلمە ئۈسكۈنىلەر چېتىلغاندا ئېگەرلىسۇن(_I)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "B_rowse removable media when inserted"
-msgstr "يۆتكىلىشچان ئۈسكۈنىلەر چېتىلغاندا مەزمۇنىنى كۆرسەتسۇن(_R)"
+msgstr "يۆتكەلمە ئۈسكۈنىلەر چېتىلغاندا مەزمۇنىنى كۆرسەتسۇن(_R)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr "يېڭى قوزغاتقۇچ ياكى كوپ ۋاسىتىدىكى پروگراممىنى ئۆزلۈكىدىن ئىجرا قىل(_A)"
+msgstr "يېڭى قوزغاتقۇچ ياكى كۆپ ۋاسىتىدىكى پروگراممىنى ئۆزلۈكىدىن ئىجرا قىلسۇن(_A)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
-msgstr "يېڭى ئۈسكۈنە ۋە media دىكى ھۆججەتلەر ئاپتوماتىك ئېچىلسۇن"
+msgstr "يېڭى ئۈسكۈنە ۋە ۋاسىتىدىكى ھۆججەتلەر ئاپتوماتىك ئېچىلسۇن"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
-msgstr "قۇرۇق CD ۋە DVD"
+msgstr "قۇرۇق CD ۋە DVD پلاستىنكىسى"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
@@ -409,11 +395,11 @@ msgstr "قۇرۇق CD ياكى DVD قىستۇرۇلغاندا يازسۇن(_B)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr "سانلىق-مەلۇمات CD نىڭ بۇيرۇقى(_D)"
+msgstr "سانلىق-مەلۇمات CD نىڭ بۇيرۇقى(_D):"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "ئۈن CD نىڭ بۇيرۇقى(_U)"
+msgstr "ئۈن CD نىڭ بۇيرۇقى(_U):"
 
 #.
 #. Multimedia
@@ -440,11 +426,11 @@ msgstr "بۇيرۇق(_C):"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr "سىن CD/DVD"
+msgstr "سىن پلاستىنكىسى(CD/DVD)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "سىن CD ۋە DVD قىستۇرۇلغاندا قويسۇن(_V)"
+msgstr "سىن پلاستىنكىسى(CD/DVD) قىستۇرۇلغاندا قويسۇن(_V)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
@@ -493,7 +479,7 @@ msgstr "ئەگەر Palm™ ئۈسكۈنىسى چېتىلسا قەدەمداشل�
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
-msgstr "Pocket PC"
+msgstr "يانچۇق كومپيۇتېرى(Pocket PC)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
@@ -516,7 +502,7 @@ msgstr "پرىنتېر چېتىلغاندا بىر پروگراممىنى ئىج
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
-msgstr "كىرگۈزۈش ئۈسكۈنىسى"
+msgstr "كىرگۈزۈش ئۈسكۈنىلىرى"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:576
 msgid "Keyboards"
@@ -524,7 +510,7 @@ msgstr "ھەرپتاختىلار"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "ئەگەر USB ھەرپتاختىسى چېتىلسا بىر پروگراممىنى ئىجرا قىلسۇن(_K)"
+msgstr "بىر USB ھەرپتاختىسى چېتىلغاندا بىر پروگراممىنى ئىجرا قىلسۇن(_K)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
@@ -532,7 +518,7 @@ msgstr "چاشقىنەك"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "ئەگەر USB چاشقىنىكى چېتىلسا بىر پروگراممىنى ئىجرا قىلسۇن(_M)"
+msgstr "بىر USB چاشقىنىكى چېتىلغاندا بىر پروگراممىنى ئىجرا قىلسۇن(_M)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
