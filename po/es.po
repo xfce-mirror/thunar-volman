@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-24 16:48+0000\n"
+"POT-Creation-Date: 2012-10-13 19:48+0000\n"
 "PO-Revision-Date: 2011-03-10 20:07-0300\n"
 "Last-Translator: \n"
 "Language-Team: Spanish <xfce-i18n@xfce.org>\n"
@@ -30,7 +30,7 @@ msgstr "Configurar la gestión de dispositivos y soportes extraíbles"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr "Mostrar la información de versión y salir"
+msgstr "Imprime la información de versión y sale"
 
 #. setup application name
 #: ../thunar-volman/main.c:93
@@ -95,7 +95,7 @@ msgstr "Importación de fotos"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr "Una tarjeta con fotos ha sido detectada"
+msgstr "Se ha detectado una tarjeta con fotos"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
@@ -109,7 +109,7 @@ msgstr "Hay fotos en la tarjeta. ¿Desea añadir estas fotos a su álbum?"
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "¿Desea permitir que se ejecute \"%s\"?"
+msgstr "¿Desea permitir que se ejecute «%s»?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -130,7 +130,7 @@ msgstr "Permitir la _auto-ejecución"
 #: ../thunar-volman/tvm-block-device.c:502
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr "¿Desea abrir \"%s\"?"
+msgstr "¿Desearía abrir «%s»?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
@@ -167,7 +167,7 @@ msgstr "Volumen montado"
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "El volumen \"%s\" ha sido montado automáticamente"
+msgstr "El volumen «%s» ha sido montado automáticamente"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
@@ -195,7 +195,7 @@ msgstr "CD de audio / datos"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
-msgstr "El CD dentro del dispositivo contiene música y archivos."
+msgstr "El CD interior del dispositivo contiene música y archivos."
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
@@ -253,7 +253,7 @@ msgstr "Dispositivo de entrada no soportado"
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr "La auto-grabación de CDs y DVDs vírgenes está deshabilitada."
+msgstr "La auto-grabación de CD y DVD vírgenes está deshabilitada."
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
@@ -290,12 +290,12 @@ msgstr "Crear un CD _audio"
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr "La acción asociada a la grabación de CDs y DVDs debería estar definida"
+msgstr "La acción asociada a la grabación de CD y DVD debería estar definida"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr "No hay ninguna acción asociada a la reproducción de CDs de audio"
+msgstr "No hay ninguna acción asociada a la reproducción de CD de audio"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
@@ -388,7 +388,7 @@ msgstr "Auto-apertura de archivos en nuevos soportes y unidades"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
-msgstr "Borrar CDs y DVDs"
+msgstr "Borrar CD y DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
@@ -396,11 +396,11 @@ msgstr "_Grabar un CD o DVD cuando se inserta un disco virgen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr "Comando para los CDs de _datos:"
+msgstr "Comando para los CD de _datos:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "Comando para los CDs de a_udio:"
+msgstr "Comando para los CD de a_udio:"
 
 #. Multimedia
 #. 
@@ -410,11 +410,11 @@ msgstr "Multimedia"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:266
 msgid "Audio CDs"
-msgstr "CDs de audio"
+msgstr "CD de audio"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr "Reproducir CDs de _audio al ser insertados"
+msgstr "Reproducir CD de _audio al ser insertados"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -426,11 +426,11 @@ msgstr "_Comando:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr "CDs/DVDs de vídeo"
+msgstr "CD/DVD de vídeo"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "Reproducir CDs y DVDs de _vídeo al ser insertados"
+msgstr "Reproducir CD y DVD de _vídeo al insertarlos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
@@ -465,7 +465,7 @@ msgstr "Importar fotografías digitales al ser conectada"
 #. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
-msgstr "PDAs"
+msgstr "PDA"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:441
 msgid "Palm™"
@@ -477,7 +477,7 @@ msgstr "Sincronizar dispositivos _Palm™ al ser conectados"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
-msgstr "Pocket PCs"
+msgstr "Pocket PC"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
