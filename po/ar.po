@@ -1,21 +1,22 @@
 # كريم اولاد الشلحة <herr.linux88@gmail.com>, 2012.
 # Mohammad Alhargan <malham1@gmail.com>, 2012.
 # Mohammad Alhargan <malham1@hotmail.com>, 2012.
+# محمد الحرقان <malham1@gmail.com>, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-08 04:48+0000\n"
-"PO-Revision-Date: 2012-02-08 08:13+0300\n"
-"Last-Translator: Mohammad Alhargan <malham1@hotmail.com>\n"
-"Language-Team: http://www.vertaal.com.ar/files/opensuse-11-4/ar/list/\n"
+"POT-Creation-Date: 2012-11-09 08:30+0000\n"
+"PO-Revision-Date: 2012-11-09 16:17+0300\n"
+"Last-Translator: محمد الحرقان <malham1@gmail.com>\n"
+"Language-Team: http://www.vertaal.com.ar/files/factory/ar/list/\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Virtaal 0.7.0\n"
+"X-Generator: Virtaal 0.7.1\n"
 "X-Poedit-Language: Arabic\n"
 "X-Poedit-Country: Morroco\n"
 
@@ -87,7 +88,7 @@ msgstr "إستيراد صور"
 
 #: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
-msgstr "غدارة ملفات الموسيقى"
+msgstr "إدارة ملفات الموسيقى"
 
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
@@ -110,7 +111,7 @@ msgstr "هناك صور على البطاقة. أتريد استيرادها إ�
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "هل تريد السماح ل \"%s\" بالتشغيل؟"
+msgstr "تريد السماح \"%s\" بالتشغيل؟"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -155,25 +156,25 @@ msgstr "تم وصل قرص DVD"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr "تم تحميل القرص المضغوط تلقائياً"
+msgstr "تم وصل القرص المضغوط تلقائياً"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr "تم تحميل قرص DVD تلقائياً"
+msgstr "تم وصل قرص DVD تلقائياً"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr "تم وثل الجهاز"
+msgstr "تم وصل الجهاز"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "تم توصيل وحدة التخزين \"%s\" تلقائياً"
+msgstr "تم وصل وحدة التخزين \"%s\" تلقائياً"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr "تم توصيل وحدة التخزين التي تم إدراجها تلقائياً"
+msgstr "تم وصل وحدة التخزين التي تم إدراجها تلقائياً"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
@@ -254,7 +255,7 @@ msgstr "نوع جهاز الإدخال غير معتمد"
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr "يتم تعطيل الحرق التلقائي للأقراص المضغوطة وأقراص Dvd الفارغة"
+msgstr "يتم تعطيل الحرق التلقائي للأقراص المضغوطة وأقراص DVD الفارغة"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
@@ -291,7 +292,7 @@ msgstr "حرق قرص صو_تي"
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr "أمر الحرق لا يجب أن يكون فارغاً"
+msgstr "أمر الحرق يجب أن لا يكون فارغاً"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
@@ -390,7 +391,7 @@ msgstr "إفتح تلقائياً الملفات على المشغِّلات و 
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
-msgstr "أقراص CDs و DVDs فارغة"
+msgstr "أقراص CDs و DVDsالفارغة"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
@@ -433,7 +434,7 @@ msgstr "أقراص فيديو CDs/DVDs"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "تشغ_يل أقراص فيديو CDs and DVDs عنذ إدخالها"
+msgstr "تشغ_يل أقراص فيديو CDs and DVDs عند إدخالها"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
@@ -448,7 +449,7 @@ msgstr "مشغل موسيقى محمول"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
-msgstr "تشغيل ملفات الموسيقى عنذ وصلها"
+msgstr "تشغيل ملفات الموسيقى عند وصلها"
 
 #.
 #. Cameras
@@ -478,7 +479,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
-msgstr "مزامنة أجهزة _Palm™ عنذ وصلها"
+msgstr "مزامنة أجهزة _Palm™ عند وصلها"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
@@ -486,7 +487,7 @@ msgstr "Pocket PCs"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr "مزامنة اجهزة Pocket P_C عنذ وصلها"
+msgstr "مزامنة اجهزة Pocket P_C عند وصلها"
 
 #.
 #. Printers
