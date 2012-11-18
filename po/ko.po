@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman.master\n"
-"Report-Msgid-Bugs-To: xfce-i18n <xfce-i18n@xfce.org>\n"
+"Report-Msgid-Bugs-To: https://bugzilla.xfce.org/enter_bug.cgi?product=Thunar-volman\n"
 "POT-Creation-Date: 2012-02-27 09:21+0000\n"
 "PO-Revision-Date: 2012-02-27 23:37+0900\n"
 "Last-Translator: Seong-ho, Cho <darkcircle.0426@gmail.com>\n"
@@ -47,12 +47,12 @@ msgstr "All rights reserved."
 #: ../thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr "<%s>로 버그를 알려주시기 바랍니다."
+msgstr "<%s>로 버그를 알려주십시오."
 
 #: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "sysfs 경로 \"%s\"에 장치가 없습니다 "
+msgstr "sysfs 경로 \"%s\"에 장치가 없습니다"
 
 #: ../thunar-volman/main.c:186
 #, c-format
@@ -197,7 +197,7 @@ msgstr "음악/데이터 CD"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
-msgstr "드라이브에 있는 CD에 파일과 음악들을 포함하고 있습니다"
+msgstr "드라이브에 있는 CD에 파일과 음악을 포함하고 있습니다"
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
