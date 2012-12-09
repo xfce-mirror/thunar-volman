@@ -56,9 +56,11 @@ main (int    argc,
   g_log_set_always_fatal (G_LOG_LEVEL_CRITICAL | G_LOG_LEVEL_WARNING);
 #endif
 
+#if !GLIB_CHECK_VERSION (2, 32, 0)
   /* initialize the threading system */
   if (!g_thread_supported ())
     g_thread_init (NULL);
+#endif
 
   /* initialize GTK+ */
   if (!gtk_init_with_args (&argc, &argv, NULL, NULL, GETTEXT_PACKAGE, &error))
