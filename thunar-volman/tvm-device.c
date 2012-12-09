@@ -136,7 +136,8 @@ tvm_device_added (TvmContext *context)
   else
     {
       g_set_error (context->error, G_FILE_ERROR, G_FILE_ERROR_FAILED,
-                   _("Device type not supported"));
+                   _("Device type \"%s\" not supported"),
+                   g_udev_device_get_property (context->device, "DEVNAME"));
       g_main_loop_quit (context->loop);
     }
 }

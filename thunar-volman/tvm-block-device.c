@@ -916,7 +916,7 @@ automount_disc:
     {
       /* generate an error for logging */
       g_set_error (context->error, G_FILE_ERROR, G_FILE_ERROR_FAILED,
-                   _("Unknown block device type"));
+                   _("Unknown block device type \"%s\""), devtype);
 
       /* finish processing the device */
       tvm_device_handler_finished (context);

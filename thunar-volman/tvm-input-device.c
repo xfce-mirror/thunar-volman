@@ -138,7 +138,7 @@ tvm_input_device_added (TvmContext *context)
     {
       /* return an error because we cannot handle the input device */
       g_set_error (context->error, G_FILE_ERROR, G_FILE_ERROR_FAILED,
-                   _("Unsupported input device type"));
+                   _("Unsupported input device type \"%s\""), devname);
     }
 
   /* finish processing the device */

@@ -97,7 +97,7 @@ tvm_usb_device_added (TvmContext *context)
     {
       /* return an error because we cannot handle the usb device */
       g_set_error (context->error, G_FILE_ERROR, G_FILE_ERROR_FAILED,
-                   _("Unsupported USB device type"));
+                   _("Unsupported USB device type \"%s\""), driver);
     }
 
   /* finish processing the device */
