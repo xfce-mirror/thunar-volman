@@ -2,12 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Nuno Miguel <nunomgue@gmail.com>, 2007-2012.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-11 09:00+0000\n"
+"POT-Creation-Date: 2012-12-10 13:27+0000\n"
 "PO-Revision-Date: 2012-04-13 00:06+0100\n"
 "Last-Translator: Nuno Miguel <nunomgue@gmail.com>\n"
 "Language-Team: \n"
@@ -35,24 +35,25 @@ msgstr "Mostrar informação da versão e sair"
 msgid "Thunar Volume Manager"
 msgstr "Gestor de volumes Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Todos os direitos reservados."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Por favor, reporte os erros para <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Não existe qualquer dispositivo no caminho \"%s\" do sysfs "
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Tem de especificar o caminho sysfs do novo dispositivo com --device-added"
+msgstr ""
+"Tem de especificar o caminho sysfs do novo dispositivo com --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -72,8 +73,7 @@ msgstr "Deseja importar as fotos ou gerir a música?"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829
-#: ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "Ig_norar"
@@ -97,7 +97,9 @@ msgid "A photo card has been detected"
 msgstr "Foi detetado um cartão de fotos"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "Existem fotos no cartão. Deseja adicionar as fotos ao seu álbum?"
 
 #. prompt the user to execute the file
@@ -208,13 +210,13 @@ msgstr "_Reproduzir CD"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "O tipo de dispositivo é desconhecido"
+msgid "Unknown block device type \"%s\""
+msgstr "O tipo de dispositivo \"%s\" é desconhecido"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "O tipo de dispositivo não é suportado"
+msgid "Device type \"%s\" not supported"
+msgstr "O tipo de dispositivo \"%s\" não é suportado"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -244,8 +246,8 @@ msgstr "Foi detetado um rato"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "O dispositivo introduzido não é suportado"
+msgid "Unsupported input device type \"%s\""
+msgstr "O tipo de dispositivo introduzido \"%s\" não é suportado"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -260,8 +262,7 @@ msgstr "Inserido um DVD vazio"
 msgid "You have inserted a blank DVD."
 msgstr "Inseriu um DVD vazio."
 
-#: ../thunar-volman/tvm-run.c:191
-#: ../thunar-volman/tvm-run.c:202
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
 msgstr "Que deseja fazer?"
 
@@ -313,8 +314,8 @@ msgstr "Foi detetada uma impressora USB"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "O dispositivo USB não é suportado"
+msgid "Unsupported USB device type \"%s\""
+msgstr "O tipo de dispositivo USB \"%s\" não é suportado"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
@@ -355,7 +356,7 @@ msgid "Shell Scripts"
 msgstr "Scripts Shell"
 
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Armazenamento"
@@ -401,7 +402,7 @@ msgid "Command for A_udio CDs:"
 msgstr "Comando para CDs de á_udio:"
 
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimédia"
@@ -446,7 +447,7 @@ msgid "Play _music files when connected"
 msgstr "Reproduzir ficheiros de _música quando ligado"
 
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Máquinas fotográficas"
@@ -460,7 +461,7 @@ msgid "Import digital photographs when connected"
 msgstr "Importar fotos digitais quando ligado"
 
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDAs"
@@ -482,7 +483,7 @@ msgid "Sync Pocket P_C devices when connected"
 msgstr "Sincronizar P_C de bolso quando ligado"
 
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -493,7 +494,7 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "Executar automaticamente um programa ao ligar uma i_mpressora"
 
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Dispositivos de entrada"
