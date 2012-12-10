@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-24 11:00+0000\n"
+"POT-Creation-Date: 2012-12-10 18:48+0000\n"
 "PO-Revision-Date: 2011-02-07 14:26+0100\n"
 "Last-Translator: Cristian Marchi <cri.penta@gmail.com>\n"
 "Language-Team: Italian Translation Team <xfce-it-translators@googlegroups.com>\n"
@@ -42,21 +42,21 @@ msgstr "Stampa le informazioni di versione ed esce"
 msgid "Thunar Volume Manager"
 msgstr "Gestore dei volumi di Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Tutti i diritti riservati"
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Segnalare i problemi a <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Non c'è alcun dispositivo con il percorso sysfs \"%s\""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr ""
@@ -218,13 +218,13 @@ msgstr "_Riproduci il CD"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Tipo di blocco del dispositivo sconosciuto"
+msgid "Unknown block device type \"%s\""
+msgstr "Tipo di dispositivo di blocco \"%s\" sconosciuto"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Tipo di dispositivo non supportato"
+msgid "Device type \"%s\" not supported"
+msgstr "Tipo di dispositivo \"%s\" non supportato"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -254,8 +254,8 @@ msgstr "È stato rilevato un mouse"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Tipo di dispositivo non supportato"
+msgid "Unsupported input device type \"%s\""
+msgstr "Tipo di dispositivo di input \"%s\" non supportato"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -322,8 +322,8 @@ msgstr "È stata rilevata una stampante USB"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Tipo di dispositivo USB non supportato"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Tipo di dispositivo USB \"%s\" non supportato"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
