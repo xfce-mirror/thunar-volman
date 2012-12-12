@@ -2,7 +2,7 @@
 # Copyright (C) 2006-2011 The Xfce development team.
 # This file is distributed under the same license as the thunar-volman package.
 #
-# Seong-ho, Cho <darkcircle.0426@gmail.com>, 2011, 2012.
+# Seong-ho Cho <darkcircle.0426@gmail.com>, 2011, 2012.
 #
 msgid ""
 msgstr ""
