@@ -7,10 +7,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman.master\n"
-"Report-Msgid-Bugs-To: https://bugzilla.xfce.org/enter_bug.cgi?product=Thunar-volman\n"
-"POT-Creation-Date: 2012-02-27 09:21+0000\n"
-"PO-Revision-Date: 2012-02-27 23:37+0900\n"
-"Last-Translator: Seong-ho, Cho <darkcircle.0426@gmail.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-12 08:15+0000\n"
+"PO-Revision-Date: 2012-12-12 19:03+0900\n"
+"Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: xfce-i18n <xfce-i18n@xfce.org>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
@@ -40,21 +40,21 @@ msgstr "버전 정보를 출력하고 끝냅니다"
 msgid "Thunar Volume Manager"
 msgstr "Thunar 볼륨 관리자"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "All rights reserved."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "<%s>로 버그를 알려주십시오."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "sysfs 경로 \"%s\"에 장치가 없습니다"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "--device-added로 새 장치의 sysfs 경로를 지정하여야 합니다"
@@ -213,13 +213,13 @@ msgstr "CD 재생하기(_P)"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "알 수 없는 블록 장치 유형"
+msgid "Unknown block device type \"%s\""
+msgstr "알 수 없는 블록 장치 형식 \"%s\""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "장치 유형을 지원하지 않습니다"
+msgid "Device type \"%s\" not supported"
+msgstr "\"%s\" 장치 형식을 지원하지 않습니다"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -249,8 +249,8 @@ msgstr "마우스를 감지했습니다"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "지원하지 않는 입력 장치 유형"
+msgid "Unsupported input device type \"%s\""
+msgstr "지원하지 않는 입력 장치 형식 \"%s\""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -318,8 +318,8 @@ msgstr "USB 프린터를 감지했습니다"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "지원하지 않는 USB 장치 유형"
+msgid "Unsupported USB device type \"%s\""
+msgstr "지원하지 않는 USB 장치 형식 \"%s\""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
