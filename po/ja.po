@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-23 11:45+0000\n"
-"PO-Revision-Date: 2012-04-25 20:43+0900\n"
+"POT-Creation-Date: 2012-12-13 22:38+0900\n"
+"PO-Revision-Date: 2012-12-13 22:41+0900\n"
 "Last-Translator: Masato Hashimoto <cabezon.hashimoto@gmail.com>\n"
 "Language-Team: Japanese <xfce-users-jp@ml.fdiary.net>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../thunar-volman/main.c:59
@@ -23,7 +23,7 @@ msgid "The syfs path of the newly added device"
 msgstr "新たに追加されたデバイスの Sysfs パス"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "リムーバブルドライブとメディアの取扱いを設定します"
@@ -37,21 +37,21 @@ msgstr "バージョン情報を表示して終了する"
 msgid "Thunar Volume Manager"
 msgstr "Thunar ボリュームマネージャー"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "All rights reserved."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "バグの報告は <%s> までお願いします。"
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Sysfs パス \"%s\" にデバイスはありません"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "--device-added オプションで新しいデバイスの Sysfs パスを指定してください"
@@ -74,8 +74,7 @@ msgstr "写真を取り込みますか? それとも音楽を管理しますか?
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829
-#: ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "無視する(_N)"
@@ -210,13 +209,13 @@ msgstr "CD を再生する(_P)"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "未知のブロックデバイスタイプです"
+msgid "Unknown block device type \"%s\""
+msgstr "\"%s\" は未知のブロックデバイスタイプです"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "デバイスタイプはサポートされていません"
+msgid "Device type \"%s\" not supported"
+msgstr "デバイスタイプ \"%s\" はサポートされていません"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -246,8 +245,8 @@ msgstr "マウスが検出されました"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "未サポートの入力デバイスタイプです"
+msgid "Unsupported input device type \"%s\""
+msgstr "\"%s\" は未サポートの入力デバイスタイプです"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -262,8 +261,7 @@ msgstr "空の DVD が挿入されました"
 msgid "You have inserted a blank DVD."
 msgstr "空の DVD が挿入されました。"
 
-#: ../thunar-volman/tvm-run.c:191
-#: ../thunar-volman/tvm-run.c:202
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
 msgstr "何をしますか?"
 
@@ -315,15 +313,15 @@ msgstr "USB プリンターが検出されました"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "未サポートの USB デバイスタイプです"
+msgid "Unsupported USB device type \"%s\""
+msgstr "\"%s\" は未サポートの USB デバイスタイプです"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
 msgstr "Thunar ボリュームマネージャー設定"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "リムーバブルドライブとメディア"
@@ -356,6 +354,7 @@ msgstr "Ruby スクリプト"
 msgid "Shell Scripts"
 msgstr "シェルスクリプト"
 
+#.
 #. Storage
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
@@ -402,6 +401,7 @@ msgstr "データ CD 用コマンド(_D)"
 msgid "Command for A_udio CDs:"
 msgstr "オーディオ CD 用コマンド(_U)"
 
+#.
 #. Multimedia
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
@@ -447,6 +447,7 @@ msgstr "携帯音楽プレーヤー"
 msgid "Play _music files when connected"
 msgstr "接続されたら音楽ファイルを再生する(_M)"
 
+#.
 #. Cameras
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
@@ -461,6 +462,7 @@ msgstr "デジタルカメラ"
 msgid "Import digital photographs when connected"
 msgstr "接続されたら写真を取り込む"
 
+#.
 #. PDAs
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
@@ -483,6 +485,7 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Pocket PC デバイスが接続されたら同期をとる(_C)"
 
+#.
 #. Printers
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
@@ -494,6 +497,7 @@ msgstr "プリンター"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "プリンターが接続されたら自動的にプログラムを実行する(_P)"
 
+#.
 #. Input Devices
 #.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
@@ -531,4 +535,3 @@ msgstr "コマンド(_M):"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "ドキュメントブラウザーのオープンに失敗しました"
-
