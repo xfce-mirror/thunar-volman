@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-02 17:27+0000\n"
+"POT-Creation-Date: 2012-12-13 00:18+0000\n"
 "PO-Revision-Date: 2011-05-28 16:45+0200\n"
 "Last-Translator: Ivica Kolić <ikoli@yahoo.com>\n"
 "Language-Team: Croatian <ikoli@yahoo.com>\n"
@@ -39,21 +39,21 @@ msgstr "Ispiši informacije o verziji i izađi"
 msgid "Thunar Volume Manager"
 msgstr ""
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Sva prava pridržana."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Prijavite probleme u <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Nema uređaja sa sysfs putanjom \"%s\""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Morate odrediti sysfs putanju novih uređaja pomoću --device-added"
@@ -213,13 +213,13 @@ msgstr "_Izvodi CD"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
+msgid "Unknown block device type \"%s\""
 msgstr ""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Tip uređaja nije podržan"
+msgid "Device type \"%s\" not supported"
+msgstr "Tip uređaqja \"%s\" nije podržan"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -249,7 +249,7 @@ msgstr "Miš je otkriven"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
+msgid "Unsupported input device type \"%s\""
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:171
@@ -317,8 +317,8 @@ msgstr "USB pisač je otkriven"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Nepodržana vrsta USB uređaja"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Nepodržana vrsta USB uređaja \"%s\""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
