@@ -219,7 +219,7 @@ msgstr ""
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr "Tip uređaqja \"%s\" nije podržan"
+msgstr "Tip uređaja \"%s\" nije podržan"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
