@@ -167,12 +167,12 @@ msgstr "Розділ змонтований"
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "Том \"%s\" автоматично змонтований"
+msgstr "Розділ \"%s\" автоматично змонтований"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr "Вставлений том був автоматично змонтований"
+msgstr "Вставлений пристрій був автоматично змонтований"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
