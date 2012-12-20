@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-24 05:12+0000\n"
+"POT-Creation-Date: 2012-12-20 08:51+0000\n"
 "PO-Revision-Date: 2010-10-19 09:08+0600\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <kk_KZ@googlegroups.com>\n"
@@ -36,21 +36,21 @@ msgstr "Нұсқа ақпаратын шығару мен шығу"
 msgid "Thunar Volume Manager"
 msgstr "Thunar тасушылар басқарушысы"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Барлық құқықтары қорғалған."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Ақаулықтар жөнінде хабарласыңыз: <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "sysfs жолы \"%s\" болатын құрылғы жоқ"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Жаңа құрылғылар үшін syfs жолын --device-added көмегімен көрсету керек"
@@ -212,13 +212,13 @@ msgstr "CD _ойнау"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Белгісіз блоктық құрылғы түрі"
+msgid "Unknown block device type \"%s\""
+msgstr "Белгісіз блоктық құрылғы түрі \"%s\""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Құрылғы түріне қолдау жоқ"
+msgid "Device type \"%s\" not supported"
+msgstr "Құрылғы \"%s\" түріне қолдау жоқ"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -248,8 +248,8 @@ msgstr "Тышқан табылды"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Енгізу құрылғының осы түрі үшін қолдау жоқ"
+msgid "Unsupported input device type \"%s\""
+msgstr "Енгізу құрылғының \"%s\" түрі үшін қолдау жоқ"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -316,8 +316,8 @@ msgstr "USB принтері табылды"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Қолдауы жоқ USB құрылғы түрі"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Қолдауы жоқ \"%s\" USB құрылғы түрі"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
