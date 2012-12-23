@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-06 02:30+0000\n"
+"POT-Creation-Date: 2012-12-23 17:06+0000\n"
 "PO-Revision-Date: 2009-03-24 17:30+0100\n"
 "Last-Translator: Piotr Sokół <piotr.sokol@10g.pl>\n"
 "Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
@@ -36,21 +36,21 @@ msgstr "Wypisuje informacje o wersji i kończy"
 msgid "Thunar Volume Manager"
 msgstr "Menedżer wolumenów programu Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Wszelkie prawa zastrzeżone."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Proszę zgłaszać błędy na adres <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Nie ma urządzenia o ścieżce sysfs „%s”"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Należy określić ścieżkę sysfs nowego urządzenia przez --device-added"
@@ -210,13 +210,13 @@ msgstr "_Odtwórz płytę"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Nieznany typ urządzenia blokowego"
+msgid "Unknown block device type \"%s\""
+msgstr "Nieznany typ urządzenia blokowego „%s”"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Nie obsługiwany typ urządzenia"
+msgid "Device type \"%s\" not supported"
+msgstr "Nieobsługiwany typ urządzenia „%s”"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -246,8 +246,8 @@ msgstr "Wykryto mysz"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Nieobsługiwany typ urządzenia wejściowego"
+msgid "Unsupported input device type \"%s\""
+msgstr "Nieobsługiwany typ urządzenia wejściowego „%s”"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -314,8 +314,8 @@ msgstr "Wykryto drukarkę USB"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Nieobsługiwany typ urządzenia USB"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Nieobsługiwany typ urządzenia USB „%s”"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
