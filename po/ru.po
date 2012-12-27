@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-08 02:39+0000\n"
+"POT-Creation-Date: 2012-12-27 06:42+0000\n"
 "PO-Revision-Date: 2009-02-20 12:42+0700\n"
 "Last-Translator: Pavel Labushev <p.labushev@gmail.com>\n"
 "Language-Team: Russian <xfce-i18n-ru@xfce.org>\n"
@@ -37,21 +37,21 @@ msgstr "Вывести информацию о версии и завершит�
 msgid "Thunar Volume Manager"
 msgstr "Менеджер томов для Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Все права защищены."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Пожалуйста, сообщайте об ошибках по адресу <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Не найдено устройства по системному пути \"%s\""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr ""
@@ -213,13 +213,13 @@ msgstr "Слушать _музыку"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Неизвестный тип блочного устройства"
+msgid "Unknown block device type \"%s\""
+msgstr "Неизвестный тип блочного устройства «%s»"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Неподдерживаемый тип устройства"
+msgid "Device type \"%s\" not supported"
+msgstr "Неподдерживаемый тип устройства «%s»"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -249,8 +249,8 @@ msgstr "Обнаружена мышь"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Неизвестный тип устройства ввода"
+msgid "Unsupported input device type \"%s\""
+msgstr "Неизвестный тип устройства ввода «%s»"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -317,8 +317,8 @@ msgstr "Обнаружен USB-принтер"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Неподдерживаемое устройство USB"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Неподдерживаемое устройство USB «%s»"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
