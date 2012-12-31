@@ -6,16 +6,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-05 06:57+0000\n"
+"POT-Creation-Date: 2012-12-31 07:00+0000\n"
 "PO-Revision-Date: 2012-07-05 11:31+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: српски <xfce-i18n@xfce.org>\n"
-"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
-"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: sr\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -36,21 +35,21 @@ msgstr "Исписује податке о издању и излази"
 msgid "Thunar Volume Manager"
 msgstr "Тунаров управник волуменима"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Сва права су задржана."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Молим пријавите грешке на <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Нема уређаја са системском путањом „%s“"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Потребно је навести системску путању нових уређаја са „--device-added“"
@@ -212,13 +211,13 @@ msgstr "_Пусти ЦД"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Непозната врста блок уређаја"
+msgid "Unknown block device type \"%s\""
+msgstr "Непозната врста блок уређаја „%s“"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Врста уређаја није подржана"
+msgid "Device type \"%s\" not supported"
+msgstr "Врста уређаја „%s“ није подржана"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -248,8 +247,8 @@ msgstr "Миш је откривен"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Неподржана врста улазног диска"
+msgid "Unsupported input device type \"%s\""
+msgstr "Неподржана врста улазног диска „%s“"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -316,8 +315,8 @@ msgstr "УСБ штампач је откривен"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Неподржана врста УСБ диска"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Неподржана врста УСБ диска „%s“"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
@@ -357,9 +356,8 @@ msgstr "Руби скрипте"
 msgid "Shell Scripts"
 msgstr "Шел скрипте"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Складиште"
@@ -404,9 +402,8 @@ msgstr "Наредба за ЦД са _подацима:"
 msgid "Command for A_udio CDs:"
 msgstr "Наредба за _звучни ЦД:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Мултимедија"
@@ -450,9 +447,8 @@ msgstr "Џепне музичке справице"
 msgid "Play _music files when connected"
 msgstr "Пусти _музику по прикључењу"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Фотоапарати"
@@ -465,9 +461,8 @@ msgstr "Дигитални фотоапарати"
 msgid "Import digital photographs when connected"
 msgstr "Увези дигиталне фотографије по повезивању"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "Преносни диг. помоћници"
@@ -488,9 +483,8 @@ msgstr "Џепни рачунари"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Синхронизуј Џепне _рачунаре по повезивању"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -500,9 +494,8 @@ msgstr "Штампачи"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Сам покрени програм по прикључивању _штампача"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Улазни уређаји"
