@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.3.80\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-19 21:18+0000\n"
+"POT-Creation-Date: 2013-01-05 15:24+0000\n"
 "PO-Revision-Date: 2008-10-14 11:14+0100\n"
 "Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -38,21 +38,21 @@ msgstr "Udskriv versionsinformation og afslut"
 msgid "Thunar Volume Manager"
 msgstr "Thunar-arkivhåndtering"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Alle rettigheder er beskyttet."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Rapportér venligst fejl til <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Der findes ikke enhed med sysfs-stien \"%s\""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Du skal angive den nye syfs sti af den nye enhed med --device-added"
@@ -214,13 +214,13 @@ msgstr "_Afspil cd"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Ukendt blokenhedstype"
+msgid "Unknown block device type \"%s\""
+msgstr "Ukendt blokenhedstype \"%s\""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Enhedstype ikke understøttet"
+msgid "Device type \"%s\" not supported"
+msgstr "Enhedstype \"%s\" ikke understøttet"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -250,8 +250,8 @@ msgstr "En mus blev fundet"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Ikke understøttet inddata-enhedstype"
+msgid "Unsupported input device type \"%s\""
+msgstr "Ikke understøttet inddata-enhedstype \"%s\""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -318,8 +318,8 @@ msgstr "En usb-printer blev fundet"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Ikke understøttet usb-enhedstype"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Ikke understøttet usb-enhedstype \"%s\""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
