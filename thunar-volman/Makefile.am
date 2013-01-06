@@ -17,7 +17,7 @@
 # Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 # Boston, MA 02110-1301, USA.
 
-INCLUDES =								\
+AM_CPPFLAGS =								\
 	-I$(top_builddir)						\
 	-I$(top_srcdir)							\
 	-DBINDIR=\"$(bindir)\"						\
