@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-15 21:15+0000\n"
+"POT-Creation-Date: 2013-01-20 19:12+0000\n"
 "PO-Revision-Date: 2010-11-28 13:31+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
 "Language-Team: Hungarian <gnome at fsf dot hu>\n"
@@ -38,21 +38,21 @@ msgstr "Verzióinformációk kiírása és kilépés"
 msgid "Thunar Volume Manager"
 msgstr "Thunar kötetkezelő"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Minden jog fenntartva."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "A hibákat ide jelentse: <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Nincs „%s” sysfs-útvonalú eszköz"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr ""
@@ -215,13 +215,13 @@ msgstr "_CD lejátszása"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Ismeretlen blokkeszköztípus"
+msgid "Unknown block device type \"%s\""
+msgstr "Ismeretlen blokkeszköztípus: „%s”"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Az eszköztípus nem támogatott"
+msgid "Device type \"%s\" not supported"
+msgstr "Az eszköztípus ( „%s”) nem támogatott"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -251,8 +251,8 @@ msgstr "A rendszer egeret észlelt"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Nem támogatott bemenetieszköz-típus"
+msgid "Unsupported input device type \"%s\""
+msgstr "Nem támogatott bemenetieszköz-típus  ( „%s”)"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -319,8 +319,8 @@ msgstr "A rendszer USB-nyomtatót észlelt"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Nem támogatott USB-eszköztípus"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Nem támogatott USB-eszköztípus  ( „%s”)"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
