@@ -382,7 +382,7 @@ msgstr "Brskaj odstranljive medije, ko so vstavljeni"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr ""
+msgstr "_samodejno zaženi programe na novih pogonih in medijih"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
