@@ -2,19 +2,19 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Gheyret Kenji <gheyret@gmail.com>, YEAR.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-10-24 01:54+0000\n"
+"POT-Creation-Date: 2013-01-25 00:51+0000\n"
 "PO-Revision-Date: 2011-11-09 16:10+0900\n"
 "Last-Translator: Gheyret Kenji <gheyret@gmail.com>\n"
 "Language-Team: Uyghur Computer Science Association <UKIJ@yahoogroups.com>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
@@ -35,24 +35,25 @@ msgstr "نەشر ئۇچۇرىنى كۆرسىتىپ ئاخىرلاشتۇرۇش"
 msgid "Thunar Volume Manager"
 msgstr "سۇنار(Thunar) دىسكا باشقۇرغۇ"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "بارلىق ھوقۇق ئۆزىمىزگە تەۋە."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "كەمتۈكنى <%s> غا دوكلات قىلىڭ."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "بۇ يەردە sysfs يولى «%s» بولغان ئۈسكۈنە يوق"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "يېڭى ئۈسكۈنىنىڭ sysfs يولىنى --device-added ئارقىلىق كۆرسىتىپ بېرىش كېرەك"
+msgstr ""
+"يېڭى ئۈسكۈنىنىڭ sysfs يولىنى --device-added ئارقىلىق كۆرسىتىپ بېرىش كېرەك"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -209,13 +210,13 @@ msgstr "پلاستىنكىسى(CD) نى ئاڭلايمەن(_P)"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "نامەلۇم بۆلەك ئۈسكۈنە تىپى"
+msgid "Unknown block device type \"%s\""
+msgstr "نامەلۇم بۆلەك ئۈسكۈنە تىپى «%s»"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "ئۈسكۈنە تىپىنى بىر تەرەپ قىلالمايدۇ"
+msgid "Device type \"%s\" not supported"
+msgstr "ئۈسكۈنە تىپى «%s» نى قوللىمايدۇ"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -245,8 +246,8 @@ msgstr "بىر چاشقىنەك تېپىلدى"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "تونۇمايدىغان كىرگۈزۈش ئۈسكۈنە تىپى"
+msgid "Unsupported input device type \"%s\""
+msgstr "قوللىمايدىغان كىرگۈزۈش ئۈسكۈنە تىپى «%s»"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -313,8 +314,8 @@ msgstr "بىر USB پرىنتېرى بايقالدى"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "مەزكۇر USB ئۈسكۈنىسىنىڭ تىپنى تونۇمىدى"
+msgid "Unsupported USB device type \"%s\""
+msgstr "قوللىمايدىغان USB ئۈسكۈنە تىپى «%s»"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
@@ -354,9 +355,8 @@ msgstr "Ruby پروگراممىسى"
 msgid "Shell Scripts"
 msgstr "Shell پروگراممىسى"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "ساقلىغۇچ"
@@ -379,7 +379,8 @@ msgstr "يۆتكەلمە ئۈسكۈنىلەر چېتىلغاندا مەزمۇن�
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr "يېڭى قوزغاتقۇچ ياكى كۆپ ۋاسىتىدىكى پروگراممىنى ئۆزلۈكىدىن ئىجرا قىلسۇن(_A)"
+msgstr ""
+"يېڭى قوزغاتقۇچ ياكى كۆپ ۋاسىتىدىكى پروگراممىنى ئۆزلۈكىدىن ئىجرا قىلسۇن(_A)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
@@ -401,9 +402,8 @@ msgstr "سانلىق-مەلۇمات CD نىڭ بۇيرۇقى(_D):"
 msgid "Command for A_udio CDs:"
 msgstr "ئۈن CD نىڭ بۇيرۇقى(_U):"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "كۆپ ۋاسىتە"
@@ -447,9 +447,8 @@ msgstr "ئەپچىل مۇزىكا قويغۇلار"
 msgid "Play _music files when connected"
 msgstr "چېتىلغاندا مۇزىكا ھۆججەتلىرىنى قويسۇن(_M)"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "كامېرالار"
@@ -462,9 +461,8 @@ msgstr "رەقەملىك كامېرالار"
 msgid "Import digital photographs when connected"
 msgstr "چېتىلغاندا سۈرەتلەرنى ئىمپورت قىلسۇن"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -485,9 +483,8 @@ msgstr "يانچۇق كومپيۇتېرى(Pocket PC)"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "ئەگەر يانچۇق كومپيۇتېرلىرى(Pocket PC) چېتىلسا قەدەمداشلىسۇن(_C)"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -497,9 +494,8 @@ msgstr "پرىنتېرلار"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "پرىنتېر چېتىلغاندا بىر پروگراممىنى ئىجرا قىلسۇن(_P)"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "كىرگۈزۈش ئۈسكۈنىلىرى"
