@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-07 14:39+0100\n"
-"PO-Revision-Date: 2011-12-30 02:14+0200\n"
-"Last-Translator: Milen Milev <fanfolet@gmail.com>\n"
+"POT-Creation-Date: 2013-01-27 06:21+0000\n"
+"PO-Revision-Date: 2013-01-27 13:23+0200\n"
+"Last-Translator: Cybercop <cybercop_montana@abv.bg>\n"
 "Language-Team: BULGARIAN\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -20,39 +20,39 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: ../thunar-volman/main.c:59
-msgid "The sysfs path of the newly added device"
-msgstr "sysfs пътя на ново добавено устройство"
+msgid "The syfs path of the newly added device"
+msgstr "Sysfs пътя на ново добавено устройство"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
-msgstr "Конфигурирай управлението на преносими устройства"
+msgstr "Конфигуриране на управлението на преносими устройства и медии"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr "Изписва инфо за версията и изход"
+msgstr "Изписване на информация за версията и изход"
 
 #. setup application name
-#: ../thunar-volman/main.c:96
+#: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr "Файлов мениджър Thunar."
+msgstr "Thunar - Управление на устройствата"
 
-#: ../thunar-volman/main.c:135
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
-msgstr "Всички права запазени."
+msgstr "Всички права са запазени."
 
-#: ../thunar-volman/main.c:136
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr "Докладвайте за грешки на <%s>."
+msgstr "Моля, докладвайте за грешки на <%s>."
 
-#: ../thunar-volman/main.c:190
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Няма устройство със sysfs път \"%s\""
 
-#: ../thunar-volman/main.c:202
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Да се зададе sysfs  път за новите устройства с --device-added"
@@ -64,7 +64,7 @@ msgstr "Снимки и Музика"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr "Засечени са снимки на музикалният Ви плейър"
+msgstr "Засечени са снимки на вашият портативен музикалент плейър"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -88,12 +88,12 @@ msgstr "Внасяне на снимки"
 
 #: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
-msgstr "Редактиране на песни"
+msgstr "Управление на Музика"
 
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
 msgid "Photo Import"
-msgstr "Внасяне на снимки"
+msgstr "Снимки - внасяне"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
@@ -109,7 +109,7 @@ msgstr "Има снимки на картата. Искате ли да ги д�
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "Позволявате ли на \"%s\" да се стартира?"
+msgstr "Позволявате ли на \"%s\" да стартира?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -142,7 +142,7 @@ msgstr "Засечена е възможност за автоматично о�
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
-msgstr "Отвори"
+msgstr "Отваряне"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
@@ -191,7 +191,7 @@ msgstr "Не може да се определи устройството"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
-msgstr "Аудио/Данни диск"
+msgstr "Аудио/CD с данни"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
@@ -211,17 +211,13 @@ msgstr "Пусни CD"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Непознат тип на блоково устройство"
+msgid "Unknown block device type \"%s\""
+msgstr "Непознато блоково устройство тип \"%s\""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Типа на устройството не се поддържа"
-
-#: ../thunar-volman/tvm-input-device.c:74
-msgid "input-keyboard"
-msgstr "въвеждане-клавиатура"
+msgid "Device type \"%s\" not supported"
+msgstr "Устройство тип \"%s\"  не се поддържа"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -230,11 +226,6 @@ msgstr "Засечена е клавиатура"
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
 msgstr "Беше засечена клавиатура"
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
-msgstr "въвеждане-таблет"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -246,10 +237,6 @@ msgstr "Засечен е таблет"
 msgid "A graphics tablet was detected"
 msgstr "Засечен е графичен таблет"
 
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
-msgstr "въвеждане-мишка"
-
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
 msgstr "Засечена е мишка"
@@ -260,8 +247,8 @@ msgstr "Беше засечена мишка"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Неподдържан тип на входно устройство"
+msgid "Unsupported input device type \"%s\""
+msgstr "Неподдържано входно устройство тип \"%s\""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -329,8 +316,8 @@ msgstr "Засечен е USB принтер"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Неподдържан тип на USB устройство"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Неподдържано USB устройство тип \"%s\""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
@@ -344,7 +331,7 @@ msgstr "Преносими устройства и медии"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
-msgstr "Избери програма"
+msgstr "Избор на програма"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:250
 msgid "All Files"
@@ -525,16 +512,16 @@ msgid "Keyboards"
 msgstr "Клавиатури"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-msgid "Automatically run a program when an USB _keyboard is connected"
-msgstr "Стартирай автоматично програма при свързване на USB клавиатура"
+msgid "Automatically run a program when a USB _keyboard is connected"
+msgstr "Автоматично стартиране на програма при свързване на USB клавиатура"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
 msgstr "Мишка"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-msgid "Automatically run a program when an USB _mouse is connected"
-msgstr "Стартирай автоматично програма при свързване на USB мишка"
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr "Автоматично стартиране на програма при свързване на USB мишка"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -552,3 +539,11 @@ msgstr "Команда:"
 msgid "Failed to open the documentation browser"
 msgstr "Не може да се отвори браузъра за документи"
 
+#~ msgid "input-keyboard"
+#~ msgstr "въвеждане-клавиатура"
+
+#~ msgid "input-tablet"
+#~ msgstr "въвеждане-таблет"
+
+#~ msgid "input-mouse"
+#~ msgstr "въвеждане-мишка"
