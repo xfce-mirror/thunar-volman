@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-01-27 06:21+0000\n"
-"PO-Revision-Date: 2013-01-27 13:23+0200\n"
+"PO-Revision-Date: 2013-01-27 13:39+0200\n"
 "Last-Translator: Cybercop <cybercop_montana@abv.bg>\n"
 "Language-Team: BULGARIAN\n"
 "Language: \n"
@@ -64,7 +64,7 @@ msgstr "Снимки и Музика"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr "Засечени са снимки на вашият портативен музикалент плейър"
+msgstr "Засечени са снимки на вашият портативен музикален плейър"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
