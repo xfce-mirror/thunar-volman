@@ -2,19 +2,19 @@
 # Copyright (C) 2007 THE xfce'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the xfce package.
 # Michal Várady <miko.vaji@gmail.com>, 2007-2012.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: xfce 4-i18-goodies\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-19 20:00+0000\n"
+"POT-Creation-Date: 2013-01-27 17:03+0000\n"
 "PO-Revision-Date: 2012-02-19 22:27+0100\n"
 "Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
 "Language-Team: Czech\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../thunar-volman/main.c:59
@@ -36,24 +36,26 @@ msgstr "Zobrazí informace o verzi a ukončí se"
 msgid "Thunar Volume Manager"
 msgstr "Správce svazků aplikace Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Všechna práva vyhrazena."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Prosíme, abyste chyby hlásili na adresu <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Neexistuje zařízení s cestou sysfs \"%s\""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Je nutné zadat novou cestu sysfs nového zařízení pomocí přepínače --device-added"
+msgstr ""
+"Je nutné zadat novou cestu sysfs nového zařízení pomocí přepínače --device-"
+"added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -73,8 +75,7 @@ msgstr "Chcete importovat fotografie nebo spravovat hudbu?"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829
-#: ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "Ig_norovat"
@@ -98,7 +99,9 @@ msgid "A photo card has been detected"
 msgstr "Byla nalezena karta s fotografiemi"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "Na kartě jsou fotografie. Chcete je přidat do svého alba?"
 
 #. prompt the user to execute the file
@@ -209,13 +212,13 @@ msgstr "Přehrát disk _CD"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Naznámý typ blokového zařízení"
+msgid "Unknown block device type \"%s\""
+msgstr "Neznámý typ blokového zařízení %s"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Typ zařízení není podporován"
+msgid "Device type \"%s\" not supported"
+msgstr "Typ zařízení %s není podporován"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -245,8 +248,8 @@ msgstr "Byla nalezena myš"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Nepodporované typ vstupního zařízení"
+msgid "Unsupported input device type \"%s\""
+msgstr "Nepodporovaný typ vstupního zařízení %s"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -261,8 +264,7 @@ msgstr "Vložen prázdný disk DVD"
 msgid "You have inserted a blank DVD."
 msgstr "Vložili jste prázdný disk DVD."
 
-#: ../thunar-volman/tvm-run.c:191
-#: ../thunar-volman/tvm-run.c:202
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
 msgstr "Vyberte si z následujících možností"
 
@@ -314,8 +316,8 @@ msgstr "Byla nalezena tiskárna USB"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Nepodporovaný typ zařízení USB"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Nepodporovaný typ zařízení USB %s"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
@@ -355,9 +357,8 @@ msgstr "Skripty jazyka Ruby"
 msgid "Shell Scripts"
 msgstr "Shellové skripty"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Úložiště"
@@ -402,9 +403,8 @@ msgstr "Příkaz pro _datová CD:"
 msgid "Command for A_udio CDs:"
 msgstr "Příkaz pro _zvukové disky CD:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimédia"
@@ -448,9 +448,8 @@ msgstr "Přenosné hudební přehrávače"
 msgid "Play _music files when connected"
 msgstr "Přehrát hudební _soubory po připojení"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Fotoaparáty"
@@ -463,9 +462,8 @@ msgstr "Digitální fotoaparáty"
 msgid "Import digital photographs when connected"
 msgstr "Importovat digitální fotografie po připojení"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "Zařízení PDA"
@@ -486,9 +484,8 @@ msgstr "Zařízení PCs"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Synchronizovat zařízení Pocket P_C po připojení"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -498,9 +495,8 @@ msgstr "Tiskárny"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Au_tomaticky spustit program po připojení tiskárny"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Vstupní zařízení"
