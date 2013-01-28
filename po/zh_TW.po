@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-19 04:03+0000\n"
-"PO-Revision-Date: 2012-01-19 15:24+0800\n"
+"POT-Creation-Date: 2013-01-27 22:24+0000\n"
+"PO-Revision-Date: 2013-01-28 11:11+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
 "Language-Team: Cheng-Wei Chien <e.cwchien@gmail.com>\n"
 "Language: \n"
@@ -38,21 +38,21 @@ msgstr "列出版本資訊後離開"
 msgid "Thunar Volume Manager"
 msgstr "Thunar 儲存裝置管理員"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "保留所有權利。"
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "請回報錯誤至 <%s>。"
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "沒有 sysfs 路徑為「%s」的裝置"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "必須以 --device-added 來指定新裝置的 sysfs 路徑"
@@ -211,13 +211,13 @@ msgstr "播放 CD(_P)"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "未知的區塊裝置類型"
+msgid "Unknown block device type \"%s\""
+msgstr "未知的區塊裝置類型「%s」"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "未支援的裝置類型"
+msgid "Device type \"%s\" not supported"
+msgstr "未支援的裝置類型「%s」"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -247,8 +247,8 @@ msgstr "已偵測到一隻滑鼠"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "未支援的輸入裝置類型"
+msgid "Unsupported input device type \"%s\""
+msgstr "未支援的輸入裝置類型「%s」"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -316,8 +316,8 @@ msgstr "已偵測到一臺 USB 印表機"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "未支援的 USB 裝置類型"
+msgid "Unsupported USB device type \"%s\""
+msgstr "未支援的 USB 裝置類型「%s」"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
