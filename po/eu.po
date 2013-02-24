@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-16 08:45+0000\n"
+"POT-Creation-Date: 2013-02-24 19:09+0000\n"
 "PO-Revision-Date: 2008-11-09 15:38+0200\n"
 "Last-Translator: Piarres Beobide <pi@beobide.net>\n"
 "Language-Team: Euskara <debian-l10n-basque@lists.debian.org>\n"
@@ -38,21 +38,21 @@ msgstr "Inprimatu bertsio argibideak eta irten"
 msgid "Thunar Volume Manager"
 msgstr "Thunar Bolumen Kudeatzailea"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Eskubide guztiak erreserbaturik."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Programa erroreen berri eman hemen : <%s>"
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Ez dago  \"%s\" sysfs bidea duen gailurik"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Gailu berrien sysfs-a --device-added erabiliaz ezarri behar da"
@@ -213,13 +213,13 @@ msgstr "CD-a Erre_produzitu"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Bloke gailu mota ezezaguna"
+msgid "Unknown block device type \"%s\""
+msgstr "\"%s\" bloke gailu mota ezezaguna"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Gailu mota ez da onartzen"
+msgid "Device type \"%s\" not supported"
+msgstr "\"%s\" gailu mota ez da onartzen"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -249,8 +249,8 @@ msgstr "Sagu bat atzeman zen"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Onartzen ez den sarrera gailu mota"
+msgid "Unsupported input device type \"%s\""
+msgstr "\"%s\" motako onartzen ez den sarrera gailua "
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -317,8 +317,8 @@ msgstr "USB inprimagailu bat atzeman da"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Onartzen ez de USB gailu mota"
+msgid "Unsupported USB device type \"%s\""
+msgstr "\"%s\" motako onartzen ez de USB gailu "
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
