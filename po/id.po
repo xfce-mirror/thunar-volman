@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-30 12:00+0000\n"
+"POT-Creation-Date: 2013-03-23 13:09+0000\n"
 "PO-Revision-Date: 2008-09-03 21:13+0700\n"
 "Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
@@ -35,21 +35,21 @@ msgstr "Cetak informasi versi lalu keluar"
 msgid "Thunar Volume Manager"
 msgstr "Manajer Volume Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Hak cipta dilindungi undang-undang."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Silakan laporkan kutu ke <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Tak ada divais dengan alamat sysfs \"%s\""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Harus ditentukan alamat sysfs divais baru dengan --device-added"
@@ -210,13 +210,13 @@ msgstr "_Putar CD"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Tipe divais blok tidak diketahui"
+msgid "Unknown block device type \"%s\""
+msgstr "Tipe divais blok tidak diketahui: \"%s\""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Tipe divais tidak didukung"
+msgid "Device type \"%s\" not supported"
+msgstr "Tipe divais \"%s\" tidak didukung"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -246,8 +246,8 @@ msgstr "Sebuah tetikus telah terdeteksi"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Tipe divais masukan tak didukung"
+msgid "Unsupported input device type \"%s\""
+msgstr "Tipe divais masukan \"%s\" tidak didukung"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -314,8 +314,8 @@ msgstr "Sebuah pencetak USB telah terdeteksi"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Tipe divais USB tak didukung"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Tipe divais USB \"%s\" tidak didukung"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
