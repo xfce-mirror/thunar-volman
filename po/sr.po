@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-31 07:00+0000\n"
+"POT-Creation-Date: 2013-03-24 05:12+0000\n"
 "PO-Revision-Date: 2012-07-05 11:31+0200\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: српски <xfce-i18n@xfce.org>\n"
@@ -162,12 +162,12 @@ msgstr "ДВД је прикачен самостално"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr "Волумен је прикачен"
+msgstr "Уређај је прикачен"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "Волумен „%s“ је прикачен самостално"
+msgstr "Уређај „%s“ је прикачен самостално"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
