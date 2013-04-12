@@ -38,7 +38,7 @@ msgstr "버전 정보를 출력하고 끝냅니다"
 #. setup application name
 #: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr "Thunar 볼륨 관리자"
+msgstr "투나 볼륨 관리자"
 
 #: ../thunar-volman/main.c:121
 msgid "All rights reserved."
@@ -324,7 +324,7 @@ msgstr "지원하지 않는 USB 장치 형식 \"%s\""
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
-msgstr "Thunar 볼륨 관리자 설정"
+msgstr "투나 볼륨 관리자 설정"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
