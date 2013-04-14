@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-20 11:30+0000\n"
+"POT-Creation-Date: 2013-04-14 15:12+0000\n"
 "PO-Revision-Date: 2011-01-16 21:27+0200\n"
 "Last-Translator: Mișu Moldovan <dumol@xfce.org>\n"
 "Language-Team: Romanian <diacritice@googlegroups.com>\n"
@@ -37,21 +37,21 @@ msgstr "Arată detalii despre versiune și ieși"
 msgid "Thunar Volume Manager"
 msgstr "Managerul de volume Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Toate drepturile sunt rezervate."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Raportați problemele la <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Nu există un dispozitiv cu calea sysfs „%s”"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Trebuie să specificați calea noilor dispozitive cu --device-added"
@@ -212,13 +212,13 @@ msgstr "_Redă muzica"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Tip necunoscut de dispozitiv «block»"
+msgid "Unknown block device type \"%s\""
+msgstr "Tip necunoscut de dispozitiv «block»: „%s”"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Nu există suport pentru acest tip de dispozitiv"
+msgid "Device type \"%s\" not supported"
+msgstr "Nu există suport pentru tipul de dispozitiv „%s”"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -248,8 +248,8 @@ msgstr "S-a detectat un maus"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Nu există suport pentru acest dispozitiv de input"
+msgid "Unsupported input device type \"%s\""
+msgstr "Nu există suport pentru tipul de dispozitiv de input „%s”"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -316,8 +316,8 @@ msgstr "S-a detectat o imprimantă USB"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Nu există suport pentru acest dispozitiv USB"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Nu există suport pentru tipul de dispozitiv USB „%s”"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
