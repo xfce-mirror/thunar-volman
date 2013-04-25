@@ -2,7 +2,7 @@
 # Copyright (C) The Xfce development team.
 # This file is distributed under the same license as the thunar-volman package.
 # Remco den Breeje, 2007.
-# Pjotr, 2011.
+# Pjotr pjotrvertaalt@gmail.com , 2011, 2013.
 # 
 msgid ""
 msgstr ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-12-10 08:06+0000\n"
 "PO-Revision-Date: 2011-09-08 14:06+0200\n"
-"Last-Translator: Pjotr\n"
+"Last-Translator: Pjotr pjotrvertaalt@gmail.com\n"
 "Language-Team: Dutch (Flemish)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +35,7 @@ msgstr "Druk versie-informatie af en sluit af"
 #. setup application name
 #: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr "Thunar Mediumbeheerder"
+msgstr "Thunar mediumbeheerder"
 
 #: ../thunar-volman/main.c:121
 msgid "All rights reserved."
@@ -175,7 +175,7 @@ msgstr "Het medium '%s' werd automatisch aangekoppeld"
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr "Het erin gestopte medium werd automatisch aangekoppeld"
+msgstr "Het ingebrachte medium werd automatisch aangekoppeld"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
@@ -280,7 +280,7 @@ msgstr "Lege CD ingebracht"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
-msgstr "U heeft een lege CD ingevoerd."
+msgstr "U heeft een lege CD ingebracht."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
@@ -324,7 +324,7 @@ msgstr "Niet-ondersteund type USB-apparaat '%s'"
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
-msgstr "Instellingen voor Thunar Mediumbeheerder"
+msgstr "Instellingen voor Thunar mediumbeheerder"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -333,7 +333,7 @@ msgstr "Verwijderbare stations en media"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
-msgstr "Selecteer een toepassing"
+msgstr "Kies een toepassing"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:250
 msgid "All Files"
@@ -496,7 +496,7 @@ msgstr "Printers"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
 msgstr ""
-"Een programma automatisch uitvoeren wanneer er een _printer wordt aangesloten"
+"Voer automatisch een programma uit wanneer er een _printer wordt aangesloten"
 
 #. Input Devices
 #. 
@@ -511,7 +511,7 @@ msgstr "Toetsenborden"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr ""
-"Automatisch een programma uitvoeren wanneer er een USB-_toetsenbord wordt "
+"Voer automatisch een programma uit wanneer er een USB-_toetsenbord wordt "
 "aangesloten"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
@@ -521,7 +521,7 @@ msgstr "Muizen"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr ""
-"Automatisch een programma uitvoeren wanneer er een USB-_muis wordt "
+"Voer automatisch een programma uit wanneer er een USB-_muis wordt "
 "aangesloten"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
@@ -531,7 +531,7 @@ msgstr "Tablet"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
 msgstr ""
-"Een programma automatisch uitvoeren wanneer er een _tablet-PC wordt "
+"Voer automatisch een programma uit wanneer er een _tablet-PC wordt "
 "aangesloten"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
@@ -543,10 +543,10 @@ msgid "Failed to open the documentation browser"
 msgstr "Kon de documentatiebladeraar niet openen"
 
 #~ msgid "input-keyboard"
-#~ msgstr "invoer-toetsenbord"
+#~ msgstr "invoertoetsenbord"
 
 #~ msgid "input-tablet"
-#~ msgstr "invoer-tablet"
+#~ msgstr "invoertablet"
 
 #~ msgid "input-mouse"
 #~ msgstr "invoermuis"
@@ -561,7 +561,7 @@ msgstr "Kon de documentatiebladeraar niet openen"
 #~ msgstr "Geschreven door Benedikt Meurer <benny@xfce.org>"
 
 #~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "De opgegeven UDI \"%s\" is geen correcte UDI voor een HAL-apparaat"
+#~ msgstr "De opgegeven UDI '%s' is geen correcte UDI voor een HAL-apparaat"
 
 #~ msgid "Encrypted volume"
 #~ msgstr "Versleuteld medium"
@@ -592,7 +592,7 @@ msgstr "Kon de documentatiebladeraar niet openen"
 
 #~ msgid "Please enter your password to decrypt and mount the volume."
 #~ msgstr ""
-#~ "Geef uw wachtwoord in, om het medium aan te koppelen en te ontsleutelen."
+#~ "Geef a.u.b. uw wachtwoord in, om het medium aan te koppelen en te ontsleutelen."
 
 #~ msgid "_Mount"
 #~ msgstr "_Aankoppelen"
