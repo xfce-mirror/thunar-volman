@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-05-11 10:30+0000\n"
-"PO-Revision-Date: 2013-05-11 13:48+0100\n"
+"PO-Revision-Date: 2013-05-13 22:13+0100\n"
 "Last-Translator: Klemen Košir <klemen913@gmail.com>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -31,7 +31,7 @@ msgstr "Odpri nastavitve odstranjivih pogonov in nosilcev"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr "Izpiše podatke o različici"
+msgstr "Podatki o različici"
 
 #. setup application name
 #: ../thunar-volman/main.c:93
