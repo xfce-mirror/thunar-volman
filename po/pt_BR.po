@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: thunar-volman 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-12 08:15+0000\n"
+"POT-Creation-Date: 2013-06-10 14:03+0000\n"
 "PO-Revision-Date: 2012-04-15 14:35-0300\n"
 "Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
 "Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
@@ -61,7 +61,7 @@ msgstr ""
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
 msgid "Photos and Music"
-msgstr "Fotos e Músicas"
+msgstr "Fotos e músicas"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
@@ -180,12 +180,12 @@ msgstr "O volume inserido foi montado automaticamente"
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
-msgstr "Não é possível localizar ponto de montagem"
+msgstr "Não foi possível localizar ponto de montagem"
 
 #: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
-msgstr "Não é possível montar o dispositivo"
+msgstr "Não foi possível montar o dispositivo"
 
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
@@ -194,11 +194,11 @@ msgstr "Não foi possível detectar o volume correspondente ao dispositivo"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
-msgstr "CD de áudio / Dados"
+msgstr "CD de áudio/dados"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
-msgstr "O CD no dispositivo contém músicas e arquivos juntos."
+msgstr "O CD no dispositivo contém músicas e arquivos."
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
@@ -256,7 +256,7 @@ msgstr "Tipo de dispositivo de entrada \"%s\" não suportado"
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr "A gravação automática de CDs e DVDs em branco está desabilitada"
+msgstr "A gravação automática de CDs e DVDs em branco está desativada"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
@@ -264,7 +264,7 @@ msgstr "DVD em branco inserido"
 
 #: ../thunar-volman/tvm-run.c:190
 msgid "You have inserted a blank DVD."
-msgstr "Você inseriu um disco em branco."
+msgstr "Você inseriu um DVD em branco."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -324,12 +324,12 @@ msgstr "Tipo de dispositivo USB \"%s\" não suportado"
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
-msgstr "Configurações do Gerenciador de volumes do Thunar"
+msgstr "Configurações do gerenciador de volumes do Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
-msgstr "Mídias e Unidades removíveis"
+msgstr "Mídias e unidades removíveis"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
@@ -357,7 +357,7 @@ msgstr "Scripts Ruby"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:288
 msgid "Shell Scripts"
-msgstr "Scripts Shell"
+msgstr "Scripts do Shell"
 
 #. Storage
 #. 
@@ -371,7 +371,7 @@ msgstr "Armazenamento removível"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "_Montar unidades removíveis quando conectados"
+msgstr "_Montar unidades removíveis quando conectadas"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
@@ -448,7 +448,7 @@ msgstr "Reprodutores portáteis de música"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
-msgstr "Reproduzir _música quando conectado"
+msgstr "Reproduzir _músicas ao conectar"
 
 #. Cameras
 #. 
@@ -462,7 +462,7 @@ msgstr "Câmeras digitais"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr "Importar fotografias digitais quando conectadas"
+msgstr "Importar fotografias digitais quando conectada"
 
 #. PDAs
 #. 
@@ -476,7 +476,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
-msgstr "Sincronizar dispositivos _Palm™ quando conectados"
+msgstr "Sincronizar dispositivos _Palm™ ao conectar"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
