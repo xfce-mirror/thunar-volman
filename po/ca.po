@@ -1,32 +1,29 @@
-# Catalan translations for thunar-volman package
-# Traduccions al català del paquet «thunar-volman».
-# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the thunar-volman
-# package.
-# Carles Muñoz Gorriz <carlesmu@internautas.org>, 2008, 2012.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# carlesmu <carlesmu@internautas.org>, 2008,2012-2013
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-15 15:30+0000\n"
-"PO-Revision-Date: 2012-01-15 18:11+0100\n"
-"Last-Translator: Carles Muñoz Gorriz <carlesmu@internautas.org>\n"
-"Language-Team: Catalan\n"
-"Language: \n"
+"POT-Creation-Date: 2013-07-02 22:37+0200\n"
+"PO-Revision-Date: 2013-07-08 07:30+0000\n"
+"Last-Translator: carlesmu <carlesmu@internautas.org>\n"
+"Language-Team: Catalan (http://www.transifex.com/projects/p/xfce/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ca\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Catalan\n"
-"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
 msgstr "El camí al dispositiu afegit recentment"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Configura la gestió dels dispositius i mitjans extraïbles"
@@ -40,21 +37,21 @@ msgstr "Mostra informació sobre la versió i surt"
 msgid "Thunar Volume Manager"
 msgstr "Gestor de volums de Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Tots els drets reservats"
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Envieu els errors a <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "No hi ha dispositiu en el camí \"%s\""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Heu d'especificar el camí dels nous dispositius amb --device-added"
@@ -77,8 +74,7 @@ msgstr "Voleu importar les fotos o gestionar la música?"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829
-#: ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "Ig_nora"
@@ -102,7 +98,9 @@ msgid "A photo card has been detected"
 msgstr "S'ha detectat una tarjeta de fotografies."
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "Hi han fotos a la targeta, Voleu afegir-les al vostre àlbum?"
 
 #. prompt the user to execute the file
@@ -213,13 +211,13 @@ msgstr "_Reprodueix un CD"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Tipus de dispositiu de blocs desconegut"
+msgid "Unknown block device type \"%s\""
+msgstr "Tipus de dispositiu de blocs «%s» desconegut"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Dispositiu no suportat"
+msgid "Device type \"%s\" not supported"
+msgstr "Tipus de dispositiu «%s» no compatible"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -249,8 +247,8 @@ msgstr "S'ha detectat un ratolí"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Tipus de dispositiu d'entrada no suportat"
+msgid "Unsupported input device type \"%s\""
+msgstr "Tipus de dispositiu d'entrada «%s» no compatible"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -265,8 +263,7 @@ msgstr "S'ha insertat un DVD en blanc"
 msgid "You have inserted a blank DVD."
 msgstr "Heu introduït un DVD en blanc"
 
-#: ../thunar-volman/tvm-run.c:191
-#: ../thunar-volman/tvm-run.c:202
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
 msgstr "Què voleu fer?"
 
@@ -318,15 +315,15 @@ msgstr "S'ha detectat una impressora USB"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Tipus de dispositiu USB no suportat"
+msgid "Unsupported USB device type \"%s\""
+msgstr "Tipus de dispositiu USB «%s» no compatible"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
 msgstr "Propietats del gestor de volum Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Dispositius i mitjans extraïble"
@@ -359,9 +356,8 @@ msgstr "Seqüències de Ruby"
 msgid "Shell Scripts"
 msgstr "Seqüències de l'intèrpret d'ordres"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Emmagatzematge"
@@ -406,9 +402,8 @@ msgstr "Ordre pels CDs de _dades:"
 msgid "Command for A_udio CDs:"
 msgstr "Ordre pels CDs d'à_udio:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimèdia"
@@ -452,9 +447,8 @@ msgstr "Reproductors de música portàtils"
 msgid "Play _music files when connected"
 msgstr "Reprodueix els fitxers de _música quan es connectin"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Càmeres"
@@ -467,9 +461,8 @@ msgstr "Càmeres fotogràfiques digitals"
 msgid "Import digital photographs when connected"
 msgstr "Importa les fotos digitals quan es connecti"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "Organitzadors personals"
@@ -490,9 +483,8 @@ msgstr "Ordinadors de butxaca"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Sincronitza els ordinadors de _butxaca quan es connectin"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -502,9 +494,8 @@ msgstr "Impressores"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Executa automàticament un programa quan es connecti una _impressora"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Dispositius d'entrada"
@@ -540,68 +531,3 @@ msgstr "Or_dre:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "No s'ha pogut obrir el visor de documentació"
-
-#~ msgid "input-keyboard"
-#~ msgstr "entrada-teclat"
-
-#~ msgid "input-tablet"
-#~ msgstr "entrada-taulagrafica"
-
-#~ msgid "input-mouse"
-#~ msgstr "entrada-ratolí"
-
-#~ msgid "Failed to open display"
-#~ msgstr "No s'ha pogut obrir la pantalla"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "L'equip de desenvolupament de Thunar. Tots els drets reservats."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Escrit per Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "El UDI «%s» indicat no és un UDI de dispositiu HAL"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Volum xifrat"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Muntant un volum xifrat…</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Configurant la capa de xifratge…"
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "No teniu pro privilegis per configurar la capa de xifratge"
-
-#~ msgid "Wrong password"
-#~ msgstr "Contrasenya incorrecta"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Contrasenya incorrecte.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Aquest volum està xifrat.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Introduïu la vostra contrasenya per desxifrar i muntar el volum."
-
-#~ msgid "_Mount"
-#~ msgstr "_Munta"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "No s'ha pogut configurar el volum xifrat"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Seleccioneu el tipus de disc"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Fes un _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Medis extraïbles"
