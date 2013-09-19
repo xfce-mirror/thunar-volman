@@ -1,34 +1,30 @@
-# Italian translations for thunar-volman package.
-# Copyright (C) 2007 Benedikt Meurer.
-# This file is distributed under the same license as the thunar-volman package.
-# Fabio Riga <usul@aruba.it>, 2007.
-# Cristian Marchi <cri.penta@gmail.com>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
+# Translators:
+# cri <cri.penta@gmail.com>, 2010,2013
+# Fabio Riga <usul@aruba.it>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-10 18:48+0000\n"
-"PO-Revision-Date: 2011-02-07 14:26+0100\n"
-"Last-Translator: Cristian Marchi <cri.penta@gmail.com>\n"
-"Language-Team: Italian Translation Team <xfce-it-translators@googlegroups.com>\n"
+"POT-Creation-Date: 2013-07-02 22:37+0200\n"
+"PO-Revision-Date: 2013-09-19 16:56+0000\n"
+"Last-Translator: cri <cri.penta@gmail.com>\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/xfce/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# GLOSSARIO
-# device = dispositivo
-# drive = unità
-# encrypted = cifrato
-# media = disco (non è un contenuto ma bensì il supporto)
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
 msgstr "Il percorso syfs del nuovo dispositivo aggiunto"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Configurazione della gestione delle unità rimovibili e dei dischi"
@@ -59,9 +55,7 @@ msgstr "Non c'è alcun dispositivo con il percorso sysfs \"%s\""
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
-"Si deve specificare il percorso sysfs del nuovo dispositivo aggiunto con --"
-"device-added"
+msgstr "Si deve specificare il percorso sysfs del nuovo dispositivo aggiunto con --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -74,7 +68,7 @@ msgstr "Sono state trovate delle foto nel riproduttore musicale portatile"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
-msgstr "Si desidera importare le foto o gestire la musica?"
+msgstr "Importare le foto o gestire la musica?"
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
@@ -198,7 +192,7 @@ msgstr "Impossibile individuare il volume corrispondente al dispositivo"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
-msgstr "CD Audio o dati"
+msgstr "CD audio o dati"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
@@ -206,7 +200,7 @@ msgstr "Il CD nell'unità contiene sia musica che file"
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
-msgstr "Si desidera ascoltare la musica o sfogliare i file?"
+msgstr "Ascoltare la musica o sfogliare i file?"
 
 #: ../thunar-volman/tvm-block-device.c:830
 msgid "_Browse Files"
@@ -242,7 +236,7 @@ msgstr "Tavoletta individuata"
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr "È stata rilevata una tavoletta"
+msgstr "È stata rilevata una tavoletta grafica"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -302,7 +296,7 @@ msgstr "Il comando di masterizzazione non può essere vuoto"
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr "Il comando per la riproduzione dei CD non è definito"
+msgstr "Il comando per la riproduzione del CD non è definito"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
@@ -330,7 +324,7 @@ msgstr "Tipo di dispositivo USB \"%s\" non supportato"
 msgid "Thunar Volume Manager Settings"
 msgstr "Impostazioni del gestore dei volumi di Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Unità rimovibili e dischi"
@@ -371,7 +365,7 @@ msgstr "Archiviazione"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:141
 msgid "Removable Storage"
-msgstr "Dispositivi rimovibili di archiviazione"
+msgstr "Dispositivi di archiviazione rimovibili"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
@@ -499,13 +493,13 @@ msgstr "Stampanti"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
-msgstr "Esegui un programma alla connessione di una _stampante"
+msgstr "Esegui automaticamente un programma alla connessione di una _stampante"
 
 #. Input Devices
 #. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
-msgstr "Dispositivi di ingresso"
+msgstr "Dispositivi di input"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:576
 msgid "Keyboards"
@@ -513,8 +507,7 @@ msgstr "Tastiere"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr ""
-"Esegui automaticamente un programma alla connessione di una _tastiera USB"
+msgstr "Esegui automaticamente un programma alla connessione di una _tastiera USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
@@ -530,7 +523,7 @@ msgstr "Tavoletta"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "Esegui un programma alla connessione di una ta_voletta"
+msgstr "Esegui automaticamente un programma alla connessione di una ta_voletta"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
@@ -539,68 +532,3 @@ msgstr "Com_ando:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Impossibile aprire il navigatore della documentazione"
-
-#~ msgid "input-keyboard"
-#~ msgstr "input-tastiera"
-
-#~ msgid "input-tablet"
-#~ msgstr "input-tavoletta"
-
-#~ msgid "input-mouse"
-#~ msgstr "input-mouse"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Apertura dello schermo non riuscita"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Il gruppo di sviluppo di Thunar. Tutti i diritti riservati."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Scritto da Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "L'UDI \"%s\" specificato non è un UDI HAL di dispositivo valido"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Volume cifrato"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Montaggio del volume cifrato in "
-#~ "corso...</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Impostazione del livello cifrato in corso..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Non si posseggono i privilegi per impostare il livello cifrato"
-
-#~ msgid "Wrong password"
-#~ msgstr "Password errata"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Password errata.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Questo volume è cifrato.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Inserire la password per decifrare e montare il volume."
-
-#~ msgid "_Mount"
-#~ msgstr "_Monta"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Impostazione del volume cifrato non riuscita"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Scegliere il tipo di disco"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Crea _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Dispositivi rimovibili"
