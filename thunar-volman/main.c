@@ -56,7 +56,7 @@ static gboolean opt_version = FALSE;
 /* command line options */
 static GOptionEntry option_entries[] =
 {
-  { "device-added", 'a', 0, G_OPTION_ARG_STRING, &opt_sysfs_path, N_ ("The syfs path of the newly added device"), NULL, },
+  { "device-added", 'a', 0, G_OPTION_ARG_STRING, &opt_sysfs_path, N_ ("The sysfs path of the newly added device"), NULL, },
   { "configure", 'c', 0, G_OPTION_ARG_NONE, &opt_configure, N_ ("Configure management of removable drives and media"), NULL, },
   { "version", 'V', 0, G_OPTION_ARG_NONE, &opt_version, N_ ("Print version information and exit"), NULL, },
   { NULL, },
