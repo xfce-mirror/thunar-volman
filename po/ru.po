@@ -1,29 +1,30 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Pavel Labushev <p.labushev@gmail.com>, 2009.
 # 
+# Translators:
+# Pavel Labushev <p.labushev@gmail.com>, 2009
+# asvl <alyoshin.s@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-27 06:42+0000\n"
-"PO-Revision-Date: 2009-02-20 12:42+0700\n"
-"Last-Translator: Pavel Labushev <p.labushev@gmail.com>\n"
-"Language-Team: Russian <xfce-i18n-ru@xfce.org>\n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-09-22 16:20+0000\n"
+"Last-Translator: asvl <alyoshin.s@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/xfce/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru\n"
-"X-Poedit-Language: Russian\n"
-"X-Poedit-Country: RUSSIAN FEDERATION\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../thunar-volman/main.c:59
-msgid "The syfs path of the newly added device"
+msgid "The sysfs path of the newly added device"
 msgstr "Путь в sysfs для только что добавленного устройства"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Настроить управление томами"
@@ -54,9 +55,7 @@ msgstr "Не найдено устройства по системному пу�
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
-"Необходимо указать путь в sysfs для новых устройств с помощью ключа --device-"
-"added"
+msgstr "Необходимо указать путь в sysfs для новых устройств с помощью ключа --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -111,7 +110,7 @@ msgstr "На флэш-карте обнаружены фотографии. Хо
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "Разрешить запуск \"%s\"?"
+msgstr "Разрешить запуск «%s»?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -132,7 +131,7 @@ msgstr "Разрешить _автозапуск"
 #: ../thunar-volman/tvm-block-device.c:502
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr "Хотите открыть \"%s\"?"
+msgstr "Хотите открыть «%s»?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
@@ -325,7 +324,7 @@ msgstr "Неподдерживаемое устройство USB «%s»"
 msgid "Thunar Volume Manager Settings"
 msgstr "Параметры Менеджера томов Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Съемные устройства и носители данных"
@@ -394,8 +393,7 @@ msgstr "Пустые CD и DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr ""
-"Запускать приложение для _записи дисков при обнаружении пустого CD или DVD"
+msgstr "Запускать приложение для _записи дисков при обнаружении пустого CD или DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
@@ -534,67 +532,3 @@ msgstr "Ко_манда:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Не удалось открыть обозреватель документации"
-
-#~ msgid "input-keyboard"
-#~ msgstr "input-keyboard"
-
-#~ msgid "input-tablet"
-#~ msgstr "input-tablet"
-
-#~ msgid "input-mouse"
-#~ msgstr "input-mouse"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Невозможно открыть дисплей"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Команда разработчиков Thunar. Все права защищены."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Автор - Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "Указанный UDI \"%s\" не является допустимым UDI устройства HAL"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Зашифрованный том"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Подключение зашифрованного тома...</"
-#~ "span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Настройка подсистемы шифрования..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "У вас недостаточно привилегий для настройки подсистемы шифрования"
-
-#~ msgid "Wrong password"
-#~ msgstr "Неправильный пароль"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Неправильный пароль.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Этот том зашифрован.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Введите пароль для настройки и подключения зашифрованного тома."
-
-#~ msgid "_Mount"
-#~ msgstr "_Подключить"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Не удалось настроить зашифрованный том"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Выберите тип диска"
-
-#~ msgid "Make _DVD"
-#~ msgstr "_Записать DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Съемные носители"
