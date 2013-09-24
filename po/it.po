@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-02 22:37+0200\n"
-"PO-Revision-Date: 2013-09-19 16:56+0000\n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-09-24 10:14+0000\n"
 "Last-Translator: cri <cri.penta@gmail.com>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/xfce/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -20,8 +20,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
-msgid "The syfs path of the newly added device"
-msgstr "Il percorso syfs del nuovo dispositivo aggiunto"
+msgid "The sysfs path of the newly added device"
+msgstr "Il percorso sysfs del nuovo dispositivo aggiunto"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
