@@ -1,27 +1,29 @@
-# European Portuguese translation for thunar-volman.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Nuno Miguel <nunomgue@gmail.com>, 2007-2012.
 # 
+# Translators:
+# nunom <nunomgue@gmail.com>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-10 13:27+0000\n"
-"PO-Revision-Date: 2012-04-13 00:06+0100\n"
-"Last-Translator: Nuno Miguel <nunomgue@gmail.com>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-09-29 13:57+0000\n"
+"Last-Translator: nunom <nunomgue@gmail.com>\n"
+"Language-Team: Portuguese (http://www.transifex.com/projects/p/xfce/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
-msgid "The syfs path of the newly added device"
-msgstr "O caminho syfs do dispositivo agora adicionado"
+msgid "The sysfs path of the newly added device"
+msgstr "A localização do novo dispositivo adicionado"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Configurar gestão de unidades amovíveis"
@@ -52,8 +54,7 @@ msgstr "Não existe qualquer dispositivo no caminho \"%s\" do sysfs "
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
-"Tem de especificar o caminho sysfs do novo dispositivo com --device-added"
+msgstr "Tem de especificar o caminho sysfs do novo dispositivo com --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -322,7 +323,7 @@ msgstr "O tipo de dispositivo USB \"%s\" não é suportado"
 msgid "Thunar Volume Manager Settings"
 msgstr "Definições do Gestor de Volumes do Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Unidades amovíveis"
@@ -530,67 +531,3 @@ msgstr "Co_mando:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Falha ao abrir a documentação"
-
-#~ msgid "input-keyboard"
-#~ msgstr "Teclado"
-
-#~ msgid "input-tablet"
-#~ msgstr "\"Tablet\""
-
-#~ msgid "input-mouse"
-#~ msgstr "Rato"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Falha ao abrir ecrã"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Equipa de desenvolvimento do Thunar. Todos os direitos reservados."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Escrito por Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "UDI especificado \"%s\" não é um dispositivo HAL válido"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Volume encriptado"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Montando volume encriptado...</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "A definir a camada de criptografia..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Não tem privilégios para definir a camada de criptografia "
-
-#~ msgid "Wrong password"
-#~ msgstr "Senha errada"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Senha errada.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Este volume está encriptado.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Por favor, indique a senha para desencriptar e montar o volume."
-
-#~ msgid "_Mount"
-#~ msgstr "_Mountar"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Falhou a configuração do volume encriptado"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Escolha o Tipo de Disco"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Criar _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Media Removível"
