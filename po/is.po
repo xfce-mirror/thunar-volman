@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2013-10-15 15:31+0000\n"
+"PO-Revision-Date: 2013-11-02 09:09+0000\n"
 "Last-Translator: Sveinn í Felli <sveinki@nett.is>\n"
 "Language-Team: Icelandic (http://www.transifex.com/projects/p/xfce/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr ""
+msgstr "sysfs-slóð nýviðbætta tækisins"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -54,7 +54,7 @@ msgstr "Það er ekkert tæki með sysfs-slóðina \"%s\""
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
+msgstr "Verður að tilgreina sysfs-slóð nýrra tækja með --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -63,11 +63,11 @@ msgstr "Ljósmyndir og tónlist"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr ""
+msgstr "Myndir fundust á tónlistarspilaranum þínum"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
-msgstr ""
+msgstr "Viltu flytja inn myndirnar eða sýsla með tónlistina?"
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
@@ -101,7 +101,7 @@ msgstr "Ljósmyndaminniskort fannst"
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
+msgstr "Það eru myndir á minniskortinu. Viltu bæta þessum myndum í albúmið þitt?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -114,17 +114,17 @@ msgstr "Viltu leyfa keyrslu á \"%s\" ?"
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
 msgid "Auto-Run Confirmation"
-msgstr ""
+msgstr "Staðfesting sjálfkeyrslu"
 
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run capability detected"
-msgstr ""
+msgstr "Fann sjálfkeyrslueiginleika (Auto-Run)"
 
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
-msgstr ""
+msgstr "_Leyfa sjálfkeyrslu"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:502
@@ -134,11 +134,11 @@ msgstr "Viltu opna \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
-msgstr ""
+msgstr "Staðfesting sjálfopnunar"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
-msgstr ""
+msgstr "Fann sjálfopnunareiginleika (Auto-Open)"
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
@@ -295,7 +295,7 @@ msgstr "Brennsluskipunin má ekki vera auð"
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "Skipun fyrir CD afspilun er óskilgreind"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
@@ -321,7 +321,7 @@ msgstr "Óstudd tegund USB-tækis \"%s\""
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
-msgstr ""
+msgstr "Stillingar Thunar diskastjóra"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -368,23 +368,23 @@ msgstr "Útskiptanlegir geymslumiðlar"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr ""
+msgstr "Te_ngja útskiptanlega diska á keyrslu (hot-plugged)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
-msgstr ""
+msgstr "Teng_ja útskiptanlega miðla þegar þeir eru settir í samband"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "B_rowse removable media when inserted"
-msgstr ""
+msgstr "Vaf_ra um útskiptanlega miðla þegar þeir eru settir inn"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr ""
+msgstr "Sjálfkeyra forrit á nýjum drifum og öðrum gagnamiðlum"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
-msgstr ""
+msgstr "Sjálfopna skrár á nýjum drifum og öðrum gagnamiðlum"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
@@ -414,7 +414,7 @@ msgstr "CD tónlistardiskar"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr ""
+msgstr "Spil_a CD-hljóðdiska þegar þeir eru settir inn"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -426,11 +426,11 @@ msgstr "_Skipun:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr ""
+msgstr "CD/DVD mynddiskar"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr ""
+msgstr "S_pila CD og DVD mynddiska þegar þeir eru settir inn"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
@@ -445,7 +445,7 @@ msgstr "Ferðaspilarar"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
-msgstr ""
+msgstr "Spi_la tónlistarskrár við tengingu"
 
 #. Cameras
 #. 
@@ -459,7 +459,7 @@ msgstr "Stafrænar myndavélar"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr ""
+msgstr "Flytja inn stafrænar ljósmyndir við tengingu"
 
 #. PDAs
 #. 
@@ -473,7 +473,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
-msgstr ""
+msgstr "Samræma _Palm™ tæki við tengingu"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
@@ -481,7 +481,7 @@ msgstr "Pocket PC"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr ""
+msgstr "Samræma Pocket P_C tæki við tengingu"
 
 #. Printers
 #. 
@@ -492,7 +492,7 @@ msgstr "Prentarar"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
-msgstr ""
+msgstr "Keyra sjálfkrafa forrit þegar _prentari er tengdur"
 
 #. Input Devices
 #. 
@@ -506,7 +506,7 @@ msgstr "Lyklaborð"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr ""
+msgstr "Keyra sjálfkrafa forrit þegar USB _lyklaborð er tengt"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
@@ -514,7 +514,7 @@ msgstr "Mýs"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr ""
+msgstr "Keyra sjálfkrafa forrit þegar USB _mús er tengd"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -522,7 +522,7 @@ msgstr "Teiknitafla"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr ""
+msgstr "Keyra sjálfkrafa forrit þegar _teiknibretti er tengt"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
