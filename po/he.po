@@ -1,32 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# ysha <sh.yaron@gmail.com>, 2012.
-# koby vurgaft <slipperygate@gmail.com>, 2012.
+# 
+# Translators:
+# koby vurgaft <slipperygate@gmail.com>, 2012
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2013
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: Thunar Volume Manager\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-11-04 05:24+0000\n"
-"PO-Revision-Date: 2012-11-30 17:59+0200\n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-11-06 08:11+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: גזר\n"
-"Language: he\n"
+"Language-Team: Hebrew (http://www.transifex.com/projects/p/xfce/language/he/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.7.1\n"
-"X-Poedit-Language: Hebrew\n"
-"X-Poedit-Country: ISRAEL\n"
-"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../thunar-volman/main.c:59
-msgid "The syfs path of the newly added device"
-msgstr "נתיב ה־syfs של ההתקן החדש שצורף"
+msgid "The sysfs path of the newly added device"
+msgstr "נתיב ה־sysfs של ההתקן החדש שנוסף"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "הגדרת ניהול של כוננים נשלפים ומדיה"
@@ -40,21 +39,21 @@ msgstr "הצגת פרטי הגרסה ויציאה"
 msgid "Thunar Volume Manager"
 msgstr "מנהל הכרכים של Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "כל הזכויות שמורות."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "נא לדווח על באגים בכתובת <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "לא נמצא התקן עם נתיב ה־sysfs‏ „%s“"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "יש לציין את נתיב ה־sysfs של התקנים חדשים עם ‎--device-added"
@@ -77,8 +76,7 @@ msgstr "האם ברצונך לייבא את התמונות או לנהל את ה
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829
-#: ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "הת_עלמות"
@@ -102,7 +100,9 @@ msgid "A photo card has been detected"
 msgstr "זוהה כרטיס תמונות"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "ישנן תמונות על הכרטיס. האם להוסיף אותן לאלבום שלך?"
 
 #. prompt the user to execute the file
@@ -213,13 +213,13 @@ msgstr "ל_נגן את התקליטור"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "סוג התקן הנתונים אינו מוכר"
+msgid "Unknown block device type \"%s\""
+msgstr "סוג התקן הבלוק „%s“ אינו נתמך"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "סוג ההתקן לא נתמך"
+msgid "Device type \"%s\" not supported"
+msgstr "סוג ההתקן „%s“ אינו נתמך"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -249,8 +249,8 @@ msgstr "זוהה עכבר"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "סוג התקן הקלט אינו נתמך"
+msgid "Unsupported input device type \"%s\""
+msgstr "סוג התקן הקלט „%s“ אינו נתמך"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -265,8 +265,7 @@ msgstr "הוכנס ‏DVD ריק "
 msgid "You have inserted a blank DVD."
 msgstr "הכנסת DVD ריק."
 
-#: ../thunar-volman/tvm-run.c:191
-#: ../thunar-volman/tvm-run.c:202
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
 msgstr "מה ברצונך לעשות?"
 
@@ -318,15 +317,15 @@ msgstr "זוהתה מדפסת USB"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "סוג התקן ה־USB אינו נתמך"
+msgid "Unsupported USB device type \"%s\""
+msgstr "סוג התקן ה־USB‏ „%s“ אינו נתמך"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
 msgstr "הגדרות מנהל הכרכים של Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "מדיה וכוננים נשלפים"
@@ -360,7 +359,7 @@ msgid "Shell Scripts"
 msgstr "סקריפטים של המעטפת"
 
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "אחסון"
@@ -406,7 +405,7 @@ msgid "Command for A_udio CDs:"
 msgstr "פקודה לתקליטורי _שמע:"
 
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "מולטימדיה"
@@ -451,7 +450,7 @@ msgid "Play _music files when connected"
 msgstr "יש להריץ קובצי מוזיקה כאשר מחובר"
 
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "מצלמות"
@@ -465,7 +464,7 @@ msgid "Import digital photographs when connected"
 msgstr "יבוא _תמונות דיגיטליות בעת חיבור"
 
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "מחשבי כף יד"
@@ -487,7 +486,7 @@ msgid "Sync Pocket P_C devices when connected"
 msgstr "יש לסנכרן מחשבי כיס כאשר מחוברים"
 
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -498,7 +497,7 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "יש להריץ אוטומטית תכנית כאשר _מדפסת מחוברת"
 
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "התקני קלט"
@@ -534,4 +533,3 @@ msgstr "פקודה:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "לא ניתן לפתוח את דפדפן התיעוד"
-
