@@ -1,27 +1,29 @@
-# Finnish translations for thunar-volman.
-# Copyright (C) 2007 Benedikt Meurer.
-# This file is distributed under the same license as the thunar-volman package.
-# Jari Rahkonen <jari.rahkonen@pp1.inet.fi>, 2007-2012.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2013
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-12 08:00+0000\n"
-"PO-Revision-Date: 2012-04-12 11:16+0300\n"
-"Last-Translator: Jari Rahkonen <jari.rahkonen@pp1.inet.fi>\n"
-"Language-Team: Finnish <None>\n"
-"Language: fi\n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-11-11 20:45+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
+"Language-Team: Finnish (http://www.transifex.com/projects/p/xfce/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
-msgid "The syfs path of the newly added device"
-msgstr "Lisätyn laitteen sysfs-polku"
+msgid "The sysfs path of the newly added device"
+msgstr "Uuden lisätyn laitteen sysfs-polku"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Muokkaa irrotettavien asemien ja taltioiden hallinta-asetuksia"
@@ -35,21 +37,21 @@ msgstr "Tulosta versiotiedot ja poistu"
 msgid "Thunar Volume Manager"
 msgstr "Thunarin taltionhallinta"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Kaikki oikeudet pidätetään."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Ilmoita vioista osoitteeseen <%s>"
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Sysfs-polku \"%s\" ei viittaa mihinkään laitteeseen."
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Määritä usien laitteiden sysfs-polut valitsimella --device-added"
@@ -209,13 +211,13 @@ msgstr "Soita _CD"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Tuntematon lohkolaite"
+msgid "Unknown block device type \"%s\""
+msgstr ""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Laitetyyppiä ei tueta"
+msgid "Device type \"%s\" not supported"
+msgstr "Laitetyyppi \"%s\" ei ole tuettu"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -245,8 +247,8 @@ msgstr "Havaittiin hiiri."
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Syöttölaitetyyppiä ei tueta"
+msgid "Unsupported input device type \"%s\""
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -313,15 +315,15 @@ msgstr "Havaittiin USB-tulostin."
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "USB-laitetyyppiä ei tueta"
+msgid "Unsupported USB device type \"%s\""
+msgstr ""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
 msgstr "Thunarin taltionhallinnan asetukset"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Irrotettavat asemat ja taltiot"
@@ -354,9 +356,8 @@ msgstr "Ruby-komentotiedostot"
 msgid "Shell Scripts"
 msgstr "Kehotteen komentosarjat"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Tietovälineet"
@@ -401,9 +402,8 @@ msgstr "Komento _data-CD:ille"
 msgid "Command for A_udio CDs:"
 msgstr "Komento ää_ni-CD:ille"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -447,9 +447,8 @@ msgstr "Siirrettävät musiikkisoittimet"
 msgid "Play _music files when connected"
 msgstr "Soita _musiikkitiedostoja, kun laite yhdistetään"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kamerat"
@@ -462,9 +461,8 @@ msgstr "Digitaalikamerat"
 msgid "Import digital photographs when connected"
 msgstr "Tuo digikuvia, kun laite yhdistetään"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "Kämmentietokoneet"
@@ -485,9 +483,8 @@ msgstr "Pocket PC:t"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Synkronoi Pocket P_C, kun laite yhdistetään"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -497,9 +494,8 @@ msgstr "Tulostimet"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Suorita sovellus, kun _tulostin yhdistetään"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Syöttölaitteet"
