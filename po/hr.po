@@ -5,13 +5,14 @@
 # Translators:
 # Ivica  Kolić <ikoli@yahoo.com>, 2013
 # Ivica  Kolić <ikoli@yahoo.com>, 2011
+# tty, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-02 23:06+0200\n"
-"PO-Revision-Date: 2013-10-23 23:16+0000\n"
-"Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
+"PO-Revision-Date: 2013-11-13 13:58+0000\n"
+"Last-Translator: tty\n"
 "Language-Team: Croatian (http://www.transifex.com/projects/p/xfce/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,7 +93,7 @@ msgstr "Upravljaj _glazbom"
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
 msgid "Photo Import"
-msgstr ""
+msgstr "Uvoz fotografija"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
@@ -110,7 +111,7 @@ msgstr "Ima fotografija na kartici.Želite li ih dodati u svoj album?"
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr ""
+msgstr "Želite li dozvoliti pokretanje \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -249,7 +250,7 @@ msgstr "Miš je otkriven"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
-msgstr ""
+msgstr "Nepodržana vrsta ulaznog uređaja"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -460,7 +461,7 @@ msgstr "Digitalne kamere"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr ""
+msgstr "Pri spajanju uvezi digitalne fotografije"
 
 #. PDAs
 #. 
@@ -478,7 +479,7 @@ msgstr "Sinkroniziraj _Palm™ uređaje kada su spojeni"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
-msgstr ""
+msgstr "Džepna računala"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
