@@ -1,0 +1,533 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Cedric31 <cvalmary@yahoo.fr>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunar-volman\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-11-18 13:18+0000\n"
+"Last-Translator: Cedric31 <cvalmary@yahoo.fr>\n"
+"Language-Team: Occitan (post 1500) (http://www.transifex.com/projects/p/xfce/language/oc/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: oc\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../thunar-volman/main.c:59
+msgid "The sysfs path of the newly added device"
+msgstr "Lo camin sysfs del periferic novèlament apondut"
+
+#: ../thunar-volman/main.c:60
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:104
+msgid "Configure management of removable drives and media"
+msgstr "Configurar la gestion dels disques amovibles e dels mèdias"
+
+#: ../thunar-volman/main.c:61
+msgid "Print version information and exit"
+msgstr "Afichar la version e quitar"
+
+#. setup application name
+#: ../thunar-volman/main.c:93
+msgid "Thunar Volume Manager"
+msgstr "Gestionari de volum Thunar"
+
+#: ../thunar-volman/main.c:121
+msgid "All rights reserved."
+msgstr "Totes los dreches reservats."
+
+#: ../thunar-volman/main.c:122
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "Se vos plai raportar los bugs a <%s>."
+
+#: ../thunar-volman/main.c:176
+#, c-format
+msgid "There is no device with the sysfs path \"%s\""
+msgstr "I a pas de periferic correspondent al camin sysfs « %s »"
+
+#: ../thunar-volman/main.c:188
+#, c-format
+msgid "Must specify the sysfs path of new devices with --device-added"
+msgstr "Especificar lo camin sysfs dels novèls periferics amb l'opcion --device-added"
+
+#. ...so we need to prompt what to do
+#: ../thunar-volman/tvm-block-device.c:204
+msgid "Photos and Music"
+msgstr "Fòtos e musica"
+
+#: ../thunar-volman/tvm-block-device.c:205
+msgid "Photos were found on your portable music player"
+msgstr "De fòtos son estadas trobadas sus vòstre lector de musica portable."
+
+#: ../thunar-volman/tvm-block-device.c:206
+msgid "Would you like to import the photos or manage the music?"
+msgstr "Volètz importar las fòtos o gerir la musica ?"
+
+#: ../thunar-volman/tvm-block-device.c:208
+#: ../thunar-volman/tvm-block-device.c:277
+#: ../thunar-volman/tvm-block-device.c:378
+#: ../thunar-volman/tvm-block-device.c:425
+#: ../thunar-volman/tvm-block-device.c:507
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-run.c:203
+msgid "Ig_nore"
+msgstr "Ig_norar"
+
+#: ../thunar-volman/tvm-block-device.c:209
+#: ../thunar-volman/tvm-block-device.c:278
+msgid "Import _Photos"
+msgstr "Importar las _Fòtos"
+
+#: ../thunar-volman/tvm-block-device.c:210
+msgid "Manage _Music"
+msgstr "Gerir la _musica"
+
+#. ask the user to import photos
+#: ../thunar-volman/tvm-block-device.c:273
+msgid "Photo Import"
+msgstr "Importar de fòtos"
+
+#: ../thunar-volman/tvm-block-device.c:274
+msgid "A photo card has been detected"
+msgstr "Una carta memòria es estada detectada."
+
+#: ../thunar-volman/tvm-block-device.c:275
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr "De fòtos se tròban sus la carta. Las volètz apondre a vòstre album ?"
+
+#. prompt the user to execute the file
+#. prompt the user to execute this file
+#: ../thunar-volman/tvm-block-device.c:373
+#: ../thunar-volman/tvm-block-device.c:420
+#, c-format
+msgid "Would you like to allow \"%s\" to run?"
+msgstr "Permetètz l'execucion de « %s » ?"
+
+#: ../thunar-volman/tvm-block-device.c:376
+#: ../thunar-volman/tvm-block-device.c:423
+msgid "Auto-Run Confirmation"
+msgstr "Confirmacion d'autoexecucion"
+
+#: ../thunar-volman/tvm-block-device.c:377
+#: ../thunar-volman/tvm-block-device.c:424
+msgid "Auto-Run capability detected"
+msgstr "Possibilitat d'autoexecucion detectada"
+
+#: ../thunar-volman/tvm-block-device.c:379
+#: ../thunar-volman/tvm-block-device.c:426
+msgid "_Allow Auto-Run"
+msgstr "_Permetre l'autoexecucion"
+
+#. prompt the user whether to autoopen this file
+#: ../thunar-volman/tvm-block-device.c:502
+#, c-format
+msgid "Would you like to open \"%s\"?"
+msgstr "Volètz dobrir « %s » ?"
+
+#: ../thunar-volman/tvm-block-device.c:505
+msgid "Auto-Open Confirmation"
+msgstr "Confirmacion d'autodobertura"
+
+#: ../thunar-volman/tvm-block-device.c:506
+msgid "Auto-Open capability detected"
+msgstr "Possibilitat d'autodobertura detectada"
+
+#: ../thunar-volman/tvm-block-device.c:508
+msgid "_Open"
+msgstr "_Dobrir"
+
+#: ../thunar-volman/tvm-block-device.c:619
+msgid "CD mounted"
+msgstr "CD montat"
+
+#: ../thunar-volman/tvm-block-device.c:619
+msgid "DVD mounted"
+msgstr "DVD montat"
+
+#: ../thunar-volman/tvm-block-device.c:621
+msgid "The CD was mounted automatically"
+msgstr "Lo CD es estat montat automaticament"
+
+#: ../thunar-volman/tvm-block-device.c:622
+msgid "The DVD was mounted automatically"
+msgstr "Lo DVD es estat montat automaticament"
+
+#: ../thunar-volman/tvm-block-device.c:632
+msgid "Volume mounted"
+msgstr "Volum montat"
+
+#: ../thunar-volman/tvm-block-device.c:635
+#, c-format
+msgid "The volume \"%s\" was mounted automatically"
+msgstr "Lo volum « %s » es estat montat automaticament"
+
+#: ../thunar-volman/tvm-block-device.c:640
+#, c-format
+msgid "The inserted volume was mounted automatically"
+msgstr "Lo volum inserit es estat montat automaticament"
+
+#: ../thunar-volman/tvm-block-device.c:694
+#, c-format
+msgid "Unable to locate mount point"
+msgstr "Impossible de localizar lo punt de montatge"
+
+#: ../thunar-volman/tvm-block-device.c:740
+#, c-format
+msgid "Unable to mount the device"
+msgstr "Impossible de montar lo periferic"
+
+#: ../thunar-volman/tvm-block-device.c:749
+#, c-format
+msgid "Could not detect the volume corresponding to the device"
+msgstr "Pòt pas detectar lo volum correspondent al periferic"
+
+#: ../thunar-volman/tvm-block-device.c:824
+msgid "Audio/Data CD"
+msgstr "CD àudio/Donadas"
+
+#: ../thunar-volman/tvm-block-device.c:825
+msgid "The CD in the drive contains both music and files"
+msgstr "Lo CD dins lo lector conten de musica e de fichièrs"
+
+#: ../thunar-volman/tvm-block-device.c:827
+msgid "Would you like to listen to music or browse the files?"
+msgstr "Volètz escotar la musica o percórrer los fichièrs ?"
+
+#: ../thunar-volman/tvm-block-device.c:830
+msgid "_Browse Files"
+msgstr "_Percórrer los fichièrs"
+
+#: ../thunar-volman/tvm-block-device.c:831
+msgid "_Play CD"
+msgstr "_Escotar lo CD"
+
+#: ../thunar-volman/tvm-block-device.c:919
+#, c-format
+msgid "Unknown block device type \"%s\""
+msgstr "Tipe de periferic blòt desconegut « %s »"
+
+#: ../thunar-volman/tvm-device.c:139
+#, c-format
+msgid "Device type \"%s\" not supported"
+msgstr "Tipe de periferic « %s » pas suportat"
+
+#: ../thunar-volman/tvm-input-device.c:75
+msgid "Keyboard detected"
+msgstr "Clavièr detectat"
+
+#: ../thunar-volman/tvm-input-device.c:76
+msgid "A keyboard was detected"
+msgstr "Un clavièr es estat detectat"
+
+#: ../thunar-volman/tvm-input-device.c:87
+#: ../thunar-volman/tvm-input-device.c:101
+msgid "Tablet detected"
+msgstr "Tableta detectada"
+
+#: ../thunar-volman/tvm-input-device.c:88
+#: ../thunar-volman/tvm-input-device.c:102
+msgid "A graphics tablet was detected"
+msgstr "Una tableta grafica es estada detectada"
+
+#: ../thunar-volman/tvm-input-device.c:111
+msgid "Mouse detected"
+msgstr "Mirga detectada"
+
+#: ../thunar-volman/tvm-input-device.c:112
+msgid "A mouse was detected"
+msgstr "Una mirga es estada detectada"
+
+#: ../thunar-volman/tvm-input-device.c:141
+#, c-format
+msgid "Unsupported input device type \"%s\""
+msgstr "Periferic d'entrada pas suportat « %s »"
+
+#: ../thunar-volman/tvm-run.c:171
+#, c-format
+msgid "Autoburning of blank CDs and DVDs is disabled"
+msgstr "La gravadura automatica dels CD e DVD vèrges es estada desactivada"
+
+#: ../thunar-volman/tvm-run.c:189
+msgid "Blank DVD inserted"
+msgstr "Un DVD vèrge es estat inserit"
+
+#: ../thunar-volman/tvm-run.c:190
+msgid "You have inserted a blank DVD."
+msgstr "Avètz inserit un DVD vèrge."
+
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
+msgid "What would you like to do?"
+msgstr "De qué volètz far ?"
+
+#: ../thunar-volman/tvm-run.c:193
+msgid "Burn _DVD"
+msgstr "Gravar lo _DVD"
+
+#: ../thunar-volman/tvm-run.c:200
+msgid "Blank CD inserted"
+msgstr "Un CD vèrge es estat inserit"
+
+#: ../thunar-volman/tvm-run.c:201
+msgid "You have inserted a blank CD."
+msgstr "Avètz inserit un CD vèrge."
+
+#: ../thunar-volman/tvm-run.c:204
+msgid "Burn _Data CD"
+msgstr "Crear un CD de donadas"
+
+#: ../thunar-volman/tvm-run.c:205
+msgid "Burn _Audio CD"
+msgstr "Crear un CD _àudio"
+
+#: ../thunar-volman/tvm-run.c:229
+#, c-format
+msgid "The burn command may not be empty"
+msgstr "La comanda de gravadura pòt pas èsser voida"
+
+#: ../thunar-volman/tvm-run.c:268
+#, c-format
+msgid "The CD player command is undefined"
+msgstr "La comanda del lector de CD es pas definida"
+
+#: ../thunar-volman/tvm-usb-device.c:62
+msgid "Camera detected"
+msgstr "Aparelh fòto detectat"
+
+#: ../thunar-volman/tvm-usb-device.c:63
+msgid "A photo camera was detected"
+msgstr "Un aparelh fòto es estat detectat"
+
+#: ../thunar-volman/tvm-usb-device.c:71
+msgid "Printer detected"
+msgstr "Imprimenta detectada"
+
+#: ../thunar-volman/tvm-usb-device.c:72
+msgid "A USB printer was detected"
+msgstr "Una imprimenta USB es estada detectada"
+
+#: ../thunar-volman/tvm-usb-device.c:100
+#, c-format
+msgid "Unsupported USB device type \"%s\""
+msgstr "Tipe de periferic USB pas suportat « %s »"
+
+#. setup application name
+#: ../thunar-volman-settings/main.c:52
+msgid "Thunar Volume Manager Settings"
+msgstr "Proprietats del gestionari de volums Thunar"
+
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:102
+msgid "Removable Drives and Media"
+msgstr "Disques amovibles e mèdias"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Select an Application"
+msgstr "Seleccionar una aplicacion"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:250
+msgid "All Files"
+msgstr "Totes los fichièrs"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:255
+msgid "Executable Files"
+msgstr "Fichièrs executables"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:270
+msgid "Perl Scripts"
+msgstr "Escripts Perl"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:276
+msgid "Python Scripts"
+msgstr "Escripts Python"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:282
+msgid "Ruby Scripts"
+msgstr "Escripts Ruby"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:288
+msgid "Shell Scripts"
+msgstr "Escripts Shell"
+
+#. Storage
+#. 
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:130
+msgid "Storage"
+msgstr "Emmagazinatge"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:141
+msgid "Removable Storage"
+msgstr "Emmagazinatge amovible"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
+msgid "_Mount removable drives when hot-plugged"
+msgstr "_Montar los disques amovibles a la connexion"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:166
+msgid "Mount removable media when _inserted"
+msgstr "Montar los mèdias amovibles a l'_insercion"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:174
+msgid "B_rowse removable media when inserted"
+msgstr "_Percórrer los mèdias amovibles a l'insercion"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:182
+msgid "_Auto-run programs on new drives and media"
+msgstr "_Autoexecucion d'aplicacions pels novèls disques e mèdias"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:189
+msgid "Auto-open files on new drives and media"
+msgstr "Autodobertura dels fichièrs pels novèls disques e mèdias"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:201
+msgid "Blank CDs and DVDs"
+msgstr "CD e DVD vèrges"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:218
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "_Gravar un CD o DVD a l'insercion d'un disc vèrge"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:229
+msgid "Command for _Data CDs:"
+msgstr "Comanda pels CD de _donadas :"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:239
+msgid "Command for A_udio CDs:"
+msgstr "Comanda pels CD à_udio :"
+
+#. Multimedia
+#. 
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:255
+msgid "Multimedia"
+msgstr "Multimèdia"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:266
+msgid "Audio CDs"
+msgstr "CD àudio"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:283
+msgid "Play _audio CDs when inserted"
+msgstr "Escotar los CD _àudio a l'insercion"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:290
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:466
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:553
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:601
+msgid "_Command:"
+msgstr "_Comanda :"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:304
+msgid "Video CDs/DVDs"
+msgstr "CD/DVD vidèo"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:321
+msgid "Play _video CDs and DVDs when inserted"
+msgstr "Visionar los CD e DVD vidèo a l'insercion"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:367
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:505
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:640
+msgid "C_ommand:"
+msgstr "C_omanda :"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:343
+msgid "Portable Music Players"
+msgstr "Lectors de musica portables"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:360
+msgid "Play _music files when connected"
+msgstr "Escotar la _musica a la connexion"
+
+#. Cameras
+#. 
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
+msgid "Cameras"
+msgstr "Camèras"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:390
+msgid "Digital Cameras"
+msgstr "Camèras digitalas"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:407
+msgid "Import digital photographs when connected"
+msgstr "Importar las fòtos numericas a la connexion"
+
+#. PDAs
+#. 
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:427
+msgid "PDAs"
+msgstr "PDA"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:441
+msgid "Palm™"
+msgstr "Palm™"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:458
+msgid "Sync _Palm™ devices when connected"
+msgstr "Sincronizar los periferics Palm™ un còp connectats"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:480
+msgid "Pocket PCs"
+msgstr "Pocket PC"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:497
+msgid "Sync Pocket P_C devices when connected"
+msgstr "Sincronizar los periferics Pocket PC un còp connectats"
+
+#. Printers
+#. 
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:517
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:528
+msgid "Printers"
+msgstr "Imprimentas"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:545
+msgid "Automatically run a program when a _printer is connected"
+msgstr "Executar una aplicacion a la connexion d'una imprimenta"
+
+#. Input Devices
+#. 
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:565
+msgid "Input Devices"
+msgstr "Periferics d'entrada"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:576
+msgid "Keyboards"
+msgstr "Clavièrs"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:593
+msgid "Automatically run a program when a USB _keyboard is connected"
+msgstr "Executar automaticament una aplicacion al moment de la connexion d'un _clavièr USB"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:615
+msgid "Mice"
+msgstr "Mirgas"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:632
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr "Executar automaticament una aplicacion al moment de la connexion d'una _mirga USB"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:654
+msgid "Tablet"
+msgstr "Tableta grafica"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:671
+msgid "Automatically run a program when a _tablet is connected"
+msgstr "Executar una aplicacion a la connexion d'una _tableta grafica"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:679
+msgid "Com_mand:"
+msgstr "Co_manda :"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
+msgid "Failed to open the documentation browser"
+msgstr "Impossible de dobrir lo navigador de documentacion"
