@@ -1,33 +1,29 @@
-# Galician translation of thunar-volman
-# Copyright (C) 2008-2009 Leandro Regueiro
-# This file is distributed under the same license as the Xfce package.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
-# Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>, 2008, 2009.
-# 
-# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
-# colaborar connosco, podes atopar máis información en <http://trasno.net>
-# 
+# Translators:
+# Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>, 2008-2009
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-10 10:00+0000\n"
-"PO-Revision-Date: 2009-08-19 13:15+0100\n"
-"Last-Translator: Leandro Regueiro <leandro.regueiro@gmail.com>\n"
-"Language-Team: Galician <proxecto@trasno.net>\n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2013-11-19 14:37+0000\n"
+"Last-Translator: Nick <nick@xfce.org>\n"
+"Language-Team: Galician (http://www.transifex.com/projects/p/xfce/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: gl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# UDI=Uniform Driver Interface
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
 msgstr "A ruta sysfs do novo dispositivo engadido"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Configurar a xestión da unidades e dispositivos extraíbles"
@@ -58,8 +54,7 @@ msgstr "Non hai ningún dispositivo con ruta sysfs \"%s\""
 #: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
-"Debe especificar a ruta sysfs dos novos dispositivos con --device-added"
+msgstr "Debe especificar a ruta sysfs dos novos dispositivos con --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -328,7 +323,7 @@ msgstr "Tipo de dispositivo USB non compatible"
 msgid "Thunar Volume Manager Settings"
 msgstr "Configuración do xestor de volumes de Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Unidades e dispositivos extraíbles"
@@ -536,59 +531,3 @@ msgstr "Co_mando:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Produciuse un erro ó abrir o visor da documentación"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Fallo ao abrir visualización"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "O equipo de desenvolvemento de Thunar. Tódolos dereitos reservados."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Escrito por Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "A UDI \"%s\" especificado non é unha UDI de dispositivo HAL válido"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Volume cifrado"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Montando un volume cifrado...</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Configurando a capa de criptografía..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Non tes privilexios para configurar a capa de criptografía"
-
-#~ msgid "Wrong password"
-#~ msgstr "Contrasinal incorrecto"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Contrasinal incorrecto.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Este volume está cifrado.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Introduza o seu contrasinal para descifrar e montar o volume."
-
-#~ msgid "_Mount"
-#~ msgstr "_Montar"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Produciuse un erro ó configurar o volume cifrado"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Escolla o tipo de disco"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Crear _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Soportes extraíbles"
