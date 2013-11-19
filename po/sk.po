@@ -1,34 +1,32 @@
-# Slovak translation of thunar-volman.
-# Copyright (C) 2007 THE thunar-volman'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the thunar-volman package.
-# Jeff Bailes <thepizzaking@gmail.com>, 2007.
-# Slavko <slavino@slavino.sk>, 2009.
-# Robert Hartl <hartl.robert@gmail.com>, 2009.
-# Tomáš Vadina <kyberdev@gmail.com>, 2011, 2012.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Jeff Bailes <thepizzaking@gmail.com>, 2007
+# Robert Hartl <hartl.robert@gmail.com>, 2009
+# Slavko <slavino@slavino.sk>, 2009
+# Tomáš Vadina <tomasvadina+transifex@myopera.com>, 2011-2012
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.6.0\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-09 04:00+0000\n"
-"PO-Revision-Date: 2012-02-09 08:53+0100\n"
-"Last-Translator: Tomáš Vadina <kyberdev@gmail.com>\n"
-"Language-Team: slovenčina <slovenska-lokalizacia-xfce@googlegroups.com>\n"
-"Language: \n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-11-19 13:17+0000\n"
+"Last-Translator: Xfce <transifex@xfce.org>\n"
+"Language-Team: Slovak (http://www.transifex.com/projects/p/xfce/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 0.3\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 1 : (n>=2 && n<=4) ? 2 : 0;\n"
-"X-Poedit-Language: Slovak\n"
-"X-Poedit-Country: SLOVAKIA\n"
+"Language: sk\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../thunar-volman/main.c:59
-msgid "The syfs path of the newly added device"
-msgstr "Cesta syfs novo pridaného zariadenia"
+msgid "The sysfs path of the newly added device"
+msgstr ""
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Nastavenie správy vymeniteľných zariadení a médií"
@@ -42,26 +40,24 @@ msgstr "Vypísať verziu a skončiť"
 msgid "Thunar Volume Manager"
 msgstr "Správca médií Thunar"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Všetky práva vyhradené."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Prosím, chyby hláste na <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Neexistuje zariadenie s cestou sysfs \"%s\""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
-"Je potrebné zadať novú cestu sysfs nového zariadenia pomocou prepínača --"
-"device-added"
+msgstr "Je potrebné zadať novú cestu sysfs nového zariadenia pomocou prepínača --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -108,9 +104,7 @@ msgstr "Bola nájdená pamäťová karta s fotografiami"
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
-"Na pamäťovej karte sú fotografie. Chcete tieto fotografie pridať do svojho "
-"albumu?"
+msgstr "Na pamäťovej karte sú fotografie. Chcete tieto fotografie pridať do svojho albumu?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -220,13 +214,13 @@ msgstr "_Prehrať disk CD"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Neznámy typ blokového zariadenia"
+msgid "Unknown block device type \"%s\""
+msgstr ""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Typ zariadenia nie je podporovaný"
+msgid "Device type \"%s\" not supported"
+msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -256,8 +250,8 @@ msgstr "Bola nájdená myš"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Nepodporované vstupné zariadenie"
+msgid "Unsupported input device type \"%s\""
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -324,15 +318,15 @@ msgstr "Bola nájdená tlačiareň s rozhraním USB"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Nepodporovaný typ USB zariadenia"
+msgid "Unsupported USB device type \"%s\""
+msgstr ""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
 msgstr "Nastavenia Správcu zväzkov aplikácie Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Vymeniteľné zariadenia a médiá"
@@ -365,9 +359,8 @@ msgstr "Skripty jazyka Ruby"
 msgid "Shell Scripts"
 msgstr "Skripty shellu"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Úložisko"
@@ -412,9 +405,8 @@ msgstr "Príkaz pre _dátové disky CD:"
 msgid "Command for A_udio CDs:"
 msgstr "Príkaz pre _zvukové disky CD:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimédiá"
@@ -458,9 +450,8 @@ msgstr "Prenosné prehrávače hudby"
 msgid "Play _music files when connected"
 msgstr "Prehrať _hudobné súbory po pripojení"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Fotoaparáty"
@@ -473,9 +464,8 @@ msgstr "Digitálne fotoaparáty"
 msgid "Import digital photographs when connected"
 msgstr "Importovať digitálne fotografie po pripojení"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "Zariadenia PDA"
@@ -496,9 +486,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Synchronizovať zariadenia Pocket P_C po pripojení"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -508,9 +497,8 @@ msgstr "Tlačiarne"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Automaticky spustiť program po pripojení _tlačiarne"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Vstupné zariadenia"
@@ -546,68 +534,3 @@ msgstr "Prík_az:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Zlyhalo otvorenie prehliadača dokumentácie"
-
-#~ msgid "input-keyboard"
-#~ msgstr "vstup-klávesnica"
-
-#~ msgid "input-tablet"
-#~ msgstr "vstup-tablet"
-
-#~ msgid "input-mouse"
-#~ msgstr "vstup-myš"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Zlyhalo otvorenie displeja"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Vývojový tím Thunar. Všetky práva vyhradené."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Napísal Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "Zadané UDI \"%s\" nie je platné HAL UDI zariadenia"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Šifrovaný zväzok"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Pripájanie šifrovaného zväzku...</"
-#~ "span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Nastavovanie šifrovacej vrstvy..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Nemáte oprávnenie nastavovať šifrovaciu vrstvu"
-
-#~ msgid "Wrong password"
-#~ msgstr "Nesprávne heslo"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Nesprávne heslo.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Tento zväzok je šifrovaný.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Pre odšifrovanie a pripojenie zadajte heslo."
-
-#~ msgid "_Mount"
-#~ msgstr "_Pripojiť"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Nepodarilo sa nastaviť šifrovaný zväzok"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Zvoľte typ disku"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Vytvoriť _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Vyberateľné médiá"
