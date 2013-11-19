@@ -1,21 +1,21 @@
-# Brazilian Portuguese translations for Thunar-volman package.
-# Copyright (C) 2007 THE Thunar-volman'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the Thunar-volman package.
-# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2007-2008.
-# Og Maciel <ogmaciel@gnome.org>, 2008.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Og Maciel <ogmaciel@gnome.org>, 2008
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-15 16:30+0000\n"
-"PO-Revision-Date: 2012-04-15 14:35-0300\n"
-"Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
-"Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
-"Language: pt_BR\n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2013-11-19 14:37+0000\n"
+"Last-Translator: Nick <nick@xfce.org>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/xfce/language/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: ../thunar-volman/main.c:59
@@ -23,7 +23,7 @@ msgid "The syfs path of the newly added device"
 msgstr "O caminho sysfs do dispositivo recentemente adicionado"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Configurar o gerenciamento de drives e mídias removíveis"
@@ -54,9 +54,7 @@ msgstr "Não há dispositivo com o caminho sysfs \"%s\""
 #: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
-"É necessário especificar o caminho sysfs dos novos dispositivos com --device-"
-"added"
+msgstr "É necessário especificar o caminho sysfs dos novos dispositivos com --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -103,8 +101,7 @@ msgstr "Um cartão de fotos foi detectado"
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
-"Existem fotos no cartão. Você gostaria de adicionar estas fotos no seu álbum?"
+msgstr "Existem fotos no cartão. Você gostaria de adicionar estas fotos no seu álbum?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -326,7 +323,7 @@ msgstr "Tipo de dispositivo USB não suportado"
 msgid "Thunar Volume Manager Settings"
 msgstr "Configurações do Gerenciador de volumes do Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Mídias e Unidades removíveis"
@@ -359,9 +356,8 @@ msgstr "Scripts Ruby"
 msgid "Shell Scripts"
 msgstr "Scripts Shell"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Armazenamento"
@@ -406,9 +402,8 @@ msgstr "Comando para CDs de _dados:"
 msgid "Command for A_udio CDs:"
 msgstr "Comando para CDs de á_udio:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimídia"
@@ -452,9 +447,8 @@ msgstr "Reprodutores portáteis de música"
 msgid "Play _music files when connected"
 msgstr "Reproduzir _música quando conectado"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Câmeras"
@@ -467,9 +461,8 @@ msgstr "Câmeras digitais"
 msgid "Import digital photographs when connected"
 msgstr "Importar fotografias digitais quando conectadas"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDAs"
@@ -490,9 +483,8 @@ msgstr "Pocket PCs"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Sincronizar dispositivos Pocket P_C quando conectados"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -500,12 +492,10 @@ msgstr "Impressoras"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
-msgstr ""
-"Executar automaticamente um programa quando uma im_pressora for conectada"
+msgstr "Executar automaticamente um programa quando uma im_pressora for conectada"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Dispositivos de entrada"
@@ -516,8 +506,7 @@ msgstr "Teclados"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr ""
-"Executar automaticamente um programa quando um _teclado USB for conectado"
+msgstr "Executar automaticamente um programa quando um _teclado USB for conectado"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
@@ -525,8 +514,7 @@ msgstr "Mouse"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr ""
-"Executar automaticamente um programa quando um _mouse USB for conectado"
+msgstr "Executar automaticamente um programa quando um _mouse USB for conectado"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -543,70 +531,3 @@ msgstr "Com_ando:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Falha ao abrir o navegador de documentação"
-
-#~ msgid "input-keyboard"
-#~ msgstr "Teclados"
-
-#~ msgid "input-tablet"
-#~ msgstr "Tablet"
-
-#~ msgid "input-mouse"
-#~ msgstr "Mouse"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Falha ao abrir a exibição"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "O time de desenvolvimento do Thunar. Todos os direitos reservados."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Escrito por Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "O UDI especificado \"%s\" não é um UDI de dispositivo HAL válido"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Volume criptografado"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Montando volume criptografado...</"
-#~ "span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Configurando a camada de criptografia..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Você não tem privilégios para configurar a camada de cripografia"
-
-#~ msgid "Wrong password"
-#~ msgstr "Senha incorreta"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Senha incorreta.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Este volume está criptografado.</"
-#~ "span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr ""
-#~ "Por favor, entre com sua senha para descriptografar e montar o volume."
-
-#~ msgid "_Mount"
-#~ msgstr "_Montar"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Falhou ao configurar o volume criptografado."
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Escolha o tipo de disco"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Criar _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Mídia removível"
