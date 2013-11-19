@@ -1,30 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# Algimantas Margevičius <margevicius.algimantas@gmail.com>, 2012.
-#
+# 
+# Translators:
+# Algimantas Margevičius <margevicius.algimantas@gmail.com>, 2012
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-27 14:24+0000\n"
-"PO-Revision-Date: 2012-01-27 18:24+0200\n"
-"Last-Translator: Algimantas Margevičius <margevicius.algimantas@gmail.com>\n"
-"Language-Team: Lietuvių <>\n"
-"Language: \n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-11-19 13:17+0000\n"
+"Last-Translator: Xfce <transifex@xfce.org>\n"
+"Language-Team: Lithuanian (http://www.transifex.com/projects/p/xfce/language/lt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n"
-"%100<10 || n%100>=20) ? 1 : 2)\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../thunar-volman/main.c:59
-msgid "The syfs path of the newly added device"
-msgstr "Naujai pridėto įrenginio syfs kelias"
+msgid "The sysfs path of the newly added device"
+msgstr ""
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Konfigūruoti išimamų įrenginių tvarkymą"
@@ -38,21 +37,21 @@ msgstr "Parodyti informaciją apie programos versiją ir baigti darbą"
 msgid "Thunar Volume Manager"
 msgstr "Thunar failų tvarkytuvė"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "Visos teisės saugomos."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Apie klaidas praneškite <%s>."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Nėra įrenginio su sysfs keliu „%s“"
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Turite nurodyti įrenginių sysfs kelią su --device-added"
@@ -212,13 +211,13 @@ msgstr "_Groti CD"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "Nežinomas įrenginio tipas"
+msgid "Unknown block device type \"%s\""
+msgstr ""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "Įrenginio tipas nepalaikomas"
+msgid "Device type \"%s\" not supported"
+msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -248,8 +247,8 @@ msgstr "Buvo aptikta pelė"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "Nepalaikomas įvesties įrenginio tipas"
+msgid "Unsupported input device type \"%s\""
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -316,15 +315,15 @@ msgstr "Aptiktas USB spausdintuvas"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "Nepalaikomas USB įrenginio tipas"
+msgid "Unsupported USB device type \"%s\""
+msgstr ""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
 msgstr "Thunar failų tvarkyklės nustatymai"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Išimami diskai ir laikmenos"
@@ -357,9 +356,8 @@ msgstr "Ruby scenarijai"
 msgid "Shell Scripts"
 msgstr "Shell scenarijai"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Laikmenos"
@@ -404,9 +402,8 @@ msgstr "_Duomenų CD komanda:"
 msgid "Command for A_udio CDs:"
 msgstr "_Audio CD komanda:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Daugialypė terpė"
@@ -450,9 +447,8 @@ msgstr "Nešiojamieji muzikos grotuvai"
 msgid "Play _music files when connected"
 msgstr "Prijungus groti _muzikos failus"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Fotoaparatai"
@@ -465,9 +461,8 @@ msgstr "Skaitmeninės kameros"
 msgid "Import digital photographs when connected"
 msgstr "Prijungus importuoti skaitmenines nuotraukas"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -488,9 +483,8 @@ msgstr "Kišeniniai kompiuteriai"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "_Prijungus sinchronizuoti kišeninius kompiuterius"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -500,9 +494,8 @@ msgstr "Spausdintuvai"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Prijungus _spausdintuvą automatiškai vykdyti programą"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Įvesties įrenginiai"
