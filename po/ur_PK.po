@@ -1,32 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman.pot\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
-"PO-Revision-Date: 2009-05-14 02:39+0500\n"
-"Last-Translator: Muhammad Ali Makki <makki.ma@gmail.com>\n"
-"Language-Team: Urdu <makki.ma@gmail.com>\n"
-"Language: ur\n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-11-19 13:17+0000\n"
+"Last-Translator: Xfce <transifex@xfce.org>\n"
+"Language-Team: Urdu (Pakistan) (http://www.transifex.com/projects/p/xfce/language/ur_PK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Urdu\n"
-"X-Poedit-Country: PAKISTAN\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Language: ur_PK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
-msgid "The syfs path of the newly added device"
-msgstr "نئی شامل کردہ ڈیوائس کا HAL ڈیوائس UDI"
+msgid "The sysfs path of the newly added device"
+msgstr ""
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "قابلِ فصل ڈرائیوز اور میڈیا کی ادارت وضع کریں"
@@ -40,24 +36,24 @@ msgstr "ورژن معلومات طبع کرکے برخاست کریں"
 msgid "Thunar Volume Manager"
 msgstr "تھنر والیم منیجر"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr ""
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "بگ <%s> رپورٹ کریں"
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr ""
 
-#: ../thunar-volman/main.c:186
-#, fuzzy, c-format
+#: ../thunar-volman/main.c:188
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "--device-added سے نئی HAL ڈیوائس UDI کا تعین لازمی ہے"
+msgstr ""
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -65,9 +61,8 @@ msgid "Photos and Music"
 msgstr "فوٹو اور موسیقی"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "آپ کے پورٹبل موسیقی پلیئر میں فوٹو پائے گئے ہیں."
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -98,16 +93,14 @@ msgid "Photo Import"
 msgstr "تصاویر درآمد کریں"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "فوٹو کارڈ دریافت ہوا ہے."
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
-"کارڈ میں تصاویر ہیں. کیا آپ ان تصاویر کو اپنے ایلبم میں شامل کرنا چاہتے ہیں؟"
+msgstr "کارڈ میں تصاویر ہیں. کیا آپ ان تصاویر کو اپنے ایلبم میں شامل کرنا چاہتے ہیں؟"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -196,14 +189,12 @@ msgid "Could not detect the volume corresponding to the device"
 msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
-msgstr "صوتی / ڈیٹا سی ڈی"
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
-msgstr "ڈرائیو میں موجود سی ڈی میں موسیقی اور فائلیں دونوں ہیں."
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
@@ -219,47 +210,30 @@ msgstr "سی ڈی _چلائیں"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
+msgid "Unknown block device type \"%s\""
 msgstr ""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
+msgid "Device type \"%s\" not supported"
 msgstr ""
 
-#: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
-msgid "input-keyboard"
-msgstr "کیبورڈ"
-
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "کیبورڈ"
+msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "فوٹو کارڈ دریافت ہوا ہے."
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "آٹو رن موافقت دریافت ہوئی ہے"
+msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
@@ -272,7 +246,7 @@ msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
+msgid "Unsupported input device type \"%s\""
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:171
@@ -285,9 +259,8 @@ msgid "Blank DVD inserted"
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "آپ نے ایک خالی سی ڈی داخل کی ہے."
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -298,24 +271,20 @@ msgid "Burn _DVD"
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "خالی سیڈیاں اور ڈی وی ڈی"
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "آپ نے ایک خالی سی ڈی داخل کی ہے."
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "_ڈیٹا سی ڈی بنائیں"
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "_صوتی سی ڈی بنائیں"
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -332,9 +301,8 @@ msgid "Camera detected"
 msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "فوٹو کارڈ دریافت ہوا ہے."
+msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
@@ -346,16 +314,15 @@ msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
+msgid "Unsupported USB device type \"%s\""
 msgstr ""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "تھنر والیم منیجر"
+msgstr ""
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "قابلِ فصل ڈرئیوز اور میڈیا"
@@ -388,9 +355,8 @@ msgstr "روبی سکرپٹ"
 msgid "Shell Scripts"
 msgstr "شیل سکرپٹ"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "سٹوریج"
@@ -435,9 +401,8 @@ msgstr "_ڈیٹا سیڈیوں کے لیے کمانڈ:"
 msgid "Command for A_udio CDs:"
 msgstr "_صوتی سیڈیوں کے لیے کمانڈ:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "ملٹی میڈیا"
@@ -481,9 +446,8 @@ msgstr "پورٹبل موسیقی پلیئرز"
 msgid "Play _music files when connected"
 msgstr "متصل ہونے پر مو_سیقی فائلیں چلائیں"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "کیمرے"
@@ -496,9 +460,8 @@ msgstr "رقمی کیمرے"
 msgid "Import digital photographs when connected"
 msgstr "متصل ہونے پر رقمی فوٹوگراف درآمد کریں"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDAs"
@@ -519,9 +482,8 @@ msgstr "پاکٹ PCs"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "متصل ہونے پر پاکٹ پی سی ڈیوائسز کو ہم آہنگ کریں"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -531,9 +493,8 @@ msgstr "پرنٹرز"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "_پرنٹر کے متصل ہونے پر خودکار طور پر پروگرام چلائیں"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "ماداخل ڈیوائسس"
@@ -543,18 +504,16 @@ msgid "Keyboards"
 msgstr "کیبورڈ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "یو ایس بی کیبورڈ متصل ہونے پر پروگرام خودکار طور پر چلائیں"
+msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
 msgstr "مائیس"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "یو ایس بی ماؤس متصل ہونے پر خودکار طور پر پروگرام چلائیں"
+msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -571,59 +530,3 @@ msgstr "کم_انڈ:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "دستاویزات براؤزر کھولنے میں ناکامی"
-
-#~ msgid "Failed to open display"
-#~ msgstr "ڈسپلے کھولنے میں ناکامی"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "تھنر ترقیاتی ٹیم. تمام حقوق محفوظ ہیں. اردو ترجمہ از محمد علی مکی"
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Benedikt Meurer <benny@xfce.org> نے لکھا."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "معین کردہ UDI \"%s\" غیر موزوں HAL ڈیوائس UDI ہے"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "رمز شدہ (انکرپٹڈ) والیم"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">رمز شدہ (انکرپٹڈ) والیم ماؤنٹ کیا "
-#~ "جارہا ہے...</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "کرپٹو تہہ مرتب کی جارہی ہے..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "آپ کو کرپٹو تہہ مرتب کرنے کی اجازت نہیں ہے"
-
-#~ msgid "Wrong password"
-#~ msgstr "غلط پاس ورڈ"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">غلط پاس ورڈ.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">والیم رمز (انکرپٹڈ) ہے.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "والیم کو غیر رمز شدہ اور ماؤنٹ کرنے کے لیے اپنا پاس ورڈ لکھیں."
-
-#~ msgid "_Mount"
-#~ msgstr "-ماؤنٹ"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "رمز شدہ (انکرپٹڈ) والیم کو مرتب کرنے میں ناکامی"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "ڈسک کی نوعیت منتخب کریں"
-
-#~ msgid "Make _DVD"
-#~ msgstr "_ڈی وی ڈی بنائیں"
-
-#~ msgid "Removable Media"
-#~ msgstr "قابلِ فصل میڈیا"
