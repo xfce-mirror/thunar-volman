@@ -1,27 +1,28 @@
-# European Portuguese translation for thunar-volman.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Nuno Miguel <nunomgue@gmail.com>, 2007-2012.
-#
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-11 09:00+0000\n"
-"PO-Revision-Date: 2012-04-13 00:06+0100\n"
-"Last-Translator: Nuno Miguel <nunomgue@gmail.com>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2013-11-19 14:37+0000\n"
+"Last-Translator: Nick <nick@xfce.org>\n"
+"Language-Team: Portuguese (http://www.transifex.com/projects/p/xfce/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
 msgstr "O caminho syfs do dispositivo agora adicionado"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Configurar gestão de unidades amovíveis"
@@ -72,8 +73,7 @@ msgstr "Deseja importar as fotos ou gerir a música?"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829
-#: ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "Ig_norar"
@@ -97,7 +97,9 @@ msgid "A photo card has been detected"
 msgstr "Foi detetado um cartão de fotos"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "Existem fotos no cartão. Deseja adicionar as fotos ao seu álbum?"
 
 #. prompt the user to execute the file
@@ -260,8 +262,7 @@ msgstr "Inserido um DVD vazio"
 msgid "You have inserted a blank DVD."
 msgstr "Inseriu um DVD vazio."
 
-#: ../thunar-volman/tvm-run.c:191
-#: ../thunar-volman/tvm-run.c:202
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
 msgstr "Que deseja fazer?"
 
@@ -321,7 +322,7 @@ msgstr "O dispositivo USB não é suportado"
 msgid "Thunar Volume Manager Settings"
 msgstr "Definições do Gestor de Volumes do Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Unidades amovíveis"
@@ -355,7 +356,7 @@ msgid "Shell Scripts"
 msgstr "Scripts Shell"
 
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Armazenamento"
@@ -401,7 +402,7 @@ msgid "Command for A_udio CDs:"
 msgstr "Comando para CDs de á_udio:"
 
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimédia"
@@ -446,7 +447,7 @@ msgid "Play _music files when connected"
 msgstr "Reproduzir ficheiros de _música quando ligado"
 
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Máquinas fotográficas"
@@ -460,7 +461,7 @@ msgid "Import digital photographs when connected"
 msgstr "Importar fotos digitais quando ligado"
 
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDAs"
@@ -482,7 +483,7 @@ msgid "Sync Pocket P_C devices when connected"
 msgstr "Sincronizar P_C de bolso quando ligado"
 
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -493,7 +494,7 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "Executar automaticamente um programa ao ligar uma i_mpressora"
 
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Dispositivos de entrada"
@@ -529,67 +530,3 @@ msgstr "Co_mando:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Falha ao abrir a documentação"
-
-#~ msgid "input-keyboard"
-#~ msgstr "Teclado"
-
-#~ msgid "input-tablet"
-#~ msgstr "\"Tablet\""
-
-#~ msgid "input-mouse"
-#~ msgstr "Rato"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Falha ao abrir ecrã"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Equipa de desenvolvimento do Thunar. Todos os direitos reservados."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Escrito por Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "UDI especificado \"%s\" não é um dispositivo HAL válido"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Volume encriptado"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Montando volume encriptado...</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "A definir a camada de criptografia..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Não tem privilégios para definir a camada de criptografia "
-
-#~ msgid "Wrong password"
-#~ msgstr "Senha errada"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Senha errada.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Este volume está encriptado.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Por favor, indique a senha para desencriptar e montar o volume."
-
-#~ msgid "_Mount"
-#~ msgstr "_Mountar"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Falhou a configuração do volume encriptado"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Escolha o Tipo de Disco"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Criar _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Media Removível"
