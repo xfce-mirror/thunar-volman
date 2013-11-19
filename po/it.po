@@ -1,34 +1,30 @@
-# Italian translations for thunar-volman package.
-# Copyright (C) 2007 Benedikt Meurer.
-# This file is distributed under the same license as the thunar-volman package.
-# Fabio Riga <usul@aruba.it>, 2007.
-# Cristian Marchi <cri.penta@gmail.com>, 2010.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
+# Translators:
+# cri <cri.penta@gmail.com>, 2010
+# Fabio Riga <usul@aruba.it>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-24 11:00+0000\n"
-"PO-Revision-Date: 2011-02-07 14:26+0100\n"
-"Last-Translator: Cristian Marchi <cri.penta@gmail.com>\n"
-"Language-Team: Italian Translation Team <xfce-it-translators@googlegroups.com>\n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2013-11-19 14:37+0000\n"
+"Last-Translator: Nick <nick@xfce.org>\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/xfce/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
+"Language: it\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-# GLOSSARIO
-# device = dispositivo
-# drive = unità
-# encrypted = cifrato
-# media = disco (non è un contenuto ma bensì il supporto)
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
 msgstr "Il percorso syfs del nuovo dispositivo aggiunto"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Configurazione della gestione delle unità rimovibili e dei dischi"
@@ -59,9 +55,7 @@ msgstr "Non c'è alcun dispositivo con il percorso sysfs \"%s\""
 #: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
-"Si deve specificare il percorso sysfs del nuovo dispositivo aggiunto con --"
-"device-added"
+msgstr "Si deve specificare il percorso sysfs del nuovo dispositivo aggiunto con --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -330,7 +324,7 @@ msgstr "Tipo di dispositivo USB non supportato"
 msgid "Thunar Volume Manager Settings"
 msgstr "Impostazioni del gestore dei volumi di Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Unità rimovibili e dischi"
@@ -513,8 +507,7 @@ msgstr "Tastiere"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr ""
-"Esegui automaticamente un programma alla connessione di una _tastiera USB"
+msgstr "Esegui automaticamente un programma alla connessione di una _tastiera USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
@@ -539,68 +532,3 @@ msgstr "Com_ando:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Impossibile aprire il navigatore della documentazione"
-
-#~ msgid "input-keyboard"
-#~ msgstr "input-tastiera"
-
-#~ msgid "input-tablet"
-#~ msgstr "input-tavoletta"
-
-#~ msgid "input-mouse"
-#~ msgstr "input-mouse"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Apertura dello schermo non riuscita"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Il gruppo di sviluppo di Thunar. Tutti i diritti riservati."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Scritto da Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "L'UDI \"%s\" specificato non è un UDI HAL di dispositivo valido"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Volume cifrato"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Montaggio del volume cifrato in "
-#~ "corso...</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Impostazione del livello cifrato in corso..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Non si posseggono i privilegi per impostare il livello cifrato"
-
-#~ msgid "Wrong password"
-#~ msgstr "Password errata"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Password errata.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Questo volume è cifrato.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Inserire la password per decifrare e montare il volume."
-
-#~ msgid "_Mount"
-#~ msgstr "_Monta"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Impostazione del volume cifrato non riuscita"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Scegliere il tipo di disco"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Crea _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Dispositivi rimovibili"
