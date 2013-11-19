@@ -1,30 +1,29 @@
-# Danish translation thunar-volman.
-# Copyright (c) 2004-2007 The Thunar development team. All rights reserved.
-# This file is distributed under the same license as the thunar-volman package.
-# Per Kongstad <p_kongstad@op.pl>, 2008.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
+# Translators:
+# Per Kongstad <p_kongstad@op.pl>, 2008
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.3.80\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-01-19 21:18+0000\n"
-"PO-Revision-Date: 2008-10-14 11:14+0100\n"
-"Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
-"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2013-11-19 14:37+0000\n"
+"Last-Translator: Nick <nick@xfce.org>\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/xfce/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: da\n"
-"X-Poedit-Language: Danish\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Country: DENMARK\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
 msgstr "Syfs-stien til den nylige tilsluttetede enhed"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Indstillingshåndtering af fjernbare drev og medie"
@@ -102,9 +101,7 @@ msgstr "Et billedhukommelseskort er blevet fundet."
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
-"Der er billeder på hukommelseskortet. Vil du tilføje disse billeder til din "
-"samling?"
+msgstr "Der er billeder på hukommelseskortet. Vil du tilføje disse billeder til din samling?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -326,7 +323,7 @@ msgstr "Ikke understøttet usb-enhedstype"
 msgid "Thunar Volume Manager Settings"
 msgstr "Indstillinger af arkivhåndtering til Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Fjernbare drev og medier"
@@ -534,68 +531,3 @@ msgstr "Komm_ando:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Kunne ikke åbne dokumentationsnavigator"
-
-#~ msgid "input-keyboard"
-#~ msgstr "inddatatastatur"
-
-#~ msgid "input-tablet"
-#~ msgstr "inddata-tablet"
-
-#~ msgid "input-mouse"
-#~ msgstr "inddata-mus"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Kunne ikke åbne skærm"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Thunars udviklingshold. Alle rettigheder forbeholdt."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Skrevet af Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "Det angivne UDI \"%s\" er ikke et gyldigt HAL-enheds UDI"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Krypteret arkiv"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Monterer krypteret arkiv...</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Indstiller krypteringslag..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Du har ikke rettigheder til at indstille krypteringslag"
-
-#~ msgid "Wrong password"
-#~ msgstr "Forkert adgangskode"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Forkert adgangskode.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Dette arkiv er krypteret.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr ""
-#~ "Angiv venligst din adgangskode for at afkryptere og montere arkivet."
-
-#~ msgid "_Mount"
-#~ msgstr "_Montér"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Kunne ikke indstille krypteret arkiv"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Vælg disktype"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Lav _dvd"
-
-#~ msgid "Removable Media"
-#~ msgstr "Fjernbare medier"
