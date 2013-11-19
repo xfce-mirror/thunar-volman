@@ -1,30 +1,29 @@
-# translation of eu.po to Euskara
-# thunar-volman basque translation
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # 
-# Piarres Beobide <pi@beobide.net>, 2007, 2008.
+# Translators:
+# Piarres Beobide <pi@beobide.net>, 2007-2008
 msgid ""
 msgstr ""
-"Project-Id-Version: eu\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-02-24 19:09+0000\n"
-"PO-Revision-Date: 2008-11-09 15:38+0200\n"
-"Last-Translator: Piarres Beobide <pi@beobide.net>\n"
-"Language-Team: Euskara <debian-l10n-basque@lists.debian.org>\n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-11-19 13:17+0000\n"
+"Last-Translator: Xfce <transifex@xfce.org>\n"
+"Language-Team: Basque (http://www.transifex.com/projects/p/xfce/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: eu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Pootle 1.2.0\n"
 
 #: ../thunar-volman/main.c:59
-msgid "The syfs path of the newly added device"
-msgstr "Gehitu berri den gailuaren sysfs bidea"
+msgid "The sysfs path of the newly added device"
+msgstr ""
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Konfiguratu gailu eta euskarri aldagarrien kudeaketa"
@@ -102,8 +101,7 @@ msgstr "Argazki txartel bat atzeman da"
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
-"Argazkiak daude txartelean. Argazki horiek zure albumean gehitu nahi dituzu?"
+msgstr "Argazkiak daude txartelean. Argazki horiek zure albumean gehitu nahi dituzu?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -325,7 +323,7 @@ msgstr "\"%s\" motako onartzen ez de USB gailu "
 msgid "Thunar Volume Manager Settings"
 msgstr "Thunar bolumen kudeatzaile ezarpenak"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Gailu eta Euskarri Aldagarriak"
@@ -533,69 +531,3 @@ msgstr "Ko_mandoa:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Huts dokumentazio nabigatzailea irekitzean"
-
-#~ msgid "input-keyboard"
-#~ msgstr "sarrera-teklatua"
-
-#~ msgid "input-tablet"
-#~ msgstr "sarrera-tableta"
-
-#~ msgid "input-mouse"
-#~ msgstr "sarrera-sagua"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Huts panataila irekitzean"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Thunar garapen taldea. Eskubide guztiak erreserbaturik"
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Benedikt Meurer <benny@xfce.org>-ek idatzia."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "Ezarritako UDI \"%s\" ez da baliozko HAL gailu UDI bat"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Enkriptaturiko bolumena"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Enkriptaturiko bolumena muntatzen..."
-#~ "</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Kriptografia geruza konfiguratzen..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Ez duzu kriptografia geruza konfiguratzeko baimenik"
-
-#~ msgid "Wrong password"
-#~ msgstr "Okerreko pasahitza"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Okerreko pasahitza.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Bolumen hau enkriptaturik dago.</"
-#~ "span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Mesedez idatzi pasahitza bolumenda desenkriptatu eta muntatzeko."
-
-#~ msgid "_Mount"
-#~ msgstr "_Muntatu"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Huts enkriptaturiko bolumena konfiguratzean"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Hautatu disko mota"
-
-#~ msgid "Make _DVD"
-#~ msgstr "DVD-a egin"
-
-#~ msgid "Removable Media"
-#~ msgstr "Euskarri aldagarriak"
