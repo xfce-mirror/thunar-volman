@@ -1,26 +1,26 @@
-# Japanese translations for thunar-volman package
-# Copyright (C) 2008 Benedikt Meurer
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2008.
-# HASHIMOTO Masato <cabezon.hashimoto@gmail.com>, 2008-2012.
-#
+# 
+# Translators:
+# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2008
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-12-13 22:38+0900\n"
-"PO-Revision-Date: 2012-12-13 22:41+0900\n"
-"Last-Translator: Masato Hashimoto <cabezon.hashimoto@gmail.com>\n"
-"Language-Team: Japanese <xfce-users-jp@ml.fdiary.net>\n"
-"Language: ja\n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-11-19 13:17+0000\n"
+"Last-Translator: Xfce <transifex@xfce.org>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/xfce/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../thunar-volman/main.c:59
-msgid "The syfs path of the newly added device"
-msgstr "新たに追加されたデバイスの Sysfs パス"
+msgid "The sysfs path of the newly added device"
+msgstr ""
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -98,7 +98,9 @@ msgid "A photo card has been detected"
 msgstr "写真が保存されたメディアを検出しました"
 
 #: ../thunar-volman/tvm-block-device.c:275
-msgid "There are photos on the card. Would you like to add these photos to your album?"
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
 msgstr "メディア内に写真があります。写真をアルバムに追加しますか?"
 
 #. prompt the user to execute the file
@@ -354,9 +356,8 @@ msgstr "Ruby スクリプト"
 msgid "Shell Scripts"
 msgstr "シェルスクリプト"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "ストレージ"
@@ -401,9 +402,8 @@ msgstr "データ CD 用コマンド(_D)"
 msgid "Command for A_udio CDs:"
 msgstr "オーディオ CD 用コマンド(_U)"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "マルチメディア"
@@ -447,9 +447,8 @@ msgstr "携帯音楽プレーヤー"
 msgid "Play _music files when connected"
 msgstr "接続されたら音楽ファイルを再生する(_M)"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "カメラ"
@@ -462,9 +461,8 @@ msgstr "デジタルカメラ"
 msgid "Import digital photographs when connected"
 msgstr "接続されたら写真を取り込む"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -485,9 +483,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Pocket PC デバイスが接続されたら同期をとる(_C)"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -497,9 +494,8 @@ msgstr "プリンター"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "プリンターが接続されたら自動的にプログラムを実行する(_P)"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "入力デバイス"
