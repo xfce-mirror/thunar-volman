@@ -1,33 +1,31 @@
-# thunar-volman translation to Greek.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Evaggelos Balaskas <ebalaskas@ebalaskas.gr>, 2009.
-# Stavros Giannouris <stavrosg@hellug.gr>, 2009, 2011.
-# George Vasilakos <forfolias@gmail.com>, 2011.
 # 
+# Translators:
+# ebal <ebalaskas@ebalaskas.gr>, 2009
+# George Vasilakos <forfolias@gmail.com>, 2011
+# Stavros Giannouris <stavrosg@hellug.gr>, 2009,2011
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman git version\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-09 11:00+0000\n"
-"PO-Revision-Date: 2011-01-07 18:44+0200\n"
-"Last-Translator: Spiros Georgaras <sng@hellug.gr>\n"
-"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2013-11-19 14:37+0000\n"
+"Last-Translator: Nick <nick@xfce.org>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/xfce/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: el\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-Language: Greek\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-Country: GREECE\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
 msgstr "Η διαδρομή syfs της συσκευής που προστέθηκε πρόσφατα"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Ρύθμιση διαχείρισης των αφαιρούμενων συσκευών και μέσων"
@@ -58,9 +56,7 @@ msgstr "Δεν υπάρχει συσκευή με την διαδρομή sysfs 
 #: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
-"Πρέπει να προσδιορίσετε τη διαδρομή  sysfs των νέων συσκευών με --device-"
-"added"
+msgstr "Πρέπει να προσδιορίσετε τη διαδρομή  sysfs των νέων συσκευών με --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -107,9 +103,7 @@ msgstr "Εντοπίστηκε μια κάρτα με φωτογραφίες"
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
-"Υπάρχουν εικόνες στην κάρτα. Θέλετε να προσθέσετε τις εικόνες στο άλμπουμ "
-"σας;"
+msgstr "Υπάρχουν εικόνες στην κάρτα. Θέλετε να προσθέσετε τις εικόνες στο άλμπουμ σας;"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -331,7 +325,7 @@ msgstr "Μη υποστιριζόμενος τύπος USB συσκευής"
 msgid "Thunar Volume Manager Settings"
 msgstr "Ρυθμίσεις διαχειριστή τόμων Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Αφαιρούμενοι οδηγοί και μέσα"
@@ -514,8 +508,7 @@ msgstr "Πληκτρολόγια"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr ""
-"Αυτόματη ε_κτέλεση ενός προγράμματος όταν συνδεθεί ένα πληκτρολόγιο USB"
+msgstr "Αυτόματη ε_κτέλεση ενός προγράμματος όταν συνδεθεί ένα πληκτρολόγιο USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
@@ -540,73 +533,3 @@ msgstr "Εντ_ολή:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Αποτυχία ανοίγματος του περιηγητή βοήθειας"
-
-#~ msgid "input-keyboard"
-#~ msgstr "Πληκτρολόγια"
-
-#~ msgid "input-tablet"
-#~ msgstr "Ταμπλέτα"
-
-#~ msgid "input-mouse"
-#~ msgstr "Ποντίκι"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Απέτυχε να ανοίξει η οθόνη"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr ""
-#~ "Η ομάδα ανάπτυξης του Thunar. Με την επιφύλαξη παντός νομίμου δικαιώματος."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Γράφτηκε από τον Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "Το καθορισμένο UDI \"%s\" δεν είναι έγκυρο UDI συσκευής HAL"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Κρυπτογραφημένες μονάδες"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Προσάρτηση κρυπτογραφημένης "
-#~ "μονάδας...</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Ρύθμιση του επιπέδου κρυπτογράφησης..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Δεν έχετε τα δικαιώματα να ρυθμίσετε το επίπεδο κρυπτογράφησης"
-
-#~ msgid "Wrong password"
-#~ msgstr "Λανθασμένο συνθηματικό"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Λανθασμένο συνθηματικό.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Αυτή η μονάδα είναι κρυπτογραφημένη."
-#~ "</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr ""
-#~ "Παρακαλώ εισάγετε το συνθηματικό για την αποκρυπτογράφηση και προσάρτηση "
-#~ "της μονάδας."
-
-#~ msgid "_Mount"
-#~ msgstr "_Προσάρτηση"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Αποτυχία ρύθμισης της κρυπτογραφημένης μονάδας"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Επιλογή τύπου δίσκου"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Δημιουργία _dvd"
-
-#~ msgid "Removable Media"
-#~ msgstr "Αφαιρούμενα μέσα"
