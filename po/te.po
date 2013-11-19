@@ -1,28 +1,29 @@
-# Xfce Telugu Translation.
-# Copyright (C) 2011 Telugu Linux Development Team.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Praveen Illa <mail2ipn@gmail.com>, 2011.
 # 
+# Translators:
+# ప్రవీణ్ ఇళ్ళ <mail2ipn@gmail.com>, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman.master\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-11 17:39+0000\n"
-"PO-Revision-Date: 2011-07-13 20:13+0530\n"
-"Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
-"Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-11-19 13:17+0000\n"
+"Last-Translator: Xfce <transifex@xfce.org>\n"
+"Language-Team: Telugu (http://www.transifex.com/projects/p/xfce/language/te/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
+"Language: te\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
-msgid "The syfs path of the newly added device"
+msgid "The sysfs path of the newly added device"
 msgstr ""
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr ""
@@ -36,21 +37,21 @@ msgstr "రూపాంతరము సమాచారం ముద్రిం�
 msgid "Thunar Volume Manager"
 msgstr "తునార్ సంపుట నిర్వాహకము"
 
-#: ../thunar-volman/main.c:119
+#: ../thunar-volman/main.c:121
 msgid "All rights reserved."
 msgstr "అన్ని హక్కులు కేటాయించబడినవి."
 
-#: ../thunar-volman/main.c:120
+#: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "దయచేసి బగ్‌లను <%s>కు నివేదించండి."
 
-#: ../thunar-volman/main.c:174
+#: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr ""
 
-#: ../thunar-volman/main.c:186
+#: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr ""
@@ -210,13 +211,13 @@ msgstr "సీడీని ప్లేచేయి (_P)"
 
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
-msgid "Unknown block device type"
-msgstr "తెలియని బ్లాక్ పరికర రకం"
+msgid "Unknown block device type \"%s\""
+msgstr ""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
-msgid "Device type not supported"
-msgstr "పరికరము రకము సహకరించుటలేదు"
+msgid "Device type \"%s\" not supported"
+msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -246,8 +247,8 @@ msgstr "ఒక మౌస్ కనుగొనబడింది"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
-msgid "Unsupported input device type"
-msgstr "సహకారము లేని ఇన్‌పుట్ పరికరము రకం"
+msgid "Unsupported input device type \"%s\""
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -314,15 +315,15 @@ msgstr "ఒక USB ముద్రకం గుర్తించబడింద
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
-msgid "Unsupported USB device type"
-msgstr "సహకారము లేని USB పరికర రకము"
+msgid "Unsupported USB device type \"%s\""
+msgstr ""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
 msgstr "తునార్ సంపుట నిర్వాహకము అమరికలు"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "తీసివేయదగిన డ్రైవులు మరియు మాధ్యమం"
@@ -530,12 +531,3 @@ msgstr "ఆదేశం (_m):"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "పత్రీకరణ విహారిణిని తెరుచుటలో విఫలమైంది"
-
-#~ msgid "input-keyboard"
-#~ msgstr "ఇన్‌పుట్-కీబోర్డు"
-
-#~ msgid "input-tablet"
-#~ msgstr "ఇన్‌పుట్-టాబ్లెట్"
-
-#~ msgid "input-mouse"
-#~ msgstr "ఇన్‌పుట్-మౌస్"
