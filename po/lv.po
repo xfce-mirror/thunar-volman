@@ -1,32 +1,30 @@
-# Latvian translation of thunar-volman.
-# Copyright (C) 2007 THE thunar-volman'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the hunar-volman package.
-#
-# Rihards Prieditis <rprieditis@inbox.lv>, 2007.
-# Rihards Prieditis <rprieditis@gmail.com>, 2009.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Rihards Priedītis <rprieditis@gmail.com>, 2009
+# Rihards Prieditis <rprieditis@inbox.lv>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
-"PO-Revision-Date: 2009-10-16 15:18+0100\n"
-"Last-Translator: Rihards Prieditis <rprieditis@gmail.com>\n"
-"Language-Team: Latvian <translation-team-lv@lists.sourceforge.net>\n"
-"Language: lv\n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2013-11-19 14:37+0000\n"
+"Last-Translator: Nick <nick@xfce.org>\n"
+"Language-Team: Latvian (http://www.transifex.com/projects/p/xfce/language/lv/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
-"2);\n"
+"Language: lv\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "Jaunās pievienotāts ierīces HAL ierīces UDI"
+msgstr ""
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Konfigurēt noņemamo disku un datu nesēju pārvaldību"
@@ -55,9 +53,9 @@ msgid "There is no device with the sysfs path \"%s\""
 msgstr ""
 
 #: ../thunar-volman/main.c:186
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Jānorāda jauns HAL ierīces UDI ar --device-added"
+msgstr ""
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -65,9 +63,8 @@ msgid "Photos and Music"
 msgstr "Foto un mūzika"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "Tika atrastas fotogrāfijas uz portatīvā mūzikas atskaņotāja."
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -98,16 +95,14 @@ msgid "Photo Import"
 msgstr "Fotogrāfiju imports"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "Tika noteikta fotogrāfiju karte"
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
-"Uz kartes ir fotogrāfijas. Vai vēlaties pievienot šīs fotogrāfijas albūmam?"
+msgstr "Uz kartes ir fotogrāfijas. Vai vēlaties pievienot šīs fotogrāfijas albūmam?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -196,14 +191,12 @@ msgid "Could not detect the volume corresponding to the device"
 msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
-msgstr "Audio / Datu CD"
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
-msgstr "CD satur gan mūziku, gan failus."
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
@@ -227,39 +220,22 @@ msgstr ""
 msgid "Device type not supported"
 msgstr ""
 
-#: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
-msgid "input-keyboard"
-msgstr "Klaviatūra"
-
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Klaviatūra"
+msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Tika noteikta fotogrāfiju karte"
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Automātiskās palaišanas iespējas noteiktas"
+msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
@@ -285,9 +261,8 @@ msgid "Blank DVD inserted"
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Jūs esat ievietojis tukšu disku."
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -298,24 +273,20 @@ msgid "Burn _DVD"
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Tukši CD un DVD"
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Jūs esat ievietojis tukšu disku."
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Veidot _Datu CD"
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Veidot _Audio CD"
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -332,9 +303,8 @@ msgid "Camera detected"
 msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "Tika noteikta fotogrāfiju karte"
+msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
@@ -351,11 +321,10 @@ msgstr ""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Thunar sējumu pārvaldnieks"
+msgstr ""
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Noņemamie diski un datu nesēji"
@@ -388,9 +357,8 @@ msgstr "Ruby skripti"
 msgid "Shell Scripts"
 msgstr "Čaukas skripti"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Datu nesēji"
@@ -435,9 +403,8 @@ msgstr "Komanda priekš _Datu CD:"
 msgid "Command for A_udio CDs:"
 msgstr "Komanda priekš A_udio CD:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimēdia"
@@ -481,9 +448,8 @@ msgstr "Portatīvais mūzikas atskaņotājs"
 msgid "Play _music files when connected"
 msgstr "Atskaņot _mūzikas failus, kad pievienots"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kameras"
@@ -496,9 +462,8 @@ msgstr "Digitālās kameras"
 msgid "Import digital photographs when connected"
 msgstr "Importēt digitālās fotogrāfijas, kad pievienots"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "Personālie ciparasistenti"
@@ -519,9 +484,8 @@ msgstr "Plaukstdatori"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Sinhronizēt plaukstdatoru, kad pievienots"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -531,9 +495,8 @@ msgstr "Printeri"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Automātiski palaist programu, kad p_rinteris ir pievienots"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Ievad ierīces"
@@ -543,18 +506,16 @@ msgid "Keyboards"
 msgstr "Klaviatūra"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Automātiski palaist programu, kad USB _klaviatūra ir pievienota"
+msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
 msgstr "Pele"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Automātiski palaist programu, kad USB _pele ir pievienota"
+msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -571,57 +532,3 @@ msgstr "Kom_anda:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Neizdevas atvērt dokumentu pārlūku"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Neizdevās atvērt displeju"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Thunar izstrādes komanda. Visas tiesības rezervētas."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Autors Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "Norādītais UDI \"%s\" nav derīgs HAL ierīces UDI"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Šifrēts sējums"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Šifrēta sējuma montēšana...</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "crypto slāņa uzstādīšana..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Jums nav tiesību uzstādīt crypto slāni"
-
-#~ msgid "Wrong password"
-#~ msgstr "Nepareiza parole"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Nepareiza parole.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Šis sējums ir šifrēts.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Lūdzu ievadiet savu paroli, lai atšifrētu un nomontētu sējumu."
-
-#~ msgid "_Mount"
-#~ msgstr "_Montēt"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Neizdevās uzstādīt šifrēšanas sējumu"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Norādiet diska tipu"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Veidot _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Noņemamās iekārtas"
