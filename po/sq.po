@@ -1,27 +1,29 @@
-# Albanian translation of thunar-volman package
-# Copyright (C) 2007 Benedikt Meurer.
-# This file is distributed under the same license as the thunar-volman package.
-# Besnik Bleta <besnik@programeshqip.org>, 2007.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Besnik <besnik@programeshqip.org>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
-"PO-Revision-Date: 2008-11-04 22:37+0200\n"
-"Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
-"Language-Team: Albanian <translation-team-sq@lists.sourceforge.net>\n"
-"Language: sq\n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2013-11-19 14:37+0000\n"
+"Last-Translator: Nick <nick@xfce.org>\n"
+"Language-Team: Albanian (http://www.transifex.com/projects/p/xfce/language/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: sq\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "Pajisja HAL UDI e pajisjes së shtuar rishtazi"
+msgstr ""
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Formësoni administrimin e pajisjeve dhe mediave të heqshme"
@@ -50,9 +52,9 @@ msgid "There is no device with the sysfs path \"%s\""
 msgstr ""
 
 #: ../thunar-volman/main.c:186
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Duhet të tregoni pajisjes e re HAL UDI me --device-added"
+msgstr ""
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -60,9 +62,8 @@ msgid "Photos and Music"
 msgstr "Foto dhe Muzikë"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "Në luajtësin tuaj mbartshëm të muzikës u gjetën foto."
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -93,9 +94,8 @@ msgid "Photo Import"
 msgstr "Importim Fotosh"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "U zbulua nëj kartë fotosh."
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
@@ -190,14 +190,12 @@ msgid "Could not detect the volume corresponding to the device"
 msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
-msgstr "CD Audio/Të dhënash"
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
-msgstr "CD në pajisje përmban edhe muzikë edhe kartela."
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
@@ -221,39 +219,22 @@ msgstr ""
 msgid "Device type not supported"
 msgstr ""
 
-#: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
-msgid "input-keyboard"
-msgstr "Tastiera"
-
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Tastiera"
+msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "U zbulua nëj kartë fotosh."
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "U zbulua aftësi Vetëxhirimi"
+msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
@@ -279,9 +260,8 @@ msgid "Blank DVD inserted"
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Keni futur një disk bosh."
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -292,24 +272,20 @@ msgid "Burn _DVD"
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Zbardhje CD-sh dhe DVD-sh"
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Keni futur një disk bosh."
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Krijo CD të _Dhënash"
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Krijo CD _Audio"
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -326,9 +302,8 @@ msgid "Camera detected"
 msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "U zbulua nëj kartë fotosh."
+msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
@@ -345,11 +320,10 @@ msgstr ""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Përgjegjësi i Volumit Thunar"
+msgstr ""
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Media dhe Pajisje të Heqshme"
@@ -382,9 +356,8 @@ msgstr "Programthe Ruby"
 msgid "Shell Scripts"
 msgstr "Programthe Shell"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Depozitim"
@@ -429,9 +402,8 @@ msgstr "Urdhër për CD me të _dhëna:"
 msgid "Command for A_udio CDs:"
 msgstr "Urdhër për CD _AUDIO:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -475,9 +447,8 @@ msgstr "Luajtësa të Mbartshëm Muzike"
 msgid "Play _music files when connected"
 msgstr "Luaj kartela _muzike kur lidhet"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Aparate Fotografikë"
@@ -490,9 +461,8 @@ msgstr "Kamera Shifrore"
 msgid "Import digital photographs when connected"
 msgstr "Importo foto shifrore kur lidhet"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA-ra"
@@ -513,9 +483,8 @@ msgstr "Pocket PC"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Njëkohëso pajisje Pocket P_C kur lidhen të tilla "
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -525,9 +494,8 @@ msgstr "Shtypësa"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Xhiro vetvetiu një program kur lidhet një _shtypës"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Pajisje Futjeje "
@@ -537,18 +505,16 @@ msgid "Keyboards"
 msgstr "Tastiera"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Xhiro vetvetiu një program kur lidhet një _tastierë USB"
+msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
 msgstr "Minj"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Xhiro vetvetiu një program kur lidhet një _mi USB"
+msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -565,60 +531,3 @@ msgstr "U_rdhër:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Dështoi në hapjen e shfletuesit të dokumentacionit"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Dështoi në hapje ekrani"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Ekipi zhvillues i Thunar-it. Tërë të drejtat të rezervuara."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Shkruar nga Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "UDI \"%s\" e dhënë nuk është pajisje e vlefshme HAL UDI"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Vëllim i koduar"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Po montohet vëllim i koduar...</"
-#~ "span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Po rregullon shtresën e kodimit..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Nuk keni privilegje për të rregulluar shtresën e kodimit"
-
-#~ msgid "Wrong password"
-#~ msgstr "Fjalëkalim i gabuar"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Fjalëkalim i gabuar.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Ky vëllim është i koduar.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr ""
-#~ "Ju lutem jepni fjalëkalimin tuaj për çkodimin dhe montimin e vëllimit."
-
-#~ msgid "_Mount"
-#~ msgstr "_Montoje"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Dështoi në rregullimin e vëllimit të koduar"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Zgjidhni Tip Disku"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Krijo _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Media të Heqshme"
