@@ -1,27 +1,29 @@
-# German translations for thunar-volman.
-# Copyright (C) 2007 Benedikt Meurer.
-# This file is distributed under the same license as the thunar-volman package.
-# Benedikt Meurer <benny@xfce.org>, 2007.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
+# Translators:
+# Benedikt Meurer <benny@xfce.org>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-02-01 10:24+0000\n"
-"PO-Revision-Date: 2007-01-15 21:19+0100\n"
-"Last-Translator: Benedikt Meurer <benny@xfce.org>\n"
-"Language-Team: German <de@li.org>\n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2013-11-19 14:37+0000\n"
+"Last-Translator: Nick <nick@xfce.org>\n"
+"Language-Team: German (http://www.transifex.com/projects/p/xfce/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: de\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
 msgstr "Der Sysfs-Pfad des neu hinzugefügten Geräts"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Handhabung von Wechseldatenträgern und -medien konfigurieren"
@@ -99,9 +101,7 @@ msgstr "Ein Medium mit Fotos wurde erkannt."
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
-"Auf diesem Medium sind Fotos vorhanden. Sollen diese Ihrem Fotoalbum "
-"hinzugefügt werden?"
+msgstr "Auf diesem Medium sind Fotos vorhanden. Sollen diese Ihrem Fotoalbum hinzugefügt werden?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -323,7 +323,7 @@ msgstr "Nicht unterstützter USB Gerätetyp"
 msgid "Thunar Volume Manager Settings"
 msgstr "Einstellungen der Thunar Datenträgerverwaltung"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Wechseldatenträger- und Medieneinstellungen"
@@ -506,8 +506,7 @@ msgstr "Tastaturen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr ""
-"Automatisch ein Programm ausführen, wenn eine USB-_Tastatur eingesteckt wird"
+msgstr "Automatisch ein Programm ausführen, wenn eine USB-_Tastatur eingesteckt wird"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
@@ -515,8 +514,7 @@ msgstr "Mäuse"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr ""
-"Automatisch ein Programm ausführen, wenn eine USB-_Maus eingesteckt wird"
+msgstr "Automatisch ein Programm ausführen, wenn eine USB-_Maus eingesteckt wird"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -524,8 +522,7 @@ msgstr "Grafiktablets"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr ""
-"Automatisch ein Programm ausführen, wenn ein _Grafiktablett eingesteckt wird"
+msgstr "Automatisch ein Programm ausführen, wenn ein _Grafiktablett eingesteckt wird"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
@@ -534,72 +531,3 @@ msgstr "Befe_hl:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Die Dokumentation konnte nicht angezeigt werden"
-
-#~ msgid "input-keyboard"
-#~ msgstr "Eingabe-Tastatur"
-
-#~ msgid "input-tablet"
-#~ msgstr "Tabletts"
-
-#~ msgid "input-mouse"
-#~ msgstr "Eingabe-Maus"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Konnte keine Verbindung zum XServer herstellen"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Die Thunar Entwickler. Alle Rechte vorbehalten."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Entwickelt von Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "Der angegebene UDI »%s« ist kein gültiger HAL UDI"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Verschlüsselter Datenträger"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Verschlüsselten Datenträger "
-#~ "einhängen...</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Verschlüsselungsschicht aufsetzen..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr ""
-#~ "Sie sind nicht dazu berechtigt, die Verschlüsselungsschicht einzurichten"
-
-#~ msgid "Wrong password"
-#~ msgstr "Falsches Passwort"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Falsches Passwort.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Dieser Datenträger ist "
-#~ "verschlüsselt.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr ""
-#~ "Bitte geben Sie Ihr Passwort ein, um den Datenträger zu entschlüsseln und "
-#~ "einzuhängen."
-
-#~ msgid "_Mount"
-#~ msgstr "_Einhängen"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Konnte den verschlüsselten Datenträger nicht einrichten"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Medientyp auswählen"
-
-#~ msgid "Make _DVD"
-#~ msgstr "_DVD brennen"
-
-#~ msgid "Removable Media"
-#~ msgstr "Wechselmedien"
