@@ -1,30 +1,30 @@
-# Norwegian Bokmal translations for thunar-volman package.
-# Copyright (C) 2007 THE thunar-volman'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the thunar-volman package.
-# Terje Uriansrud <ter@operamail.com>, 2007.
-# Terje Uriansrud <terje@uriansrud.net>, 2009.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Terje Uriansrud <terje@uriansrud.net>, 2009
+# Terje Uriansrud <ter@operamail.com>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-01-16 17:51+0100\n"
-"PO-Revision-Date: 2007-07-01 20:42+0200\n"
-"Last-Translator: Terje Uriansrud <terje@uriansrud.net>\n"
-"Language-Team: Norwegian Bokmal\n"
-"Language: \n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2013-11-19 14:37+0000\n"
+"Last-Translator: Nick <nick@xfce.org>\n"
+"Language-Team: Norwegian Bokmål (http://www.transifex.com/projects/p/xfce/language/nb/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: nb\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
-#, fuzzy
 msgid "The syfs path of the newly added device"
-msgstr "HAL enhetens UDI for enheten som er lagt til"
+msgstr ""
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Konfigurer oppsett for avmonterbare stasjoner og media"
@@ -53,9 +53,9 @@ msgid "There is no device with the sysfs path \"%s\""
 msgstr ""
 
 #: ../thunar-volman/main.c:186
-#, fuzzy, c-format
+#, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Spesifisering av ny HAL enhet UDI må spesifiseres med --device-added"
+msgstr ""
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -63,9 +63,8 @@ msgid "Photos and Music"
 msgstr "Bilder og musikk"
 
 #: ../thunar-volman/tvm-block-device.c:205
-#, fuzzy
 msgid "Photos were found on your portable music player"
-msgstr "Bilder er funnet på din portable musikkavspiller."
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -96,17 +95,14 @@ msgid "Photo Import"
 msgstr "Bildeimport"
 
 #: ../thunar-volman/tvm-block-device.c:274
-#, fuzzy
 msgid "A photo card has been detected"
-msgstr "Et bildekort ble funnet."
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
-"Det finnes bilder på kortet. Ønsker du å legge til disse bildene ialbumet "
-"ditt?"
+msgstr "Det finnes bilder på kortet. Ønsker du å legge til disse bildene ialbumet ditt?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -195,14 +191,12 @@ msgid "Could not detect the volume corresponding to the device"
 msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:824
-#, fuzzy
 msgid "Audio/Data CD"
-msgstr "Lyd/data CD"
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:825
-#, fuzzy
 msgid "The CD in the drive contains both music and files"
-msgstr "CD'en i enheten inneholder både musikk og filer."
+msgstr ""
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
@@ -226,39 +220,22 @@ msgstr ""
 msgid "Device type not supported"
 msgstr ""
 
-#: ../thunar-volman/tvm-input-device.c:74
-#, fuzzy
-msgid "input-keyboard"
-msgstr "Tastatur"
-
 #: ../thunar-volman/tvm-input-device.c:75
-#, fuzzy
 msgid "Keyboard detected"
-msgstr "Tastatur"
+msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:76
-#, fuzzy
 msgid "A keyboard was detected"
-msgstr "Et bildekort ble funnet."
-
-#: ../thunar-volman/tvm-input-device.c:86
-#: ../thunar-volman/tvm-input-device.c:100
-msgid "input-tablet"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
-#, fuzzy
 msgid "Tablet detected"
-msgstr "Automatisk kjøreegenskap funnet"
+msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
-
-#: ../thunar-volman/tvm-input-device.c:110
-msgid "input-mouse"
 msgstr ""
 
 #: ../thunar-volman/tvm-input-device.c:111
@@ -284,9 +261,8 @@ msgid "Blank DVD inserted"
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:190
-#, fuzzy
 msgid "You have inserted a blank DVD."
-msgstr "Du har satt inn en tom plate."
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -297,24 +273,20 @@ msgid "Burn _DVD"
 msgstr ""
 
 #: ../thunar-volman/tvm-run.c:200
-#, fuzzy
 msgid "Blank CD inserted"
-msgstr "Blanke CD'er og DVD'er"
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:201
-#, fuzzy
 msgid "You have inserted a blank CD."
-msgstr "Du har satt inn en tom plate."
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:204
-#, fuzzy
 msgid "Burn _Data CD"
-msgstr "Lag en _datacd"
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:205
-#, fuzzy
 msgid "Burn _Audio CD"
-msgstr "Lag en _lydcd"
+msgstr ""
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -331,9 +303,8 @@ msgid "Camera detected"
 msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:63
-#, fuzzy
 msgid "A photo camera was detected"
-msgstr "Et bildekort ble funnet."
+msgstr ""
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
@@ -350,11 +321,10 @@ msgstr ""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
-#, fuzzy
 msgid "Thunar Volume Manager Settings"
-msgstr "Thunar enhetsbehandler"
+msgstr ""
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Avmonterbare Enheter og media"
@@ -387,9 +357,8 @@ msgstr "Rudy skript"
 msgid "Shell Scripts"
 msgstr "Skallskript"
 
-#.
 #. Storage
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Lagring"
@@ -434,9 +403,8 @@ msgstr "Kommando for _data CD'er:"
 msgid "Command for A_udio CDs:"
 msgstr "Kommando for _lydcd'er:"
 
-#.
 #. Multimedia
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -480,9 +448,8 @@ msgstr "Portable musikkspillere"
 msgid "Play _music files when connected"
 msgstr "Spill _musikkfiler ved tilkobling"
 
-#.
 #. Cameras
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kamera"
@@ -495,9 +462,8 @@ msgstr "Digitale kameraer"
 msgid "Import digital photographs when connected"
 msgstr "Importer digitale bilder ved tilkobling"
 
-#.
 #. PDAs
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA'er"
@@ -518,9 +484,8 @@ msgstr "Pocket PC'er"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Synkronser Pocket P_C enheter ved tilkobling"
 
-#.
 #. Printers
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -530,9 +495,8 @@ msgstr "Skrivere"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Kjør et program automatisk når en _skriver kobles til"
 
-#.
 #. Input Devices
-#.
+#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Innenheter"
@@ -542,18 +506,16 @@ msgid "Keyboards"
 msgstr "Tastatur"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
-#, fuzzy
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Kjør et program automatisk når et USB _tastatur kobles til"
+msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
 msgstr "Mus"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
-#, fuzzy
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Kjør et program automatisk når en USB _mus kobles til"
+msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -570,60 +532,3 @@ msgstr "Kom_mando:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Klarte ikke åpne dokumentasjonsnavigatoren"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Klarte ikke åpne skjerm"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Thunar utvikliingsteam. Alle rettigheter reservert."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Skrevet av Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "Den spesifiserte UDI \"%s\" er ikke en gyldig HAL enhets UDI"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Kryptert dataområde"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Monterer kryptert dataområde...</"
-#~ "span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Setter opp kryptografilag..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Du har ikke rettigheter til å sette opp kryptografilaget"
-
-#~ msgid "Wrong password"
-#~ msgstr "Feil passord"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Feil passord.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Dette dataområdet er kryptert.</"
-#~ "span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Skriv inn passordet for å dekryptere og montere dataområdet."
-
-#~ msgid "_Mount"
-#~ msgstr "_Monter"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Klarte ikke sette opp det krypterte dataområdet"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Velg disktype"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Lag _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Avmonterbare media"
