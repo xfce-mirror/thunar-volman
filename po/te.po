@@ -1,20 +1,21 @@
-# Xfce Telugu Translation.
-# Copyright (C) 2011 Telugu Linux Development Team.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Praveen Illa <mail2ipn@gmail.com>, 2011.
 # 
+# Translators:
+# ప్రవీణ్ ఇళ్ళ <mail2ipn@gmail.com>, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman.master\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-11 17:39+0000\n"
-"PO-Revision-Date: 2011-07-13 20:13+0530\n"
-"Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
-"Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2013-11-19 14:37+0000\n"
+"Last-Translator: Nick <nick@xfce.org>\n"
+"Language-Team: Telugu (http://www.transifex.com/projects/p/xfce/language/te/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: \n"
+"Language: te\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../thunar-volman/main.c:59
@@ -22,7 +23,7 @@ msgid "The syfs path of the newly added device"
 msgstr ""
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr ""
@@ -322,7 +323,7 @@ msgstr "సహకారము లేని USB పరికర రకము"
 msgid "Thunar Volume Manager Settings"
 msgstr "తునార్ సంపుట నిర్వాహకము అమరికలు"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "తీసివేయదగిన డ్రైవులు మరియు మాధ్యమం"
@@ -530,12 +531,3 @@ msgstr "ఆదేశం (_m):"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "పత్రీకరణ విహారిణిని తెరుచుటలో విఫలమైంది"
-
-#~ msgid "input-keyboard"
-#~ msgstr "ఇన్‌పుట్-కీబోర్డు"
-
-#~ msgid "input-tablet"
-#~ msgstr "ఇన్‌పుట్-టాబ్లెట్"
-
-#~ msgid "input-mouse"
-#~ msgstr "ఇన్‌పుట్-మౌస్"
