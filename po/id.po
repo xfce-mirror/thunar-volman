@@ -1,27 +1,29 @@
-# Indonesian translations for thunar-volman package.
-# Copyright (C) 2007 Benedikt Meurer.
-# This file is distributed under the same license as the thunar-volman package.
-# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
+# Translators:
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-03-23 13:09+0000\n"
-"PO-Revision-Date: 2008-09-03 21:13+0700\n"
-"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
-"Language-Team: Indonesian <id@li.org>\n"
+"POT-Creation-Date: 2013-09-21 00:30+0200\n"
+"PO-Revision-Date: 2013-11-19 13:17+0000\n"
+"Last-Translator: Xfce <transifex@xfce.org>\n"
+"Language-Team: Indonesian (http://www.transifex.com/projects/p/xfce/language/id/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: id\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../thunar-volman/main.c:59
-msgid "The syfs path of the newly added device"
-msgstr "Alamat sysfs dari divais yang baru ditambah"
+msgid "The sysfs path of the newly added device"
+msgstr ""
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Pengaturan manajemen dari media dan penggerak dapat dilepas"
@@ -99,8 +101,7 @@ msgstr "Kartu foto telah terdeteksi"
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
-"Ada foto di dalam kartu. Anda ingin menyertakan foto ini ke dalam album anda?"
+msgstr "Ada foto di dalam kartu. Anda ingin menyertakan foto ini ke dalam album anda?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -322,7 +323,7 @@ msgstr "Tipe divais USB \"%s\" tidak didukung"
 msgid "Thunar Volume Manager Settings"
 msgstr "Pengaturan Manajer Volume Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Media dan Penggerak Dapat Dilepas"
@@ -530,69 +531,3 @@ msgstr "Per_intah:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Gagal membuka peramban dokumentasi"
-
-#~ msgid "input-keyboard"
-#~ msgstr "masukan-papan ketik"
-
-#~ msgid "input-tablet"
-#~ msgstr "masukan-tablet"
-
-#~ msgid "input-mouse"
-#~ msgstr "masukan-tetikus"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Gagal membuka tampilan"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Tim pengembang Thunar. Hak cipta dilindungi undang-undang."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Ditulis oleh Benedikt Meurer <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "UDI \"%s\" yang ditentukan bukan UDI divais HAL yang sah"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Volume terenkripsi"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Mengaitkan volume terenkripsi...</"
-#~ "span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Mengatur lapisan kripto..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Anda tidak diizinkan untuk mengatur lapisan kripto"
-
-#~ msgid "Wrong password"
-#~ msgstr "Sandi lewat salah"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Sandi lewat salah.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Volume ini terenkripsi.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr ""
-#~ "Silakan masukkan sandi lewat anda untuk mendekripsi dan mengaitkan volume."
-
-#~ msgid "_Mount"
-#~ msgstr "_Kait"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Gagal untuk mengatur volume terenkripsi"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Pilih Tipe Cakram"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Buat _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Media Dapat Dilepas"
