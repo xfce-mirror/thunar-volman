@@ -1,28 +1,29 @@
-# Polish translations for thunar-volman.
-# Copyright (C) 2007 Benedikt Meurer.
-# This file is distributed under the same license as the thunar-volman package.
-# Szymon Kałasz <szymon_maestro@gazeta.pl>, 2007.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
 # 
+# Translators:
+# Szymon Kałasz <szymon_maestro@gazeta.pl>, 2007
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman 0.2.0\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-06 02:30+0000\n"
-"PO-Revision-Date: 2009-03-24 17:30+0100\n"
-"Last-Translator: Piotr Sokół <piotr.sokol@10g.pl>\n"
-"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2013-11-19 14:37+0000\n"
+"Last-Translator: Nick <nick@xfce.org>\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/xfce/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=((n==1) ? 0 : ((n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20)) ? 1 : 2));\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
 msgstr "Ścieżka sysfs nowo dodanego urządzenia"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "Konfiguruje zarządzanie wymiennymi nośnikami oraz urządzeniami"
@@ -322,7 +323,7 @@ msgstr "Nieobsługiwany typ urządzenia USB"
 msgid "Thunar Volume Manager Settings"
 msgstr "Preferencje menedżera wolumenów programu Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "Napędy i nośniki wymienne"
@@ -379,8 +380,7 @@ msgstr "P_rzeglądanie nośników wymiennych po umieszczeniu w napędzie"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr ""
-"_Automatyczne uruchamianie programów zamieszczonych na napędach i nośnikach"
+msgstr "_Automatyczne uruchamianie programów zamieszczonych na napędach i nośnikach"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
@@ -531,62 +531,3 @@ msgstr "Po_lecenie:"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
 msgstr "Nie udało się uruchomić przeglądarki dokumentacji"
-
-#~ msgid "input-keyboard"
-#~ msgstr "Klawiatury"
-
-#~ msgid "Failed to open display"
-#~ msgstr "Nie udało się otworzyć ekranu"
-
-#~ msgid "The Thunar development team. All rights reserved."
-#~ msgstr "Zespół programistów Thunara. Wszelkie prawa zastrzeżone."
-
-#~ msgid "Written by Benedikt Meurer <benny@xfce.org>."
-#~ msgstr "Napisany przez Benedikta Meurera <benny@xfce.org>."
-
-#~ msgid "The specified UDI \"%s\" is not a valid HAL device UDI"
-#~ msgstr "Podane UDI „%s” nie jest prawidłowym UDI urządzenia HAL"
-
-#~ msgid "Encrypted volume"
-#~ msgstr "Zaszyfrowany wolumen"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">Mounting encrypted volume...</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Montowanie zaszyfrowanego "
-#~ "woluminu...</span>"
-
-#~ msgid "Setting up the crypto layer..."
-#~ msgstr "Ustawianie powłoki szyfrującej..."
-
-#~ msgid "You are not privileged to setup the crypto layer"
-#~ msgstr "Brak uprawnień do skonfigurowania powłoki szyfrującej"
-
-#~ msgid "Wrong password"
-#~ msgstr "Niepoprawne hasło"
-
-#~ msgid "<span weight=\"bold\" size=\"larger\">Wrong password.</span>"
-#~ msgstr "<span weight=\"bold\" size=\"larger\">Niepoprawne hasło.</span>"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">This volume is encrypted.</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Wolumen jest zaszyfrowany.</span>"
-
-#~ msgid "Please enter your password to decrypt and mount the volume."
-#~ msgstr "Proszę wprowadzić hasło, aby odszyfrować i zamontować wolumen."
-
-#~ msgid "_Mount"
-#~ msgstr "_Zamontuj"
-
-#~ msgid "Failed to setup the encrypted volume"
-#~ msgstr "Nie udało się skonfigurować zaszyfrowanego wolumenu"
-
-#~ msgid "Choose Disc Type"
-#~ msgstr "Proszę wybrać typ dysku"
-
-#~ msgid "Make _DVD"
-#~ msgstr "Utwórz _DVD"
-
-#~ msgid "Removable Media"
-#~ msgstr "Wymienne napędy i nośniki"
