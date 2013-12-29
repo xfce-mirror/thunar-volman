@@ -4,13 +4,15 @@
 # 
 # Translators:
 # Benedikt Meurer <benny@xfce.org>, 2007
+# gem <eckert.georg@gmx.de>, 2013
+# to_ba, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2013-11-19 13:17+0000\n"
-"Last-Translator: Xfce <transifex@xfce.org>\n"
+"PO-Revision-Date: 2013-12-29 21:42+0000\n"
+"Last-Translator: to_ba\n"
 "Language-Team: German (http://www.transifex.com/projects/p/xfce/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +22,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr ""
+msgstr "Der Sysfs-Pfad des neu hinzugefügten Gerätes"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -212,12 +214,12 @@ msgstr "_CD wiedergeben"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr ""
+msgstr "Unbekannter Blockgerätetyp \"%s\""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr ""
+msgstr "Gerätetyp \"%s\" wird nicht unterstützt"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -248,7 +250,7 @@ msgstr "Eine Maus wurde erkannt"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr ""
+msgstr "Nicht unterstützter Eingabegerätetyp \"%s\""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -316,7 +318,7 @@ msgstr "Ein USB Drucker wurde erkannt"
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr ""
+msgstr "Nicht unterstützter USB-Gerätetyp \"%s\""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
