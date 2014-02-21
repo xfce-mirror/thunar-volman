@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# schizo <eveskovic@gmail.com>, 2014
 # Ivica  Kolić <ikoli@yahoo.com>, 2013
 # Ivica  Kolić <ikoli@yahoo.com>, 2011
 msgid ""
@@ -10,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2013-10-19 20:56+0000\n"
-"Last-Translator: Ivica  Kolić <ikoli@yahoo.com>\n"
+"PO-Revision-Date: 2014-02-21 14:26+0000\n"
+"Last-Translator: schizo <eveskovic@gmail.com>\n"
 "Language-Team: Croatian (http://www.transifex.com/projects/p/xfce/language/hr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,7 +22,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr ""
+msgstr "Syfs putanja novododanog uređaja"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -36,7 +37,7 @@ msgstr "Ispiši informacije o verziji i izađi"
 #. setup application name
 #: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr ""
+msgstr "Thunar upravitelj particijama"
 
 #: ../thunar-volman/main.c:121
 msgid "All rights reserved."
@@ -64,7 +65,7 @@ msgstr "Fotografije i glazba"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr ""
+msgstr "Pronađene su fotografije na vašem prijenosnom sviraču glazbe"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -92,11 +93,11 @@ msgstr "Upravljaj _glazbom"
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
 msgid "Photo Import"
-msgstr ""
+msgstr "Uvoz fotografija"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr ""
+msgstr "Otkrivena je kartica s fotografijama"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
@@ -110,7 +111,7 @@ msgstr "Ima fotografija na kartici.Želite li ih dodati u svoj album?"
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr ""
+msgstr "Želite li dozvoliti pokretanje \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -188,7 +189,7 @@ msgstr "Nije moguće montirati uređaj"
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Ne mogu otkriti particiju koja odgovara ovom uređaju"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
@@ -213,7 +214,7 @@ msgstr "_Izvodi CD"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr ""
+msgstr "Nepoznata vrsta uređaja za pohranjivanje \"%s\""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
@@ -236,7 +237,7 @@ msgstr "Tablet otkriven"
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "Otkriven je grafički tablet"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
@@ -249,7 +250,7 @@ msgstr "Miš je otkriven"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr ""
+msgstr "Nepodržana vrsta ulaznog uređaja \"%s\""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -358,7 +359,6 @@ msgid "Shell Scripts"
 msgstr "Skripte ljuske"
 
 #. Storage
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Pohrana"
@@ -369,7 +369,7 @@ msgstr "Uklonjiva pohrana"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr ""
+msgstr "_Montiraj uklonjivi pogon kada je umetnut"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
@@ -404,7 +404,6 @@ msgid "Command for A_udio CDs:"
 msgstr "Naredba< za a_udio CD-e:"
 
 #. Multimedia
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedija"
@@ -449,7 +448,6 @@ msgid "Play _music files when connected"
 msgstr "Izvodi _glazbene datoteka kada je spojen"
 
 #. Cameras
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kamere"
@@ -460,10 +458,9 @@ msgstr "Digitalne kamere"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr ""
+msgstr "Uvezi digitalne fotografije pri spajanju"
 
 #. PDAs
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDAs"
@@ -478,14 +475,13 @@ msgstr "Sinkroniziraj _Palm™ uređaje kada su spojeni"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
-msgstr ""
+msgstr "Džepna računala"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr ""
+msgstr "Sinkroniziraj džepne P_C uređaje kada su spojeni"
 
 #. Printers
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -496,7 +492,6 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "Automatski pokreni program kada je _pisač spojen"
 
 #. Input Devices
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Ulazni uređaji"
