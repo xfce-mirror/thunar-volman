@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2014-03-06 04:16+0000\n"
+"PO-Revision-Date: 2014-03-07 01:45+0000\n"
 "Last-Translator: truongap <truongap.ars@gmail.com>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/projects/p/xfce/language/vi/)\n"
 "MIME-Version: 1.0\n"
@@ -367,7 +367,7 @@ msgstr "Ổ lưu trữ có thể gỡ bỏ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr ""
+msgstr "Gắn kết ổ đĩa _rời khi được cắm nóng"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
@@ -391,15 +391,15 @@ msgstr "CD và DVD trống"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr ""
+msgstr "_Ghi đĩa CD hay DVD khi một đĩa trống được chèn vào"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr ""
+msgstr "Lệnh cho CD _dữ liệu:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr ""
+msgstr "Lệnh cho CD âm _thanh:"
 
 #. Multimedia
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
