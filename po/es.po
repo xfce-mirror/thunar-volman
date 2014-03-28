@@ -4,13 +4,13 @@
 # 
 # Translators:
 # Abel Martín <abel.martin.ruiz@gmail.com>, 2008,2011
-# Pablo Lezaeta <prflr88@gmail.com>, 2013
+# Pablo Lezaeta <prflr88@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2013-11-19 13:17+0000\n"
+"PO-Revision-Date: 2014-03-28 05:49+0000\n"
 "Last-Translator: Pablo Lezaeta <prflr88@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/xfce/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -358,7 +358,6 @@ msgid "Shell Scripts"
 msgstr "Scripts de shell"
 
 #. Storage
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Almacenamiento"
@@ -404,7 +403,6 @@ msgid "Command for A_udio CDs:"
 msgstr "Comando para los CD de a_udio:"
 
 #. Multimedia
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -449,7 +447,6 @@ msgid "Play _music files when connected"
 msgstr "Reproducir archivos de _música al ser conectado"
 
 #. Cameras
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Cámaras"
@@ -463,7 +460,6 @@ msgid "Import digital photographs when connected"
 msgstr "Importar fotografías digitales al ser conectada"
 
 #. PDAs
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -485,7 +481,6 @@ msgid "Sync Pocket P_C devices when connected"
 msgstr "Sincronizar dispositivos Pocket P_C al ser conectados"
 
 #. Printers
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -496,7 +491,6 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "Ejecutar automáticamente un programa al conectar una im_presora"
 
 #. Input Devices
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Dispositivos de entrada"
@@ -531,4 +525,4 @@ msgstr "Co_mando:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
-msgstr "Fallo al abrir el visor de documentación"
+msgstr "No se pudo abrir el visor de documentación"
