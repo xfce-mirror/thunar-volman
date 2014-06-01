@@ -12,9 +12,9 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2013-09-25 10:18+0000\n"
-"Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
-"Language-Team: Polish <xfce-i18n-pl@xfce.org>\n"
+"PO-Revision-Date: 2014-06-01 18:09+0000\n"
+"Last-Translator: OSWorld <michal.olber@osworld.pl>\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/thunar-volman/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -360,7 +360,6 @@ msgid "Shell Scripts"
 msgstr "Skrypty powłoki"
 
 #. Storage
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Nośniki pamięci"
@@ -406,7 +405,6 @@ msgid "Command for A_udio CDs:"
 msgstr "Polecenie dla płyt A_udio CD:"
 
 #. Multimedia
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -451,7 +449,6 @@ msgid "Play _music files when connected"
 msgstr "Odtwarzanie plików _muzycznych po podłączeniu"
 
 #. Cameras
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Aparaty fotograficzne"
@@ -465,7 +462,6 @@ msgid "Import digital photographs when connected"
 msgstr "Importowanie zdjęć po podłączeniu"
 
 #. PDAs
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -487,7 +483,6 @@ msgid "Sync Pocket P_C devices when connected"
 msgstr "S_ynchronizowanie po podłączeniu"
 
 #. Printers
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -498,7 +493,6 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "_Uruchamianie programu po podłączeniu"
 
 #. Input Devices
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Urządzenia wejściowe"
