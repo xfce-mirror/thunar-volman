@@ -5,15 +5,16 @@
 # Translators:
 # jc1 <jc1.quebecos@gmail.com>, 2013
 # jc1 <jc1.quebecos@gmail.com>, 2013
-# Urides <urien.desterres@gmail.com>, 2014
+# Urien Desterres <urien.desterres@gmail.com>, 2014
+# Yannick Le Guen <leguen.yannick@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2014-04-17 11:20+0000\n"
-"Last-Translator: Urides <urien.desterres@gmail.com>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/xfce/language/fr/)\n"
+"PO-Revision-Date: 2014-07-17 09:59+0000\n"
+"Last-Translator: Yannick Le Guen <leguen.yannick@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/projects/p/thunar-volman/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,7 +33,7 @@ msgstr "Configurer la gestion des disques amovibles et des médias"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr "Afficher la version et quitter"
+msgstr "Afficher les informations sur la version et quitter"
 
 #. setup application name
 #: ../thunar-volman/main.c:93
@@ -46,17 +47,17 @@ msgstr "Tous droits réservés."
 #: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr "S'il vous plait rapporter les bogues à <%s>."
+msgstr "Veuillez signaler les bogues à <%s>."
 
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Il n'y a pas de périphérique correspondant au chemin sysfs « %s »"
+msgstr "Il n'y a aucun périphérique avec le chemin sysfs « %s »"
 
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Spécifier le chemin sysfs des nouveaux périphériques avec l'iption --device-added"
+msgstr "Spécifier le chemin sysfs des nouveaux périphériques avec l'option --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -97,7 +98,7 @@ msgstr "Importer des photos"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr "Une carte mémoire a été détectée."
+msgstr "Une carte mémoire a été détectée"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
@@ -111,7 +112,7 @@ msgstr "Des photos se trouvent sur la carte. Voulez-vous les ajouter à votre al
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "Permettez-vous l'exécution de « %s » ?"
+msgstr "Autorisez-vous l'exécution de « %s » ?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -126,7 +127,7 @@ msgstr "Possibilité d'auto-exécution détectée"
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
-msgstr "_Permettre l'auto-exécution"
+msgstr "_Autoriser l'auto-exécution"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:502
@@ -189,7 +190,7 @@ msgstr "Impossible de monter le périphérique"
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr "Ne peux pas détecter le volume correspondant au périphérique"
+msgstr "Impossible de détecter le volume correspondant au périphérique"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
@@ -219,7 +220,7 @@ msgstr "Type de périphérique bloc inconnu « %s »"
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr "Type de périphérique « %s » non supporté"
+msgstr "Type de périphérique « %s » non pris en charge"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -250,7 +251,7 @@ msgstr "Une souris a été détectée"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr "Périphérique d'entrée non supporté « %s »"
+msgstr "Périphérique d'entrée de type « %s » non pris en charge"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -283,7 +284,7 @@ msgstr "Vous avez inséré un CD vierge."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
-msgstr "Créer un CD de données"
+msgstr "Créer un CD de _données"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
@@ -313,12 +314,12 @@ msgstr "Imprimante détectée"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr "Une imprimante USB a été détecté"
+msgstr "Une imprimante USB a été détectée"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr "Type de périphérique USB non supporté « %s »"
+msgstr "Périphérique USB de type « %s » non pris en charge"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
