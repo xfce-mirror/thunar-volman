@@ -3,16 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Tornes Llume <l.lumex03.tornes@gmail.com>, 2014
-# Tornes Llume <l.lumex03.tornes@gmail.com>, 2014
+# Ḷḷumex03 <tornes@opmbx.org>, 2014
+# Ḷḷumex03 <tornes@opmbx.org>, 2014
+# Ḷḷumex03 <tornes@opmbx.org>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-02 23:06+0200\n"
-"PO-Revision-Date: 2014-04-13 16:25+0000\n"
-"Last-Translator: Tornes Llume <l.lumex03.tornes@gmail.com>\n"
-"Language-Team: Asturian (http://www.transifex.com/projects/p/xfce/language/ast/)\n"
+"PO-Revision-Date: 2014-11-14 00:23+0000\n"
+"Last-Translator: Ḷḷumex03 <tornes@opmbx.org>\n"
+"Language-Team: Asturian (http://www.transifex.com/projects/p/thunar-volman/language/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,17 +22,17 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The syfs path of the newly added device"
-msgstr "El camín de sysfs nel preséu amestáu nuevu"
+msgstr "El camín sysfs del preséu amestáu nuevu"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
-msgstr "Configurar l'alministración de preseos estrayibles y multimedia"
+msgstr "Configurar l'alministración de preseos estrayibles y medios"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr "Amosar la información de versión y colar"
+msgstr "Amuesa la información de versión y cola"
 
 #. setup application name
 #: ../thunar-volman/main.c:93
@@ -50,12 +51,12 @@ msgstr "Por favor, informa de fallos a <%s>."
 #: ../thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Nun hai preséu col camín sysfs \"%s\""
+msgstr "Nun hai dengún preséu col camín sysfs \"%s\""
 
 #: ../thunar-volman/main.c:186
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Tien d'especificase'l camín sysfs de preseos nuevos con --device-added"
+msgstr "Tien d'especificase'l camín sysfs de los preseos nuevos con --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -83,11 +84,11 @@ msgstr "I_norar"
 #: ../thunar-volman/tvm-block-device.c:209
 #: ../thunar-volman/tvm-block-device.c:278
 msgid "Import _Photos"
-msgstr "Importar les seme_yes"
+msgstr "Importar seme_yes"
 
 #: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
-msgstr "Alministrar la _música"
+msgstr "Alministrar _música"
 
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
@@ -110,22 +111,22 @@ msgstr "Hai semeyes na tarxeta. ¿Prestaríate amestar estes semeyes al to álbu
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "¿Prestaríate permitir que \"%s\" s'execute?"
+msgstr "¿Prestaríate permitir que s'execute \"%s\" ?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
 msgid "Auto-Run Confirmation"
-msgstr "Confirmación d'auto-execución"
+msgstr "Confirmación d'execución automática"
 
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run capability detected"
-msgstr "Capacidá d'auto-execución deteutada"
+msgstr "Capacidá d'execución automática deteutada"
 
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
-msgstr "Permitir l'_auto-execución"
+msgstr "Permitir la execución automática"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:502
@@ -135,11 +136,11 @@ msgstr "¿Prestaríate abrir \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
-msgstr "Confirmación d'auto-apertura"
+msgstr "Confirmación d'apertura automática"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
-msgstr "Capacidá d'auto-apertura deteutada"
+msgstr "Capacidá d'apertura automática deteutada"
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
@@ -155,11 +156,11 @@ msgstr "DVD montáu"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr "El CD fo montáu automáticamente"
+msgstr "El CD montóse automáticamente"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr "El DVD fo montáu automáticamente"
+msgstr "El DVD montóse automáticamente"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
@@ -168,12 +169,12 @@ msgstr "Volume montáu"
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "El volume \"%s\" fo montáu automáticamente"
+msgstr "El volume \"%s\" montóse automáticamente"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr "El volume inxertáu fo montáu automáticamente"
+msgstr "El volume inxertáu montóse automáticamente"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
@@ -327,7 +328,7 @@ msgstr "Axustes del alministrador de volumes Thunar"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
-msgstr "Preseos y soportes estrayíbles"
+msgstr "Preseos y medios estrayíbles"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
@@ -372,19 +373,19 @@ msgstr "_Montar los preseos estrayíbles al coneutase"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
-msgstr "Montar unidá estrayíble al _inxertala"
+msgstr "Montar mediu estrayíble al _inxertalu"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "B_rowse removable media when inserted"
-msgstr "Res_tolar unidá estrayíble al inxertala"
+msgstr "Res_tolar mediu estrayíble al inxertalu"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr "_Auto-execución de programes en nuevos preseos y unidaes"
+msgstr "Execución _automática de programes en preseos y medios nuevos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
-msgstr "Auto-apertura de ficheros en preseos y unidaes nuevos"
+msgstr "Apertura automática de ficheros en preseos y medios nuevos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
@@ -413,7 +414,7 @@ msgstr "CDs d'audiu"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr "Reproducir CDs d'_audiu al inxertar"
+msgstr "Reproducir CDs d'_audiu cuando s'inxerten"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -429,7 +430,7 @@ msgstr "CDs/DVDs de vídeu"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "Reproducir CDs y DVDs de _vídeu cuando s'inxerten"
+msgstr "Reproducir CDs y DVDs de _videu cuando s'inxerten"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
@@ -444,7 +445,7 @@ msgstr "Reproductor de música portátil"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
-msgstr "Reproducir ficheros de _música al coneutar"
+msgstr "Reproducir ficheros de _música cuando se coneute"
 
 #. Cameras
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
@@ -457,7 +458,7 @@ msgstr "Cámares dixitales"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr "Importar semeyes dixitales al coneutar"
+msgstr "Importar semeyes dixitales al coneutar la cámara"
 
 #. PDAs
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
@@ -470,7 +471,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
-msgstr "Sincronizar preseos _Palm™ al coneutar"
+msgstr "Sincronizar preseos _Palm™ al coneutalos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
@@ -478,7 +479,7 @@ msgstr "Pocket PCs"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Sincronizar preseos Pocket P_C al coneutar"
+msgstr "Sincronizar preseos Pocket P_C al coneutalos"
 
 #. Printers
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
@@ -513,11 +514,11 @@ msgstr "Executar automáticamente un programa al coneutar un _mur USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
-msgstr "Tableta gráfica"
+msgstr "Tableta"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "Executar automáticamente un programa al coneutar una _tableta gráfica"
+msgstr "Executar automáticamente un programa al coneutar una _tableta"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
