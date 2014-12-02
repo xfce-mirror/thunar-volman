@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2014-09-08 16:10+0000\n"
+"PO-Revision-Date: 2014-12-02 04:25+0000\n"
 "Last-Translator: Pablo Roberto Francisco Lezaeta Reyes <prflr88@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/thunar-volman/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -214,7 +214,7 @@ msgstr "_Reproducir CD"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr "Dispositivo por tipo de bloque \"%s\" desconocido"
+msgstr "Dispositivo por tipo de bloque  «%s» desconocido"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
