@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Efstathios Iosifidis <iefstathios@gmail.com>, 2014
 # ebal <ebalaskas@ebalaskas.gr>, 2009
 # George Vasilakos <forfolias@gmail.com>, 2011
 # Stavros Giannouris <stavrosg@hellug.gr>, 2009,2011
@@ -11,9 +12,9 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2013-11-19 13:17+0000\n"
-"Last-Translator: Xfce <transifex@xfce.org>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/xfce/language/el/)\n"
+"PO-Revision-Date: 2014-12-26 20:09+0000\n"
+"Last-Translator: Efstathios Iosifidis <iefstathios@gmail.com>\n"
+"Language-Team: Greek (http://www.transifex.com/projects/p/thunar-volman/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,7 +23,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr ""
+msgstr "Η διαδρομή sysfs της συσκευής που προστέθηκε πρόσφατα"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -214,12 +215,12 @@ msgstr "Ανα_παραγωγή CD"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr ""
+msgstr "Άγνωστος τύπος συσκευής μπλοκ \"%s\""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr ""
+msgstr "Ο τύπος συσκευής \"%s\" δεν υποστηρίζεται"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -250,7 +251,7 @@ msgstr "Εντοπίστηκε ένα ποντίκι"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr ""
+msgstr "Μη υποστηριζόμενη συσκευή εισόδου \"%s\""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -318,7 +319,7 @@ msgstr "Εντοπίστηκε ένας USB εκτυπωτής"
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr ""
+msgstr "Μη υποστιριζόμενος τύπος USB συσκευής \"%s\""
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
@@ -359,7 +360,6 @@ msgid "Shell Scripts"
 msgstr "Δέσμες ενεργειών κέλυφους"
 
 #. Storage
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Μέσο αποθήκευσης"
@@ -405,7 +405,6 @@ msgid "Command for A_udio CDs:"
 msgstr "Εντολή για CD ή_χου:"
 
 #. Multimedia
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Πολυμέσα"
@@ -450,7 +449,6 @@ msgid "Play _music files when connected"
 msgstr "Αναπαραγωγή _μουσικών αρχείων όταν συνδεθούν"
 
 #. Cameras
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Φωτογραφικές μηχανές"
@@ -464,7 +462,6 @@ msgid "Import digital photographs when connected"
 msgstr "Εισαγωγή ψηφιακών φωτογραφιών όταν συνδεθούν "
 
 #. PDAs
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -486,7 +483,6 @@ msgid "Sync Pocket P_C devices when connected"
 msgstr "Συγχρονισμός _συσκευών Pocket PC όταν συνδεθεί"
 
 #. Printers
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -497,7 +493,6 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "Αυτόματη εκτέλεση προγράμματος όταν συνδεθεί ένας ε_κτυπωτής"
 
 #. Input Devices
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Συσκευές εισόδου"
