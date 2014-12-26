@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2014-12-02 04:25+0000\n"
+"PO-Revision-Date: 2014-12-26 06:17+0000\n"
 "Last-Translator: Pablo Roberto Francisco Lezaeta Reyes <prflr88@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/thunar-volman/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr "La ruta sysfs al nuevo dispositivo creado"
+msgstr "La ruta sysfs para el nuevo dispositivo creado"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -126,7 +126,7 @@ msgstr "Capacidad de auto-ejecución detectada"
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
-msgstr "Permitir la _auto-ejecución"
+msgstr "Permitir la _autoejecución"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:502
@@ -136,7 +136,7 @@ msgstr "¿Quiere abrir «%s»?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
-msgstr "Confirmación de auto-apertura"
+msgstr "Confirmación de autoapertura"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
@@ -344,19 +344,19 @@ msgstr "Archivos ejecutables"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:270
 msgid "Perl Scripts"
-msgstr "Scripts en Perl"
+msgstr "Intérprete de órdenes en Perl"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:276
 msgid "Python Scripts"
-msgstr "Scripts en Python"
+msgstr "Intérprete de órdenes en Python"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:282
 msgid "Ruby Scripts"
-msgstr "Scripts en Ruby"
+msgstr "Intérprete de órdenes en Ruby"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:288
 msgid "Shell Scripts"
-msgstr "Scripts de shell"
+msgstr "Intérprete de órdenes"
 
 #. Storage
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
@@ -381,11 +381,11 @@ msgstr "E_xaminar soportes extraíbles al insertarlos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr "_Auto-ejecución de programas en nuevos soportes y unidades"
+msgstr "_Autoejecución de programas en nuevos soportes y unidades"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
-msgstr "Auto-apertura de archivos en nuevos soportes y unidades"
+msgstr "Autoapertura de archivos en nuevos soportes y unidades"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
