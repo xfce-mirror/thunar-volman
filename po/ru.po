@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Lowrider <pams@imail.ru>, 2015
 # Pavel Labushev <p.labushev@gmail.com>, 2009
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-02 23:06+0200\n"
-"PO-Revision-Date: 2013-11-19 14:37+0000\n"
-"Last-Translator: Nick <nick@xfce.org>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/xfce/language/ru/)\n"
+"PO-Revision-Date: 2015-01-18 11:34+0000\n"
+"Last-Translator: Lowrider <pams@imail.ru>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/thunar-volman/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,7 +27,7 @@ msgstr "Путь в sysfs для только что добавленного у
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
-msgstr "Настроить управление томами"
+msgstr "Управление съёмными устройствами и накопителями"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -35,7 +36,7 @@ msgstr "Вывести информацию о версии и завершит�
 #. setup application name
 #: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr "Менеджер томов для Thunar"
+msgstr "Диспетчер томов для Thunar"
 
 #: ../thunar-volman/main.c:119
 msgid "All rights reserved."
@@ -95,13 +96,13 @@ msgstr "Импорт фотографий"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr "Обнаружена флеш-карта с фотографиями"
+msgstr "Обнаружена карта памяти с фотографиями"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr "На флэш-карте обнаружены фотографии. Хотите добавить их в альбом?"
+msgstr "На карте памяти обнаружены фотографии. Хотите добавить их в альбом?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -357,7 +358,6 @@ msgid "Shell Scripts"
 msgstr "Сценарии Shell"
 
 #. Storage
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Накопители"
@@ -403,7 +403,6 @@ msgid "Command for A_udio CDs:"
 msgstr "Команда для записи _аудио"
 
 #. Multimedia
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Мультимедиа"
@@ -448,7 +447,6 @@ msgid "Play _music files when connected"
 msgstr "Проигрывать файлы с _музыкой при подключении плеера"
 
 #. Cameras
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Камеры"
@@ -462,7 +460,6 @@ msgid "Import digital photographs when connected"
 msgstr "_Импортировать цифровые фотографии при подключении камеры"
 
 #. PDAs
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "КПК"
@@ -484,7 +481,6 @@ msgid "Sync Pocket P_C devices when connected"
 msgstr "Синхронизировать _КПК при подключении"
 
 #. Printers
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -495,7 +491,6 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "Запускать приложение при подключении _принтера"
 
 #. Input Devices
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Устройства ввода"
