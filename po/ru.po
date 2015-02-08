@@ -4,15 +4,15 @@
 # 
 # Translators:
 # Pavel Labushev <p.labushev@gmail.com>, 2009
-# asvl <alyoshin.s@gmail.com>, 2013
+# Sergey Alyoshin <alyoshin.s@gmail.com>, 2013,2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2013-09-22 16:20+0000\n"
-"Last-Translator: asvl <alyoshin.s@gmail.com>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/xfce/language/ru/)\n"
+"PO-Revision-Date: 2015-02-08 13:09+0000\n"
+"Last-Translator: Sergey Alyoshin <alyoshin.s@gmail.com>\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/thunar-volman/language/ru/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,7 +27,7 @@ msgstr "Путь в sysfs для только что добавленного у
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
-msgstr "Настроить управление томами"
+msgstr "Управление съёмными устройствами и накопителями"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -50,7 +50,7 @@ msgstr "Пожалуйста, сообщайте об ошибках по адр
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Не найдено устройства по системному пути \"%s\""
+msgstr "Не найдено устройства по системному пути «%s»"
 
 #: ../thunar-volman/main.c:188
 #, c-format
@@ -96,13 +96,13 @@ msgstr "Импорт фотографий"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr "Обнаружена флеш-карта с фотографиями"
+msgstr "Обнаружена карта памяти с фотографиями"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr "На флэш-карте обнаружены фотографии. Хотите добавить их в альбом?"
+msgstr "На карте памяти обнаружены фотографии. Хотите добавить их в альбом?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -168,7 +168,7 @@ msgstr "Том подключен"
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "Том \"%s\" подключен автоматически"
+msgstr "Том «%s» подключен автоматически"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
@@ -249,7 +249,7 @@ msgstr "Обнаружена мышь"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr "Неизвестный тип устройства ввода «%s»"
+msgstr "Неподдерживаемое устройство ввода «%s»"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -274,11 +274,11 @@ msgstr "Записать DVD (_Д)"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
-msgstr "Вставлен чистый CD"
+msgstr "Вставлен чистый CD-диск"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
-msgstr "Вы вставили чистый CD."
+msgstr "Вы вставили чистый CD-диск."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
@@ -317,17 +317,17 @@ msgstr "Обнаружен USB-принтер"
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr "Неподдерживаемое устройство USB «%s»"
+msgstr "Неподдерживаемое USB-устройство «%s»"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
-msgstr "Параметры Менеджера томов Thunar"
+msgstr "Параметры менеджера томов Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
-msgstr "Съемные устройства и носители данных"
+msgstr "Съёмные устройства и носители данных"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
@@ -358,7 +358,6 @@ msgid "Shell Scripts"
 msgstr "Сценарии Shell"
 
 #. Storage
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Накопители"
@@ -404,7 +403,6 @@ msgid "Command for A_udio CDs:"
 msgstr "Команда для записи _аудио"
 
 #. Multimedia
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Мультимедиа"
@@ -438,7 +436,7 @@ msgstr "При обнаружении проигрывать диски с _ви
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:505
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:640
 msgid "C_ommand:"
-msgstr "К_оманда:"
+msgstr "Кома_нда:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:343
 msgid "Portable Music Players"
@@ -449,7 +447,6 @@ msgid "Play _music files when connected"
 msgstr "Проигрывать файлы с _музыкой при подключении плеера"
 
 #. Cameras
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Камеры"
@@ -460,10 +457,9 @@ msgstr "Цифровые камеры"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr "_Импортировать цифровые фотографии при подключении камеры"
+msgstr "Импортировать цифровые _фотографии при подключении камеры"
 
 #. PDAs
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "КПК"
@@ -485,7 +481,6 @@ msgid "Sync Pocket P_C devices when connected"
 msgstr "Синхронизировать _КПК при подключении"
 
 #. Printers
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -496,7 +491,6 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "Запускать приложение при подключении _принтера"
 
 #. Input Devices
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Устройства ввода"
@@ -507,7 +501,7 @@ msgstr "Клавиатуры"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Запускать приложение при подключении USB-_клавиатуры"
+msgstr "Запускать приложение при подключении USB-к_лавиатуры"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
@@ -515,7 +509,7 @@ msgstr "Мыши"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Запускать приложение при подключении USB-_мыши"
+msgstr "Запускать приложение при подключении USB-мы_ши"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -527,7 +521,7 @@ msgstr "Запускать приложение при подключении _�
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
-msgstr "Ко_манда:"
+msgstr "Кома_нда:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:755
 msgid "Failed to open the documentation browser"
