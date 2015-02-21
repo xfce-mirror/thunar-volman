@@ -4,15 +4,16 @@
 # 
 # Translators:
 # Abel Martín <abel.martin.ruiz@gmail.com>, 2008,2011
-# Adolfo Jayme Barrientos <fito@libreoffice.org>, 2014
+# Adolfo Jayme Barrientos, 2014
+# Adolfo Jayme Barrientos, 2014
 # Pablo Roberto Francisco Lezaeta Reyes <prflr88@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2014-12-26 06:17+0000\n"
-"Last-Translator: Pablo Roberto Francisco Lezaeta Reyes <prflr88@gmail.com>\n"
+"PO-Revision-Date: 2015-02-21 20:02+0000\n"
+"Last-Translator: Manolo Díaz <diaz.manolo@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/thunar-volman/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +57,7 @@ msgstr "No existe el dispositivo con la ruta de sysfs «%s»"
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Debe especificar el nuevo UDI de dispositivo HAL con --device-added"
+msgstr "Debe especificar la ruta sysfs del nuevo dispositivo con --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -116,12 +117,12 @@ msgstr "¿Desea permitir que se ejecute «%s»?"
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
 msgid "Auto-Run Confirmation"
-msgstr "Confirmación de auto-ejecución"
+msgstr "Confirmación de autoejecución"
 
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run capability detected"
-msgstr "Capacidad de auto-ejecución detectada"
+msgstr "Capacidad de autoejecución detectada"
 
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
@@ -140,7 +141,7 @@ msgstr "Confirmación de autoapertura"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
-msgstr "Capacidad de auto-apertura detectada"
+msgstr "Capacidad de autoapertura detectada"
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
@@ -214,7 +215,7 @@ msgstr "_Reproducir CD"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr "Dispositivo por tipo de bloque  «%s» desconocido"
+msgstr "Dispositivo por tipo de bloque «%s» desconocido"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
