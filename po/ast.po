@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# enolp <enolp@softastur.org>, 2014
+# enolp <enolp@softastur.org>, 2014-2015
 # Ḷḷumex03 <tornes@opmbx.org>, 2014
 # Ḷḷumex03 <tornes@opmbx.org>, 2014
 # Ḷḷumex03 <tornes@opmbx.org>, 2014
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2014-12-13 21:29+0000\n"
+"PO-Revision-Date: 2015-02-23 00:14+0000\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
 "Language-Team: Asturian (http://www.transifex.com/projects/p/thunar-volman/language/ast/)\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr "Amuesa la información de versión y cola"
 #. setup application name
 #: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr "Alministrador de volúmenes de Thunar"
+msgstr "Xestor de volúmenes Thunar"
 
 #: ../thunar-volman/main.c:121
 msgid "All rights reserved."
@@ -324,7 +324,7 @@ msgstr "Triba de preséu USB \"%s\" non sofitada"
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
-msgstr "Axustes del alministrador de volumes Thunar"
+msgstr "Axustes del xestor de volúmenes Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
