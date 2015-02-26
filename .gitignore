@@ -8,6 +8,7 @@
 .libs
 aclocal.m4
 autom4te.cache
+ChangeLog
 compile
 config.guess
 config.h
@@ -18,6 +19,7 @@ config.status
 config.sub
 configure
 configure.in
+configure.ac
 depcomp
 INSTALL
 install-sh
@@ -36,3 +38,4 @@ stamp-it
 stamp-h1
 thunar-volman-settings.desktop
 texput.log
+thunar-volman-*.tar.bz2
