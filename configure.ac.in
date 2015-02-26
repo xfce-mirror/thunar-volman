@@ -40,6 +40,7 @@ Written for thunar-volman by Benedikt Meurer <benny@xfce.org>
 and Jannis Pohlmann <jannis@xfce.org>.])
 AC_INIT([thunar-volman], [tvm_version], [http://bugzilla.xfce.org/])
 AC_PREREQ([2.60])
+AC_CONFIG_MACRO_DIR([m4])
 AC_CANONICAL_TARGET()
 AC_REVISION([tvm_version_build])
 

@@ -31,6 +31,7 @@ ltmain.sh
 Makefile
 Makefile.in
 Makefile.in.in
+m4
 missing
 mkinstalldirs
 POTFILES
