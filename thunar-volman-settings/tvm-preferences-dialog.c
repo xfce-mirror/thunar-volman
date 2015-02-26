@@ -692,76 +692,17 @@ static void
 tvm_preferences_dialog_help_clicked (GtkWidget            *button,
                                      TvmPreferencesDialog *dialog)
 {
-  GtkWidget *message;
-  GError    *err = NULL;
-  gchar    **argv;
-  gchar     *bindir;
-  gchar     *prefix;
-  gchar     *path;
-
   g_return_if_fail (GTK_IS_BUTTON (button));
   g_return_if_fail (TVM_IS_PREFERENCES_DIALOG (dialog));
 
-  /* try to locate Thunar in the $PATH */
-  path = g_find_program_in_path ("Thunar");
-  if (G_UNLIKELY (path == NULL))
-    path = g_find_program_in_path ("thunar");
-  if (G_LIKELY (path != NULL))
-    {
-      bindir = g_path_get_dirname (path);
-      prefix = g_path_get_dirname (bindir);
-      g_free (bindir);
-      g_free (path);
-
-      /* now check if ThunarHelp is in $prefix/libexec */
-      path = g_build_filename (prefix, "libexec", "ThunarHelp", NULL);
-      if (!g_file_test (path, G_FILE_TEST_IS_EXECUTABLE))
-        {
-          /* release path */
-          g_free (path);
-
-          /* try to support Debian weirdness */
-          path = g_build_filename (prefix, "lib", "thunar", "ThunarHelp", NULL);
-          if (!g_file_test (path, G_FILE_TEST_IS_EXECUTABLE))
-            {
-              /* release path */
-              g_free (path);
-              path = NULL;
-            }
-        }
-    }
-
-  /* no ThunarHelp, weird! */
-  if (G_UNLIKELY (path == NULL))
-    path = g_strdup ("ThunarHelp");
-
-  /* prepare command to run help */
-  argv = g_new (gchar *, 4);
-  argv[0] = path;
-  argv[1] = g_strdup ("using-removable-media");
-  argv[2] = g_strdup ("management-of-removable-drives-and-media");
-  argv[3] = NULL;
-
-  /* try to open the user manual */
-  if (!gdk_spawn_on_screen (gtk_widget_get_screen (button), NULL, argv, NULL, 
-                            G_SPAWN_SEARCH_PATH, NULL, NULL, NULL, &err))
-    {
-      /* display an error message to the user */
-      message = gtk_message_dialog_new (GTK_WINDOW (dialog),
-                                        GTK_DIALOG_DESTROY_WITH_PARENT
-                                        | GTK_DIALOG_MODAL,
-                                        GTK_MESSAGE_ERROR,
-                                        GTK_BUTTONS_CLOSE,
-                                        _("Failed to open the documentation browser"));
-      gtk_message_dialog_format_secondary_text (GTK_MESSAGE_DIALOG (message), "%s", 
-                                                err->message);
-      gtk_dialog_run (GTK_DIALOG (message));
-      gtk_widget_destroy (message);
-      g_error_free (err);
-    }
-
-  /* cleanup */
-  g_strfreev (argv);
+#if LIBXFCE4UI_CHECK_VERSION(4, 11, 1)
+  xfce_dialog_show_help_with_version (GTK_WINDOW (dialog), "thunar",
+                                      "using-removable-media", NULL,
+                                      TVM_VERSION_HELP);
+#else
+  xfce_dialog_show_help (GTK_WINDOW (dialog), "thunar",
+                         "using-removable-media", NULL);
+#endif
 }
 
 

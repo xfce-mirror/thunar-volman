@@ -108,6 +108,16 @@ dnl *******************************************************
 XDT_CHECK_OPTIONAL_PACKAGE([LIBNOTIFY], [libnotify], [0.4.0], [notifications], 
                            [Notifications support], [yes])
 
+dnl ***************************************************
+dnl *** define a version string for the help dialog ***
+dnl ***************************************************
+m4_append([tvm_version_help], ["])
+m4_append([tvm_version_help], [tvm_version_major])
+m4_append([tvm_version_help], [.])
+m4_append([tvm_version_help], [tvm_version_minor])
+m4_append([tvm_version_help], ["])
+AC_DEFINE([TVM_VERSION_HELP], [tvm_version_help], [Version string for help dialog])
+
 dnl ***********************************
 dnl *** Check for debugging support ***
 dnl ***********************************
