@@ -1,3 +1,23 @@
+0.8.1
+=====
+- Workaround: Wait 5 second before mounting devices (bug #9193)
+- Use new show help function instead of thunar help (bug #10204)
+- Fix AC_CONFIG_MACRO_DIR warning
+- Remove SVN $Id$ and update .gitignore
+- Bump autotools versions
+- Fix AC_PROG_INTLTOOL warning
+- Enable silent rules
+- Don't use deprecated API
+- Translation updates: Albanian, Arabic, Asturian, Basque, Bulgarian,
+  Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish,
+  Dutch (Flemish), English (Australia), English (Great Britain),
+  Finnish, French, Galician, German, Greek, Hebrew, Hungarian,
+  Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian,
+  Lithuanian, Norwegian Bokmål, Norwegian Nynorsk, Polish, Portuguese,
+  Portuguese (Brazilian), Romanian, Russian, Serbian, Slovak,
+  Slovenian, Spanish, Swedish, Telugu, Turkish, Ukrainian, Urdu, Urdu
+  (Pakistan), Uyghur, Vietnamese
+
 0.8.0
 =====
 - Translation updates: English (United Kingdom), Japanese, Korean, 
