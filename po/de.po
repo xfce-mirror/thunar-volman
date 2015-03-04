@@ -5,14 +5,14 @@
 # Translators:
 # Benedikt Meurer <benny@xfce.org>, 2007
 # Georg Eckert <eckert.georg@gmx.de>, 2013
-# Tobias Bannert, 2013-2014
+# Tobias Bannert <tobannert@gmail.com>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2014-09-17 21:12+0000\n"
-"Last-Translator: Tobias Bannert\n"
+"POT-Creation-Date: 2015-02-26 18:30+0100\n"
+"PO-Revision-Date: 2015-03-04 14:22+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/thunar-volman/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -169,7 +169,7 @@ msgstr "Datenträger eingehängt"
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "Der Datenträger \"%s\" wurde automatisch eingehängt"
+msgstr "Der Datenträger »%s« wurde automatisch eingehängt"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
@@ -189,7 +189,7 @@ msgstr "Das Gerät konnte nicht eingehängt werden"
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr "Konnte den zum Gerät gehörenden Datenträger nicht erkennen"
+msgstr "Der zum Gerät gehörenden Datenträger konnte nicht erkannt werden"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
@@ -214,16 +214,16 @@ msgstr "_CD wiedergeben"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr "Unbekannter Blockgerätetyp \"%s\""
+msgstr "Unbekannter Blockgerätetyp »%s«"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr "Gerätetyp \"%s\" wird nicht unterstützt"
+msgstr "Gerätetyp »%s« wird nicht unterstützt"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
-msgstr "Tastaturen"
+msgstr "Tastatur wurde erkannt"
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
@@ -232,7 +232,7 @@ msgstr "Eine Tastatur wurde erkannt."
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
 msgid "Tablet detected"
-msgstr "Unterstützung für Automatisches Ausführen erkannt."
+msgstr "Tablett wurde erkannt"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
@@ -241,7 +241,7 @@ msgstr "Ein Grafiktablett wurde erkannt"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr "Maus erkannt"
+msgstr "Maus wurde erkannt"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
@@ -250,7 +250,7 @@ msgstr "Eine Maus wurde erkannt"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr "Nicht unterstützter Eingabegerätetyp \"%s\""
+msgstr "Nicht unterstützter Eingabegerätetyp »%s«"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -292,16 +292,16 @@ msgstr "_Audio-CD brennen"
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr "Der Brenn-Befehl darf nicht leer sein"
+msgstr "Der Brennbefehl darf nicht leer sein"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr "Der CD-Player-Befehl ist nicht definiert"
+msgstr "Der CD-Player-Befehl ist unbestimmt"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr "Kamera erkannt"
+msgstr "Kamera wurde erkannt"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 msgid "A photo camera was detected"
@@ -309,7 +309,7 @@ msgstr "Eine Kamera wurde erkannt"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr "Drucker erkannt"
+msgstr "Drucker wurde erkannt"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
@@ -318,12 +318,12 @@ msgstr "Ein USB Drucker wurde erkannt"
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr "Nicht unterstützter USB-Gerätetyp \"%s\""
+msgstr "Nicht unterstützter USB-Gerätetyp »%s«"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
-msgstr "Einstellungen der Thunar Datenträgerverwaltung"
+msgstr "Einstellungen der Thunar-Datenträgerverwaltung"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
@@ -344,19 +344,19 @@ msgstr "Ausführbare Dateien"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:270
 msgid "Perl Scripts"
-msgstr "Perl Skripte"
+msgstr "Perl-Skripte"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:276
 msgid "Python Scripts"
-msgstr "Python Skripte"
+msgstr "Python-Skripte"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:282
 msgid "Ruby Scripts"
-msgstr "Ruby Skripte"
+msgstr "Ruby-Skripte"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:288
 msgid "Shell Scripts"
-msgstr "Shell Skripte"
+msgstr "Shell-Skripte"
 
 #. Storage
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
@@ -373,7 +373,7 @@ msgstr "_Hotplug-Wechsellaufwerke automatisch einhängen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
-msgstr "Wechselmedien beim Einlegen ein_hängen"
+msgstr "_Wechselmedien beim Einlegen einhängen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "B_rowse removable media when inserted"
@@ -385,7 +385,7 @@ msgstr "_Programme auf neuen Laufwerken und Medien automatisch ausführen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
-msgstr "Dateien auf neuen Laufwerken und Medien automatisch ö_ffnen"
+msgstr "_Dateien auf neuen Laufwerken und Medien automatisch öffnen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
@@ -441,7 +441,7 @@ msgstr "B_efehl:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:343
 msgid "Portable Music Players"
-msgstr "Tragbare Musik-Player"
+msgstr "Tragbare Musikspieler"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
@@ -475,11 +475,11 @@ msgstr "Nach dem Verbinden Daten mit Pa_lms abgleichen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
-msgstr "Pocket PCs"
+msgstr "Pocket-PCs"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Nach dem Verbinden Daten mit _PocketPCs abgleichen"
+msgstr "Nach dem Verbinden Daten mit _Pocket-PCs abgleichen"
 
 #. Printers
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
@@ -523,7 +523,3 @@ msgstr "Automatisch ein Programm ausführen, wenn ein _Grafiktablett eingesteckt
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
 msgstr "Befe_hl:"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
-msgid "Failed to open the documentation browser"
-msgstr "Die Dokumentation konnte nicht angezeigt werden"
