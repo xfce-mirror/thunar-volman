@@ -714,7 +714,7 @@ tvm_block_device_mount (TvmContext *context)
   GMountOperation *mount_operation;
   GVolume         *volume;
 
-  g_return_if_fail (context != NULL);
+  g_return_val_if_fail ((context != NULL), FALSE);
 
   /* determine the GVolume corresponding to the udev device */
   volume = 
