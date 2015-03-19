@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2015-03-12 09:46+0000\n"
+"PO-Revision-Date: 2015-03-19 20:40+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/projects/p/thunar-volman/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -380,11 +380,11 @@ msgstr "Į_dėjus išimamą laikmeną naršyti"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr "_Naujiem įrenginiams ir laikmenom automatiškai vykdyti programas"
+msgstr "_Naujiems įrenginiams ir laikmenoms automatiškai vykdyti programas"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
-msgstr "Naujiem įrenginiams ir laikmenom automatiškai atverti failus"
+msgstr "Naujiems įrenginiams ir laikmenoms automatiškai atverti failus"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
