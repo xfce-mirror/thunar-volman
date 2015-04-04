@@ -6,14 +6,14 @@
 # Abel Martín <abel.martin.ruiz@gmail.com>, 2008,2011
 # Adolfo Jayme Barrientos, 2014
 # Adolfo Jayme Barrientos, 2014
-# Pablo Roberto Francisco Lezaeta Reyes <prflr88@gmail.com>, 2013-2014
+# Pablo Roberto Francisco Lezaeta Reyes <prflr88@gmail.com>, 2013-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2015-02-21 20:02+0000\n"
-"Last-Translator: Manolo Díaz <diaz.manolo@gmail.com>\n"
+"POT-Creation-Date: 2015-02-26 18:30+0100\n"
+"PO-Revision-Date: 2015-04-03 22:47+0000\n"
+"Last-Translator: Pablo Roberto Francisco Lezaeta Reyes <prflr88@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/projects/p/thunar-volman/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -345,19 +345,19 @@ msgstr "Archivos ejecutables"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:270
 msgid "Perl Scripts"
-msgstr "Intérprete de órdenes en Perl"
+msgstr "Guion del intérprete de órdenes en Perl"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:276
 msgid "Python Scripts"
-msgstr "Intérprete de órdenes en Python"
+msgstr "Guion del intérprete de órdenes en Python"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:282
 msgid "Ruby Scripts"
-msgstr "Intérprete de órdenes en Ruby"
+msgstr "Guion del intérprete de órdenes en Ruby"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:288
 msgid "Shell Scripts"
-msgstr "Intérprete de órdenes"
+msgstr "Guion del intérprete de órdenes"
 
 #. Storage
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
@@ -427,11 +427,11 @@ msgstr "_Orden:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr "CD/DVD de vídeo"
+msgstr "CD/DVD de video"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "Reproducir CD y DVD de _vídeo al insertarlos"
+msgstr "Reproducir CD y DVD de _video al insertarlos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
@@ -472,7 +472,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
-msgstr "Sincronizar dispositivos _Palm™ al conectarlos"
+msgstr "Sincronizar los dispositivos _Palm™ al conectarlos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
@@ -480,7 +480,7 @@ msgstr "Pocket PC"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Sincronizar dispositivos Pocket P_C al conectarlos"
+msgstr "Sincronizar los dispositivos Pocket P_C al conectarlos"
 
 #. Printers
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
@@ -499,7 +499,7 @@ msgstr "Dispositivos de entrada"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:576
 msgid "Keyboards"
-msgstr "Teclados"
+msgstr "Teclado/s"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
@@ -507,11 +507,11 @@ msgstr "Ejecutar automáticamente un programa al conectar un _teclado USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
-msgstr "Ratones"
+msgstr "Ratón/es"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Ejecutar automáticamente un programa al conectar un _ratón USB"
+msgstr "Ejecutar automáticamente un progra_ma al conectar un ratón USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -523,8 +523,4 @@ msgstr "Ejecutar automáticamente un programa al conectar una _tableta"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
-msgstr "Or_den:"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
-msgid "Failed to open the documentation browser"
-msgstr "No se pudo abrir el visor de documentación"
+msgstr "Orde_n:"
