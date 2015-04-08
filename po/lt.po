@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2015-03-19 20:40+0000\n"
+"PO-Revision-Date: 2015-04-08 21:43+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/projects/p/thunar-volman/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "Parodyti informaciją apie programos versiją ir baigti darbą"
 #. setup application name
 #: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr "Thunar failų tvarkytuvė"
+msgstr "Thunar tomų tvarkytuvė"
 
 #: ../thunar-volman/main.c:121
 msgid "All rights reserved."
@@ -163,17 +163,17 @@ msgstr "DVD buvo prijungtas automatiškai"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr "Skirsnis prijungtas"
+msgstr "Tomas prijungtas"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "Skirsnis „%s“ buvo prijungtas automatiškai"
+msgstr "Tomas „%s“ buvo prijungtas automatiškai"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr "Prijungtas skirsnis buvo automatiškai prijungtas"
+msgstr "Prijungtas tomas buvo automatiškai prijungtas"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
@@ -188,7 +188,7 @@ msgstr "Įrenginio prijungti nepavyko"
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr "Nepavyko rasti skirsnio esančio įrenginyje"
+msgstr "Nepavyko rasti įrenginį atitinkančio tomo"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
@@ -322,7 +322,7 @@ msgstr "USB įrenginio tipas \"%s\" nepalaikomas"
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
 msgid "Thunar Volume Manager Settings"
-msgstr "Thunar failų tvarkyklės nustatymai"
+msgstr "Thunar tomų tvarkytuvės nustatymai"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
