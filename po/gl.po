@@ -6,14 +6,15 @@
 # Dani MF <dani@damufo.com>, 2015
 # Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>, 2008-2009
 # Leandro Regueiro <leandro.regueiro@gmail.com>, 2013
+# Xosé <xosecalvo@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2015-05-06 09:56+0000\n"
-"Last-Translator: Dani MF <dani@damufo.com>\n"
-"Language-Team: Galician (http://www.transifex.com/projects/p/thunar-volman/language/gl/)\n"
+"PO-Revision-Date: 2015-09-18 20:29+0000\n"
+"Last-Translator: Xosé <xosecalvo@gmail.com>\n"
+"Language-Team: Galician (http://www.transifex.com/xfce/thunar-volman/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -51,7 +52,7 @@ msgstr "Por favor comuníquelle os erros a <%s>."
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Non hai ningún dispositivo con ruta sysfs \"%s\""
+msgstr "Non hai ningún dispositivo con ruta sysfs «%s»"
 
 #: ../thunar-volman/main.c:188
 #, c-format
@@ -111,7 +112,7 @@ msgstr "Hai fotos na tarxeta. Desexa engadir estas fotos ó seu álbum?"
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "Desexa permitir que se execute \"%s\"?"
+msgstr "Desexa permitir que se execute «%s»?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -132,7 +133,7 @@ msgstr "_Permitir execución automática"
 #: ../thunar-volman/tvm-block-device.c:502
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr "Desexa abrir \"%s\"?"
+msgstr "Desexa abrir «%s»?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
@@ -169,7 +170,7 @@ msgstr "Volume montado"
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "O volume \"%s\" montouse automaticamente"
+msgstr "O volume «%s» montouse automaticamente"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
@@ -389,19 +390,19 @@ msgstr "_Abrir automaticamente os ficheiros dos soportes e unidades novas"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
-msgstr "CDs e DVDs baleiros"
+msgstr "CD e DVD baleiros"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "_Gravar un CD ou DVD cando se insire un disco baleiro"
+msgstr "_Gravar un CD ou DVD ao introducir un disco baleiro"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr "Orde para os CDs de _datos:"
+msgstr "Orde para os CD de _datos:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "Orde para os CDs de s_on:"
+msgstr "Orde para os CD de s_on:"
 
 #. Multimedia
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
@@ -410,11 +411,11 @@ msgstr "Multimedia"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:266
 msgid "Audio CDs"
-msgstr "CDs de audio"
+msgstr "CD de son"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr "_Reproducir os CDs de son ao inserilos"
+msgstr "_Reproducir os CD de son ao inserilos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -426,18 +427,18 @@ msgstr "_Orde:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr "CDs/DVDs de vídeo"
+msgstr "CD/DVD de vídeo"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "Reproducir os CDs de vídeo e os DVDs ao inserilos"
+msgstr "Reproducir os CD de vídeo e os DVD ao introducilos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:505
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:640
 msgid "C_ommand:"
-msgstr "C_omando:"
+msgstr "_Orde:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:343
 msgid "Portable Music Players"
@@ -445,7 +446,7 @@ msgstr "Reprodutores de música portátiles"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
-msgstr "Reproducir os ficheiros de _música cando se conecten"
+msgstr "Reproducir os ficheiros de _música ao conectalos"
 
 #. Cameras
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
@@ -458,7 +459,7 @@ msgstr "Cámaras Dixitais"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr "Importar fotografías dixitais cando se conecta"
+msgstr "Importar fotografías dixitais ao conectar cámaras"
 
 #. PDAs
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
@@ -471,15 +472,15 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
-msgstr "Sincronizar os dispositivos _Palm™ cando se conecten"
+msgstr "Sincronizar os dispositivos _Palm™ ao conectalos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
-msgstr "Pocket PCs"
+msgstr "Pocket PC"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Sincronizar os dispositivos Pocket P_C cando se conectan"
+msgstr "Sincronizar os dispositivos Pocket P_C ao conectalos"
 
 #. Printers
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
@@ -489,7 +490,7 @@ msgstr "Impresoras"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
-msgstr "Executar un programa automaticamente cando se conecta unha _impresora"
+msgstr "Executar un programa automaticamente ao conectar unha _impresora"
 
 #. Input Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
@@ -502,7 +503,7 @@ msgstr "Teclados"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Executar un programa automaticamente cando se conecta un _teclado USB"
+msgstr "Executar un programa automaticamente ao conectar un _teclado USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
@@ -510,7 +511,7 @@ msgstr "Ratos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Executar un programa automaticamente cando se conecta un _rato USB"
+msgstr "Executar un programa automaticamente ao conectar un _rato USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -518,8 +519,8 @@ msgstr "Tableta"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "Executar un programa automaticamente cando se conecta unha ta_bleta"
+msgstr "Executar un programa automaticamente ao conectar unha ta_bleta"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
-msgstr "Co_mando:"
+msgstr "_Orde:"
