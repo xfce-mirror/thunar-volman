@@ -11,10 +11,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2015-02-23 00:14+0000\n"
+"POT-Creation-Date: 2015-02-26 18:30+0100\n"
+"PO-Revision-Date: 2015-11-14 23:52+0000\n"
 "Last-Translator: enolp <enolp@softastur.org>\n"
-"Language-Team: Asturian (http://www.transifex.com/projects/p/thunar-volman/language/ast/)\n"
+"Language-Team: Asturian (http://www.transifex.com/xfce/thunar-volman/language/ast/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -52,7 +52,7 @@ msgstr "Por favor, informa de fallos a <%s>."
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Nun hai dengún preséu col camín sysfs \"%s\""
+msgstr "Nun hai dengún preséu col camín sysfs «%s»"
 
 #: ../thunar-volman/main.c:188
 #, c-format
@@ -112,7 +112,7 @@ msgstr "Hai semeyes na tarxeta. ¿Prestaríate amestar estes semeyes al to álbu
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "¿Prestaríate permitir que s'execute \"%s\" ?"
+msgstr "¿Prestaríate permitir que s'execute «%s»?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -133,7 +133,7 @@ msgstr "Permitir la execución automática"
 #: ../thunar-volman/tvm-block-device.c:502
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr "¿Prestaríate abrir \"%s\"?"
+msgstr "¿Prestaríate abrir «%s»?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
@@ -170,7 +170,7 @@ msgstr "Volume montáu"
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "El volume \"%s\" montóse automáticamente"
+msgstr "Montóse automáticamente'l volume «%s»"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
@@ -215,12 +215,12 @@ msgstr "_Reproducir CD"
 #: ../thunar-volman/tvm-block-device.c:919
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr "Triba de bloque de preséu \"%s\" desconocida"
+msgstr "Triba de bloque de preséu «%s» desconocida"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr "La triba de preséu \"%s\" nun ta sofitada"
+msgstr "Nun ta sofitada la triba de preséu «%s»"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -251,7 +251,7 @@ msgstr "Deteutóse un mur"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr "Triba de preséu d'entrada \"%s\" non sofitada"
+msgstr "Nun ta sofitada la triba de preséu d'entrada «%s»"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -319,7 +319,7 @@ msgstr "Deteutóse una imprentadora USB"
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr "Triba de preséu USB \"%s\" non sofitada"
+msgstr "Nun ta sofitada la triba de preséu USB «%s»"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:52
@@ -524,7 +524,3 @@ msgstr "Executar automáticamente un programa al coneutar una _tableta"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
 msgstr "Co_mandu:"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
-msgid "Failed to open the documentation browser"
-msgstr "Fallu al abrir el restolador de documentación"
