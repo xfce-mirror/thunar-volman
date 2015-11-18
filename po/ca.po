@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# carlesmu <carlesmu@internautas.org>, 2008,2012-2013
+# Carles Muñoz Gorriz <carlesmu@internautas.org>, 2008,2012-2013
+# Davidmp <medipas@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2013-11-19 13:17+0000\n"
-"Last-Translator: Xfce <transifex@xfce.org>\n"
-"Language-Team: Catalan (http://www.transifex.com/projects/p/xfce/language/ca/)\n"
+"POT-Creation-Date: 2015-02-26 18:30+0100\n"
+"PO-Revision-Date: 2015-11-18 17:25+0000\n"
+"Last-Translator: Davidmp <medipas@gmail.com>\n"
+"Language-Team: Catalan (http://www.transifex.com/xfce/thunar-volman/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +21,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr ""
+msgstr "El camí al dispositiu afegit recentment"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -357,7 +358,6 @@ msgid "Shell Scripts"
 msgstr "Seqüències de l'intèrpret d'ordres"
 
 #. Storage
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Emmagatzematge"
@@ -403,7 +403,6 @@ msgid "Command for A_udio CDs:"
 msgstr "Ordre pels CDs d'à_udio:"
 
 #. Multimedia
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimèdia"
@@ -448,7 +447,6 @@ msgid "Play _music files when connected"
 msgstr "Reprodueix els fitxers de _música quan es connectin"
 
 #. Cameras
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Càmeres"
@@ -462,7 +460,6 @@ msgid "Import digital photographs when connected"
 msgstr "Importa les fotos digitals quan es connecti"
 
 #. PDAs
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "Organitzadors personals"
@@ -484,7 +481,6 @@ msgid "Sync Pocket P_C devices when connected"
 msgstr "Sincronitza els ordinadors de _butxaca quan es connectin"
 
 #. Printers
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -495,7 +491,6 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "Executa automàticament un programa quan es connecti una _impressora"
 
 #. Input Devices
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Dispositius d'entrada"
@@ -527,7 +522,3 @@ msgstr "Executa automàticament un programa quan es connecti una ta_uleta"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
 msgstr "Or_dre:"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
-msgid "Failed to open the documentation browser"
-msgstr "No s'ha pogut obrir el visor de documentació"
