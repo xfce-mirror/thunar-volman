@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Egoitz Rodriguez Obieta <egoitzro@gmail.com>, 2015
 # Piarres Beobide <pi@beobide.net>, 2007-2008
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2013-11-19 13:17+0000\n"
-"Last-Translator: Xfce <transifex@xfce.org>\n"
-"Language-Team: Basque (http://www.transifex.com/projects/p/xfce/language/eu/)\n"
+"POT-Creation-Date: 2015-02-26 18:30+0100\n"
+"PO-Revision-Date: 2015-11-22 16:50+0000\n"
+"Last-Translator: Egoitz Rodriguez Obieta <egoitzro@gmail.com>\n"
+"Language-Team: Basque (http://www.transifex.com/xfce/thunar-volman/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +21,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr ""
+msgstr "Gehitu berri den gailuaren sysfs bidea"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -357,7 +358,6 @@ msgid "Shell Scripts"
 msgstr "Shell Script-ak"
 
 #. Storage
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Biltegiratzea"
@@ -403,7 +403,6 @@ msgid "Command for A_udio CDs:"
 msgstr "A_udio CD-entzat komandoa:"
 
 #. Multimedia
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedia"
@@ -448,7 +447,6 @@ msgid "Play _music files when connected"
 msgstr "_Musika erreproduzitu sartzerakoan"
 
 #. Cameras
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kamerak"
@@ -462,7 +460,6 @@ msgid "Import digital photographs when connected"
 msgstr "Inportatu argazki digitalak konektatzerakoan"
 
 #. PDAs
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA-k"
@@ -484,7 +481,6 @@ msgid "Sync Pocket P_C devices when connected"
 msgstr "Pocket P_C gailuak sinkronizatu konektatzerakoan"
 
 #. Printers
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -495,7 +491,6 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "Automatikoki programa bat abiarazi in_primagailua konektatzerakoan"
 
 #. Input Devices
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Sarrera gailuak"
@@ -527,7 +522,3 @@ msgstr "Automatikoki programa bat abiarazi _tableta bat konektatzerakoan"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
 msgstr "Ko_mandoa:"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
-msgid "Failed to open the documentation browser"
-msgstr "Huts dokumentazio nabigatzailea irekitzean"
