@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2016-01-13 01:09+0000\n"
+"PO-Revision-Date: 2016-03-01 20:51+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/xfce/thunar-volman/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -192,7 +192,7 @@ msgstr "Nepavyko rasti įrenginį atitinkančio tomo"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
-msgstr "Audio/Duomenų CD"
+msgstr "Garso/Duomenų CD"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
@@ -286,7 +286,7 @@ msgstr "Įrašyti _duomenų CD"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr "Įrašyti _Audio CD"
+msgstr "Įrašyti _garso CD"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -409,11 +409,11 @@ msgstr "Daugialypė terpė"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:266
 msgid "Audio CDs"
-msgstr "Audio CD"
+msgstr "Garso CD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr "Įdėjus _audio CD groti jį"
+msgstr "Įdėjus _garso CD groti jį"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -425,11 +425,11 @@ msgstr "_Komanda:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr "Video CD/DVD"
+msgstr "Vaizdo CD/DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "Įdėjus groti _video CD ir DVD"
+msgstr "Įdėjus groti _vaizdo CD ir DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
