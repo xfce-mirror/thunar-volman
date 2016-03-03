@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-02 23:06+0200\n"
-"PO-Revision-Date: 2016-01-31 19:41+0000\n"
+"PO-Revision-Date: 2016-03-03 20:29+0000\n"
 "Last-Translator: Elishai Eliyahu <e1907@mm.st>\n"
 "Language-Team: Hebrew (http://www.transifex.com/xfce/thunar-volman/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -79,7 +79,7 @@ msgstr "האם ברצונך לייבא את התצלומים או לנהל את 
 #: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
-msgstr "הת_עלo"
+msgstr "הת_עלם"
 
 #: ../thunar-volman/tvm-block-device.c:209
 #: ../thunar-volman/tvm-block-device.c:278
