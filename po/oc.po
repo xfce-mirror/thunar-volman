@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Cedric31 <cvalmary@yahoo.fr>, 2013
+# Cédric Valmary <cvalmary@yahoo.fr>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2013-11-18 13:18+0000\n"
-"Last-Translator: Cedric31 <cvalmary@yahoo.fr>\n"
-"Language-Team: Occitan (post 1500) (http://www.transifex.com/projects/p/xfce/language/oc/)\n"
+"POT-Creation-Date: 2015-02-26 18:30+0100\n"
+"PO-Revision-Date: 2016-03-11 15:53+0000\n"
+"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
+"Language-Team: Occitan (post 1500) (http://www.transifex.com/xfce/thunar-volman/language/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -357,7 +357,6 @@ msgid "Shell Scripts"
 msgstr "Escripts Shell"
 
 #. Storage
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Emmagazinatge"
@@ -403,7 +402,6 @@ msgid "Command for A_udio CDs:"
 msgstr "Comanda pels CD à_udio :"
 
 #. Multimedia
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimèdia"
@@ -448,7 +446,6 @@ msgid "Play _music files when connected"
 msgstr "Escotar la _musica a la connexion"
 
 #. Cameras
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Camèras"
@@ -462,7 +459,6 @@ msgid "Import digital photographs when connected"
 msgstr "Importar las fòtos numericas a la connexion"
 
 #. PDAs
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -484,7 +480,6 @@ msgid "Sync Pocket P_C devices when connected"
 msgstr "Sincronizar los periferics Pocket PC un còp connectats"
 
 #. Printers
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -495,7 +490,6 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "Executar una aplicacion a la connexion d'una imprimenta"
 
 #. Input Devices
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Periferics d'entrada"
@@ -527,7 +521,3 @@ msgstr "Executar una aplicacion a la connexion d'una _tableta grafica"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
 msgstr "Co_manda :"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
-msgid "Failed to open the documentation browser"
-msgstr "Impossible de dobrir lo navigador de documentacion"
