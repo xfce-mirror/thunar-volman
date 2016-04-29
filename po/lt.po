@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2016-03-01 20:51+0000\n"
+"PO-Revision-Date: 2016-04-29 19:23+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/xfce/thunar-volman/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -368,7 +368,7 @@ msgstr "Išimamos laikmenos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "_Prijungus prijungti išimamus įrenginius"
+msgstr "_Įjungus kištuką, prijungti išimamus įrenginius"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
