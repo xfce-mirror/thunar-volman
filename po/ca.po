@@ -5,13 +5,14 @@
 # Translators:
 # Carles Muñoz Gorriz <carlesmu@internautas.org>, 2008,2012-2013
 # Davidmp <medipas@gmail.com>, 2015
+# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2015-11-18 17:25+0000\n"
-"Last-Translator: Davidmp <medipas@gmail.com>\n"
+"PO-Revision-Date: 2016-04-30 16:05+0000\n"
+"Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/xfce/thunar-volman/language/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -254,7 +255,7 @@ msgstr "Tipus de dispositiu d'entrada «%s» no compatible"
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr "El gravat de CDs i DVDs en blanc està inhabilitat"
+msgstr "La cremació automàtica dels CD i dels DVD verges està inhabilitada"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
@@ -270,7 +271,7 @@ msgstr "Què voleu fer?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr "Cremar _DVD"
+msgstr "Crema el _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
@@ -282,16 +283,16 @@ msgstr "Heu introduït un CD en blanc"
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
-msgstr "Cremar CD de _dades"
+msgstr "Crema el CD de _dades"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr "Cremar CD d'à_udio"
+msgstr "Crema el CD d'à_udio"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr "La línia de comandes per a cremar CDs i DVDs no pot ser buida"
+msgstr "L'ordre per a la cremació no pot estar en blanc"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
@@ -327,7 +328,7 @@ msgstr "Propietats del gestor de volum Thunar"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
-msgstr "Dispositius i mitjans extraïble"
+msgstr "Dispositius i mitjans extraïbles"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
@@ -388,7 +389,7 @@ msgstr "Obre automàticament els fitxers de mitjans i dispositius nous"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
-msgstr "CDs i DVDs en blanc"
+msgstr "Els CD i els DVD verges"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
@@ -396,11 +397,11 @@ msgstr "_Crema un CD o un DVD quan s'insereixi un disc en blanc"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr "Ordre pels CDs de _dades:"
+msgstr "Ordre per als CD de _dades:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "Ordre pels CDs d'à_udio:"
+msgstr "Ordre per als CD d'à_udio:"
 
 #. Multimedia
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
@@ -409,11 +410,11 @@ msgstr "Multimèdia"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:266
 msgid "Audio CDs"
-msgstr "CDs d'àudio"
+msgstr "Els CD d'àudio"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr "Reprodueix els _àudio CDs quan s'insereixin"
+msgstr "Reprodueix els CD d'_àudio quan s'insereixin"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -425,11 +426,11 @@ msgstr "_Ordre:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr "CDs/DVDs de vídeo"
+msgstr "Els CD/DVD de vídeo"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "Reprodueix els _vídeo CDs i DVDs quan s'insereixin"
+msgstr "Reprodueix els CD i els DVD de _vídeo quan s'insereixin"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
@@ -440,7 +441,7 @@ msgstr "O_rdre:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:343
 msgid "Portable Music Players"
-msgstr "Reproductors de música portàtils"
+msgstr "Els reproductors de música portàtils"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
