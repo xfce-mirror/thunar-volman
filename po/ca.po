@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2016-04-30 16:05+0000\n"
+"PO-Revision-Date: 2016-05-01 10:29+0000\n"
 "Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/xfce/thunar-volman/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "El camí al dispositiu afegit recentment"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
-msgstr "Configura la gestió dels dispositius i mitjans extraïbles"
+msgstr "Configureu la gestió de les unitats i dels mitjans extraïbles"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -41,7 +41,7 @@ msgstr "Gestor de volums de Thunar"
 
 #: ../thunar-volman/main.c:121
 msgid "All rights reserved."
-msgstr "Tots els drets reservats"
+msgstr "Tots els drets reservats."
 
 #: ../thunar-volman/main.c:122
 #, c-format
@@ -51,7 +51,7 @@ msgstr "Envieu els errors a <%s>."
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "No hi ha dispositiu en el camí \"%s\""
+msgstr "No hi ha dispositiu en el camí «%s»"
 
 #: ../thunar-volman/main.c:188
 #, c-format
@@ -65,7 +65,7 @@ msgstr "Fotos i música"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr "S'han trobat fotografies en el vostre reproductor portàtil de música"
+msgstr "S'han trobat fotografies al vostre reproductor portàtil de música"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -97,13 +97,13 @@ msgstr "Importa les fotos"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr "S'ha detectat una tarjeta de fotografies."
+msgstr "S'ha detectat una targeta fotogràfica"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr "Hi han fotos a la targeta, Voleu afegir-les al vostre àlbum?"
+msgstr "Hi ha fotos a la targeta, Voleu afegir-les al vostre àlbum?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -174,7 +174,7 @@ msgstr "El volum \"%s\" s'ha muntat automàticament"
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr "El volum introduït s'ha muntat automàticament"
+msgstr "El volum inserit s'ha muntat automàticament"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
@@ -197,7 +197,7 @@ msgstr "CD d'àudio i dades"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
-msgstr "El CD del dispositiu conté tant música com fitxers."
+msgstr "El CD de la unitat conté tant música com fitxers."
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
@@ -255,15 +255,15 @@ msgstr "Tipus de dispositiu d'entrada «%s» no compatible"
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr "La cremació automàtica dels CD i dels DVD verges està inhabilitada"
+msgstr "La gravació automàtica dels CD i dels DVD en blanc està inhabilitada"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr "S'ha insertat un DVD en blanc"
+msgstr "S'ha inserit un DVD en blanc"
 
 #: ../thunar-volman/tvm-run.c:190
 msgid "You have inserted a blank DVD."
-msgstr "Heu introduït un DVD en blanc"
+msgstr "Heu inserit un DVD en blanc."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -271,41 +271,41 @@ msgstr "Què voleu fer?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr "Crema el _DVD"
+msgstr "Grava el _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
-msgstr "S'ha insertat un CD en blanc"
+msgstr "S'ha inserit un CD en blanc"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
-msgstr "Heu introduït un CD en blanc"
+msgstr "Heu inserit un CD en blanc."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
-msgstr "Crema el CD de _dades"
+msgstr "Grava el CD de _dades"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr "Crema el CD d'à_udio"
+msgstr "Grava el CD d'à_udio"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr "L'ordre per a la cremació no pot estar en blanc"
+msgstr "L'ordre per a la gravació no pot estar en blanc"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr "La comanda per a reproduir CDs és indefinida"
+msgstr "L'ordre per a reproduir els CD és indefinida"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr "Càmara detectada"
+msgstr "Càmera detectada"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 msgid "A photo camera was detected"
-msgstr "S'ha detectat una càmara de fotografies"
+msgstr "S'ha detectat una càmera fotogràfica"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
@@ -328,7 +328,7 @@ msgstr "Propietats del gestor de volum Thunar"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
-msgstr "Dispositius i mitjans extraïbles"
+msgstr "Unitats i mitjans extraïbles"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
@@ -344,19 +344,19 @@ msgstr "Fitxers executables"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:270
 msgid "Perl Scripts"
-msgstr "Seqüències de Perl"
+msgstr "Scripts Perl"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:276
 msgid "Python Scripts"
-msgstr "Seqüències de Python"
+msgstr "Scripts Python"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:282
 msgid "Ruby Scripts"
-msgstr "Seqüències de Ruby"
+msgstr "Scripts Ruby"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:288
 msgid "Shell Scripts"
-msgstr "Seqüències de l'intèrpret d'ordres"
+msgstr "Scripts Shell"
 
 #. Storage
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
@@ -369,7 +369,7 @@ msgstr "Emmagatzemament extraïble"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "_Munta els dispositius extraïbles quan es connecten"
+msgstr "_Munta les unitats extraïbles quan es connectin"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
@@ -381,19 +381,19 @@ msgstr "_Navega en els mitjans extraïbles quan s'insereixin"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr "Executa _automàticament programes en dispositius o mitjans nous"
+msgstr "Executa _automàticament programes en les unitats noves o en els mitjans nous"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
-msgstr "Obre automàticament els fitxers de mitjans i dispositius nous"
+msgstr "Obre automàticament els fitxers en les unitats noves o en els mitjans nous"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
-msgstr "Els CD i els DVD verges"
+msgstr "Els CD i els DVD en blanc"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "_Crema un CD o un DVD quan s'insereixi un disc en blanc"
+msgstr "_Grava un CD o un DVD quan s'insereixi un disc en blanc"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
@@ -458,7 +458,7 @@ msgstr "Càmeres fotogràfiques digitals"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:407
 msgid "Import digital photographs when connected"
-msgstr "Importa les fotos digitals quan es connecti"
+msgstr "Importa les fotos digitals quan es connectin"
 
 #. PDAs
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
