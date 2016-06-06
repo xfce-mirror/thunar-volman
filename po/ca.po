@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2016-06-06 00:51+0000\n"
+"PO-Revision-Date: 2016-06-06 12:09+0000\n"
 "Last-Translator: Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/xfce/thunar-volman/language/ca/)\n"
 "MIME-Version: 1.0\n"
@@ -201,7 +201,7 @@ msgstr "El CD de la unitat conté tant música com fitxers."
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
-msgstr "Voleu escoltar la música o navegar en els fitxers?"
+msgstr "Voleu escoltar la música o navegar pels fitxers?"
 
 #: ../thunar-volman/tvm-block-device.c:830
 msgid "_Browse Files"
@@ -377,7 +377,7 @@ msgstr "Munta els mitjans extraïbles quan s'_insereixin"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "B_rowse removable media when inserted"
-msgstr "_Navega en els mitjans extraïbles quan s'insereixin"
+msgstr "_Navega pels mitjans extraïbles quan s'insereixin"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
