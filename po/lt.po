@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2016-04-29 19:23+0000\n"
+"PO-Revision-Date: 2016-09-07 14:46+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/xfce/thunar-volman/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "Naujai pridėto įrenginio sysfs kelias"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
-msgstr "Konfigūruoti išimamų įrenginių tvarkymą"
+msgstr "Konfigūruoti keičiamųjų diskų ir laikmenų tvarkymą"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -327,7 +327,7 @@ msgstr "Thunar tomų tvarkytuvės nustatymai"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
-msgstr "Išimami diskai ir laikmenos"
+msgstr "Keičiamieji diskai ir laikmenos"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Select an Application"
@@ -364,19 +364,19 @@ msgstr "Laikmenos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:141
 msgid "Removable Storage"
-msgstr "Išimamos laikmenos"
+msgstr "Keičiamosios laikmenos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "_Įjungus kištuką, prijungti išimamus įrenginius"
+msgstr "_Įkišus kištuką, prijungti keičiamuosius diskus"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:166
 msgid "Mount removable media when _inserted"
-msgstr "Įdėjus išimamą laikmeną _prijungti"
+msgstr "Įdėjus keičiamąją laikmeną, ją _prijungti"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "B_rowse removable media when inserted"
-msgstr "Į_dėjus išimamą laikmeną naršyti"
+msgstr "Į_dėjus keičiamąją laikmeną, ją naršyti"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
