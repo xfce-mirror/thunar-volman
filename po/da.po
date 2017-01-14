@@ -3,16 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Aputsiaĸ Niels Janussen <aj@isit.gl>, 2013
+# Aputsiak Niels Janussen <aj@isit.gl>, 2013
 # Per Kongstad <p_kongstad@op.pl>, 2008
+# scootergrisen, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2013-11-08 13:29+0000\n"
-"Last-Translator: Aputsiaĸ Niels Janussen <aj@isit.gl>\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/xfce/language/da/)\n"
+"POT-Creation-Date: 2015-02-26 18:30+0100\n"
+"PO-Revision-Date: 2017-01-14 10:10+0000\n"
+"Last-Translator: scootergrisen\n"
+"Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -64,7 +65,7 @@ msgstr "Billeder og musik"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr "Billeder blev fundet på din transportable musikafspiller."
+msgstr "Billeder blev fundet på din transportable musikafspiller"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -96,7 +97,7 @@ msgstr "Billedimport"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr "Et billedhukommelseskort er blevet fundet."
+msgstr "Et billedhukommelseskort er blevet fundet"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
@@ -192,11 +193,11 @@ msgstr "Kunne ikke genkende arkivet passende til enheden"
 
 #: ../thunar-volman/tvm-block-device.c:824
 msgid "Audio/Data CD"
-msgstr "Lyd- / data-cd"
+msgstr "Lyd-/data-cd"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "The CD in the drive contains both music and files"
-msgstr "Cd'en i drevet indeholder både musik og filer."
+msgstr "Cd'en i drevet indeholder både musik og filer"
 
 #: ../thunar-volman/tvm-block-device.c:827
 msgid "Would you like to listen to music or browse the files?"
@@ -358,7 +359,6 @@ msgid "Shell Scripts"
 msgstr "Skalskripter"
 
 #. Storage
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "Lager"
@@ -389,7 +389,7 @@ msgstr "Auto-åben filer på nye drev og medier"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
-msgstr "Slet cder og dvder"
+msgstr "Slet cd'er og dvd'er"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
@@ -397,25 +397,24 @@ msgstr "_Brænd en cd eller dvd når tomt medie indsættes"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
-msgstr "Kommando for _data-cder:"
+msgstr "Kommando for _data-cd'er:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "Kommando for _lyd-cder:"
+msgstr "Kommando for _lyd-cd'er:"
 
 #. Multimedia
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "Multimedie"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:266
 msgid "Audio CDs"
-msgstr "Lyd-cder"
+msgstr "Lyd-cd'er"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr "Afspil _lyd-cder når de indsættes"
+msgstr "Afspil _lyd-cd'er når de indsættes"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -427,11 +426,11 @@ msgstr "_Kommando:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:304
 msgid "Video CDs/DVDs"
-msgstr "Video-cder/dvder"
+msgstr "Video-cd'er/dvd'er"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "Afspil _video-cder og dvder når de indsættes"
+msgstr "Afspil _video-cd'er og dvd'er når de indsættes"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
@@ -449,7 +448,6 @@ msgid "Play _music files when connected"
 msgstr "Afspil _musikfiler ved tilslutning"
 
 #. Cameras
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "Kameraer"
@@ -463,7 +461,6 @@ msgid "Import digital photographs when connected"
 msgstr "Importér digitale billeder ved tilslutning"
 
 #. PDAs
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDAer"
@@ -485,7 +482,6 @@ msgid "Sync Pocket P_C devices when connected"
 msgstr "Synkronisér lomme-_PC-enheder ved tilslutning"
 
 #. Printers
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -496,7 +492,6 @@ msgid "Automatically run a program when a _printer is connected"
 msgstr "Kør automatisk et program ved tilslutning af en _printer"
 
 #. Input Devices
-#. 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "Inddata-enheder"
@@ -528,7 +523,3 @@ msgstr "Kør automatisk et program ved tilslutning af en _tablet"
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
 msgstr "Komm_ando:"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
-msgid "Failed to open the documentation browser"
-msgstr "Kunne ikke åbne dokumentationsnavigator"
