@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2017-01-14 10:10+0000\n"
+"PO-Revision-Date: 2017-01-19 10:27+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -471,11 +471,11 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
-msgstr "Synkronisér_Palm™-enheder ved tilslutning"
+msgstr "Synkronisér _Palm™-enheder ved tilslutning"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
-msgstr "Lomme-PCere"
+msgstr "Lomme-PCer"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
