@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2017-01-19 10:27+0000\n"
+"PO-Revision-Date: 2017-01-20 13:49+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -340,7 +340,7 @@ msgstr "Alle filer"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:255
 msgid "Executable Files"
-msgstr "Kørselbare filer"
+msgstr "Kørbare filer"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:270
 msgid "Perl Scripts"
