@@ -5,16 +5,17 @@
 # Translators:
 # Abel Martín <abel.martin.ruiz@gmail.com>, 2008,2011
 # Adolfo Jayme Barrientos, 2014
-# Adolfo Jayme Barrientos, 2014
-# Pablo Roberto Francisco Lezaeta Reyes <prflr88@gmail.com>, 2013-2015
+# Adolfo Jayme-Barrientos, 2014
+# Pablo Roberto “Jristz” Lezaeta Reyes <prflr88@gmail.com>, 2013-2015
+# Pablo Roberto “Jristz” Lezaeta Reyes <prflr88@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2015-06-21 21:14+0000\n"
-"Last-Translator: Manolo Díaz <diaz.manolo@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/thunar-volman/language/es/)\n"
+"PO-Revision-Date: 2017-03-13 04:47+0000\n"
+"Last-Translator: Pablo Roberto “Jristz” Lezaeta Reyes <prflr88@gmail.com>\n"
+"Language-Team: Spanish (http://www.transifex.com/xfce/thunar-volman/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -23,7 +24,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr "La ruta sysfs para el nuevo dispositivo creado"
+msgstr "La ruta «sysfs» para el nuevo dispositivo creado"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -52,12 +53,12 @@ msgstr "Por favor, informe de fallos a <%s>."
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "No existe el dispositivo con la ruta de sysfs «%s»"
+msgstr "No existe el dispositivo con la ruta de «sysfs» «%s»"
 
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Debe especificar la ruta sysfs del nuevo dispositivo con --device-added"
+msgstr "Debe especificar la ruta «sysfs» del nuevo dispositivo con --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -507,7 +508,7 @@ msgstr "Ejecutar automáticamente un programa al conectar un _teclado USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
-msgstr "Ratón/es"
+msgstr "Ratón"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
