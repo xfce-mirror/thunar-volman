@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2017-01-20 13:49+0000\n"
+"PO-Revision-Date: 2017-03-13 11:24+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -136,11 +136,11 @@ msgstr "Vil du åbne \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
-msgstr "Bekræft auto-åben"
+msgstr "Bekræft auto-åbn"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
-msgstr "Fundet auto-åbenmulighed"
+msgstr "Fundet auto-åbnmulighed"
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
@@ -385,7 +385,7 @@ msgstr "_Auto-kør programmer på nye drev og medier"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
-msgstr "Auto-åben filer på nye drev og medier"
+msgstr "Auto-åbn filer på nye drev og medier"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
