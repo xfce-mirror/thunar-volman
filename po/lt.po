@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2017-06-20 22:55+0000\n"
+"PO-Revision-Date: 2017-07-01 11:45+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/xfce/thunar-volman/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -392,7 +392,7 @@ msgstr "Tušti CD ir DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:218
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "Į_dėjus tuščią CD ar DVD įrašyti"
+msgstr "Į_dėjus tuščią CD ar DVD, įrašyti jį"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:229
 msgid "Command for _Data CDs:"
@@ -400,7 +400,7 @@ msgstr "_Duomenų CD komanda:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:239
 msgid "Command for A_udio CDs:"
-msgstr "_Audio CD komanda:"
+msgstr "_Garso CD komanda:"
 
 #. Multimedia
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
@@ -413,7 +413,7 @@ msgstr "Garso CD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:283
 msgid "Play _audio CDs when inserted"
-msgstr "Įdėjus _garso CD groti jį"
+msgstr "Įdėjus _garso CD, groti jį"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:290
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -429,7 +429,7 @@ msgstr "Vaizdo CD/DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "Įdėjus groti _vaizdo CD ir DVD"
+msgstr "Įdėjus, groti _vaizdo CD ir DVD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
@@ -444,7 +444,7 @@ msgstr "Nešiojamieji muzikos grotuvai"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:360
 msgid "Play _music files when connected"
-msgstr "Prijungus groti _muzikos failus"
+msgstr "Prijungus, groti _muzikos failus"
 
 #. Cameras
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
@@ -470,7 +470,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:458
 msgid "Sync _Palm™ devices when connected"
-msgstr "Prijungus sinchronizuoti _Palm™ įrenginius"
+msgstr "Prijungus, sinchronizuoti _Palm™ įrenginius"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:480
 msgid "Pocket PCs"
@@ -478,7 +478,7 @@ msgstr "Kišeniniai kompiuteriai"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:497
 msgid "Sync Pocket P_C devices when connected"
-msgstr "_Prijungus sinchronizuoti kišeninius kompiuterius"
+msgstr "_Prijungus, sinchronizuoti kišeninius kompiuterius"
 
 #. Printers
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
@@ -488,7 +488,7 @@ msgstr "Spausdintuvai"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
-msgstr "Prijungus _spausdintuvą automatiškai vykdyti programą"
+msgstr "Prijungus _spausdintuvą, automatiškai vykdyti programą"
 
 #. Input Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
@@ -501,7 +501,7 @@ msgstr "Klaviatūros"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Prijungus USB _klaviatūrą automatiškai vykdyti programą"
+msgstr "Prijungus USB _klaviatūrą, automatiškai vykdyti programą"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
@@ -509,7 +509,7 @@ msgstr "Pelės"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Prijungus USB _pelę automatiškai vykdyti programą"
+msgstr "Prijungus USB _pelę, automatiškai vykdyti programą"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -517,7 +517,7 @@ msgstr "Planšetė"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "_Aptikus planšetę automatiškai vykdyti programą"
+msgstr "_Aptikus planšetę, automatiškai vykdyti programą"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
