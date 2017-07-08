@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-02-26 18:30+0100\n"
-"PO-Revision-Date: 2017-07-04 09:44+0000\n"
+"PO-Revision-Date: 2017-07-08 10:00+0000\n"
 "Last-Translator: Pjotr <pjotrvertaalt@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/xfce/thunar-volman/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -380,11 +380,11 @@ msgstr "_Doorzoek verwijderbare opslagmedia wanneer deze worden ingebracht"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:182
 msgid "_Auto-run programs on new drives and media"
-msgstr "_Start programma's automatisch op nieuwe stations en opslagmedia"
+msgstr "Programma's op nieuwe stations en opslagmedia: start hen automatisch"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:189
 msgid "Auto-open files on new drives and media"
-msgstr "Open bestanden automatisch op nieuwe stations en opslagmedia"
+msgstr "Bestanden op nieuwe stations en opslagmedia: open hen automatisch"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:201
 msgid "Blank CDs and DVDs"
@@ -429,7 +429,7 @@ msgstr "Video-CD's/DVD's"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:321
 msgid "Play _video CDs and DVDs when inserted"
-msgstr "Speel _video-CD's en -DVD's wanneer ingebracht"
+msgstr "Speel _video-CD's en -DVD's af wanneer ingebracht"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:367
@@ -488,7 +488,7 @@ msgstr "Printers"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:545
 msgid "Automatically run a program when a _printer is connected"
-msgstr "Automatisch een programma uitvoeren wanneer er een _printer wordt aangesloten"
+msgstr "Voer automatisch een programma uit wanneer er een _printer wordt aangesloten"
 
 #. Input Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
@@ -501,7 +501,7 @@ msgstr "Toetsenborden"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Automatisch een programma uitvoeren wanneer er een USB-_toetsenbord wordt aangesloten"
+msgstr "Voer automatisch een programma uit wanneer er een USB-_toetsenbord wordt aangesloten"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:615
 msgid "Mice"
@@ -509,7 +509,7 @@ msgstr "Muizen"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:632
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Automatisch een programma uitvoeren wanneer er een USB-_muis wordt aangesloten"
+msgstr "Voer automatisch een programma uit wanneer er een USB-_muis wordt aangesloten"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:654
 msgid "Tablet"
@@ -517,7 +517,7 @@ msgstr "Tablet"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:671
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "Automatisch een programma uitvoeren wanneer er een _tablet-PC wordt aangesloten"
+msgstr "Voer automatisch een programma uit wanneer er een _tablet-PC wordt aangesloten"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:679
 msgid "Com_mand:"
