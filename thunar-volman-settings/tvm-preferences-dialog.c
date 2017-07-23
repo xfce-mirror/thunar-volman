@@ -96,7 +96,6 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   channel = xfconf_channel_get ("thunar-volman");
 
   /* configure the dialog properties */
-  gtk_dialog_set_has_separator (GTK_DIALOG (dialog), FALSE);
   gtk_window_set_icon_name (GTK_WINDOW (dialog), "drive-removable-media");
   gtk_window_set_resizable (GTK_WINDOW (dialog), FALSE);
   gtk_window_set_title (GTK_WINDOW (dialog), _("Removable Drives and Media"));
