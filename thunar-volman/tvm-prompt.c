@@ -98,9 +98,8 @@ tvm_prompt (TvmContext  *context,
   gtk_window_set_resizable (GTK_WINDOW (dialog), FALSE);
   g_object_set_data_full (G_OBJECT (dialog), "device", g_object_ref (context->device), 
                           g_object_unref);
-  gtk_container_set_border_width (GTK_CONTAINER (GTK_DIALOG (dialog)->vbox), 6);
-  gtk_container_set_border_width (GTK_CONTAINER (GTK_DIALOG (dialog)->action_area), 12);
-  gtk_dialog_set_has_separator (GTK_DIALOG (dialog), FALSE);
+  gtk_container_set_border_width (GTK_CONTAINER (gtk_dialog_get_content_area (GTK_DIALOG (dialog))), 6);
+  gtk_container_set_border_width (GTK_CONTAINER (gtk_dialog_get_action_area (GTK_DIALOG (dialog))), 12);
 
   /* apply the specified title */
   if (title != NULL && *title != '\0')
@@ -125,7 +124,7 @@ tvm_prompt (TvmContext  *context,
   /* create the hbox */
   hbox = gtk_hbox_new (FALSE, 12);
   gtk_container_set_border_width (GTK_CONTAINER (hbox), 12);
-  gtk_box_pack_start (GTK_BOX (GTK_DIALOG (dialog)->vbox), hbox, TRUE, TRUE, 0);
+  gtk_box_pack_start (GTK_BOX (gtk_dialog_get_content_area  (GTK_DIALOG (dialog))), hbox, TRUE, TRUE, 0);
   gtk_widget_show (hbox);
 
   /* apply the specified icon */

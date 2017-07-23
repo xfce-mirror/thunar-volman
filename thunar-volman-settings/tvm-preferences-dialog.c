@@ -108,9 +108,9 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   button = gtk_button_new_from_stock (GTK_STOCK_HELP);
   g_signal_connect (G_OBJECT (button), "clicked", 
                     G_CALLBACK (tvm_preferences_dialog_help_clicked), dialog);
-  gtk_box_pack_start (GTK_BOX (GTK_DIALOG (dialog)->action_area), button, 
+  gtk_box_pack_start (GTK_BOX (gtk_dialog_get_action_area (GTK_DIALOG (dialog))), button, 
                       FALSE, FALSE, 0);
-  gtk_button_box_set_child_secondary (GTK_BUTTON_BOX (GTK_DIALOG (dialog)->action_area),
+  gtk_button_box_set_child_secondary (GTK_BUTTON_BOX (gtk_dialog_get_action_area (GTK_DIALOG (dialog))),
                                       button, TRUE);
   gtk_widget_show (button);
 
@@ -121,7 +121,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
 
   notebook = gtk_notebook_new ();
   gtk_container_set_border_width (GTK_CONTAINER (notebook), 6);
-  gtk_box_pack_start (GTK_BOX (GTK_DIALOG (dialog)->vbox), notebook, TRUE, TRUE, 0);
+  gtk_box_pack_start (GTK_BOX (gtk_dialog_get_content_area (GTK_DIALOG (dialog))), notebook, TRUE, TRUE, 0);
   gtk_widget_show (notebook);
 
   /*

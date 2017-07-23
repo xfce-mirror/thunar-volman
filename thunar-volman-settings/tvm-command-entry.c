@@ -234,7 +234,7 @@ tvm_command_entry_clicked (GtkWidget       *button,
 
   /* determine the toplevel widget */
   toplevel = gtk_widget_get_toplevel (button);
-  if (toplevel == NULL || !GTK_WIDGET_TOPLEVEL (toplevel))
+  if (toplevel == NULL || !gtk_widget_is_toplevel (toplevel))
     return;
 
   chooser = gtk_file_chooser_dialog_new (_("Select an Application"),
