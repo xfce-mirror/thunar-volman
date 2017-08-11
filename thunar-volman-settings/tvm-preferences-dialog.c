@@ -90,7 +90,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   GtkWidget     *label;
   GtkWidget     *image;
   GtkWidget     *notebook;
-  GtkWidget     *table;
+  GtkWidget     *grid;
   GtkWidget     *vbox;
 
   channel = xfconf_channel_get ("thunar-volman");
@@ -142,54 +142,49 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
 
-  table = gtk_table_new (5, 2, FALSE);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
-  gtk_container_add (GTK_CONTAINER (frame), table);
-  gtk_widget_show (table);
+  grid = gtk_grid_new ();
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_container_add (GTK_CONTAINER (frame), grid);
+  gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("drive-removable-media", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
-  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("_Mount removable drives when "
                                                  "hot-plugged"));
   xfconf_g_property_bind (channel, "/automount-drives/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
   button = gtk_check_button_new_with_mnemonic (_("Mount removable media when "
                                                  "_inserted"));
   xfconf_g_property_bind (channel, "/automount-media/enabled", G_TYPE_BOOLEAN,
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 1, 1, 1);
   gtk_widget_show (button);
 
   button = gtk_check_button_new_with_mnemonic (_("B_rowse removable media when "
                                                  "inserted"));
   xfconf_g_property_bind (channel, "/autobrowse/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 2, 3, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 2, 1, 1);
   gtk_widget_show (button);
 
   button = gtk_check_button_new_with_mnemonic (_("_Auto-run programs on new drives "
                                                  "and media"));
   xfconf_g_property_bind (channel, "/autorun/enabled", G_TYPE_BOOLEAN, button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 3, 4, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 3, 1, 1);
   gtk_widget_show (button);
 
   button = gtk_check_button_new_with_mnemonic (_("Auto-open files on new drives "
                                                  "and media"));
   xfconf_g_property_bind (channel, "/autoopen/enabled", G_TYPE_BOOLEAN, button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 4, 5, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 4, 1, 1);
   gtk_widget_show (button);
 
   frame = g_object_new (GTK_TYPE_FRAME, "border-width", 0, "shadow-type", 
@@ -202,24 +197,23 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
 
-  table = gtk_table_new (3, 2, FALSE);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
-  gtk_container_add (GTK_CONTAINER (frame), table);
-  gtk_widget_show (table);
+  grid = gtk_grid_new ();
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_container_add (GTK_CONTAINER (frame), grid);
+  gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("tvm-burn-cd", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
-  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("_Burn a CD or DVD when a blank disc "
                                                  "is inserted"));
   xfconf_g_property_bind (channel, "/autoburn/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
   /* use a size group to make sure both labels request the same width */
@@ -230,8 +224,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/autoburn/data-cd-command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
   gtk_size_group_add_widget (size_group, TVM_COMMAND_ENTRY (entry)->label);
   gtk_widget_show (entry);
 
@@ -240,8 +233,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/autoburn/audio-cd-command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 2, 3, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), entry, 1, 2, 1, 1);
   gtk_size_group_add_widget (size_group, TVM_COMMAND_ENTRY (entry)->label);
   gtk_widget_show (entry);
 
@@ -267,23 +259,22 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
 
-  table = gtk_table_new (2, 2, FALSE);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
-  gtk_container_add (GTK_CONTAINER (frame), table);
-  gtk_widget_show (table);
+  grid = gtk_grid_new ();
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_container_add (GTK_CONTAINER (frame), grid);
+  gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("media-optical", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
-  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("Play _audio CDs when inserted"));
   xfconf_g_property_bind (channel, "/autoplay-audio-cds/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
   entry = tvm_command_entry_new_with_label (_("_Command:"));
@@ -291,8 +282,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/autoplay-audio-cds/command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
   gtk_widget_show (entry);
 
   frame = g_object_new (GTK_TYPE_FRAME, "border-width", 0, "shadow-type", 
@@ -305,24 +295,23 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
 
-  table = gtk_table_new (2, 2, FALSE);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
-  gtk_container_add (GTK_CONTAINER (frame), table);
-  gtk_widget_show (table);
+  grid = gtk_grid_new ();
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_container_add (GTK_CONTAINER (frame), grid);
+  gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("drive-optical", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
-  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("Play _video CDs and DVDs when "
                                                  "inserted"));
   xfconf_g_property_bind (channel, "/autoplay-video-cds/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
   entry = tvm_command_entry_new_with_label (_("C_ommand:"));
@@ -330,8 +319,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/autoplay-video-cds/command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL,
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
   gtk_widget_show (entry);
 
   frame = g_object_new (GTK_TYPE_FRAME, "border-width", 0, "shadow-type", 
@@ -344,23 +332,22 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
 
-  table = gtk_table_new (2, 2, FALSE);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
-  gtk_container_add (GTK_CONTAINER (frame), table);
-  gtk_widget_show (table);
+  grid = gtk_grid_new ();
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_container_add (GTK_CONTAINER (frame), grid);
+  gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("multimedia-player", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
-  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("Play _music files when connected"));
   xfconf_g_property_bind (channel, "/autoipod/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
   entry = tvm_command_entry_new_with_label (_("C_ommand:"));
@@ -368,8 +355,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/autoipod/command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
   gtk_widget_show (entry);
 
   /*
@@ -391,24 +377,23 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
 
-  table = gtk_table_new (2, 2, FALSE);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
-  gtk_container_add (GTK_CONTAINER (frame), table);
-  gtk_widget_show (table);
+  grid = gtk_grid_new ();
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_container_add (GTK_CONTAINER (frame), grid);
+  gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("camera-photo", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
-  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("Import digital photographs "
                                                  "when connected"));
   xfconf_g_property_bind (channel, "/autophoto/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
   entry = tvm_command_entry_new_with_label (_("_Command:"));
@@ -416,8 +401,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/autophoto/command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
   gtk_widget_show (entry);
 
   /*
@@ -442,24 +426,23 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
 
-  table = gtk_table_new (2, 2, FALSE);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
-  gtk_container_add (GTK_CONTAINER (frame), table);
-  gtk_widget_show (table);
+  grid = gtk_grid_new ();
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_container_add (GTK_CONTAINER (frame), grid);
+  gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("pda", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
-  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("Sync _Palm™ devices "
                                                  "when connected"));
   xfconf_g_property_bind (channel, "/autopalm/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
   entry = tvm_command_entry_new_with_label (_("_Command:"));
@@ -467,8 +450,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/autopalm/command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
   gtk_widget_show (entry);
 
   frame = g_object_new (GTK_TYPE_FRAME, "border-width", 0, "shadow-type", 
@@ -481,24 +463,23 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
 
-  table = gtk_table_new (2, 2, FALSE);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
-  gtk_container_add (GTK_CONTAINER (frame), table);
-  gtk_widget_show (table);
+  grid = gtk_grid_new ();
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_container_add (GTK_CONTAINER (frame), grid);
+  gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("tvm-dev-pocketpc", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
-  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("Sync Pocket P_C devices "
                                                  "when connected"));
   xfconf_g_property_bind (channel, "/autopocketpc/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
   entry = tvm_command_entry_new_with_label (_("C_ommand:"));
@@ -506,8 +487,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/autopocketpc/command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL,
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
   gtk_widget_show (entry);
 
   /*
@@ -529,24 +509,23 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
 
-  table = gtk_table_new (2, 2, FALSE);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
-  gtk_container_add (GTK_CONTAINER (frame), table);
-  gtk_widget_show (table);
+  grid = gtk_grid_new ();
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_container_add (GTK_CONTAINER (frame), grid);
+  gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("printer", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
-  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("Automatically run a program "
                                                  "when a _printer is connected"));
   xfconf_g_property_bind (channel, "/autoprinter/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
   entry = tvm_command_entry_new_with_label (_("_Command:"));
@@ -554,8 +533,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/autoprinter/command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL,
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
   gtk_widget_show (entry);
 
   /*
@@ -577,24 +555,23 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
 
-  table = gtk_table_new (2, 2, FALSE);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
-  gtk_container_add (GTK_CONTAINER (frame), table);
-  gtk_widget_show (table);
+  grid = gtk_grid_new ();
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_container_add (GTK_CONTAINER (frame), grid);
+  gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("input-keyboard", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
-  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("Automatically run a program "
                                                  "when a USB _keyboard is connected"));
   xfconf_g_property_bind (channel, "/autokeyboard/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
   entry = tvm_command_entry_new_with_label (_("_Command:"));
@@ -602,8 +579,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/autokeyboard/command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL,
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
   gtk_widget_show (entry);
 
   frame = g_object_new (GTK_TYPE_FRAME, "border-width", 0, "shadow-type", 
@@ -616,24 +592,23 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
 
-  table = gtk_table_new (2, 2, FALSE);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
-  gtk_container_add (GTK_CONTAINER (frame), table);
-  gtk_widget_show (table);
+  grid = gtk_grid_new ();
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_container_add (GTK_CONTAINER (frame), grid);
+  gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("input-mouse", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
-  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("Automatically run a program "
                                                  "when a USB _mouse is connected"));
   xfconf_g_property_bind (channel, "/automouse/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL,
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
   entry = tvm_command_entry_new_with_label (_("C_ommand:"));
@@ -641,8 +616,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/automouse/command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL,
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
   gtk_widget_show (entry);
 
   frame = g_object_new (GTK_TYPE_FRAME, "border-width", 0, "shadow-type", 
@@ -655,24 +629,23 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
 
-  table = gtk_table_new (2, 2, FALSE);
-  gtk_table_set_row_spacings (GTK_TABLE (table), 3);
-  gtk_table_set_col_spacings (GTK_TABLE (table), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (table), 8);
-  gtk_container_add (GTK_CONTAINER (frame), table);
-  gtk_widget_show (table);
+  grid = gtk_grid_new ();
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
+  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_container_add (GTK_CONTAINER (frame), grid);
+  gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("input-tablet", GTK_ICON_SIZE_DIALOG);
   gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
-  gtk_table_attach (GTK_TABLE (table), image, 0, 1, 0, 3, GTK_FILL, GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("Automatically run a program "
                                                  "when a _tablet is connected"));
   xfconf_g_property_bind (channel, "/autotablet/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
-  gtk_table_attach (GTK_TABLE (table), button, 1, 2, 0, 1, GTK_EXPAND | GTK_FILL,
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
   entry = tvm_command_entry_new_with_label (_("Com_mand:"));
@@ -680,8 +653,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "sensitive");
   xfconf_g_property_bind (channel, "/autotablet/command", G_TYPE_STRING, 
                           entry, "command");
-  gtk_table_attach (GTK_TABLE (table), entry, 1, 2, 1, 2, GTK_EXPAND | GTK_FILL, 
-                    GTK_FILL, 0, 0);
+  gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
   gtk_widget_show (entry);
 }
 
