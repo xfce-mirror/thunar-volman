@@ -127,7 +127,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
      Storage
    */
   label = gtk_label_new (_("Storage"));
-  vbox = g_object_new (GTK_TYPE_VBOX, "border-width", 12, "spacing", 12, NULL);
+  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 12, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
   gtk_widget_show (vbox);
@@ -252,7 +252,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
      Multimedia
    */
   label = gtk_label_new (_("Multimedia"));
-  vbox = g_object_new (GTK_TYPE_VBOX, "border-width", 12, "spacing", 12, NULL);
+  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 12, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
   gtk_widget_show (vbox);
@@ -376,7 +376,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
      Cameras
    */
   label = gtk_label_new (_("Cameras"));
-  vbox = g_object_new (GTK_TYPE_VBOX, "border-width", 12, "spacing", 12, NULL);
+  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 12, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
   gtk_widget_show (vbox);
@@ -424,7 +424,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
      PDAs
    */
   label = gtk_label_new (_("PDAs"));
-  vbox = g_object_new (GTK_TYPE_VBOX, "border-width", 12, "spacing", 12, NULL);
+  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 12, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
   gtk_widget_show (vbox);
@@ -514,7 +514,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
      Printers
    */
   label = gtk_label_new (_("Printers"));
-  vbox = g_object_new (GTK_TYPE_VBOX, "border-width", 12, "spacing", 12, NULL);
+  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 12, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
   gtk_widget_show (vbox);
@@ -562,7 +562,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
      Input Devices
    */
   label = gtk_label_new (_("Input Devices"));
-  vbox = g_object_new (GTK_TYPE_VBOX, "border-width", 12, "spacing", 12, NULL);
+  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 12, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
   gtk_widget_show (vbox);
