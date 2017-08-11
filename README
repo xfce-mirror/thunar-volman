@@ -18,14 +18,14 @@ Required packages
 
 thunar-volman depends on the following packages:
 
- - Thunar 1.1.1 or above
- - exo 0.5.0 or above
- - glib 2.18.0 or above
- - GTK+ 2.24.0 or above
+ - Thunar 1.7.0 or above
+ - exo 0.10.0 or above
+ - glib 2.30.0 or above
+ - GTK+ 3.20.0 or above
  - GUDev 145 or above
- - libxfce4ui 4.7.0 or above
- - libxfce4util 4.7.0 or above
- - xfconf 4.7.0 or above
+ - libxfce4ui 4.12.0 or above
+ - libxfce4util 4.12.0 or above
+ - xfconf 4.12.0 or above
 
 
 Installation
