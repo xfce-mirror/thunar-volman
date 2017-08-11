@@ -104,7 +104,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                                      "and media"));
 
   /* add "Help" button */
-  button = gtk_button_new_from_stock (GTK_STOCK_HELP);
+  button = gtk_button_new_from_icon_name ("help-browser", GTK_ICON_SIZE_BUTTON);
   g_signal_connect (G_OBJECT (button), "clicked", 
                     G_CALLBACK (tvm_preferences_dialog_help_clicked), dialog);
   gtk_box_pack_start (GTK_BOX (gtk_dialog_get_action_area (GTK_DIALOG (dialog))), button, 
@@ -115,7 +115,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
 
   /* add "Close" button */
   gtk_dialog_add_buttons (GTK_DIALOG (dialog),
-                          GTK_STOCK_CLOSE, GTK_RESPONSE_CLOSE,
+                          "window-close", GTK_RESPONSE_CLOSE,
                           NULL);
 
   notebook = gtk_notebook_new ();
