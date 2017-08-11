@@ -371,7 +371,7 @@ tvm_command_entry_new_with_label (const gchar *label)
 
   g_return_val_if_fail (label == NULL || g_utf8_validate (label, -1, NULL), NULL);
 
-  entry = g_object_new (TVM_TYPE_COMMAND_ENTRY, NULL);
+  entry = g_object_new (TVM_TYPE_COMMAND_ENTRY, "hexpand", TRUE, NULL);
   if (G_LIKELY (label != NULL))
     g_object_set (G_OBJECT (entry->label), "label", label, "use-underline", TRUE, NULL);
   return GTK_WIDGET (entry);
