@@ -37,12 +37,12 @@ typedef struct _TvmCommandEntry      TvmCommandEntry;
 
 struct _TvmCommandEntryClass
 {
-  GtkHBoxClass __parent__;
+  GtkBoxClass __parent__;
 };
 
 struct _TvmCommandEntry
 {
-  GtkHBox    __parent__;
+  GtkBox    __parent__;
   GtkWidget *entry;
   GtkWidget *label;
   gchar     *command;

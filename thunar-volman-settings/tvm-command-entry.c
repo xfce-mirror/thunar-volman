@@ -89,7 +89,7 @@ tvm_command_entry_get_type (void)
         NULL,
       };
 
-      type = g_type_register_static (GTK_TYPE_HBOX, I_("TvmCommandEntry"), &info, 0);
+      type = g_type_register_static (GTK_TYPE_BOX, I_("TvmCommandEntry"), &info, 0);
     }
 
   return type;
@@ -130,16 +130,13 @@ static void
 tvm_command_entry_init (TvmCommandEntry *command_entry)
 {
   GtkWidget *button;
-  GtkWidget *align;
   GtkWidget *image;
 
   gtk_box_set_spacing (GTK_BOX (command_entry), 2);
+  gtk_orientable_set_orientation (GTK_ORIENTABLE (command_entry), GTK_ORIENTATION_HORIZONTAL);
 
-  align = g_object_new (GTK_TYPE_ALIGNMENT, "width-request", 10, NULL);
-  gtk_box_pack_start (GTK_BOX (command_entry), align, FALSE, FALSE, 0);
-  gtk_widget_show (align);
-
-  command_entry->label = g_object_new (GTK_TYPE_LABEL, "use-underline", TRUE, "xalign", 0.0f, NULL);
+  command_entry->label = g_object_new (GTK_TYPE_LABEL, "use-underline", TRUE,
+                                       "xalign", 0.0f, "margin-left", 12, NULL);
   gtk_box_pack_start (GTK_BOX (command_entry), command_entry->label, FALSE, FALSE, 10);
   gtk_widget_show (command_entry->label);
 

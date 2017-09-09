@@ -45,8 +45,8 @@ enum
 
 
 
-static void tvm_preferences_dialog_help_clicked (GtkWidget            *button,
-                                                 TvmPreferencesDialog *dialog);
+static void tvm_preferences_dialog_response (GtkWidget *dialog,
+                                             gint response_id);
 
 
 
@@ -103,20 +103,19 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                                    _("Configure management of removable drives "
                                      "and media"));
 
+  g_signal_connect (dialog, "response", G_CALLBACK (tvm_preferences_dialog_response), NULL);
+
   /* add "Help" button */
   button = gtk_button_new_from_icon_name ("help-browser", GTK_ICON_SIZE_BUTTON);
-  g_signal_connect (G_OBJECT (button), "clicked", 
-                    G_CALLBACK (tvm_preferences_dialog_help_clicked), dialog);
-  gtk_box_pack_start (GTK_BOX (gtk_dialog_get_action_area (GTK_DIALOG (dialog))), button, 
-                      FALSE, FALSE, 0);
-  gtk_button_box_set_child_secondary (GTK_BUTTON_BOX (gtk_dialog_get_action_area (GTK_DIALOG (dialog))),
-                                      button, TRUE);
+  gtk_button_set_label (GTK_BUTTON (button), _("Help"));
+  gtk_dialog_add_action_widget (GTK_DIALOG (dialog), button, GTK_RESPONSE_HELP);
   gtk_widget_show (button);
 
   /* add "Close" button */
-  gtk_dialog_add_buttons (GTK_DIALOG (dialog),
-                          "window-close", GTK_RESPONSE_CLOSE,
-                          NULL);
+  button = gtk_button_new_from_icon_name ("window-close", GTK_ICON_SIZE_BUTTON);
+  gtk_button_set_label (GTK_BUTTON (button), _("Close"));
+  gtk_dialog_add_action_widget (GTK_DIALOG (dialog), button, GTK_RESPONSE_CLOSE);
+  gtk_widget_show (button);
 
   notebook = gtk_notebook_new ();
   gtk_container_set_border_width (GTK_CONTAINER (notebook), 6);
@@ -150,7 +149,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("drive-removable-media", GTK_ICON_SIZE_DIALOG);
-  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
+  gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
@@ -205,7 +205,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("tvm-burn-cd", GTK_ICON_SIZE_DIALOG);
-  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
+  gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
@@ -267,7 +268,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("media-optical", GTK_ICON_SIZE_DIALOG);
-  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
+  gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
@@ -303,7 +305,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("drive-optical", GTK_ICON_SIZE_DIALOG);
-  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
+  gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
@@ -340,7 +343,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("multimedia-player", GTK_ICON_SIZE_DIALOG);
-  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
+  gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
@@ -385,7 +389,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("camera-photo", GTK_ICON_SIZE_DIALOG);
-  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
+  gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
@@ -434,7 +439,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("pda", GTK_ICON_SIZE_DIALOG);
-  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
+  gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
@@ -471,7 +477,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("tvm-dev-pocketpc", GTK_ICON_SIZE_DIALOG);
-  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
+  gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
@@ -517,7 +524,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("printer", GTK_ICON_SIZE_DIALOG);
-  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
+  gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
@@ -563,7 +571,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("input-keyboard", GTK_ICON_SIZE_DIALOG);
-  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
+  gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
@@ -600,7 +609,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("input-mouse", GTK_ICON_SIZE_DIALOG);
-  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
+  gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
@@ -637,7 +647,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (grid);
 
   image = gtk_image_new_from_icon_name ("input-tablet", GTK_ICON_SIZE_DIALOG);
-  gtk_misc_set_alignment (GTK_MISC (image), 0.5f, 0.0f);
+  gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
+  gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
@@ -660,19 +671,23 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
 
 
 static void
-tvm_preferences_dialog_help_clicked (GtkWidget            *button,
-                                     TvmPreferencesDialog *dialog)
+tvm_preferences_dialog_response (GtkWidget *dialog,
+                                 gint response_id)
 {
-  g_return_if_fail (GTK_IS_BUTTON (button));
   g_return_if_fail (TVM_IS_PREFERENCES_DIALOG (dialog));
+
+  if (response_id != GTK_RESPONSE_HELP)
+    {
+      gtk_main_quit ();
+      return;
+    }
 
 #if LIBXFCE4UI_CHECK_VERSION(4, 11, 1)
   xfce_dialog_show_help_with_version (GTK_WINDOW (dialog), "thunar",
                                       "using-removable-media", NULL,
                                       TVM_VERSION_HELP);
 #else
-  xfce_dialog_show_help (GTK_WINDOW (dialog), "thunar",
-                         "using-removable-media", NULL);
+  xfce_dialog_show_help (GTK_WINDOW (dialog), "thunar", "using-removable-media", NULL);
 #endif
 }
 

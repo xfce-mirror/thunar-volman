@@ -80,7 +80,9 @@ main (int    argc,
 
   /* display the dialog */
   dialog = tvm_preferences_dialog_new ();
-  gtk_dialog_run (GTK_DIALOG (dialog));
+  gtk_widget_show (dialog);
+  gtk_main ();
+
   gtk_widget_destroy (dialog);
 
   /* free xfconf resources */

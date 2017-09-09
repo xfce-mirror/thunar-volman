@@ -99,7 +99,6 @@ tvm_prompt (TvmContext  *context,
   g_object_set_data_full (G_OBJECT (dialog), "device", g_object_ref (context->device), 
                           g_object_unref);
   gtk_container_set_border_width (GTK_CONTAINER (gtk_dialog_get_content_area (GTK_DIALOG (dialog))), 6);
-  gtk_container_set_border_width (GTK_CONTAINER (gtk_dialog_get_action_area (GTK_DIALOG (dialog))), 12);
 
   /* apply the specified title */
   if (title != NULL && *title != '\0')
@@ -134,7 +133,8 @@ tvm_prompt (TvmContext  *context,
 
       /* setup an image for the icon */
       image = gtk_image_new_from_icon_name (icon, GTK_ICON_SIZE_DIALOG);
-      gtk_misc_set_alignment (GTK_MISC (image), 0.0f, 0.0f);
+      gtk_widget_set_halign (image, GTK_ALIGN_START);
+      gtk_widget_set_valign (image, GTK_ALIGN_START);
       gtk_box_pack_start (GTK_BOX (hbox), image, FALSE, FALSE, 0);
       gtk_widget_show (image);
     }
@@ -147,7 +147,8 @@ tvm_prompt (TvmContext  *context,
   /* setup the primary text */
   label = gtk_label_new (primary_text);
   gtk_label_set_line_wrap (GTK_LABEL (label), TRUE);
-  gtk_misc_set_alignment (GTK_MISC (label), 0.0f, 0.5f);
+  gtk_label_set_xalign (GTK_LABEL (label), 0.0f);
+  gtk_label_set_yalign (GTK_LABEL (label), 0.5f);
   gtk_label_set_attributes (GTK_LABEL (label), tvm_pango_attr_list_big_bold ());
   gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, FALSE, 0);
   gtk_widget_show (label);
@@ -157,7 +158,8 @@ tvm_prompt (TvmContext  *context,
     {
       label = gtk_label_new (secondary_text);
       gtk_label_set_line_wrap (GTK_LABEL (label), TRUE);
-      gtk_misc_set_alignment (GTK_MISC (label), 0.0f, 0.5f);
+      gtk_label_set_xalign (GTK_LABEL (label), 0.0f);
+      gtk_label_set_yalign (GTK_LABEL (label), 0.5f);
       gtk_box_pack_start (GTK_BOX (vbox), label, FALSE, FALSE, 0);
       gtk_widget_show (label);
     }
