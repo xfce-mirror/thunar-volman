@@ -30,20 +30,28 @@
 #include <glib/gstdio.h>
 
 #include <gtk/gtk.h>
+#include <gtk/gtkx.h>
 
+#include <libxfce4ui/libxfce4ui.h>
 #include <libxfce4util/libxfce4util.h>
-
 #include <xfconf/xfconf.h>
 
 #include <thunar-volman-settings/tvm-preferences-dialog.h>
+
+static gint opt_socket_id = 0;
+GOptionEntry option_entries[] =
+{
+  { "socket-id", 's', G_OPTION_FLAG_IN_MAIN, G_OPTION_ARG_INT, &opt_socket_id, N_("Settings manager socket"), N_("SOCKET ID") },
+};
 
 
 int
 main (int    argc,
       char **argv)
 {
-  GtkWidget *dialog;
+  GtkWidget *dialog, *plug, *plug_child;
   GError    *error = NULL;
+  GList     *list;
 
   /* setup translation domain */
   xfce_textdomain (GETTEXT_PACKAGE, PACKAGE_LOCALE_DIR, "UTF-8");
@@ -63,7 +71,7 @@ main (int    argc,
 #endif
 
   /* initialize GTK+ */
-  if (!gtk_init_with_args (&argc, &argv, NULL, NULL, GETTEXT_PACKAGE, &error))
+  if (!gtk_init_with_args (&argc, &argv, NULL, option_entries, GETTEXT_PACKAGE, &error))
     {
       g_fprintf (stderr, "%s: %s.\n", g_get_prgname (), error->message);
       g_error_free (error);
@@ -78,10 +86,30 @@ main (int    argc,
       return EXIT_FAILURE;
     }
 
-  /* display the dialog */
   dialog = tvm_preferences_dialog_new ();
-  gtk_widget_show (dialog);
-  gtk_main ();
+
+  if (opt_socket_id == 0)
+    {
+      /* display the dialog */
+      gtk_widget_show (dialog);
+      gtk_main ();
+    }
+  else
+    {
+      /* create plug widget */
+      plug = gtk_plug_new (opt_socket_id);
+      g_signal_connect (plug, "delete-event", G_CALLBACK (gtk_main_quit), NULL);
+      gtk_widget_show (plug);
+
+      list = gtk_container_get_children (GTK_CONTAINER (gtk_dialog_get_content_area (GTK_DIALOG (dialog))));
+      plug_child = list->data;
+      g_list_free (list);
+
+      xfce_widget_reparent (plug_child, plug);
+
+      gtk_main ();
+      gtk_widget_destroy (plug);
+    }
 
   gtk_widget_destroy (dialog);
 
