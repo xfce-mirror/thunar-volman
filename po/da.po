@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2017-09-13 14:38+0000\n"
+"PO-Revision-Date: 2017-09-13 21:21+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -322,7 +322,7 @@ msgstr "Ikke understøttet usb-enhedstype \"%s\""
 
 #: ../thunar-volman-settings/main.c:44
 msgid "Settings manager socket"
-msgstr "Sokkel for indstillingshåndtering"
+msgstr "Sokkel til indstillingshåndtering"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "SOCKET ID"
