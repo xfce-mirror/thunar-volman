@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-09-21 00:30+0200\n"
-"PO-Revision-Date: 2013-12-08 11:57+0000\n"
-"Last-Translator: Masato HASHIMOTO <cabezon.hashimoto@gmail.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/xfce/language/ja/)\n"
+"POT-Creation-Date: 2017-09-09 18:30+0200\n"
+"PO-Revision-Date: 2017-09-19 18:02+0000\n"
+"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
+"Language-Team: Japanese (http://www.transifex.com/xfce/thunar-volman/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,7 +24,7 @@ msgstr "新たに追加されたデバイスの Sysfs パス"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:104
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:103
 msgid "Configure management of removable drives and media"
 msgstr "リムーバブルドライブとメディアの取扱いを設定します"
 
@@ -74,7 +74,7 @@ msgstr "写真を取り込みますか? それとも音楽を管理しますか?
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 #: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:829 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:830 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "無視する(_N)"
@@ -189,27 +189,27 @@ msgstr "デバイスをマウントできません"
 msgid "Could not detect the volume corresponding to the device"
 msgstr "デバイスに対応するボリュームを検出できませんでした"
 
-#: ../thunar-volman/tvm-block-device.c:824
+#: ../thunar-volman/tvm-block-device.c:825
 msgid "Audio/Data CD"
 msgstr "オーディオ/データCD"
 
-#: ../thunar-volman/tvm-block-device.c:825
+#: ../thunar-volman/tvm-block-device.c:826
 msgid "The CD in the drive contains both music and files"
 msgstr "ドライブ内の CD には音楽とファイルの両方があります"
 
-#: ../thunar-volman/tvm-block-device.c:827
+#: ../thunar-volman/tvm-block-device.c:828
 msgid "Would you like to listen to music or browse the files?"
 msgstr "音楽を聴きますか? それともファイルを参照しますか?"
 
-#: ../thunar-volman/tvm-block-device.c:830
+#: ../thunar-volman/tvm-block-device.c:831
 msgid "_Browse Files"
 msgstr "ファイルを参照する(_B)"
 
-#: ../thunar-volman/tvm-block-device.c:831
+#: ../thunar-volman/tvm-block-device.c:832
 msgid "_Play CD"
 msgstr "CD を再生する(_P)"
 
-#: ../thunar-volman/tvm-block-device.c:919
+#: ../thunar-volman/tvm-block-device.c:920
 #, c-format
 msgid "Unknown block device type \"%s\""
 msgstr "\"%s\" は未知のブロックデバイスタイプです"
@@ -318,216 +318,222 @@ msgstr "USB プリンターが検出されました"
 msgid "Unsupported USB device type \"%s\""
 msgstr "\"%s\" は未サポートの USB デバイスタイプです"
 
+#: ../thunar-volman-settings/main.c:44
+msgid "Settings manager socket"
+msgstr ""
+
+#: ../thunar-volman-settings/main.c:44
+msgid "SOCKET ID"
+msgstr ""
+
 #. setup application name
-#: ../thunar-volman-settings/main.c:52
+#: ../thunar-volman-settings/main.c:60
 msgid "Thunar Volume Manager Settings"
 msgstr "Thunar ボリュームマネージャー設定"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:102
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:101
 msgid "Removable Drives and Media"
 msgstr "リムーバブルドライブとメディア"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:240
+#: ../thunar-volman-settings/tvm-command-entry.c:237
 msgid "Select an Application"
 msgstr "アプリケーションを選択してください"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:250
+#: ../thunar-volman-settings/tvm-command-entry.c:247
 msgid "All Files"
 msgstr "すべてのファイル"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:255
+#: ../thunar-volman-settings/tvm-command-entry.c:252
 msgid "Executable Files"
 msgstr "実行ファイル"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:270
+#: ../thunar-volman-settings/tvm-command-entry.c:267
 msgid "Perl Scripts"
 msgstr "Perl スクリプト"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:276
+#: ../thunar-volman-settings/tvm-command-entry.c:273
 msgid "Python Scripts"
 msgstr "Python スクリプト"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:282
+#: ../thunar-volman-settings/tvm-command-entry.c:279
 msgid "Ruby Scripts"
 msgstr "Ruby スクリプト"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:288
+#: ../thunar-volman-settings/tvm-command-entry.c:285
 msgid "Shell Scripts"
 msgstr "シェルスクリプト"
 
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:110
+msgid "Help"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:116
+msgid "Close"
+msgstr ""
+
 #. Storage
-#. 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:130
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:128
 msgid "Storage"
 msgstr "ストレージ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:141
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:139
 msgid "Removable Storage"
 msgstr "リムーバブルストレージ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:157
 msgid "_Mount removable drives when hot-plugged"
 msgstr "リムーバブルドライブがホットプラグされたらマウントする(_M)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:166
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:164
 msgid "Mount removable media when _inserted"
 msgstr "リムーバブルメディアが挿入されたらマウントする(_I)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:174
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:171
 msgid "B_rowse removable media when inserted"
 msgstr "リムーバブルメディアが挿入されたら参照する(_R)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:182
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:178
 msgid "_Auto-run programs on new drives and media"
 msgstr "新しいドライブおよびメディア上のプログラムを自動実行する(_A)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:189
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
 msgid "Auto-open files on new drives and media"
 msgstr "新しいドライブおよびメディア上のファイルを自動的に開く"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:201
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:195
 msgid "Blank CDs and DVDs"
 msgstr "空の CD および DVD"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:218
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:213
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "空の CD または DVD が挿入されたらディスクを作成する(_B)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:229
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:223
 msgid "Command for _Data CDs:"
 msgstr "データ CD 用コマンド(_D)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:239
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:232
 msgid "Command for A_udio CDs:"
 msgstr "オーディオ CD 用コマンド(_U)"
 
 #. Multimedia
-#. 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:255
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:247
 msgid "Multimedia"
 msgstr "マルチメディア"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:266
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:258
 msgid "Audio CDs"
 msgstr "オーディオ CD"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:283
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:276
 msgid "Play _audio CDs when inserted"
 msgstr "オーディオ CD が挿入されたら再生する(_A)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:290
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:466
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:553
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:601
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:282
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:404
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:539
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:586
 msgid "_Command:"
 msgstr "コマンド(_C):"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:304
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:295
 msgid "Video CDs/DVDs"
 msgstr "ビデオ CD/DVD"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:321
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:313
 msgid "Play _video CDs and DVDs when inserted"
 msgstr "ビデオ CD および DVD が挿入されたら再生する(_V)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:367
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:505
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:640
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:320
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:357
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:624
 msgid "C_ommand:"
 msgstr "コマンド(_O):"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:343
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:333
 msgid "Portable Music Players"
 msgstr "携帯音楽プレーヤー"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:360
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:351
 msgid "Play _music files when connected"
 msgstr "接続されたら音楽ファイルを再生する(_M)"
 
 #. Cameras
-#. 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
 msgid "Cameras"
 msgstr "カメラ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:390
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Digital Cameras"
 msgstr "デジタルカメラ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:407
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:397
 msgid "Import digital photographs when connected"
 msgstr "接続されたら写真を取り込む"
 
 #. PDAs
-#. 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:427
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
 msgid "PDAs"
 msgstr "PDA"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:441
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:429
 msgid "Palm™"
 msgstr "Palm™"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:458
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:447
 msgid "Sync _Palm™ devices when connected"
 msgstr "Palm™ デバイスが接続されたら同期をとる(_P)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:480
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:467
 msgid "Pocket PCs"
 msgstr "Pocket PC"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:497
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:485
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Pocket PC デバイスが接続されたら同期をとる(_C)"
 
 #. Printers
-#. 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:517
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:528
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:503
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:514
 msgid "Printers"
 msgstr "プリンター"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:545
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:532
 msgid "Automatically run a program when a _printer is connected"
 msgstr "プリンターが接続されたら自動的にプログラムを実行する(_P)"
 
 #. Input Devices
-#. 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:565
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
 msgid "Input Devices"
 msgstr "入力デバイス"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:576
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:561
 msgid "Keyboards"
 msgstr "キーボード"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:593
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:579
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "USB キーボードが接続されたら自動的にプログラムを実行する(_K)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:615
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:599
 msgid "Mice"
 msgstr "マウス"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:632
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:617
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "USB マウスが接続されたら自動的にプログラムを実行する(_M)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:654
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:637
 msgid "Tablet"
 msgstr "タブレット"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:671
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:655
 msgid "Automatically run a program when a _tablet is connected"
 msgstr "タブレットが接続されたら自動的にプログラムを実行する(_T)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:679
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:662
 msgid "Com_mand:"
 msgstr "コマンド(_M):"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:755
-msgid "Failed to open the documentation browser"
-msgstr "ドキュメントブラウザーのオープンに失敗しました"
