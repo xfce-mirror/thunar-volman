@@ -1,23 +1,23 @@
-# Simplified Chinese translations for
-# the thunar-volman package.
-# This file is distributed under the same license as
-# the thunar-volman package.
-# Jiahua Huang <jhuangjiahua@gmail.com>, 2009.
-# Hunt Xu <huntxu@live.cn>, 2009.
-# Chipong Luo <chipong.luo@yahoo.com>, 2011, 2012.
-#
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Chipong Luo <chipong.luo@yahoo.com>, 2011-2012
+# Hunt Xu <huntxu@live.cn>, 2009
+# Jiahua Huang <jhuangjiahua@gmail.com>, 2009
 msgid ""
 msgstr ""
-"Project-Id-Version: thunar-volman\n"
+"Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-23 02:45+0000\n"
-"PO-Revision-Date: 2011-03-13 14:50+0800\n"
-"Last-Translator: Chipong Luo <chipong.luo@yahoo.com>\n"
-"Language-Team: Chinese (Simplified) <xfce-i18n-cn@xfce.org>\n"
-"Language: zh_CN\n"
+"POT-Creation-Date: 2013-07-02 23:06+0200\n"
+"PO-Revision-Date: 2017-09-19 18:02+0000\n"
+"Last-Translator: Nick Schermer <nick@xfce.org>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/xfce/thunar-volman/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../thunar-volman/main.c:59
@@ -25,7 +25,7 @@ msgid "The syfs path of the newly added device"
 msgstr "新添加设备的 sysf 路径"
 
 #: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:104
 msgid "Configure management of removable drives and media"
 msgstr "可移动驱动器和介质的配置管理"
@@ -325,7 +325,7 @@ msgstr "不支持的 USB 设备类型"
 msgid "Thunar Volume Manager Settings"
 msgstr "Thunar 卷管理器设置"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:102
 msgid "Removable Drives and Media"
 msgstr "可移动驱动器和介质"
@@ -358,9 +358,7 @@ msgstr "Ruby 脚本"
 msgid "Shell Scripts"
 msgstr "Shell 脚本"
 
-#.
 #. Storage
-#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:130
 msgid "Storage"
 msgstr "存储器"
@@ -405,9 +403,7 @@ msgstr "数据 CD 的命令(_D)："
 msgid "Command for A_udio CDs:"
 msgstr "音频 CD 的命令(_U)："
 
-#.
 #. Multimedia
-#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:255
 msgid "Multimedia"
 msgstr "多媒体"
@@ -451,9 +447,7 @@ msgstr "便携式音乐播放器"
 msgid "Play _music files when connected"
 msgstr "连接后播放音乐文件(_M)"
 
-#.
 #. Cameras
-#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:379
 msgid "Cameras"
 msgstr "相机"
@@ -466,9 +460,7 @@ msgstr "数码相机"
 msgid "Import digital photographs when connected"
 msgstr "连接后导入数码照片"
 
-#.
 #. PDAs
-#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:427
 msgid "PDAs"
 msgstr "PDA"
@@ -489,9 +481,7 @@ msgstr "掌上电脑"
 msgid "Sync Pocket P_C devices when connected"
 msgstr "连接后同步掌上电脑设备(_C)"
 
-#.
 #. Printers
-#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:517
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Printers"
@@ -501,9 +491,7 @@ msgstr "打印机"
 msgid "Automatically run a program when a _printer is connected"
 msgstr "打印机连接后自动运行程序(_P)"
 
-#.
 #. Input Devices
-#.
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
 msgstr "输入设备"
