@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2017-09-19 18:02+0000\n"
+"PO-Revision-Date: 2017-09-29 16:35+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "Syfs-stien til den nyligt tilsluttede enhed"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:103
 msgid "Configure management of removable drives and media"
-msgstr "Indstillingshåndtering af fjernbare drev og medie"
+msgstr "Indstillingshåndtering af flytbare drev og medie"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -336,7 +336,7 @@ msgstr "Indstillinger af arkivhåndtering til Thunar"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:101
 msgid "Removable Drives and Media"
-msgstr "Fjernbare drev og medier"
+msgstr "Flytbare drev og medier"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:237
 msgid "Select an Application"
@@ -381,19 +381,19 @@ msgstr "Lager"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:139
 msgid "Removable Storage"
-msgstr "Fjernbart lager"
+msgstr "Flytbart lager"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:157
 msgid "_Mount removable drives when hot-plugged"
-msgstr "_Montér fjernbare drev når de bliver hot-plugged"
+msgstr "_Montér flytbare drev når de bliver hot-plugged"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:164
 msgid "Mount removable media when _inserted"
-msgstr "Montér fjernbare medier når de _indsættes"
+msgstr "Montér flytbare medier når de _indsættes"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:171
 msgid "B_rowse removable media when inserted"
-msgstr "N_avigér fjernbare medier når de indsættes"
+msgstr "N_avigér flytbare medier når de indsættes"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:178
 msgid "_Auto-run programs on new drives and media"
