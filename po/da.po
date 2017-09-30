@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-02 23:06+0200\n"
-"PO-Revision-Date: 2017-09-29 16:34+0000\n"
+"PO-Revision-Date: 2017-09-30 12:18+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -254,7 +254,7 @@ msgstr "Ikke understøttet inddata-enhedstype"
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr "Automatisk brænding af tommer cd'er og dvd'er er slået fra"
+msgstr "Automatisk brænding af tommer cd'er og dvd'er er deaktiveret"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
