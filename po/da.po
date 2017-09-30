@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-02 23:06+0200\n"
-"PO-Revision-Date: 2017-09-30 12:18+0000\n"
+"PO-Revision-Date: 2017-09-30 20:06+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "Thunar-arkivhåndtering"
 
 #: ../thunar-volman/main.c:119
 msgid "All rights reserved."
-msgstr "Alle rettigheder er beskyttet."
+msgstr "Alle rettigheder forbeholdes."
 
 #: ../thunar-volman/main.c:120
 #, c-format
@@ -249,7 +249,7 @@ msgstr "En mus blev fundet"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type"
-msgstr "Ikke understøttet inddata-enhedstype"
+msgstr "Ikke understøttet input-enhedstype"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -493,7 +493,7 @@ msgstr "Kør automatisk et program ved tilslutning af en _printer"
 #. Input Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:565
 msgid "Input Devices"
-msgstr "Inddata-enheder"
+msgstr "Input-enheder"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:576
 msgid "Keyboards"
