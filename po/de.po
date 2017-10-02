@@ -6,13 +6,14 @@
 # Benedikt Meurer <benny@xfce.org>, 2007
 # Georg Eckert <eckert.georg@gmx.de>, 2013
 # Tobias Bannert <tobannert@gmail.com>, 2013-2015
+# Vinzenz Vietzke <vinz@vinzv.de>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2017-09-19 18:02+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
+"PO-Revision-Date: 2017-10-02 17:29+0000\n"
+"Last-Translator: Vinzenz Vietzke <vinz@vinzv.de>\n"
 "Language-Team: German (http://www.transifex.com/xfce/thunar-volman/language/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -322,11 +323,11 @@ msgstr "Nicht unterstützter USB-Gerätetyp »%s«"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "Settings manager socket"
-msgstr ""
+msgstr "Socket für die Einstellungsverwaltung"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "SOCKET ID"
-msgstr ""
+msgstr "SOCKET-NUMMER"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
@@ -368,11 +369,11 @@ msgstr "Shell-Skripte"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:110
 msgid "Help"
-msgstr ""
+msgstr "Hilfe"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:116
 msgid "Close"
-msgstr ""
+msgstr "Schließen"
 
 #. Storage
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:128
