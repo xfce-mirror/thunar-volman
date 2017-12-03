@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2017-10-02 10:35+0000\n"
+"PO-Revision-Date: 2017-12-03 19:34+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/xfce/thunar-volman/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -396,7 +396,7 @@ msgstr "Į_dėjus keičiamąją laikmeną, ją naršyti"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:178
 msgid "_Auto-run programs on new drives and media"
-msgstr "_Naujiems įrenginiams ir laikmenoms automatiškai vykdyti programas"
+msgstr "_Naujiems įrenginiams ir laikmenoms automatiškai paleisti programas"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:184
 msgid "Auto-open files on new drives and media"
