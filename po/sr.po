@@ -4,14 +4,14 @@
 # 
 # Translators:
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012
-# Саша Петровић <salepetronije@gmail.com>, 2013
+# Саша Петровић <salepetronije@gmail.com>, 2013,2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2017-09-19 18:02+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
+"PO-Revision-Date: 2017-12-22 08:07+0000\n"
+"Last-Translator: Саша Петровић <salepetronije@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/xfce/thunar-volman/language/sr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -36,7 +36,7 @@ msgstr "Исписује податке о издању и излази"
 #. setup application name
 #: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr "Тунаров управник волуменима"
+msgstr "Тунаров управник просторима"
 
 #: ../thunar-volman/main.c:121
 msgid "All rights reserved."
@@ -321,11 +321,11 @@ msgstr "Неподржана врста УСБ диска „%s“"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "Settings manager socket"
-msgstr ""
+msgstr "Управник поставки прикључнице"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "SOCKET ID"
-msgstr ""
+msgstr "ЛБ прикључнице"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
@@ -367,11 +367,11 @@ msgstr "Шел скрипте"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:110
 msgid "Help"
-msgstr ""
+msgstr "Помоћ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:116
 msgid "Close"
-msgstr ""
+msgstr "Затвори"
 
 #. Storage
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:128
@@ -482,11 +482,11 @@ msgstr "Преносни диг. помоћници"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:429
 msgid "Palm™"
-msgstr "Palm™"
+msgstr "Палм™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:447
 msgid "Sync _Palm™ devices when connected"
-msgstr "Усагласи _Palm™ уређаје по прикључивању"
+msgstr "Усагласи уређаје _Палм™ по прикључивању"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:467
 msgid "Pocket PCs"
