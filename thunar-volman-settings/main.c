@@ -105,7 +105,12 @@ main (int    argc,
       plug_child = list->data;
       g_list_free (list);
 
+#if LIBXFCE4UI_CHECK_VERSION (4, 13, 0)
       xfce_widget_reparent (plug_child, plug);
+#else
+      /* fallback to deprecated function */
+      gtk_widget_reparent (plug_child, plug);
+#endif
 
       gtk_main ();
       gtk_widget_destroy (plug);
