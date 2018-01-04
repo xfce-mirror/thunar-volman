@@ -74,6 +74,8 @@ tvm_notify (const gchar *icon,
 #else
   notification = notify_notification_new (summary, message, icon, NULL);
 #endif
+  /* don't log notification (yes, the logic seems inverted but it's right) */
+  notify_notification_set_hint (notification, "transient", g_variant_new_boolean (FALSE));
   notify_notification_set_urgency (notification, NOTIFY_URGENCY_NORMAL);
   notify_notification_set_timeout (notification, NOTIFY_EXPIRES_DEFAULT);
   notify_notification_show (notification, NULL);
