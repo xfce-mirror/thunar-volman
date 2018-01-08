@@ -4,13 +4,13 @@
 # 
 # Translators:
 # Algimantas Margevičius <margevicius.algimantas@gmail.com>, 2012
-# Moo, 2015-2017
+# Moo, 2015-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2017-12-03 19:34+0000\n"
+"PO-Revision-Date: 2018-01-08 23:17+0000\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian (http://www.transifex.com/xfce/thunar-volman/language/lt/)\n"
 "MIME-Version: 1.0\n"
@@ -155,11 +155,11 @@ msgstr "DVD prijungtas"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr "CD buvo prijungtas automatiškai"
+msgstr "CD buvo automatiškai prijungtas"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr "DVD buvo prijungtas automatiškai"
+msgstr "DVD buvo automatiškai prijungtas"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
@@ -168,7 +168,7 @@ msgstr "Tomas prijungtas"
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "Tomas „%s“ buvo prijungtas automatiškai"
+msgstr "Tomas „%s“ buvo automatiškai prijungtas"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
