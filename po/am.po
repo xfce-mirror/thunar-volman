@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2018-02-13 23:50+0000\n"
+"PO-Revision-Date: 2018-02-17 22:01+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/xfce/thunar-volman/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -30,12 +30,12 @@ msgstr ""
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr ""
+msgstr "የ እትም መረጃ ማተሚያ እና መውጫ"
 
 #. setup application name
 #: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr ""
+msgstr "Thunar የ መጠን አስተዳዳሪ"
 
 #: ../thunar-volman/main.c:121
 msgid "All rights reserved."
@@ -124,21 +124,21 @@ msgstr ""
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 msgid "_Allow Auto-Run"
-msgstr ""
+msgstr "በራሱ ማስኬጃ _ማስቻያ"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:502
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr ""
+msgstr "እርስዎ መክፈት ይፈልጋሉ \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:505
 msgid "Auto-Open Confirmation"
-msgstr ""
+msgstr "በራሱ-መክፈቻ ማረጋገጫ"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open capability detected"
-msgstr ""
+msgstr "በራሱ-መክፈቻ ችሎታ ተገኝቷል"
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
@@ -177,12 +177,12 @@ msgstr ""
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "የ መጫኛ ነጥብ ማግኘት አልተቻለም"
 
 #: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "አካሉን መጫን አልተቻለም"
 
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
@@ -212,12 +212,12 @@ msgstr "ሲዲ _ማጫወቻ"
 #: ../thunar-volman/tvm-block-device.c:920
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr ""
+msgstr "ያልተደገፈ የ አካል መከልከያ አይነት \"%s\""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr ""
+msgstr "የ አካሉ አይነት \"%s\" የ ተደገፈ አይደለም"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -225,7 +225,7 @@ msgstr "የ ፊደል ገበታ ተገኝቷል"
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
-msgstr ""
+msgstr "የ ፊደል ገበታ ተገኝቷል"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -320,11 +320,11 @@ msgstr "ያልተደገፈ የ USB አካል አይነት \"%s\""
 
 #: ../thunar-volman-settings/main.c:44
 msgid "Settings manager socket"
-msgstr ""
+msgstr "የ ሶኬት አስተዳዳሪ ማሰናጃዎች"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "SOCKET ID"
-msgstr ""
+msgstr "የ ሶኬት ID"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
