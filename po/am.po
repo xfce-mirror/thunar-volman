@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2018-02-17 22:01+0000\n"
+"PO-Revision-Date: 2018-02-18 01:22+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/xfce/thunar-volman/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -407,15 +407,15 @@ msgstr "ባዶ ሲዲ እና ዲቪዲ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:213
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr ""
+msgstr "ሲዲ ወይንም ዲቪዲ ማቃጠያ ባዶ ዲስክ በሚገባ ጊዜ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:223
 msgid "Command for _Data CDs:"
-msgstr ""
+msgstr "ትእዛዝ ለ _ዳታ ሲዲ "
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:232
 msgid "Command for A_udio CDs:"
-msgstr ""
+msgstr "ትእዛዝ ለ ድ_ምፅ ሲዲ "
 
 #. Multimedia
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:247
@@ -428,7 +428,7 @@ msgstr "የ ድምፅ ሲዲዎች"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:276
 msgid "Play _audio CDs when inserted"
-msgstr ""
+msgstr "የ ድምፅ ሲዲ በሚገባ ጊዜ ማጫወቻ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:282
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:404
@@ -455,11 +455,11 @@ msgstr "ት_እዛዝ:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:333
 msgid "Portable Music Players"
-msgstr ""
+msgstr "የ ሙዚቃ ማጫወቻ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:351
 msgid "Play _music files when connected"
-msgstr ""
+msgstr "የ ሙዚቃ ፋይሎች በሚገናኝ ጊዜ ማጫወቻ"
 
 #. Cameras
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:368
@@ -472,7 +472,7 @@ msgstr "ዲጂታል ካሜራዎች"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:397
 msgid "Import digital photographs when connected"
-msgstr ""
+msgstr "የ ዲጂታል ፎቶዎች ማምጫ በሚገናኝ ጊዜ ማጫወቻ"
 
 #. PDAs
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
@@ -489,7 +489,7 @@ msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:467
 msgid "Pocket PCs"
-msgstr ""
+msgstr "የ ኪስ ኮምፒዩተር"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:485
 msgid "Sync Pocket P_C devices when connected"
@@ -503,7 +503,7 @@ msgstr "ማተሚያዎች"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:532
 msgid "Automatically run a program when a _printer is connected"
-msgstr ""
+msgstr "ራሱ በራሱ ፕሮግራም ማስኬጃ  _ማተሚያ በሚገናኝ ጊዜ"
 
 #. Input Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:550
@@ -516,7 +516,7 @@ msgstr "የ ፊደል ገበታ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:579
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr ""
+msgstr "ራሱ በራሱ ፕሮግራም ማስኬጃ የ USB _ፊደል ገበታ በሚገናኝ ጊዜ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:599
 msgid "Mice"
@@ -524,7 +524,7 @@ msgstr "አይጥ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:617
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr ""
+msgstr "ራሱ በራሱ ፕሮግራም ማስኬጃ የ USB _አይጥ በሚገናኝ ጊዜ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:637
 msgid "Tablet"
@@ -532,7 +532,7 @@ msgstr "ታብሌት"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:655
 msgid "Automatically run a program when a _tablet is connected"
-msgstr ""
+msgstr "ራሱ በራሱ ፕሮግራም ማስኬጃ  _ታብሌት በሚገናኝ ጊዜ"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:662
 msgid "Com_mand:"
