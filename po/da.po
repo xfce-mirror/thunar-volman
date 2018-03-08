@@ -4,13 +4,13 @@
 # 
 # Translators:
 # Per Kongstad <p_kongstad@op.pl>, 2008
-# scootergrisen, 2017
+# scootergrisen, 2017-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-02 23:06+0200\n"
-"PO-Revision-Date: 2017-09-30 20:06+0000\n"
+"PO-Revision-Date: 2018-03-08 15:40+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -291,12 +291,12 @@ msgstr "Brænd _lyd-cd"
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr "Brændkommandoen skal indeholde værdi"
+msgstr "Brændkommandoen må ikke være tom"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr "Cd-afspillerkommando er ikke defineret"
+msgstr "Kommando til cd-afspiller er ikke defineret"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
