@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Hsiu-Ming Chang <cges30901@gmail.com>, 2017
+# Hsiu-Ming Chang <cges30901@gmail.com>, 2017-2018
 # Walter Cheuk <wwycheuk@gmail.com>, 2013-2014
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2017-10-30 12:49+0000\n"
+"PO-Revision-Date: 2018-07-16 11:04+0000\n"
 "Last-Translator: Hsiu-Ming Chang <cges30901@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/xfce/thunar-volman/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
@@ -321,11 +321,11 @@ msgstr "未支援的 USB 裝置類型「%s」"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "Settings manager socket"
-msgstr ""
+msgstr "設定值管理員 socket"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "SOCKET ID"
-msgstr ""
+msgstr "SOCKET ID"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
