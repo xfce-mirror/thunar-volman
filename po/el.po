@@ -5,14 +5,15 @@
 # Translators:
 # ebal <ebalaskas@ebalaskas.gr>, 2009
 # George Vasilakos, 2011
+# Spiros Georgaras <sng@hellug.gr>, 2018
 # Stavros Giannouris <stavrosg@hellug.gr>, 2009,2011
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-02 23:06+0200\n"
-"PO-Revision-Date: 2017-09-19 18:02+0000\n"
-"Last-Translator: Nick Schermer <nick@xfce.org>\n"
+"PO-Revision-Date: 2018-07-20 11:23+0000\n"
+"Last-Translator: Spiros Georgaras <sng@hellug.gr>\n"
 "Language-Team: Greek (http://www.transifex.com/xfce/thunar-volman/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -255,11 +256,11 @@ msgstr "Μη υποστηριζόμενη συσκευή εισόδου"
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr "Η αυτόματη εγγραφή άδειων CD και DVD είναι απενεργοποιημένη"
+msgstr "Η αυτόματη εγγραφή κενών CD και DVD είναι απενεργοποιημένη"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr "Εισήχθη ένα άδειο DVD"
+msgstr "Εισήχθη ένα κενό DVD"
 
 #: ../thunar-volman/tvm-run.c:190
 msgid "You have inserted a blank DVD."
@@ -275,7 +276,7 @@ msgstr "Εγγραφή _DVD."
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
-msgstr "Εισήχθη ένα άδειο CD"
+msgstr "Εισήχθη ένα κενό CD"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
