@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2018-08-02 06:50+0000\n"
+"PO-Revision-Date: 2018-08-02 14:05+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/xfce/thunar-volman/language/cs/)\n"
 "MIME-Version: 1.0\n"
@@ -168,7 +168,7 @@ msgstr "Svazek připojen"
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "Svazek \"%s\" byl automaticky připojen"
+msgstr "Svazek „%s“ byl automaticky připojen"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
@@ -178,7 +178,7 @@ msgstr "Vložený svazek byl automaticky připojen"
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
-msgstr "Nelze zjistit umístění bodu pro připojení"
+msgstr "Nedaří se nalézt přípojný bod"
 
 #: ../thunar-volman/tvm-block-device.c:740
 #, c-format
@@ -208,7 +208,7 @@ msgstr "_Procházet soubory"
 
 #: ../thunar-volman/tvm-block-device.c:832
 msgid "_Play CD"
-msgstr "Přehrát disk _CD"
+msgstr "_Přehrát disk CD"
 
 #: ../thunar-volman/tvm-block-device.c:920
 #, c-format
@@ -222,7 +222,7 @@ msgstr "Typ zařízení %s není podporován"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
-msgstr "Byla nalezena klávesnice"
+msgstr "Nalezena klávesnice"
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
@@ -231,7 +231,7 @@ msgstr "Byla nalezena klávesnice"
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
 msgid "Tablet detected"
-msgstr "Byl nalezen tablet"
+msgstr "Nalezen tablet"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
@@ -240,7 +240,7 @@ msgstr "Byl nalezen grafický tablet"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr "Byla nalezena myš"
+msgstr "Zjištěna myš"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
@@ -249,7 +249,7 @@ msgstr "Byla nalezena myš"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr "Nepodporovaný typ vstupního zařízení %s"
+msgstr "Nepodporovaný typ vstupního zařízení „%s“"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -478,7 +478,7 @@ msgstr "Importovat digitální fotografie po připojení"
 #. PDAs
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
 msgid "PDAs"
-msgstr "Zařízení PDA"
+msgstr "Osobní digitální asistenti"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:429
 msgid "Palm™"
@@ -490,7 +490,7 @@ msgstr "_Synchronizovat zařízení Palm™ po připojení"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:467
 msgid "Pocket PCs"
-msgstr "Zařízení PCs"
+msgstr "Počítače do kapsy"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:485
 msgid "Sync Pocket P_C devices when connected"
