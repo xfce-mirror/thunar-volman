@@ -237,9 +237,10 @@ tvm_command_entry_clicked (GtkWidget       *button,
   chooser = gtk_file_chooser_dialog_new (_("Select an Application"),
                                          GTK_WINDOW (toplevel),
                                          GTK_FILE_CHOOSER_ACTION_OPEN,
-                                         "gtk-cancel", GTK_RESPONSE_CANCEL,
-                                         "document-open", GTK_RESPONSE_ACCEPT,
+                                         _("Cancel"), GTK_RESPONSE_CANCEL,
+                                         _("Select Application"), GTK_RESPONSE_ACCEPT,
                                          NULL);
+  gtk_window_set_icon_name (GTK_WINDOW (chooser), "application-x-executable");
   gtk_file_chooser_set_local_only (GTK_FILE_CHOOSER (chooser), TRUE);
 
   /* add file chooser filters */

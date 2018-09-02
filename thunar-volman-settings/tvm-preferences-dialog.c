@@ -126,7 +126,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
      Storage
    */
   label = gtk_label_new (_("Storage"));
-  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 12, NULL);
+  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 18, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
   gtk_widget_show (vbox);
@@ -142,9 +142,10 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (label);
 
   grid = gtk_grid_new ();
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_widget_set_margin_top (GTK_WIDGET (grid), 6);
+  gtk_widget_set_margin_start (GTK_WIDGET (grid), 12);
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
@@ -198,9 +199,10 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (label);
 
   grid = gtk_grid_new ();
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_widget_set_margin_top (GTK_WIDGET (grid), 6);
+  gtk_widget_set_margin_start (GTK_WIDGET (grid), 12);
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
@@ -245,7 +247,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
      Multimedia
    */
   label = gtk_label_new (_("Multimedia"));
-  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 12, NULL);
+  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 18, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
   gtk_widget_show (vbox);
@@ -261,9 +263,10 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (label);
 
   grid = gtk_grid_new ();
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_widget_set_margin_top (GTK_WIDGET (grid), 6);
+  gtk_widget_set_margin_start (GTK_WIDGET (grid), 12);
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
@@ -298,9 +301,10 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (label);
 
   grid = gtk_grid_new ();
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_widget_set_margin_top (GTK_WIDGET (grid), 6);
+  gtk_widget_set_margin_start (GTK_WIDGET (grid), 12);
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
@@ -336,9 +340,10 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (label);
 
   grid = gtk_grid_new ();
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_widget_set_margin_top (GTK_WIDGET (grid), 6);
+  gtk_widget_set_margin_start (GTK_WIDGET (grid), 12);
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
@@ -366,7 +371,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
      Cameras
    */
   label = gtk_label_new (_("Cameras"));
-  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 12, NULL);
+  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 18, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
   gtk_widget_show (vbox);
@@ -382,9 +387,10 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (label);
 
   grid = gtk_grid_new ();
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_widget_set_margin_top (GTK_WIDGET (grid), 6);
+  gtk_widget_set_margin_start (GTK_WIDGET (grid), 12);
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
@@ -413,7 +419,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
      PDAs
    */
   label = gtk_label_new (_("PDAs"));
-  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 12, NULL);
+  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 18, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
   gtk_widget_show (vbox);
@@ -432,9 +438,10 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (label);
 
   grid = gtk_grid_new ();
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_widget_set_margin_top (GTK_WIDGET (grid), 6);
+  gtk_widget_set_margin_start (GTK_WIDGET (grid), 12);
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
@@ -470,9 +477,10 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (label);
 
   grid = gtk_grid_new ();
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_widget_set_margin_top (GTK_WIDGET (grid), 6);
+  gtk_widget_set_margin_start (GTK_WIDGET (grid), 12);
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
@@ -501,7 +509,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
      Printers
    */
   label = gtk_label_new (_("Printers"));
-  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 12, NULL);
+  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 18, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
   gtk_widget_show (vbox);
@@ -517,9 +525,10 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (label);
 
   grid = gtk_grid_new ();
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_widget_set_margin_top (GTK_WIDGET (grid), 6);
+  gtk_widget_set_margin_start (GTK_WIDGET (grid), 12);
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
@@ -548,7 +557,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
      Input Devices
    */
   label = gtk_label_new (_("Input Devices"));
-  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 12, NULL);
+  vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 18, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
   gtk_widget_show (vbox);
@@ -564,9 +573,10 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (label);
 
   grid = gtk_grid_new ();
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_widget_set_margin_top (GTK_WIDGET (grid), 6);
+  gtk_widget_set_margin_start (GTK_WIDGET (grid), 12);
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
@@ -602,9 +612,10 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (label);
 
   grid = gtk_grid_new ();
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_widget_set_margin_top (GTK_WIDGET (grid), 6);
+  gtk_widget_set_margin_start (GTK_WIDGET (grid), 12);
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
@@ -640,9 +651,10 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (label);
 
   grid = gtk_grid_new ();
-  gtk_grid_set_row_spacing (GTK_GRID (grid), 3);
+  gtk_grid_set_row_spacing (GTK_GRID (grid), 6);
   gtk_grid_set_column_spacing (GTK_GRID (grid), 12);
-  gtk_container_set_border_width (GTK_CONTAINER (grid), 8);
+  gtk_widget_set_margin_top (GTK_WIDGET (grid), 6);
+  gtk_widget_set_margin_start (GTK_WIDGET (grid), 12);
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
