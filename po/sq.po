@@ -4,13 +4,14 @@
 # 
 # Translators:
 # Besnik <besnik@programeshqip.org>, 2007
+# Besnik <besnik@programeshqip.org>, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2017-09-19 18:02+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
+"POT-Creation-Date: 2018-09-03 00:30+0200\n"
+"PO-Revision-Date: 2018-09-03 10:00+0000\n"
+"Last-Translator: Besnik <besnik@programeshqip.org>\n"
 "Language-Team: Albanian (http://www.transifex.com/xfce/thunar-volman/language/sq/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,7 +21,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr ""
+msgstr "Shtegu sysfs i pajisjes së shtuar rishtazi"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -39,22 +40,22 @@ msgstr "Përgjegjësi i Volumit Thunar"
 
 #: ../thunar-volman/main.c:121
 msgid "All rights reserved."
-msgstr ""
+msgstr "Tërë të drejtat të rezervuara."
 
 #: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr "Ju lutem njoftoni të meta te <%s>."
+msgstr "Ju lutemi, njoftoni të meta te <%s>."
 
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "S’ka pajisje me shteg sysfs \"%s\""
 
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
+msgstr "Shtegu sysfs i pajisjeve të reja duhet specifikuar me --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -63,7 +64,7 @@ msgstr "Foto dhe Muzikë"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr ""
+msgstr "U gjetën foto në lojtësin tuaj të bartshëm të muzikës"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -77,7 +78,7 @@ msgstr "Doni të importoni fotot apo të administroni muzikën?"
 #: ../thunar-volman/tvm-block-device.c:830 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
-msgstr "_Shpërfill"
+msgstr "_Shpërfille"
 
 #: ../thunar-volman/tvm-block-device.c:209
 #: ../thunar-volman/tvm-block-device.c:278
@@ -95,7 +96,7 @@ msgstr "Importim Fotosh"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr ""
+msgstr "U pikas kartë fotosh"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
@@ -109,7 +110,7 @@ msgstr "Ka foto në kartë. Doni të shtohen fotot te albumi juaj?"
 #: ../thunar-volman/tvm-block-device.c:420
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "Doni të lejoni lejimin e xhirimit të \"%s\"?"
+msgstr "Doni të lejoni xhirimin e \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:376
 #: ../thunar-volman/tvm-block-device.c:423
@@ -142,64 +143,64 @@ msgstr "U zbulua aftësi Vetëhapjeje"
 
 #: ../thunar-volman/tvm-block-device.c:508
 msgid "_Open"
-msgstr "_Hap"
+msgstr "_Hape"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "CD mounted"
-msgstr ""
+msgstr "U montua CD"
 
 #: ../thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
-msgstr ""
+msgstr "U montua DVD"
 
 #: ../thunar-volman/tvm-block-device.c:621
 msgid "The CD was mounted automatically"
-msgstr ""
+msgstr "CD-ja u montua vetvetiu"
 
 #: ../thunar-volman/tvm-block-device.c:622
 msgid "The DVD was mounted automatically"
-msgstr ""
+msgstr "DVD-ja u montua vetvetiu"
 
 #: ../thunar-volman/tvm-block-device.c:632
 msgid "Volume mounted"
-msgstr ""
+msgstr "Volumi u montua"
 
 #: ../thunar-volman/tvm-block-device.c:635
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr ""
+msgstr "Volumi \"%s\" u montua vetvetiu"
 
 #: ../thunar-volman/tvm-block-device.c:640
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr ""
+msgstr "Volumi i futur u montua vetvetiu"
 
 #: ../thunar-volman/tvm-block-device.c:694
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "S’arrihet të lokalizohet pikë montimi"
 
 #: ../thunar-volman/tvm-block-device.c:740
 #, c-format
 msgid "Unable to mount the device"
-msgstr ""
+msgstr "S’arrihet të montohet pajisja"
 
 #: ../thunar-volman/tvm-block-device.c:749
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "S’u pikas dot volumi përshoqëruar pajisjes"
 
 #: ../thunar-volman/tvm-block-device.c:825
 msgid "Audio/Data CD"
-msgstr ""
+msgstr "CD Audio/Të Dhënash"
 
 #: ../thunar-volman/tvm-block-device.c:826
 msgid "The CD in the drive contains both music and files"
-msgstr ""
+msgstr "CD-ja në pajisje përmban si muzikë, ashtu edhe kartela"
 
 #: ../thunar-volman/tvm-block-device.c:828
 msgid "Would you like to listen to music or browse the files?"
-msgstr "DOni të dëgjoni muzikë apo të shfletoni kartelat?te te kartela?"
+msgstr "Doni të dëgjoni muzikë apo të shfletoni kartelat?"
 
 #: ../thunar-volman/tvm-block-device.c:831
 msgid "_Browse Files"
@@ -207,61 +208,61 @@ msgstr "_Shfletoni Kartela"
 
 #: ../thunar-volman/tvm-block-device.c:832
 msgid "_Play CD"
-msgstr "_Luaj CD"
+msgstr "_Luaje CD-në"
 
 #: ../thunar-volman/tvm-block-device.c:920
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr ""
+msgstr "Lloj i panjohur pajisje bllok \"%s\""
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr ""
+msgstr "Lloj pajisjeje \"%s\" i pambuluar"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
-msgstr ""
+msgstr "U pikas tastierë"
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
-msgstr ""
+msgstr "U pikas një tastierë"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
 msgid "Tablet detected"
-msgstr ""
+msgstr "U pikas tablet"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr ""
+msgstr "U pikas tablet grafikash"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr ""
+msgstr "U pikas mi"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr ""
+msgstr "U pikas një mi"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr ""
+msgstr "Lloj i pambuluar pajisjesh futjeje \"%s\""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "Vetëshkrimi CD-sh dhe DVD-sh të zbrazët është i çaktivizuar"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr ""
+msgstr "U fut DVD i zbrazët"
 
 #: ../thunar-volman/tvm-run.c:190
 msgid "You have inserted a blank DVD."
-msgstr ""
+msgstr "Keni futur një DVD të zbrazët."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -269,67 +270,67 @@ msgstr "Çfarë do të donit të bëni?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Shkruani _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
-msgstr ""
+msgstr "U fut CD i zbrazët"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
-msgstr ""
+msgstr "Keni futur një CD të zbrazët."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
-msgstr ""
+msgstr "Shkruani CD të _Dhënash"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr ""
+msgstr "Shkruani CD _Audio"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Urdhri i shkrimit s’mund të jetë i zbrazët"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "Urdhri për lojtësin e CD-ve është i papërkufiuar"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr ""
+msgstr "U pikas kamera"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 msgid "A photo camera was detected"
-msgstr ""
+msgstr "U pikas një kamera fotosh"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr ""
+msgstr "U pikas shtypës"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr ""
+msgstr "U pikas një shtypës USB"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr ""
+msgstr "Lloj i pambuluar pajisjesh USB \"%s\""
 
 #: ../thunar-volman-settings/main.c:44
 msgid "Settings manager socket"
-msgstr ""
+msgstr "\"Socket\" përgjegjësi rregullimesh"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "SOCKET ID"
-msgstr ""
+msgstr "ID SOCKET-i"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
 msgid "Thunar Volume Manager Settings"
-msgstr ""
+msgstr "Rregullime Përgjegjësi Volumi Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:101
@@ -338,39 +339,47 @@ msgstr "Media dhe Pajisje të Heqshme"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:237
 msgid "Select an Application"
-msgstr "Përzgjidhni një Zbatim"
+msgstr "Përzgjidhni një Aplikacion"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:247
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Cancel"
+msgstr "Anuloje"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:241
+msgid "Select Application"
+msgstr "Përzgjidhni Aplikacion"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:248
 msgid "All Files"
 msgstr "Tërë Kartelat"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:252
+#: ../thunar-volman-settings/tvm-command-entry.c:253
 msgid "Executable Files"
 msgstr "Kartela të Ekzekutueshmish"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:267
+#: ../thunar-volman-settings/tvm-command-entry.c:268
 msgid "Perl Scripts"
 msgstr "Programthe Perl"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:273
+#: ../thunar-volman-settings/tvm-command-entry.c:274
 msgid "Python Scripts"
 msgstr "Programthe Python"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:279
+#: ../thunar-volman-settings/tvm-command-entry.c:280
 msgid "Ruby Scripts"
 msgstr "Programthe Ruby"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:285
+#: ../thunar-volman-settings/tvm-command-entry.c:286
 msgid "Shell Scripts"
 msgstr "Programthe Shell"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:110
 msgid "Help"
-msgstr ""
+msgstr "Ndihmë"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:116
 msgid "Close"
-msgstr ""
+msgstr "Mbylle"
 
 #. Storage
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:128
@@ -381,159 +390,159 @@ msgstr "Depozitim"
 msgid "Removable Storage"
 msgstr "Depozitim i Heqshëm"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:157
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
 msgstr "_Monto pajisje të heqshme kur futen pa rinisur kompjuterin"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:164
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:165
 msgid "Mount removable media when _inserted"
 msgstr "Monto media të heqshme kur _futet"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:171
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:172
 msgid "B_rowse removable media when inserted"
 msgstr "Sh_fleto media të heqshme kur futet"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:178
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:179
 msgid "_Auto-run programs on new drives and media"
 msgstr "_Vetëxhiro programe prej pajisjesh apo mediash të reja"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:185
 msgid "Auto-open files on new drives and media"
 msgstr "_Vetëhap kartela prej pajisjesh apo mediash të reja"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:195
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:196
 msgid "Blank CDs and DVDs"
 msgstr "Zbardhje CD-sh dhe DVD-sh"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:213
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:215
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "_Piq një CD ose një DVD kur futet një disk bosh"
+msgstr "_Shkruaj një CD ose një DVD kur futet një disk bosh"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:223
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:225
 msgid "Command for _Data CDs:"
 msgstr "Urdhër për CD me të _dhëna:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:232
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:234
 msgid "Command for A_udio CDs:"
 msgstr "Urdhër për CD _AUDIO:"
 
 #. Multimedia
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:247
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:249
 msgid "Multimedia"
 msgstr "Multimedia"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:258
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:260
 msgid "Audio CDs"
 msgstr "CD Audio"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:276
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:279
 msgid "Play _audio CDs when inserted"
 msgstr "Luaj CD _audio kur futet"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:282
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:404
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:539
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:586
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:285
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:410
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:461
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:548
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
 msgid "_Command:"
 msgstr "_Urdhër:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:295
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:298
 msgid "Video CDs/DVDs"
 msgstr "CD/DVD Video"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:313
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:317
 msgid "Play _video CDs and DVDs when inserted"
 msgstr "Luaj CD dhe DVD _video kur futet"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:320
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:357
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:624
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:324
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:362
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:500
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:635
 msgid "C_ommand:"
 msgstr "Ur_dhër:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:333
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:337
 msgid "Portable Music Players"
-msgstr "Luajtësa të Mbartshëm Muzike"
+msgstr "Lojtësa Muzike të Bartshëm"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:351
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:356
 msgid "Play _music files when connected"
 msgstr "Luaj kartela _muzike kur lidhet"
 
 #. Cameras
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:373
 msgid "Cameras"
-msgstr "Aparate Fotografikë"
+msgstr "Kamera"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:384
 msgid "Digital Cameras"
-msgstr "Kamera Shifrore"
+msgstr "Kamera Dixhitale"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:397
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:403
 msgid "Import digital photographs when connected"
-msgstr "Importo foto shifrore kur lidhet"
+msgstr "Importo foto dixhitale kur lidhet"
 
 #. PDAs
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:421
 msgid "PDAs"
 msgstr "PDA-ra"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:429
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Palm™"
 msgstr "Palm™"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:447
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
 msgid "Sync _Palm™ devices when connected"
 msgstr "Njëkohëso pajisje _Palm™ kur lidhen të tilla"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:467
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:474
 msgid "Pocket PCs"
 msgstr "Pocket PC"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:485
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:493
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Njëkohëso pajisje Pocket P_C kur lidhen të tilla "
+msgstr "Njëkohëso pajisje Pocket P_C kur lidhen të tilla"
 
 #. Printers
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:503
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:514
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:522
 msgid "Printers"
 msgstr "Shtypësa"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:532
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:541
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Xhiro vetvetiu një program kur lidhet një _shtypës"
 
 #. Input Devices
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:559
 msgid "Input Devices"
-msgstr "Pajisje Futjeje "
+msgstr "Pajisje Futjeje"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:561
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Keyboards"
 msgstr "Tastiera"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:579
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr ""
+msgstr "Xhiro vetvetiu një program kur lidhet një _tastierë USB"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:599
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:609
 msgid "Mice"
 msgstr "Minj"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:617
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:628
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr ""
+msgstr "Xhiro vetvetiu një program kur lidhet një _mi USB"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:637
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:648
 msgid "Tablet"
 msgstr "Tablet"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:655
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:667
 msgid "Automatically run a program when a _tablet is connected"
 msgstr "Xhiro vetvetiu një program kur lidhet një _tablet"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:662
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:674
 msgid "Com_mand:"
 msgstr "U_rdhër:"
