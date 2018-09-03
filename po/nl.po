@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Pjotr <pjotrvertaalt@gmail.com>, 2013,2017
+# Pjotr <pjotrvertaalt@gmail.com>, 2013,2017-2018
 # Remco den Breeje, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2017-09-19 18:02+0000\n"
+"POT-Creation-Date: 2018-09-03 00:30+0200\n"
+"PO-Revision-Date: 2018-09-03 08:45+0000\n"
 "Last-Translator: Pjotr <pjotrvertaalt@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/xfce/thunar-volman/language/nl/)\n"
 "MIME-Version: 1.0\n"
@@ -341,27 +341,35 @@ msgstr "Verwijderbare stations en opslagmedia"
 msgid "Select an Application"
 msgstr "Kies een toepassing"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:247
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Cancel"
+msgstr "Afbreken"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:241
+msgid "Select Application"
+msgstr "Toepassing kiezen"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:248
 msgid "All Files"
 msgstr "Alle bestanden"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:252
+#: ../thunar-volman-settings/tvm-command-entry.c:253
 msgid "Executable Files"
 msgstr "Uitvoerbare bestanden"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:267
+#: ../thunar-volman-settings/tvm-command-entry.c:268
 msgid "Perl Scripts"
 msgstr "Perl-scripts"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:273
+#: ../thunar-volman-settings/tvm-command-entry.c:274
 msgid "Python Scripts"
 msgstr "Python-scripts"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:279
+#: ../thunar-volman-settings/tvm-command-entry.c:280
 msgid "Ruby Scripts"
 msgstr "Ruby-scripts"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:285
+#: ../thunar-volman-settings/tvm-command-entry.c:286
 msgid "Shell Scripts"
 msgstr "Shell-scripts"
 
@@ -382,159 +390,159 @@ msgstr "Opslag"
 msgid "Removable Storage"
 msgstr "Verwijderbare opslag"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:157
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
 msgstr "_Koppel verwijderbare stations aan wanneer deze worden verbonden"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:164
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:165
 msgid "Mount removable media when _inserted"
 msgstr "Koppel verwijderbare opslagmedia aan wanneer deze worden _ingebracht"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:171
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:172
 msgid "B_rowse removable media when inserted"
 msgstr "_Doorzoek verwijderbare opslagmedia wanneer deze worden ingebracht"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:178
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:179
 msgid "_Auto-run programs on new drives and media"
 msgstr "Programma's op nieuwe stations en opslagmedia: start hen automatisch"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:185
 msgid "Auto-open files on new drives and media"
 msgstr "Bestanden op nieuwe stations en opslagmedia: open hen automatisch"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:195
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:196
 msgid "Blank CDs and DVDs"
 msgstr "Lege CD's en DVD's"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:213
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:215
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "Een lege CD of DVD _branden wanneer deze wordt ingebracht"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:223
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:225
 msgid "Command for _Data CDs:"
 msgstr "Opdracht voor _gegevens-CD's"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:232
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:234
 msgid "Command for A_udio CDs:"
 msgstr "Opdracht voor ge_luid-CD's"
 
 #. Multimedia
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:247
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:249
 msgid "Multimedia"
 msgstr "Multimedia"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:258
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:260
 msgid "Audio CDs"
 msgstr "Geluid-CD's"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:276
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:279
 msgid "Play _audio CDs when inserted"
 msgstr "Speel _geluid-CD's af wanneer ingebracht"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:282
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:404
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:539
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:586
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:285
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:410
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:461
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:548
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
 msgid "_Command:"
 msgstr "_Opdracht:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:295
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:298
 msgid "Video CDs/DVDs"
 msgstr "Video-CD's/DVD's"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:313
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:317
 msgid "Play _video CDs and DVDs when inserted"
 msgstr "Speel _video-CD's en -DVD's af wanneer ingebracht"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:320
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:357
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:624
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:324
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:362
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:500
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:635
 msgid "C_ommand:"
 msgstr "_Opdracht:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:333
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:337
 msgid "Portable Music Players"
 msgstr "Draagbare muziekspelers"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:351
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:356
 msgid "Play _music files when connected"
 msgstr "Speel _muziekbestanden af wanneer verbonden"
 
 #. Cameras
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:373
 msgid "Cameras"
 msgstr "Camera's"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:384
 msgid "Digital Cameras"
 msgstr "Digitale camera's"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:397
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:403
 msgid "Import digital photographs when connected"
 msgstr "Importeer digitale foto's wanneer aangesloten"
 
 #. PDAs
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:421
 msgid "PDAs"
 msgstr "PDA's"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:429
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Palm™"
 msgstr "Palm™"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:447
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
 msgid "Sync _Palm™ devices when connected"
 msgstr "Synchroniseer _Palm™-apparaten wanneer aangesloten"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:467
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:474
 msgid "Pocket PCs"
 msgstr "Pocket-PC's"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:485
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:493
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Synchroniseer Pocket-P_C-apparaten wanneer aangesloten"
 
 #. Printers
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:503
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:514
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:522
 msgid "Printers"
 msgstr "Printers"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:532
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:541
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Voer automatisch een programma uit wanneer er een _printer wordt aangesloten"
 
 #. Input Devices
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:559
 msgid "Input Devices"
 msgstr "Invoerapparaten"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:561
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Keyboards"
 msgstr "Toetsenborden"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:579
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Voer automatisch een programma uit wanneer er een USB-_toetsenbord wordt aangesloten"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:599
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:609
 msgid "Mice"
 msgstr "Muizen"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:617
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:628
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Voer automatisch een programma uit wanneer er een USB-_muis wordt aangesloten"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:637
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:648
 msgid "Tablet"
 msgstr "Tablet"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:655
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:667
 msgid "Automatically run a program when a _tablet is connected"
 msgstr "Voer automatisch een programma uit wanneer er een _tablet-PC wordt aangesloten"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:662
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:674
 msgid "Com_mand:"
 msgstr "_Opdracht:"
