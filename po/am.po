@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2018-02-18 01:22+0000\n"
+"POT-Creation-Date: 2018-09-03 00:30+0200\n"
+"PO-Revision-Date: 2018-09-14 00:16+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/xfce/thunar-volman/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -340,27 +340,35 @@ msgstr ""
 msgid "Select an Application"
 msgstr "መተግበሪያ ይምረጡ"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:247
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Cancel"
+msgstr "መሰረዣ"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:241
+msgid "Select Application"
+msgstr "መተግበሪያ ይምረጡ"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:248
 msgid "All Files"
 msgstr "ሁሉንም ፋይሎች"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:252
+#: ../thunar-volman-settings/tvm-command-entry.c:253
 msgid "Executable Files"
 msgstr "ፋይሎች መፈጸሚያ"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:267
+#: ../thunar-volman-settings/tvm-command-entry.c:268
 msgid "Perl Scripts"
 msgstr "Perl Scripts"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:273
+#: ../thunar-volman-settings/tvm-command-entry.c:274
 msgid "Python Scripts"
 msgstr "Python Scripts"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:279
+#: ../thunar-volman-settings/tvm-command-entry.c:280
 msgid "Ruby Scripts"
 msgstr "Ruby Scripts"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:285
+#: ../thunar-volman-settings/tvm-command-entry.c:286
 msgid "Shell Scripts"
 msgstr "Shell Scripts"
 
@@ -381,159 +389,159 @@ msgstr "ማጠራቀሚያ"
 msgid "Removable Storage"
 msgstr "የሚወልቅ አካሎች"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:157
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
 msgstr ""
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:164
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:165
 msgid "Mount removable media when _inserted"
 msgstr ""
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:171
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:172
 msgid "B_rowse removable media when inserted"
 msgstr ""
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:178
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:179
 msgid "_Auto-run programs on new drives and media"
 msgstr ""
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:185
 msgid "Auto-open files on new drives and media"
 msgstr ""
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:195
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:196
 msgid "Blank CDs and DVDs"
 msgstr "ባዶ ሲዲ እና ዲቪዲ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:213
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:215
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "ሲዲ ወይንም ዲቪዲ ማቃጠያ ባዶ ዲስክ በሚገባ ጊዜ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:223
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:225
 msgid "Command for _Data CDs:"
 msgstr "ትእዛዝ ለ _ዳታ ሲዲ "
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:232
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:234
 msgid "Command for A_udio CDs:"
 msgstr "ትእዛዝ ለ ድ_ምፅ ሲዲ "
 
 #. Multimedia
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:247
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:249
 msgid "Multimedia"
 msgstr "ብዙሀን መገናኛ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:258
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:260
 msgid "Audio CDs"
 msgstr "የ ድምፅ ሲዲዎች"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:276
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:279
 msgid "Play _audio CDs when inserted"
 msgstr "የ ድምፅ ሲዲ በሚገባ ጊዜ ማጫወቻ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:282
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:404
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:539
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:586
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:285
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:410
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:461
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:548
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
 msgid "_Command:"
 msgstr "_ትእዛዝ:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:295
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:298
 msgid "Video CDs/DVDs"
 msgstr "ቪዲዮ ሲዲ/ዲቪዲ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:313
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:317
 msgid "Play _video CDs and DVDs when inserted"
 msgstr "ቪዲዮ ሲዲ እና ዲቪዲ በሚገባ ጊዜ ማጫወቻ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:320
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:357
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:624
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:324
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:362
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:500
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:635
 msgid "C_ommand:"
 msgstr "ት_እዛዝ:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:333
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:337
 msgid "Portable Music Players"
 msgstr "የ ሙዚቃ ማጫወቻ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:351
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:356
 msgid "Play _music files when connected"
 msgstr "የ ሙዚቃ ፋይሎች በሚገናኝ ጊዜ ማጫወቻ"
 
 #. Cameras
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:373
 msgid "Cameras"
 msgstr "ካሜራዎች"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:384
 msgid "Digital Cameras"
 msgstr "ዲጂታል ካሜራዎች"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:397
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:403
 msgid "Import digital photographs when connected"
 msgstr "የ ዲጂታል ፎቶዎች ማምጫ በሚገናኝ ጊዜ ማጫወቻ"
 
 #. PDAs
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:421
 msgid "PDAs"
 msgstr "PDAs"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:429
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Palm™"
 msgstr "Palm™"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:447
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
 msgid "Sync _Palm™ devices when connected"
 msgstr ""
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:467
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:474
 msgid "Pocket PCs"
 msgstr "የ ኪስ ኮምፒዩተር"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:485
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:493
 msgid "Sync Pocket P_C devices when connected"
 msgstr ""
 
 #. Printers
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:503
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:514
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:522
 msgid "Printers"
 msgstr "ማተሚያዎች"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:532
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:541
 msgid "Automatically run a program when a _printer is connected"
 msgstr "ራሱ በራሱ ፕሮግራም ማስኬጃ  _ማተሚያ በሚገናኝ ጊዜ"
 
 #. Input Devices
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:559
 msgid "Input Devices"
 msgstr "ማስገቢያ አካሎች"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:561
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Keyboards"
 msgstr "የ ፊደል ገበታ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:579
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "ራሱ በራሱ ፕሮግራም ማስኬጃ የ USB _ፊደል ገበታ በሚገናኝ ጊዜ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:599
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:609
 msgid "Mice"
 msgstr "አይጥ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:617
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:628
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "ራሱ በራሱ ፕሮግራም ማስኬጃ የ USB _አይጥ በሚገናኝ ጊዜ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:637
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:648
 msgid "Tablet"
 msgstr "ታብሌት"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:655
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:667
 msgid "Automatically run a program when a _tablet is connected"
 msgstr "ራሱ በራሱ ፕሮግራም ማስኬጃ  _ታብሌት በሚገናኝ ጊዜ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:662
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:674
 msgid "Com_mand:"
 msgstr "ትእ_ዛዝ:"
