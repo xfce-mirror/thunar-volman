@@ -14,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2018-07-20 11:20+0000\n"
-"Last-Translator: Spiros Georgaras <sng@hellug.gr>\n"
+"POT-Creation-Date: 2018-09-03 00:30+0200\n"
+"PO-Revision-Date: 2018-09-14 00:16+0000\n"
+"Last-Translator: Apóstolos Papaðimitríu <apostolos.papadimitriu@gmail.com>\n"
 "Language-Team: Greek (http://www.transifex.com/xfce/thunar-volman/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -346,27 +346,35 @@ msgstr "Αφαιρούμενοι οδηγοί και μέσα"
 msgid "Select an Application"
 msgstr "Επιλογή εφαρμογής"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:247
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:241
+msgid "Select Application"
+msgstr "Επιλογή Εφαρμογής"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:248
 msgid "All Files"
 msgstr "Όλα τα αρχεία"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:252
+#: ../thunar-volman-settings/tvm-command-entry.c:253
 msgid "Executable Files"
 msgstr "Εκτελέσιμα αρχεία"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:267
+#: ../thunar-volman-settings/tvm-command-entry.c:268
 msgid "Perl Scripts"
 msgstr "Δέσμες ενεργειών perl"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:273
+#: ../thunar-volman-settings/tvm-command-entry.c:274
 msgid "Python Scripts"
 msgstr "Δέσμες ενεργειών python"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:279
+#: ../thunar-volman-settings/tvm-command-entry.c:280
 msgid "Ruby Scripts"
 msgstr "Δέσμες ενεργειών ruby"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:285
+#: ../thunar-volman-settings/tvm-command-entry.c:286
 msgid "Shell Scripts"
 msgstr "Δέσμες ενεργειών κέλυφους"
 
@@ -387,159 +395,159 @@ msgstr "Μέσο αποθήκευσης"
 msgid "Removable Storage"
 msgstr "Αφαιρούμενο μέσο αποθήκευσης"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:157
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
 msgstr "Πρ_οσάρτηση αφαιρούμενων οδηγών όταν συνδέονται"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:164
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:165
 msgid "Mount removable media when _inserted"
 msgstr "Προσάρτηση αφαιρούμενων μέσων όταν ε_ισαχθούν"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:171
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:172
 msgid "B_rowse removable media when inserted"
 msgstr "Πε_ριήγηση αφαιρούμενων μέσων όταν εισαχθούν"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:178
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:179
 msgid "_Auto-run programs on new drives and media"
 msgstr "Αυτ_όματη εκτέλεση προγραμμάτων σε νέους οδηγούς και μέσα"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:185
 msgid "Auto-open files on new drives and media"
 msgstr "Αυτόματο άνοιγμα των αρχείων σε νέους οδηγούς και μέσα"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:195
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:196
 msgid "Blank CDs and DVDs"
 msgstr "Κενά CD και DVD"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:213
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:215
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "_Εγγραφή ενός CD ή DVD όταν εισαχθεί κενός δίσκος"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:223
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:225
 msgid "Command for _Data CDs:"
 msgstr "Εντολή για CD _δεδομένων:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:232
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:234
 msgid "Command for A_udio CDs:"
 msgstr "Εντολή για CD ή_χου:"
 
 #. Multimedia
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:247
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:249
 msgid "Multimedia"
 msgstr "Πολυμέσα"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:258
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:260
 msgid "Audio CDs"
 msgstr "CD ήχου"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:276
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:279
 msgid "Play _audio CDs when inserted"
 msgstr "Αν_απαραγωγή CD ήχου όταν εισαχθεί"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:282
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:404
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:539
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:586
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:285
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:410
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:461
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:548
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
 msgid "_Command:"
 msgstr "_Εντολή:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:295
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:298
 msgid "Video CDs/DVDs"
 msgstr "Βίντεο CD/DVD"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:313
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:317
 msgid "Play _video CDs and DVDs when inserted"
 msgstr "Αναπαραγωγή _βίντεο CD και DVD όταν εισαχθούν"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:320
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:357
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:624
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:324
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:362
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:500
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:635
 msgid "C_ommand:"
 msgstr "Εντ_ολή:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:333
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:337
 msgid "Portable Music Players"
 msgstr "Φορητές συσκευές μουσικής"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:351
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:356
 msgid "Play _music files when connected"
 msgstr "Αναπαραγωγή _μουσικών αρχείων όταν συνδεθούν"
 
 #. Cameras
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:373
 msgid "Cameras"
 msgstr "Φωτογραφικές μηχανές"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:384
 msgid "Digital Cameras"
 msgstr "Ψηφιακές φωτογραφικές μηχανές"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:397
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:403
 msgid "Import digital photographs when connected"
 msgstr "Εισαγωγή ψηφιακών φωτογραφιών όταν συνδεθούν "
 
 #. PDAs
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:421
 msgid "PDAs"
 msgstr "PDA"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:429
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Palm™"
 msgstr "Palm™"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:447
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
 msgid "Sync _Palm™ devices when connected"
 msgstr "Συγχρονισμός συσκευών _Palm™ όταν συνδεθούν"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:467
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:474
 msgid "Pocket PCs"
 msgstr "Pocket PC"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:485
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:493
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Συγχρονισμός _συσκευών Pocket PC όταν συνδεθεί"
 
 #. Printers
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:503
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:514
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:522
 msgid "Printers"
 msgstr "Εκτυπωτές"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:532
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:541
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Αυτόματη εκτέλεση προγράμματος όταν συνδεθεί ένας ε_κτυπωτής"
 
 #. Input Devices
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:559
 msgid "Input Devices"
 msgstr "Συσκευές εισόδου"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:561
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Keyboards"
 msgstr "Πληκτρολόγια"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:579
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Αυτόματη ε_κτέλεση ενός προγράμματος όταν συνδεθεί ένα πληκτρολόγιο USB"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:599
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:609
 msgid "Mice"
 msgstr "Ποντίκια"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:617
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:628
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Αυτόματη εκτέλεση ενός προγράμματος όταν συνδεθεί ένα _ποντίκι usb"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:637
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:648
 msgid "Tablet"
 msgstr "Πινακίδιο"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:655
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:667
 msgid "Automatically run a program when a _tablet is connected"
 msgstr "Αυτόματη εκτέλεση ενός προγράμματος όταν συνδεθεί ένα _πινακίδιο"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:662
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:674
 msgid "Com_mand:"
 msgstr "Εντ_ολή:"
