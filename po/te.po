@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2017-09-19 18:02+0000\n"
+"POT-Creation-Date: 2018-09-03 00:30+0200\n"
+"PO-Revision-Date: 2018-09-14 00:16+0000\n"
 "Last-Translator: Xfce Bot <transifex@xfce.org>\n"
 "Language-Team: Telugu (http://www.transifex.com/xfce/thunar-volman/language/te/)\n"
 "MIME-Version: 1.0\n"
@@ -320,11 +320,11 @@ msgstr ""
 
 #: ../thunar-volman-settings/main.c:44
 msgid "Settings manager socket"
-msgstr ""
+msgstr "అమరికల నిర్వాహకం సాకెట్"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "SOCKET ID"
-msgstr ""
+msgstr "సాకెట్ ఐడి"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
@@ -340,27 +340,35 @@ msgstr "తీసివేయదగిన డ్రైవులు మరియ�
 msgid "Select an Application"
 msgstr "ఒక అనువర్తనమును ఎంచుకోండి"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:247
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Cancel"
+msgstr "రద్దుచేయి"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:241
+msgid "Select Application"
+msgstr "అనువర్తనాన్ని ఎంచుకోండి"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:248
 msgid "All Files"
 msgstr "అన్ని ఫైళ్ళు"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:252
+#: ../thunar-volman-settings/tvm-command-entry.c:253
 msgid "Executable Files"
 msgstr "ఎక్జిక్యూటబుల్ ఫైళ్ళు"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:267
+#: ../thunar-volman-settings/tvm-command-entry.c:268
 msgid "Perl Scripts"
 msgstr "పెర్ల్ స్క్రిప్టులు"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:273
+#: ../thunar-volman-settings/tvm-command-entry.c:274
 msgid "Python Scripts"
 msgstr "పైథాన్ స్క్రిప్టులు"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:279
+#: ../thunar-volman-settings/tvm-command-entry.c:280
 msgid "Ruby Scripts"
 msgstr "రుబి స్క్రిప్టులు"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:285
+#: ../thunar-volman-settings/tvm-command-entry.c:286
 msgid "Shell Scripts"
 msgstr "షెల్ స్క్రిప్టులు"
 
@@ -370,7 +378,7 @@ msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:116
 msgid "Close"
-msgstr ""
+msgstr "మూసివేయి"
 
 #. Storage
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:128
@@ -381,159 +389,159 @@ msgstr "నిల్వ"
 msgid "Removable Storage"
 msgstr "తీసివేయదగిన నిల్వ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:157
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
 msgstr ""
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:164
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:165
 msgid "Mount removable media when _inserted"
 msgstr "తీసివేయదగిన మాధ్యమం చొప్పించినపుడు దానిని అధిరోహించు (_i)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:171
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:172
 msgid "B_rowse removable media when inserted"
 msgstr "తీసివేయదగిన మాధ్యమం చొప్పించినపుడు దానిని విహరించు (_r)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:178
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:179
 msgid "_Auto-run programs on new drives and media"
 msgstr ""
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:185
 msgid "Auto-open files on new drives and media"
 msgstr "కొత్త డ్రైవులు మరియు మాధ్యమం పై వున్న ఫైళ్ళను స్వయంచాలకంగా తెరుచు"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:195
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:196
 msgid "Blank CDs and DVDs"
 msgstr "ఖాళీ సిడీలు మరియు డీవీడిలు"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:213
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:215
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "ఒక ఖాళీ డిస్కు చొప్పించినపుడు ఒక సీడీ లేదా డీవీడీని బర్న్ చేయి (_B)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:223
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:225
 msgid "Command for _Data CDs:"
 msgstr "ఆడియో సీడీల కొరకు ఆదేశం (_D):"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:232
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:234
 msgid "Command for A_udio CDs:"
 msgstr "ఆడియో సీడీల కొరకు ఆదేశం (_u):"
 
 #. Multimedia
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:247
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:249
 msgid "Multimedia"
 msgstr "బహుళమాద్యమం"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:258
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:260
 msgid "Audio CDs"
 msgstr "ఆడియో సిడిలు"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:276
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:279
 msgid "Play _audio CDs when inserted"
 msgstr "ఆడియో సీడీలు చొప్పించినపుడు వాటిని ప్రదర్శించు (_a)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:282
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:404
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:539
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:586
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:285
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:410
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:461
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:548
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
 msgid "_Command:"
 msgstr "ఆదేశము (_C):"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:295
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:298
 msgid "Video CDs/DVDs"
 msgstr "వీడియో సీడీలు/డీవీడీలు"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:313
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:317
 msgid "Play _video CDs and DVDs when inserted"
 msgstr "వీడియో సీడీలు మరియు డీవీడీలు చొప్పించినపుడు వాటిని ప్రదర్శించు (_v)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:320
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:357
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:624
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:324
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:362
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:500
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:635
 msgid "C_ommand:"
 msgstr "ఆదేశం (_o):"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:333
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:337
 msgid "Portable Music Players"
 msgstr "పోర్టబుల్ మ్యూజిక్ ప్లేయర్స్"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:351
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:356
 msgid "Play _music files when connected"
 msgstr "అనుసంధానించబడినపుడు సంగీత ఫైళ్ళని ఆడించు (_m)"
 
 #. Cameras
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:373
 msgid "Cameras"
 msgstr "కెమేరాలు"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:384
 msgid "Digital Cameras"
 msgstr "డిజిటల్ కెమేరాలు"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:397
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:403
 msgid "Import digital photographs when connected"
 msgstr "డిజిటల్ ఫొటోగ్రాఫులు అనుసంధానమయినపుడు వాటిని దిగుమతిచేయి"
 
 #. PDAs
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:421
 msgid "PDAs"
 msgstr "PDAs"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:429
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Palm™"
 msgstr "Palm™"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:447
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
 msgid "Sync _Palm™ devices when connected"
 msgstr ""
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:467
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:474
 msgid "Pocket PCs"
 msgstr "పాకెట్ పీసీలు"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:485
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:493
 msgid "Sync Pocket P_C devices when connected"
 msgstr ""
 
 #. Printers
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:503
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:514
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:522
 msgid "Printers"
 msgstr "ముద్రకాలు"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:532
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:541
 msgid "Automatically run a program when a _printer is connected"
 msgstr "ముద్రకము అనుసంధానించినపుడు స్వయంచాలకంగా ఒక ప్రోగ్రాముని నడుపు (_p)"
 
 #. Input Devices
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:559
 msgid "Input Devices"
 msgstr "ఇన్‌పుట్ పరికరాలు"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:561
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Keyboards"
 msgstr "కీబోర్డులు"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:579
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "USB కీబోర్డుని అనుసంధానించినపుడు స్వయంచాలకంగా ఒక ప్రోగ్రాముని నడుపు (_k)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:599
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:609
 msgid "Mice"
 msgstr "ఇతరాలు"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:617
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:628
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "USB మౌసుని అనుసంధానించినపుడు స్వయంచాలకంగా ఒక ప్రోగ్రాముని నడుపు (_m)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:637
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:648
 msgid "Tablet"
 msgstr "టాబ్లెట్"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:655
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:667
 msgid "Automatically run a program when a _tablet is connected"
 msgstr ""
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:662
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:674
 msgid "Com_mand:"
 msgstr "ఆదేశం (_m):"
