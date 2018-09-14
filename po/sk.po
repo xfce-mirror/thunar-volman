@@ -13,15 +13,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-09-09 18:30+0200\n"
-"PO-Revision-Date: 2017-09-30 08:39+0000\n"
-"Last-Translator: Dušan Kazik <prescott66@gmail.com>\n"
+"POT-Creation-Date: 2018-09-03 00:30+0200\n"
+"PO-Revision-Date: 2018-09-14 00:16+0000\n"
+"Last-Translator: Slavko <linux@slavino.sk>\n"
 "Language-Team: Slovak (http://www.transifex.com/xfce/thunar-volman/language/sk/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: sk\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
@@ -345,27 +345,35 @@ msgstr "Vymeniteľné zariadenia a médiá"
 msgid "Select an Application"
 msgstr "Zvoľte program"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:247
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:241
+msgid "Select Application"
+msgstr "Vyberte aplikáciu"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:248
 msgid "All Files"
 msgstr "Všetky súbory"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:252
+#: ../thunar-volman-settings/tvm-command-entry.c:253
 msgid "Executable Files"
 msgstr "Spustiteľné súbory"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:267
+#: ../thunar-volman-settings/tvm-command-entry.c:268
 msgid "Perl Scripts"
 msgstr "Skripty jazyka Perl"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:273
+#: ../thunar-volman-settings/tvm-command-entry.c:274
 msgid "Python Scripts"
 msgstr "Skripty jazyka Python"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:279
+#: ../thunar-volman-settings/tvm-command-entry.c:280
 msgid "Ruby Scripts"
 msgstr "Skripty jazyka Ruby"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:285
+#: ../thunar-volman-settings/tvm-command-entry.c:286
 msgid "Shell Scripts"
 msgstr "Skripty shellu"
 
@@ -386,159 +394,159 @@ msgstr "Úložisko"
 msgid "Removable Storage"
 msgstr "Vymeniteľné úložisko"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:157
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
 msgstr "Pripojiť vy_meniteľné zariadenia po pripojení"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:164
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:165
 msgid "Mount removable media when _inserted"
 msgstr "Pr_ipojiť vymeniteľné médiá po vložení"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:171
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:172
 msgid "B_rowse removable media when inserted"
 msgstr "P_rechádzať vymeniteľné médiá po vložení"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:178
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:179
 msgid "_Auto-run programs on new drives and media"
 msgstr "Spustenie programov typu _Auto-run na nových jednotkách a médiách"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:185
 msgid "Auto-open files on new drives and media"
 msgstr "Spustenie súborov typu Auto-open na nových jednotkách a médiách"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:195
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:196
 msgid "Blank CDs and DVDs"
 msgstr "Prázdne disky CD a DVD"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:213
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:215
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "_Vypáliť CD alebo DVD pri vložení prázdneho disku"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:223
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:225
 msgid "Command for _Data CDs:"
 msgstr "Príkaz pre _dátové disky CD:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:232
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:234
 msgid "Command for A_udio CDs:"
 msgstr "Príkaz pre _zvukové disky CD:"
 
 #. Multimedia
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:247
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:249
 msgid "Multimedia"
 msgstr "Multimédiá"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:258
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:260
 msgid "Audio CDs"
 msgstr "Zvukové disky CD"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:276
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:279
 msgid "Play _audio CDs when inserted"
 msgstr "Prehrať _zvukové disky CD po vložení"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:282
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:404
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:539
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:586
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:285
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:410
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:461
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:548
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
 msgid "_Command:"
 msgstr "_Príkaz:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:295
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:298
 msgid "Video CDs/DVDs"
 msgstr "Video disky CD a DVD"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:313
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:317
 msgid "Play _video CDs and DVDs when inserted"
 msgstr "Prehrať _video disky CD a DVD po vložení"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:320
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:357
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:624
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:324
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:362
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:500
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:635
 msgid "C_ommand:"
 msgstr "Prík_az:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:333
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:337
 msgid "Portable Music Players"
 msgstr "Prenosné prehrávače hudby"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:351
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:356
 msgid "Play _music files when connected"
 msgstr "Prehrať _hudobné súbory po pripojení"
 
 #. Cameras
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:373
 msgid "Cameras"
 msgstr "Fotoaparáty"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:379
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:384
 msgid "Digital Cameras"
 msgstr "Digitálne fotoaparáty"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:397
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:403
 msgid "Import digital photographs when connected"
 msgstr "Importovať digitálne fotografie po pripojení"
 
 #. PDAs
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:421
 msgid "PDAs"
 msgstr "Zariadenia PDA"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:429
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Palm™"
 msgstr "Palm™"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:447
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
 msgid "Sync _Palm™ devices when connected"
 msgstr "Synchronizovať zariadenia _Palm™ po pripojení"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:467
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:474
 msgid "Pocket PCs"
 msgstr "Pocket PC"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:485
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:493
 msgid "Sync Pocket P_C devices when connected"
 msgstr "Synchronizovať zariadenia Pocket P_C po pripojení"
 
 #. Printers
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:503
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:514
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:522
 msgid "Printers"
 msgstr "Tlačiarne"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:532
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:541
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Automaticky spustiť program po pripojení _tlačiarne"
 
 #. Input Devices
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:559
 msgid "Input Devices"
 msgstr "Vstupné zariadenia"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:561
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Keyboards"
 msgstr "Klávesnice"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:579
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Automaticky spustiť program po pripojení _klávesnice s rozhraním USB"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:599
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:609
 msgid "Mice"
 msgstr "Myši"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:617
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:628
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Automaticky spustiť program po pripojení _myši s rozhraním USB"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:637
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:648
 msgid "Tablet"
 msgstr "Tablet"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:655
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:667
 msgid "Automatically run a program when a _tablet is connected"
 msgstr "Automaticky spustiť program po pripojení _tabletu"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:662
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:674
 msgid "Com_mand:"
 msgstr "Prík_az:"
