@@ -327,21 +327,22 @@ tvm_block_device_autorun (TvmContext *context,
   g_return_val_if_fail (G_IS_MOUNT (mount), FALSE);
   g_return_val_if_fail (error == NULL || *error == NULL, FALSE);
 
-  /* check if autoplaying video CDs and DVDs is enabled */
+  /* check if autoplaying video disks is enabled */
   autoplay = xfconf_channel_get_bool (context->channel, 
                                       "/autoplay-video-cds/enabled", FALSE);
   if (autoplay)
     {
-      /* check if we have a video CD or video DVD here */
+      /* check if we have a video disk here */
       if (tvm_file_test (mount, "vcd", G_FILE_TEST_IS_DIR) 
-          || tvm_file_test (mount, "video_ts", G_FILE_TEST_IS_DIR))
+          || tvm_file_test (mount, "video_ts", G_FILE_TEST_IS_DIR)
+          || tvm_file_test (mount, "bdmv", G_FILE_TEST_IS_DIR))
         {
-          /* determine the autoplay command for video CDs/DVDs */
+          /* determine the autoplay command for video disks */
           autoplay_command = xfconf_channel_get_string (context->channel,
                                                         "/autoplay-video-cds/command", 
                                                         "parole");
 
-          /* try to spawn the preferred video CD/DVD player */
+          /* try to spawn the preferred video disk player */
           result = tvm_run_command (context, mount, autoplay_command, &err);
 
           /* free the command string */
@@ -596,8 +597,6 @@ tvm_block_device_mounted (TvmContext *context,
   const gchar *summary;
   const gchar *icon;
   const gchar *volume_name;
-  gboolean     is_cdrom;
-  gboolean     is_dvd;
   gchar       *message;
   gchar       *decoded_name;
 #endif
@@ -608,18 +607,27 @@ tvm_block_device_mounted (TvmContext *context,
   g_return_if_fail (error == NULL || *error == NULL);
 
 #ifdef HAVE_LIBNOTIFY
-  /* distinguish between CDs and DVDs */
-  is_cdrom = g_udev_device_get_property_as_boolean (context->device, "ID_CDROM_MEDIA_CD");
-  is_dvd = g_udev_device_get_property_as_boolean (context->device, "ID_CDROM_MEDIA_DVD");
-  
-  if (is_cdrom || is_dvd)
+
+  icon = "drive-optical";
+
+  /* distinguish between CDs, DVDs, Blu-rays */
+  if (g_udev_device_get_property_as_boolean (context->device, "ID_CDROM_MEDIA_CD"))
     {
       /* generate notification info */
-      icon = "drive-optical";
-      summary = is_cdrom ? _("CD mounted") : _("DVD mounted");
-      message = g_strdup (is_cdrom 
-                          ? _("The CD was mounted automatically") 
-                          : _("The DVD was mounted automatically"));
+      summary = _("CD mounted");
+      message = g_strdup (_("The CD was mounted automatically"));
+    }
+  else if (g_udev_device_get_property_as_boolean (context->device, "ID_CDROM_MEDIA_DVD"))
+    {
+      /* generate notification info */
+      summary = _("DVD mounted");
+      message = g_strdup (_("The DVD was mounted automatically"));
+    }
+  else if (g_udev_device_get_property_as_boolean (context->device, "ID_CDROM_MEDIA_BD"))
+    {
+      /* generate notification info */
+      summary = _("Blu-ray mounted");
+      message = g_strdup (_("The Blu-ray was mounted automatically"));
     }
   else
     {

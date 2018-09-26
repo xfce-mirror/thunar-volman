@@ -295,7 +295,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_box_pack_start (GTK_BOX (vbox), frame, FALSE, TRUE, 0);
   gtk_widget_show (frame);
 
-  label = gtk_label_new (_("Video CDs/DVDs"));
+  label = gtk_label_new (_("Video CDs/DVDs/Blu-rays"));
   gtk_label_set_attributes (GTK_LABEL (label), tvm_pango_attr_list_bold ());
   gtk_frame_set_label_widget (GTK_FRAME (frame), label);
   gtk_widget_show (label);
@@ -314,8 +314,8 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
   gtk_widget_show (image);
 
-  button = gtk_check_button_new_with_mnemonic (_("Play _video CDs and DVDs when "
-                                                 "inserted"));
+  button = gtk_check_button_new_with_mnemonic (_("Play _video CDs, DVDs, and "
+                                                 "Blu-rays when inserted"));
   xfconf_g_property_bind (channel, "/autoplay-video-cds/enabled", G_TYPE_BOOLEAN, 
                           button, "active");
   gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
