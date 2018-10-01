@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-26 06:30+0200\n"
-"PO-Revision-Date: 2018-09-26 15:41+0000\n"
+"PO-Revision-Date: 2018-09-28 15:20+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -264,7 +264,7 @@ msgstr "En mus blev fundet"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr "Ikke understøttet input-enhedstype \"%s\""
+msgstr "Ikke understøttet inputenhedstype \"%s\""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -532,7 +532,7 @@ msgstr "Kør automatisk et program ved tilslutning af en _printer"
 #. Input Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:559
 msgid "Input Devices"
-msgstr "Input-enheder"
+msgstr "Inputenheder"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Keyboards"
