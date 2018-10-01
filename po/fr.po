@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-26 06:30+0200\n"
-"PO-Revision-Date: 2018-09-26 11:53+0000\n"
+"PO-Revision-Date: 2018-10-01 14:57+0000\n"
 "Last-Translator: Charles Monzat <c.monzat@laposte.net>\n"
 "Language-Team: French (http://www.transifex.com/xfce/thunar-volman/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -119,12 +119,12 @@ msgstr "Voulez-vous autoriser l’exécution de « %s » ?"
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run Confirmation"
-msgstr "Confirmation d’auto-exécution"
+msgstr "Confirmation d’exécution automatique"
 
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 msgid "Auto-Run capability detected"
-msgstr "Possibilité d’auto-exécution détectée"
+msgstr "Possibilité d’exécution automatique détectée"
 
 #: ../thunar-volman/tvm-block-device.c:380
 #: ../thunar-volman/tvm-block-device.c:427
@@ -139,11 +139,11 @@ msgstr "Voulez-vous ouvrir « %s » ?"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open Confirmation"
-msgstr "Confirmation d’auto-ouverture"
+msgstr "Confirmation d’ouverture automatique"
 
 #: ../thunar-volman/tvm-block-device.c:507
 msgid "Auto-Open capability detected"
-msgstr "Possibilité d’auto-ouverture détectée"
+msgstr "Possibilité d’ouverture automatique détectée"
 
 #: ../thunar-volman/tvm-block-device.c:509
 msgid "_Open"
@@ -311,7 +311,7 @@ msgstr "La commande de gravure ne peut pas être vide"
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr "La commande du lecteur de CD n’est pas définie"
+msgstr "La commande du lecteur CD n’est pas définie"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
@@ -336,7 +336,7 @@ msgstr "Périphérique USB de type « %s » non pris en charge"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "Settings manager socket"
-msgstr "Gestionnaire de paramètres socket"
+msgstr "Socket du gestionnaire de paramètres"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "SOCKET ID"
@@ -345,12 +345,12 @@ msgstr "ID SOCKET"
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
 msgid "Thunar Volume Manager Settings"
-msgstr "Propriétés du gestionnaire de volume Thunar"
+msgstr "Propriétés du gestionnaire de volumes Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:101
 msgid "Removable Drives and Media"
-msgstr "Disques amovibles et médias"
+msgstr "Disques et médias amovibles"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:237
 msgid "Select an Application"
@@ -501,7 +501,7 @@ msgstr "Importer les photos numériques à la connexion"
 #. PDAs
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:421
 msgid "PDAs"
-msgstr "PDA"
+msgstr "PDA (assistant personnel)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Palm™"
@@ -509,7 +509,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:454
 msgid "Sync _Palm™ devices when connected"
-msgstr "Synchroniser les périphériques Palm™ une fois connectés"
+msgstr "Synchroniser les périphériques _Palm™ une fois connectés"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:474
 msgid "Pocket PCs"
@@ -517,7 +517,7 @@ msgstr "Pocket PC"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:493
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Synchroniser les périphériques Pocket PC une fois connectés"
+msgstr "Synchroniser les périphériques Poc_ket PC une fois connectés"
 
 #. Printers
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:511
