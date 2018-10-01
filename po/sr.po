@@ -4,13 +4,13 @@
 # 
 # Translators:
 # Мирослав Николић <miroslavnikolic@rocketmail.com>, 2012
-# Саша Петровић <salepetronije@gmail.com>, 2013,2017
+# Саша Петровић <salepetronije@gmail.com>, 2013,2017-2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-03 00:30+0200\n"
-"PO-Revision-Date: 2018-09-14 00:16+0000\n"
+"POT-Creation-Date: 2018-09-26 06:30+0200\n"
+"PO-Revision-Date: 2018-09-27 15:05+0000\n"
 "Last-Translator: Саша Петровић <salepetronije@gmail.com>\n"
 "Language-Team: Serbian (http://www.transifex.com/xfce/thunar-volman/language/sr/)\n"
 "MIME-Version: 1.0\n"
@@ -72,10 +72,10 @@ msgstr "Да ли бисте желели да увезете фотографи
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
-#: ../thunar-volman/tvm-block-device.c:378
-#: ../thunar-volman/tvm-block-device.c:425
-#: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:830 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:379
+#: ../thunar-volman/tvm-block-device.c:426
+#: ../thunar-volman/tvm-block-device.c:508
+#: ../thunar-volman/tvm-block-device.c:838 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "Занема_ри"
@@ -106,111 +106,122 @@ msgstr "Постоје фотографије на картици. Да ли б�
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
-#: ../thunar-volman/tvm-block-device.c:373
-#: ../thunar-volman/tvm-block-device.c:420
+#: ../thunar-volman/tvm-block-device.c:374
+#: ../thunar-volman/tvm-block-device.c:421
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
 msgstr "Да ли желите да дозволите покретање „%s“?"
 
-#: ../thunar-volman/tvm-block-device.c:376
-#: ../thunar-volman/tvm-block-device.c:423
+#: ../thunar-volman/tvm-block-device.c:377
+#: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run Confirmation"
 msgstr "Потврда за самопокретање"
 
-#: ../thunar-volman/tvm-block-device.c:377
-#: ../thunar-volman/tvm-block-device.c:424
+#: ../thunar-volman/tvm-block-device.c:378
+#: ../thunar-volman/tvm-block-device.c:425
 msgid "Auto-Run capability detected"
 msgstr "Откривена је способност самопокретања"
 
-#: ../thunar-volman/tvm-block-device.c:379
-#: ../thunar-volman/tvm-block-device.c:426
+#: ../thunar-volman/tvm-block-device.c:380
+#: ../thunar-volman/tvm-block-device.c:427
 msgid "_Allow Auto-Run"
 msgstr "Дозво_ли самопокретање"
 
 #. prompt the user whether to autoopen this file
-#: ../thunar-volman/tvm-block-device.c:502
+#: ../thunar-volman/tvm-block-device.c:503
 #, c-format
 msgid "Would you like to open \"%s\"?"
 msgstr "Да ли желите да отворите „%s“?"
 
-#: ../thunar-volman/tvm-block-device.c:505
+#: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open Confirmation"
 msgstr "Потврда за самоотварање"
 
-#: ../thunar-volman/tvm-block-device.c:506
+#: ../thunar-volman/tvm-block-device.c:507
 msgid "Auto-Open capability detected"
 msgstr "Откривена је способност за самоотварање"
 
-#: ../thunar-volman/tvm-block-device.c:508
+#: ../thunar-volman/tvm-block-device.c:509
 msgid "_Open"
 msgstr "_Отвори"
 
-#: ../thunar-volman/tvm-block-device.c:619
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:617
 msgid "CD mounted"
 msgstr "ЦД је прикачен"
 
-#: ../thunar-volman/tvm-block-device.c:619
-msgid "DVD mounted"
-msgstr "ДВД је прикачен"
-
-#: ../thunar-volman/tvm-block-device.c:621
+#: ../thunar-volman/tvm-block-device.c:618
 msgid "The CD was mounted automatically"
 msgstr "ЦД је прикачен самостално"
 
-#: ../thunar-volman/tvm-block-device.c:622
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:623
+msgid "DVD mounted"
+msgstr "ДВД је прикачен"
+
+#: ../thunar-volman/tvm-block-device.c:624
 msgid "The DVD was mounted automatically"
 msgstr "ДВД је прикачен самостално"
 
-#: ../thunar-volman/tvm-block-device.c:632
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:629
+msgid "Blu-ray mounted"
+msgstr "Блу-реј је прикачен"
+
+#: ../thunar-volman/tvm-block-device.c:630
+msgid "The Blu-ray was mounted automatically"
+msgstr "Блу-реј је прикачен самостално"
+
+#: ../thunar-volman/tvm-block-device.c:640
 msgid "Volume mounted"
 msgstr "Уређај је прикачен"
 
-#: ../thunar-volman/tvm-block-device.c:635
+#: ../thunar-volman/tvm-block-device.c:643
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
 msgstr "Уређај „%s“ је прикачен самостално"
 
-#: ../thunar-volman/tvm-block-device.c:640
+#: ../thunar-volman/tvm-block-device.c:648
 #, c-format
 msgid "The inserted volume was mounted automatically"
 msgstr "Убачени волумен је прикачен самостално"
 
-#: ../thunar-volman/tvm-block-device.c:694
+#: ../thunar-volman/tvm-block-device.c:702
 #, c-format
 msgid "Unable to locate mount point"
 msgstr "Не могу да нађем тачку монтирања"
 
-#: ../thunar-volman/tvm-block-device.c:740
+#: ../thunar-volman/tvm-block-device.c:748
 #, c-format
 msgid "Unable to mount the device"
 msgstr "Не могу да монтирам уређај"
 
-#: ../thunar-volman/tvm-block-device.c:749
+#: ../thunar-volman/tvm-block-device.c:757
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
 msgstr "Не могу да откријем волумен који одговара уређају"
 
-#: ../thunar-volman/tvm-block-device.c:825
+#: ../thunar-volman/tvm-block-device.c:833
 msgid "Audio/Data CD"
 msgstr "ЦД звука/података"
 
-#: ../thunar-volman/tvm-block-device.c:826
+#: ../thunar-volman/tvm-block-device.c:834
 msgid "The CD in the drive contains both music and files"
 msgstr "Диск у фиоци садржи и музику и датотеке"
 
-#: ../thunar-volman/tvm-block-device.c:828
+#: ../thunar-volman/tvm-block-device.c:836
 msgid "Would you like to listen to music or browse the files?"
 msgstr "Да ли желите да слушате музику или да разгледате датотеке?"
 
-#: ../thunar-volman/tvm-block-device.c:831
+#: ../thunar-volman/tvm-block-device.c:839
 msgid "_Browse Files"
 msgstr "Разгледај _датотеке"
 
-#: ../thunar-volman/tvm-block-device.c:832
+#: ../thunar-volman/tvm-block-device.c:840
 msgid "_Play CD"
 msgstr "_Пусти ЦД"
 
-#: ../thunar-volman/tvm-block-device.c:920
+#: ../thunar-volman/tvm-block-device.c:928
 #, c-format
 msgid "Unknown block device type \"%s\""
 msgstr "Непозната врста блок уређаја „%s“"
@@ -448,12 +459,12 @@ msgid "_Command:"
 msgstr "_Наредба:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:298
-msgid "Video CDs/DVDs"
-msgstr "Дискови снимака"
+msgid "Video CDs/DVDs/Blu-rays"
+msgstr "Снимци са ЦД-а/ДВД-ја/Блу-рејева"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:317
-msgid "Play _video CDs and DVDs when inserted"
-msgstr "Пусти дискове са _снимцима по убацивању"
+msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
+msgstr "Изведи _снимке ЦД-а,ДВД-ја и Блу-рејева при уметању"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:324
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:362
