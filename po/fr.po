@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-26 06:30+0200\n"
-"PO-Revision-Date: 2018-10-01 14:57+0000\n"
+"PO-Revision-Date: 2018-10-02 09:47+0000\n"
 "Last-Translator: Charles Monzat <c.monzat@laposte.net>\n"
 "Language-Team: French (http://www.transifex.com/xfce/thunar-volman/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "Le chemin sysfs du périphérique nouvellement ajouté"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:103
 msgid "Configure management of removable drives and media"
-msgstr "Configurer la gestion des disques amovibles et des médias"
+msgstr "Configurer la gestion des disques et médias amovibles"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -215,7 +215,7 @@ msgstr "Le CD inséré dans le lecteur contient de la musique et des fichiers"
 
 #: ../thunar-volman/tvm-block-device.c:836
 msgid "Would you like to listen to music or browse the files?"
-msgstr "Voulez-vous écouter la musique ou parcourir les fichiers ?"
+msgstr "Voulez-vous écouter de la musique ou parcourir les fichiers ?"
 
 #: ../thunar-volman/tvm-block-device.c:839
 msgid "_Browse Files"
@@ -228,12 +228,12 @@ msgstr "_Lire le CD"
 #: ../thunar-volman/tvm-block-device.c:928
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr "Type de périphérique bloc inconnu « %s »"
+msgstr "Périphérique bloc de type « %s » inconnu"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr "Type de périphérique « %s » non pris en charge"
+msgstr "Périphérique de type « %s » non pris en charge"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -407,15 +407,15 @@ msgstr "Stockage amovible"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "_Monter les disques amovibles à la connexion"
+msgstr "_Monter les disques amovibles lors de la connexion"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:165
 msgid "Mount removable media when _inserted"
-msgstr "Monter les médias amovibles à l’_insertion"
+msgstr "Mo_nter les médias amovibles lors de l’insertion"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:172
 msgid "B_rowse removable media when inserted"
-msgstr "_Parcourir les médias amovibles à l’insertion"
+msgstr "_Parcourir les médias amovibles lors de l’insertion"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:179
 msgid "_Auto-run programs on new drives and media"
@@ -423,7 +423,7 @@ msgstr "E_xécution automatique d’applications pour les nouveaux disques et m�
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:185
 msgid "Auto-open files on new drives and media"
-msgstr "Ouverture automatique des fichiers pour les nouveaux disques et médias"
+msgstr "_Ouverture automatique des fichiers pour les nouveaux disques et médias"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:196
 msgid "Blank CDs and DVDs"
@@ -431,7 +431,7 @@ msgstr "CD et DVD vierges"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:215
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "_Graver un CD ou DVD à l’insertion d’un disque vierge"
+msgstr "_Graver un CD ou DVD lors de l’insertion d’un disque vierge"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:225
 msgid "Command for _Data CDs:"
@@ -452,7 +452,7 @@ msgstr "CD audio"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:279
 msgid "Play _audio CDs when inserted"
-msgstr "Lire les CD _audio à l’insertion"
+msgstr "Lire les CD _audio lors de l’insertion"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:285
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:410
@@ -468,7 +468,7 @@ msgstr "CD/DVD/Blu-ray vidéo"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:317
 msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
-msgstr "Lire les CD, DVD et Blu-ray _vidéo à l’insertion"
+msgstr "Lire les CD, DVD et Blu-ray _vidéo lors de l’insertion"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:324
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:362
@@ -483,7 +483,7 @@ msgstr "Lecteurs de musique portables"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:356
 msgid "Play _music files when connected"
-msgstr "Lire les fichiers _musicaux à la connexion"
+msgstr "Lire les fichiers _musicaux lors de la connexion"
 
 #. Cameras
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:373
@@ -496,12 +496,12 @@ msgstr "Appareils photos numériques"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:403
 msgid "Import digital photographs when connected"
-msgstr "Importer les photos numériques à la connexion"
+msgstr "_Importer les photos numériques lors de la connexion"
 
 #. PDAs
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:421
 msgid "PDAs"
-msgstr "PDA (assistant personnel)"
+msgstr "PDA (assistants personnels)"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Palm™"
@@ -509,7 +509,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:454
 msgid "Sync _Palm™ devices when connected"
-msgstr "Synchroniser les périphériques _Palm™ une fois connectés"
+msgstr "Synchroniser les périphériques _Palm™ lors de la connexion"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:474
 msgid "Pocket PCs"
@@ -517,7 +517,7 @@ msgstr "Pocket PC"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:493
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Synchroniser les périphériques Poc_ket PC une fois connectés"
+msgstr "Synchroniser les périphériques Poc_ket PC lors de la connexion"
 
 #. Printers
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:511
@@ -527,7 +527,7 @@ msgstr "Imprimantes"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:541
 msgid "Automatically run a program when a _printer is connected"
-msgstr "Exécuter automatiquement une application à la connexion d’une _imprimante"
+msgstr "Exécuter automatiquement une application lors de la connexion d’une i_mprimante"
 
 #. Input Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:559
@@ -536,11 +536,11 @@ msgstr "Périphériques d’entrée"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Keyboards"
-msgstr "Claviers"
+msgstr "Clavier"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Exécuter automatiquement une application lors de la connexion d’un _clavier USB"
+msgstr "Exécuter automatiquement une application lors de la connexion d’un c_lavier USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:609
 msgid "Mice"
@@ -556,7 +556,7 @@ msgstr "Tablette graphique"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:667
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "Exécuter automatiquement une application à la connexion d’une _tablette graphique"
+msgstr "Exécuter automatiquement une application lors de la connexion d’une _tablette graphique"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:674
 msgid "Com_mand:"
