@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-03 00:30+0200\n"
-"PO-Revision-Date: 2018-09-14 00:16+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
+"POT-Creation-Date: 2018-09-26 06:30+0200\n"
+"PO-Revision-Date: 2018-10-06 06:24+0000\n"
+"Last-Translator: Daniel Muñiz Fontoira <dani@damufo.com>\n"
 "Language-Team: Galician (http://www.transifex.com/xfce/thunar-volman/language/gl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -75,10 +75,10 @@ msgstr "Desexa importar as fotos ou xestionar a música?"
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
-#: ../thunar-volman/tvm-block-device.c:378
-#: ../thunar-volman/tvm-block-device.c:425
-#: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:830 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:379
+#: ../thunar-volman/tvm-block-device.c:426
+#: ../thunar-volman/tvm-block-device.c:508
+#: ../thunar-volman/tvm-block-device.c:838 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "Ig_norar"
@@ -109,111 +109,122 @@ msgstr "Hai fotos na tarxeta. Desexa engadir estas fotos ó seu álbum?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
-#: ../thunar-volman/tvm-block-device.c:373
-#: ../thunar-volman/tvm-block-device.c:420
+#: ../thunar-volman/tvm-block-device.c:374
+#: ../thunar-volman/tvm-block-device.c:421
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
 msgstr "Desexa permitir que se execute «%s»?"
 
-#: ../thunar-volman/tvm-block-device.c:376
-#: ../thunar-volman/tvm-block-device.c:423
+#: ../thunar-volman/tvm-block-device.c:377
+#: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run Confirmation"
 msgstr "Confirmación de execución automática"
 
-#: ../thunar-volman/tvm-block-device.c:377
-#: ../thunar-volman/tvm-block-device.c:424
+#: ../thunar-volman/tvm-block-device.c:378
+#: ../thunar-volman/tvm-block-device.c:425
 msgid "Auto-Run capability detected"
 msgstr "Detectouse a capacidade de execución automática"
 
-#: ../thunar-volman/tvm-block-device.c:379
-#: ../thunar-volman/tvm-block-device.c:426
+#: ../thunar-volman/tvm-block-device.c:380
+#: ../thunar-volman/tvm-block-device.c:427
 msgid "_Allow Auto-Run"
 msgstr "_Permitir execución automática"
 
 #. prompt the user whether to autoopen this file
-#: ../thunar-volman/tvm-block-device.c:502
+#: ../thunar-volman/tvm-block-device.c:503
 #, c-format
 msgid "Would you like to open \"%s\"?"
 msgstr "Desexa abrir «%s»?"
 
-#: ../thunar-volman/tvm-block-device.c:505
+#: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open Confirmation"
 msgstr "Confirmación de apertura automática"
 
-#: ../thunar-volman/tvm-block-device.c:506
+#: ../thunar-volman/tvm-block-device.c:507
 msgid "Auto-Open capability detected"
 msgstr "Detectouse a capacidade de apertura automática"
 
-#: ../thunar-volman/tvm-block-device.c:508
+#: ../thunar-volman/tvm-block-device.c:509
 msgid "_Open"
 msgstr "_Abrir"
 
-#: ../thunar-volman/tvm-block-device.c:619
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:617
 msgid "CD mounted"
 msgstr "CD montado"
 
-#: ../thunar-volman/tvm-block-device.c:619
-msgid "DVD mounted"
-msgstr "DVD montado"
-
-#: ../thunar-volman/tvm-block-device.c:621
+#: ../thunar-volman/tvm-block-device.c:618
 msgid "The CD was mounted automatically"
 msgstr "O CD montouse automaticamente"
 
-#: ../thunar-volman/tvm-block-device.c:622
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:623
+msgid "DVD mounted"
+msgstr "DVD montado"
+
+#: ../thunar-volman/tvm-block-device.c:624
 msgid "The DVD was mounted automatically"
 msgstr "O DVD montouse automaticamente"
 
-#: ../thunar-volman/tvm-block-device.c:632
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:629
+msgid "Blu-ray mounted"
+msgstr "Blu-ray montado"
+
+#: ../thunar-volman/tvm-block-device.c:630
+msgid "The Blu-ray was mounted automatically"
+msgstr "O Blu-ray montouse automaticamente"
+
+#: ../thunar-volman/tvm-block-device.c:640
 msgid "Volume mounted"
 msgstr "Volume montado"
 
-#: ../thunar-volman/tvm-block-device.c:635
+#: ../thunar-volman/tvm-block-device.c:643
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
 msgstr "O volume «%s» montouse automaticamente"
 
-#: ../thunar-volman/tvm-block-device.c:640
+#: ../thunar-volman/tvm-block-device.c:648
 #, c-format
 msgid "The inserted volume was mounted automatically"
 msgstr "O volume inserido montouse automaticamente"
 
-#: ../thunar-volman/tvm-block-device.c:694
+#: ../thunar-volman/tvm-block-device.c:702
 #, c-format
 msgid "Unable to locate mount point"
 msgstr "Non foi posible localizar o punto de montaxe"
 
-#: ../thunar-volman/tvm-block-device.c:740
+#: ../thunar-volman/tvm-block-device.c:748
 #, c-format
 msgid "Unable to mount the device"
 msgstr "Non foi posible montar o dispositivo"
 
-#: ../thunar-volman/tvm-block-device.c:749
+#: ../thunar-volman/tvm-block-device.c:757
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
 msgstr "Non foi posible detectar o volume que corresponde ao dispositivo"
 
-#: ../thunar-volman/tvm-block-device.c:825
+#: ../thunar-volman/tvm-block-device.c:833
 msgid "Audio/Data CD"
 msgstr "CD de son/datos"
 
-#: ../thunar-volman/tvm-block-device.c:826
+#: ../thunar-volman/tvm-block-device.c:834
 msgid "The CD in the drive contains both music and files"
 msgstr "O CD que está na unidade contén música e ficheiros"
 
-#: ../thunar-volman/tvm-block-device.c:828
+#: ../thunar-volman/tvm-block-device.c:836
 msgid "Would you like to listen to music or browse the files?"
 msgstr "Desexa escoitar a música ou ver os ficheiros?"
 
-#: ../thunar-volman/tvm-block-device.c:831
+#: ../thunar-volman/tvm-block-device.c:839
 msgid "_Browse Files"
 msgstr "_Ver os ficheiros"
 
-#: ../thunar-volman/tvm-block-device.c:832
+#: ../thunar-volman/tvm-block-device.c:840
 msgid "_Play CD"
 msgstr "_Reproducir o CD"
 
-#: ../thunar-volman/tvm-block-device.c:920
+#: ../thunar-volman/tvm-block-device.c:928
 #, c-format
 msgid "Unknown block device type \"%s\""
 msgstr "Tipo de dispositivo de bloques «%s» descoñecido"
@@ -451,12 +462,12 @@ msgid "_Command:"
 msgstr "_Orde:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:298
-msgid "Video CDs/DVDs"
-msgstr "CD/DVD de vídeo"
+msgid "Video CDs/DVDs/Blu-rays"
+msgstr "Os CDs/DVDs/Blu-rays de vídeo"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:317
-msgid "Play _video CDs and DVDs when inserted"
-msgstr "Reproducir os CD de vídeo e os DVD ao introducilos"
+msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
+msgstr "Reproducir os CDs, DVDs e Blu-rays de _vídeo ao ser inseridos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:324
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:362
