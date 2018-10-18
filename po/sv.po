@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-26 06:30+0200\n"
-"PO-Revision-Date: 2018-10-01 10:45+0000\n"
+"PO-Revision-Date: 2018-10-18 21:59+0000\n"
 "Last-Translator: Påvel Nicklasson <pavel2@frimix.se>\n"
 "Language-Team: Swedish (http://www.transifex.com/xfce/thunar-volman/language/sv/)\n"
 "MIME-Version: 1.0\n"
@@ -168,7 +168,7 @@ msgstr "DVD-skivan monterades automatiskt"
 #. generate notification info
 #: ../thunar-volman/tvm-block-device.c:629
 msgid "Blu-ray mounted"
-msgstr ""
+msgstr "Blu-ray monterad"
 
 #: ../thunar-volman/tvm-block-device.c:630
 msgid "The Blu-ray was mounted automatically"
