@@ -572,8 +572,8 @@ tvm_block_device_autobrowse (TvmContext *context,
   autobrowse = xfconf_channel_get_bool (context->channel, "/autobrowse/enabled", FALSE);
   if (autobrowse) 
     {
-      /* try to open the mount point in thunar */
-      result = tvm_run_command (context, mount, "Thunar %m", &err);
+      /* try to open the mount point in the default File Manager */
+      result = tvm_run_command (context, mount, "exo-open --launch FileManager %m", &err);
     }
 
   /* forward errors to the caller */
