@@ -1,3 +1,22 @@
+0.9.1
+=====
+- Allow compilation against libxfce4ui 4.12 (Bug #14100)
+- Use transient notifications
+- Visual improvements (Bug #14650)
+- Add support for Blu-ray media (Bug #13297)
+- Relicense tvm-burn-cd.svg (Bug #11204)
+- Autobrowse of removable media opens Thunar, not the user-selected file
+  manager (Bug #9537)
+- Translation updates: Albanian, Amharic, Arabic, Asturian, Basque, Belarusian,
+  Bulgarian, Catalan, Chinese (China), Chinese (Hong Kong SAR China),
+  Chinese (Taiwan), Croatian, Czech, Danish, Dutch,English (Australia),
+  English (United Kingdom), Finnish, French, Galician, German, Greek, Hebrew,
+  Hungarian, Icelandic, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian,
+  Lithuanian, Malay, Norwegian Bokmål, Norwegian Nynorsk, Occitan, Polish,
+  Portuguese, Portuguese (Brazil), Romanian, Russian, Serbian, Slovak,
+  Slovenian, Spanish, Swedish, Telugu, Thai, Turkish, Ukrainian, Urdu,
+  Urdu (Pakistan), Uyghur, Vietnamese
+
 0.9.0
 =====
 - GTK3 Port
