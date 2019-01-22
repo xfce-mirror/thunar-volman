@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-01-08 08:41+0000\n"
+"PO-Revision-Date: 2019-01-22 10:34+0000\n"
 "Last-Translator: Zmicer Turok <zmicerturok@gmail.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/xfce/thunar-volman/language/be/)\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "Шлях да syfs толькі для дададзенай прылад
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:103
 msgid "Configure management of removable drives and media"
-msgstr "Наладзіць кіраванне зменнымі дыскамі і прыладамі"
+msgstr "Наладзіць кіраванне рухомымі дыскамі і носьбітамі"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -40,7 +40,7 @@ msgstr "Кіраўнік раздзелаў Thunar"
 
 #: ../thunar-volman/main.c:121
 msgid "All rights reserved."
-msgstr "Усе правы абаронены."
+msgstr "Усе правы абароненыя."
 
 #: ../thunar-volman/main.c:122
 #, c-format
@@ -55,7 +55,7 @@ msgstr "Не існуе прылады з шляхам sysfs \"%s\""
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Вы павінны задаць шлях sysfs для новых прылад з --device-added"
+msgstr "Вы мусіце задаць шлях sysfs для новых прылад з --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -64,7 +64,7 @@ msgstr "Фота і музыка"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr "На вашым партатыўным музычным плэеры былі знойдзены фотаздымкі"
+msgstr "На вашым партатыўным музычным плэеры былі знойдзеныя фотаздымкі"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -102,7 +102,7 @@ msgstr "Выяўлена картка з фотаздымкамі"
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr "На картке ёсць фотаздымкі. Хочаце дадаць гэтыя фотаздымкі ў ваш альбом?"
+msgstr "На картцы ёсць фотаздымкі. Хочаце дадаць гэтыя фотаздымкі ў ваш альбом?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -148,11 +148,11 @@ msgstr "_Адкрыць"
 #. generate notification info
 #: ../thunar-volman/tvm-block-device.c:617
 msgid "CD mounted"
-msgstr "CD прымнтаваны"
+msgstr "CD прымантаваны"
 
 #: ../thunar-volman/tvm-block-device.c:618
 msgid "The CD was mounted automatically"
-msgstr "CD быў падмантаваны аўтаматычна"
+msgstr "CD быў прымантаваны аўтаматычна"
 
 #. generate notification info
 #: ../thunar-volman/tvm-block-device.c:623
@@ -403,7 +403,7 @@ msgstr "Рухомы назапашвальнік"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "_Мантаваць рухомыя дыскі падчас падключэння"
+msgstr "_Мантаваць рухомыя дыскі падчас падлучэння"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:165
 msgid "Mount removable media when _inserted"
@@ -479,7 +479,7 @@ msgstr "Партатыўны музычны плэер"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:356
 msgid "Play _music files when connected"
-msgstr "Праігрываць _музыку пры падлучэнні"
+msgstr "Прайграваць _музыку пры падлучэнні"
 
 #. Cameras
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:373
