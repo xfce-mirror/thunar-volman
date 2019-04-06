@@ -5,14 +5,14 @@
 # Translators:
 # Ammuu5, 2017
 # Jiri Grönroos <jiri.gronroos@iki.fi>, 2013
-# Pasi Lallinaho <pasi@shimmerproject.org>, 2014,2018
+# Pasi Lallinaho <pasi@shimmerproject.org>, 2014,2018-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-03 00:30+0200\n"
-"PO-Revision-Date: 2018-09-14 00:16+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
+"POT-Creation-Date: 2018-11-27 18:15+0100\n"
+"PO-Revision-Date: 2019-04-06 06:16+0000\n"
+"Last-Translator: Pasi Lallinaho <pasi@shimmerproject.org>\n"
 "Language-Team: Finnish (http://www.transifex.com/xfce/thunar-volman/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,10 +73,10 @@ msgstr "Noudetaanko valokuvia vai hallitaanko musiikkia?"
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
-#: ../thunar-volman/tvm-block-device.c:378
-#: ../thunar-volman/tvm-block-device.c:425
-#: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:830 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:379
+#: ../thunar-volman/tvm-block-device.c:426
+#: ../thunar-volman/tvm-block-device.c:508
+#: ../thunar-volman/tvm-block-device.c:838 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "_Ohita"
@@ -107,111 +107,122 @@ msgstr "Kortilla on valokuvia. Lisätäänkö kuvat albumiisi?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
-#: ../thunar-volman/tvm-block-device.c:373
-#: ../thunar-volman/tvm-block-device.c:420
+#: ../thunar-volman/tvm-block-device.c:374
+#: ../thunar-volman/tvm-block-device.c:421
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
 msgstr "Sallitaanko sovelluksen \"%s\" suorittaminen?"
 
-#: ../thunar-volman/tvm-block-device.c:376
-#: ../thunar-volman/tvm-block-device.c:423
+#: ../thunar-volman/tvm-block-device.c:377
+#: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run Confirmation"
 msgstr "Automaattikäynnistyksen asetukset"
 
-#: ../thunar-volman/tvm-block-device.c:377
-#: ../thunar-volman/tvm-block-device.c:424
+#: ../thunar-volman/tvm-block-device.c:378
+#: ../thunar-volman/tvm-block-device.c:425
 msgid "Auto-Run capability detected"
 msgstr "Automaattikäynnistys voidaan suorittaa"
 
-#: ../thunar-volman/tvm-block-device.c:379
-#: ../thunar-volman/tvm-block-device.c:426
+#: ../thunar-volman/tvm-block-device.c:380
+#: ../thunar-volman/tvm-block-device.c:427
 msgid "_Allow Auto-Run"
 msgstr "_Salli automaattikäynnistys"
 
 #. prompt the user whether to autoopen this file
-#: ../thunar-volman/tvm-block-device.c:502
+#: ../thunar-volman/tvm-block-device.c:503
 #, c-format
 msgid "Would you like to open \"%s\"?"
 msgstr "Avataanko \"%s\"?"
 
-#: ../thunar-volman/tvm-block-device.c:505
+#: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open Confirmation"
 msgstr "Automaattiavauksen hyväksyminen"
 
-#: ../thunar-volman/tvm-block-device.c:506
+#: ../thunar-volman/tvm-block-device.c:507
 msgid "Auto-Open capability detected"
 msgstr "Automaattiavaus voidaan suorittaa"
 
-#: ../thunar-volman/tvm-block-device.c:508
+#: ../thunar-volman/tvm-block-device.c:509
 msgid "_Open"
 msgstr "_Avaa"
 
-#: ../thunar-volman/tvm-block-device.c:619
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:617
 msgid "CD mounted"
 msgstr "CD liitetty"
 
-#: ../thunar-volman/tvm-block-device.c:619
-msgid "DVD mounted"
-msgstr "DVD liitetty"
-
-#: ../thunar-volman/tvm-block-device.c:621
+#: ../thunar-volman/tvm-block-device.c:618
 msgid "The CD was mounted automatically"
 msgstr "CD liitettiin automaattisesti"
 
-#: ../thunar-volman/tvm-block-device.c:622
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:623
+msgid "DVD mounted"
+msgstr "DVD liitetty"
+
+#: ../thunar-volman/tvm-block-device.c:624
 msgid "The DVD was mounted automatically"
 msgstr "DVD liitettiin automaattisesti"
 
-#: ../thunar-volman/tvm-block-device.c:632
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:629
+msgid "Blu-ray mounted"
+msgstr "Blu-ray liitetty"
+
+#: ../thunar-volman/tvm-block-device.c:630
+msgid "The Blu-ray was mounted automatically"
+msgstr "Blu-ray liitettiin automaattisesti"
+
+#: ../thunar-volman/tvm-block-device.c:640
 msgid "Volume mounted"
 msgstr "Taltio liitetty"
 
-#: ../thunar-volman/tvm-block-device.c:635
+#: ../thunar-volman/tvm-block-device.c:643
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
 msgstr "Taltio \"%s\" liitettiin automaattisesti"
 
-#: ../thunar-volman/tvm-block-device.c:640
+#: ../thunar-volman/tvm-block-device.c:648
 #, c-format
 msgid "The inserted volume was mounted automatically"
 msgstr "Asemaan asetettu taltio liitettiin automaattisesti"
 
-#: ../thunar-volman/tvm-block-device.c:694
+#: ../thunar-volman/tvm-block-device.c:702
 #, c-format
 msgid "Unable to locate mount point"
 msgstr "Liitoskohtaa ei löydy"
 
-#: ../thunar-volman/tvm-block-device.c:740
+#: ../thunar-volman/tvm-block-device.c:748
 #, c-format
 msgid "Unable to mount the device"
 msgstr "Laitteen liittäminen ei onnistu"
 
-#: ../thunar-volman/tvm-block-device.c:749
+#: ../thunar-volman/tvm-block-device.c:757
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
 msgstr "Laitetta vastaavaa taltiota ei havaittu"
 
-#: ../thunar-volman/tvm-block-device.c:825
+#: ../thunar-volman/tvm-block-device.c:833
 msgid "Audio/Data CD"
 msgstr "Ääni/Data-CD"
 
-#: ../thunar-volman/tvm-block-device.c:826
+#: ../thunar-volman/tvm-block-device.c:834
 msgid "The CD in the drive contains both music and files"
 msgstr "Asemassa olevalla CD-levyllä on sekä musiikkia että tiedostoja"
 
-#: ../thunar-volman/tvm-block-device.c:828
+#: ../thunar-volman/tvm-block-device.c:836
 msgid "Would you like to listen to music or browse the files?"
 msgstr "Haluatko kuunnella musiikkia vai selata tiedostoja?"
 
-#: ../thunar-volman/tvm-block-device.c:831
+#: ../thunar-volman/tvm-block-device.c:839
 msgid "_Browse Files"
 msgstr "_Selaa tiedostoja"
 
-#: ../thunar-volman/tvm-block-device.c:832
+#: ../thunar-volman/tvm-block-device.c:840
 msgid "_Play CD"
 msgstr "Soita _CD"
 
-#: ../thunar-volman/tvm-block-device.c:920
+#: ../thunar-volman/tvm-block-device.c:928
 #, c-format
 msgid "Unknown block device type \"%s\""
 msgstr "Tyypin \"%s\" tukematon laite"
@@ -449,12 +460,12 @@ msgid "_Command:"
 msgstr "_Komento:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:298
-msgid "Video CDs/DVDs"
-msgstr "Video-CD:t/DVD:t"
+msgid "Video CDs/DVDs/Blu-rays"
+msgstr "Video-CD:t/DVD:t/Blu-rayt"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:317
-msgid "Play _video CDs and DVDs when inserted"
-msgstr "Soita _video-CD tai DVD, kun se asetetaan asemaan"
+msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
+msgstr "Toista _video CD:t, DVD:t ja Blu-rayt asettaessa asemaan"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:324
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:362
