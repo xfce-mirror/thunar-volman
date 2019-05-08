@@ -5,8 +5,8 @@
 # Translators:
 # Abel Martín <abel.martin.ruiz@gmail.com>, 2008,2011
 # Adolfo Jayme Barrientos, 2014
-# Adolfo Jayme-Barrientos, 2014
-# Francisco F. Serrador <serrador@tecknolabs.com>, 2018
+# Fito JB, 2014
+# Javier F. Serrador <serrador@tecknolabs.com>, 2018
 # Jaime Marquínez Ferrándiz, 2018
 # Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2017
 # Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2013-2015
@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-26 06:30+0200\n"
+"POT-Creation-Date: 2018-11-27 18:15+0100\n"
 "PO-Revision-Date: 2018-10-19 19:24+0000\n"
 "Last-Translator: Jaime Marquínez Ferrándiz\n"
 "Language-Team: Spanish (http://www.transifex.com/xfce/thunar-volman/language/es/)\n"
