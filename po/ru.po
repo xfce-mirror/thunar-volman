@@ -7,7 +7,7 @@
 # Pavel Labushev <p.labushev@gmail.com>, 2009
 # Sergey Alyoshin <alyoshin.s@gmail.com>, 2013,2015
 # Xfce Bot <transifex@xfce.org>, 2018
-# AlexanderFilev, 2017
+# Al, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
