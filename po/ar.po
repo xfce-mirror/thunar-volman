@@ -14,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-03 00:30+0200\n"
-"PO-Revision-Date: 2018-09-14 00:16+0000\n"
-"Last-Translator: وجدي أبو سلطان\n"
+"POT-Creation-Date: 2018-11-27 18:15+0100\n"
+"PO-Revision-Date: 2018-09-26 04:30+0000\n"
+"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
 "Language-Team: Arabic (http://www.transifex.com/xfce/thunar-volman/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -77,10 +77,10 @@ msgstr "هل تريد إستيراد صور أو إدارة الموسيقى؟"
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
-#: ../thunar-volman/tvm-block-device.c:378
-#: ../thunar-volman/tvm-block-device.c:425
-#: ../thunar-volman/tvm-block-device.c:507
-#: ../thunar-volman/tvm-block-device.c:830 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:379
+#: ../thunar-volman/tvm-block-device.c:426
+#: ../thunar-volman/tvm-block-device.c:508
+#: ../thunar-volman/tvm-block-device.c:838 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "ت_جاهل"
@@ -111,111 +111,122 @@ msgstr "هناك صور على البطاقة. أتريد استيرادها إ�
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
-#: ../thunar-volman/tvm-block-device.c:373
-#: ../thunar-volman/tvm-block-device.c:420
+#: ../thunar-volman/tvm-block-device.c:374
+#: ../thunar-volman/tvm-block-device.c:421
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
 msgstr "هل تريد السماح ل \"%s\" بالتشغيل؟"
 
-#: ../thunar-volman/tvm-block-device.c:376
-#: ../thunar-volman/tvm-block-device.c:423
+#: ../thunar-volman/tvm-block-device.c:377
+#: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run Confirmation"
 msgstr "تأكيد التشغيل التلقائي"
 
-#: ../thunar-volman/tvm-block-device.c:377
-#: ../thunar-volman/tvm-block-device.c:424
+#: ../thunar-volman/tvm-block-device.c:378
+#: ../thunar-volman/tvm-block-device.c:425
 msgid "Auto-Run capability detected"
 msgstr "تم الكشف عن إمكانية التشغيل تلقائياً"
 
-#: ../thunar-volman/tvm-block-device.c:379
-#: ../thunar-volman/tvm-block-device.c:426
+#: ../thunar-volman/tvm-block-device.c:380
+#: ../thunar-volman/tvm-block-device.c:427
 msgid "_Allow Auto-Run"
 msgstr "_السماح بالتشغيل تلقائياً"
 
 #. prompt the user whether to autoopen this file
-#: ../thunar-volman/tvm-block-device.c:502
+#: ../thunar-volman/tvm-block-device.c:503
 #, c-format
 msgid "Would you like to open \"%s\"?"
 msgstr "هل تريد فتح \"%s\"؟"
 
-#: ../thunar-volman/tvm-block-device.c:505
+#: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open Confirmation"
 msgstr "تأكيد الفتح التلقائي"
 
-#: ../thunar-volman/tvm-block-device.c:506
+#: ../thunar-volman/tvm-block-device.c:507
 msgid "Auto-Open capability detected"
 msgstr "تم اكتشفت إمكانية الفتح تلقائياً"
 
-#: ../thunar-volman/tvm-block-device.c:508
+#: ../thunar-volman/tvm-block-device.c:509
 msgid "_Open"
 msgstr "_فتح"
 
-#: ../thunar-volman/tvm-block-device.c:619
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:617
 msgid "CD mounted"
 msgstr "تم وصل قرص مدمج"
 
-#: ../thunar-volman/tvm-block-device.c:619
-msgid "DVD mounted"
-msgstr "تم وصل قرص DVD"
-
-#: ../thunar-volman/tvm-block-device.c:621
+#: ../thunar-volman/tvm-block-device.c:618
 msgid "The CD was mounted automatically"
 msgstr "تم تحميل القرص المضغوط تلقائياً"
 
-#: ../thunar-volman/tvm-block-device.c:622
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:623
+msgid "DVD mounted"
+msgstr "تم وصل قرص DVD"
+
+#: ../thunar-volman/tvm-block-device.c:624
 msgid "The DVD was mounted automatically"
 msgstr "تم تحميل قرص DVD تلقائياً"
 
-#: ../thunar-volman/tvm-block-device.c:632
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:629
+msgid "Blu-ray mounted"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:630
+msgid "The Blu-ray was mounted automatically"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:640
 msgid "Volume mounted"
 msgstr "تم وصل الجهاز"
 
-#: ../thunar-volman/tvm-block-device.c:635
+#: ../thunar-volman/tvm-block-device.c:643
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
 msgstr "تم توصيل وحدة التخزين \"%s\" تلقائياً"
 
-#: ../thunar-volman/tvm-block-device.c:640
+#: ../thunar-volman/tvm-block-device.c:648
 #, c-format
 msgid "The inserted volume was mounted automatically"
 msgstr "تم توصيل وحدة التخزين التي تم إدراجها تلقائياً"
 
-#: ../thunar-volman/tvm-block-device.c:694
+#: ../thunar-volman/tvm-block-device.c:702
 #, c-format
 msgid "Unable to locate mount point"
 msgstr "غير قادر على تحديد موقع نقطة التوصيل"
 
-#: ../thunar-volman/tvm-block-device.c:740
+#: ../thunar-volman/tvm-block-device.c:748
 #, c-format
 msgid "Unable to mount the device"
 msgstr "غير قادر على توصيل الجهاز"
 
-#: ../thunar-volman/tvm-block-device.c:749
+#: ../thunar-volman/tvm-block-device.c:757
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
 msgstr "تعذر الكشف عن السعة المقابلة للجهاز"
 
-#: ../thunar-volman/tvm-block-device.c:825
+#: ../thunar-volman/tvm-block-device.c:833
 msgid "Audio/Data CD"
 msgstr "قرص مدمج صوت/بيانات"
 
-#: ../thunar-volman/tvm-block-device.c:826
+#: ../thunar-volman/tvm-block-device.c:834
 msgid "The CD in the drive contains both music and files"
 msgstr "يحتوي القرص المضغوط في محرك الأقراص على الموسيقى وملفات"
 
-#: ../thunar-volman/tvm-block-device.c:828
+#: ../thunar-volman/tvm-block-device.c:836
 msgid "Would you like to listen to music or browse the files?"
 msgstr "أتريد الاستماع للصوت أم تصفّح الملفات؟"
 
-#: ../thunar-volman/tvm-block-device.c:831
+#: ../thunar-volman/tvm-block-device.c:839
 msgid "_Browse Files"
 msgstr "_تصفح الملفات"
 
-#: ../thunar-volman/tvm-block-device.c:832
+#: ../thunar-volman/tvm-block-device.c:840
 msgid "_Play CD"
 msgstr "_شغِّل الاسطوانة"
 
-#: ../thunar-volman/tvm-block-device.c:920
+#: ../thunar-volman/tvm-block-device.c:928
 #, c-format
 msgid "Unknown block device type \"%s\""
 msgstr "نوع كتلة الجهاز \"%s\" مجهولة"
@@ -453,12 +464,12 @@ msgid "_Command:"
 msgstr "_أمر:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:298
-msgid "Video CDs/DVDs"
-msgstr "أقراص فيديو CDs/DVDs"
+msgid "Video CDs/DVDs/Blu-rays"
+msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:317
-msgid "Play _video CDs and DVDs when inserted"
-msgstr "تشغ_يل أقراص فيديو CDs and DVDs عنذ إدخالها"
+msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
+msgstr ""
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:324
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:362
