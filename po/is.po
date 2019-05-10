@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Sveinn í Felli <sv1@fellsnet.is>, 2014
+# Sveinn í Felli <sv1@fellsnet.is>, 2011,2013-2014,2018-2019
 # Sveinn í Felli <sveinki@nett.is>, 2011,2013,2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2018-11-05 18:25+0000\n"
+"PO-Revision-Date: 2019-05-10 11:28+0000\n"
 "Last-Translator: Sveinn í Felli <sv1@fellsnet.is>\n"
 "Language-Team: Icelandic (http://www.transifex.com/xfce/thunar-volman/language/is/)\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "sysfs-slóð nýviðbætta tækisins"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:103
 msgid "Configure management of removable drives and media"
-msgstr "Stilla umsýslu á fjarlægjanlegum drifum og miðlum"
+msgstr "Stilltu umsýslu á fjarlægjanlegum drifum og miðlum"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
