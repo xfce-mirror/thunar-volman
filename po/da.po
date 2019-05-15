@@ -8,13 +8,13 @@
 # Morten Bo Johansen <mortenbo@hotmail.com>, 2017
 # Per Kongstad <p_kongstad@op.pl>, 2008
 # scootergrisen, 2017
-# scootergrisen, 2017-2018
+# scootergrisen, 2017-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-03-07 11:06+0000\n"
+"PO-Revision-Date: 2019-05-15 18:02+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr "Syfs-stien til den nyligt tilsluttede enhed"
+msgstr "Sysfs-stien til den nyligt tilsluttede enhed"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -59,7 +59,7 @@ msgstr "Der findes ikke enhed med sysfs-stien \"%s\""
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Du skal angive den nye syfs sti af den nye enhed med --device-added"
+msgstr "Du skal angive sysfs-stien af den nye enhed med --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
