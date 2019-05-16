@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-05-15 18:02+0000\n"
+"PO-Revision-Date: 2019-05-15 23:10+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -345,7 +345,7 @@ msgstr "SOKKEL-ID"
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
 msgid "Thunar Volume Manager Settings"
-msgstr "Indstillinger af arkivhåndtering til Thunar"
+msgstr "Indstillinger til Thunar-arkivhåndtering"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:101
