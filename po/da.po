@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-05-15 23:10+0000\n"
+"PO-Revision-Date: 2019-05-16 15:07+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -119,17 +119,17 @@ msgstr "Vil du tillade \"%s\" at køre?"
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run Confirmation"
-msgstr "Bekræft auto-kør"
+msgstr "Bekræftelse af automatisk kørsel"
 
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 msgid "Auto-Run capability detected"
-msgstr "Fundet auto-kørmulighed"
+msgstr "Registrerede automatisk kørsel-formåenhed"
 
 #: ../thunar-volman/tvm-block-device.c:380
 #: ../thunar-volman/tvm-block-device.c:427
 msgid "_Allow Auto-Run"
-msgstr "_Tillad auto-kør"
+msgstr "_Tillad automatisk kørsel"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:503
@@ -139,11 +139,11 @@ msgstr "Vil du åbne \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open Confirmation"
-msgstr "Bekræft auto-åbn"
+msgstr "Bekræftelse af automatisk åbning"
 
 #: ../thunar-volman/tvm-block-device.c:507
 msgid "Auto-Open capability detected"
-msgstr "Fundet auto-åbnmulighed"
+msgstr "Registrerede automatisk åbning-formåenhed"
 
 #: ../thunar-volman/tvm-block-device.c:509
 msgid "_Open"
@@ -188,7 +188,7 @@ msgstr "Arkivet \"%s\" blev monteret automatisk"
 #: ../thunar-volman/tvm-block-device.c:648
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr "Det indsatte arkiv blev monteret automatisk"
+msgstr "Arkivet som blev sat i blev monteret automatisk"
 
 #: ../thunar-volman/tvm-block-device.c:702
 #, c-format
@@ -273,11 +273,11 @@ msgstr "Automatisk brænding af tommer cd'er og dvd'er er deaktiveret"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
-msgstr "Tom dvd indsat"
+msgstr "Tom dvd sat i"
 
 #: ../thunar-volman/tvm-run.c:190
 msgid "You have inserted a blank DVD."
-msgstr "Du har indsat en tom dvd."
+msgstr "Du har sat en tom dvd i."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -289,11 +289,11 @@ msgstr "Brænd _dvd"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
-msgstr "Slet indsat cd"
+msgstr "Slet cd som er sat i"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
-msgstr "Du har indsat en tom cd."
+msgstr "Du har sat en tom cd i."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
@@ -407,23 +407,23 @@ msgstr "Flytbart lager"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "_Montér flytbare drev når de bliver hot-plugged"
+msgstr "_Montér flytbare drev når de hot-plugges"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:165
 msgid "Mount removable media when _inserted"
-msgstr "Montér flytbare medier når de _indsættes"
+msgstr "Montér flytbare medier når de sættes _i"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:172
 msgid "B_rowse removable media when inserted"
-msgstr "N_avigér flytbare medier når de indsættes"
+msgstr "N_avigér flytbare medier når de sættes i"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:179
 msgid "_Auto-run programs on new drives and media"
-msgstr "_Auto-kør programmer på nye drev og medier"
+msgstr "_Automatisk kørsel af programmer på nye drev og medier"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:185
 msgid "Auto-open files on new drives and media"
-msgstr "Auto-åbn filer på nye drev og medier"
+msgstr "Automatisk åbning af filer på nye drev og medier"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:196
 msgid "Blank CDs and DVDs"
@@ -431,7 +431,7 @@ msgstr "Slet cd'er og dvd'er"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:215
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "_Brænd en cd eller dvd når tomt medie indsættes"
+msgstr "_Brænd en cd eller dvd når et tomt medie sættes i"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:225
 msgid "Command for _Data CDs:"
@@ -452,7 +452,7 @@ msgstr "Lyd-cd'er"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:279
 msgid "Play _audio CDs when inserted"
-msgstr "Afspil _lyd-cd'er når de indsættes"
+msgstr "Afspil _lyd-cd'er når de sættes i"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:285
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:410
@@ -468,7 +468,7 @@ msgstr "Video-cd'er/dvd'er/blu-ray'er"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:317
 msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
-msgstr "Afspil _video-cd'er, dvd'er og blu-ray'er når de indsættes"
+msgstr "Afspil _video-cd'er, dvd'er og blu-ray'er når de sættes i"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:324
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:362
