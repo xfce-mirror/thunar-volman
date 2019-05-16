@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-05-16 15:07+0000\n"
+"PO-Revision-Date: 2019-05-16 20:39+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -215,11 +215,11 @@ msgstr "Cd'en i drevet indeholder både musik og filer"
 
 #: ../thunar-volman/tvm-block-device.c:836
 msgid "Would you like to listen to music or browse the files?"
-msgstr "Vil du lytte til musik eller navigere filerne?"
+msgstr "Vil du lytte til musik eller gennemse filerne?"
 
 #: ../thunar-volman/tvm-block-device.c:839
 msgid "_Browse Files"
-msgstr "_Navigér filer"
+msgstr "_Gennemse filer"
 
 #: ../thunar-volman/tvm-block-device.c:840
 msgid "_Play CD"
@@ -415,7 +415,7 @@ msgstr "Montér flytbare medier når de sættes _i"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:172
 msgid "B_rowse removable media when inserted"
-msgstr "N_avigér flytbare medier når de sættes i"
+msgstr "Gennemse flytbare medier når de sættes i"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:179
 msgid "_Auto-run programs on new drives and media"
@@ -431,7 +431,7 @@ msgstr "Slet cd'er og dvd'er"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:215
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "_Brænd en cd eller dvd når et tomt medie sættes i"
+msgstr "_Brænd en cd eller dvd når der sættes en tom disk i"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:225
 msgid "Command for _Data CDs:"
