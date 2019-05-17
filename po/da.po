@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-05-16 20:39+0000\n"
+"PO-Revision-Date: 2019-05-17 10:18+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "Sysfs-stien til den nyligt tilsluttede enhed"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:103
 msgid "Configure management of removable drives and media"
-msgstr "Indstillingshåndtering af flytbare drev og medie"
+msgstr "Konfigurer håndtering af flytbare drev og medier"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -54,12 +54,12 @@ msgstr "Rapportér venligst fejl til <%s>."
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Der findes ikke enhed med sysfs-stien \"%s\""
+msgstr "Der er ikke nogen enhed med sysfs-stien \"%s\""
 
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Du skal angive sysfs-stien af den nye enhed med --device-added"
+msgstr "Du skal angive sysfs-stien til den nye enhed med --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -68,11 +68,11 @@ msgstr "Billeder og musik"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr "Billeder blev fundet på din transportable musikafspiller"
+msgstr "Der blev fundet billeder på din transportable musikafspiller"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
-msgstr "Vil du importere billederne eller håndtere din musik?"
+msgstr "Vil du importere billederne eller håndtere musikken?"
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
@@ -100,13 +100,13 @@ msgstr "Billedimport"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr "Et billedhukommelseskort er blevet fundet"
+msgstr "Et billedhukommelseskort blev registreret"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr "Der er billeder på hukommelseskortet. Vil du tilføje disse billeder til din samling?"
+msgstr "Der er billeder på hukommelseskortet. Vil du tilføje billederne til dit album?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -124,7 +124,7 @@ msgstr "Bekræftelse af automatisk kørsel"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 msgid "Auto-Run capability detected"
-msgstr "Registrerede automatisk kørsel-formåenhed"
+msgstr "Registrerede mulighed for automatisk kørsel"
 
 #: ../thunar-volman/tvm-block-device.c:380
 #: ../thunar-volman/tvm-block-device.c:427
@@ -143,7 +143,7 @@ msgstr "Bekræftelse af automatisk åbning"
 
 #: ../thunar-volman/tvm-block-device.c:507
 msgid "Auto-Open capability detected"
-msgstr "Registrerede automatisk åbning-formåenhed"
+msgstr "Registrerede mulighed for automatisk åbning"
 
 #: ../thunar-volman/tvm-block-device.c:509
 msgid "_Open"
@@ -193,17 +193,17 @@ msgstr "Arkivet som blev sat i blev monteret automatisk"
 #: ../thunar-volman/tvm-block-device.c:702
 #, c-format
 msgid "Unable to locate mount point"
-msgstr "Kunne ikke finde monteringspunkt"
+msgstr "Kan ikke finde monteringspunkt"
 
 #: ../thunar-volman/tvm-block-device.c:748
 #, c-format
 msgid "Unable to mount the device"
-msgstr "Kunne ikke montere enheden"
+msgstr "Kan ikke montere enheden"
 
 #: ../thunar-volman/tvm-block-device.c:757
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr "Kunne ikke genkende arkivet passende til enheden"
+msgstr "Kunne ikke registrere arkivet som hører til enheden"
 
 #: ../thunar-volman/tvm-block-device.c:833
 msgid "Audio/Data CD"
@@ -233,38 +233,38 @@ msgstr "Ukendt blokenhedstype \"%s\""
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr "Enhedstype \"%s\" ikke understøttet"
+msgstr "Enhedstypen \"%s\" understøttes ikke"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
-msgstr "Tastatur fundet"
+msgstr "Tastatur registreret"
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
-msgstr "Et tastatur blev fundet"
+msgstr "Et tastatur blev registreret"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
 msgid "Tablet detected"
-msgstr "Tablet fundet"
+msgstr "Tablet registreret"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr "A grafisk tablet blev fundet"
+msgstr "En grafisk tablet blev registreret"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr "Mus fundet"
+msgstr "Mus registreret"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr "En mus blev fundet"
+msgstr "En mus blev registreret"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr "Ikke understøttet inputenhedstype \"%s\""
+msgstr "Ikke-understøttet inputenhedstype \"%s\""
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -281,7 +281,7 @@ msgstr "Du har sat en tom dvd i."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
-msgstr "Hvad vil du gerne gøre?"
+msgstr "Hvad vil du?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
@@ -306,33 +306,33 @@ msgstr "Brænd _lyd-cd"
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr "Brændkommandoen må ikke være tom"
+msgstr "Kommandoen til at brænde må ikke være tom"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr "Kommando til cd-afspiller er ikke defineret"
+msgstr "Kommandoen til cd-afspilleren er ikke angivet"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr "Kamera fundet"
+msgstr "Kamera registreret"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 msgid "A photo camera was detected"
-msgstr "Et billedkamera blev fundet"
+msgstr "Et billedkamera blev registreret"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr "Printer fundet"
+msgstr "Printer registreret"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr "En usb-printer blev fundet"
+msgstr "En USB-printer blev registreret"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr "Ikke understøttet usb-enhedstype \"%s\""
+msgstr "Ikke-understøttet USB-enhedstype \"%s\""
 
 #: ../thunar-volman-settings/main.c:44
 msgid "Settings manager socket"
