@@ -7,13 +7,14 @@
 # Demiray Muhterem <mdemiray@msn.com>, 2018
 # Fatih ERDEM <93.fatiherdem@gmail.com>, 2013
 # Necdet Yücel <necdetyucel@gmail.com>, 2017
+# Serdar Sağlam <teknomobil@msn.com>, 2019
 # Volkan Gezer <volkangezer@gmail.com>, 2013
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-05-23 05:09+0000\n"
+"PO-Revision-Date: 2019-05-23 15:23+0000\n"
 "Last-Translator: Serdar Sağlam <teknomobil@msn.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/xfce/thunar-volman/language/tr/)\n"
 "MIME-Version: 1.0\n"
@@ -218,11 +219,11 @@ msgstr "Müzik dinlemek veya dosyaları görmek istiyor musunuz?"
 
 #: ../thunar-volman/tvm-block-device.c:839
 msgid "_Browse Files"
-msgstr "_Dosyaları Göster"
+msgstr "_Dosyalara Göz At"
 
 #: ../thunar-volman/tvm-block-device.c:840
 msgid "_Play CD"
-msgstr "Müzik _Oynat"
+msgstr "CD _Oynat"
 
 #: ../thunar-volman/tvm-block-device.c:928
 #, c-format
@@ -240,25 +241,25 @@ msgstr "Klavye algılandı"
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
-msgstr "Klavye algılandı"
+msgstr "Bir klavye algılandı"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
 msgid "Tablet detected"
-msgstr "Tablet Algılandı"
+msgstr "Tablet algılandı"
 
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr "Grafik tablet bulundu"
+msgstr "Bir grafik tableti algılandı"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
-msgstr "Fare bulundu"
+msgstr "Fare algılandı"
 
 #: ../thunar-volman/tvm-input-device.c:112
 msgid "A mouse was detected"
-msgstr "Fare bulundu"
+msgstr "Bir fare algılandı"
 
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
@@ -284,7 +285,7 @@ msgstr "İşlem yapmak istiyor musunuz?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr "DVD yaz"
+msgstr "_DVD Yaz"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
@@ -292,7 +293,7 @@ msgstr "Boş CD takıldı"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
-msgstr "Boş CD takıldı"
+msgstr "Boş bir CD taktınız."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
@@ -314,7 +315,7 @@ msgstr "CD oynatıcı komutu bulunamadı"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
-msgstr "Kamera bulundu"
+msgstr "Kamera algılandı"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 msgid "A photo camera was detected"
@@ -322,11 +323,11 @@ msgstr "Bir fotoğraf makinesi algılandı."
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
-msgstr "Yazıcı bulundu"
+msgstr "Yazıcı algılandı"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr "USB yazıcı bulundu"
+msgstr "Bir USB yazıcı algılandı"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
@@ -353,11 +354,11 @@ msgstr "Kaldırılabilir Sürücüler ve Ortam"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:237
 msgid "Select an Application"
-msgstr "Uygulama Seçin"
+msgstr "Bir Uygulama Seç"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Cancel"
-msgstr "Vazgeç"
+msgstr "İptal"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:241
 msgid "Select Application"
@@ -365,7 +366,7 @@ msgstr "Uygulama Seç"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:248
 msgid "All Files"
-msgstr "Bütün dosyalar"
+msgstr "Tüm Dosyalar"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:253
 msgid "Executable Files"
@@ -398,11 +399,11 @@ msgstr "Kapat"
 #. Storage
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:128
 msgid "Storage"
-msgstr "Bellek"
+msgstr "Depolama"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:139
 msgid "Removable Storage"
-msgstr "Kaldırılabilir Bellek"
+msgstr "Kaldırılabilir Depolama"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
@@ -434,11 +435,11 @@ msgstr "_Boş bir disk yerleştirildiğinde CD veya DVD yazdır"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:225
 msgid "Command for _Data CDs:"
-msgstr "_Veri CD'leri için komut:"
+msgstr "_Veri CD'leri için Komut:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:234
 msgid "Command for A_udio CDs:"
-msgstr "Müzik CD'leri için kom_ut:"
+msgstr "Müzik CD'leri için Kom_ut:"
 
 #. Multimedia
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:249
@@ -451,7 +452,7 @@ msgstr "Müzik CD'leri"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:279
 msgid "Play _audio CDs when inserted"
-msgstr "Yerleştirildiklerinde müzik CD'lerini ç_al"
+msgstr "Yerleştirildiklerinde _müzik CD'lerini oynat"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:285
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:410
@@ -467,7 +468,7 @@ msgstr "Video CDler/DVDler/Blu-ray"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:317
 msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
-msgstr "_video CDs, DVDs, ve Blu-ray takıldığında oynat"
+msgstr "_Video CDler, DVDler, ve Blu-ray takıldığında oynat"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:324
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:362
@@ -482,7 +483,7 @@ msgstr "Taşınabilir Müzik Çalarlar"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:356
 msgid "Play _music files when connected"
-msgstr "Bağlandıklarında _müzik dosyalarını çal"
+msgstr "Bağlandıklarında _müzik dosyalarını oynat"
 
 #. Cameras
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:373
@@ -508,7 +509,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:454
 msgid "Sync _Palm™ devices when connected"
-msgstr "_Palm™ aygıtları bağlandığında senkronize et"
+msgstr "_Palm™ aygıtları bağlandığında eşitle"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:474
 msgid "Pocket PCs"
@@ -516,7 +517,7 @@ msgstr "Cep Bilgisayarları"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:493
 msgid "Sync Pocket P_C devices when connected"
-msgstr "_Cep bilgisayarları bağlandığında senkronize et"
+msgstr "_Cep bilgisayarları bağlandığında eşitle"
 
 #. Printers
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:511
