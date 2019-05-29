@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-05-27 10:58+0000\n"
+"PO-Revision-Date: 2019-05-29 11:48+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/xfce/thunar-volman/language/da/)\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "Udskriv versionsinformation og afslut"
 #. setup application name
 #: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr "Thunar-arkivhåndtering"
+msgstr "Thunar-diskområdehåndtering"
 
 #: ../thunar-volman/main.c:121
 msgid "All rights reserved."
@@ -178,17 +178,17 @@ msgstr "Blu-ray'en blev monteret automatisk"
 
 #: ../thunar-volman/tvm-block-device.c:640
 msgid "Volume mounted"
-msgstr "Arkiv monteret"
+msgstr "Diskområde monteret"
 
 #: ../thunar-volman/tvm-block-device.c:643
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "Arkivet \"%s\" blev monteret automatisk"
+msgstr "Diskområdet \"%s\" blev monteret automatisk"
 
 #: ../thunar-volman/tvm-block-device.c:648
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr "Arkivet som blev sat i blev monteret automatisk"
+msgstr "Det indsatte diskområde blev monteret automatisk"
 
 #: ../thunar-volman/tvm-block-device.c:702
 #, c-format
@@ -203,7 +203,7 @@ msgstr "Kan ikke montere enheden"
 #: ../thunar-volman/tvm-block-device.c:757
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr "Kunne ikke registrere arkivet som hører til enheden"
+msgstr "Kunne ikke registrere diskområdet som hører til enheden"
 
 #: ../thunar-volman/tvm-block-device.c:833
 msgid "Audio/Data CD"
@@ -345,7 +345,7 @@ msgstr "SOKKEL-ID"
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
 msgid "Thunar Volume Manager Settings"
-msgstr "Indstillinger til Thunar-arkivhåndtering"
+msgstr "Indstillinger for Thunar-diskområdehåndtering"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:101
