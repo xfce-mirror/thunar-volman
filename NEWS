@@ -1,3 +1,9 @@
+0.9.3
+=====
+- Removed # vi:set encoding=UTF-8: from .desktop files (Bug #15466)
+- Translation updates: Armenian, Danish, Finnish, Interlingue, Portuguese,
+  Turkish
+
 0.9.2
 =====
 - Translation updates: Albanian, Arabic, Asturian, Basque, Belarusian,
