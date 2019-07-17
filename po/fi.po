@@ -4,15 +4,15 @@
 # 
 # Translators:
 # Ammuu5, 2017
-# Jiri Grönroos <jiri.gronroos@iki.fi>, 2013
+# Jiri Grönroos <jiri.gronroos@iki.fi>, 2013,2019
 # Pasi Lallinaho <pasi@shimmerproject.org>, 2014,2018-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-06-24 14:41+0000\n"
-"Last-Translator: Ammuu5\n"
+"PO-Revision-Date: 2019-07-17 07:15+0000\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish (http://www.transifex.com/xfce/thunar-volman/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -61,7 +61,7 @@ msgstr "Määritä usien laitteiden sysfs-polut valitsimella --device-added"
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
 msgid "Photos and Music"
-msgstr "Valokuvia ja Musiikkia"
+msgstr "Valokuvia ja musiikkia"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
@@ -84,11 +84,11 @@ msgstr "_Ohita"
 #: ../thunar-volman/tvm-block-device.c:209
 #: ../thunar-volman/tvm-block-device.c:278
 msgid "Import _Photos"
-msgstr "Tuo _Valokuvia"
+msgstr "Tuo _valokuvia"
 
 #: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
-msgstr "Hallitse _Musiikkia"
+msgstr "Hallitse _musiikkia"
 
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
@@ -238,7 +238,7 @@ msgstr "Näppäimistö havaittu"
 
 #: ../thunar-volman/tvm-input-device.c:76
 msgid "A keyboard was detected"
-msgstr "Havaittiin näppäimistö."
+msgstr "Havaittiin näppäimistö"
 
 #: ../thunar-volman/tvm-input-device.c:87
 #: ../thunar-volman/tvm-input-device.c:101
@@ -248,7 +248,7 @@ msgstr "Piirtopöytä havaittu"
 #: ../thunar-volman/tvm-input-device.c:88
 #: ../thunar-volman/tvm-input-device.c:102
 msgid "A graphics tablet was detected"
-msgstr "Havaittiin piirtöpöytä."
+msgstr "Havaittiin piirtöpöytä"
 
 #: ../thunar-volman/tvm-input-device.c:111
 msgid "Mouse detected"
