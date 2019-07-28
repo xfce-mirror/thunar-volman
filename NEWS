@@ -1,3 +1,7 @@
+0.9.4
+======
+ - Translation Updates: Finnish, Norwegian Bokmål
+
 0.9.3
 =====
 - Removed # vi:set encoding=UTF-8: from .desktop files (Bug #15466)
