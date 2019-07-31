@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-07-29 10:09+0000\n"
+"PO-Revision-Date: 2019-07-31 09:24+0000\n"
 "Last-Translator: Daniel Muñiz Fontoira <dani@damufo.com>\n"
 "Language-Team: Galician (http://www.transifex.com/xfce/thunar-volman/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -24,13 +24,13 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr "A ruta sysfs para o novo dispositivo creado"
+msgstr "A ruta sysfs para o novo dispositivo engadido"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:103
 msgid "Configure management of removable drives and media"
-msgstr "Configurar a xestión da unidades e dispositivos extraíbeis"
+msgstr "Configurar a xestión da unidades e soportes extraíbeis"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -192,7 +192,7 @@ msgstr "O volume inserido montouse automaticamente"
 #: ../thunar-volman/tvm-block-device.c:702
 #, c-format
 msgid "Unable to locate mount point"
-msgstr "Non foi posible localizar o punto de montaxe"
+msgstr "Non foi posible atopar o punto de montaxe"
 
 #: ../thunar-volman/tvm-block-device.c:748
 #, c-format
@@ -202,7 +202,7 @@ msgstr "Non foi posible montar o dispositivo"
 #: ../thunar-volman/tvm-block-device.c:757
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr "Non foi posible detectar o volume que corresponde ao dispositivo"
+msgstr "Non se puido detectar o volume que corresponde ao dispositivo"
 
 #: ../thunar-volman/tvm-block-device.c:833
 msgid "Audio/Data CD"
@@ -214,11 +214,11 @@ msgstr "O CD que está na unidade contén música e ficheiros"
 
 #: ../thunar-volman/tvm-block-device.c:836
 msgid "Would you like to listen to music or browse the files?"
-msgstr "Desexa escoitar a música ou ver os ficheiros?"
+msgstr "Desexa escoitar a música ou navegar polos ficheiros?"
 
 #: ../thunar-volman/tvm-block-device.c:839
 msgid "_Browse Files"
-msgstr "_Ver os ficheiros"
+msgstr "_Navegar polos ficheiros"
 
 #: ../thunar-volman/tvm-block-device.c:840
 msgid "_Play CD"
@@ -305,7 +305,7 @@ msgstr "Gravar CD de _audio"
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr "A orde de gravación non debe estar en branco"
+msgstr "A orde de gravación non debe estar baleira"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
@@ -349,7 +349,7 @@ msgstr "Configuración do xestor de volumes de Thunar"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:101
 msgid "Removable Drives and Media"
-msgstr "Unidades e dispositivos extraíbles"
+msgstr "Unidades e soportes extraíbles"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:237
 msgid "Select an Application"
@@ -406,7 +406,7 @@ msgstr "Almacenamento extraíble"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "_Montar os dispositivos extraíbles ao conectalos en quente"
+msgstr "_Montar unidades extraíbles ao conectalas en quente"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:165
 msgid "Mount removable media when _inserted"
@@ -418,11 +418,11 @@ msgstr "Examinar os sopo_rtes extraíbles ao inserilos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:179
 msgid "_Auto-run programs on new drives and media"
-msgstr "_Executar automaticamente os programas dos soportes e unidades novas"
+msgstr "_Executar automaticamente os programas das novas unidades e soportes"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:185
 msgid "Auto-open files on new drives and media"
-msgstr "_Abrir automaticamente os ficheiros dos soportes e unidades novas"
+msgstr "_Abrir automaticamente os ficheiros das novas unidades e soportes"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:196
 msgid "Blank CDs and DVDs"
