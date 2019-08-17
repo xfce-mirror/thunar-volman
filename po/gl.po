@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-07-31 09:24+0000\n"
+"PO-Revision-Date: 2019-08-16 23:20+0000\n"
 "Last-Translator: Daniel Muñiz Fontoira <dani@damufo.com>\n"
 "Language-Team: Galician (http://www.transifex.com/xfce/thunar-volman/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr "Configurar a xestión da unidades e soportes extraíbeis"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr "Mostra a información da versión e sae"
+msgstr "Amosar a información da versión e saír"
 
 #. setup application name
 #: ../thunar-volman/main.c:93
@@ -105,7 +105,7 @@ msgstr "Detectouse unha tarxeta de fotos"
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr "Hai fotos na tarxeta. Desexa engadir estas fotos ó seu álbum?"
+msgstr "Hai fotos na tarxeta. Desexa engadir estas fotos ao seu álbum?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -192,12 +192,12 @@ msgstr "O volume inserido montouse automaticamente"
 #: ../thunar-volman/tvm-block-device.c:702
 #, c-format
 msgid "Unable to locate mount point"
-msgstr "Non foi posible atopar o punto de montaxe"
+msgstr "Non se puido atopar o punto de montaxe"
 
 #: ../thunar-volman/tvm-block-device.c:748
 #, c-format
 msgid "Unable to mount the device"
-msgstr "Non foi posible montar o dispositivo"
+msgstr "Non se puido montar o dispositivo"
 
 #: ../thunar-volman/tvm-block-device.c:757
 #, c-format
@@ -300,7 +300,7 @@ msgstr "Gravar CD de _datos"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr "Gravar CD de _audio"
+msgstr "Gravar CD de _son"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -349,7 +349,7 @@ msgstr "Configuración do xestor de volumes de Thunar"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:101
 msgid "Removable Drives and Media"
-msgstr "Unidades e soportes extraíbles"
+msgstr "Unidades e soportes extraíbeis"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:237
 msgid "Select an Application"
@@ -369,7 +369,7 @@ msgstr "Tódolos ficheiros"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:253
 msgid "Executable Files"
-msgstr "Ficheiros executables"
+msgstr "Ficheiros executábeis"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:268
 msgid "Perl Scripts"
@@ -402,19 +402,19 @@ msgstr "Almacenamento"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:139
 msgid "Removable Storage"
-msgstr "Almacenamento extraíble"
+msgstr "Almacenamento extraíbel"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "_Montar unidades extraíbles ao conectalas en quente"
+msgstr "_Montar unidades extraíbeis ao conectalas en quente"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:165
 msgid "Mount removable media when _inserted"
-msgstr "Montar os soportes extraíbles ao _inserilos"
+msgstr "Montar os soportes extraíbeis ao _inserilos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:172
 msgid "B_rowse removable media when inserted"
-msgstr "Examinar os sopo_rtes extraíbles ao inserilos"
+msgstr "Explorar os sopo_rtes extraíbeis ao inserilos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:179
 msgid "_Auto-run programs on new drives and media"
