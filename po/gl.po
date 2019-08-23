@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-08-16 23:20+0000\n"
+"PO-Revision-Date: 2019-08-23 12:41+0000\n"
 "Last-Translator: Daniel Muñiz Fontoira <dani@damufo.com>\n"
 "Language-Team: Galician (http://www.transifex.com/xfce/thunar-volman/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "Todos os dereitos reservados."
 #: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr "Por favor comuníquelle os erros a <%s>."
+msgstr "Por favor comuníquelle os fallos a <%s>."
 
 #: ../thunar-volman/main.c:176
 #, c-format
@@ -361,7 +361,7 @@ msgstr "Cancelar"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:241
 msgid "Select Application"
-msgstr "Seleccionar aplicativo"
+msgstr "Seleccionar aplicación"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:248
 msgid "All Files"
