@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Chipong Luo <chipong.luo@yahoo.com>, 2011-2012
+# Dongyu Chu <chudongyu@126.com>, 2019
 # Hunt Xu <huntxu@live.cn>, 2009
 # Jiahua Huang <jhuangjiahua@gmail.com>, 2009
 # Cally Mal <zhouxiaobo.500@gmail.com>, 2017
@@ -13,8 +14,8 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-01-17 09:24+0000\n"
-"Last-Translator: Shun <shun98@139.com>\n"
+"PO-Revision-Date: 2019-10-27 11:25+0000\n"
+"Last-Translator: Dongyu Chu <chudongyu@126.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/xfce/thunar-volman/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr "新接入设备的 sysfs 路径"
+msgstr "新增设备的 sysfs 路径"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -34,7 +35,7 @@ msgstr "可移动驱动器和介质的配置管理"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr "列印版本信息后退出"
+msgstr "显示版本信息后退出"
 
 #. setup application name
 #: ../thunar-volman/main.c:93
@@ -53,7 +54,7 @@ msgstr "请向 <%s> 报告缺陷。"
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "没有 sysfs 路径 “%s” 的设备"
+msgstr "没有 sysfs 路径为 “%s” 的设备"
 
 #: ../thunar-volman/main.c:188
 #, c-format
@@ -71,7 +72,7 @@ msgstr "在您的便携式音乐播放器里找到了照片"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
-msgstr "您想要导入照片或处理音乐吗？"
+msgstr "您要导入照片或管理音乐吗？"
 
 #: ../thunar-volman/tvm-block-device.c:208
 #: ../thunar-volman/tvm-block-device.c:277
@@ -90,7 +91,7 @@ msgstr "导入照片(_P)"
 
 #: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
-msgstr "处理音乐(_M)"
+msgstr "管理音乐(_M)"
 
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
@@ -113,7 +114,7 @@ msgstr "存储卡中有照片。您想要将这些照片添加到相册吗？"
 #: ../thunar-volman/tvm-block-device.c:421
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "您想要让 “%s” 运行吗？"
+msgstr "您要允许 “%s” 运行吗？"
 
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
@@ -134,7 +135,7 @@ msgstr "允许自动运行(_A)"
 #: ../thunar-volman/tvm-block-device.c:503
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr "您想要打开 “%s” 吗？"
+msgstr "您要打开 “%s” 吗？"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open Confirmation"
@@ -202,7 +203,7 @@ msgstr "未能挂载此设备"
 #: ../thunar-volman/tvm-block-device.c:757
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr "未能检测此卷的对应设备"
+msgstr "无法检测到与设备相对应的卷"
 
 #: ../thunar-volman/tvm-block-device.c:833
 msgid "Audio/Data CD"
