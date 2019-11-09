@@ -5,19 +5,20 @@
 # Translators:
 # Abel Martín <abel.martin.ruiz@gmail.com>, 2008,2011
 # Adolfo Jayme Barrientos, 2014
-# Fito JB, 2014
-# Javier F. Serrador <serrador@tecknolabs.com>, 2018
+# Adolfo Jayme-Barrientos, 2014
+# e49097353bae6e06d169bea93a448e3e, 2018
 # Jaime Marquínez Ferrándiz, 2018
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2017
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2013-2015
-# Pablo Lezaeta Reyes [pˈaβ̞lo lˌe̞θaˈeta rˈejɛ] <prflr88@gmail.com>, 2017
+# prflr88 <prflr88@gmail.com>, 2017
+# prflr88 <prflr88@gmail.com>, 2013-2015
+# prflr88 <prflr88@gmail.com>, 2017
+# Toni Estévez <toni.estevez@gmail.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2018-10-19 19:24+0000\n"
-"Last-Translator: Jaime Marquínez Ferrándiz\n"
+"PO-Revision-Date: 2019-11-09 17:18+0000\n"
+"Last-Translator: Toni Estévez <toni.estevez@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/xfce/thunar-volman/language/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,16 +34,16 @@ msgstr "La ruta «sysfs» del dispositivo recién añadido"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:103
 msgid "Configure management of removable drives and media"
-msgstr "Configurar la gestión de dispositivos y medios extraíbles"
+msgstr "Configurar la gestión de dispositivos y soportes extraíbles"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
-msgstr "Escribe la información de versión y termina"
+msgstr "Escribe la información de la versión y termina"
 
 #. setup application name
 #: ../thunar-volman/main.c:93
 msgid "Thunar Volume Manager"
-msgstr "Volúmenes Administrados Thunar"
+msgstr "Gestor de volúmenes de Thunar"
 
 #: ../thunar-volman/main.c:121
 msgid "All rights reserved."
@@ -51,12 +52,12 @@ msgstr "Todos los derechos reservados."
 #: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr "Por favor, informe defectos a <%s>."
+msgstr "Informe de errores en <%s>."
 
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "No hay ningún dispositivo con la ruta «sysfs» «%s»"
+msgstr "No hay ningún dispositivo en la ruta «sysfs» «%s»"
 
 #: ../thunar-volman/main.c:188
 #, c-format
@@ -66,7 +67,7 @@ msgstr "Debe especificar la ruta «sysfs» de los dispositivos nuevos con --devi
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
 msgid "Photos and Music"
-msgstr "Fotos y Música"
+msgstr "Fotos y música"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
@@ -89,16 +90,16 @@ msgstr "Ig_norar"
 #: ../thunar-volman/tvm-block-device.c:209
 #: ../thunar-volman/tvm-block-device.c:278
 msgid "Import _Photos"
-msgstr "Importar _fotos"
+msgstr "Importar las _fotos"
 
 #: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
-msgstr "Gestionar _música"
+msgstr "Gestionar la _música"
 
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
 msgid "Photo Import"
-msgstr "Importación de Fotos"
+msgstr "Importación de fotos"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
@@ -108,7 +109,7 @@ msgstr "Se ha detectado una tarjeta con fotos"
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr "Hay fotos en la tarjeta. ¿Desea agregar estas fotos a su álbum?"
+msgstr "Hay fotos en la tarjeta. ¿Desea añadir estas fotos a su álbum?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
