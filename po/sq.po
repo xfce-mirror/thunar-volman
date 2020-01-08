@@ -5,13 +5,13 @@
 # Translators:
 # Besnik <besnik@programeshqip.org>, 2007
 # Besnik <besnik@programeshqip.org>, 2007
-# Besnik <besnik@programeshqip.org>, 2018
+# Besnik <besnik@programeshqip.org>, 2018,2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2018-09-26 08:03+0000\n"
+"PO-Revision-Date: 2020-01-08 20:44+0000\n"
 "Last-Translator: Besnik <besnik@programeshqip.org>\n"
 "Language-Team: Albanian (http://www.transifex.com/xfce/thunar-volman/language/sq/)\n"
 "MIME-Version: 1.0\n"
@@ -132,7 +132,7 @@ msgstr "_Lejo Vetëxhirim"
 #: ../thunar-volman/tvm-block-device.c:503
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr "Doni të hapni \"%s\"?"
+msgstr "Doni të hapet \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open Confirmation"
@@ -175,17 +175,17 @@ msgstr "Blu-ray u montua automatikisht"
 
 #: ../thunar-volman/tvm-block-device.c:640
 msgid "Volume mounted"
-msgstr "Volumi u montua"
+msgstr "Vëllimi u montua"
 
 #: ../thunar-volman/tvm-block-device.c:643
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "Volumi \"%s\" u montua vetvetiu"
+msgstr "Vëllimi \"%s\" u montua vetvetiu"
 
 #: ../thunar-volman/tvm-block-device.c:648
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr "Volumi i futur u montua vetvetiu"
+msgstr "Vëllimi i futur u montua vetvetiu"
 
 #: ../thunar-volman/tvm-block-device.c:702
 #, c-format
@@ -200,7 +200,7 @@ msgstr "S’arrihet të montohet pajisja"
 #: ../thunar-volman/tvm-block-device.c:757
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr "S’u pikas dot volumi përshoqëruar pajisjes"
+msgstr "S’u pikas dot vëllimi përshoqëruar pajisjes"
 
 #: ../thunar-volman/tvm-block-device.c:833
 msgid "Audio/Data CD"
@@ -266,7 +266,7 @@ msgstr "Lloj i pambuluar pajisjesh futjeje \"%s\""
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr "Vetëshkrimi CD-sh dhe DVD-sh të zbrazët është i çaktivizuar"
+msgstr "Vetëshkrimi i CD-ve dhe DVD-ve të zbrazët është i çaktivizuar"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
@@ -308,7 +308,7 @@ msgstr "Urdhri i shkrimit s’mund të jetë i zbrazët"
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr "Urdhri për lojtësin e CD-ve është i papërkufiuar"
+msgstr "Urdhri për lojtësin e CD-ve është i papërkufizuar"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
@@ -342,7 +342,7 @@ msgstr "ID SOCKET-i"
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
 msgid "Thunar Volume Manager Settings"
-msgstr "Rregullime Përgjegjësi Volumi Thunar"
+msgstr "Rregullime Përgjegjësi Vëllimesh Thunar"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:101
@@ -396,23 +396,23 @@ msgstr "Mbylle"
 #. Storage
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:128
 msgid "Storage"
-msgstr "Depozitim"
+msgstr "Depozitë"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:139
 msgid "Removable Storage"
-msgstr "Depozitim i Heqshëm"
+msgstr "Depozitë e Heqshme"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:158
 msgid "_Mount removable drives when hot-plugged"
-msgstr "_Monto pajisje të heqshme kur futen pa rinisur kompjuterin"
+msgstr "_Monto pajisje të heqshme, kur futen pa rinisur kompjuterin"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:165
 msgid "Mount removable media when _inserted"
-msgstr "Monto media të heqshme kur _futet"
+msgstr "Monto media të heqshme, kur _futet"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:172
 msgid "B_rowse removable media when inserted"
-msgstr "Sh_fleto media të heqshme kur futet"
+msgstr "Sh_fletoni media të heqshme, kur futet"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:179
 msgid "_Auto-run programs on new drives and media"
@@ -428,7 +428,7 @@ msgstr "Zbardhje CD-sh dhe DVD-sh"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:215
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "_Shkruaj një CD ose një DVD kur futet një disk bosh"
+msgstr "_Shkruaj një CD ose një DVD kur futet një disk i zbrazët"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:225
 msgid "Command for _Data CDs:"
@@ -449,7 +449,7 @@ msgstr "CD Audio"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:279
 msgid "Play _audio CDs when inserted"
-msgstr "Luaj CD _audio kur futet"
+msgstr "Luaj CD _audio, kur futet"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:285
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:410
@@ -480,7 +480,7 @@ msgstr "Lojtësa Muzike të Bartshëm"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:356
 msgid "Play _music files when connected"
-msgstr "Luaj kartela _muzike kur lidhet"
+msgstr "Luaj kartela _muzike, kur lidhet"
 
 #. Cameras
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:373
@@ -493,7 +493,7 @@ msgstr "Kamera Dixhitale"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:403
 msgid "Import digital photographs when connected"
-msgstr "Importo foto dixhitale kur lidhet"
+msgstr "Importo foto dixhitale, kur lidhet"
 
 #. PDAs
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:421
@@ -506,7 +506,7 @@ msgstr "Palm™"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:454
 msgid "Sync _Palm™ devices when connected"
-msgstr "Njëkohëso pajisje _Palm™ kur lidhen të tilla"
+msgstr "Njëkohëso pajisje _Palm™, kur lidhen të tilla"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:474
 msgid "Pocket PCs"
@@ -514,7 +514,7 @@ msgstr "Pocket PC"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:493
 msgid "Sync Pocket P_C devices when connected"
-msgstr "Njëkohëso pajisje Pocket P_C kur lidhen të tilla"
+msgstr "Njëkohëso pajisje Pocket P_C, kur lidhen të tilla"
 
 #. Printers
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:511
@@ -524,7 +524,7 @@ msgstr "Shtypësa"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:541
 msgid "Automatically run a program when a _printer is connected"
-msgstr "Xhiro vetvetiu një program kur lidhet një _shtypës"
+msgstr "Xhiro vetvetiu një program, kur lidhet një _shtypës"
 
 #. Input Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:559
@@ -537,7 +537,7 @@ msgstr "Tastiera"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Xhiro vetvetiu një program kur lidhet një _tastierë USB"
+msgstr "Xhiro vetvetiu një program, kur lidhet një _tastierë USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:609
 msgid "Mice"
@@ -545,7 +545,7 @@ msgstr "Minj"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:628
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "Xhiro vetvetiu një program kur lidhet një _mi USB"
+msgstr "Xhiro vetvetiu një program, kur lidhet një _mi USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:648
 msgid "Tablet"
@@ -553,7 +553,7 @@ msgstr "Tablet"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:667
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "Xhiro vetvetiu një program kur lidhet një _tablet"
+msgstr "Xhiro vetvetiu një program, kur lidhet një _tablet"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:674
 msgid "Com_mand:"
