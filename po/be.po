@@ -4,14 +4,16 @@
 # 
 # Translators:
 # Andrej Zakharevich <andrej@zahar.ws>, 2011
-# Zmicer Turok <zmicerturok@gmail.com>, 2019
+# Andrej Zakharevich <andrej@zahar.ws>, 2011
+# Zmicer Turok <nashtlumach@gmail.com>, 2019
+# Zmicer Turok <nashtlumach@gmail.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-01-22 10:34+0000\n"
-"Last-Translator: Zmicer Turok <zmicerturok@gmail.com>\n"
+"PO-Revision-Date: 2020-03-02 13:19+0000\n"
+"Last-Translator: Zmicer Turok <nashtlumach@gmail.com>\n"
 "Language-Team: Belarusian (http://www.transifex.com/xfce/thunar-volman/language/be/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,13 +23,13 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr "Шлях да syfs толькі для дададзенай прылады"
+msgstr "Шлях да syfs для дададзенай прылады"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:103
 msgid "Configure management of removable drives and media"
-msgstr "Наладзіць кіраванне рухомымі дыскамі і носьбітамі"
+msgstr "Наладка кіравання рухомымі дыскамі і носьбітамі"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -50,12 +52,12 @@ msgstr "Калі ласка, паведамляйце пра памылкі на
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Не існуе прылады з шляхам sysfs \"%s\""
+msgstr "Не існуе прылады са шляхам sysfs \"%s\""
 
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Вы мусіце задаць шлях sysfs для новых прылад з --device-added"
+msgstr "Вы мусіце вызначыць шлях sysfs для новых прылад з --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -64,7 +66,7 @@ msgstr "Фота і музыка"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr "На вашым партатыўным музычным плэеры былі знойдзеныя фотаздымкі"
+msgstr "На вашым партатыўным музычным плэеры знойдзеныя фотаздымкі"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
@@ -115,7 +117,7 @@ msgstr "Хочаце дазволіць запуск \"%s\"?"
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run Confirmation"
-msgstr "Пацверджанне аўтазапуску"
+msgstr "Пацвярджэнне аўтазапуску"
 
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
@@ -131,11 +133,11 @@ msgstr "_Дазволіць аўтазапуск"
 #: ../thunar-volman/tvm-block-device.c:503
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr "Жадаеце адкрыць \"%s\"?"
+msgstr "Хочаце адкрыць \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open Confirmation"
-msgstr "Пацверджанне аўтаадкрыцця"
+msgstr "Пацвярджэнне аўтаадкрыцця"
 
 #: ../thunar-volman/tvm-block-device.c:507
 msgid "Auto-Open capability detected"
@@ -297,7 +299,7 @@ msgstr "Запісаць _CD з данымі"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr "Запісаць _аўдыё-CD"
+msgstr "Запісаць _аўдыя-CD"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -307,7 +309,7 @@ msgstr "Загад для запісу не павінен быць пустым
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr "Для CD-прайгравальніка не зададзены загад"
+msgstr "Для CD-прайгравальніка не вызначаны загад"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
@@ -350,7 +352,7 @@ msgstr "Рухомыя дыскі і носьбіты"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:237
 msgid "Select an Application"
-msgstr "Абярыце праграму"
+msgstr "Абраць праграму"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Cancel"
@@ -435,7 +437,7 @@ msgstr "Загад для запісу _CD з данымі:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:234
 msgid "Command for A_udio CDs:"
-msgstr "Загад для запісу аўдыё-CD:"
+msgstr "Загад для запісу аўдыя-CD:"
 
 #. Multimedia
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:249
@@ -444,11 +446,11 @@ msgstr "Мультымедыя"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:260
 msgid "Audio CDs"
-msgstr "Аўдыё CD"
+msgstr "Аўдыя-CD"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:279
 msgid "Play _audio CDs when inserted"
-msgstr "Праігрываць аўдыё-CD пры выяўленні"
+msgstr "Прайгрываць аўдыя-CD пры выяўленні"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:285
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:410
@@ -540,7 +542,7 @@ msgstr "Аўтаматычна запускаць праграму падчас 
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:609
 msgid "Mice"
-msgstr "Mice"
+msgstr "Мыш"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:628
 msgid "Automatically run a program when a USB _mouse is connected"
