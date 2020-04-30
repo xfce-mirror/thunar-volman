@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2020-04-21 01:31+0000\n"
+"PO-Revision-Date: 2020-04-30 15:48+0000\n"
 "Last-Translator: Ignacio Poggi <ignaciop.3@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/xfce/thunar-volman/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -344,7 +344,7 @@ msgstr "Administrador de configuraciones de «socket»"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "SOCKET ID"
-msgstr "Id. de «SOCKET»"
+msgstr "ID del SOCKET"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
@@ -378,19 +378,19 @@ msgstr "Ficheros ejecutables"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:268
 msgid "Perl Scripts"
-msgstr "Guion del intérprete de órdenes en Perl"
+msgstr "Secuencias de órdenes en Perl"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:274
 msgid "Python Scripts"
-msgstr "Guion del intérprete de órdenes en Python"
+msgstr "Secuencias de órdenes en Python"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:280
 msgid "Ruby Scripts"
-msgstr "Guion del intérprete de órdenes en Ruby"
+msgstr "Secuencias de órdenes en Ruby"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:286
 msgid "Shell Scripts"
-msgstr "Guion del intérprete de órdenes"
+msgstr "Secuencias de órdenes de Shell"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:110
 msgid "Help"
