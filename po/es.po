@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2020-04-30 15:48+0000\n"
+"PO-Revision-Date: 2020-05-13 02:00+0000\n"
 "Last-Translator: Ignacio Poggi <ignaciop.3@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/xfce/thunar-volman/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -378,15 +378,15 @@ msgstr "Ficheros ejecutables"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:268
 msgid "Perl Scripts"
-msgstr "Secuencias de órdenes en Perl"
+msgstr "Secuencias de órdenes de Perl"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:274
 msgid "Python Scripts"
-msgstr "Secuencias de órdenes en Python"
+msgstr "Secuencias de órdenes de Python"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:280
 msgid "Ruby Scripts"
-msgstr "Secuencias de órdenes en Ruby"
+msgstr "Secuencias de órdenes de Ruby"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:286
 msgid "Shell Scripts"
