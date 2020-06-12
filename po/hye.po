@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2020-06-05 12:00+0000\n"
+"PO-Revision-Date: 2020-06-12 07:32+0000\n"
 "Last-Translator: Վահրամ Չալաբեան <vahram.chalabyan@realschool.am>\n"
 "Language-Team: Eastern Armenian (http://www.transifex.com/xfce/thunar-volman/language/hye/)\n"
 "MIME-Version: 1.0\n"
@@ -102,7 +102,7 @@ msgstr "Յայտնաբերուել է լուսանկարչական կրիչ"
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr "Կրիչի վրայ կան նկարներ։ Աւելացնե՞լ այս նկարները ձեր հաւաքածոյում։"
+msgstr "Կրիչի վրայ կան նկարներ։ Աւելացնե՞լ այս նկարները ձեր հաւաքածույում։"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -120,7 +120,7 @@ msgstr "Ինքնագործարկման Հաստատում"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 msgid "Auto-Run capability detected"
-msgstr "Կա ինքնագործարկման հնարաւորութիւն"
+msgstr "Կայ ինքնագործարկման հնարաւորութիւն"
 
 #: ../thunar-volman/tvm-block-device.c:380
 #: ../thunar-volman/tvm-block-device.c:427
