@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2020-06-09 20:12+0000\n"
+"PO-Revision-Date: 2020-06-22 17:38+0000\n"
 "Last-Translator: Omer\n"
 "Language-Team: Hebrew (http://www.transifex.com/xfce/thunar-volman/language/he/)\n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "כל הזכויות שמורות."
 #: ../thunar-volman/main.c:122
 #, c-format
 msgid "Please report bugs to <%s>."
-msgstr "אנא דווח על באגים ל- <%s>."
+msgstr "אנא דווח על באגים ל־ <%s>."
 
 #: ../thunar-volman/main.c:176
 #, c-format
@@ -463,11 +463,11 @@ msgstr "_פקודה:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:298
 msgid "Video CDs/DVDs/Blu-rays"
-msgstr "תקליטור/דיוידי/בלו-ריי של וידאו"
+msgstr "תקליטורים/די־וי־די/בלו־ריי של וידאו"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:317
 msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
-msgstr "נגן תקליטור, דיוידי, ובלו-ריי של _וידאו כאשר מוכנסים"
+msgstr "נגן תקליטור, די־וי־די, ובלו־ריי של _וידאו כאשר מוכנסים"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:324
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:362
@@ -547,7 +547,7 @@ msgstr "עכברים"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:628
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "הרץ אוטומטית תוכנית כאשר עכ_בר USB מחובר"
+msgstr "הרץ אוטומטית תוכנית כאשר _עכבר USB מחובר"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:648
 msgid "Tablet"
