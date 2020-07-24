@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2020-06-13 09:43+0000\n"
+"PO-Revision-Date: 2020-07-24 20:42+0000\n"
 "Last-Translator: Priit Jõerüüt <transifex@joeruut.com>\n"
 "Language-Team: Estonian (http://www.transifex.com/xfce/thunar-volman/language/et/)\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr "Palun teata vigadest aadressil <%s>."
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Puudub seade, mille otsitee on \"%s\""
+msgstr "Puudub seade, mille otsitee on „%s“"
 
 #: ../thunar-volman/main.c:188
 #, c-format
@@ -109,7 +109,7 @@ msgstr "Mälukaardil leidub fotosid. Kas sa soovid need lisada oma albumisse?"
 #: ../thunar-volman/tvm-block-device.c:421
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
-msgstr "Kas sa lubad \"%s\" käivitamist?"
+msgstr "Kas sa lubad „%s“ käivitamist?"
 
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
@@ -130,7 +130,7 @@ msgstr "Luba _automaatne käivitus"
 #: ../thunar-volman/tvm-block-device.c:503
 #, c-format
 msgid "Would you like to open \"%s\"?"
-msgstr "Kas sa soovid avada \"%s\"?"
+msgstr "Kas sa soovid avada „%s“?"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open Confirmation"
@@ -178,7 +178,7 @@ msgstr "Andmekandja on haagitud"
 #: ../thunar-volman/tvm-block-device.c:643
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "Andmekandja \"%s\" haagiti automaatselt"
+msgstr "Andmekandja „%s“ haagiti automaatselt"
 
 #: ../thunar-volman/tvm-block-device.c:648
 #, c-format
@@ -223,12 +223,12 @@ msgstr "_Esita CD-plaati"
 #: ../thunar-volman/tvm-block-device.c:928
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr "Tundmatu plokkseadme tüüp \"%s\""
+msgstr "Tundmatu plokkseadme tüüp „%s“"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr "Seadme tüüp \"%s\" ei ole toetatud"
+msgstr "Seadme tüüp „%s“ ei ole toetatud"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -259,7 +259,7 @@ msgstr "Tuvastasime lisatud hiire"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr "Mittetoetatud sisendseadme tüüp \"%s\""
+msgstr "Mittetoetatud sisendseadme tüüp „%s“"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -327,7 +327,7 @@ msgstr "Tuvastasime lisatud USB-ühendusega printeri"
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr "USB seadme tüüp \"%s\" ei ole toetatud"
+msgstr "USB seadme tüüp „%s“ ei ole toetatud"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "Settings manager socket"
