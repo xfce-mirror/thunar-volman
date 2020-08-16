@@ -416,9 +416,9 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_widget_show (entry);
 
   /*
-     PDAs
+     Mobile Devices
    */
-  label = gtk_label_new (_("PDAs"));
+  label = gtk_label_new (_("Mobile Devices"));
   vbox = g_object_new (GTK_TYPE_BOX, "orientation", GTK_ORIENTATION_VERTICAL, "border-width", 12, "spacing", 18, NULL);
   gtk_notebook_append_page (GTK_NOTEBOOK (notebook), vbox, label);
   gtk_widget_show (label);
