@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2008,2018
+# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2008,2018,2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2018-10-28 05:40+0000\n"
-"Last-Translator: Masato HASHIMOTO <cabezon.hashimoto@gmail.com>\n"
+"POT-Creation-Date: 2020-08-16 12:46+0200\n"
+"PO-Revision-Date: 2020-08-16 23:18+0000\n"
+"Last-Translator: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>\n"
 "Language-Team: Japanese (http://www.transifex.com/xfce/thunar-volman/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -493,10 +493,10 @@ msgstr "デジタルカメラ"
 msgid "Import digital photographs when connected"
 msgstr "接続されたら写真を取り込む"
 
-#. PDAs
+#. Mobile Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:421
-msgid "PDAs"
-msgstr "PDA"
+msgid "Mobile Devices"
+msgstr "モバイルデバイス"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Palm™"
