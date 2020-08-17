@@ -6,13 +6,14 @@
 # Hsiu-Ming Chang <cges30901@gmail.com>, 2017-2018
 # 黃柏諺 <s8321414@gmail.com>, 2018
 # Walter Cheuk <wwycheuk@gmail.com>, 2013-2014,2019
+# 黃柏諺 <s8321414@gmail.com>, 2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-09-12 03:49+0000\n"
-"Last-Translator: Walter Cheuk <wwycheuk@gmail.com>\n"
+"POT-Creation-Date: 2020-08-16 12:46+0200\n"
+"PO-Revision-Date: 2020-08-17 04:27+0000\n"
+"Last-Translator: 黃柏諺 <s8321414@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/xfce/thunar-volman/language/zh_TW/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -495,10 +496,10 @@ msgstr "數位相機"
 msgid "Import digital photographs when connected"
 msgstr "連接時匯入數位相片"
 
-#. PDAs
+#. Mobile Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:421
-msgid "PDAs"
-msgstr "PDA"
+msgid "Mobile Devices"
+msgstr "行動裝置"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Palm™"
