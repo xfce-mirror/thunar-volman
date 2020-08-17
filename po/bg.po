@@ -3,15 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Kiril Kirilov <cybercop_montana@abv.bg>, 2013,2017-2018
+# Kiril Kirilov <cybercop_montana@abv.bg>, 2013,2017-2018,2020
 # Любомир Василев, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-04-19 08:41+0000\n"
-"Last-Translator: Красимир Беров\n"
+"POT-Creation-Date: 2020-08-16 12:46+0200\n"
+"PO-Revision-Date: 2020-08-17 16:44+0000\n"
+"Last-Translator: Kiril Kirilov <cybercop_montana@abv.bg>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/xfce/thunar-volman/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -494,10 +494,10 @@ msgstr "Цифрови камери"
 msgid "Import digital photographs when connected"
 msgstr "Внеси цифрови снимки при свързване"
 
-#. PDAs
+#. Mobile Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:421
-msgid "PDAs"
-msgstr "PDA-та"
+msgid "Mobile Devices"
+msgstr "Мобилни устройства"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Palm™"
