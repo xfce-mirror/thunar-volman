@@ -105,16 +105,28 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
 
   g_signal_connect (dialog, "response", G_CALLBACK (tvm_preferences_dialog_response), NULL);
 
+#if LIBXFCE4UI_CHECK_VERSION (4, 15, 1)
+  xfce_titled_dialog_create_action_area (XFCE_TITLED_DIALOG (dialog));
+#endif
+
   /* add "Help" button */
   button = gtk_button_new_from_icon_name ("help-browser", GTK_ICON_SIZE_BUTTON);
   gtk_button_set_label (GTK_BUTTON (button), _("Help"));
+#if LIBXFCE4UI_CHECK_VERSION (4, 15, 1)
+  xfce_titled_dialog_add_action_widget (XFCE_TITLED_DIALOG (dialog), button, GTK_RESPONSE_HELP);
+#else
   gtk_dialog_add_action_widget (GTK_DIALOG (dialog), button, GTK_RESPONSE_HELP);
+#endif
   gtk_widget_show (button);
 
   /* add "Close" button */
   button = gtk_button_new_from_icon_name ("window-close", GTK_ICON_SIZE_BUTTON);
   gtk_button_set_label (GTK_BUTTON (button), _("Close"));
+#if LIBXFCE4UI_CHECK_VERSION (4, 15, 1)
+  xfce_titled_dialog_add_action_widget (XFCE_TITLED_DIALOG (dialog), button, GTK_RESPONSE_CLOSE);
+#else
   gtk_dialog_add_action_widget (GTK_DIALOG (dialog), button, GTK_RESPONSE_CLOSE);
+#endif
   gtk_widget_show (button);
 
   notebook = gtk_notebook_new ();
