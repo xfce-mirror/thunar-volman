@@ -7,15 +7,15 @@
 # Dongyu Chu <chudongyu@126.com>, 2019
 # Hunt Xu <huntxu@live.cn>, 2009
 # Jiahua Huang <jhuangjiahua@gmail.com>, 2009
-# Cally Mal <zhouxiaobo.500@gmail.com>, 2017
-# 玉堂白鹤 <yjwork@qq.com>, 2018
+# Xiaobo Zhou <zhouxiaobo.500@gmail.com>, 2017
+# 玉堂白鹤 <yjwork@qq.com>, 2018,2020
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2019-10-27 11:25+0000\n"
-"Last-Translator: Dongyu Chu <chudongyu@126.com>\n"
+"POT-Creation-Date: 2020-08-16 12:46+0200\n"
+"PO-Revision-Date: 2020-08-17 00:40+0000\n"
+"Last-Translator: 玉堂白鹤 <yjwork@qq.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/xfce/thunar-volman/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -498,10 +498,10 @@ msgstr "数码相机"
 msgid "Import digital photographs when connected"
 msgstr "连接后导入数码照片"
 
-#. PDAs
+#. Mobile Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:421
-msgid "PDAs"
-msgstr "PDA"
+msgid "Mobile Devices"
+msgstr "移动设备"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Palm™"
