@@ -5,6 +5,7 @@
 *.a
 .deps
 .intltool-merge-cache
+.intltool-merge-cache.lock
 .libs
 aclocal.m4
 autom4te.cache
