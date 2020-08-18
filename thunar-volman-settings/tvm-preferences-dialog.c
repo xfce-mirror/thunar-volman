@@ -702,6 +702,7 @@ tvm_preferences_dialog_response (GtkWidget *dialog,
 
   if (response_id != GTK_RESPONSE_HELP)
     {
+      gtk_widget_destroy (dialog);
       gtk_main_quit ();
       return;
     }

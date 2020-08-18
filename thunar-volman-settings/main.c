@@ -116,8 +116,6 @@ main (int    argc,
       gtk_widget_destroy (plug);
     }
 
-  gtk_widget_destroy (dialog);
-
   /* free xfconf resources */
   xfconf_shutdown ();
 
