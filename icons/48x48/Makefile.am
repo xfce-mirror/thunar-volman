@@ -1,6 +1,7 @@
 iconsdir = $(datadir)/icons/hicolor/48x48/apps
 icons_DATA =								\
-	tvm-burn-cd.png
+	tvm-burn-cd.png						\
+	org.xfce.volman.png
 
 EXTRA_DIST =								\
 	$(icons_DATA)

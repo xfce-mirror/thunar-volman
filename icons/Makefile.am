@@ -1,6 +1,8 @@
-SUBDIRS =								\
-	48x48								\
-	scalable
+SUBDIRS =         \
+	scalable  \
+	16x16     \
+	48x48     \
+	128x128
 
 gtk_update_icon_cache = gtk-update-icon-cache -f -t $(datadir)/icons/hicolor
 
