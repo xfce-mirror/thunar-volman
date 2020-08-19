@@ -96,7 +96,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   channel = xfconf_channel_get ("thunar-volman");
 
   /* configure the dialog properties */
-  gtk_window_set_icon_name (GTK_WINDOW (dialog), "drive-removable-media");
+  gtk_window_set_icon_name (GTK_WINDOW (dialog), "org.xfce.volman");
   gtk_window_set_resizable (GTK_WINDOW (dialog), FALSE);
   gtk_window_set_title (GTK_WINDOW (dialog), _("Removable Drives and Media"));
   xfce_titled_dialog_set_subtitle (XFCE_TITLED_DIALOG (dialog), 
@@ -161,7 +161,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
-  image = gtk_image_new_from_icon_name ("drive-removable-media", GTK_ICON_SIZE_DIALOG);
+  image = gtk_image_new_from_icon_name ("org.xfce.volman", GTK_ICON_SIZE_DIALOG);
   gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
   gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);

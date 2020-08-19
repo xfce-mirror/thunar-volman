@@ -1,6 +1,7 @@
 iconsdir = $(datadir)/icons/hicolor/scalable/apps
 icons_DATA =								\
-	tvm-burn-cd.svg
+	tvm-burn-cd.svg						\
+	org.xfce.volman.svg
 
 EXTRA_DIST =								\
 	$(icons_DATA)

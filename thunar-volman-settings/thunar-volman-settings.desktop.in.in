@@ -2,7 +2,7 @@
 _Name=Removable Drives and Media
 _Comment=Configure management of removable drives and media
 Exec=thunar-volman-settings
-Icon=drive-removable-media
+Icon=org.xfce.volman
 Terminal=false
 StartupNotify=true
 Type=Application
