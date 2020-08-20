@@ -1,3 +1,16 @@
+4.15.0
+======
+- Use icons from icon theme in the dialog (!3)
+- Add new app icon and switch to rDNS
+- Remove PDA tab (!1)
+- Avoid critical error when closing preferences dialog
+- Support libxfce4ui XfceTitledDialog new API
+- Translation Updates:
+  Albanian, Belarusian, Bulgarian, Chinese (China), Chinese (Taiwan),
+  Croatian, Danish, Dutch, Eastern Armenian, English (United Kingdom),
+  Estonian, Galician, Greek, Hebrew, Hungarian, Indonesian, Interlingue,
+  Italian, Japanese, Lithuanian, Portuguese, Russian, Slovenian, Spanish
+
 0.9.5
 ======
 - Translation Updates: Galician, Portuguese
