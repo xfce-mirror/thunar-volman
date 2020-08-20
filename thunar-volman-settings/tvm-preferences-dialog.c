@@ -161,7 +161,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
-  image = gtk_image_new_from_icon_name ("org.xfce.volman", GTK_ICON_SIZE_DIALOG);
+  image = gtk_image_new_from_icon_name ("media-removable", GTK_ICON_SIZE_DIALOG);
   gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
   gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
@@ -218,7 +218,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_container_add (GTK_CONTAINER (frame), grid);
   gtk_widget_show (grid);
 
-  image = gtk_image_new_from_icon_name ("tvm-burn-cd", GTK_ICON_SIZE_DIALOG);
+  image = gtk_image_new_from_icon_name ("media-optical", GTK_ICON_SIZE_DIALOG);
   gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
   gtk_widget_set_valign (image, GTK_ALIGN_START);
   gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
