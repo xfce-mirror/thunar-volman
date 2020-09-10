@@ -1,7 +1,7 @@
 [![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://gitlab.xfce.org/xfce/thunar-volman/COPYING)
 
-thunar-volman
-====================
+# thunar-volman
+
 
 thunar-volman is an extension for the Thunar File Manager, which enables
 automatic management of removable drives and media. For example, if
@@ -33,6 +33,7 @@ See [NEWS](https://gitlab.xfce.org/xfce/thunar-volman/-/blob/master/NEWS) for de
 [thunar-volman archive](https://archive.xfce.org/src/xfce/thunar-volman)
     or
 [thunar-volman tags](https://gitlab.xfce.org/xfce/thunar-volman/-/tags)
+
 ### Installation
 
 From source: 
