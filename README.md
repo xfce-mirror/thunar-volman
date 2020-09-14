@@ -1,9 +1,9 @@
-[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://gitlab.xfce.org/xfce/thunar-volman/COPYING)
+[![License](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://gitlab.xfce.org/xfce/thunar-volman/-/blob/master/COPYING)
 
 # thunar-volman
 
 
-thunar-volman is an extension for the Thunar File Manager, which enables
+Thunar-volman is an extension for the Thunar File Manager, which enables
 automatic management of removable drives and media. For example, if
 thunar-volman is installed and configured properly, and you plug in your
 digitcal camera, it will automatically spawn your preferred photo application
@@ -18,7 +18,7 @@ use GNOME at the office).
 
 ### Homepage
 
-[thunar-volman documentation](https://docs.xfce.org/xfce/thunar-volman/start)
+[Thunar-volman documentation](https://docs.xfce.org/xfce/thunar-volman/start)
 
 ### Changelog
 
@@ -26,13 +26,13 @@ See [NEWS](https://gitlab.xfce.org/xfce/thunar-volman/-/blob/master/NEWS) for de
 
 ### Source Code Repository
 
-[thunar-volman source code](https://gitlab.xfce.org/xfce/thunar-volman)
+[Thunar-volman source code](https://gitlab.xfce.org/xfce/thunar-volman)
 
-### Download A Release Tarball
+### Download a Release Tarball
 
-[thunar-volman archive](https://archive.xfce.org/src/xfce/thunar-volman)
+[Thunar-volman archive](https://archive.xfce.org/src/xfce/thunar-volman)
     or
-[thunar-volman tags](https://gitlab.xfce.org/xfce/thunar-volman/-/tags)
+[Thunar-volman tags](https://gitlab.xfce.org/xfce/thunar-volman/-/tags)
 
 ### Installation
 
