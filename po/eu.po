@@ -3,15 +3,16 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Dabid Martinez <dabid@laborategia.eus>, 2020
 # Egoitz Rodriguez <egoitzro@gmail.com>, 2015
 # Piarres Beobide <pi@beobide.net>, 2007-2008
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2018-09-26 04:30+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
+"POT-Creation-Date: 2020-08-19 12:45+0200\n"
+"PO-Revision-Date: 2020-09-29 16:31+0000\n"
+"Last-Translator: Dabid Martinez <dabid@laborategia.eus>\n"
 "Language-Team: Basque (http://www.transifex.com/xfce/thunar-volman/language/eu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -166,11 +167,11 @@ msgstr "DVDa automatikoki muntatu zen"
 #. generate notification info
 #: ../thunar-volman/tvm-block-device.c:629
 msgid "Blu-ray mounted"
-msgstr ""
+msgstr "Blue-ray muntatuak"
 
 #: ../thunar-volman/tvm-block-device.c:630
 msgid "The Blu-ray was mounted automatically"
-msgstr ""
+msgstr "Blue-ray-a automatikoki muntatu zen"
 
 #: ../thunar-volman/tvm-block-device.c:640
 msgid "Volume mounted"
@@ -384,176 +385,153 @@ msgstr "Ruby Script-ak"
 msgid "Shell Scripts"
 msgstr "Shell Script-ak"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:110
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:114
 msgid "Help"
 msgstr "Laguntza"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:116
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:124
 msgid "Close"
 msgstr "Itxi"
 
 #. Storage
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:128
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:140
 msgid "Storage"
 msgstr "Biltegiratzea"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:139
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:151
 msgid "Removable Storage"
 msgstr "Biltegiratze Eramangarria"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:170
 msgid "_Mount removable drives when hot-plugged"
 msgstr "_Muntatu gailu eramangarriak beroan sartzean"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:165
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:177
 msgid "Mount removable media when _inserted"
 msgstr "Muntatu euskarri aldagarriak sartzerakoan"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:172
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
 msgid "B_rowse removable media when inserted"
 msgstr "A_rakatu euskarri eramangarriak sartzerakoan"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:179
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:191
 msgid "_Auto-run programs on new drives and media"
 msgstr "_Auto-abiarazi gailu eta euskarri berrietako programak"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:185
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:197
 msgid "Auto-open files on new drives and media"
 msgstr "Auto-ireki fitxategiak gailu eta euskarri berrietan"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:196
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:208
 msgid "Blank CDs and DVDs"
 msgstr "CD eta DVD zuriak"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:215
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:227
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "_Grabatu CD edo DVD bat disko zuri bat sartzean"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:225
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:237
 msgid "Command for _Data CDs:"
 msgstr "_Datu CD-entzat komandoa:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:234
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:246
 msgid "Command for A_udio CDs:"
 msgstr "A_udio CD-entzat komandoa:"
 
 #. Multimedia
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:249
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:261
 msgid "Multimedia"
 msgstr "Multimedia"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:260
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:272
 msgid "Audio CDs"
 msgstr "Audio CD-ak"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:279
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:291
 msgid "Play _audio CDs when inserted"
 msgstr "Erreproduzitu _Audio CD-ak sartzerakoan"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:285
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:410
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:461
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:548
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:297
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:422
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:470
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:518
 msgid "_Command:"
 msgstr "_Komandoa:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:298
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:310
 msgid "Video CDs/DVDs/Blu-rays"
-msgstr ""
+msgstr "Bideo CD/DVD/Blue-ray-ak"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:317
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
-msgstr ""
+msgstr "Erreproduzitu _bideo CD, DVD-ak eta Blue-ray-ak sartzerakoan"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:324
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:362
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:500
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:635
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:336
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:374
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:557
 msgid "C_ommand:"
 msgstr "K_omandoa:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:337
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:349
 msgid "Portable Music Players"
 msgstr "Musika erreproduktore eramangarriak"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:356
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
 msgid "Play _music files when connected"
 msgstr "_Musika erreproduzitu sartzerakoan"
 
 #. Cameras
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:373
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:385
 msgid "Cameras"
 msgstr "Kamerak"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:384
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:396
 msgid "Digital Cameras"
 msgstr "Kamera Digitalak"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:403
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
 msgid "Import digital photographs when connected"
 msgstr "Inportatu argazki digitalak konektatzerakoan"
 
-#. PDAs
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:421
-msgid "PDAs"
-msgstr "PDA-k"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:435
-msgid "Palm™"
-msgstr "Palm™"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
-msgid "Sync _Palm™ devices when connected"
-msgstr "_Palm™ gailuak sinkronizatu konektatzerakoan"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:474
-msgid "Pocket PCs"
-msgstr "Pocket PC"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:493
-msgid "Sync Pocket P_C devices when connected"
-msgstr "Pocket P_C gailuak sinkronizatu konektatzerakoan"
-
 #. Printers
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:522
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:433
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:444
 msgid "Printers"
 msgstr "Inrpimagailuak"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:541
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:463
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Automatikoki programa bat abiarazi in_primagailua konektatzerakoan"
 
 #. Input Devices
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:559
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:481
 msgid "Input Devices"
 msgstr "Sarrera gailuak"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
 msgid "Keyboards"
 msgstr "Teklatuak"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Automatikoki programa bat abiarazi USB te_klatu bat konektatzerakoan"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:609
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:531
 msgid "Mice"
 msgstr "Sagua"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:628
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Automatikoki programa bat abiarazi USB _sagu bat konektatzerakoan"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:648
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Tablet"
 msgstr "Tableta"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:667
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a _tablet is connected"
 msgstr "Automatikoki programa bat abiarazi _tableta bat konektatzerakoan"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:674
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
 msgid "Com_mand:"
 msgstr "Ko_mandoa:"
