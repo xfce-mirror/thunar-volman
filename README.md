@@ -6,7 +6,7 @@
 Thunar-volman is an extension for the Thunar File Manager, which enables
 automatic management of removable drives and media. For example, if
 thunar-volman is installed and configured properly, and you plug in your
-digitcal camera, it will automatically spawn your preferred photo application
+digital camera, it will automatically spawn your preferred photo application
 and import the new pictures from your camera.
 
 It was designed to look and behave similar to gnome-volume-manager to get
