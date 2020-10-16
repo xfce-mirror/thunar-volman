@@ -4,7 +4,7 @@
 # 
 # Translators:
 # Michał Olber <michal@olber.pl>, 2013
-# No Ne, 2017-2018
+# No Ne, 2017-2018,2020
 # Piotr Sokół <psokol.l10n@gmail.com>, 2013
 # Piotr Strębski <strebski@gmail.com>, 2013
 # Szymon Kałasz <szymon_maestro@gazeta.pl>, 2007
@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-27 18:15+0100\n"
-"PO-Revision-Date: 2018-09-26 06:01+0000\n"
-"Last-Translator: No Ne\n"
+"POT-Creation-Date: 2020-08-19 12:45+0200\n"
+"PO-Revision-Date: 2020-08-19 10:45+0000\n"
+"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
 "Language-Team: Polish (http://www.transifex.com/xfce/thunar-volman/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -387,176 +387,153 @@ msgstr "Skrypty Ruby"
 msgid "Shell Scripts"
 msgstr "Skrypty powłoki"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:110
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:114
 msgid "Help"
 msgstr "Pomoc"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:116
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:124
 msgid "Close"
 msgstr "Zamknij"
 
 #. Storage
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:128
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:140
 msgid "Storage"
 msgstr "Nośniki pamięci"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:139
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:151
 msgid "Removable Storage"
 msgstr "Pamięć wymienna"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:170
 msgid "_Mount removable drives when hot-plugged"
 msgstr "Montowanie napędów wymiennych po _podłączeniu"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:165
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:177
 msgid "Mount removable media when _inserted"
 msgstr "Montowanie nośników wymiennych po _umieszczeniu w napędzie"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:172
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
 msgid "B_rowse removable media when inserted"
 msgstr "P_rzeglądanie nośników wymiennych po umieszczeniu w napędzie"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:179
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:191
 msgid "_Auto-run programs on new drives and media"
 msgstr "_Automatyczne uruchamianie programów zamieszczonych na napędach i nośnikach"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:185
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:197
 msgid "Auto-open files on new drives and media"
 msgstr "Automatyczne otwieranie plików zamieszczonych na napędach i nośnikach"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:196
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:208
 msgid "Blank CDs and DVDs"
 msgstr "Puste płyty CD i DVD"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:215
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:227
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "_Nagrywanie po umieszczeniu w napędzie"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:225
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:237
 msgid "Command for _Data CDs:"
 msgstr "Polecenie dla płyt z _danymi:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:234
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:246
 msgid "Command for A_udio CDs:"
 msgstr "Polecenie dla płyt A_udio CD:"
 
 #. Multimedia
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:249
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:261
 msgid "Multimedia"
 msgstr "Multimedia"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:260
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:272
 msgid "Audio CDs"
 msgstr "Płyty Audio CD"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:279
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:291
 msgid "Play _audio CDs when inserted"
 msgstr "_Odtwarzanie po umieszczeniu w napędzie"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:285
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:410
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:461
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:548
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:297
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:422
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:470
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:518
 msgid "_Command:"
 msgstr "_Polecenie:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:298
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:310
 msgid "Video CDs/DVDs/Blu-rays"
 msgstr "Płyty wideo CD/DVD/Blu-ray"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:317
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
 msgstr "O_dtwarzanie po umieszczeniu w napędzie"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:324
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:362
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:500
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:635
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:336
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:374
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:557
 msgid "C_ommand:"
 msgstr "P_olecenie:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:337
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:349
 msgid "Portable Music Players"
 msgstr "Przenośne odtwarzacze muzyki"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:356
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
 msgid "Play _music files when connected"
 msgstr "Odtwarzanie plików _muzycznych po podłączeniu"
 
 #. Cameras
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:373
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:385
 msgid "Cameras"
 msgstr "Aparaty fotograficzne"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:384
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:396
 msgid "Digital Cameras"
 msgstr "Cyfrowe aparaty fotograficzne"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:403
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
 msgid "Import digital photographs when connected"
 msgstr "Importowanie zdjęć po podłączeniu"
 
-#. PDAs
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:421
-msgid "PDAs"
-msgstr "PDA"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:435
-msgid "Palm™"
-msgstr "Palm™"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
-msgid "Sync _Palm™ devices when connected"
-msgstr "_Synchronizowanie po podłączeniu"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:474
-msgid "Pocket PCs"
-msgstr "Pocket PC"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:493
-msgid "Sync Pocket P_C devices when connected"
-msgstr "S_ynchronizowanie po podłączeniu"
-
 #. Printers
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:522
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:433
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:444
 msgid "Printers"
 msgstr "Drukarki"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:541
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:463
 msgid "Automatically run a program when a _printer is connected"
 msgstr "_Uruchamianie programu po podłączeniu"
 
 #. Input Devices
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:559
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:481
 msgid "Input Devices"
 msgstr "Urządzenia wejściowe"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
 msgid "Keyboards"
 msgstr "Klawiatury"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Uruchamianie programu po podłączeniu _klawiatury USB"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:609
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:531
 msgid "Mice"
 msgstr "Myszy"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:628
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Uruchamianie programu po podłączeniu _myszy USB"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:648
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Tablet"
 msgstr "Tablety"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:667
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a _tablet is connected"
 msgstr "_Uruchamianie programu po podłączeniu"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:674
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
 msgid "Com_mand:"
 msgstr "Po_lecenie:"
