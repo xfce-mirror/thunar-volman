@@ -13,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-16 12:46+0200\n"
-"PO-Revision-Date: 2020-08-17 00:40+0000\n"
-"Last-Translator: 玉堂白鹤 <yjwork@qq.com>\n"
+"POT-Creation-Date: 2020-08-19 12:45+0200\n"
+"PO-Revision-Date: 2020-08-19 10:45+0000\n"
+"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/xfce/thunar-volman/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -388,176 +388,153 @@ msgstr "Ruby 脚本"
 msgid "Shell Scripts"
 msgstr "Shell 脚本"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:110
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:114
 msgid "Help"
 msgstr "帮助"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:116
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:124
 msgid "Close"
 msgstr "关闭"
 
 #. Storage
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:128
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:140
 msgid "Storage"
 msgstr "存储器"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:139
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:151
 msgid "Removable Storage"
 msgstr "可移动存储器"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:158
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:170
 msgid "_Mount removable drives when hot-plugged"
 msgstr "热插拔时挂载可移动驱动器(_M)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:165
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:177
 msgid "Mount removable media when _inserted"
 msgstr "插入后挂载可移动介质(_I)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:172
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
 msgid "B_rowse removable media when inserted"
 msgstr "插入后浏览可移动介质(_R)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:179
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:191
 msgid "_Auto-run programs on new drives and media"
 msgstr "自动运行新增驱动器和介质上的程序(_A)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:185
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:197
 msgid "Auto-open files on new drives and media"
 msgstr "自动打开新增驱动器和介质上的文件"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:196
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:208
 msgid "Blank CDs and DVDs"
 msgstr "空白 CD 与 DVD"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:215
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:227
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "插入空白光盘后刻录 CD 或 DVD(_B)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:225
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:237
 msgid "Command for _Data CDs:"
 msgstr "数据 CD 的命令(_D)："
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:234
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:246
 msgid "Command for A_udio CDs:"
 msgstr "音频 CD 的命令(_U)："
 
 #. Multimedia
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:249
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:261
 msgid "Multimedia"
 msgstr "多媒体"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:260
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:272
 msgid "Audio CDs"
 msgstr "音频 CD"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:279
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:291
 msgid "Play _audio CDs when inserted"
 msgstr "插入后播放音频 CD(_A)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:285
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:410
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:461
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:548
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:297
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:422
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:470
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:518
 msgid "_Command:"
 msgstr "命令(_C)："
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:298
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:310
 msgid "Video CDs/DVDs/Blu-rays"
 msgstr "视频 CD/DVD/蓝光"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:317
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
 msgstr "插入后播放视频 CD ，DVD 和蓝光(_V)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:324
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:362
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:500
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:635
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:336
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:374
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:557
 msgid "C_ommand:"
 msgstr "命令(_O)："
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:337
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:349
 msgid "Portable Music Players"
 msgstr "便携式音乐播放器"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:356
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
 msgid "Play _music files when connected"
 msgstr "连接后播放音乐文件(_M)"
 
 #. Cameras
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:373
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:385
 msgid "Cameras"
 msgstr "相机"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:384
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:396
 msgid "Digital Cameras"
 msgstr "数码相机"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:403
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
 msgid "Import digital photographs when connected"
 msgstr "连接后导入数码照片"
 
-#. Mobile Devices
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:421
-msgid "Mobile Devices"
-msgstr "移动设备"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:435
-msgid "Palm™"
-msgstr "Palm™"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:454
-msgid "Sync _Palm™ devices when connected"
-msgstr "连接后同步 Palm™ 设备(_P)"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:474
-msgid "Pocket PCs"
-msgstr "掌上电脑"
-
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:493
-msgid "Sync Pocket P_C devices when connected"
-msgstr "连接后同步掌上电脑设备(_C)"
-
 #. Printers
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:522
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:433
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:444
 msgid "Printers"
 msgstr "打印机"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:541
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:463
 msgid "Automatically run a program when a _printer is connected"
 msgstr "打印机连接后自动运行程序(_P)"
 
 #. Input Devices
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:559
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:481
 msgid "Input Devices"
 msgstr "输入设备"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
 msgid "Keyboards"
 msgstr "键盘"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "USB 键盘连接后自动运行程序(_K)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:609
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:531
 msgid "Mice"
 msgstr "鼠标"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:628
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "USB 鼠标连接后自动运行程序(_M)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:648
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Tablet"
 msgstr "手写板"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:667
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a _tablet is connected"
 msgstr "手写板连接后自动运行程序(_T)"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:674
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
 msgid "Com_mand:"
 msgstr "命令(_M)："
