@@ -5,6 +5,7 @@
 # Translators:
 # Demiray Muhterem <mdemiray@msn.com>, 2018
 # Demiray Muhterem <mdemiray@msn.com>, 2018
+# Emin Tufan <etcetin@gmail.com>, 2020
 # Fatih ERDEM <93.fatiherdem@gmail.com>, 2013
 # Necdet Yücel <necdetyucel@gmail.com>, 2017
 # Serdar Sağlam <teknomobil@msn.com>, 2019
@@ -14,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 12:45+0200\n"
-"PO-Revision-Date: 2020-08-19 10:45+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
+"PO-Revision-Date: 2020-11-04 22:43+0000\n"
+"Last-Translator: Emin Tufan <etcetin@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/xfce/thunar-volman/language/tr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,7 +26,7 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr "Yeni eklenmiş cihazın syspath'i"
+msgstr "Yeni eklenmiş aygıtın sysfs yolu"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
@@ -100,7 +101,7 @@ msgstr "Fotoğraf Aktarımı"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr "Fotoğraf kartı tespit edildi."
+msgstr "Fotoğraf kartı saptandı."
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
@@ -119,17 +120,17 @@ msgstr "\"%s\" dosyasının çalıştırılmasına izin vermek istiyor musunuz?"
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run Confirmation"
-msgstr "Otomatik Çalıştırma Onayı"
+msgstr "Kendiliğinden Çalıştırma Onayı"
 
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 msgid "Auto-Run capability detected"
-msgstr "Otomatik çalıştırma kabiliyeti tespit edildi"
+msgstr "Kendiliğinden çalıştırma yeteneği saptandı"
 
 #: ../thunar-volman/tvm-block-device.c:380
 #: ../thunar-volman/tvm-block-device.c:427
 msgid "_Allow Auto-Run"
-msgstr "Otom_atik Çalıştırmaya İzin Ver"
+msgstr "_Kendiliğinden Çalıştırmaya İzin Ver"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:503
@@ -139,11 +140,11 @@ msgstr "\"%s\" dosyasını açmak istiyor musunuz?"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open Confirmation"
-msgstr "Otomatik Açma Onayı"
+msgstr "Kendiliğinden Açma Onayı"
 
 #: ../thunar-volman/tvm-block-device.c:507
 msgid "Auto-Open capability detected"
-msgstr "Otomatik Açma kabiliyeti tespit edildi"
+msgstr "Kendiliğinden Açma yeteneği saptandı"
 
 #: ../thunar-volman/tvm-block-device.c:509
 msgid "_Open"
@@ -156,7 +157,7 @@ msgstr "CD Takıldı"
 
 #: ../thunar-volman/tvm-block-device.c:618
 msgid "The CD was mounted automatically"
-msgstr "CD otomatik olarak bağlandı"
+msgstr "CD kendiliğinden bağlandı"
 
 #. generate notification info
 #: ../thunar-volman/tvm-block-device.c:623
@@ -165,7 +166,7 @@ msgstr "DVD Takıldı"
 
 #: ../thunar-volman/tvm-block-device.c:624
 msgid "The DVD was mounted automatically"
-msgstr "DVD otomatik olarak bağlandı"
+msgstr "DVD kendiliğinden bağlandı"
 
 #. generate notification info
 #: ../thunar-volman/tvm-block-device.c:629
@@ -174,7 +175,7 @@ msgstr "Blu-ray bağlandı"
 
 #: ../thunar-volman/tvm-block-device.c:630
 msgid "The Blu-ray was mounted automatically"
-msgstr "Blu-ray otomatik olarak bağlandı"
+msgstr "Blu-ray kendiliğinden bağlandı"
 
 #: ../thunar-volman/tvm-block-device.c:640
 msgid "Volume mounted"
@@ -183,12 +184,12 @@ msgstr "Birim Bağlandı"
 #: ../thunar-volman/tvm-block-device.c:643
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
-msgstr "\"%s\"  birimi otomaitk olarak bağlandı"
+msgstr "\"%s\"  birimi kendiliğinden bağlandı"
 
 #: ../thunar-volman/tvm-block-device.c:648
 #, c-format
 msgid "The inserted volume was mounted automatically"
-msgstr "Eklenen birim otomatik olarak bağlandı"
+msgstr "Eklenen birim kendiliğinden bağlandı"
 
 #: ../thunar-volman/tvm-block-device.c:702
 #, c-format
@@ -269,7 +270,7 @@ msgstr "\"%s\" girdi aygıt türü desteklenmiyor"
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr "Otomaik boş CD ve DVD yazımı kapalı"
+msgstr "Kendiliğinden boş CD ve DVD yazımı kapalı"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
@@ -277,7 +278,7 @@ msgstr "Boş DVD takıldı"
 
 #: ../thunar-volman/tvm-run.c:190
 msgid "You have inserted a blank DVD."
-msgstr "Boş bir disk yerleştirdiniz."
+msgstr "Boş disk yerleştirdiniz."
 
 #: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
 msgid "What would you like to do?"
@@ -293,7 +294,7 @@ msgstr "Boş CD takıldı"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
-msgstr "Boş bir CD taktınız."
+msgstr "Boş CD taktınız."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
@@ -327,7 +328,7 @@ msgstr "Yazıcı algılandı"
 
 #: ../thunar-volman/tvm-usb-device.c:72
 msgid "A USB printer was detected"
-msgstr "Bir USB yazıcı algılandı"
+msgstr "USB yazıcı algılandı"
 
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
@@ -340,7 +341,7 @@ msgstr "Ayarlar yöneticisi yuvası"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "SOCKET ID"
-msgstr "Soket Kimliği"
+msgstr "SOKET KİMLİĞİ"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
@@ -354,7 +355,7 @@ msgstr "Kaldırılabilir Sürücüler ve Ortam"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:237
 msgid "Select an Application"
-msgstr "Bir Uygulama Seç"
+msgstr "Uygulama Seç"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Cancel"
@@ -419,11 +420,11 @@ msgstr "Kaldırılabili_r sürücü yerleştirildiğinde içeriğini göster  "
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:191
 msgid "_Auto-run programs on new drives and media"
-msgstr "Yeni sürücülerde ve ortamda bulunan uygulam_aları otomatik çalıştır"
+msgstr "Yeni sürücülerde ve ortamda bulunan uygulam_aları kendiliğinden çalıştır"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:197
 msgid "Auto-open files on new drives and media"
-msgstr "Yeni sürücülerde ve ortamdaki dosyaları otomatik aç"
+msgstr "Yeni sürücülerde ve ortamdaki dosyaları kendiliğinden aç"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:208
 msgid "Blank CDs and DVDs"
@@ -504,7 +505,7 @@ msgstr "Yazıcılar"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:463
 msgid "Automatically run a program when a _printer is connected"
-msgstr "Yazıcı bağlandığında otomatik olarak uy_gulama çalıştır"
+msgstr "Yazıcı bağlandığında kendiliğinden uy_gulama çalıştır"
 
 #. Input Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:481
@@ -517,7 +518,7 @@ msgstr "Klavyeler"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:511
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "USB _klavye bağlandığında otomatik bir uygulama çalıştır"
+msgstr "USB _klavye bağlandığında kendiliğinden uygulama çalıştır"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:531
 msgid "Mice"
@@ -525,7 +526,7 @@ msgstr "Fare"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:550
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr "USB _fare bağlandığında otomatik bir uygulama çalıştır"
+msgstr "USB _fare bağlandığında kendiliğinden uygulama çalıştır"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Tablet"
@@ -533,7 +534,7 @@ msgstr "Tablet"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "_Tablet bağlandığında uygulama çalıştır"
+msgstr "_Tablet bağlandığında kendiliğinden uygulama çalıştır"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:596
 msgid "Com_mand:"
