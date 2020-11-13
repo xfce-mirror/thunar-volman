@@ -22,6 +22,7 @@ ChangeLog: Makefile
 dist-hook: ChangeLog
 
 EXTRA_DIST =								\
+	README.md							\
 	THANKS								\
 	intltool-extract.in						\
 	intltool-merge.in						\
