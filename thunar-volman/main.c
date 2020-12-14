@@ -165,7 +165,7 @@ main (int    argc,
           context = tvm_context_new (client, device, channel, loop, &error);
 
           /* handle the new device in an idle handler */
-          g_idle_add ((GSourceFunc) tvm_context_run, context);
+          g_idle_add (tvm_context_run, context);
 
           /* release channel and device */
           g_object_unref (device);
