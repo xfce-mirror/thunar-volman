@@ -85,8 +85,9 @@ tvm_context_free (TvmContext *context)
 
 
 gboolean
-tvm_context_run (TvmContext *context)
+tvm_context_run (gpointer user_data)
 {
+  TvmContext *context = user_data;
   tvm_device_added (context);
 
   return FALSE;
