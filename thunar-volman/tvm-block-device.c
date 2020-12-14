@@ -717,12 +717,11 @@ tvm_block_device_mount_finish (GVolume      *volume,
 
 
 static gboolean
-tvm_block_device_mount (TvmContext *context)
+tvm_block_device_mount (gpointer user_data)
 {
+  TvmContext *context = user_data;
   GMountOperation *mount_operation;
   GVolume         *volume;
-
-  g_return_val_if_fail ((context != NULL), FALSE);
 
   /* determine the GVolume corresponding to the udev device */
   volume = 
@@ -890,7 +889,7 @@ automount_disc:
               if (automount)
                 {
                   /* mount the CD/DVD and continue with inspecting its contents */
-                  g_timeout_add_seconds(5, (GSourceFunc) tvm_block_device_mount, context);
+                  g_timeout_add_seconds(5, tvm_block_device_mount, context);
                 }
             }
           else
@@ -913,7 +912,7 @@ automount_disc:
       if (automount)
         {
           /* mount the partition and continue with inspecting its contents */
-          g_timeout_add_seconds(5, (GSourceFunc) tvm_block_device_mount, context);
+          g_timeout_add_seconds(5, tvm_block_device_mount, context);
         }
       else
         {
