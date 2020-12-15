@@ -719,7 +719,7 @@ tvm_block_device_mount_finish (GVolume      *volume,
 static gboolean
 tvm_block_device_mount (gpointer user_data)
 {
-  TvmContext *context = user_data;
+  TvmContext      *context = user_data;
   GMountOperation *mount_operation;
   GVolume         *volume;
 
