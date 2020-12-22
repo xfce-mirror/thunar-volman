@@ -1,3 +1,11 @@
+4.16.0
+======
+- Remove GLIB_CHECK_VERSION IFDEFs which are obsolete after glib bump
+- bump glib (and gio, gthread, etc) minimum to 2.50.0
+- Add README.md to EXTRA_DIST
+- Translation Updates:
+  Turkish, Vietnamese
+
 4.15.1
 ======
 - Fix typo in README
