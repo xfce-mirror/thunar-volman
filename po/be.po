@@ -5,8 +5,8 @@
 # Translators:
 # Andrej Zakharevich <andrej@zahar.ws>, 2011
 # Andrej Zakharevich <andrej@zahar.ws>, 2011
-# Zmicer Turok <nashtlumach@gmail.com>, 2019
-# Zmicer Turok <nashtlumach@gmail.com>, 2019
+# Źmicier Turok <nashtlumach@gmail.com>, 2019
+# Źmicier Turok <nashtlumach@gmail.com>, 2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
