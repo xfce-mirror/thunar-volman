@@ -5,7 +5,7 @@
 # Translators:
 # Elishai Eliyahu <elishai@mailfence.com>, 2016-2018
 # koby vurgaft <slipperygate@gmail.com>, 2012
-# Omer I.S., 2020
+# Omer I.S. <omeritzicschwartz@gmail.com>, 2020
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2012-2013
 # Yaron Shahrabani <sh.yaron@gmail.com>, 2012
 msgid ""
