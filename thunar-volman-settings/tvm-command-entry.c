@@ -48,8 +48,6 @@ enum
 
 
 
-static void tvm_command_entry_class_init    (TvmCommandEntryClass *klass);
-static void tvm_command_entry_init          (TvmCommandEntry      *command_entry);
 static void tvm_command_entry_finalize      (GObject              *object);
 static void tvm_command_entry_get_property  (GObject              *object,
                                              guint                 prop_id,
@@ -64,36 +62,7 @@ static void tvm_command_entry_clicked       (GtkWidget            *button,
 
 
 
-static GObjectClass *tvm_command_entry_parent_class;
-
-
-
-GType
-tvm_command_entry_get_type (void)
-{
-  static GType type = G_TYPE_INVALID;
-
-  if (G_UNLIKELY (type == G_TYPE_INVALID))
-    {
-      static const GTypeInfo info =
-      {
-        sizeof (TvmCommandEntryClass),
-        NULL,
-        NULL,
-        (GClassInitFunc) tvm_command_entry_class_init,
-        NULL,
-        NULL,
-        sizeof (TvmCommandEntry),
-        0,
-        (GInstanceInitFunc) tvm_command_entry_init,
-        NULL,
-      };
-
-      type = g_type_register_static (GTK_TYPE_BOX, I_("TvmCommandEntry"), &info, 0);
-    }
-
-  return type;
-}
+G_DEFINE_TYPE (TvmCommandEntry, tvm_command_entry, GTK_TYPE_BOX)
 
 
 
@@ -101,9 +70,6 @@ static void
 tvm_command_entry_class_init (TvmCommandEntryClass *klass)
 {
   GObjectClass *gobject_class;
-
-  /* determine the parent type class */
-  tvm_command_entry_parent_class = g_type_class_peek_parent (klass);
 
   gobject_class = G_OBJECT_CLASS (klass);
   gobject_class->finalize = tvm_command_entry_finalize;
