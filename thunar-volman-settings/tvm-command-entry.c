@@ -48,8 +48,10 @@ enum
 
 
 
-static void tvm_command_entry_class_init    (TvmCommandEntryClass *klass);
-static void tvm_command_entry_init          (TvmCommandEntry      *command_entry);
+static void tvm_command_entry_class_init    (TvmCommandEntryClass *klass,
+                                             gpointer              class_data);
+static void tvm_command_entry_init          (TvmCommandEntry      *command_entry,
+                                             gpointer              g_class);
 static void tvm_command_entry_finalize      (GObject              *object);
 static void tvm_command_entry_get_property  (GObject              *object,
                                              guint                 prop_id,
@@ -98,7 +100,8 @@ tvm_command_entry_get_type (void)
 
 
 static void
-tvm_command_entry_class_init (TvmCommandEntryClass *klass)
+tvm_command_entry_class_init (TvmCommandEntryClass *klass,
+                              gpointer              class_data)
 {
   GObjectClass *gobject_class;
 
@@ -127,7 +130,8 @@ tvm_command_entry_class_init (TvmCommandEntryClass *klass)
 
 
 static void
-tvm_command_entry_init (TvmCommandEntry *command_entry)
+tvm_command_entry_init (TvmCommandEntry *command_entry,
+                        gpointer         g_class)
 {
   GtkWidget *button;
   GtkWidget *image;
