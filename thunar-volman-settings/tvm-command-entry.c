@@ -48,8 +48,10 @@ enum
 
 
 
-static void tvm_command_entry_class_init    (TvmCommandEntryClass *klass);
-static void tvm_command_entry_init          (TvmCommandEntry      *command_entry);
+static void tvm_command_entry_class_init    (gpointer              g_class,
+                                             gpointer              class_data);
+static void tvm_command_entry_init          (GTypeInstance        *instance,
+                                             gpointer              g_class);
 static void tvm_command_entry_finalize      (GObject              *object);
 static void tvm_command_entry_get_property  (GObject              *object,
                                              guint                 prop_id,
@@ -80,12 +82,12 @@ tvm_command_entry_get_type (void)
         sizeof (TvmCommandEntryClass),
         NULL,
         NULL,
-        (GClassInitFunc) tvm_command_entry_class_init,
+        tvm_command_entry_class_init,
         NULL,
         NULL,
         sizeof (TvmCommandEntry),
         0,
-        (GInstanceInitFunc) tvm_command_entry_init,
+        tvm_command_entry_init,
         NULL,
       };
 
@@ -98,9 +100,11 @@ tvm_command_entry_get_type (void)
 
 
 static void
-tvm_command_entry_class_init (TvmCommandEntryClass *klass)
+tvm_command_entry_class_init (gpointer g_class,
+                              gpointer class_data)
 {
-  GObjectClass *gobject_class;
+  TvmCommandEntryClass *klass = g_class;
+  GObjectClass         *gobject_class;
 
   /* determine the parent type class */
   tvm_command_entry_parent_class = g_type_class_peek_parent (klass);
@@ -127,10 +131,12 @@ tvm_command_entry_class_init (TvmCommandEntryClass *klass)
 
 
 static void
-tvm_command_entry_init (TvmCommandEntry *command_entry)
+tvm_command_entry_init (GTypeInstance *instance,
+                        gpointer       g_class)
 {
-  GtkWidget *button;
-  GtkWidget *image;
+  TvmCommandEntry *command_entry = TVM_COMMAND_ENTRY (instance);
+  GtkWidget       *button;
+  GtkWidget       *image;
 
   gtk_box_set_spacing (GTK_BOX (command_entry), 2);
   gtk_orientable_set_orientation (GTK_ORIENTABLE (command_entry), GTK_ORIENTATION_HORIZONTAL);
