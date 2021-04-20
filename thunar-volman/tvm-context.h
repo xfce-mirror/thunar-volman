@@ -39,7 +39,7 @@ TvmContext *tvm_context_new       (GUdevClient   *client,
                                    GMainLoop     *loop,
                                    GError       **error) G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT;
 void        tvm_context_free      (TvmContext    *context);
-gboolean    tvm_context_run       (TvmContext    *context);
+gboolean    tvm_context_run       (gpointer       user_data);
 
 
 
