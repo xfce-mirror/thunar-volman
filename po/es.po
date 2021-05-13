@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 12:45+0200\n"
-"PO-Revision-Date: 2021-04-19 18:32+0000\n"
+"PO-Revision-Date: 2021-05-13 18:43+0000\n"
 "Last-Translator: Toni Estévez <toni.estevez@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/xfce/thunar-volman/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -348,7 +348,7 @@ msgstr "Socket del gestor de configuración"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "SOCKET ID"
-msgstr "ID del SOCKET"
+msgstr "ID DEL SOCKET"
 
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
