@@ -142,7 +142,7 @@ tvm_command_entry_init (TvmCommandEntry *command_entry)
 
   command_entry->entry = gtk_entry_new ();
   gtk_label_set_mnemonic_widget (GTK_LABEL (command_entry->label), command_entry->entry);
-  exo_mutual_binding_new (G_OBJECT (command_entry->entry), "text", G_OBJECT (command_entry), "command");
+  g_object_bind_property (G_OBJECT (command_entry->entry), "text", G_OBJECT (command_entry), "command", G_BINDING_BIDIRECTIONAL | G_BINDING_SYNC_CREATE);
   gtk_box_pack_start (GTK_BOX (command_entry), command_entry->entry, TRUE, TRUE, 0);
   gtk_widget_show (command_entry->entry);
 
