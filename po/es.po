@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 12:45+0200\n"
-"PO-Revision-Date: 2021-05-13 18:43+0000\n"
+"PO-Revision-Date: 2021-06-05 21:34+0000\n"
 "Last-Translator: Toni Estévez <toni.estevez@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/xfce/thunar-volman/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -90,7 +90,7 @@ msgstr "¿Quiere importar las fotos o gestionar la música?"
 #: ../thunar-volman/tvm-block-device.c:838 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
-msgstr "Ig_norar"
+msgstr "_Ignorar"
 
 #: ../thunar-volman/tvm-block-device.c:209
 #: ../thunar-volman/tvm-block-device.c:278
@@ -108,7 +108,7 @@ msgstr "Importación de fotos"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr "Se ha detectado una tarjeta con fotos"
+msgstr "Se ha detectado una tarjeta fotográfica"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
@@ -137,7 +137,7 @@ msgstr "Detectada la capacidad de ejecución automática"
 #: ../thunar-volman/tvm-block-device.c:380
 #: ../thunar-volman/tvm-block-device.c:427
 msgid "_Allow Auto-Run"
-msgstr "Permitir la ejecución _automática"
+msgstr "_Permitir la ejecución automática"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:503
@@ -236,12 +236,12 @@ msgstr "_Reproducir el CD"
 #: ../thunar-volman/tvm-block-device.c:928
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr "Tipo de dispositivo de bloque «%s» desconocido"
+msgstr "Tipo de dispositivo de bloques desconocido «%s»"
 
 #: ../thunar-volman/tvm-device.c:139
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr "Tipo de dispositivo «%s» no compatible"
+msgstr "Tipo de dispositivo no compatible «%s»"
 
 #: ../thunar-volman/tvm-input-device.c:75
 msgid "Keyboard detected"
@@ -272,7 +272,7 @@ msgstr "Se ha detectado un ratón"
 #: ../thunar-volman/tvm-input-device.c:141
 #, c-format
 msgid "Unsupported input device type \"%s\""
-msgstr "Tipo de dispositivo de entrada «%s» no compatible"
+msgstr "Tipo de dispositivo de entrada no compatible «%s»"
 
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
@@ -293,7 +293,7 @@ msgstr "¿Qué quiere hacer?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr "Grabar el _DVD"
+msgstr "_Grabar el DVD"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
@@ -305,11 +305,11 @@ msgstr "Ha insertado un CD en blanco."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
-msgstr "Grabar un CD de _datos"
+msgstr "_Grabar un CD de datos"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr "Grabar un CD de _audio"
+msgstr "_Grabar un CD de audio"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -327,7 +327,7 @@ msgstr "Cámara detectada"
 
 #: ../thunar-volman/tvm-usb-device.c:63
 msgid "A photo camera was detected"
-msgstr "Se ha detectado una cámara de fotos"
+msgstr "Se ha detectado una cámara fotográfica"
 
 #: ../thunar-volman/tvm-usb-device.c:71
 msgid "Printer detected"
@@ -340,7 +340,7 @@ msgstr "Se ha detectado una impresora USB"
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr "Tipo de dispositivo USB «%s» no compatible"
+msgstr "Tipo de dispositivo USB no compatible «%s»"
 
 #: ../thunar-volman-settings/main.c:44
 msgid "Settings manager socket"
@@ -419,19 +419,19 @@ msgstr "_Montar los dispositivos extraíbles al conectarlos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:177
 msgid "Mount removable media when _inserted"
-msgstr "Montar los soportes extraíbles al _insertarlos"
+msgstr "Montar los _soportes extraíbles al insertarlos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:184
 msgid "B_rowse removable media when inserted"
-msgstr "_Examinar los soportes extraíbles al insertarlos"
+msgstr "E_xaminar los soportes extraíbles al insertarlos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:191
 msgid "_Auto-run programs on new drives and media"
-msgstr "Ejecutar _automáticamente los programas en dispositivos y soportes nuevos"
+msgstr "_Ejecutar automáticamente los programas en dispositivos y soportes nuevos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:197
 msgid "Auto-open files on new drives and media"
-msgstr "Abrir automáticamente los archivos en dispositivos y soportes nuevos"
+msgstr "_Abrir automáticamente los archivos en dispositivos y soportes nuevos"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:208
 msgid "Blank CDs and DVDs"
@@ -439,15 +439,15 @@ msgstr "CD y DVD en blanco"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:227
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr "_Grabar un CD o un DVD al insertar un disco en blanco"
+msgstr "_Grabar un CD o un DVD en blanco al insertarlo"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:237
 msgid "Command for _Data CDs:"
-msgstr "Orden para los CD de _datos:"
+msgstr "_Orden para los CD de datos:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:246
 msgid "Command for A_udio CDs:"
-msgstr "Orden para los CD de a_udio:"
+msgstr "O_rden para los CD de audio:"
 
 #. Multimedia
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:261
@@ -498,11 +498,11 @@ msgstr "Cámaras"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:396
 msgid "Digital Cameras"
-msgstr "Cámaras digitales"
+msgstr "Cámaras fotográficas"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
 msgid "Import digital photographs when connected"
-msgstr "Importar las fotografías digitales al conectarlas"
+msgstr "_Importar las fotografías digitales al conectarlas"
 
 #. Printers
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:433
@@ -512,7 +512,7 @@ msgstr "Impresoras"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:463
 msgid "Automatically run a program when a _printer is connected"
-msgstr "Ejecutar automáticamente un programa al conectar una _impresora"
+msgstr "_Ejecutar automáticamente un programa al conectar una impresora"
 
 #. Input Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:481
@@ -525,7 +525,7 @@ msgstr "Teclado"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:511
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr "Ejecutar automáticamente un programa al conectar un _teclado USB"
+msgstr "_Ejecutar automáticamente un programa al conectar un teclado USB"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:531
 msgid "Mice"
@@ -541,7 +541,7 @@ msgstr "Tableta"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:589
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "Ejecutar automáticamente un programa al conectar una _tableta"
+msgstr "Ejecutar _automáticamente un programa al conectar una tableta"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:596
 msgid "Com_mand:"
