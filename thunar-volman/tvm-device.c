@@ -106,7 +106,9 @@ tvm_device_try_next_handler (TvmContext *context)
 void
 tvm_device_added (TvmContext *context)
 {
+#ifdef DEBUG
   const gchar *const *keys = NULL;
+#endif
   const gchar        *subsystem;
   gint                n;
 
