@@ -5,8 +5,8 @@
 # Translators:
 # Carles Muñoz Gorriz <carlesmu@internautas.org>, 2008,2012-2013
 # Davidmp <medipas@gmail.com>, 2015,2017
-# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2017-2018
-# Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016
+# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2017-2018
+# Robert Antoni Buj i Gelonch <rbuj@fedoraproject.org>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
