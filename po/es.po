@@ -6,7 +6,7 @@
 # Abel Martin (amartinr) <abel.martin.ruiz@gmail.com>, 2008,2011
 # Adolfo Jayme-Barrientos, 2014
 # Adolfo Jayme Barrientos, 2014
-# Adolfo Jayme-Barrientos, 2014
+# Adolfo Jayme Barrientos, 2014
 # e49097353bae6e06d169bea93a448e3e, 2018
 # e49097353bae6e06d169bea93a448e3e, 2018
 # Ignacio Poggi <ignaciop.3@gmail.com>, 2020
