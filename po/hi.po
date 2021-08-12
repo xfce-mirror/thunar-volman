@@ -1,0 +1,535 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Panwar108 <caspian7pena@gmail.com>, 2021
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunar-volman\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-19 12:45+0200\n"
+"PO-Revision-Date: 2021-08-12 14:24+0000\n"
+"Last-Translator: Panwar108 <caspian7pena@gmail.com>\n"
+"Language-Team: Hindi (http://www.transifex.com/xfce/thunar-volman/language/hi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../thunar-volman/main.c:59
+msgid "The sysfs path of the newly added device"
+msgstr "जोड़े गए नए उपकरण का sysfs पथ"
+
+#: ../thunar-volman/main.c:60
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:103
+msgid "Configure management of removable drives and media"
+msgstr "हट सकने योग्य उपकरण व मीडिया के प्रबंधन हेतु विन्यास"
+
+#: ../thunar-volman/main.c:61
+msgid "Print version information and exit"
+msgstr "संस्करण सूचना प्रदर्शित कर बंद करें"
+
+#. setup application name
+#: ../thunar-volman/main.c:93
+msgid "Thunar Volume Manager"
+msgstr "थुनार वॉल्यूम प्रबंधक"
+
+#: ../thunar-volman/main.c:121
+msgid "All rights reserved."
+msgstr "सर्वाधिकार सुरक्षित।"
+
+#: ../thunar-volman/main.c:122
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "समस्याओं को <%s> पर दर्ज करें।"
+
+#: ../thunar-volman/main.c:176
+#, c-format
+msgid "There is no device with the sysfs path \"%s\""
+msgstr "sysfs पथ \"%s\" युक्त कोई उपकरण नहीं है"
+
+#: ../thunar-volman/main.c:188
+#, c-format
+msgid "Must specify the sysfs path of new devices with --device-added"
+msgstr "नवीन उपकरणों का पथ निर्दिष्ट करते समय --device-added संलग्न करना आवश्यक है"
+
+#. ...so we need to prompt what to do
+#: ../thunar-volman/tvm-block-device.c:204
+msgid "Photos and Music"
+msgstr "चित्र व संगीत"
+
+#: ../thunar-volman/tvm-block-device.c:205
+msgid "Photos were found on your portable music player"
+msgstr "आपके वहनीय संगीत प्लेयर पर चित्र प्राप्त हुए हैं"
+
+#: ../thunar-volman/tvm-block-device.c:206
+msgid "Would you like to import the photos or manage the music?"
+msgstr "क्या आप चित्र आयात या संगीत प्रबंधन करना चाहते हैं?"
+
+#: ../thunar-volman/tvm-block-device.c:208
+#: ../thunar-volman/tvm-block-device.c:277
+#: ../thunar-volman/tvm-block-device.c:379
+#: ../thunar-volman/tvm-block-device.c:426
+#: ../thunar-volman/tvm-block-device.c:508
+#: ../thunar-volman/tvm-block-device.c:838 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-run.c:203
+msgid "Ig_nore"
+msgstr "अनदेखा करें (_n)"
+
+#: ../thunar-volman/tvm-block-device.c:209
+#: ../thunar-volman/tvm-block-device.c:278
+msgid "Import _Photos"
+msgstr "चित्र आयात करें (_P)"
+
+#: ../thunar-volman/tvm-block-device.c:210
+msgid "Manage _Music"
+msgstr "संगीत प्रबंधन करें (_M)"
+
+#. ask the user to import photos
+#: ../thunar-volman/tvm-block-device.c:273
+msgid "Photo Import"
+msgstr "चित्र आयात"
+
+#: ../thunar-volman/tvm-block-device.c:274
+msgid "A photo card has been detected"
+msgstr "चित्र युक्त कार्ड की पहचान की गई"
+
+#: ../thunar-volman/tvm-block-device.c:275
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr "पहचान किए गए कार्ड पर चित्र हैं। क्या आप इन चित्रों को अपनी एल्बम में जोड़ना चाहते हैं?"
+
+#. prompt the user to execute the file
+#. prompt the user to execute this file
+#: ../thunar-volman/tvm-block-device.c:374
+#: ../thunar-volman/tvm-block-device.c:421
+#, c-format
+msgid "Would you like to allow \"%s\" to run?"
+msgstr "क्या आप \"%s\" के निष्पादन को स्वीकृति देते हैं?"
+
+#: ../thunar-volman/tvm-block-device.c:377
+#: ../thunar-volman/tvm-block-device.c:424
+msgid "Auto-Run Confirmation"
+msgstr "स्वतः निष्पादन हेतु पुष्टिकरण"
+
+#: ../thunar-volman/tvm-block-device.c:378
+#: ../thunar-volman/tvm-block-device.c:425
+msgid "Auto-Run capability detected"
+msgstr "स्वतः निष्पादन की क्षमता उपस्थित है"
+
+#: ../thunar-volman/tvm-block-device.c:380
+#: ../thunar-volman/tvm-block-device.c:427
+msgid "_Allow Auto-Run"
+msgstr "स्वतः निष्पादन को स्वीकृति दें (_A)"
+
+#. prompt the user whether to autoopen this file
+#: ../thunar-volman/tvm-block-device.c:503
+#, c-format
+msgid "Would you like to open \"%s\"?"
+msgstr "क्या आप \"%s\" को खोलना चाहते हैं?"
+
+#: ../thunar-volman/tvm-block-device.c:506
+msgid "Auto-Open Confirmation"
+msgstr "सामग्री को स्वतः खोलने हेतु पुष्टिकरण"
+
+#: ../thunar-volman/tvm-block-device.c:507
+msgid "Auto-Open capability detected"
+msgstr "सामग्री को स्वतः खोलने निष्पादन की क्षमता उपस्थित है"
+
+#: ../thunar-volman/tvm-block-device.c:509
+msgid "_Open"
+msgstr "_खोलें "
+
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:617
+msgid "CD mounted"
+msgstr "सीडी माउंट की गई"
+
+#: ../thunar-volman/tvm-block-device.c:618
+msgid "The CD was mounted automatically"
+msgstr "सीडी स्वतः माउंट की गई"
+
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:623
+msgid "DVD mounted"
+msgstr "डीवीडी माउंट की गई"
+
+#: ../thunar-volman/tvm-block-device.c:624
+msgid "The DVD was mounted automatically"
+msgstr "डीवीडी स्वतः माउंट की गई"
+
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:629
+msgid "Blu-ray mounted"
+msgstr "ब्लू-रे माउंट की गई"
+
+#: ../thunar-volman/tvm-block-device.c:630
+msgid "The Blu-ray was mounted automatically"
+msgstr "ब्लू-रे स्वतः माउंट की गई"
+
+#: ../thunar-volman/tvm-block-device.c:640
+msgid "Volume mounted"
+msgstr "वॉल्यूम माउंट की गई"
+
+#: ../thunar-volman/tvm-block-device.c:643
+#, c-format
+msgid "The volume \"%s\" was mounted automatically"
+msgstr "वॉल्यूम \"%s\"  स्वतः माउंट की गई"
+
+#: ../thunar-volman/tvm-block-device.c:648
+#, c-format
+msgid "The inserted volume was mounted automatically"
+msgstr "सिस्टम में लगाई गई वॉल्यूम स्वतः माउंट की गई"
+
+#: ../thunar-volman/tvm-block-device.c:702
+#, c-format
+msgid "Unable to locate mount point"
+msgstr "माउंट पॉइंट ज्ञात करना विफल"
+
+#: ../thunar-volman/tvm-block-device.c:748
+#, c-format
+msgid "Unable to mount the device"
+msgstr "उपकरण माउंट करना विफल"
+
+#: ../thunar-volman/tvm-block-device.c:757
+#, c-format
+msgid "Could not detect the volume corresponding to the device"
+msgstr "उपकरण की संबंधित वॉल्यूम पहचानना विफल"
+
+#: ../thunar-volman/tvm-block-device.c:833
+msgid "Audio/Data CD"
+msgstr "ऑडियो/डेटा सीडी"
+
+#: ../thunar-volman/tvm-block-device.c:834
+msgid "The CD in the drive contains both music and files"
+msgstr "ड्राइव में मौजूद सीडी में संगीत व फाइलें हैं"
+
+#: ../thunar-volman/tvm-block-device.c:836
+msgid "Would you like to listen to music or browse the files?"
+msgstr "आप संगीत सुनेंगे या फाइलें देखेंगे?"
+
+#: ../thunar-volman/tvm-block-device.c:839
+msgid "_Browse Files"
+msgstr "फाइलें देखें (_B)"
+
+#: ../thunar-volman/tvm-block-device.c:840
+msgid "_Play CD"
+msgstr "सीडी चलाएँ (_C)"
+
+#: ../thunar-volman/tvm-block-device.c:928
+#, c-format
+msgid "Unknown block device type \"%s\""
+msgstr "ब्लॉक उपकरण प्रकार \"%s\" अज्ञात है"
+
+#: ../thunar-volman/tvm-device.c:139
+#, c-format
+msgid "Device type \"%s\" not supported"
+msgstr "उपकरण प्रकार \"%s\" असमर्थित है"
+
+#: ../thunar-volman/tvm-input-device.c:75
+msgid "Keyboard detected"
+msgstr "कुंजीपटल पहचाना गया"
+
+#: ../thunar-volman/tvm-input-device.c:76
+msgid "A keyboard was detected"
+msgstr "एक कुंजीपटल की पहचान की गई"
+
+#: ../thunar-volman/tvm-input-device.c:87
+#: ../thunar-volman/tvm-input-device.c:101
+msgid "Tablet detected"
+msgstr "टैबलेट पहचाना गया"
+
+#: ../thunar-volman/tvm-input-device.c:88
+#: ../thunar-volman/tvm-input-device.c:102
+msgid "A graphics tablet was detected"
+msgstr "एक ग्राफ़िक्स टैबलेट की पहचान की गई"
+
+#: ../thunar-volman/tvm-input-device.c:111
+msgid "Mouse detected"
+msgstr "माउस पहचाना गया"
+
+#: ../thunar-volman/tvm-input-device.c:112
+msgid "A mouse was detected"
+msgstr "एक माउस की पहचान की गई"
+
+#: ../thunar-volman/tvm-input-device.c:141
+#, c-format
+msgid "Unsupported input device type \"%s\""
+msgstr "इनपुट उपकरण प्रकार \"%s\" असमर्थित है"
+
+#: ../thunar-volman/tvm-run.c:171
+#, c-format
+msgid "Autoburning of blank CDs and DVDs is disabled"
+msgstr "रिक्त सीडी व डीवीडी को स्वतः बर्न करना निष्क्रिय है"
+
+#: ../thunar-volman/tvm-run.c:189
+msgid "Blank DVD inserted"
+msgstr "सिस्टम में रिक्त डीवीडी लगाई गई"
+
+#: ../thunar-volman/tvm-run.c:190
+msgid "You have inserted a blank DVD."
+msgstr "आपके द्वारा सिस्टम में रिक्त डीवीडी लगाई गई।"
+
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
+msgid "What would you like to do?"
+msgstr "आप क्या करना चाहते हैं?"
+
+#: ../thunar-volman/tvm-run.c:193
+msgid "Burn _DVD"
+msgstr "डीवीडी बर्न करें (_D)"
+
+#: ../thunar-volman/tvm-run.c:200
+msgid "Blank CD inserted"
+msgstr "सिस्टम में रिक्त सीडी लगाई गई"
+
+#: ../thunar-volman/tvm-run.c:201
+msgid "You have inserted a blank CD."
+msgstr "आपके द्वारा सिस्टम में रिक्त सीडी लगाई गई।"
+
+#: ../thunar-volman/tvm-run.c:204
+msgid "Burn _Data CD"
+msgstr "डेटा सीडी बर्न करें (_D)"
+
+#: ../thunar-volman/tvm-run.c:205
+msgid "Burn _Audio CD"
+msgstr "ऑडियो सीडी बर्न करें (_D)"
+
+#: ../thunar-volman/tvm-run.c:229
+#, c-format
+msgid "The burn command may not be empty"
+msgstr "बर्न कमांड रिक्त नहीं होनी चाहिए"
+
+#: ../thunar-volman/tvm-run.c:268
+#, c-format
+msgid "The CD player command is undefined"
+msgstr "सीडी प्लेयर हेतु कमांड अपरिभाषित है"
+
+#: ../thunar-volman/tvm-usb-device.c:62
+msgid "Camera detected"
+msgstr "कैमरा पहचाना गया"
+
+#: ../thunar-volman/tvm-usb-device.c:63
+msgid "A photo camera was detected"
+msgstr "एक चित्र युक्त कैमरा की पहचान की गई"
+
+#: ../thunar-volman/tvm-usb-device.c:71
+msgid "Printer detected"
+msgstr "प्रिंटर पहचाना गया"
+
+#: ../thunar-volman/tvm-usb-device.c:72
+msgid "A USB printer was detected"
+msgstr "एक यूएसबी प्रिंटर की पहचान की गई"
+
+#: ../thunar-volman/tvm-usb-device.c:100
+#, c-format
+msgid "Unsupported USB device type \"%s\""
+msgstr "यूएसबी उपकरण प्रकार \"%s\" असमर्थित है"
+
+#: ../thunar-volman-settings/main.c:44
+msgid "Settings manager socket"
+msgstr "सेटिंग्स प्रबंधक सॉकेट"
+
+#: ../thunar-volman-settings/main.c:44
+msgid "SOCKET ID"
+msgstr "सॉकेट आईडी"
+
+#. setup application name
+#: ../thunar-volman-settings/main.c:60
+msgid "Thunar Volume Manager Settings"
+msgstr "थुनार वॉल्यूम प्रबंधक की सेटिंग्स"
+
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:101
+msgid "Removable Drives and Media"
+msgstr "हट सकने योग्य ड्राइव व मीडिया"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:237
+msgid "Select an Application"
+msgstr "एक अनुप्रयोग चुनें"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:241
+msgid "Select Application"
+msgstr "अनुप्रयोग चुनें"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:248
+msgid "All Files"
+msgstr "सभी फाइलें"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:253
+msgid "Executable Files"
+msgstr "निष्पादन योग्य फाइलें"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:268
+msgid "Perl Scripts"
+msgstr "पर्ल स्क्रिप्ट"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:274
+msgid "Python Scripts"
+msgstr "पाइथन स्क्रिप्ट"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:280
+msgid "Ruby Scripts"
+msgstr "रूबी स्क्रिप्ट"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:286
+msgid "Shell Scripts"
+msgstr "शैल स्क्रिप्ट"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:114
+msgid "Help"
+msgstr "सहायता"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:124
+msgid "Close"
+msgstr "बंद करें"
+
+#. Storage
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:140
+msgid "Storage"
+msgstr "संचय"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:151
+msgid "Removable Storage"
+msgstr "हट सकने योग्य संचय"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:170
+msgid "_Mount removable drives when hot-plugged"
+msgstr "हट सकने योग्य उपकरणों को सिस्टम पर लगते ही माउंट करें (_M)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:177
+msgid "Mount removable media when _inserted"
+msgstr "हट सकने योग्य मीडिया को सिस्टम पर लगते ही माउंट करें (_i)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
+msgid "B_rowse removable media when inserted"
+msgstr "हट सकने योग्य मीडिया को सिस्टम पर लगते ही देखें (_i)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:191
+msgid "_Auto-run programs on new drives and media"
+msgstr "नवीन ड्राइव व मीडिया पर उपस्थित प्रोग्राम को स्वतः निष्पादित करें (_A)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:197
+msgid "Auto-open files on new drives and media"
+msgstr "नवीन ड्राइव व मीडिया पर उपस्थित फाइलों को स्वतः खोलें (_A)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:208
+msgid "Blank CDs and DVDs"
+msgstr "रिक्त सीडी व डीवीडी"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:227
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr "रिक्त डिस्क के सिस्टम पर लगते ही सीडी या डीवीडी बर्न करें (_B)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:237
+msgid "Command for _Data CDs:"
+msgstr "डेटा सीडी हेतु कमांड (_D):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:246
+msgid "Command for A_udio CDs:"
+msgstr "ऑडियो सीडी हेतु कमांड (_D):"
+
+#. Multimedia
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:261
+msgid "Multimedia"
+msgstr "मल्टीमीडिया"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:272
+msgid "Audio CDs"
+msgstr "ऑडियो सीडी"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:291
+msgid "Play _audio CDs when inserted"
+msgstr "ऑडियो सीडी के सिस्टम पर लगते ही उसे चलाएँ (_a)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:297
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:422
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:470
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:518
+msgid "_Command:"
+msgstr "कमांड (_C):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:310
+msgid "Video CDs/DVDs/Blu-rays"
+msgstr "वीडियो सीडी / डीवीडी / ब्लू-रे"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
+msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
+msgstr "वीडियो सीडी, डीवीडी व ब्लू-रे के सिस्टम पर लगते ही इन्हें चलाएँ (_v)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:336
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:374
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:557
+msgid "C_ommand:"
+msgstr "कमांड (_o):"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:349
+msgid "Portable Music Players"
+msgstr "वहनीय संगीत प्लेयर"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
+msgid "Play _music files when connected"
+msgstr "कनेक्ट होने पर संगीत फाइलें चलाएँ (_m)"
+
+#. Cameras
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:385
+msgid "Cameras"
+msgstr "कैमरा"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:396
+msgid "Digital Cameras"
+msgstr "डिजिटल कैमरा"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+msgid "Import digital photographs when connected"
+msgstr "कनेक्ट होने पर डिजिटल चित्रों को आयात करें"
+
+#. Printers
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:433
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:444
+msgid "Printers"
+msgstr "प्रिंटर"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:463
+msgid "Automatically run a program when a _printer is connected"
+msgstr "प्रिंटर कनेक्ट होने पर स्वतः ही प्रोग्राम निष्पादित करें (_p)"
+
+#. Input Devices
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:481
+msgid "Input Devices"
+msgstr "इनपुट उपकरण"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
+msgid "Keyboards"
+msgstr "कुंजीपटल"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
+msgid "Automatically run a program when a USB _keyboard is connected"
+msgstr "यूएसबी कुंजीपटल कनेक्ट होने पर स्वतः ही प्रोग्राम निष्पादित करें (_k)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:531
+msgid "Mice"
+msgstr "माउस"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr "यूएसबी माउस कनेक्ट होने पर स्वतः ही प्रोग्राम निष्पादित करें (_m)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
+msgid "Tablet"
+msgstr "टैबलेट"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
+msgid "Automatically run a program when a _tablet is connected"
+msgstr "टैबलेट कनेक्ट होने पर स्वतः ही प्रोग्राम निष्पादित करें (_t)"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
+msgid "Com_mand:"
+msgstr "कमांड (_m):"
