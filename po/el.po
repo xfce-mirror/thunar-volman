@@ -4,8 +4,11 @@
 # 
 # Translators:
 # Ápo. <apostolos.papadimitriu@gmail.com>, 2016
+# Ápo. <apostolos.papadimitriu@gmail.com>, 2016
+# ebal <ebalaskas@ebalaskas.gr>, 2009
 # Efstathios Iosifidis <iefstathios@gmail.com>, 2014
 # ebal <ebalaskas@ebalaskas.gr>, 2009
+# George Vasilakos, 2011
 # George Vasilakos, 2011
 # Spiros Georgaras <sng@hellug.gr>, 2018
 # Stavros Giannouris <stavrosg@hellug.gr>, 2009,2011
@@ -15,8 +18,8 @@ msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-08-19 12:45+0200\n"
-"PO-Revision-Date: 2020-08-19 10:45+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
+"PO-Revision-Date: 2013-07-02 20:37+0000\n"
+"Last-Translator: Πέτρος Σαμαράς <psamaras1@gmail.com>, 2017\n"
 "Language-Team: Greek (http://www.transifex.com/xfce/thunar-volman/language/el/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,12 +58,12 @@ msgstr "Παρακαλώ αναφέρατε σφάλματα στο <%s>."
 #: ../thunar-volman/main.c:176
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Δεν υπάρχει συσκευή με την διαδρομή sysfs \"%s\""
+msgstr "Δεν υπάρχει συσκευή στη διαδρομή sysfs \"%s\""
 
 #: ../thunar-volman/main.c:188
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Πρέπει να προσδιορίσετε τη διαδρομή  sysfs των νέων συσκευών με --device-added"
+msgstr "Πρέπει να προσδιορίσετε τη διαδρομή sysfs των νέων συσκευών με --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -171,11 +174,11 @@ msgstr "Το DVD προσαρτήθηκε αυτόματα"
 #. generate notification info
 #: ../thunar-volman/tvm-block-device.c:629
 msgid "Blu-ray mounted"
-msgstr ""
+msgstr "Προσαρτήθηκε Blu-ray"
 
 #: ../thunar-volman/tvm-block-device.c:630
 msgid "The Blu-ray was mounted automatically"
-msgstr ""
+msgstr "Το Blu-ray προσαρτήθηκε αυτόματα"
 
 #: ../thunar-volman/tvm-block-device.c:640
 msgid "Volume mounted"
@@ -286,7 +289,7 @@ msgstr "Τι θέλετε να γίνει;"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr "Εγγραφή _DVD."
+msgstr "Εγγραφή _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
@@ -302,7 +305,7 @@ msgstr "Εγγραφή CD _δεδομένων"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr "Εγγραφή CD _ηχου"
+msgstr "Εγγραφή CD _ήχου"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
@@ -333,7 +336,7 @@ msgstr "Εντοπίστηκε ένας USB εκτυπωτής"
 #: ../thunar-volman/tvm-usb-device.c:100
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr "Μη υποστιριζόμενος τύπος USB συσκευής \"%s\""
+msgstr "Μη υποστηριζόμενος τύπος συσκευής USB \"%s\""
 
 #: ../thunar-volman-settings/main.c:44
 msgid "Settings manager socket"
@@ -363,7 +366,7 @@ msgstr "Ακύρωση"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:241
 msgid "Select Application"
-msgstr "Επιλογή Εφαρμογής"
+msgstr "Επιλογή εφαρμογής"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:248
 msgid "All Files"
@@ -464,11 +467,11 @@ msgstr "_Εντολή:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:310
 msgid "Video CDs/DVDs/Blu-rays"
-msgstr ""
+msgstr "Βίντεο CDs/DVDs/Blu-rays"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:329
 msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
-msgstr ""
+msgstr "Αναπαραγωγή _βίντεο CDs, DVDs, και Blu-rays όταν εισαχθούν"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:336
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:374
@@ -495,7 +498,7 @@ msgstr "Ψηφιακές φωτογραφικές μηχανές"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:415
 msgid "Import digital photographs when connected"
-msgstr "Εισαγωγή ψηφιακών φωτογραφιών όταν συνδεθούν "
+msgstr "Εισαγωγή ψηφιακών φωτογραφιών όταν συνδεθούν"
 
 #. Printers
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:433
