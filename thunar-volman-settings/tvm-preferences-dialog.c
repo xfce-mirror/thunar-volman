@@ -99,9 +99,6 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_window_set_icon_name (GTK_WINDOW (dialog), "org.xfce.volman");
   gtk_window_set_resizable (GTK_WINDOW (dialog), FALSE);
   gtk_window_set_title (GTK_WINDOW (dialog), _("Removable Drives and Media"));
-  xfce_titled_dialog_set_subtitle (XFCE_TITLED_DIALOG (dialog), 
-                                   _("Configure management of removable drives "
-                                     "and media"));
 
   g_signal_connect (dialog, "response", G_CALLBACK (tvm_preferences_dialog_response), NULL);
 
