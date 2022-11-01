@@ -1,3 +1,19 @@
+4.17.0 (2022-11-01)
+======
+- autoconf: Use AC_CONFIG_MACRO_DIRS
+- build: Fix intltool lock file problem during make distcheck
+- Update COPYING
+- Fix compilation warnings
+- automake: Enable subdir-objects
+- autoconf: Some updates
+- Update `.gitignore`
+- Replace ExoBinding with GBinding
+- Remove GSourceFunc casts (!5)
+- Translation Updates:
+  Arabic, Belarusian, Catalan, Croatian, Czech, Estonian, Galician,
+  Greek, Hebrew, Hindi, Norwegian Bokmål, Occitan (post 1500),
+  Romanian, Russian, Spanish, Turkish
+
 4.16.0
 ======
 - Remove GLIB_CHECK_VERSION IFDEFs which are obsolete after glib bump

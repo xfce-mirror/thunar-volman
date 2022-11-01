@@ -20,10 +20,10 @@ dnl ***************************
 dnl *** Version information ***
 dnl ***************************
 m4_define([tvm_version_major], [4])
-m4_define([tvm_version_minor], [16])
+m4_define([tvm_version_minor], [17])
 m4_define([tvm_version_micro], [0])
 m4_define([tvm_version_build], [@REVISION@])
-m4_define([tvm_version_tag], [git])
+m4_define([tvm_version_tag], [])
 m4_define([tvm_version], [tvm_version_major().tvm_version_minor().tvm_version_micro()ifelse(tvm_version_tag(), [git], [tvm_version_tag()-tvm_version_build()], [tvm_version_tag()])])
 
 dnl *******************************************
