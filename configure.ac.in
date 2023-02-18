@@ -38,7 +38,7 @@ AC_COPYRIGHT([Copyright (c) 2004-2022 The Thunar development team. All rights re
         
 Written for thunar-volman by Benedikt Meurer <benny@xfce.org>
 and Jannis Pohlmann <jannis@xfce.org>.])
-AC_INIT([thunar-volman], [tvm_version], [http://bugzilla.xfce.org/])
+AC_INIT([thunar-volman], [tvm_version], [https://gitlab.xfce.org/xfce/thunar-volman])
 AC_PREREQ([2.60])
 AC_CONFIG_MACRO_DIRS([m4])
 AC_CANONICAL_TARGET()
