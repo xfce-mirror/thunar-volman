@@ -105,9 +105,9 @@ main (int    argc,
       /* fallback to deprecated function */
       gtk_widget_reparent (plug_child, plug);
 #endif
+      gtk_widget_destroy (dialog);
 
       gtk_main ();
-      gtk_widget_destroy (plug);
     }
 
   /* free xfconf resources */
