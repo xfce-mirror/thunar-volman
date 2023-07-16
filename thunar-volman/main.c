@@ -33,6 +33,8 @@
 
 #include <gudev/gudev.h>
 
+#include <sys/wait.h>
+
 #ifdef HAVE_LIBNOTIFY
 #include <thunar-volman/tvm-notify.h>
 #endif
