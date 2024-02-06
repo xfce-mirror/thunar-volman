@@ -5,22 +5,22 @@
 # Translators:
 # Cristian Marchi <cri.penta@gmail.com>, 2010,2013
 # Emanuele Petriglia <transifex@emanuelepetriglia.com>, 2018
-# Emanuele Petriglia <transifex@emanuelepetriglia.com>, 2020
+# Emanuele Petriglia <transifex@emanuelepetriglia.com>, 2020,2024
 # Enrico B. <enricobe@hotmail.com>, 2017
 # Fabio Riga <usul@aruba.it>, 2007
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 12:45+0200\n"
-"PO-Revision-Date: 2020-08-19 10:45+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Italian (http://www.transifex.com/xfce/thunar-volman/language/it/)\n"
+"POT-Creation-Date: 2023-05-30 00:47+0200\n"
+"PO-Revision-Date: 2013-07-02 20:37+0000\n"
+"Last-Translator: Emanuele Petriglia <transifex@emanuelepetriglia.com>, 2020,2024\n"
+"Language-Team: Italian (http://app.transifex.com/xfce/thunar-volman/language/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
@@ -28,7 +28,6 @@ msgstr "Il percorso sysfs del nuovo dispositivo aggiunto"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:103
 msgid "Configure management of removable drives and media"
 msgstr "Configurazione della gestione delle unità rimovibili e dei supporti"
 
@@ -41,21 +40,21 @@ msgstr "Stampa le informazioni di versione ed esce"
 msgid "Thunar Volume Manager"
 msgstr "Gestore dei volumi di Thunar"
 
-#: ../thunar-volman/main.c:121
+#: ../thunar-volman/main.c:115
 msgid "All rights reserved."
 msgstr "Tutti i diritti riservati."
 
-#: ../thunar-volman/main.c:122
+#: ../thunar-volman/main.c:116
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Segnalare i problemi a <%s>."
 
-#: ../thunar-volman/main.c:176
+#: ../thunar-volman/main.c:170
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Non c'è alcun dispositivo con il percorso sysfs \"%s\""
 
-#: ../thunar-volman/main.c:188
+#: ../thunar-volman/main.c:182
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Si deve specificare il percorso sysfs del nuovo dispositivo aggiunto con --device-added"
@@ -78,7 +77,7 @@ msgstr "Importare le foto o gestire la musica?"
 #: ../thunar-volman/tvm-block-device.c:379
 #: ../thunar-volman/tvm-block-device.c:426
 #: ../thunar-volman/tvm-block-device.c:508
-#: ../thunar-volman/tvm-block-device.c:838 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-block-device.c:837 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
 msgstr "Ig_nora"
@@ -194,42 +193,42 @@ msgstr "Il volume inserito è stato montato automaticamente"
 msgid "Unable to locate mount point"
 msgstr "Impossibile trovare il punto di montaggio"
 
-#: ../thunar-volman/tvm-block-device.c:748
+#: ../thunar-volman/tvm-block-device.c:747
 #, c-format
 msgid "Unable to mount the device"
 msgstr "Impossibile montare il dispositivo"
 
-#: ../thunar-volman/tvm-block-device.c:757
+#: ../thunar-volman/tvm-block-device.c:756
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
 msgstr "Impossibile individuare il volume corrispondente al dispositivo"
 
-#: ../thunar-volman/tvm-block-device.c:833
+#: ../thunar-volman/tvm-block-device.c:832
 msgid "Audio/Data CD"
 msgstr "CD audio o dati"
 
-#: ../thunar-volman/tvm-block-device.c:834
+#: ../thunar-volman/tvm-block-device.c:833
 msgid "The CD in the drive contains both music and files"
 msgstr "Il CD nell'unità contiene sia musica che file"
 
-#: ../thunar-volman/tvm-block-device.c:836
+#: ../thunar-volman/tvm-block-device.c:835
 msgid "Would you like to listen to music or browse the files?"
 msgstr "Ascoltare la musica o sfogliare i file?"
 
-#: ../thunar-volman/tvm-block-device.c:839
+#: ../thunar-volman/tvm-block-device.c:838
 msgid "_Browse Files"
 msgstr "Sfoglia i _file"
 
-#: ../thunar-volman/tvm-block-device.c:840
+#: ../thunar-volman/tvm-block-device.c:839
 msgid "_Play CD"
 msgstr "_Riproduci il CD"
 
-#: ../thunar-volman/tvm-block-device.c:928
+#: ../thunar-volman/tvm-block-device.c:927
 #, c-format
 msgid "Unknown block device type \"%s\""
 msgstr "Tipo di dispositivo di blocco \"%s\" sconosciuto"
 
-#: ../thunar-volman/tvm-device.c:139
+#: ../thunar-volman/tvm-device.c:141
 #, c-format
 msgid "Device type \"%s\" not supported"
 msgstr "Tipo di dispositivo \"%s\" non supportato"
@@ -292,7 +291,7 @@ msgstr "Inserito un CD vuoto"
 
 #: ../thunar-volman/tvm-run.c:201
 msgid "You have inserted a blank CD."
-msgstr "È stato Inserito un CD vuoto."
+msgstr "È stato inserito un CD vuoto."
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
@@ -351,189 +350,189 @@ msgstr "Impostazioni del gestore dei volumi di Thunar"
 msgid "Removable Drives and Media"
 msgstr "Unità rimovibili e supporti"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:237
+#: ../thunar-volman-settings/tvm-command-entry.c:203
 msgid "Select an Application"
 msgstr "Selezionare un'applicazione"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:240
+#: ../thunar-volman-settings/tvm-command-entry.c:206
 msgid "Cancel"
-msgstr "Cancella"
+msgstr "Annulla"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:241
+#: ../thunar-volman-settings/tvm-command-entry.c:207
 msgid "Select Application"
-msgstr "Seleziona Applicazione"
+msgstr "Seleziona applicazione"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:248
+#: ../thunar-volman-settings/tvm-command-entry.c:214
 msgid "All Files"
 msgstr "Tutti i file"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:253
+#: ../thunar-volman-settings/tvm-command-entry.c:219
 msgid "Executable Files"
 msgstr "File eseguibili"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:268
+#: ../thunar-volman-settings/tvm-command-entry.c:234
 msgid "Perl Scripts"
 msgstr "Script di Perl"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:274
+#: ../thunar-volman-settings/tvm-command-entry.c:240
 msgid "Python Scripts"
 msgstr "Script di Python"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:280
+#: ../thunar-volman-settings/tvm-command-entry.c:246
 msgid "Ruby Scripts"
 msgstr "Script di Ruby"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:286
+#: ../thunar-volman-settings/tvm-command-entry.c:252
 msgid "Shell Scripts"
-msgstr "Script per la Shell"
+msgstr "Script per la shell"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:114
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:111
 msgid "Help"
 msgstr "Aiuto"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:124
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:121
 msgid "Close"
 msgstr "Chiudi"
 
 #. Storage
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:140
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:137
 msgid "Storage"
 msgstr "Archiviazione"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:151
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:148
 msgid "Removable Storage"
 msgstr "Dispositivi di archiviazione rimovibili"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:170
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:167
 msgid "_Mount removable drives when hot-plugged"
 msgstr "_Monta i dispositivi rimovibili collegati"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:177
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "Mount removable media when _inserted"
 msgstr "Monta i dischi rimovibili ins_eriti"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:181
 msgid "B_rowse removable media when inserted"
 msgstr "S_foglia i dischi rimovibili inseriti"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:191
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:188
 msgid "_Auto-run programs on new drives and media"
 msgstr "Esegui au_tomaticamente i programmi sulle nuove unità o dischi"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:197
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:194
 msgid "Auto-open files on new drives and media"
 msgstr "Apri automaticamente i file sulle nuove unità o dischi"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:208
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:205
 msgid "Blank CDs and DVDs"
 msgstr "CD e DVD vuoti"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:227
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:224
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "Ma_sterizza un CD o DVD quando viene inserito un disco vuoto"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:237
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:234
 msgid "Command for _Data CDs:"
 msgstr "Comando per i CD _dati:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:246
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:243
 msgid "Command for A_udio CDs:"
 msgstr "Comando per i CD a_udio:"
 
 #. Multimedia
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:261
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:258
 msgid "Multimedia"
 msgstr "Contenuti multimediali"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:272
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:269
 msgid "Audio CDs"
 msgstr "CD audio"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:291
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:288
 msgid "Play _audio CDs when inserted"
 msgstr "Riproduci i CD _audio quando inseriti"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:297
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:422
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:470
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:518
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:294
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:419
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:467
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:515
 msgid "_Command:"
 msgstr "C_omando:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:310
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:307
 msgid "Video CDs/DVDs/Blu-rays"
 msgstr "Video CD/DVD/Blu-ray"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:326
 msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
 msgstr "Riproduci i CD, DVD e Blu-ray video quando inseriti"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:336
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:374
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:557
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:333
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:371
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:554
 msgid "C_ommand:"
 msgstr "Co_mando:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:349
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:346
 msgid "Portable Music Players"
 msgstr "Riproduttori musicali portatili"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:365
 msgid "Play _music files when connected"
 msgstr "Riproduci i file m_usicali quando collegato"
 
 #. Cameras
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:385
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:382
 msgid "Cameras"
 msgstr "Fotocamere"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:396
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:393
 msgid "Digital Cameras"
 msgstr "Fotocamere digitali"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:412
 msgid "Import digital photographs when connected"
 msgstr "Importa le fotografie digitali quando collegato"
 
 #. Printers
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:433
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:444
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:430
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:441
 msgid "Printers"
 msgstr "Stampanti"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:463
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:460
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Esegui automaticamente un programma alla connessione di una _stampante"
 
 #. Input Devices
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:481
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:478
 msgid "Input Devices"
 msgstr "Dispositivi di input"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:489
 msgid "Keyboards"
 msgstr "Tastiere"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:508
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Esegui automaticamente un programma alla connessione di una _tastiera USB"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:531
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Mice"
 msgstr "Mouse"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:547
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Esegui automaticamente un programma alla connessione di un mo_use USB"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:567
 msgid "Tablet"
 msgstr "Tavoletta"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:586
 msgid "Automatically run a program when a _tablet is connected"
 msgstr "Esegui automaticamente un programma alla connessione di una ta_voletta"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Com_mand:"
 msgstr "Com_ando:"
