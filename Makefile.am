@@ -2,9 +2,9 @@ ACLOCAL_AMFLAGS = -I m4 ${ACLOCAL_FLAGS}
 
 SUBDIRS =								\
 	icons								\
-	po								\
 	thunar-volman							\
-	thunar-volman-settings
+	thunar-volman-settings						\
+	po
 
 distclean-local:
 	rm -rf *.cache *~
@@ -23,15 +23,6 @@ dist-hook: ChangeLog
 
 EXTRA_DIST =								\
 	README.md							\
-	THANKS								\
-	intltool-extract.in						\
-	intltool-merge.in						\
-	intltool-update.in
-
-DISTCLEANFILES =							\
-	intltool-extract						\
-	intltool-merge							\
-	intltool-update							\
-	po/.intltool-merge-cache.lock
+	THANKS
 
 # vi:set ts=8 sw=8 noet ai nocindent syntax=automake:
