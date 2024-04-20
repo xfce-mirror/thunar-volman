@@ -89,9 +89,10 @@ tvm_input_device_added (TvmContext *context)
     }
   else if (is_mouse || g_strcmp0 (id_class, "mouse") == 0)
     {
-      if (g_strstr_len (id_model, -1, "Tablet") != NULL 
-          || g_strstr_len (id_model, -1, "TABLET") != NULL
-          || g_strstr_len (id_model, -1, "tablet") != NULL)
+      if (id_model != NULL
+          && (g_strstr_len (id_model, -1, "Tablet") != NULL
+              || g_strstr_len (id_model, -1, "TABLET") != NULL
+              || g_strstr_len (id_model, -1, "tablet") != NULL))
         {
           /* we have a tablet that can be used as a mouse */
           enabled_property = "/autotablet/enabled";
