@@ -42,6 +42,7 @@ static gint opt_socket_id = 0;
 GOptionEntry option_entries[] =
 {
   { "socket-id", 's', G_OPTION_FLAG_IN_MAIN, G_OPTION_ARG_INT, &opt_socket_id, N_("Settings manager socket"), N_("SOCKET ID") },
+  { NULL }
 };
 
 
