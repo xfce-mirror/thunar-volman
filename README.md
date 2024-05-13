@@ -18,7 +18,7 @@ use GNOME at the office).
 
 ### Homepage
 
-[Thunar-volman documentation](https://docs.xfce.org/xfce/thunar-volman/start)
+[Thunar-volman documentation](https://docs.xfce.org/xfce/thunar/thunar-volman)
 
 ### Changelog
 
