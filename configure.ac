@@ -19,17 +19,7 @@ dnl Boston, MA 02110-1301, USA.
 dnl ***************************
 dnl *** Version information ***
 dnl ***************************
-m4_define([tvm_version_major], [4])
-m4_define([tvm_version_minor], [18])
-m4_define([tvm_version_micro], [0])
-m4_define([tvm_version_build], [@REVISION@])
-m4_define([tvm_version_tag], [git])
-m4_define([tvm_version], [tvm_version_major().tvm_version_minor().tvm_version_micro()ifelse(tvm_version_tag(), [git], [tvm_version_tag()-tvm_version_build()], [tvm_version_tag()])])
-
-dnl *******************************************
-dnl *** Debugging support for GIT snapshots ***
-dnl *******************************************
-m4_define([tvm_debug_default], [ifelse(tvm_version_tag(), [git], [full], [minimum])])
+XDT_VERSION_INIT([4.18.0], [git])
 
 dnl ***************************
 dnl *** Initialize autoconf ***
@@ -38,11 +28,11 @@ AC_COPYRIGHT([Copyright (c) 2004-2022 The Thunar development team. All rights re
         
 Written for thunar-volman by Benedikt Meurer <benny@xfce.org>
 and Jannis Pohlmann <jannis@xfce.org>.])
-AC_INIT([thunar-volman], [tvm_version], [https://gitlab.xfce.org/xfce/thunar-volman])
-AC_PREREQ([2.60])
+AC_INIT([thunar-volman], [xdt_version], [https://gitlab.xfce.org/xfce/thunar-volman])
+AC_PREREQ([2.69])
 AC_CONFIG_MACRO_DIRS([m4])
 AC_CANONICAL_TARGET()
-AC_REVISION([tvm_version_build])
+AC_REVISION([xdt_version_build])
 
 dnl ***************************
 dnl *** Initialize automake ***
@@ -114,16 +104,16 @@ dnl ***************************************************
 dnl *** define a version string for the help dialog ***
 dnl ***************************************************
 m4_append([tvm_version_help], ["])
-m4_append([tvm_version_help], [tvm_version_major])
+m4_append([tvm_version_help], [xdt_version_major])
 m4_append([tvm_version_help], [.])
-m4_append([tvm_version_help], [tvm_version_minor])
+m4_append([tvm_version_help], [xdt_version_minor])
 m4_append([tvm_version_help], ["])
 AC_DEFINE([TVM_VERSION_HELP], [tvm_version_help], [Version string for help dialog])
 
 dnl ***********************************
 dnl *** Check for debugging support ***
 dnl ***********************************
-XDT_FEATURE_DEBUG()
+XDT_FEATURE_DEBUG([xdt_debug_default])
 
 dnl **************************************
 dnl *** Check for linker optimizations ***
