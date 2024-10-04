@@ -65,15 +65,8 @@ tvm_notify (const gchar *icon,
         }
     }
 
-#ifdef NOTIFY_CHECK_VERSION
-#if NOTIFY_CHECK_VERSION (0, 7, 0)
   notification = notify_notification_new (summary, message, icon);
-#else
-  notification = notify_notification_new (summary, message, icon, NULL);
-#endif
-#else
-  notification = notify_notification_new (summary, message, icon, NULL);
-#endif
+
   /* don't log notification (yes, the logic seems inverted but it's right) */
   notify_notification_set_hint (notification, "transient", g_variant_new_boolean (FALSE));
   notify_notification_set_urgency (notification, NOTIFY_URGENCY_NORMAL);

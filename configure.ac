@@ -90,14 +90,14 @@ XDT_CHECK_PACKAGE([GIO], [gio-2.0], [2.72.0])
 XDT_CHECK_PACKAGE([GTHREAD], [gthread-2.0], [2.72.0])
 XDT_CHECK_PACKAGE([GTK], [gtk+-3.0], [3.24.0])
 XDT_CHECK_PACKAGE([GUDEV], [gudev-1.0], [145])
-XDT_CHECK_PACKAGE([LIBXFCE4UI], [libxfce4ui-2], [4.12.0])
+XDT_CHECK_PACKAGE([LIBXFCE4UI], [libxfce4ui-2], [4.16.0])
 XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0], [4.12.0])
 XDT_CHECK_PACKAGE([XFCONF], [libxfconf-0], [4.12.0])
 
 dnl *******************************************************
 dnl *** Optional mount notification support (libnotify) ***
 dnl *******************************************************
-XDT_CHECK_OPTIONAL_PACKAGE([LIBNOTIFY], [libnotify], [0.4.0], [notifications], 
+XDT_CHECK_OPTIONAL_PACKAGE([LIBNOTIFY], [libnotify], [0.7.0], [notifications],
                            [Notifications support], [yes])
 
 dnl ***************************************************
