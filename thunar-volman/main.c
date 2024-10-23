@@ -114,6 +114,8 @@ main (int    argc,
                xfce_version_string ());
       g_print ("%s\n", "Copyright (c) 2004-2007 Benedikt Meurer <benny@xfce.org>");
       g_print ("%s\n", "Copyright (c) 2010-2011 Jannis Pohlmann <jannis@xfce.org>");
+      g_print ("%s\n", "Copyright (c) 2012-2024 The Xfce development team");
+
       g_print ("\n%s\n\n", _("All rights reserved."));
       g_print (_("Please report bugs to <%s>."), PACKAGE_BUGREPORT);
       g_print ("\n");

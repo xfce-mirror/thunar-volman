@@ -24,7 +24,7 @@ XDT_VERSION_INIT([4.18.0], [git])
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
-AC_COPYRIGHT([Copyright (c) 2004-2022 The Thunar development team. All rights reserved.
+AC_COPYRIGHT([Copyright (c) 2004-2024 The Thunar development team. All rights reserved.
         
 Written for thunar-volman by Benedikt Meurer <benny@xfce.org>
 and Jannis Pohlmann <jannis@xfce.org>.])
