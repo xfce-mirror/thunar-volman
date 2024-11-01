@@ -1,3 +1,21 @@
+4.19.0 (2024-11-01)
+======
+- build: Fix deprecation warning
+- build: Bump requirements for Xfce 4.20
+- build: Use XDT_VERSION_INIT and get rid of configure.ac.in
+- README: correct documentation URL
+- settings: make `option_entries` NULL-terminated
+- tvm-input-device: Avoid criticals when ID_MODEL missing (#25)
+- I18n: Update po/LINGUAS list
+- build: Get rid of intltool
+- Add icons at missing sizes, clean up SVG metadata
+- Declare use of function (fixes #24)
+- settings: Fix critical warning when closing embedded dialog
+- Update bug report address
+- Translation Updates:
+  Asturian, Croatian, English (Canada), Greek, Italian, Polish,
+  Portuguese, Russian
+
 4.18.0 (2022-12-15)
 ======
 - build: Bump requirements for Xfce 4.18
