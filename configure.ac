@@ -19,7 +19,7 @@ dnl Boston, MA 02110-1301, USA.
 dnl ***************************
 dnl *** Version information ***
 dnl ***************************
-XDT_VERSION_INIT([4.19.0])
+XDT_VERSION_INIT([4.19.0], [git])
 
 dnl ***************************
 dnl *** Initialize autoconf ***
