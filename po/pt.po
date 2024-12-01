@@ -3,17 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Hugo Carvalho <hugokarvalho@hotmail.com>, 2023
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2023-2024
 # José Vieira <jvieira33@sapo.pt>, 2017-2018,2020
 # Nuno Miguel <nunomgue@gmail.com>, 2013,2018-2019
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-28 14:59+0100\n"
+"POT-Creation-Date: 2023-05-30 00:47+0200\n"
 "PO-Revision-Date: 2013-07-02 20:37+0000\n"
-"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>, 2023\n"
-"Language-Team: Portuguese (http://www.transifex.com/xfce/thunar-volman/language/pt/)\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>, 2023-2024\n"
+"Language-Team: Portuguese (http://app.transifex.com/xfce/thunar-volman/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -50,7 +50,7 @@ msgstr "Por favor, reporte os erros para <%s>."
 #: ../thunar-volman/main.c:170
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr "Não existe qualquer dispositivo no caminho \"%s\" do sysfs "
+msgstr "Não existe qualquer dispositivo no caminho \"%s\" do sysfs"
 
 #: ../thunar-volman/main.c:182
 #, c-format
