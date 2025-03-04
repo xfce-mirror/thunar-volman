@@ -82,3 +82,6 @@ thunar_volman_LDADD =							\
 	$(LIBXFCE4UI_LIBS)						\
 	$(LIBXFCE4UTIL_LIBS)						\
 	$(XFCONF_LIBS)
+
+EXTRA_DIST = \
+	meson.build

@@ -21,8 +21,11 @@ ChangeLog: Makefile
 
 dist-hook: ChangeLog
 
-EXTRA_DIST =								\
+EXTRA_DIST =							\
 	README.md							\
+	xfce-revision.h.in					\
+	meson.build							\
+	meson_options.txt					\
 	THANKS
 
 # vi:set ts=8 sw=8 noet ai nocindent syntax=automake:
