@@ -62,17 +62,15 @@ thunar_volman_settings_LDADD =						\
 	$(XFCONF_LIBS)
 
 desktopdir = $(datadir)/applications
-desktop_in_in_files = thunar-volman-settings.desktop.in.in
-desktop_in_files = $(desktop_in_in_files:.desktop.in.in=.desktop.in)
-%.desktop.in: %.desktop.in.in
-	sed -e "s,\@libexecdir\@,$(libexecdir),g" < $< > $@
+desktop_in_files = thunar-volman-settings.desktop.in
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 %.desktop: %.desktop.in
 	$(AM_V_GEN)$(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
 
 EXTRA_DIST =								\
-	$(desktop_in_in_files)
+	$(desktop_in_files)					\
+	meson.build
 
 DISTCLEANFILES =							\
 	$(desktop_in_files)						\

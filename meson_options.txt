@@ -1,0 +1,6 @@
+option(
+  'notifications',
+  type: 'feature',
+  value: 'auto',
+  description: 'Support for mount notifications',
+)
