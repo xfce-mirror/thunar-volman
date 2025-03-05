@@ -29,7 +29,7 @@ volman_settings = executable(
 )
 
 i18n.merge_file(
-    input: 'thunar-volman-settings.desktop.in.in',
+    input: 'thunar-volman-settings.desktop.in',
     output: 'thunar-volman-settings.desktop',
     po_dir: '..' / 'po',
     type: 'desktop',
