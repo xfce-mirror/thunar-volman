@@ -63,8 +63,6 @@ thunar_volman_settings_LDADD =						\
 
 desktopdir = $(datadir)/applications
 desktop_in_files = thunar-volman-settings.desktop.in
-%.desktop.in: %.desktop.in.in
-	sed -e "s,\@libexecdir\@,$(libexecdir),g" < $< > $@
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 %.desktop: %.desktop.in
