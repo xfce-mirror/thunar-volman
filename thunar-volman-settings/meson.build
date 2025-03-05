@@ -1,11 +1,11 @@
 volman_settings_sources = [
+  '../thunar-volman/tvm-pango-extensions.c',
+  '../thunar-volman/tvm-pango-extensions.h',
   'main.c',
   'tvm-command-entry.c',
   'tvm-command-entry.h',
   'tvm-preferences-dialog.c',
   'tvm-preferences-dialog.h',
-  '../thunar-volman/tvm-pango-extensions.c',
-  '../thunar-volman/tvm-pango-extensions.h',
 ]
 
 volman_settings = executable(

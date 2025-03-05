@@ -70,9 +70,9 @@ extra_cflags_check = [
 
 headers = [
   'sys/stat.h',
+  'memory.h',
   'stdarg.h',
   'stdlib.h',
-  'memory.h',
   'string.h',
 ]
 foreach header : headers
