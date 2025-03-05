@@ -20,11 +20,12 @@ dnl ***************************
 dnl *** Version information ***
 dnl ***************************
 XDT_VERSION_INIT([4.20.0], [git])
+m4_define([copyright_year], [2025])
 
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
-AC_COPYRIGHT([Copyright (c) 2004-2024 The Thunar development team. All rights reserved.
+AC_COPYRIGHT([Copyright (c) 2004-copyright_year() The Xfce development team. All rights reserved.
         
 Written for thunar-volman by Benedikt Meurer <benny@xfce.org>
 and Jannis Pohlmann <jannis@xfce.org>.])
@@ -33,6 +34,10 @@ AC_PREREQ([2.69])
 AC_CONFIG_MACRO_DIRS([m4])
 AC_CANONICAL_TARGET()
 AC_REVISION([xdt_version_build])
+AC_DEFINE([VERSION_FULL], [PACKAGE_VERSION], [Alias for VERSION and PACKAGE_VERSION for meson compatibility])
+COPYRIGHT_YEAR=copyright_year()
+AC_DEFINE_UNQUOTED([COPYRIGHT_YEAR], ["$COPYRIGHT_YEAR"], [Copyright year])
+AC_SUBST([COPYRIGHT_YEAR])
 
 dnl ***************************
 dnl *** Initialize automake ***
@@ -84,15 +89,15 @@ AM_GNU_GETTEXT_VERSION([0.19.8])
 dnl ***********************************
 dnl *** Check for required packages ***
 dnl ***********************************
-XDT_CHECK_PACKAGE([EXO], [exo-2], [0.10.0])
+XDT_CHECK_PACKAGE([EXO], [exo-2], [4.18.0])
 XDT_CHECK_PACKAGE([GLIB], [glib-2.0], [2.72.0])
 XDT_CHECK_PACKAGE([GIO], [gio-2.0], [2.72.0])
 XDT_CHECK_PACKAGE([GTHREAD], [gthread-2.0], [2.72.0])
 XDT_CHECK_PACKAGE([GTK], [gtk+-3.0], [3.24.0])
 XDT_CHECK_PACKAGE([GUDEV], [gudev-1.0], [145])
-XDT_CHECK_PACKAGE([LIBXFCE4UI], [libxfce4ui-2], [4.16.0])
-XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0], [4.12.0])
-XDT_CHECK_PACKAGE([XFCONF], [libxfconf-0], [4.12.0])
+XDT_CHECK_PACKAGE([LIBXFCE4UI], [libxfce4ui-2], [4.18.0])
+XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0], [4.18.0])
+XDT_CHECK_PACKAGE([XFCONF], [libxfconf-0], [4.18.0])
 
 dnl *******************************************************
 dnl *** Optional mount notification support (libnotify) ***

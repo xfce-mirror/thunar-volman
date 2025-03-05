@@ -11,6 +11,6 @@ thunar-volman/tvm-run.c
 thunar-volman/tvm-usb-device.c
 
 thunar-volman-settings/main.c
-thunar-volman-settings/thunar-volman-settings.desktop.in.in
+thunar-volman-settings/thunar-volman-settings.desktop.in
 thunar-volman-settings/tvm-command-entry.c
 thunar-volman-settings/tvm-preferences-dialog.c
