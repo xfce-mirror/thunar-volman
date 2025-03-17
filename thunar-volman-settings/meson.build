@@ -19,7 +19,6 @@ volman_settings = executable(
     glib,
     gthread,
     gtk,
-    exo,
     libxfce4util,
     libxfce4ui,
     xfconf,

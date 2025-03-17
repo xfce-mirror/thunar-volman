@@ -573,7 +573,7 @@ tvm_block_device_autobrowse (TvmContext *context,
   if (autobrowse) 
     {
       /* try to open the mount point in the default File Manager */
-      result = tvm_run_command (context, mount, "exo-open --launch FileManager %m", &err);
+      result = tvm_run_command (context, mount, "xfce-open --launch FileManager %m", &err);
     }
 
   /* forward errors to the caller */

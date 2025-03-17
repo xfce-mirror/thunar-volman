@@ -30,10 +30,8 @@
 #endif
 
 #include <glib.h>
-
 #include <gtk/gtk.h>
-
-#include <exo/exo.h>
+#include <libxfce4util/libxfce4util.h>
 
 #include <thunar-volman-settings/tvm-command-entry.h>
 
@@ -87,7 +85,7 @@ tvm_command_entry_class_init (TvmCommandEntryClass *klass)
                                                         "command",
                                                         "command",
                                                         NULL,
-                                                        EXO_PARAM_READWRITE));
+                                                        G_PARAM_READWRITE | G_PARAM_STATIC_STRINGS));
 }
 
 
@@ -379,4 +377,3 @@ tvm_command_entry_set_command (TvmCommandEntry *command_entry,
   command_entry->command = g_strdup (command);
   g_object_notify (G_OBJECT (command_entry), "command");
 }
-
