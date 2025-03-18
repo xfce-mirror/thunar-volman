@@ -35,7 +35,6 @@ volman = executable(
     gio,
     gudev,
     gtk,
-    exo,
     libxfce4util,
     libxfce4ui,
     xfconf,

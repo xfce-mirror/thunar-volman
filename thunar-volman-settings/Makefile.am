@@ -39,7 +39,6 @@ thunar_volman_settings_SOURCES =					\
 	../thunar-volman/tvm-pango-extensions.h
 
 thunar_volman_settings_CFLAGS =						\
-	$(EXO_CFLAGS)							\
 	$(GLIB_CFLAGS)							\
 	$(GTHREAD_CFLAGS)						\
 	$(GTK_CFLAGS)							\
@@ -53,7 +52,6 @@ thunar_volman_settings_LDFLAGS =					\
 	$(PLATFORM_LDFLAGS)
 
 thunar_volman_settings_LDADD =						\
-	$(EXO_LIBS)							\
 	$(GLIB_LIBS)							\
 	$(GTHREAD_LIBS)							\
 	$(GTK_LIBS)							\

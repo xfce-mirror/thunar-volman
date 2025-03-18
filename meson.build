@@ -24,6 +24,7 @@ dependency_versions = {
   'gudev': '>= 145',
   'gtk': '>= 3.24.0',
   'xfce4': '>= 4.18.0',
+  'libxfce4ui': '>= 4.21.0',
   'libnotify': '>= 0.7.0',
 }
 
@@ -32,8 +33,7 @@ gthread = dependency('gthread-2.0', version: dependency_versions['glib'])
 gio = dependency('gio-2.0', version: dependency_versions['glib'])
 gudev = dependency('gudev-1.0', version: dependency_versions['gudev'])
 gtk = dependency('gtk+-3.0', version: dependency_versions['gtk'])
-exo = dependency('exo-2', version: dependency_versions['xfce4'])
-libxfce4ui = dependency('libxfce4ui-2', version: dependency_versions['xfce4'])
+libxfce4ui = dependency('libxfce4ui-2', version: dependency_versions['libxfce4ui'])
 libxfce4util = dependency('libxfce4util-1.0', version: dependency_versions['xfce4'])
 xfconf = dependency('libxfconf-0', version: dependency_versions['xfce4'])
 
