@@ -1,0 +1,535 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Jakub Fabijan <jakubfabijan@tuta.io>, 2025
+# Robin van der Vliet <info@robinvandervliet.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: Thunar-volman\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-05-30 00:47+0200\n"
+"PO-Revision-Date: 2013-07-02 20:37+0000\n"
+"Last-Translator: Jakub Fabijan <jakubfabijan@tuta.io>, 2025\n"
+"Language-Team: Esperanto (http://app.transifex.com/xfce/thunar-volman/language/eo/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: eo\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../thunar-volman/main.c:59
+msgid "The sysfs path of the newly added device"
+msgstr "La sysfs-vojo de la nove aldonita aparato"
+
+#: ../thunar-volman/main.c:60
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
+msgid "Configure management of removable drives and media"
+msgstr "Konfiguri administradon de demeteblaj diskoj kaj plurmedioj"
+
+#: ../thunar-volman/main.c:61
+msgid "Print version information and exit"
+msgstr "Presi informojn pri versio kaj halti"
+
+#. setup application name
+#: ../thunar-volman/main.c:93
+msgid "Thunar Volume Manager"
+msgstr "Thunar - portila administrilo"
+
+#: ../thunar-volman/main.c:115
+msgid "All rights reserved."
+msgstr "Ĉiuj rajtoj rezervitaj."
+
+#: ../thunar-volman/main.c:116
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "Bonvolu raporti cimojn al <%s>."
+
+#: ../thunar-volman/main.c:170
+#, c-format
+msgid "There is no device with the sysfs path \"%s\""
+msgstr "Ne estas aparato kun la sysfs-vojo \"%s\""
+
+#: ../thunar-volman/main.c:182
+#, c-format
+msgid "Must specify the sysfs path of new devices with --device-added"
+msgstr "Vi devas specifi la sysfs-vojon de la novaj aparatoj per --device-added"
+
+#. ...so we need to prompt what to do
+#: ../thunar-volman/tvm-block-device.c:204
+msgid "Photos and Music"
+msgstr "Fotoj kaj muziko"
+
+#: ../thunar-volman/tvm-block-device.c:205
+msgid "Photos were found on your portable music player"
+msgstr "Fotoj estis trovitaj ĉe via portebla muzikludilo"
+
+#: ../thunar-volman/tvm-block-device.c:206
+msgid "Would you like to import the photos or manage the music?"
+msgstr "Ĉu vi volas importi la fotojn aŭ administri la muzikon?"
+
+#: ../thunar-volman/tvm-block-device.c:208
+#: ../thunar-volman/tvm-block-device.c:277
+#: ../thunar-volman/tvm-block-device.c:379
+#: ../thunar-volman/tvm-block-device.c:426
+#: ../thunar-volman/tvm-block-device.c:508
+#: ../thunar-volman/tvm-block-device.c:837 ../thunar-volman/tvm-run.c:192
+#: ../thunar-volman/tvm-run.c:203
+msgid "Ig_nore"
+msgstr "Ig_nori"
+
+#: ../thunar-volman/tvm-block-device.c:209
+#: ../thunar-volman/tvm-block-device.c:278
+msgid "Import _Photos"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:210
+msgid "Manage _Music"
+msgstr "Administri _muzikon"
+
+#. ask the user to import photos
+#: ../thunar-volman/tvm-block-device.c:273
+msgid "Photo Import"
+msgstr "Importi fotojn"
+
+#: ../thunar-volman/tvm-block-device.c:274
+msgid "A photo card has been detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:275
+msgid ""
+"There are photos on the card. Would you like to add these photos to your "
+"album?"
+msgstr ""
+
+#. prompt the user to execute the file
+#. prompt the user to execute this file
+#: ../thunar-volman/tvm-block-device.c:374
+#: ../thunar-volman/tvm-block-device.c:421
+#, c-format
+msgid "Would you like to allow \"%s\" to run?"
+msgstr "Ĉu vi volas permesi \"%s\" lanĉi?"
+
+#: ../thunar-volman/tvm-block-device.c:377
+#: ../thunar-volman/tvm-block-device.c:424
+msgid "Auto-Run Confirmation"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:378
+#: ../thunar-volman/tvm-block-device.c:425
+msgid "Auto-Run capability detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:380
+#: ../thunar-volman/tvm-block-device.c:427
+msgid "_Allow Auto-Run"
+msgstr ""
+
+#. prompt the user whether to autoopen this file
+#: ../thunar-volman/tvm-block-device.c:503
+#, c-format
+msgid "Would you like to open \"%s\"?"
+msgstr "Ĉu vi volas malfermi \"%s\"?"
+
+#: ../thunar-volman/tvm-block-device.c:506
+msgid "Auto-Open Confirmation"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:507
+msgid "Auto-Open capability detected"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:509
+msgid "_Open"
+msgstr "_Malfermi"
+
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:617
+msgid "CD mounted"
+msgstr "KD muntita"
+
+#: ../thunar-volman/tvm-block-device.c:618
+msgid "The CD was mounted automatically"
+msgstr "La KD estis muntita aŭtomate"
+
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:623
+msgid "DVD mounted"
+msgstr "DVD muntita"
+
+#: ../thunar-volman/tvm-block-device.c:624
+msgid "The DVD was mounted automatically"
+msgstr "La DVD estis muntita aŭtomate"
+
+#. generate notification info
+#: ../thunar-volman/tvm-block-device.c:629
+msgid "Blu-ray mounted"
+msgstr "Blu-ray muntita"
+
+#: ../thunar-volman/tvm-block-device.c:630
+msgid "The Blu-ray was mounted automatically"
+msgstr "La Blu-ray estis muntita aŭtomate"
+
+#: ../thunar-volman/tvm-block-device.c:640
+msgid "Volume mounted"
+msgstr "Portilo muntita"
+
+#: ../thunar-volman/tvm-block-device.c:643
+#, c-format
+msgid "The volume \"%s\" was mounted automatically"
+msgstr "La portilo \"%s\" estis muntita aŭtomate"
+
+#: ../thunar-volman/tvm-block-device.c:648
+#, c-format
+msgid "The inserted volume was mounted automatically"
+msgstr "La enmetita portilo estis muntita aŭtomate"
+
+#: ../thunar-volman/tvm-block-device.c:702
+#, c-format
+msgid "Unable to locate mount point"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:747
+#, c-format
+msgid "Unable to mount the device"
+msgstr "Neeblas munti la aparaton"
+
+#: ../thunar-volman/tvm-block-device.c:756
+#, c-format
+msgid "Could not detect the volume corresponding to the device"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:832
+msgid "Audio/Data CD"
+msgstr "Aŭdio/datum-KD"
+
+#: ../thunar-volman/tvm-block-device.c:833
+msgid "The CD in the drive contains both music and files"
+msgstr "La KD en la KD-ingo enhavas kaj muzikon kaj doserojn"
+
+#: ../thunar-volman/tvm-block-device.c:835
+msgid "Would you like to listen to music or browse the files?"
+msgstr "Ĉu vi volas aŭskulti muzikon aŭ foliumi la dosierojn?"
+
+#: ../thunar-volman/tvm-block-device.c:838
+msgid "_Browse Files"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:839
+msgid "_Play CD"
+msgstr ""
+
+#: ../thunar-volman/tvm-block-device.c:927
+#, c-format
+msgid "Unknown block device type \"%s\""
+msgstr "Nekonata tipo de bloka dosiero: \"%s\""
+
+#: ../thunar-volman/tvm-device.c:141
+#, c-format
+msgid "Device type \"%s\" not supported"
+msgstr "Aparata tipo \"%s\" ne subtenata"
+
+#: ../thunar-volman/tvm-input-device.c:75
+msgid "Keyboard detected"
+msgstr "Klavaro detektita"
+
+#: ../thunar-volman/tvm-input-device.c:76
+msgid "A keyboard was detected"
+msgstr "Klavaro estis detektita"
+
+#: ../thunar-volman/tvm-input-device.c:87
+#: ../thunar-volman/tvm-input-device.c:101
+msgid "Tablet detected"
+msgstr "Tabuleto detektita"
+
+#: ../thunar-volman/tvm-input-device.c:88
+#: ../thunar-volman/tvm-input-device.c:102
+msgid "A graphics tablet was detected"
+msgstr "Desegna tabuleto estis detektita"
+
+#: ../thunar-volman/tvm-input-device.c:111
+msgid "Mouse detected"
+msgstr "Muso detektita"
+
+#: ../thunar-volman/tvm-input-device.c:112
+msgid "A mouse was detected"
+msgstr "Muso estis detektita"
+
+#: ../thunar-volman/tvm-input-device.c:141
+#, c-format
+msgid "Unsupported input device type \"%s\""
+msgstr "Nesubtenata tipo de eniga aparato: \"%s\""
+
+#: ../thunar-volman/tvm-run.c:171
+#, c-format
+msgid "Autoburning of blank CDs and DVDs is disabled"
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:189
+msgid "Blank DVD inserted"
+msgstr "Malplena DVD enmetita"
+
+#: ../thunar-volman/tvm-run.c:190
+msgid "You have inserted a blank DVD."
+msgstr "Vi enmetis malplenan DVD-on."
+
+#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
+msgid "What would you like to do?"
+msgstr "Kion vi volas fari?"
+
+#: ../thunar-volman/tvm-run.c:193
+msgid "Burn _DVD"
+msgstr "Registri _DVD-on"
+
+#: ../thunar-volman/tvm-run.c:200
+msgid "Blank CD inserted"
+msgstr "Malplena KD enmetita"
+
+#: ../thunar-volman/tvm-run.c:201
+msgid "You have inserted a blank CD."
+msgstr "Vi enmetis malplenan KD-on."
+
+#: ../thunar-volman/tvm-run.c:204
+msgid "Burn _Data CD"
+msgstr "Registri _datum-KD-on."
+
+#: ../thunar-volman/tvm-run.c:205
+msgid "Burn _Audio CD"
+msgstr "Registri _aŭdio-KD-on"
+
+#: ../thunar-volman/tvm-run.c:229
+#, c-format
+msgid "The burn command may not be empty"
+msgstr ""
+
+#: ../thunar-volman/tvm-run.c:268
+#, c-format
+msgid "The CD player command is undefined"
+msgstr "La komando de la KD-ludilo estas nedifinita"
+
+#: ../thunar-volman/tvm-usb-device.c:62
+msgid "Camera detected"
+msgstr "Fotilo detektita"
+
+#: ../thunar-volman/tvm-usb-device.c:63
+msgid "A photo camera was detected"
+msgstr "Fotilo estis detektita"
+
+#: ../thunar-volman/tvm-usb-device.c:71
+msgid "Printer detected"
+msgstr "Presilo detektita"
+
+#: ../thunar-volman/tvm-usb-device.c:72
+msgid "A USB printer was detected"
+msgstr "USB-presilo estis detektita"
+
+#: ../thunar-volman/tvm-usb-device.c:100
+#, c-format
+msgid "Unsupported USB device type \"%s\""
+msgstr "Nesubtenata tipo de USB-aparato \"%s\""
+
+#: ../thunar-volman-settings/main.c:44
+msgid "Settings manager socket"
+msgstr ""
+
+#: ../thunar-volman-settings/main.c:44
+msgid "SOCKET ID"
+msgstr ""
+
+#. setup application name
+#: ../thunar-volman-settings/main.c:60
+msgid "Thunar Volume Manager Settings"
+msgstr ""
+
+#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:101
+msgid "Removable Drives and Media"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-command-entry.c:203
+msgid "Select an Application"
+msgstr "Elektu aplikaĵon"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:206
+msgid "Cancel"
+msgstr "Nuligi"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:207
+msgid "Select Application"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-command-entry.c:214
+msgid "All Files"
+msgstr "Ĉiuj dosieroj"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:219
+msgid "Executable Files"
+msgstr "Lanĉeblaj dosieroj"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:234
+msgid "Perl Scripts"
+msgstr "Perl-skriptoj"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:240
+msgid "Python Scripts"
+msgstr "Python-skriptoj"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:246
+msgid "Ruby Scripts"
+msgstr "Ruby-skriptoj"
+
+#: ../thunar-volman-settings/tvm-command-entry.c:252
+msgid "Shell Scripts"
+msgstr "Shell-skriptoj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:111
+msgid "Help"
+msgstr "Helpo"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:121
+msgid "Close"
+msgstr "Fermi"
+
+#. Storage
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:137
+msgid "Storage"
+msgstr "Konservejo"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:148
+msgid "Removable Storage"
+msgstr "Demeteblaj konservejoj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:167
+msgid "_Mount removable drives when hot-plugged"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:174
+msgid "Mount removable media when _inserted"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:181
+msgid "B_rowse removable media when inserted"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:188
+msgid "_Auto-run programs on new drives and media"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:194
+msgid "Auto-open files on new drives and media"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:205
+msgid "Blank CDs and DVDs"
+msgstr "Malplenaj KD-oj kaj DVD-oj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:224
+msgid "_Burn a CD or DVD when a blank disc is inserted"
+msgstr ""
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:234
+msgid "Command for _Data CDs:"
+msgstr "Komando por _datum-KD-oj:"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:243
+msgid "Command for A_udio CDs:"
+msgstr ""
+
+#. Multimedia
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:258
+msgid "Multimedia"
+msgstr "Plurmedio"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:269
+msgid "Audio CDs"
+msgstr "Aŭdio-KD-oj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:288
+msgid "Play _audio CDs when inserted"
+msgstr "Ludi _aŭdio-KD-oj kiam enmetitaj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:294
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:419
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:467
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:515
+msgid "_Command:"
+msgstr "_Komando:"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:307
+msgid "Video CDs/DVDs/Blu-rays"
+msgstr "Video-KD-oj/DVD-oj/Blu-ray-oj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:326
+msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
+msgstr "Ludi _video-KD-oj, DVD-oj kaj Blu-ray-oj kiam enmetitaj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:333
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:371
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:554
+msgid "C_ommand:"
+msgstr "K_omando:"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:346
+msgid "Portable Music Players"
+msgstr "Porteblaj muzikludiloj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:365
+msgid "Play _music files when connected"
+msgstr "Ludi _muzikdosierojn kiam konektita"
+
+#. Cameras
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:382
+msgid "Cameras"
+msgstr "Fotiloj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:393
+msgid "Digital Cameras"
+msgstr "Ciferecaj fotiloj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:412
+msgid "Import digital photographs when connected"
+msgstr "Importi ciferecajn ciferecajn fotojn kiam konektita"
+
+#. Printers
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:430
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:441
+msgid "Printers"
+msgstr "Presiloj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:460
+msgid "Automatically run a program when a _printer is connected"
+msgstr "Aŭtomate lanĉi programon kiam _presilo estas konektita"
+
+#. Input Devices
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:478
+msgid "Input Devices"
+msgstr "Enigaj aparatoj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:489
+msgid "Keyboards"
+msgstr "Klavaroj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:508
+msgid "Automatically run a program when a USB _keyboard is connected"
+msgstr "Aŭtomate lanĉi programon kiam USB-_klavaro estas konektita"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:528
+msgid "Mice"
+msgstr "Musoj"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:547
+msgid "Automatically run a program when a USB _mouse is connected"
+msgstr "Aŭtomate lanĉi programon kiam USB-_muso estas konektita"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:567
+msgid "Tablet"
+msgstr "Tabuleto"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:586
+msgid "Automatically run a program when a _tablet is connected"
+msgstr "Aŭtomate lanĉi programon kiam _tabuleto estas konektita"
+
+#: ../thunar-volman-settings/tvm-preferences-dialog.c:593
+msgid "Com_mand:"
+msgstr "Ko_mando:"
