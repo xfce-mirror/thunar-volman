@@ -39,17 +39,17 @@ See [NEWS](https://gitlab.xfce.org/xfce/thunar-volman/-/blob/master/NEWS) for de
 From source: 
 
     % cd thunar-volman
-    % ./autogen.sh
-    % make
-    % make install
+    % meson setup build
+    % meson compile -C build
+    % meson install -C build
 
 From release tarball:
 
-    % tar xf thunar-volman-<version>.tar.bz2
+    % tar xf thunar-volman-<version>.tar.xz
     % cd thunar-volman-<version>
-    % ./configure
-    % make
-    % make install
+    % meson setup build
+    % meson compile -C build
+    % meson install -C build
 
 ### Reporting Bugs
 
