@@ -5,13 +5,14 @@
 # Translators:
 # Jakub Szafranek Fabijan <jakubfabijan@tuta.io>, 2025
 # Robin van der Vliet <info@robinvandervliet.com>, 2016
+# Warut Bunprasert <warut.b@disroot.org>, 2025
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-30 00:47+0200\n"
 "PO-Revision-Date: 2013-07-02 20:37+0000\n"
-"Last-Translator: Jakub Szafranek Fabijan <jakubfabijan@tuta.io>, 2025\n"
+"Last-Translator: Warut Bunprasert <warut.b@disroot.org>, 2025\n"
 "Language-Team: Esperanto (http://app.transifex.com/xfce/thunar-volman/language/eo/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,7 +83,7 @@ msgstr "Ig_nori"
 #: ../thunar-volman/tvm-block-device.c:209
 #: ../thunar-volman/tvm-block-device.c:278
 msgid "Import _Photos"
-msgstr ""
+msgstr "Importi _fotojn"
 
 #: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
@@ -95,13 +96,13 @@ msgstr "Importi fotojn"
 
 #: ../thunar-volman/tvm-block-device.c:274
 msgid "A photo card has been detected"
-msgstr ""
+msgstr "Foto-karto estis detektita"
 
 #: ../thunar-volman/tvm-block-device.c:275
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
-msgstr ""
+msgstr "Estas fotoj sur la karto. Ĉu vi ŝatus aldoni ĉi tiujn fotojn al via albumo?"
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
@@ -114,17 +115,17 @@ msgstr "Ĉu vi volas permesi \"%s\" lanĉi?"
 #: ../thunar-volman/tvm-block-device.c:377
 #: ../thunar-volman/tvm-block-device.c:424
 msgid "Auto-Run Confirmation"
-msgstr ""
+msgstr "Komfirmo de aŭtomata lanĉo"
 
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 msgid "Auto-Run capability detected"
-msgstr ""
+msgstr " Kapablo de aŭtomata lanĉo detektita"
 
 #: ../thunar-volman/tvm-block-device.c:380
 #: ../thunar-volman/tvm-block-device.c:427
 msgid "_Allow Auto-Run"
-msgstr ""
+msgstr "_Permesi aŭtomatan lanĉo"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:503
@@ -134,11 +135,11 @@ msgstr "Ĉu vi volas malfermi \"%s\"?"
 
 #: ../thunar-volman/tvm-block-device.c:506
 msgid "Auto-Open Confirmation"
-msgstr ""
+msgstr " Konfirmo de aŭtomata malfermo"
 
 #: ../thunar-volman/tvm-block-device.c:507
 msgid "Auto-Open capability detected"
-msgstr ""
+msgstr " Kapablo de aŭtomata malfermo detektita"
 
 #: ../thunar-volman/tvm-block-device.c:509
 msgid "_Open"
@@ -188,7 +189,7 @@ msgstr "La enmetita portilo estis muntita aŭtomate"
 #: ../thunar-volman/tvm-block-device.c:702
 #, c-format
 msgid "Unable to locate mount point"
-msgstr ""
+msgstr "Ne eblas loki surmetingon"
 
 #: ../thunar-volman/tvm-block-device.c:747
 #, c-format
@@ -198,7 +199,7 @@ msgstr "Neeblas munti la aparaton"
 #: ../thunar-volman/tvm-block-device.c:756
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Ne povis detekti la portilon kongruan al la aparato"
 
 #: ../thunar-volman/tvm-block-device.c:832
 msgid "Audio/Data CD"
@@ -214,11 +215,11 @@ msgstr "Ĉu vi volas aŭskulti muzikon aŭ foliumi la dosierojn?"
 
 #: ../thunar-volman/tvm-block-device.c:838
 msgid "_Browse Files"
-msgstr ""
+msgstr "_Esplori dosierojn"
 
 #: ../thunar-volman/tvm-block-device.c:839
 msgid "_Play CD"
-msgstr ""
+msgstr "_Ludi KD-on"
 
 #: ../thunar-volman/tvm-block-device.c:927
 #, c-format
@@ -264,7 +265,7 @@ msgstr "Nesubtenata tipo de eniga aparato: \"%s\""
 #: ../thunar-volman/tvm-run.c:171
 #, c-format
 msgid "Autoburning of blank CDs and DVDs is disabled"
-msgstr ""
+msgstr "Aŭtomata registro de malplenaj KD-oj kaj DVD-oj estas malebligita"
 
 #: ../thunar-volman/tvm-run.c:189
 msgid "Blank DVD inserted"
@@ -301,7 +302,7 @@ msgstr "Registri _aŭdio-KD-on"
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "La komando por registro ne povas esti malplena"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
@@ -340,12 +341,12 @@ msgstr "ID de konekt-interfaco"
 #. setup application name
 #: ../thunar-volman-settings/main.c:60
 msgid "Thunar Volume Manager Settings"
-msgstr ""
+msgstr "Agordoj de Thunar portila administrilo"
 
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:101
 msgid "Removable Drives and Media"
-msgstr ""
+msgstr "Demeteblaj diskoj kaj datumportiloj"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:203
 msgid "Select an Application"
@@ -357,7 +358,7 @@ msgstr "Nuligi"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:207
 msgid "Select Application"
-msgstr ""
+msgstr "Elekti aplikaĵon"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:214
 msgid "All Files"
@@ -402,23 +403,23 @@ msgstr "Demeteblaj konservejoj"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:167
 msgid "_Mount removable drives when hot-plugged"
-msgstr ""
+msgstr "_Surmeti demeteblajn diskojn kiam kun tro varma konekto"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "Mount removable media when _inserted"
-msgstr ""
+msgstr "Surmeti demeteblan datumportilon kiam enmetita"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:181
 msgid "B_rowse removable media when inserted"
-msgstr ""
+msgstr "Esplori demeteblan datumportilon kiam enmetita"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:188
 msgid "_Auto-run programs on new drives and media"
-msgstr ""
+msgstr " Aŭtomat-lanĉitaj programoj sur novaj diskoj kaj datumportiloj"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:194
 msgid "Auto-open files on new drives and media"
-msgstr ""
+msgstr "Aŭtomat-malfermaj dosieroj sur novaj diskoj kaj datumportiloj"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:205
 msgid "Blank CDs and DVDs"
@@ -426,7 +427,7 @@ msgstr "Malplenaj KD-oj kaj DVD-oj"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:224
 msgid "_Burn a CD or DVD when a blank disc is inserted"
-msgstr ""
+msgstr "_Registri KD-on aŭ DVD-on kiam malplena disko estas enmetita"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:234
 msgid "Command for _Data CDs:"
@@ -434,7 +435,7 @@ msgstr "Komando por _datum-KD-oj:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:243
 msgid "Command for A_udio CDs:"
-msgstr ""
+msgstr "Komando por son-KD-oj:"
 
 #. Multimedia
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:258
