@@ -41,7 +41,7 @@ msgstr "Gestionari de volum Thunar"
 
 #: ../thunar-volman/main.c:115
 msgid "All rights reserved."
-msgstr "Totes los dreches reservats."
+msgstr "Totes los dreits reservats."
 
 #: ../thunar-volman/main.c:116
 #, c-format
@@ -65,7 +65,7 @@ msgstr "Fòtos e musica"
 
 #: ../thunar-volman/tvm-block-device.c:205
 msgid "Photos were found on your portable music player"
-msgstr "De fòtos son estadas trobadas sus vòstre lector de musica portable."
+msgstr "De fòtos son estadas trobadas sus vòstre lector de musica portable"
 
 #: ../thunar-volman/tvm-block-device.c:206
 msgid "Would you like to import the photos or manage the music?"
