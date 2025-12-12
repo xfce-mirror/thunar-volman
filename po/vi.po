@@ -4,13 +4,14 @@
 # 
 # Translators:
 # Duy Truong Nguyen <truongap.ars@gmail.com>, 2014
+# Loc Huynh <https://github.com/hthienloc>, 2025
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-05-30 00:47+0200\n"
 "PO-Revision-Date: 2013-07-02 20:37+0000\n"
-"Last-Translator: Duy Truong Nguyen <truongap.ars@gmail.com>, 2014\n"
+"Last-Translator: Loc Huynh <https://github.com/hthienloc>, 2025\n"
 "Language-Team: Vietnamese (http://app.transifex.com/xfce/thunar-volman/language/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,12 +21,12 @@ msgstr ""
 
 #: ../thunar-volman/main.c:59
 msgid "The sysfs path of the newly added device"
-msgstr ""
+msgstr "Đường dẫn sysfs của thiết bị mới được thêm"
 
 #: ../thunar-volman/main.c:60
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
 msgid "Configure management of removable drives and media"
-msgstr ""
+msgstr "Cấu hình quản lý ổ đĩa rời và phương tiện"
 
 #: ../thunar-volman/main.c:61
 msgid "Print version information and exit"
@@ -48,12 +49,12 @@ msgstr "Vui lòng báo lỗi tới <%s>."
 #: ../thunar-volman/main.c:170
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
-msgstr ""
+msgstr "Không có thiết bị nào với đường dẫn sysfs \"%s\""
 
 #: ../thunar-volman/main.c:182
 #, c-format
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr ""
+msgstr "Phải chỉ định đường dẫn sysfs của thiết bị mới với --device-added"
 
 #. ...so we need to prompt what to do
 #: ../thunar-volman/tvm-block-device.c:204
@@ -76,16 +77,16 @@ msgstr "Bạn có muốn nhập thêm ảnh hay quản lý nhạc?"
 #: ../thunar-volman/tvm-block-device.c:837 ../thunar-volman/tvm-run.c:192
 #: ../thunar-volman/tvm-run.c:203
 msgid "Ig_nore"
-msgstr ""
+msgstr "_Bỏ qua"
 
 #: ../thunar-volman/tvm-block-device.c:209
 #: ../thunar-volman/tvm-block-device.c:278
 msgid "Import _Photos"
-msgstr ""
+msgstr "Nhập ả_nh"
 
 #: ../thunar-volman/tvm-block-device.c:210
 msgid "Manage _Music"
-msgstr ""
+msgstr "Quản lý _nhạc"
 
 #. ask the user to import photos
 #: ../thunar-volman/tvm-block-device.c:273
@@ -118,12 +119,12 @@ msgstr "Xác nhận tự động chạy"
 #: ../thunar-volman/tvm-block-device.c:378
 #: ../thunar-volman/tvm-block-device.c:425
 msgid "Auto-Run capability detected"
-msgstr ""
+msgstr "Phát hiện khả năng tự động chạy"
 
 #: ../thunar-volman/tvm-block-device.c:380
 #: ../thunar-volman/tvm-block-device.c:427
 msgid "_Allow Auto-Run"
-msgstr ""
+msgstr "Cho _phép tự động chạy"
 
 #. prompt the user whether to autoopen this file
 #: ../thunar-volman/tvm-block-device.c:503
@@ -137,7 +138,7 @@ msgstr "Xác nhận tự động mở"
 
 #: ../thunar-volman/tvm-block-device.c:507
 msgid "Auto-Open capability detected"
-msgstr ""
+msgstr "Phát hiện khả năng tự động mở"
 
 #: ../thunar-volman/tvm-block-device.c:509
 msgid "_Open"
@@ -164,11 +165,11 @@ msgstr "DVD đã được tự động gắn kết"
 #. generate notification info
 #: ../thunar-volman/tvm-block-device.c:629
 msgid "Blu-ray mounted"
-msgstr ""
+msgstr "Blu-ray đã được gắn"
 
 #: ../thunar-volman/tvm-block-device.c:630
 msgid "The Blu-ray was mounted automatically"
-msgstr ""
+msgstr "Blu-ray đã được tự động gắn kết"
 
 #: ../thunar-volman/tvm-block-device.c:640
 msgid "Volume mounted"
@@ -197,7 +198,7 @@ msgstr "Không thể gắn kết thiết bị"
 #: ../thunar-volman/tvm-block-device.c:756
 #, c-format
 msgid "Could not detect the volume corresponding to the device"
-msgstr ""
+msgstr "Không thể phát hiện ổ đĩa tương ứng với thiết bị"
 
 #: ../thunar-volman/tvm-block-device.c:832
 msgid "Audio/Data CD"
@@ -213,11 +214,11 @@ msgstr "Bạn muốn nghe nhạc hay duyệt tệp tin?"
 
 #: ../thunar-volman/tvm-block-device.c:838
 msgid "_Browse Files"
-msgstr ""
+msgstr "_Duyệt tệp"
 
 #: ../thunar-volman/tvm-block-device.c:839
 msgid "_Play CD"
-msgstr ""
+msgstr "_Phát CD"
 
 #: ../thunar-volman/tvm-block-device.c:927
 #, c-format
@@ -279,7 +280,7 @@ msgstr "Bạn muốn làm điều gì?"
 
 #: ../thunar-volman/tvm-run.c:193
 msgid "Burn _DVD"
-msgstr ""
+msgstr "Ghi _DVD"
 
 #: ../thunar-volman/tvm-run.c:200
 msgid "Blank CD inserted"
@@ -291,21 +292,21 @@ msgstr "Bạn vừa thêm một CD trống"
 
 #: ../thunar-volman/tvm-run.c:204
 msgid "Burn _Data CD"
-msgstr ""
+msgstr "Ghi CD _dữ liệu"
 
 #: ../thunar-volman/tvm-run.c:205
 msgid "Burn _Audio CD"
-msgstr ""
+msgstr "Ghi CD âm _thanh"
 
 #: ../thunar-volman/tvm-run.c:229
 #, c-format
 msgid "The burn command may not be empty"
-msgstr ""
+msgstr "Lệnh ghi đĩa không được để trống"
 
 #: ../thunar-volman/tvm-run.c:268
 #, c-format
 msgid "The CD player command is undefined"
-msgstr ""
+msgstr "Lệnh phát CD chưa được xác định"
 
 #: ../thunar-volman/tvm-usb-device.c:62
 msgid "Camera detected"
@@ -344,7 +345,7 @@ msgstr "Cài đặt trình quản lý ổ đĩa của Thunar"
 #: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:101
 msgid "Removable Drives and Media"
-msgstr ""
+msgstr "Ổ đĩa rời và phương tiện"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:203
 msgid "Select an Application"
@@ -356,7 +357,7 @@ msgstr "Hủy bỏ"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:207
 msgid "Select Application"
-msgstr ""
+msgstr "Chọn ứng dụng"
 
 #: ../thunar-volman-settings/tvm-command-entry.c:214
 msgid "All Files"
@@ -384,7 +385,7 @@ msgstr "Kịch bản shell"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:111
 msgid "Help"
-msgstr ""
+msgstr "Trợ giúp"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:121
 msgid "Close"
@@ -405,19 +406,19 @@ msgstr "Gắn kết ổ đĩa _rời khi được cắm nóng"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:174
 msgid "Mount removable media when _inserted"
-msgstr ""
+msgstr "Gắn kết phương tiện rời khi được _chèn vào"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:181
 msgid "B_rowse removable media when inserted"
-msgstr ""
+msgstr "D_uyệt phương tiện rời khi được chèn vào"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:188
 msgid "_Auto-run programs on new drives and media"
-msgstr ""
+msgstr "Tự động chạy chương trình trên ổ đĩa và phương tiện _mới"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:194
 msgid "Auto-open files on new drives and media"
-msgstr ""
+msgstr "Tự động mở tệp trên ổ đĩa và phương tiện mới"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:205
 msgid "Blank CDs and DVDs"
@@ -446,7 +447,7 @@ msgstr "CD âm thanh"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:288
 msgid "Play _audio CDs when inserted"
-msgstr ""
+msgstr "Phát CD âm thanh khi được chèn vào"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:294
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:419
@@ -457,25 +458,25 @@ msgstr "Lệnh:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:307
 msgid "Video CDs/DVDs/Blu-rays"
-msgstr ""
+msgstr "CD/DVD/Blu-ray video"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:326
 msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
-msgstr ""
+msgstr "Phát CD, DVD và Blu-ray _video khi được chèn vào"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:333
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:371
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:554
 msgid "C_ommand:"
-msgstr ""
+msgstr "Lệ_nh:"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:346
 msgid "Portable Music Players"
-msgstr ""
+msgstr "Máy nghe nhạc di động"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:365
 msgid "Play _music files when connected"
-msgstr ""
+msgstr "Phát tệp _nhạc khi được kết nối"
 
 #. Cameras
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:382
@@ -498,7 +499,7 @@ msgstr "Máy in"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:460
 msgid "Automatically run a program when a _printer is connected"
-msgstr ""
+msgstr "Tự động chạy chương trình khi máy _in được kết nối"
 
 #. Input Devices
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:478
@@ -511,7 +512,7 @@ msgstr "Bàn phím"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:508
 msgid "Automatically run a program when a USB _keyboard is connected"
-msgstr ""
+msgstr "Tự động chạy chương trình khi bàn _phím USB được kết nối"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:528
 msgid "Mice"
@@ -519,7 +520,7 @@ msgstr "Chuột"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:547
 msgid "Automatically run a program when a USB _mouse is connected"
-msgstr ""
+msgstr "Tự động chạy chương trình khi _chuột USB được kết nối"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:567
 msgid "Tablet"
@@ -527,8 +528,8 @@ msgstr "Máy tính bảng"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:586
 msgid "Automatically run a program when a _tablet is connected"
-msgstr ""
+msgstr "Tự động chạy chương trình khi máy tính _bảng được kết nối"
 
 #: ../thunar-volman-settings/tvm-preferences-dialog.c:593
 msgid "Com_mand:"
-msgstr ""
+msgstr "Lệ_nh:"
