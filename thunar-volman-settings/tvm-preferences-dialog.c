@@ -43,6 +43,8 @@ enum
 
 static void tvm_preferences_dialog_response (GtkWidget *dialog,
                                              gint response_id);
+static void tvm_preferences_dialog_delay_changed (GtkAdjustment *adjustment,
+                                                   XfconfChannel *channel);
 
 
 
@@ -149,40 +151,73 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   image = gtk_image_new_from_icon_name ("media-removable", GTK_ICON_SIZE_DIALOG);
   gtk_widget_set_halign (image, GTK_ALIGN_CENTER);
   gtk_widget_set_valign (image, GTK_ALIGN_START);
-  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 3);
+  gtk_grid_attach (GTK_GRID (grid), image, 0, 0, 1, 4);
   gtk_widget_show (image);
 
   button = gtk_check_button_new_with_mnemonic (_("_Mount removable drives when "
                                                  "hot-plugged"));
-  xfconf_g_property_bind (channel, "/automount-drives/enabled", G_TYPE_BOOLEAN, 
+  xfconf_g_property_bind (channel, "/automount-drives/enabled", G_TYPE_BOOLEAN,
                           button, "active");
   gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
+
+  /* automount delay spinner (affects removable drives only) */
+  {
+    GtkAdjustment *adjustment;
+    GtkWidget     *spin;
+    GtkWidget     *hbox;
+    gint           delay;
+
+    hbox = gtk_box_new (GTK_ORIENTATION_HORIZONTAL, 6);
+    gtk_grid_attach (GTK_GRID (grid), hbox, 1, 1, 1, 1);
+    gtk_widget_show (hbox);
+
+    label = gtk_label_new_with_mnemonic (_("Mount _delay (seconds):"));
+    gtk_box_pack_start (GTK_BOX (hbox), label, FALSE, FALSE, 0);
+    gtk_widget_show (label);
+
+    adjustment = gtk_adjustment_new (5.0, 0.0, 60.0, 1.0, 5.0, 0.0);
+    spin = gtk_spin_button_new (adjustment, 1.0, 0);
+    gtk_spin_button_set_numeric (GTK_SPIN_BUTTON (spin), TRUE);
+    gtk_box_pack_start (GTK_BOX (hbox), spin, FALSE, FALSE, 0);
+    gtk_label_set_mnemonic_widget (GTK_LABEL (label), spin);
+    gtk_widget_show (spin);
+
+    /* read initial value from xfconf */
+    delay = xfconf_channel_get_int (channel, "/automount-delay", 5);
+    if (delay < 0)
+      delay = 0;
+    gtk_adjustment_set_value (adjustment, (gdouble) delay);
+
+    /* write back to xfconf on change */
+    g_signal_connect (adjustment, "value-changed",
+                      G_CALLBACK (tvm_preferences_dialog_delay_changed), channel);
+  }
 
   button = gtk_check_button_new_with_mnemonic (_("Mount removable media when "
                                                  "_inserted"));
   xfconf_g_property_bind (channel, "/automount-media/enabled", G_TYPE_BOOLEAN,
                           button, "active");
-  gtk_grid_attach (GTK_GRID (grid), button, 1, 1, 1, 1);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 2, 1, 1);
   gtk_widget_show (button);
 
   button = gtk_check_button_new_with_mnemonic (_("B_rowse removable media when "
                                                  "inserted"));
-  xfconf_g_property_bind (channel, "/autobrowse/enabled", G_TYPE_BOOLEAN, 
+  xfconf_g_property_bind (channel, "/autobrowse/enabled", G_TYPE_BOOLEAN,
                           button, "active");
-  gtk_grid_attach (GTK_GRID (grid), button, 1, 2, 1, 1);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 3, 1, 1);
   gtk_widget_show (button);
 
   button = gtk_check_button_new_with_mnemonic (_("_Auto-run programs on new drives "
                                                  "and media"));
   xfconf_g_property_bind (channel, "/autorun/enabled", G_TYPE_BOOLEAN, button, "active");
-  gtk_grid_attach (GTK_GRID (grid), button, 1, 3, 1, 1);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 4, 1, 1);
   gtk_widget_show (button);
 
   button = gtk_check_button_new_with_mnemonic (_("Auto-open files on new drives "
                                                  "and media"));
   xfconf_g_property_bind (channel, "/autoopen/enabled", G_TYPE_BOOLEAN, button, "active");
-  gtk_grid_attach (GTK_GRID (grid), button, 1, 4, 1, 1);
+  gtk_grid_attach (GTK_GRID (grid), button, 1, 5, 1, 1);
   gtk_widget_show (button);
 
   frame = g_object_new (GTK_TYPE_FRAME, "border-width", 0, "shadow-type", 
@@ -585,6 +620,19 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
                           entry, "command");
   gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
   gtk_widget_show (entry);
+}
+
+
+
+static void
+tvm_preferences_dialog_delay_changed (GtkAdjustment *adjustment,
+                                      XfconfChannel *channel)
+{
+  g_return_if_fail (GTK_IS_ADJUSTMENT (adjustment));
+  g_return_if_fail (XFCONF_IS_CHANNEL (channel));
+
+  xfconf_channel_set_int (channel, "/automount-delay",
+                          (gint) gtk_adjustment_get_value (adjustment));
 }
 
 
