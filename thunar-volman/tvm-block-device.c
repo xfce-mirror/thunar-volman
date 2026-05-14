@@ -907,8 +907,14 @@ automount_disc:
                                            FALSE);
       if (automount)
         {
+          /* read the configured automount delay (default 5 seconds) */
+          gint delay = xfconf_channel_get_int (context->channel,
+                                               "/automount-delay", 5);
+          if (delay < 0)
+            delay = 0;
+
           /* mount the partition and continue with inspecting its contents */
-          g_timeout_add_seconds(5, tvm_block_device_mount, context);
+          g_timeout_add_seconds(delay, tvm_block_device_mount, context);
         }
       else
         {
