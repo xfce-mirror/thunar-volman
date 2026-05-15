@@ -176,7 +176,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
     gtk_box_pack_start (GTK_BOX (hbox), label, FALSE, FALSE, 0);
     gtk_widget_show (label);
 
-    adjustment = gtk_adjustment_new (5.0, 0.0, 60.0, 1.0, 5.0, 0.0);
+    adjustment = gtk_adjustment_new (2.0, 0.0, 60.0, 1.0, 5.0, 0.0);
     spin = gtk_spin_button_new (adjustment, 1.0, 0);
     gtk_spin_button_set_numeric (GTK_SPIN_BUTTON (spin), TRUE);
     gtk_box_pack_start (GTK_BOX (hbox), spin, FALSE, FALSE, 0);
@@ -184,7 +184,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
     gtk_widget_show (spin);
 
     /* read initial value from xfconf */
-    delay = xfconf_channel_get_int (channel, "/automount-delay", 5);
+    delay = xfconf_channel_get_int (channel, "/automount-delay", 2);
     if (delay < 0)
       delay = 0;
     gtk_adjustment_set_value (adjustment, (gdouble) delay);

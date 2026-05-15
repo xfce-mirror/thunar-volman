@@ -909,7 +909,7 @@ automount_disc:
         {
           /* read the configured automount delay (default 5 seconds) */
           gint delay = xfconf_channel_get_int (context->channel,
-                                               "/automount-delay", 5);
+                                               "/automount-delay", 2);
           if (delay < 0)
             delay = 0;
 
