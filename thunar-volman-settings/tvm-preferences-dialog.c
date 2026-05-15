@@ -161,7 +161,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   gtk_grid_attach (GTK_GRID (grid), button, 1, 0, 1, 1);
   gtk_widget_show (button);
 
-  /* automount delay spinner (affects removable drives only) */
+  /* spin button to configure automount delay (affects removable drives only) */
   {
     GtkAdjustment *adjustment;
     GtkWidget     *spin;
