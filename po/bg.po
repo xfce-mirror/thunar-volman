@@ -1,104 +1,98 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR Xfce
+# This file is distributed under the same license as the thunar-volman.master package.
 # 
 # Translators:
-# Kiril Kirilov <cybercop_montana@abv.bg>, 2013,2017-2018,2020
+# Kiril Kirilov <cybercop_montana@abv.bg>, 2013,2017-2018,2020,2026
 # Любомир Василев, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: Thunar-volman\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-08-19 12:45+0200\n"
-"PO-Revision-Date: 2020-08-19 10:45+0000\n"
-"Last-Translator: Xfce Bot <transifex@xfce.org>\n"
-"Language-Team: Bulgarian (http://www.transifex.com/xfce/thunar-volman/language/bg/)\n"
+"Report-Msgid-Bugs-To: https://gitlab.xfce.org/\n"
+"POT-Creation-Date: 2026-05-15 12:48+0200\n"
+"PO-Revision-Date: 2013-07-02 20:37+0000\n"
+"Last-Translator: Kiril Kirilov <cybercop_montana@abv.bg>, 2013,2017-2018,2020,2026\n"
+"Language-Team: Bulgarian (http://app.transifex.com/xfce/thunar-volman/language/bg/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: bg\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: ../thunar-volman/main.c:59
+#: thunar-volman/main.c:61
 msgid "The sysfs path of the newly added device"
 msgstr "Sysfs пътя на ново добавено устройство"
 
-#: ../thunar-volman/main.c:60
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:2
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:103
+#: thunar-volman/main.c:62
+#: thunar-volman-settings/thunar-volman-settings.desktop.in:4
 msgid "Configure management of removable drives and media"
 msgstr "Конфигуриране на управлението на преносими устройства и медии"
 
-#: ../thunar-volman/main.c:61
+#: thunar-volman/main.c:63
 msgid "Print version information and exit"
 msgstr "Изписване на информация за версията и изход"
 
 #. setup application name
-#: ../thunar-volman/main.c:93
+#: thunar-volman/main.c:95
 msgid "Thunar Volume Manager"
 msgstr "Thunar - Управление на устройствата"
 
-#: ../thunar-volman/main.c:121
+#: thunar-volman/main.c:119
 msgid "All rights reserved."
 msgstr "Всички права са запазени."
 
-#: ../thunar-volman/main.c:122
+#: thunar-volman/main.c:120
 #, c-format
 msgid "Please report bugs to <%s>."
 msgstr "Моля, докладвайте за грешки на <%s>."
 
-#: ../thunar-volman/main.c:176
+#: thunar-volman/main.c:174
 #, c-format
 msgid "There is no device with the sysfs path \"%s\""
 msgstr "Няма устройство със sysfs път „%s“"
 
-#: ../thunar-volman/main.c:188
-#, c-format
+#: thunar-volman/main.c:186
 msgid "Must specify the sysfs path of new devices with --device-added"
 msgstr "Да се зададе sysfs  път за новите устройства с --device-added"
 
 #. ...so we need to prompt what to do
-#: ../thunar-volman/tvm-block-device.c:204
+#: thunar-volman/tvm-block-device.c:200
 msgid "Photos and Music"
 msgstr "Снимки и Музика"
 
-#: ../thunar-volman/tvm-block-device.c:205
+#: thunar-volman/tvm-block-device.c:201
 msgid "Photos were found on your portable music player"
 msgstr "Засечени са снимки на вашият портативен музикален плейър"
 
-#: ../thunar-volman/tvm-block-device.c:206
+#: thunar-volman/tvm-block-device.c:202
 msgid "Would you like to import the photos or manage the music?"
 msgstr "Искате да внесете снимките или да редактирате песните?"
 
-#: ../thunar-volman/tvm-block-device.c:208
-#: ../thunar-volman/tvm-block-device.c:277
-#: ../thunar-volman/tvm-block-device.c:379
-#: ../thunar-volman/tvm-block-device.c:426
-#: ../thunar-volman/tvm-block-device.c:508
-#: ../thunar-volman/tvm-block-device.c:838 ../thunar-volman/tvm-run.c:192
-#: ../thunar-volman/tvm-run.c:203
+#: thunar-volman/tvm-block-device.c:204 thunar-volman/tvm-block-device.c:273
+#: thunar-volman/tvm-block-device.c:375 thunar-volman/tvm-block-device.c:422
+#: thunar-volman/tvm-block-device.c:504 thunar-volman/tvm-block-device.c:833
+#: thunar-volman/tvm-run.c:188 thunar-volman/tvm-run.c:199
 msgid "Ig_nore"
 msgstr "Пропусни"
 
-#: ../thunar-volman/tvm-block-device.c:209
-#: ../thunar-volman/tvm-block-device.c:278
+#: thunar-volman/tvm-block-device.c:205 thunar-volman/tvm-block-device.c:274
 msgid "Import _Photos"
 msgstr "Внасяне на снимки"
 
-#: ../thunar-volman/tvm-block-device.c:210
+#: thunar-volman/tvm-block-device.c:206
 msgid "Manage _Music"
 msgstr "Управление на Музика"
 
 #. ask the user to import photos
-#: ../thunar-volman/tvm-block-device.c:273
+#: thunar-volman/tvm-block-device.c:269
 msgid "Photo Import"
 msgstr "Снимки - внасяне"
 
-#: ../thunar-volman/tvm-block-device.c:274
+#: thunar-volman/tvm-block-device.c:270
 msgid "A photo card has been detected"
 msgstr "Засечена е карта със снимки"
 
-#: ../thunar-volman/tvm-block-device.c:275
+#: thunar-volman/tvm-block-device.c:271
 msgid ""
 "There are photos on the card. Would you like to add these photos to your "
 "album?"
@@ -106,431 +100,422 @@ msgstr "Има снимки на картата. Искате ли да ги д�
 
 #. prompt the user to execute the file
 #. prompt the user to execute this file
-#: ../thunar-volman/tvm-block-device.c:374
-#: ../thunar-volman/tvm-block-device.c:421
+#: thunar-volman/tvm-block-device.c:370 thunar-volman/tvm-block-device.c:417
 #, c-format
 msgid "Would you like to allow \"%s\" to run?"
 msgstr "Позволявате ли на „%s“ да стартира?"
 
-#: ../thunar-volman/tvm-block-device.c:377
-#: ../thunar-volman/tvm-block-device.c:424
+#: thunar-volman/tvm-block-device.c:373 thunar-volman/tvm-block-device.c:420
 msgid "Auto-Run Confirmation"
 msgstr "Потвърждение при автоматично изпълнение"
 
-#: ../thunar-volman/tvm-block-device.c:378
-#: ../thunar-volman/tvm-block-device.c:425
+#: thunar-volman/tvm-block-device.c:374 thunar-volman/tvm-block-device.c:421
 msgid "Auto-Run capability detected"
 msgstr "Засечена е възможност за автоматично изпълнение"
 
-#: ../thunar-volman/tvm-block-device.c:380
-#: ../thunar-volman/tvm-block-device.c:427
+#: thunar-volman/tvm-block-device.c:376 thunar-volman/tvm-block-device.c:423
 msgid "_Allow Auto-Run"
 msgstr "Разреши автоматично изпълнение"
 
 #. prompt the user whether to autoopen this file
-#: ../thunar-volman/tvm-block-device.c:503
+#: thunar-volman/tvm-block-device.c:499
 #, c-format
 msgid "Would you like to open \"%s\"?"
 msgstr "Искате ли да отворите „%s“?"
 
-#: ../thunar-volman/tvm-block-device.c:506
+#: thunar-volman/tvm-block-device.c:502
 msgid "Auto-Open Confirmation"
 msgstr "Потвърждение при автоматично отваряне"
 
-#: ../thunar-volman/tvm-block-device.c:507
+#: thunar-volman/tvm-block-device.c:503
 msgid "Auto-Open capability detected"
 msgstr "Засечена е възможност за автоматично отваряне"
 
-#: ../thunar-volman/tvm-block-device.c:509
+#: thunar-volman/tvm-block-device.c:505
 msgid "_Open"
 msgstr "Отваряне"
 
 #. generate notification info
-#: ../thunar-volman/tvm-block-device.c:617
+#: thunar-volman/tvm-block-device.c:613
 msgid "CD mounted"
 msgstr "CD-то е монтирано"
 
-#: ../thunar-volman/tvm-block-device.c:618
+#: thunar-volman/tvm-block-device.c:614
 msgid "The CD was mounted automatically"
 msgstr "CD дискът е монтиран автоматично"
 
 #. generate notification info
-#: ../thunar-volman/tvm-block-device.c:623
+#: thunar-volman/tvm-block-device.c:619
 msgid "DVD mounted"
 msgstr "DVD-то е мотирано"
 
-#: ../thunar-volman/tvm-block-device.c:624
+#: thunar-volman/tvm-block-device.c:620
 msgid "The DVD was mounted automatically"
 msgstr "DVD дискът е монтиран автоматично"
 
 #. generate notification info
-#: ../thunar-volman/tvm-block-device.c:629
+#: thunar-volman/tvm-block-device.c:625
 msgid "Blu-ray mounted"
 msgstr "Blu-ray е монтиран"
 
-#: ../thunar-volman/tvm-block-device.c:630
+#: thunar-volman/tvm-block-device.c:626
 msgid "The Blu-ray was mounted automatically"
 msgstr "Blu-ray носителят е монтиран автоматично"
 
-#: ../thunar-volman/tvm-block-device.c:640
+#: thunar-volman/tvm-block-device.c:636
 msgid "Volume mounted"
 msgstr "Устройството е монтирано"
 
-#: ../thunar-volman/tvm-block-device.c:643
+#: thunar-volman/tvm-block-device.c:639
 #, c-format
 msgid "The volume \"%s\" was mounted automatically"
 msgstr "Устройството „%s“ е монтирано автоматично"
 
-#: ../thunar-volman/tvm-block-device.c:648
-#, c-format
+#: thunar-volman/tvm-block-device.c:644
 msgid "The inserted volume was mounted automatically"
 msgstr "Вкараното устройство е монтирано автоматично"
 
-#: ../thunar-volman/tvm-block-device.c:702
-#, c-format
+#: thunar-volman/tvm-block-device.c:698
 msgid "Unable to locate mount point"
 msgstr "Не може да се определи мястото за монтиране"
 
-#: ../thunar-volman/tvm-block-device.c:748
-#, c-format
+#: thunar-volman/tvm-block-device.c:743
 msgid "Unable to mount the device"
 msgstr "Не може да се монтира устройството"
 
-#: ../thunar-volman/tvm-block-device.c:757
-#, c-format
+#: thunar-volman/tvm-block-device.c:752
 msgid "Could not detect the volume corresponding to the device"
 msgstr "Не може да се определи устройството"
 
-#: ../thunar-volman/tvm-block-device.c:833
+#: thunar-volman/tvm-block-device.c:828
 msgid "Audio/Data CD"
 msgstr "Аудио/CD с данни"
 
-#: ../thunar-volman/tvm-block-device.c:834
+#: thunar-volman/tvm-block-device.c:829
 msgid "The CD in the drive contains both music and files"
 msgstr "CD дискът съдържа и музика и файлове"
 
-#: ../thunar-volman/tvm-block-device.c:836
+#: thunar-volman/tvm-block-device.c:831
 msgid "Would you like to listen to music or browse the files?"
 msgstr "Искате да слушате музика или да разгледате файловете?"
 
-#: ../thunar-volman/tvm-block-device.c:839
+#: thunar-volman/tvm-block-device.c:834
 msgid "_Browse Files"
 msgstr "_Преглеждане на файлове"
 
-#: ../thunar-volman/tvm-block-device.c:840
+#: thunar-volman/tvm-block-device.c:835
 msgid "_Play CD"
 msgstr "Пусни CD"
 
-#: ../thunar-volman/tvm-block-device.c:928
+#: thunar-volman/tvm-block-device.c:929
 #, c-format
 msgid "Unknown block device type \"%s\""
 msgstr "Непознато блоково устройство тип „%s“"
 
-#: ../thunar-volman/tvm-device.c:139
+#: thunar-volman/tvm-device.c:137
 #, c-format
 msgid "Device type \"%s\" not supported"
 msgstr "Устройство тип „%s“  не се поддържа"
 
-#: ../thunar-volman/tvm-input-device.c:75
+#: thunar-volman/tvm-input-device.c:71
 msgid "Keyboard detected"
 msgstr "Засечена е клавиатура"
 
-#: ../thunar-volman/tvm-input-device.c:76
+#: thunar-volman/tvm-input-device.c:72
 msgid "A keyboard was detected"
 msgstr "Беше засечена клавиатура"
 
-#: ../thunar-volman/tvm-input-device.c:87
-#: ../thunar-volman/tvm-input-device.c:101
+#: thunar-volman/tvm-input-device.c:83 thunar-volman/tvm-input-device.c:98
 msgid "Tablet detected"
 msgstr "Засечен е таблет"
 
-#: ../thunar-volman/tvm-input-device.c:88
-#: ../thunar-volman/tvm-input-device.c:102
+#: thunar-volman/tvm-input-device.c:84 thunar-volman/tvm-input-device.c:99
 msgid "A graphics tablet was detected"
 msgstr "Засечен е графичен таблет"
 
-#: ../thunar-volman/tvm-input-device.c:111
+#: thunar-volman/tvm-input-device.c:108
 msgid "Mouse detected"
 msgstr "Засечена е мишка"
 
-#: ../thunar-volman/tvm-input-device.c:112
+#: thunar-volman/tvm-input-device.c:109
 msgid "A mouse was detected"
 msgstr "Беше засечена мишка"
 
-#: ../thunar-volman/tvm-input-device.c:141
+#: thunar-volman/tvm-input-device.c:138
 #, c-format
 msgid "Unsupported input device type \"%s\""
 msgstr "Неподдържано входно устройство тип „%s“"
 
-#: ../thunar-volman/tvm-run.c:171
-#, c-format
+#: thunar-volman/tvm-run.c:167
 msgid "Autoburning of blank CDs and DVDs is disabled"
 msgstr "Автоматичното записване на празни CD-та и DVD-та е изключено"
 
-#: ../thunar-volman/tvm-run.c:189
+#: thunar-volman/tvm-run.c:185
 msgid "Blank DVD inserted"
 msgstr "Вкаран е празен DVD диск"
 
-#: ../thunar-volman/tvm-run.c:190
+#: thunar-volman/tvm-run.c:186
 msgid "You have inserted a blank DVD."
 msgstr "Вкарали сте празно DVD. "
 
-#: ../thunar-volman/tvm-run.c:191 ../thunar-volman/tvm-run.c:202
+#: thunar-volman/tvm-run.c:187 thunar-volman/tvm-run.c:198
 msgid "What would you like to do?"
 msgstr "Какво искате да направите?"
 
-#: ../thunar-volman/tvm-run.c:193
+#: thunar-volman/tvm-run.c:189
 msgid "Burn _DVD"
 msgstr "Запиши DVD"
 
-#: ../thunar-volman/tvm-run.c:200
+#: thunar-volman/tvm-run.c:196
 msgid "Blank CD inserted"
 msgstr "Вкаран е празен CD диск"
 
-#: ../thunar-volman/tvm-run.c:201
+#: thunar-volman/tvm-run.c:197
 msgid "You have inserted a blank CD."
 msgstr "Вкарали сте празно CD."
 
-#: ../thunar-volman/tvm-run.c:204
+#: thunar-volman/tvm-run.c:200
 msgid "Burn _Data CD"
 msgstr "Запиши диск с данни"
 
-#: ../thunar-volman/tvm-run.c:205
+#: thunar-volman/tvm-run.c:201
 msgid "Burn _Audio CD"
 msgstr "Запиши аудио диск"
 
-#: ../thunar-volman/tvm-run.c:229
-#, c-format
+#: thunar-volman/tvm-run.c:225
 msgid "The burn command may not be empty"
 msgstr "Командата за запис не може да е празна."
 
-#: ../thunar-volman/tvm-run.c:268
-#, c-format
+#: thunar-volman/tvm-run.c:264
 msgid "The CD player command is undefined"
 msgstr "Командата за CD плйъра не е определена."
 
-#: ../thunar-volman/tvm-usb-device.c:62
+#: thunar-volman/tvm-usb-device.c:58
 msgid "Camera detected"
 msgstr "Засечена е камера"
 
-#: ../thunar-volman/tvm-usb-device.c:63
+#: thunar-volman/tvm-usb-device.c:59
 msgid "A photo camera was detected"
 msgstr "Засечен е фотоапарат."
 
-#: ../thunar-volman/tvm-usb-device.c:71
+#: thunar-volman/tvm-usb-device.c:67
 msgid "Printer detected"
 msgstr "Засечен е принтер"
 
-#: ../thunar-volman/tvm-usb-device.c:72
+#: thunar-volman/tvm-usb-device.c:68
 msgid "A USB printer was detected"
 msgstr "Засечен е USB принтер"
 
-#: ../thunar-volman/tvm-usb-device.c:100
+#: thunar-volman/tvm-usb-device.c:96
 #, c-format
 msgid "Unsupported USB device type \"%s\""
 msgstr "Неподдържано USB устройство тип „%s“"
 
-#: ../thunar-volman-settings/main.c:44
+#: thunar-volman-settings/main.c:40
 msgid "Settings manager socket"
 msgstr "Гнездо на мениджъра на настройките"
 
-#: ../thunar-volman-settings/main.c:44
+#: thunar-volman-settings/main.c:40
 msgid "SOCKET ID"
 msgstr "SOCKET ID"
 
 #. setup application name
-#: ../thunar-volman-settings/main.c:60
+#: thunar-volman-settings/main.c:57
 msgid "Thunar Volume Manager Settings"
 msgstr "Настройки на управлението на устройства в Thunar"
 
-#: ../thunar-volman-settings/thunar-volman-settings.desktop.in.in.h:1
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:101
+#: thunar-volman-settings/thunar-volman-settings.desktop.in:3
+#: thunar-volman-settings/tvm-preferences-dialog.c:99
 msgid "Removable Drives and Media"
 msgstr "Преносими устройства и медии"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:237
+#: thunar-volman-settings/tvm-command-entry.c:197
 msgid "Select an Application"
 msgstr "Избор на програма"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:240
+#: thunar-volman-settings/tvm-command-entry.c:200
 msgid "Cancel"
 msgstr "Отказ"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:241
+#: thunar-volman-settings/tvm-command-entry.c:201
 msgid "Select Application"
 msgstr "Избор на програма"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:248
+#: thunar-volman-settings/tvm-command-entry.c:208
 msgid "All Files"
 msgstr "Всички файлове"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:253
+#: thunar-volman-settings/tvm-command-entry.c:213
 msgid "Executable Files"
 msgstr "Изпълними файлове"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:268
+#: thunar-volman-settings/tvm-command-entry.c:228
 msgid "Perl Scripts"
 msgstr "Perl скриптове"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:274
+#: thunar-volman-settings/tvm-command-entry.c:234
 msgid "Python Scripts"
 msgstr "Python скриптове"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:280
+#: thunar-volman-settings/tvm-command-entry.c:240
 msgid "Ruby Scripts"
 msgstr "Ruby скриптове"
 
-#: ../thunar-volman-settings/tvm-command-entry.c:286
+#: thunar-volman-settings/tvm-command-entry.c:246
 msgid "Shell Scripts"
 msgstr "Shell скриптове"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:114
+#: thunar-volman-settings/tvm-preferences-dialog.c:109
 msgid "Help"
 msgstr "Помощ"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:124
+#: thunar-volman-settings/tvm-preferences-dialog.c:115
 msgid "Close"
 msgstr "Затваряне"
 
 #. Storage
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:140
+#: thunar-volman-settings/tvm-preferences-dialog.c:127
 msgid "Storage"
 msgstr "Система за съхраняване на данни"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:151
+#: thunar-volman-settings/tvm-preferences-dialog.c:138
 msgid "Removable Storage"
 msgstr "Преносими устройства"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:170
+#: thunar-volman-settings/tvm-preferences-dialog.c:157
 msgid "_Mount removable drives when hot-plugged"
 msgstr "Монтирай преносимите устройства при включването им."
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:177
+#: thunar-volman-settings/tvm-preferences-dialog.c:175
+msgid "Mount _delay (seconds):"
+msgstr "Забавяне при монтиране (секунди):"
+
+#: thunar-volman-settings/tvm-preferences-dialog.c:197
 msgid "Mount removable media when _inserted"
 msgstr "Монтирай преносимите устройства при вкарване"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:184
+#: thunar-volman-settings/tvm-preferences-dialog.c:204
 msgid "B_rowse removable media when inserted"
 msgstr "Разгледай преносимите устройства при вкарване"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:191
+#: thunar-volman-settings/tvm-preferences-dialog.c:211
 msgid "_Auto-run programs on new drives and media"
 msgstr "Автоматично изпълнение на програми за нови устройства и медии"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:197
+#: thunar-volman-settings/tvm-preferences-dialog.c:217
 msgid "Auto-open files on new drives and media"
 msgstr "Отвори автоматично файловете при нови устройства"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:208
+#: thunar-volman-settings/tvm-preferences-dialog.c:228
 msgid "Blank CDs and DVDs"
 msgstr "Изтрий CD-та и DVD-та"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:227
+#: thunar-volman-settings/tvm-preferences-dialog.c:247
 msgid "_Burn a CD or DVD when a blank disc is inserted"
 msgstr "Запиши CD или DVD при вкарване на празен диск"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:237
+#: thunar-volman-settings/tvm-preferences-dialog.c:257
 msgid "Command for _Data CDs:"
 msgstr "Команда за дискове с данни:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:246
+#: thunar-volman-settings/tvm-preferences-dialog.c:266
 msgid "Command for A_udio CDs:"
 msgstr "Команда за аудио дискове:"
 
 #. Multimedia
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:261
+#: thunar-volman-settings/tvm-preferences-dialog.c:281
 msgid "Multimedia"
 msgstr "Мултимедия"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:272
+#: thunar-volman-settings/tvm-preferences-dialog.c:292
 msgid "Audio CDs"
 msgstr "Аудио CD-та"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:291
+#: thunar-volman-settings/tvm-preferences-dialog.c:311
 msgid "Play _audio CDs when inserted"
 msgstr "Пусни аудио CD-та при вкарване "
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:297
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:422
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:470
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:518
+#: thunar-volman-settings/tvm-preferences-dialog.c:317
+#: thunar-volman-settings/tvm-preferences-dialog.c:442
+#: thunar-volman-settings/tvm-preferences-dialog.c:490
+#: thunar-volman-settings/tvm-preferences-dialog.c:538
 msgid "_Command:"
 msgstr "Команда:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:310
+#: thunar-volman-settings/tvm-preferences-dialog.c:330
 msgid "Video CDs/DVDs/Blu-rays"
 msgstr "Видео от CD/DVD/Blu-ray носители"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:329
+#: thunar-volman-settings/tvm-preferences-dialog.c:349
 msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
 msgstr "Изпълняване на видео от CD/DVD/Blu-ray носители, когато са поставени"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:336
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:374
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:557
+#: thunar-volman-settings/tvm-preferences-dialog.c:356
+#: thunar-volman-settings/tvm-preferences-dialog.c:394
+#: thunar-volman-settings/tvm-preferences-dialog.c:577
 msgid "C_ommand:"
 msgstr "К_оманда:"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:349
+#: thunar-volman-settings/tvm-preferences-dialog.c:369
 msgid "Portable Music Players"
 msgstr "Портативни музикални плейъри"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:368
+#: thunar-volman-settings/tvm-preferences-dialog.c:388
 msgid "Play _music files when connected"
 msgstr "Пусни музикалните файлове при свързване"
 
 #. Cameras
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:385
+#: thunar-volman-settings/tvm-preferences-dialog.c:405
 msgid "Cameras"
 msgstr "Камери"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:396
+#: thunar-volman-settings/tvm-preferences-dialog.c:416
 msgid "Digital Cameras"
 msgstr "Цифрови камери"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:415
+#: thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Import digital photographs when connected"
 msgstr "Внеси цифрови снимки при свързване"
 
 #. Printers
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:433
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:444
+#: thunar-volman-settings/tvm-preferences-dialog.c:453
+#: thunar-volman-settings/tvm-preferences-dialog.c:464
 msgid "Printers"
 msgstr "Принтери"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:463
+#: thunar-volman-settings/tvm-preferences-dialog.c:483
 msgid "Automatically run a program when a _printer is connected"
 msgstr "Стартирай автоматично програма при свързване на принтер"
 
 #. Input Devices
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:481
+#: thunar-volman-settings/tvm-preferences-dialog.c:501
 msgid "Input Devices"
 msgstr "Входни устройства"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:492
+#: thunar-volman-settings/tvm-preferences-dialog.c:512
 msgid "Keyboards"
 msgstr "Клавиатури"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:511
+#: thunar-volman-settings/tvm-preferences-dialog.c:531
 msgid "Automatically run a program when a USB _keyboard is connected"
 msgstr "Автоматично стартиране на програма при свързване на USB клавиатура"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:531
+#: thunar-volman-settings/tvm-preferences-dialog.c:551
 msgid "Mice"
 msgstr "Мишка"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:550
+#: thunar-volman-settings/tvm-preferences-dialog.c:570
 msgid "Automatically run a program when a USB _mouse is connected"
 msgstr "Автоматично стартиране на програма при свързване на USB мишка"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:570
+#: thunar-volman-settings/tvm-preferences-dialog.c:590
 msgid "Tablet"
 msgstr "Таблет"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:589
+#: thunar-volman-settings/tvm-preferences-dialog.c:609
 msgid "Automatically run a program when a _tablet is connected"
 msgstr "Стартирай автоматично програма при свързване на таблет"
 
-#: ../thunar-volman-settings/tvm-preferences-dialog.c:596
+#: thunar-volman-settings/tvm-preferences-dialog.c:616
 msgid "Com_mand:"
 msgstr "Команда:"
