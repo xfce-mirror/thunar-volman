@@ -21,12 +21,12 @@ msgstr ""
 
 #: thunar-volman/main.c:61
 msgid "The sysfs path of the newly added device"
-msgstr "Popis umístění nově přidaného zařízení v sysfs"
+msgstr "Cesta v sysfs k nově přidanému zařízení"
 
 #: thunar-volman/main.c:62
 #: thunar-volman-settings/thunar-volman-settings.desktop.in:4
 msgid "Configure management of removable drives and media"
-msgstr "Správa konfigurace vyměnitelných jednotek a médií"
+msgstr "Nastavit správu vyměnitelných jednotek a médií"
 
 #: thunar-volman/main.c:63
 msgid "Print version information and exit"
@@ -35,7 +35,7 @@ msgstr "Zobrazí informace o verzi a ukončí se"
 #. setup application name
 #: thunar-volman/main.c:95
 msgid "Thunar Volume Manager"
-msgstr "Správce svazků aplikace Thunar"
+msgstr "Správce svazků Thunar"
 
 #: thunar-volman/main.c:119
 msgid "All rights reserved."
@@ -53,7 +53,7 @@ msgstr "Neexistuje zařízení s umístěním v sysfs „%s“"
 
 #: thunar-volman/main.c:186
 msgid "Must specify the sysfs path of new devices with --device-added"
-msgstr "Je nutné zadat umístění nového zařízení v sysfs a to pomocí přepínače --device-added"
+msgstr "Pomocí přepínače --device-added je nutné zadat cestu v sysfs k novému zařízení"
 
 #. ...so we need to prompt what to do
 #: thunar-volman/tvm-block-device.c:200
@@ -90,7 +90,7 @@ msgstr "Import fotografií"
 
 #: thunar-volman/tvm-block-device.c:270
 msgid "A photo card has been detected"
-msgstr "Byla nalezena karta s fotografiemi"
+msgstr "Zjištěna paměťová karta s fotografiemi"
 
 #: thunar-volman/tvm-block-device.c:271
 msgid ""
@@ -111,7 +111,7 @@ msgstr "Potvrzení automatického spuštění"
 
 #: thunar-volman/tvm-block-device.c:374 thunar-volman/tvm-block-device.c:421
 msgid "Auto-Run capability detected"
-msgstr "Nalezena podpora pro automatické spuštění"
+msgstr "Zjištěna možnost automatického spuštění/otevření"
 
 #: thunar-volman/tvm-block-device.c:376 thunar-volman/tvm-block-device.c:423
 msgid "_Allow Auto-Run"
@@ -129,7 +129,7 @@ msgstr "Potvrzení automatického otevření"
 
 #: thunar-volman/tvm-block-device.c:503
 msgid "Auto-Open capability detected"
-msgstr "Nalezena podpora pro automatické otevření"
+msgstr "Zjištěna podpora pro automatické otevření"
 
 #: thunar-volman/tvm-block-device.c:505
 msgid "_Open"
@@ -156,11 +156,11 @@ msgstr "Disk DVD byl automaticky připojen"
 #. generate notification info
 #: thunar-volman/tvm-block-device.c:625
 msgid "Blu-ray mounted"
-msgstr "Blu-ray připojeno"
+msgstr "Disk Blu-ray připojen"
 
 #: thunar-volman/tvm-block-device.c:626
 msgid "The Blu-ray was mounted automatically"
-msgstr "Blu-ray bylo připojeno automaticky"
+msgstr "Disk Blu-ray byl automaticky připojen"
 
 #: thunar-volman/tvm-block-device.c:636
 msgid "Volume mounted"
@@ -177,7 +177,7 @@ msgstr "Vložený svazek byl automaticky připojen"
 
 #: thunar-volman/tvm-block-device.c:698
 msgid "Unable to locate mount point"
-msgstr "Nedaří se nalézt přípojný bod"
+msgstr "Nelze nalézt přípojný bod"
 
 #: thunar-volman/tvm-block-device.c:743
 msgid "Unable to mount the device"
@@ -189,7 +189,7 @@ msgstr "Nelze najít svazek odpovídající tomuto zařízení"
 
 #: thunar-volman/tvm-block-device.c:828
 msgid "Audio/Data CD"
-msgstr "Zvukový nebo datový disk CD"
+msgstr "Zvukový a datový disk CD"
 
 #: thunar-volman/tvm-block-device.c:829
 msgid "The CD in the drive contains both music and files"
@@ -210,28 +210,28 @@ msgstr "_Přehrát disk CD"
 #: thunar-volman/tvm-block-device.c:929
 #, c-format
 msgid "Unknown block device type \"%s\""
-msgstr "Neznámý typ blokového zařízení %s"
+msgstr "Neznámý typ blokového zařízení „%s“"
 
 #: thunar-volman/tvm-device.c:137
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr "Typ zařízení %s není podporován"
+msgstr "Typ zařízení „%s není podporován"
 
 #: thunar-volman/tvm-input-device.c:71
 msgid "Keyboard detected"
-msgstr "Nalezena klávesnice"
+msgstr "Zjištěna klávesnice"
 
 #: thunar-volman/tvm-input-device.c:72
 msgid "A keyboard was detected"
-msgstr "Byla nalezena klávesnice"
+msgstr "Zjištěna klávesnice"
 
 #: thunar-volman/tvm-input-device.c:83 thunar-volman/tvm-input-device.c:98
 msgid "Tablet detected"
-msgstr "Nalezen tablet"
+msgstr "Zjištěn tablet"
 
 #: thunar-volman/tvm-input-device.c:84 thunar-volman/tvm-input-device.c:99
 msgid "A graphics tablet was detected"
-msgstr "Byl nalezen grafický tablet"
+msgstr "Zjištěn grafický tablet"
 
 #: thunar-volman/tvm-input-device.c:108
 msgid "Mouse detected"
@@ -239,7 +239,7 @@ msgstr "Zjištěna myš"
 
 #: thunar-volman/tvm-input-device.c:109
 msgid "A mouse was detected"
-msgstr "Byla nalezena myš"
+msgstr "Zjištěna myš"
 
 #: thunar-volman/tvm-input-device.c:138
 #, c-format
@@ -260,7 +260,7 @@ msgstr "Vložili jste prázdný disk DVD."
 
 #: thunar-volman/tvm-run.c:187 thunar-volman/tvm-run.c:198
 msgid "What would you like to do?"
-msgstr "Vyberte si z následujících možností"
+msgstr "Jak chcete pokračovat?"
 
 #: thunar-volman/tvm-run.c:189
 msgid "Burn _DVD"
@@ -292,24 +292,24 @@ msgstr "Příkaz přehrávače disků CD není definován"
 
 #: thunar-volman/tvm-usb-device.c:58
 msgid "Camera detected"
-msgstr "Nalezen fotoaparát"
+msgstr "Zjištěn fotoaparát"
 
 #: thunar-volman/tvm-usb-device.c:59
 msgid "A photo camera was detected"
-msgstr "Byl nalezen fotoaparát"
+msgstr "Zjištěn fotoaparát"
 
 #: thunar-volman/tvm-usb-device.c:67
 msgid "Printer detected"
-msgstr "Nalezena tiskárna"
+msgstr "Zjištěna tiskárna"
 
 #: thunar-volman/tvm-usb-device.c:68
 msgid "A USB printer was detected"
-msgstr "Byla nalezena tiskárna USB"
+msgstr "Zjištěna tiskárna USB"
 
 #: thunar-volman/tvm-usb-device.c:96
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr "Nepodporovaný typ zařízení USB %s"
+msgstr "Nepodporovaný typ zařízení USB „%s"
 
 #: thunar-volman-settings/main.c:40
 msgid "Settings manager socket"
@@ -322,7 +322,7 @@ msgstr "SOCKET ID"
 #. setup application name
 #: thunar-volman-settings/main.c:57
 msgid "Thunar Volume Manager Settings"
-msgstr "Nastavení Správce svazků aplikace Thunar"
+msgstr "Nastavení Správce svazků Thunar"
 
 #: thunar-volman-settings/thunar-volman-settings.desktop.in:3
 #: thunar-volman-settings/tvm-preferences-dialog.c:99
@@ -335,7 +335,7 @@ msgstr "Výběr aplikace"
 
 #: thunar-volman-settings/tvm-command-entry.c:200
 msgid "Cancel"
-msgstr "Storno"
+msgstr "Zrušit"
 
 #: thunar-volman-settings/tvm-command-entry.c:201
 msgid "Select Application"
@@ -384,7 +384,7 @@ msgstr "Vyměnitelné úložiště"
 
 #: thunar-volman-settings/tvm-preferences-dialog.c:157
 msgid "_Mount removable drives when hot-plugged"
-msgstr "Připojit _vyměnitelné jednotky při připojení metodou hot-plug"
+msgstr "Připojit _vyměnitelné jednotky po připojení za provozu"
 
 #: thunar-volman-settings/tvm-preferences-dialog.c:175
 msgid "Mount _delay (seconds):"
@@ -444,11 +444,11 @@ msgstr "_Příkaz:"
 
 #: thunar-volman-settings/tvm-preferences-dialog.c:330
 msgid "Video CDs/DVDs/Blu-rays"
-msgstr "Video CDs/DVDs/Blu-rays"
+msgstr "Disky Video CD, DVD a Blu-ray"
 
 #: thunar-volman-settings/tvm-preferences-dialog.c:349
 msgid "Play _video CDs, DVDs, and Blu-rays when inserted"
-msgstr "Přehrát _video CDs, DVDs, a Blu-ray disky při vložení"
+msgstr "Přehrát _disky Video CD, DVD a Blu-ray po vložení"
 
 #: thunar-volman-settings/tvm-preferences-dialog.c:356
 #: thunar-volman-settings/tvm-preferences-dialog.c:394
@@ -514,7 +514,7 @@ msgstr "Tablet"
 
 #: thunar-volman-settings/tvm-preferences-dialog.c:609
 msgid "Automatically run a program when a _tablet is connected"
-msgstr "Automaticky spustit program po připojení _tabletu s rozhraním USB"
+msgstr "Automaticky spustit program po připojení _tabletu"
 
 #: thunar-volman-settings/tvm-preferences-dialog.c:616
 msgid "Com_mand:"
