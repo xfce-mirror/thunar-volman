@@ -111,11 +111,11 @@ msgstr "Potvrzení automatického spuštění"
 
 #: thunar-volman/tvm-block-device.c:374 thunar-volman/tvm-block-device.c:421
 msgid "Auto-Run capability detected"
-msgstr "Zjištěna možnost automatického spuštění/otevření"
+msgstr "Zjištěna možnost automatického spuštění"
 
 #: thunar-volman/tvm-block-device.c:376 thunar-volman/tvm-block-device.c:423
 msgid "_Allow Auto-Run"
-msgstr "Umožnit _automatické spouštění"
+msgstr "Povolit _automatické spouštění"
 
 #. prompt the user whether to autoopen this file
 #: thunar-volman/tvm-block-device.c:499
@@ -129,7 +129,7 @@ msgstr "Potvrzení automatického otevření"
 
 #: thunar-volman/tvm-block-device.c:503
 msgid "Auto-Open capability detected"
-msgstr "Zjištěna podpora pro automatické otevření"
+msgstr "Zjištěna možnost automatického otevření"
 
 #: thunar-volman/tvm-block-device.c:505
 msgid "_Open"
@@ -215,7 +215,7 @@ msgstr "Neznámý typ blokového zařízení „%s“"
 #: thunar-volman/tvm-device.c:137
 #, c-format
 msgid "Device type \"%s\" not supported"
-msgstr "Typ zařízení „%s není podporován"
+msgstr "Typ zařízení „%s“ není podporován"
 
 #: thunar-volman/tvm-input-device.c:71
 msgid "Keyboard detected"
@@ -223,7 +223,7 @@ msgstr "Zjištěna klávesnice"
 
 #: thunar-volman/tvm-input-device.c:72
 msgid "A keyboard was detected"
-msgstr "Zjištěna klávesnice"
+msgstr "Byla zjištěna klávesnice"
 
 #: thunar-volman/tvm-input-device.c:83 thunar-volman/tvm-input-device.c:98
 msgid "Tablet detected"
@@ -231,7 +231,7 @@ msgstr "Zjištěn tablet"
 
 #: thunar-volman/tvm-input-device.c:84 thunar-volman/tvm-input-device.c:99
 msgid "A graphics tablet was detected"
-msgstr "Zjištěn grafický tablet"
+msgstr "Byl zjištěn grafický tablet"
 
 #: thunar-volman/tvm-input-device.c:108
 msgid "Mouse detected"
@@ -239,7 +239,7 @@ msgstr "Zjištěna myš"
 
 #: thunar-volman/tvm-input-device.c:109
 msgid "A mouse was detected"
-msgstr "Zjištěna myš"
+msgstr "Blya zjištěna myš"
 
 #: thunar-volman/tvm-input-device.c:138
 #, c-format
@@ -309,7 +309,7 @@ msgstr "Zjištěna tiskárna USB"
 #: thunar-volman/tvm-usb-device.c:96
 #, c-format
 msgid "Unsupported USB device type \"%s\""
-msgstr "Nepodporovaný typ zařízení USB „%s"
+msgstr "Nepodporovaný typ zařízení USB \"%s\""
 
 #: thunar-volman-settings/main.c:40
 msgid "Settings manager socket"
