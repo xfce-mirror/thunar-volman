@@ -48,7 +48,7 @@ struct _TvmCommandEntry
   gchar     *command;
 };
 
-GType        tvm_command_entry_get_type       (void) G_GNUC_CONST G_GNUC_INTERNAL;
+GType        tvm_command_entry_get_type       (void) G_GNUC_INTERNAL;
 
 GtkWidget   *tvm_command_entry_new            (void) G_GNUC_INTERNAL G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT;
 GtkWidget   *tvm_command_entry_new_with_label (const gchar     *label) G_GNUC_INTERNAL G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT;

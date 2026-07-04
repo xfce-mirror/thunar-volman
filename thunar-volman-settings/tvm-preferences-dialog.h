@@ -36,7 +36,7 @@ typedef struct _TvmPreferencesDialogPrivate TvmPreferencesDialogPrivate;
 typedef struct _TvmPreferencesDialogClass   TvmPreferencesDialogClass;
 typedef struct _TvmPreferencesDialog        TvmPreferencesDialog;
 
-GType      tvm_preferences_dialog_get_type (void) G_GNUC_CONST;
+GType      tvm_preferences_dialog_get_type (void);
 
 GtkWidget *tvm_preferences_dialog_new      (void) G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT;
 
