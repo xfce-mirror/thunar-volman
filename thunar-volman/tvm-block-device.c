@@ -333,10 +333,12 @@ tvm_block_device_autorun (TvmContext *context,
           || tvm_file_test (mount, "video_ts", G_FILE_TEST_IS_DIR)
           || tvm_file_test (mount, "bdmv", G_FILE_TEST_IS_DIR))
         {
-          /* determine the autoplay command for video disks */
+          /* determine the autoplay command for video disks; %d is the
+           * device file (see tvm_run_command), from which parole tells a
+           * DVD from a VCD by the mounted volume */
           autoplay_command = xfconf_channel_get_string (context->channel,
                                                         "/autoplay-video-cds/command", 
-                                                        "parole");
+                                                        "parole --device=%d");
 
           /* try to spawn the preferred video disk player */
           result = tvm_run_command (context, mount, autoplay_command, &err);
