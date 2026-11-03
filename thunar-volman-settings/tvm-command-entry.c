@@ -378,8 +378,7 @@ tvm_command_entry_set_command (TvmCommandEntry *command_entry,
   g_return_if_fail (g_utf8_validate (command, -1, NULL));
 
   /* update to the new command */
-  g_free (command_entry->command);
-  command_entry->command = g_strdup (command);
+  g_set_str (&command_entry->command, command);
   g_object_notify (G_OBJECT (command_entry), "command");
 }
 
