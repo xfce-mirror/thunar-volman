@@ -78,7 +78,6 @@ tvm_notify_decode (const gchar *str)
 {
   GString     *string;
   const gchar *p;
-  gchar       *result;
   gchar        decoded_c;
 
   if (str == NULL)
@@ -101,10 +100,7 @@ tvm_notify_decode (const gchar *str)
         g_string_append_c (string, *p);
     }
 
-  result = string->str;
-  g_string_free (string, FALSE);
-
-  return result;
+  return g_string_free_and_steal (string);
 }
 
 
