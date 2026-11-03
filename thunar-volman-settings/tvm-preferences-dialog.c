@@ -100,10 +100,6 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
 
   g_signal_connect (dialog, "response", G_CALLBACK (tvm_preferences_dialog_response), NULL);
 
-#if !LIBXFCE4UI_CHECK_VERSION (4, 19, 3)
-  xfce_titled_dialog_create_action_area (XFCE_TITLED_DIALOG (dialog));
-#endif
-
   /* add "Help" button */
   button = gtk_button_new_from_icon_name ("help-browser", GTK_ICON_SIZE_BUTTON);
   gtk_button_set_label (GTK_BUTTON (button), _("Help"));
