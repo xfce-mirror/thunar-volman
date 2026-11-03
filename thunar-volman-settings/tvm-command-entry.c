@@ -55,8 +55,17 @@ static void tvm_command_entry_clicked       (GtkWidget            *button,
                                              TvmCommandEntry      *command_entry);
 
 
+struct _TvmCommandEntry
+{
+  GtkBox    __parent__;
+  GtkWidget *entry;
+  GtkWidget *label;
+  gchar     *command;
+};
 
-G_DEFINE_TYPE (TvmCommandEntry, tvm_command_entry, GTK_TYPE_BOX)
+
+
+G_DEFINE_FINAL_TYPE (TvmCommandEntry, tvm_command_entry, GTK_TYPE_BOX)
 
 
 
@@ -372,4 +381,21 @@ tvm_command_entry_set_command (TvmCommandEntry *command_entry,
   g_free (command_entry->command);
   command_entry->command = g_strdup (command);
   g_object_notify (G_OBJECT (command_entry), "command");
+}
+
+
+
+/**
+ * tvm_command_entry_get_label:
+ * @command_entry : a #TvmCommandEntry.
+ *
+ * Returns the label of the @command_entry.
+ *
+ * Return value: the label in the @command_entry.
+ **/
+GtkWidget *
+tvm_command_entry_get_label (TvmCommandEntry *command_entry)
+{
+  g_return_val_if_fail (TVM_IS_COMMAND_ENTRY (command_entry), NULL);
+  return command_entry->label;
 }

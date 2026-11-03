@@ -24,7 +24,7 @@ dependency_versions = {
   'gudev': '>= 238',
   'gtk': '>= 3.24.41',
   'xfce4': '>= 4.20.0',
-  'libxfce4ui': '>= 4.21.0',
+  'libxfce4ui': '>= 4.21.8',
   'libnotify': '>= 0.8.3',
 }
 

@@ -25,21 +25,10 @@
 
 G_BEGIN_DECLS
 
-#define TVM_TYPE_PREFERENCES_DIALOG            (tvm_preferences_dialog_get_type ())
-#define TVM_PREFERENCES_DIALOG(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), TVM_TYPE_PREFERENCES_DIALOG, TvmPreferencesDialog))
-#define TVM_PREFERENCES_DIALOG_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), TVM_TYPE_PREFERENCES_DIALOG, TvmPreferencesDialogClass))
-#define TVM_IS_PREFERENCES_DIALOG(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), TVM_TYPE_PREFERENCES_DIALOG))
-#define TVM_IS_PREFERENCES_DIALOG_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), TVM_TYPE_PREFERENCES_DIALOG)
-#define TVM_PREFERENCES_DIALOG_GET_CLASS(obj)  (G_TYPE_INSTANCE_GET_CLASS ((obj), TVM_TYPE_PREFERENCES_DIALOG, TvmPreferencesDialogClass))
-
-typedef struct _TvmPreferencesDialogPrivate TvmPreferencesDialogPrivate;
-typedef struct _TvmPreferencesDialogClass   TvmPreferencesDialogClass;
-typedef struct _TvmPreferencesDialog        TvmPreferencesDialog;
-
-GType      tvm_preferences_dialog_get_type (void);
+#define TVM_TYPE_PREFERENCES_DIALOG (tvm_preferences_dialog_get_type ())
+G_DECLARE_FINAL_TYPE (TvmPreferencesDialog, tvm_preferences_dialog, TVM, PREFERENCES_DIALOG, XfceTitledDialog)
 
 GtkWidget *tvm_preferences_dialog_new      (void) G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT;
-
 
 G_END_DECLS
 

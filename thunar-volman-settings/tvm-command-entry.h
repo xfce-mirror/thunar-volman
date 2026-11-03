@@ -25,30 +25,8 @@
 
 G_BEGIN_DECLS
 
-typedef struct _TvmCommandEntryClass TvmCommandEntryClass;
-typedef struct _TvmCommandEntry      TvmCommandEntry;
-
-#define TVM_TYPE_COMMAND_ENTRY            (tvm_command_entry_get_type ())
-#define TVM_COMMAND_ENTRY(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), TVM_TYPE_COMMAND_ENTRY, TvmCommandEntry))
-#define TVM_COMMAND_ENTRY_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), TVM_TYPE_COMMAND_ENTRY, TvmCommandEntryClass))
-#define TVM_IS_COMMAND_ENTRY(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), TVM_TYPE_COMMAND_ENTRY))
-#define TVM_IS_COMMAND_ENTRY_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), TVM_TYPE_COMMAND_ENTRY))
-#define TVM_COMMAND_ENTRY_GET_CLASS(obj)  (G_TYPE_INSTANCE_GET_CLASS ((obj), TVM_TYPE_COMMAND_ENTRY, TvmCommandEntryClass))
-
-struct _TvmCommandEntryClass
-{
-  GtkBoxClass __parent__;
-};
-
-struct _TvmCommandEntry
-{
-  GtkBox    __parent__;
-  GtkWidget *entry;
-  GtkWidget *label;
-  gchar     *command;
-};
-
-GType        tvm_command_entry_get_type       (void) G_GNUC_INTERNAL;
+#define TVM_TYPE_COMMAND_ENTRY (tvm_command_entry_get_type ())
+G_DECLARE_FINAL_TYPE (TvmCommandEntry, tvm_command_entry, TVM, COMMAND_ENTRY, GtkBox)
 
 GtkWidget   *tvm_command_entry_new            (void) G_GNUC_INTERNAL G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT;
 GtkWidget   *tvm_command_entry_new_with_label (const gchar     *label) G_GNUC_INTERNAL G_GNUC_MALLOC G_GNUC_WARN_UNUSED_RESULT;
@@ -56,6 +34,8 @@ GtkWidget   *tvm_command_entry_new_with_label (const gchar     *label) G_GNUC_IN
 const gchar *tvm_command_entry_get_command    (TvmCommandEntry *command_entry) G_GNUC_INTERNAL;
 void         tvm_command_entry_set_command    (TvmCommandEntry *command_entry,
                                                const gchar     *command) G_GNUC_INTERNAL;
+
+GtkWidget   *tvm_command_entry_get_label      (TvmCommandEntry *command_entry) G_GNUC_INTERNAL;
 
 G_END_DECLS
 

@@ -48,23 +48,14 @@ static void tvm_preferences_dialog_delay_changed (GtkAdjustment *adjustment,
 
 
 
-struct _TvmPreferencesDialogClass
-{
-  XfceTitledDialogClass __parent__;
-};
-
 struct _TvmPreferencesDialog
 {
   XfceTitledDialog __parent__;
 };
 
-struct _TvmPreferencesDialogPrivate
-{
-};
 
 
-
-G_DEFINE_TYPE (TvmPreferencesDialog, tvm_preferences_dialog, XFCE_TYPE_TITLED_DIALOG)
+G_DEFINE_FINAL_TYPE (TvmPreferencesDialog, tvm_preferences_dialog, XFCE_TYPE_TITLED_DIALOG)
 
 
 
@@ -256,7 +247,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   xfconf_g_property_bind (channel, "/autoburn/data-cd-command", G_TYPE_STRING, 
                           entry, "command");
   gtk_grid_attach (GTK_GRID (grid), entry, 1, 1, 1, 1);
-  gtk_size_group_add_widget (size_group, TVM_COMMAND_ENTRY (entry)->label);
+  gtk_size_group_add_widget (size_group, tvm_command_entry_get_label (TVM_COMMAND_ENTRY (entry)));
   gtk_widget_show (entry);
 
   entry = tvm_command_entry_new_with_label (_("Command for A_udio CDs:"));
@@ -265,7 +256,7 @@ tvm_preferences_dialog_init (TvmPreferencesDialog *dialog)
   xfconf_g_property_bind (channel, "/autoburn/audio-cd-command", G_TYPE_STRING, 
                           entry, "command");
   gtk_grid_attach (GTK_GRID (grid), entry, 1, 2, 1, 1);
-  gtk_size_group_add_widget (size_group, TVM_COMMAND_ENTRY (entry)->label);
+  gtk_size_group_add_widget (size_group, tvm_command_entry_get_label (TVM_COMMAND_ENTRY (entry)));
   gtk_widget_show (entry);
 
   /* release the size group */
