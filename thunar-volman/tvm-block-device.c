@@ -175,8 +175,7 @@ tvm_block_device_autoipod (TvmContext *context,
           if (!g_file_test (path_dcim, G_FILE_TEST_IS_DIR))
             {
               /* no photos */
-              g_free (path_dcim);
-              path_dcim = NULL;
+              g_clear_pointer (&path_dcim, g_free);
             }
         }
 
@@ -189,8 +188,7 @@ tvm_block_device_autoipod (TvmContext *context,
        * on the iPod anyway */
       if (autophoto_command == NULL || *autophoto_command == '\0')
         {
-          g_free (path_dcim);
-          path_dcim = NULL;
+          g_clear_pointer (&path_dcim, g_free);
         }
 
       /* iPods can carry music and photos... */
