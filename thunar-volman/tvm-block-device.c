@@ -712,7 +712,7 @@ tvm_block_device_mount_finish (GVolume      *volume,
 
 
 
-static gboolean
+static void
 tvm_block_device_mount (gpointer user_data)
 {
   TvmContext      *context = user_data;
@@ -754,7 +754,6 @@ tvm_block_device_mount (gpointer user_data)
       /* finish processing the device */
       tvm_device_handler_finished (context);
     }
-    return FALSE;
 }
 
 
@@ -885,7 +884,7 @@ automount_disc:
               if (automount)
                 {
                   /* mount the CD/DVD and continue with inspecting its contents */
-                  g_timeout_add_seconds(5, tvm_block_device_mount, context);
+                  g_timeout_add_seconds_once (5, tvm_block_device_mount, context);
                 }
             }
           else
@@ -914,7 +913,7 @@ automount_disc:
             delay = 0;
 
           /* mount the partition and continue with inspecting its contents */
-          g_timeout_add_seconds(delay, tvm_block_device_mount, context);
+          g_timeout_add_seconds_once (delay, tvm_block_device_mount, context);
         }
       else
         {
