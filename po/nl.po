@@ -125,11 +125,11 @@ msgstr "Wilt u '%s' openen?"
 
 #: thunar-volman/tvm-block-device.c:502
 msgid "Auto-Open Confirmation"
-msgstr "Bevestiging voor automatisch-openen"
+msgstr "Bevestiging voor automatisch openen"
 
 #: thunar-volman/tvm-block-device.c:503
 msgid "Auto-Open capability detected"
-msgstr "Vermogen om automatisch te openen aangetroffen"
+msgstr "Mogelijkheid om automatisch te openen aangetroffen"
 
 #: thunar-volman/tvm-block-device.c:505
 msgid "_Open"
@@ -197,11 +197,11 @@ msgstr "De CD in het station bevat zowel muziekbestanden als andere bestanden"
 
 #: thunar-volman/tvm-block-device.c:831
 msgid "Would you like to listen to music or browse the files?"
-msgstr "Wilt u de muziek beluisteren of door de bestanden bladeren?"
+msgstr "Wilt u muziek beluisteren of de bestanden verkennen?"
 
 #: thunar-volman/tvm-block-device.c:834
 msgid "_Browse Files"
-msgstr "_Door bestanden bladeren"
+msgstr "_Bestanden verkennen"
 
 #: thunar-volman/tvm-block-device.c:835
 msgid "_Play CD"
@@ -433,7 +433,7 @@ msgstr "Geluid-CD's"
 
 #: thunar-volman-settings/tvm-preferences-dialog.c:311
 msgid "Play _audio CDs when inserted"
-msgstr "Speel _geluid-CD's af wanneer ingebracht"
+msgstr "Speel _geluid-CD's af wanneer die worden ingebracht"
 
 #: thunar-volman-settings/tvm-preferences-dialog.c:317
 #: thunar-volman-settings/tvm-preferences-dialog.c:442
@@ -462,7 +462,7 @@ msgstr "Draagbare muziekspelers"
 
 #: thunar-volman-settings/tvm-preferences-dialog.c:388
 msgid "Play _music files when connected"
-msgstr "Speel _muziekbestanden af wanneer verbonden"
+msgstr "Speel _muziekbestanden af wanneer een speler wordt aangesloten"
 
 #. Cameras
 #: thunar-volman-settings/tvm-preferences-dialog.c:405
@@ -475,7 +475,7 @@ msgstr "Digitale camera's"
 
 #: thunar-volman-settings/tvm-preferences-dialog.c:435
 msgid "Import digital photographs when connected"
-msgstr "Importeer digitale foto's wanneer aangesloten"
+msgstr "Importeer digitale foto's wanneer een camera wordt aangesloten"
 
 #. Printers
 #: thunar-volman-settings/tvm-preferences-dialog.c:453
